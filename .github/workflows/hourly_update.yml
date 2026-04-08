@@ -1,0 +1,60 @@
+name: Hourly CAAST Update
+
+on:
+  schedule:
+    # Every hour at :15 past the hour (offset to avoid IEM peak load)
+    - cron: '15 * * * *'
+  workflow_dispatch:  # allow manual trigger from the Actions tab
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache CAAST corpus and model
+        uses: actions/cache@v4
+        with:
+          path: .caast_cache
+          key: caast-cache-v1
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ runner.os }}-${{ hashFiles('scripts/requirements.txt') }}
+          restore-keys: |
+            pip-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install sentence-transformers boto3 requests numpy
+
+      - name: Run hourly update
+        env:
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+        run: python scripts/hourly_update.py
+
+      - name: Commit updated signals
+        run: |
+          git config user.name "caast-bot"
+          git config user.email "caast-bot@users.noreply.github.com"
+          git add web/data/signals.json web/data/last_run.json web/data/analogs/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Hourly update: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
