@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# Data — too large for git, stored in R2
+data/embeddings/
+data/embeddings_*/
+data/parsed/
+data/parsed_*/
+data/raw/
+data/labels*/
+data/curriculum*/
+data/lsr_cache/
+data/gis/
+data/hard_negatives*.jsonl
+data/*.tar.gz
+data/*.zip
+models/
+*.tar.gz
+*.zip
+
+# Runtime working files
+/tmp/
+*.log
+scratch/
+
+# Generated signal files — these are written by the hourly job
+output/signals.json
+output/analogs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.env
