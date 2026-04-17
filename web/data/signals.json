@@ -272,16 +272,15 @@
     "updated": "2026-04-14T00:02:54.766888+00:00"
   },
   "SGX": {
-    "level": "LOW",
+    "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.9857499361038208,
-    "base_rate": 0.24531994822742054,
-    "signal_value": -0.14531994822742053,
+    "mean_similarity": 0.6171456694602966,
     "n_severe": 1,
     "n_total": 10,
-    "product_id": "202604080004-KSGX-FXUS66-AFDSGX",
+    "reason": "top-10 mean similarity 0.62 below confidence floor 0.7",
+    "product_id": "202604170000-KSGX-FXUS66-AFDSGX",
     "afd_time": null,
-    "updated": "2026-04-08T01:32:46.760623+00:00"
+    "updated": "2026-04-17T00:01:50.539822+00:00"
   },
   "TAE": {
     "level": "LOW",
@@ -375,5 +374,16 @@
     "product_id": "202604160003-KLSX-FXUS63-AFDLSX",
     "afd_time": null,
     "updated": "2026-04-16T00:03:17.691713+00:00"
+  },
+  "AMA": {
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.5068102478981018,
+    "n_severe": 1,
+    "n_total": 10,
+    "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
+    "product_id": "202604170000-KAMA-FXUS64-AFDAMA",
+    "afd_time": null,
+    "updated": "2026-04-17T00:01:50.539822+00:00"
   }
 }
