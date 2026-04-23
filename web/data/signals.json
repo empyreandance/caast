@@ -203,26 +203,26 @@
   "MHX": {
     "level": "MODERATE",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.7759691953659058,
+    "mean_similarity": 0.8014539301395416,
     "base_rate": 0.5206861191386222,
     "signal_value": 0.2793138808613779,
     "n_severe": 8,
     "n_total": 10,
-    "product_id": "202604080004-KMHX-FXUS62-AFDMHX",
+    "product_id": "202604230004-KMHX-FXUS62-AFDMHX",
     "afd_time": null,
-    "updated": "2026-04-08T01:32:46.760623+00:00"
+    "updated": "2026-04-23T00:06:22.400912+00:00"
   },
   "MKX": {
     "level": "LOW",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.9586569964885712,
+    "mean_similarity": 0.9602903068065644,
     "base_rate": 0.5278065630397236,
     "signal_value": 0.17219343696027634,
     "n_severe": 7,
     "n_total": 10,
-    "product_id": "202604080025-KMKX-FXUS63-AFDMKX",
+    "product_id": "202604230002-KMKX-FXUS63-AFDMKX",
     "afd_time": null,
-    "updated": "2026-04-08T01:32:46.760623+00:00"
+    "updated": "2026-04-23T00:06:22.400912+00:00"
   },
   "MPX": {
     "level": "LOW",
@@ -396,5 +396,16 @@
     "product_id": "202604210002-KBGM-FXUS61-AFDBGM",
     "afd_time": null,
     "updated": "2026-04-21T00:02:18.717515+00:00"
+  },
+  "LOT": {
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.4367606192827225,
+    "n_severe": 7,
+    "n_total": 10,
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202604230004-KLOT-FXUS63-AFDLOT",
+    "afd_time": null,
+    "updated": "2026-04-23T00:06:22.400912+00:00"
   }
 }
