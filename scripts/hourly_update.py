@@ -210,34 +210,96 @@ def save_last_run(ts):
         json.dump({"last_run": ts.isoformat()}, f)
 
 
+# How many days back a stale watermark is allowed to pull. The listing endpoint is
+# day-based, so an ancient watermark would otherwise fan out into hundreds of requests
+# per office. Signals are a "what does it look like right now" product; backfilling
+# months of history is not the job.
+MAX_LOOKBACK_DAYS = 2
+
+
 def fetch_new_afds(since_dt):
-    """Fetch AFDs issued since `since_dt` from IEM for all offices."""
+    """Fetch AFDs issued since `since_dt` from IEM for all offices.
+
+    IEM's /nws/afos/list endpoint takes a whole-day `date` parameter, NOT the `sdate`
+    instant this used to send. On 23 Apr 2026 the API began rejecting `sdate` with
+    HTTP 422 extra_forbidden, and because the loop below treated any non-200 as
+    "nothing to report", every office silently returned zero. The job then advanced
+    its watermark, committed last_run.json, and exited zero, so GitHub Actions stayed
+    green for four months while producing no signals at all. Two changes prevent a
+    repeat: the correct parameter, and a hard failure when EVERY office errors, which
+    is never a real-world condition and always means the API moved again.
+    """
     new_afds = []
-    since_str = since_dt.strftime("%Y-%m-%dT%H:%MZ")
+    now = datetime.now(timezone.utc)
+
+    # Build the set of UTC dates to ask for. Always include today; include earlier days
+    # back to the watermark, capped, so a run just after 00Z does not miss last night.
+    start_date = max(since_dt, now - timedelta(days=MAX_LOOKBACK_DAYS)).date()
+    dates, d = [], start_date
+    while d <= now.date():
+        dates.append(d.isoformat())
+        d += timedelta(days=1)
+
+    offices_ok, offices_failed, last_error = 0, 0, None
 
     for wfo in ALL_WFOS:
         pil = f"AFD{wfo}"
-        try:
-            r = requests.get(
-                IEM_BASE_URL,
-                params={"pil": pil, "sdate": since_str},
-                timeout=30,
-            )
-            if r.status_code != 200:
+        office_ok = False
+        for date_str in dates:
+            try:
+                r = requests.get(
+                    IEM_BASE_URL,
+                    params={"pil": pil, "date": date_str},
+                    timeout=30,
+                )
+                if r.status_code != 200:
+                    last_error = f"HTTP {r.status_code} for {pil} on {date_str}: {r.text[:160]}"
+                    continue
+                office_ok = True
+                for p in r.json().get("data", []):
+                    entered = p.get("entered")
+                    if not entered:
+                        continue
+                    try:
+                        entered_dt = datetime.fromisoformat(entered.replace("Z", "+00:00"))
+                    except ValueError:
+                        continue
+                    if entered_dt <= since_dt:
+                        continue          # already processed on an earlier run
+                    new_afds.append({
+                        "wfo": wfo,
+                        "product_id": p.get("product_id"),
+                        "valid": entered,
+                    })
+            except Exception as e:
+                last_error = f"{pil} on {date_str}: {e}"
                 continue
-            products = r.json().get("data", [])
-            for p in products:
-                new_afds.append({
-                    "wfo": wfo,
-                    "product_id": p.get("product_id"),
-                    "valid": p.get("valid"),
-                })
-        except Exception as e:
-            log(f"  WARNING: IEM fetch failed for {wfo}: {e}")
-            continue
+        if office_ok:
+            offices_ok += 1
+        else:
+            offices_failed += 1
 
-    log(f"Found {len(new_afds)} new AFDs since {since_str}")
-    return new_afds
+    if offices_ok == 0:
+        # Never a real condition. If it happens the upstream contract has changed and
+        # the job must fail loudly rather than report a quiet day.
+        raise RuntimeError(
+            f"IEM listing failed for ALL {offices_failed} offices; the API contract has "
+            f"likely changed again. Last error: {last_error}"
+        )
+    if offices_failed:
+        log(f"  WARNING: {offices_failed} of {len(ALL_WFOS)} offices failed to list "
+            f"(last error: {last_error})")
+
+    # de-duplicate: a product can appear on two adjacent date queries
+    seen, deduped = set(), []
+    for a in new_afds:
+        if a["product_id"] and a["product_id"] not in seen:
+            seen.add(a["product_id"])
+            deduped.append(a)
+
+    log(f"Found {len(deduped)} new AFDs since {since_dt.isoformat()} "
+        f"across dates {dates[0]} to {dates[-1]} ({offices_ok} offices listed)")
+    return deduped
 
 
 def fetch_afd_text(product_id):
@@ -436,7 +498,10 @@ def main():
     # Fetch new AFDs
     new_afds = fetch_new_afds(last_run)
     if not new_afds:
-        log("No new AFDs. Exiting.")
+        # Reachable only when the listing succeeded and genuinely returned nothing new,
+        # because fetch_new_afds() now raises when every office fails. Before 3 Sep 2026
+        # this branch was where four months of silent no-ops went to die.
+        log("Listing succeeded but no AFDs are newer than the watermark. Exiting.")
         save_last_run(now)
         return
 
