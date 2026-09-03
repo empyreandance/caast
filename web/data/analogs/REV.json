@@ -1,0 +1,91 @@
+{
+  "office": "REV",
+  "product_id": "202609032008-KREV-FXUS65-AFDREV",
+  "afd_time": "2026-09-03T20:08:00Z",
+  "section_type": "discussion",
+  "updated": "2026-09-03T21:18:34.465601+00:00",
+  "query_preview": "..\n\n* Light rain showers are persisting this hour in western Lassen\n  and Plumas counties, with a few isolated showers over northern\n  Washoe County. Local weather stations are reporting light\n  amounts, with rainfall totals between 0.01-0.10 inches since\n  midnight. Strong winds materialized overni",
+  "analogs": [
+    {
+      "datetime_utc": "2016-08-28T09:39Z",
+      "source_file": "REV_2016_28_0939.txt",
+      "similarity": 0.47426146268844604,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-09-16T10:29Z",
+      "source_file": "REV_2007_16_1029.txt",
+      "similarity": 0.40996313095092773,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-08-16T23:21Z",
+      "source_file": "REV_2020_16_2321.txt",
+      "similarity": 0.40113529562950134,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-02-17T11:59Z",
+      "source_file": "REV_2011_17_1159.txt",
+      "similarity": 0.40070706605911255,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-11-05T10:29Z",
+      "source_file": "REV_2014_05_1029.txt",
+      "similarity": 0.396645724773407,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-10-02T10:15Z",
+      "source_file": "REV_2016_02_1015.txt",
+      "similarity": 0.39334142208099365,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-02-03T20:42Z",
+      "source_file": "REV_2022_03_2042.txt",
+      "similarity": 0.3820437788963318,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-08-29T10:16Z",
+      "source_file": "REV_2004_29_1016.txt",
+      "similarity": 0.37684085965156555,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-03-17T22:37Z",
+      "source_file": "REV_2008_17_2237_1.txt",
+      "similarity": 0.37455785274505615,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-08-20T08:48Z",
+      "source_file": "REV_2016_20_0848.txt",
+      "similarity": 0.35941147804260254,
+      "label": "quiet",
+      "is_severe": false
+    }
+  ],
+  "signal": {
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.3968908071517944,
+    "n_severe": 2,
+    "n_total": 10,
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202609032008-KREV-FXUS65-AFDREV",
+    "afd_time": "2026-09-03T20:08:00Z",
+    "updated": "2026-09-03T21:18:34.465601+00:00"
+  }
+}

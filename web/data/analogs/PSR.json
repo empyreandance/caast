@@ -1,0 +1,91 @@
+{
+  "office": "PSR",
+  "product_id": "202609031934-KPSR-FXUS65-AFDPSR",
+  "afd_time": "2026-09-03T19:34:00Z",
+  "section_type": "long_term",
+  "updated": "2026-09-03T21:18:34.465601+00:00",
+  "query_preview": "/SATURDAY THROUGH WEDNESDAY/... \nGlobal models are coming into somewhat better agreement with the \npattern evolution this weekend. Both the ECMWF and GFS show high \npressure strengthening over the southern Plains with the western \nperiphery of the ridge extending over E AZ and NM. This will cause\nth",
+  "analogs": [
+    {
+      "datetime_utc": "2004-06-29T10:44Z",
+      "source_file": "PSR_2004_29_1044_1.txt",
+      "similarity": 0.49845385551452637,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-12-07T15:37Z",
+      "source_file": "PSR_2017_07_1537.txt",
+      "similarity": 0.49817928671836853,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-03-10T12:18Z",
+      "source_file": "PSR_2006_10_1218.txt",
+      "similarity": 0.4937722980976105,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-03-10T18:02Z",
+      "source_file": "PSR_2006_10_1802.txt",
+      "similarity": 0.4937722980976105,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-03-23T23:06Z",
+      "source_file": "PSR_2022_23_2306.txt",
+      "similarity": 0.4936369061470032,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-09-30T17:08Z",
+      "source_file": "PSR_2013_30_1708.txt",
+      "similarity": 0.49183908104896545,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-10-04T21:43Z",
+      "source_file": "PSR_2006_04_2143.txt",
+      "similarity": 0.4902108907699585,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-10-05T04:10Z",
+      "source_file": "PSR_2006_05_0410.txt",
+      "similarity": 0.4902108907699585,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-10-05T09:51Z",
+      "source_file": "PSR_2006_05_0951.txt",
+      "similarity": 0.4902108907699585,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-10-05T18:03Z",
+      "source_file": "PSR_2006_05_1803.txt",
+      "similarity": 0.4902108907699585,
+      "label": "severe_wind",
+      "is_severe": true
+    }
+  ],
+  "signal": {
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.49304972887039183,
+    "n_severe": 7,
+    "n_total": 10,
+    "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
+    "product_id": "202609031934-KPSR-FXUS65-AFDPSR",
+    "afd_time": "2026-09-03T19:34:00Z",
+    "updated": "2026-09-03T21:18:34.465601+00:00"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "office": "SLC",
+  "product_id": "202609032044-KSLC-FXUS65-AFDSLC",
+  "afd_time": "2026-09-03T20:44:00Z",
+  "section_type": "discussion",
+  "updated": "2026-09-03T21:18:34.465601+00:00",
+  "query_preview": "..Conditions remain relatively benign through\nSaturday, with the main threat through this period being gusty\nsouthwest winds across the region. Winds remain elevated through\nthis evening with widespread gusts 30-45 mph, before tapering\nmainly across lower elevations overnight. A strong low-level jet",
+  "analogs": [
+    {
+      "datetime_utc": "2004-07-18T03:20Z",
+      "source_file": "SLC_2004_18_0320.txt",
+      "similarity": 0.4497213363647461,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-07-10T10:14Z",
+      "source_file": "SLC_2024_10_1014.txt",
+      "similarity": 0.4462701976299286,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-03-08T12:11Z",
+      "source_file": "SLC_2019_08_1211.txt",
+      "similarity": 0.4421398639678955,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-07-09T03:32Z",
+      "source_file": "SLC_2017_09_0332.txt",
+      "similarity": 0.43270349502563477,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-10-06T04:12Z",
+      "source_file": "SLC_2007_06_0412.txt",
+      "similarity": 0.43213561177253723,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-04-25T10:09Z",
+      "source_file": "SLC_2019_25_1009.txt",
+      "similarity": 0.4284757971763611,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-06-19T10:08Z",
+      "source_file": "SLC_2019_19_1008.txt",
+      "similarity": 0.42585670948028564,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-11-01T09:11Z",
+      "source_file": "SLC_2019_01_0911.txt",
+      "similarity": 0.4251999855041504,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-07-04T11:25Z",
+      "source_file": "SLC_2021_04_1125.txt",
+      "similarity": 0.4248087406158447,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-08-18T03:22Z",
+      "source_file": "SLC_2021_18_0322.txt",
+      "similarity": 0.4244539141654968,
+      "label": "severe_wind",
+      "is_severe": true
+    }
+  ],
+  "signal": {
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.4331765651702881,
+    "n_severe": 5,
+    "n_total": 10,
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202609032044-KSLC-FXUS65-AFDSLC",
+    "afd_time": "2026-09-03T20:44:00Z",
+    "updated": "2026-09-03T21:18:34.465601+00:00"
+  }
+}

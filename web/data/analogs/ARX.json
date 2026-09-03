@@ -1,0 +1,91 @@
+{
+  "office": "ARX",
+  "product_id": "202609031856-KARX-FXUS63-AFDARX",
+  "afd_time": "2026-09-03T18:56:00Z",
+  "section_type": "discussion",
+  "updated": "2026-09-03T21:18:34.465601+00:00",
+  "query_preview": "..\nIssued at 156 PM CDT Thu Sep 3 2026\n\nThis Afternoon - Friday Morning: Strong/Severe Storm and Heavy \nRain Potential \n\nA messy scenario continues across the region as ongoing showers\nand storms through much of the morning have been able to linger\ninto this afternoon, and have really put a damper o",
+  "analogs": [
+    {
+      "datetime_utc": "2009-10-23T08:56Z",
+      "source_file": "ARX_2009_23_0856.txt",
+      "similarity": 0.46368324756622314,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-12-02T21:24Z",
+      "source_file": "ARX_2010_02_2124.txt",
+      "similarity": 0.44901877641677856,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-05-03T03:10Z",
+      "source_file": "ARX_2020_03_0310.txt",
+      "similarity": 0.4461708664894104,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-05-02T22:36Z",
+      "source_file": "ARX_2020_02_2236.txt",
+      "similarity": 0.4461708664894104,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-05-02T19:30Z",
+      "source_file": "ARX_2020_02_1930_1.txt",
+      "similarity": 0.4461708664894104,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-10-08T20:15Z",
+      "source_file": "ARX_2006_08_2015.txt",
+      "similarity": 0.4419827461242676,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-03-09T09:15Z",
+      "source_file": "ARX_2011_09_0915.txt",
+      "similarity": 0.44035354256629944,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-07-30T07:08Z",
+      "source_file": "ARX_2009_30_0708.txt",
+      "similarity": 0.43292638659477234,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-07-29T19:26Z",
+      "source_file": "ARX_2009_29_1926.txt",
+      "similarity": 0.43292638659477234,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-04-18T07:55Z",
+      "source_file": "ARX_2009_18_0755_1.txt",
+      "similarity": 0.43052321672439575,
+      "label": "severe_wind",
+      "is_severe": true
+    }
+  ],
+  "signal": {
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.442992690205574,
+    "n_severe": 3,
+    "n_total": 10,
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202609031856-KARX-FXUS63-AFDARX",
+    "afd_time": "2026-09-03T18:56:00Z",
+    "updated": "2026-09-03T21:18:34.465601+00:00"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "office": "STO",
+  "product_id": "202609032027-KSTO-FXUS66-AFDSTO",
+  "afd_time": "2026-09-03T20:27:00Z",
+  "section_type": "discussion",
+  "updated": "2026-09-03T21:18:34.465601+00:00",
+  "query_preview": "..\n\nA cold front is traversing Northern California this afternoon, \nwhile the main upper-level trough located over the Northeast \nPacific slowly dig southward. Scattered to widespread showers and \nisolated thunderstorms are expected mainly north of I-80 this \nafternoon and evening, including the N. ",
+  "analogs": [
+    {
+      "datetime_utc": "2020-08-16T10:36Z",
+      "source_file": "STO_2020_16_1036.txt",
+      "similarity": 0.5210583209991455,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-01-24T10:29Z",
+      "source_file": "STO_2023_24_1029.txt",
+      "similarity": 0.5027849078178406,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-01-25T23:35Z",
+      "source_file": "STO_2017_25_2335.txt",
+      "similarity": 0.4766874313354492,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-01-26T04:22Z",
+      "source_file": "STO_2017_26_0422.txt",
+      "similarity": 0.4766874313354492,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-01-21T22:13Z",
+      "source_file": "STO_2023_21_2213.txt",
+      "similarity": 0.47202587127685547,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-08-15T10:30Z",
+      "source_file": "STO_2020_15_1030.txt",
+      "similarity": 0.47122010588645935,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-09-11T04:40Z",
+      "source_file": "STO_2006_11_0440.txt",
+      "similarity": 0.46774914860725403,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-??-08T05:08Z",
+      "source_file": "STO_2014_08_0508.txt",
+      "similarity": 0.46608585119247437,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-09-07T22:54Z",
+      "source_file": "STO_2014_07_2254.txt",
+      "similarity": 0.46608585119247437,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-07-12T21:02Z",
+      "source_file": "STO_2024_12_2102.txt",
+      "similarity": 0.4659842848777771,
+      "label": "severe_wind",
+      "is_severe": true
+    }
+  ],
+  "signal": {
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.4786369204521179,
+    "n_severe": 3,
+    "n_total": 10,
+    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
+    "product_id": "202609032027-KSTO-FXUS66-AFDSTO",
+    "afd_time": "2026-09-03T20:27:00Z",
+    "updated": "2026-09-03T21:18:34.465601+00:00"
+  }
+}

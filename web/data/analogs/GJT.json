@@ -1,91 +1,91 @@
 {
   "office": "GJT",
-  "product_id": "202604160000-KGJT-FXUS65-AFDGJT",
-  "afd_time": null,
+  "product_id": "202609031852-KGJT-FXUS65-AFDGJT",
+  "afd_time": "2026-09-03T18:52:00Z",
   "section_type": "discussion",
-  "updated": "2026-04-16T00:03:17.691713+00:00",
-  "query_preview": "..\nIssued at 1256 PM MDT Wed Apr 15 2026\n\nWARM DAYS, COOL NIGHTS, WINDY THROUGH THURSDAY: \n\nTransient high pressure is building in and will promote warm \ndays and cool nights today and tomorrow. A Freeze Warning is in \neffect for the southwest Colorado valleys this evening where \nsub-freezing temper",
+  "updated": "2026-09-03T21:18:34.465601+00:00",
+  "query_preview": "..\nIssued at 1016 AM MDT Thu Sep 3 2026\n\nWINDY AND MOSTLY DRY THROUGH FRIDAY: \n\nThe current synoptic level pattern is characterized by a trough \nmoving into the PacNW and a ridge beginning to develop over the \nSouthern Plains. As a result of this building trough, tightening \npressure gradient contou",
   "analogs": [
     {
       "datetime_utc": "2021-04-08T23:38Z",
       "source_file": "GJT_2021_08_2338.txt",
-      "similarity": 0.47144290804862976,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-04-09T03:12Z",
-      "source_file": "GJT_2021_09_0312.txt",
-      "similarity": 0.47144290804862976,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-04-09T04:44Z",
-      "source_file": "GJT_2021_09_0444.txt",
-      "similarity": 0.47144290804862976,
+      "similarity": 0.453902006149292,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-04-08T21:32Z",
       "source_file": "GJT_2021_08_2132.txt",
-      "similarity": 0.47144290804862976,
+      "similarity": 0.453902006149292,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-04-04T08:51Z",
-      "source_file": "GJT_2008_04_0851.txt",
-      "similarity": 0.45882824063301086,
-      "label": "winter",
+      "datetime_utc": "2021-04-09T04:44Z",
+      "source_file": "GJT_2021_09_0444.txt",
+      "similarity": 0.453902006149292,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-04-09T03:12Z",
+      "source_file": "GJT_2021_09_0312.txt",
+      "similarity": 0.453902006149292,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-05-31T20:57Z",
+      "source_file": "GJT_2011_31_2057.txt",
+      "similarity": 0.44621437788009644,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-05-21T11:15Z",
       "source_file": "GJT_2009_21_1115_1.txt",
-      "similarity": 0.4543628394603729,
+      "similarity": 0.44558411836624146,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2017-12-13T17:51Z",
-      "source_file": "GJT_2017_13_1751.txt",
-      "similarity": 0.4485733211040497,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2017-12-13T10:34Z",
-      "source_file": "GJT_2017_13_1034.txt",
-      "similarity": 0.4485733211040497,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-24T17:33Z",
-      "source_file": "GJT_2023_24_1733.txt",
-      "similarity": 0.4459795355796814,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-04-16T05:35Z",
-      "source_file": "GJT_2019_16_0535.txt",
-      "similarity": 0.44569700956344604,
-      "label": "severe_hail",
+      "datetime_utc": "2021-08-10T18:05Z",
+      "source_file": "GJT_2021_10_1805.txt",
+      "similarity": 0.439946711063385,
+      "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-08-10T11:24Z",
+      "source_file": "GJT_2021_10_1124.txt",
+      "similarity": 0.439946711063385,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-08-10T07:45Z",
+      "source_file": "GJT_2021_10_0745.txt",
+      "similarity": 0.439946711063385,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-01-23T17:37Z",
+      "source_file": "GJT_2023_23_1737.txt",
+      "similarity": 0.437716543674469,
+      "label": "winter",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.45877858996391296,
-    "n_severe": 6,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.446496319770813,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202604160000-KGJT-FXUS65-AFDGJT",
-    "afd_time": null,
-    "updated": "2026-04-16T00:03:17.691713+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202609031852-KGJT-FXUS65-AFDGJT",
+    "afd_time": "2026-09-03T18:52:00Z",
+    "updated": "2026-09-03T21:18:34.465601+00:00"
   }
 }

@@ -1,0 +1,91 @@
+{
+  "office": "ABR",
+  "product_id": "202609031727-KABR-FXUS63-AFDABR",
+  "afd_time": "2026-09-03T17:27:00Z",
+  "section_type": "discussion",
+  "updated": "2026-09-03T21:18:34.465601+00:00",
+  "query_preview": "..\nIssued at 1224 PM CDT Thu Sep 3 2026\n\nAs of 12:30 pm CDT, temperatures around the area are in the 80s\nto low 90s with winds out of the south to southwest. Winds will\nmove around to the northwest from west to east across the \nforecast area this evening, becoming easterly by sunrise Friday \nmorning",
+  "analogs": [
+    {
+      "datetime_utc": "2021-10-29T20:31Z",
+      "source_file": "ABR_2021_29_2031.txt",
+      "similarity": 0.48878228664398193,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-10-29T09:23Z",
+      "source_file": "ABR_2021_29_0923.txt",
+      "similarity": 0.48878228664398193,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-10-16T01:27Z",
+      "source_file": "ABR_2012_16_0127.txt",
+      "similarity": 0.47248944640159607,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-10-15T20:04Z",
+      "source_file": "ABR_2012_15_2004.txt",
+      "similarity": 0.47248944640159607,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-10-16T09:16Z",
+      "source_file": "ABR_2012_16_0916.txt",
+      "similarity": 0.47248944640159607,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-02-04T21:45Z",
+      "source_file": "ABR_2004_04_2145.txt",
+      "similarity": 0.4722254276275635,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-07-29T08:31Z",
+      "source_file": "ABR_2013_29_0831.txt",
+      "similarity": 0.47216206789016724,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-07-28T20:11Z",
+      "source_file": "ABR_2013_28_2011.txt",
+      "similarity": 0.47216206789016724,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-11-09T01:32Z",
+      "source_file": "ABR_2009_09_0132.txt",
+      "similarity": 0.47049736976623535,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-11-08T20:30Z",
+      "source_file": "ABR_2009_08_2030.txt",
+      "similarity": 0.47049736976623535,
+      "label": "quiet",
+      "is_severe": false
+    }
+  ],
+  "signal": {
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.4752577215433121,
+    "n_severe": 5,
+    "n_total": 10,
+    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
+    "product_id": "202609031727-KABR-FXUS63-AFDABR",
+    "afd_time": "2026-09-03T17:27:00Z",
+    "updated": "2026-09-03T21:18:34.465601+00:00"
+  }
+}

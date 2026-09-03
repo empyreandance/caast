@@ -1,0 +1,91 @@
+{
+  "office": "LZK",
+  "product_id": "202609031706-KLZK-FXUS64-AFDLZK",
+  "afd_time": "2026-09-03T17:06:00Z",
+  "section_type": "discussion",
+  "updated": "2026-09-03T21:18:34.465601+00:00",
+  "query_preview": "..\nIssued at 230 AM CDT Thu Sep 3 2026\n\nThe forecast is beginning to sound similar to a skipping song on a \nCD (repeating from the previous forecast). Hot and dry conditions \nwill persist across Arkansas overall. A very low chance of an \nisolated shower or thunderstorm will exist across southern Ark",
+  "analogs": [
+    {
+      "datetime_utc": "2019-05-11T20:12Z",
+      "source_file": "LZK_2019_11_2012.txt",
+      "similarity": 0.4067501425743103,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-05-11T23:55Z",
+      "source_file": "LZK_2019_11_2355.txt",
+      "similarity": 0.4067501425743103,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-05-12T06:12Z",
+      "source_file": "LZK_2019_12_0612.txt",
+      "similarity": 0.4067501425743103,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-07-08T07:22Z",
+      "source_file": "LZK_2020_08_0722.txt",
+      "similarity": 0.39445263147354126,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-07-07T19:40Z",
+      "source_file": "LZK_2020_07_1940.txt",
+      "similarity": 0.39445263147354126,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-01-13T20:08Z",
+      "source_file": "LZK_2005_13_2008_1.txt",
+      "similarity": 0.39422714710235596,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-08-27T23:20Z",
+      "source_file": "LZK_2022_27_2320.txt",
+      "similarity": 0.3907754719257355,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-08-27T19:30Z",
+      "source_file": "LZK_2022_27_1930.txt",
+      "similarity": 0.3907754719257355,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-07-07T19:40Z",
+      "source_file": "LZK_2020_07_1940.txt",
+      "similarity": 0.38764524459838867,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-06-12T17:44Z",
+      "source_file": "LZK_2022_12_1744.txt",
+      "similarity": 0.38522017002105713,
+      "label": "severe_wind",
+      "is_severe": true
+    }
+  ],
+  "signal": {
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.3957799196243286,
+    "n_severe": 9,
+    "n_total": 10,
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202609031706-KLZK-FXUS64-AFDLZK",
+    "afd_time": "2026-09-03T17:06:00Z",
+    "updated": "2026-09-03T21:18:34.465601+00:00"
+  }
+}
