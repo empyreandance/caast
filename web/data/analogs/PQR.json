@@ -1,91 +1,91 @@
 {
   "office": "PQR",
-  "product_id": "202609040455-KPQR-FXUS66-AFDPQR-AAA",
-  "afd_time": "2026-09-04T04:55:00Z",
+  "product_id": "202609040832-KPQR-FXUS66-AFDPQR",
+  "afd_time": "2026-09-04T08:32:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-04T06:00:12.370565+00:00",
-  "query_preview": "..Today through Thursday...A vertically stacked\nupper-level low continues to churn off the Oregon coast this\nafternoon with instability reaching just deep enough into the\natmosphere to support occasional lightning strikes in some of \nthe stronger convective cells. Given the placement of the low \npre",
+  "updated": "2026-09-04T11:24:14.036497+00:00",
+  "query_preview": "..Friday through Thursday...Radar imagery around\n12:30 AM PT on Friday shows rain showers have mostly cleared \nnorth of Salem with showers continuing south of Salem. The\nvertically stacked upper-level and surface closed low pressure \nsystem is spinning just off of the central OR coast with a\nshortwa",
   "analogs": [
     {
-      "datetime_utc": "2010-06-21T21:35Z",
-      "source_file": "PQR_2010_21_2135.txt",
-      "similarity": 0.4904022216796875,
-      "label": "quiet",
+      "datetime_utc": "2013-11-30T17:17Z",
+      "source_file": "PQR_2013_30_1717.txt",
+      "similarity": 0.667339563369751,
+      "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-06-22T03:33Z",
-      "source_file": "PQR_2010_22_0333.txt",
-      "similarity": 0.4904022216796875,
-      "label": "quiet",
+      "datetime_utc": "2013-11-30T18:31Z",
+      "source_file": "PQR_2013_30_1831.txt",
+      "similarity": 0.667339563369751,
+      "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-05-21T21:46Z",
-      "source_file": "PQR_2007_21_2146.txt",
-      "similarity": 0.48793095350265503,
-      "label": "quiet",
+      "datetime_utc": "2013-11-30T22:47Z",
+      "source_file": "PQR_2013_30_2247.txt",
+      "similarity": 0.667339563369751,
+      "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2008-10-26T10:15Z",
-      "source_file": "PQR_2008_26_1015.txt",
-      "similarity": 0.47503718733787537,
-      "label": "quiet",
+      "datetime_utc": "2013-11-30T11:39Z",
+      "source_file": "PQR_2013_30_1139.txt",
+      "similarity": 0.667339563369751,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-01-08T04:40Z",
+      "source_file": "PQR_2007_08_0440.txt",
+      "similarity": 0.661872148513794,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-01-08T10:47Z",
+      "source_file": "PQR_2007_08_1047.txt",
+      "similarity": 0.661872148513794,
+      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-07-28T15:35Z",
       "source_file": "PQR_2011_28_1535.txt",
-      "similarity": 0.466918408870697,
+      "similarity": 0.6500357389450073,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-07-21T21:16Z",
-      "source_file": "PQR_2011_21_2116.txt",
-      "similarity": 0.4584660232067108,
+      "datetime_utc": "2009-03-17T09:42Z",
+      "source_file": "PQR_2009_17_0942.txt",
+      "similarity": 0.6459388136863708,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-07-09T04:04Z",
+      "source_file": "PQR_2005_09_0404.txt",
+      "similarity": 0.644365668296814,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-09-03T10:12Z",
-      "source_file": "PQR_2004_03_1012.txt",
-      "similarity": 0.45406442880630493,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-09-03T15:43Z",
-      "source_file": "PQR_2004_03_1543.txt",
-      "similarity": 0.45406442880630493,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-09-20T21:25Z",
-      "source_file": "PQR_2009_20_2125.txt",
-      "similarity": 0.45370182394981384,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-09-20T21:25Z",
-      "source_file": "PQR_2009_20_2125_1.txt",
-      "similarity": 0.45370182394981384,
+      "datetime_utc": "2013-07-03T03:23Z",
+      "source_file": "PQR_2013_03_0323.txt",
+      "similarity": 0.6434202194213867,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.46846895217895507,
-    "n_severe": 0,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.657686299085617,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202609040455-KPQR-FXUS66-AFDPQR-AAA",
-    "afd_time": "2026-09-04T04:55:00Z",
-    "updated": "2026-09-04T06:00:12.370565+00:00"
+    "reason": "top-10 mean similarity 0.66 below confidence floor 0.7",
+    "product_id": "202609040832-KPQR-FXUS66-AFDPQR",
+    "afd_time": "2026-09-04T08:32:00Z",
+    "updated": "2026-09-04T11:24:14.036497+00:00"
   }
 }
