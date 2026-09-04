@@ -1,91 +1,91 @@
 {
   "office": "PBZ",
-  "product_id": "202609041150-KPBZ-FXUS61-AFDPBZ",
-  "afd_time": "2026-09-04T11:50:00Z",
+  "product_id": "202609041903-KPBZ-FXUS61-AFDPBZ",
+  "afd_time": "2026-09-04T19:03:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-04T16:26:20.539211+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...\nThe strong ridging that has sat entrenched across the Southeast\nthis week weakens and begins shifting back west over the Plains\nin response to low pressure deepening off the New England and\neastern Canada Atlantic coast. This doesn't change the pattern\nover the local area much as",
+  "updated": "2026-09-04T19:39:54.683168+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...\nThe flow pattern over the northern CONUS is still expected to\namplify over the next 48 hours. The strong ridge centered over\nthe southern Mississippi Valley should shift west to the Plains\nthrough the weekend, in response to an upper low dropping into\nthe Canadian Maritimes, drop",
   "analogs": [
+    {
+      "datetime_utc": "2017-08-23T06:38Z",
+      "source_file": "PBZ_2017_23_0638.txt",
+      "similarity": 0.47616609930992126,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2017-08-23T09:08Z",
       "source_file": "PBZ_2017_23_0908.txt",
-      "similarity": 0.47201308608055115,
+      "similarity": 0.47616609930992126,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-08-23T11:54Z",
       "source_file": "PBZ_2017_23_1154.txt",
-      "similarity": 0.47201308608055115,
+      "similarity": 0.47616609930992126,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2017-08-23T06:38Z",
-      "source_file": "PBZ_2017_23_0638.txt",
-      "similarity": 0.47201308608055115,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-06-06T07:21Z",
-      "source_file": "PBZ_2006_06_0721.txt",
-      "similarity": 0.4622274339199066,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2009-05-25T06:31Z",
       "source_file": "PBZ_2009_25_0631.txt",
-      "similarity": 0.4587307572364807,
+      "similarity": 0.45473164319992065,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-09-20T18:32Z",
-      "source_file": "PBZ_2005_20_1832.txt",
-      "similarity": 0.45837482810020447,
+      "datetime_utc": "2006-06-06T07:21Z",
+      "source_file": "PBZ_2006_06_0721.txt",
+      "similarity": 0.4542545676231384,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2025-07-15T17:54Z",
       "source_file": "PBZ_2025_15_1754.txt",
-      "similarity": 0.45790329575538635,
+      "similarity": 0.45238441228866577,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2021-06-11T17:33Z",
-      "source_file": "PBZ_2021_11_1733_1.txt",
-      "similarity": 0.4553242325782776,
-      "label": "tornado",
+      "datetime_utc": "2005-09-20T18:32Z",
+      "source_file": "PBZ_2005_20_1832.txt",
+      "similarity": 0.44970715045928955,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-03-16T11:38Z",
       "source_file": "PBZ_2008_16_1138.txt",
-      "similarity": 0.4536784291267395,
+      "similarity": 0.4495123028755188,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-03-16T05:34Z",
       "source_file": "PBZ_2008_16_0534.txt",
-      "similarity": 0.4536784291267395,
+      "similarity": 0.4495123028755188,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-06-11T17:33Z",
+      "source_file": "PBZ_2021_11_1733_1.txt",
+      "similarity": 0.44880449771881104,
+      "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.46159566640853883,
+    "mean_similarity": 0.4587405174970627,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202609041150-KPBZ-FXUS61-AFDPBZ",
-    "afd_time": "2026-09-04T11:50:00Z",
-    "updated": "2026-09-04T16:26:20.539211+00:00"
+    "product_id": "202609041903-KPBZ-FXUS61-AFDPBZ",
+    "afd_time": "2026-09-04T19:03:00Z",
+    "updated": "2026-09-04T19:39:54.683168+00:00"
   }
 }
