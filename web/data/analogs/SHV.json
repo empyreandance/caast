@@ -1,91 +1,91 @@
 {
   "office": "SHV",
-  "product_id": "202609041208-KSHV-FXUS64-AFDSHV",
-  "afd_time": "2026-09-04T12:08:00Z",
+  "product_id": "202609042020-KSHV-FXUS64-AFDSHV",
+  "afd_time": "2026-09-04T20:20:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-04T16:26:20.539211+00:00",
-  "query_preview": "..\nIssued at 1203 AM CDT Fri Sep 4 2026\n\nTropical moisture associated with the remnants of what was\nTropical Storm Edouard has largely dissipated across the region\nthis evening. This will not mean a complete end to our\nprecipitation chances though. Upper-level ridging will begin to\nstrengthen over t",
+  "updated": "2026-09-04T22:24:28.597900+00:00",
+  "query_preview": "..\nIssued at 237 PM CDT Fri Sep 4 2026\n\nRidging continues to build and shift northwestward into the\nSouthern Great Plains the weekend begins. This ridge axis (and \nits evolution) mostly to our north will serve as the primary \ninfluence on weather conditions through the weekend and next week \ninto mi",
   "analogs": [
     {
       "datetime_utc": "2008-01-30T16:05Z",
       "source_file": "SHV_2008_30_1605_1.txt",
-      "similarity": 0.3651045560836792,
+      "similarity": 0.39767447113990784,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-06-05T19:56Z",
       "source_file": "SHV_2005_05_1956.txt",
-      "similarity": 0.3530496060848236,
+      "similarity": 0.38094598054885864,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-05-22T20:10Z",
       "source_file": "SHV_2006_22_2010.txt",
-      "similarity": 0.3502405881881714,
+      "similarity": 0.37673333287239075,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-05-28T08:39Z",
+      "source_file": "SHV_2008_28_0839.txt",
+      "similarity": 0.3739975094795227,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-04-29T03:28Z",
+      "source_file": "SHV_2006_29_0328.txt",
+      "similarity": 0.372793972492218,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-10-03T01:20Z",
+      "source_file": "SHV_2014_03_0120.txt",
+      "similarity": 0.3709127902984619,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-10-12T08:00Z",
+      "source_file": "SHV_2007_12_0800.txt",
+      "similarity": 0.3700932264328003,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-12-15T10:08Z",
+      "source_file": "SHV_2007_15_1008.txt",
+      "similarity": 0.36723941564559937,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-05-22T08:00Z",
       "source_file": "SHV_2005_22_0800_2.txt",
-      "similarity": 0.34354323148727417,
+      "similarity": 0.36700963973999023,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-04-29T03:28Z",
-      "source_file": "SHV_2006_29_0328.txt",
-      "similarity": 0.3430980443954468,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-12-12T21:33Z",
-      "source_file": "SHV_2005_12_2133.txt",
-      "similarity": 0.342987060546875,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-03-28T16:18Z",
-      "source_file": "SHV_2005_28_1618.txt",
-      "similarity": 0.3412494659423828,
-      "label": "quiet",
+      "datetime_utc": "2008-03-05T21:23Z",
+      "source_file": "SHV_2008_05_2123.txt",
+      "similarity": 0.36660057306289673,
+      "label": "winter",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-12-15T10:08Z",
-      "source_file": "SHV_2007_15_1008.txt",
-      "similarity": 0.3401237726211548,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-12-02T03:00Z",
-      "source_file": "SHV_2006_02_0300.txt",
-      "similarity": 0.3400643467903137,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-11-01T18:21Z",
-      "source_file": "SHV_2015_01_1821.txt",
-      "similarity": 0.33777809143066406,
-      "label": "tornado",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.3457238763570786,
-    "n_severe": 7,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.37440009117126466,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
-    "product_id": "202609041208-KSHV-FXUS64-AFDSHV",
-    "afd_time": "2026-09-04T12:08:00Z",
-    "updated": "2026-09-04T16:26:20.539211+00:00"
+    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
+    "product_id": "202609042020-KSHV-FXUS64-AFDSHV",
+    "afd_time": "2026-09-04T20:20:00Z",
+    "updated": "2026-09-04T22:24:28.597900+00:00"
   }
 }
