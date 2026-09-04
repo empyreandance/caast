@@ -1,91 +1,91 @@
 {
   "office": "MEG",
-  "product_id": "202609032303-KMEG-FXUS64-AFDMEG",
-  "afd_time": "2026-09-03T23:03:00Z",
+  "product_id": "202609040452-KMEG-FXUS64-AFDMEG",
+  "afd_time": "2026-09-04T04:52:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-04T01:03:03.171592+00:00",
-  "query_preview": "..\n(This evening through next Wednesday)\nIssued at 1259 PM CDT Thu Sep 3 2026\n\nThis morning's upper air analysis continues to feature an upper-\nlevel ridge centered over the Southeast U.S. This ridge of high\npressure has mostly suppressed convection across the Mid-South\nfor the last several days. No",
+  "updated": "2026-09-04T06:00:12.370565+00:00",
+  "query_preview": "..\n(Tonight through next Thursday)\nIssued at 1151 PM CDT Thu Sep 3 2026\n\nBottom line up front: Unseasonable heat will continue across the\nMidsouth for at least the next 10 days.\n\nGEFS and ECMWF ensembles continue to depict anomalously strong\nand persistent upper level ridging over the Midsouth throu",
   "analogs": [
     {
       "datetime_utc": "2006-06-13T18:53Z",
       "source_file": "MEG_2006_13_1853.txt",
-      "similarity": 0.36834511160850525,
+      "similarity": 0.3812117874622345,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-03-27T09:31Z",
+      "source_file": "MEG_2007_27_0931.txt",
+      "similarity": 0.3733265995979309,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-07-04T04:53Z",
       "source_file": "MEG_2007_04_0453.txt",
-      "similarity": 0.360373854637146,
+      "similarity": 0.37216418981552124,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-03-27T09:31Z",
-      "source_file": "MEG_2007_27_0931.txt",
-      "similarity": 0.35507380962371826,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-08-03T14:51Z",
       "source_file": "MEG_2005_03_1451.txt",
-      "similarity": 0.35414180159568787,
+      "similarity": 0.36747440695762634,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-11-22T17:06Z",
       "source_file": "MEG_2005_22_1706.txt",
-      "similarity": 0.3520936965942383,
+      "similarity": 0.3673320412635803,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-01-07T10:40Z",
-      "source_file": "MEG_2010_07_1040.txt",
-      "similarity": 0.3497002124786377,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2017-05-06T19:51Z",
       "source_file": "MEG_2017_06_1951.txt",
-      "similarity": 0.3461952209472656,
+      "similarity": 0.36594754457473755,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-05-07T04:37Z",
       "source_file": "MEG_2017_07_0437_1.txt",
-      "similarity": 0.3461952209472656,
+      "similarity": 0.36594754457473755,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-05-07T01:00Z",
       "source_file": "MEG_2017_07_0100.txt",
-      "similarity": 0.3461952209472656,
+      "similarity": 0.36594754457473755,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-09-21T19:56Z",
-      "source_file": "MEG_2010_21_1956.txt",
-      "similarity": 0.344937264919281,
-      "label": "quiet",
+      "datetime_utc": "2010-01-07T10:40Z",
+      "source_file": "MEG_2010_07_1040.txt",
+      "similarity": 0.3646731674671173,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-02-14T04:16Z",
+      "source_file": "MEG_2021_14_0416.txt",
+      "similarity": 0.36357250809669495,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.3523251414299011,
+    "mean_similarity": 0.36875973343849183,
     "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
-    "product_id": "202609032303-KMEG-FXUS64-AFDMEG",
-    "afd_time": "2026-09-03T23:03:00Z",
-    "updated": "2026-09-04T01:03:03.171592+00:00"
+    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
+    "product_id": "202609040452-KMEG-FXUS64-AFDMEG",
+    "afd_time": "2026-09-04T04:52:00Z",
+    "updated": "2026-09-04T06:00:12.370565+00:00"
   }
 }

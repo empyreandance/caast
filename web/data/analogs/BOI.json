@@ -1,15 +1,15 @@
 {
   "office": "BOI",
-  "product_id": "202609040025-KBOI-FXUS65-AFDBOI",
-  "afd_time": "2026-09-04T00:25:00Z",
+  "product_id": "202609040548-KBOI-FXUS65-AFDBOI-AAA",
+  "afd_time": "2026-09-04T05:48:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-04T01:03:03.171592+00:00",
+  "updated": "2026-09-04T06:00:12.370565+00:00",
   "query_preview": "/Sunday through Thursday/...\nIssued 232 PM MDT THU SEP 3 2026\nThe large Pacific upper low will slowly steer inland onto the\ncoasts of Washington/Oregon on Sunday and the low core will \npass directly over our area through Monday, returning moderate \nto widespread precipitation late Sunday into Monday",
   "analogs": [
     {
       "datetime_utc": "2012-03-04T16:15Z",
       "source_file": "BOI_2012_04_1615.txt",
-      "similarity": 0.42669814825057983,
+      "similarity": 0.42669808864593506,
       "label": "severe_wind",
       "is_severe": true
     },
@@ -30,21 +30,14 @@
     {
       "datetime_utc": "2006-10-06T21:14Z",
       "source_file": "BOI_2006_06_2114.txt",
-      "similarity": 0.41102713346481323,
+      "similarity": 0.41102707386016846,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-10-07T03:50Z",
       "source_file": "BOI_2006_07_0350.txt",
-      "similarity": 0.41102713346481323,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-09-06T20:32Z",
-      "source_file": "BOI_2023_06_2032.txt",
-      "similarity": 0.40454864501953125,
+      "similarity": 0.41102707386016846,
       "label": "quiet",
       "is_severe": false
     },
@@ -56,23 +49,30 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-08-14T03:46Z",
-      "source_file": "BOI_2005_14_0346.txt",
-      "similarity": 0.4026208519935608,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-08-13T20:34Z",
-      "source_file": "BOI_2005_13_2034_1.txt",
-      "similarity": 0.4026208519935608,
+      "datetime_utc": "2023-09-06T20:32Z",
+      "source_file": "BOI_2023_06_2032.txt",
+      "similarity": 0.40454864501953125,
       "label": "quiet",
       "is_severe": false
     },
     {
+      "datetime_utc": "2005-08-13T20:34Z",
+      "source_file": "BOI_2005_13_2034_1.txt",
+      "similarity": 0.4026208221912384,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-08-14T03:46Z",
+      "source_file": "BOI_2005_14_0346.txt",
+      "similarity": 0.4026208221912384,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2024-07-06T02:24Z",
       "source_file": "BOI_2024_06_0224.txt",
-      "similarity": 0.3951539397239685,
+      "similarity": 0.39515388011932373,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.4094337850809097,
+    "mean_similarity": 0.40943375527858733,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202609040025-KBOI-FXUS65-AFDBOI",
-    "afd_time": "2026-09-04T00:25:00Z",
-    "updated": "2026-09-04T01:03:03.171592+00:00"
+    "product_id": "202609040548-KBOI-FXUS65-AFDBOI-AAA",
+    "afd_time": "2026-09-04T05:48:00Z",
+    "updated": "2026-09-04T06:00:12.370565+00:00"
   }
 }

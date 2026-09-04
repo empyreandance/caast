@@ -1,59 +1,52 @@
 {
   "office": "MFL",
-  "product_id": "202609032245-KMFL-FXUS62-AFDMFL",
-  "afd_time": "2026-09-03T22:45:00Z",
+  "product_id": "202609040549-KMFL-FXUS62-AFDMFL",
+  "afd_time": "2026-09-04T05:49:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-04T01:03:03.171592+00:00",
+  "updated": "2026-09-04T06:00:12.370565+00:00",
   "query_preview": "..\n(Friday night through next Wednesday)\nIssued at 335 PM EDT Thu Sep 3 2026\n\nModel guidance is fairly consistent that moisture levels will remain \nelevated and above climatological norms with PWATs staying above 2\" \nacross South Florida going into the upcoming holiday weekend and \ninto early next w",
   "analogs": [
     {
       "datetime_utc": "2016-02-07T08:38Z",
       "source_file": "MFL_2016_07_0838.txt",
-      "similarity": 0.4427611231803894,
+      "similarity": 0.442761093378067,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-02-07T20:45Z",
       "source_file": "MFL_2016_07_2045.txt",
-      "similarity": 0.4427611231803894,
+      "similarity": 0.442761093378067,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-09-17T23:43Z",
       "source_file": "MFL_2014_17_2343.txt",
-      "similarity": 0.442269504070282,
+      "similarity": 0.44226935505867004,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-09-18T05:54Z",
       "source_file": "MFL_2014_18_0554.txt",
-      "similarity": 0.442269504070282,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-09-17T18:18Z",
-      "source_file": "MFL_2014_17_1818.txt",
-      "similarity": 0.442269504070282,
+      "similarity": 0.44226935505867004,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-09-18T01:22Z",
       "source_file": "MFL_2014_18_0122.txt",
-      "similarity": 0.442269504070282,
+      "similarity": 0.44226935505867004,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-01-25T01:39Z",
-      "source_file": "MFL_2009_25_0139.txt",
-      "similarity": 0.44027745723724365,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2014-09-17T18:18Z",
+      "source_file": "MFL_2014_17_1818.txt",
+      "similarity": 0.44226935505867004,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2009-01-25T05:31Z",
@@ -63,8 +56,8 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-01-24T19:45Z",
-      "source_file": "MFL_2009_24_1945.txt",
+      "datetime_utc": "2009-01-25T01:39Z",
+      "source_file": "MFL_2009_25_0139.txt",
       "similarity": 0.44027745723724365,
       "label": "quiet",
       "is_severe": false
@@ -75,17 +68,24 @@
       "similarity": 0.44027745723724365,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-01-24T19:45Z",
+      "source_file": "MFL_2009_24_1945.txt",
+      "similarity": 0.44027745723724365,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.44157100915908815,
+    "mean_similarity": 0.44157094359397886,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609032245-KMFL-FXUS62-AFDMFL",
-    "afd_time": "2026-09-03T22:45:00Z",
-    "updated": "2026-09-04T01:03:03.171592+00:00"
+    "product_id": "202609040549-KMFL-FXUS62-AFDMFL",
+    "afd_time": "2026-09-04T05:49:00Z",
+    "updated": "2026-09-04T06:00:12.370565+00:00"
   }
 }
