@@ -1,16 +1,23 @@
 {
   "office": "FSD",
-  "product_id": "202609051327-KFSD-FXUS63-AFDFSD",
-  "afd_time": "2026-09-05T13:27:00Z",
+  "product_id": "202609051716-KFSD-FXUS63-AFDFSD",
+  "afd_time": "2026-09-05T17:16:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-05T13:55:46.920180+00:00",
+  "updated": "2026-09-05T19:05:59.145497+00:00",
   "query_preview": "..\nIssued at 122 PM CDT Fri Sep 4 2026\n\nTHIS AFTERNOON: It remains hot and very humid across the Tri-State \narea, as temperatures have already risen into the upper 80s to low \n90s.  The generally weak surface flow has allowed dew points to \nremain in the upper 60s to lower 70s, with even mid-70 dew ",
   "analogs": [
     {
       "datetime_utc": "2004-03-29T21:31Z",
       "source_file": "FSD_2004_29_2131.txt",
-      "similarity": 0.44557061791419983,
+      "similarity": 0.4455706477165222,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-02-19T21:41Z",
+      "source_file": "FSD_2014_19_2141.txt",
+      "similarity": 0.4455694556236267,
+      "label": "winter",
       "is_severe": false
     },
     {
@@ -28,10 +35,10 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-02-19T21:41Z",
-      "source_file": "FSD_2014_19_2141.txt",
-      "similarity": 0.4455694556236267,
-      "label": "winter",
+      "datetime_utc": "2015-03-07T03:52Z",
+      "source_file": "FSD_2015_07_0352.txt",
+      "similarity": 0.44428786635398865,
+      "label": "quiet",
       "is_severe": false
     },
     {
@@ -42,18 +49,18 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-03-07T03:52Z",
-      "source_file": "FSD_2015_07_0352.txt",
-      "similarity": 0.44428786635398865,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2015-03-06T23:26Z",
       "source_file": "FSD_2015_06_2326.txt",
       "similarity": 0.44428786635398865,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-05-11T03:25Z",
+      "source_file": "FSD_2017_11_0325.txt",
+      "similarity": 0.4404106140136719,
+      "label": "tornado",
+      "is_severe": true
     },
     {
       "datetime_utc": "2017-05-10T23:08Z",
@@ -68,24 +75,17 @@
       "similarity": 0.4404106140136719,
       "label": "tornado",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-05-11T03:25Z",
-      "source_file": "FSD_2017_11_0325.txt",
-      "similarity": 0.4404106140136719,
-      "label": "tornado",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.44363744258880616,
+    "mean_similarity": 0.4436374455690384,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609051327-KFSD-FXUS63-AFDFSD",
-    "afd_time": "2026-09-05T13:27:00Z",
-    "updated": "2026-09-05T13:55:46.920180+00:00"
+    "product_id": "202609051716-KFSD-FXUS63-AFDFSD",
+    "afd_time": "2026-09-05T17:16:00Z",
+    "updated": "2026-09-05T19:05:59.145497+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "ARX",
-  "product_id": "202609051105-KARX-FXUS63-AFDARX",
-  "afd_time": "2026-09-05T11:05:00Z",
+  "product_id": "202609051758-KARX-FXUS63-AFDARX",
+  "afd_time": "2026-09-05T17:58:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-05T13:55:46.920180+00:00",
-  "query_preview": "..\nIssued at 1225 AM CDT Sat Sep 5 2026\n\nMorning Fog:\n\nFoggy conditions expected this morning as a ridge builds into the \nUpper Midwest. Light northeast winds coupled with a moist\nairmass of dewpoints near 70F and a stabilizing atmosphere will\nall aid in fog development. The fog may be dense at time",
+  "updated": "2026-09-05T19:05:59.145497+00:00",
+  "query_preview": "..\nIssued at 1257 PM CDT Sat Sep 5 2026\n\nThis Afternoon and Evening\n\nA weakening mesoscale convective complex (MCC) will continue to\nweaken as it moves east toward southeast Minnesota and\nnortheast Iowa. As an outflow boundary (from last night's \nconvection) moves south and southwest ahead of this M",
   "analogs": [
     {
       "datetime_utc": "2009-10-23T08:56Z",
       "source_file": "ARX_2009_23_0856.txt",
-      "similarity": 0.44701695442199707,
+      "similarity": 0.46345970034599304,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2010-12-02T21:24Z",
       "source_file": "ARX_2010_02_2124.txt",
-      "similarity": 0.43248867988586426,
+      "similarity": 0.45149993896484375,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-07-22T07:41Z",
-      "source_file": "ARX_2004_22_0741.txt",
-      "similarity": 0.4301983714103699,
+      "datetime_utc": "2020-05-02T22:36Z",
+      "source_file": "ARX_2020_02_2236.txt",
+      "similarity": 0.4462636709213257,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-05-03T03:10Z",
+      "source_file": "ARX_2020_03_0310.txt",
+      "similarity": 0.4462636709213257,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-05-02T19:30Z",
+      "source_file": "ARX_2020_02_1930_1.txt",
+      "similarity": 0.4462636709213257,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-10-08T20:15Z",
+      "source_file": "ARX_2006_08_2015.txt",
+      "similarity": 0.4460468292236328,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-03-09T09:15Z",
       "source_file": "ARX_2011_09_0915.txt",
-      "similarity": 0.4288686513900757,
+      "similarity": 0.4401863217353821,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-06-26T20:57Z",
-      "source_file": "ARX_2010_26_2057.txt",
-      "similarity": 0.42882537841796875,
+      "datetime_utc": "2009-07-30T07:08Z",
+      "source_file": "ARX_2009_30_0708.txt",
+      "similarity": 0.4338498115539551,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-10-08T20:15Z",
-      "source_file": "ARX_2006_08_2015.txt",
-      "similarity": 0.42419055104255676,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2009-07-29T19:26Z",
+      "source_file": "ARX_2009_29_1926.txt",
+      "similarity": 0.4338498115539551,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2010-10-02T19:42Z",
-      "source_file": "ARX_2010_02_1942.txt",
-      "similarity": 0.42194193601608276,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-11-04T10:01Z",
-      "source_file": "ARX_2004_04_1001.txt",
-      "similarity": 0.42189469933509827,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-11-29T20:14Z",
-      "source_file": "ARX_2004_29_2014.txt",
-      "similarity": 0.4218778908252716,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-09-30T20:04Z",
-      "source_file": "ARX_2004_30_2004.txt",
-      "similarity": 0.4218141436576843,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2008-06-27T08:05Z",
+      "source_file": "ARX_2008_27_0805.txt",
+      "similarity": 0.4313294291496277,
+      "label": "tornado",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.42791172564029695,
-    "n_severe": 1,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.44390128552913666,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202609051105-KARX-FXUS63-AFDARX",
-    "afd_time": "2026-09-05T11:05:00Z",
-    "updated": "2026-09-05T13:55:46.920180+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202609051758-KARX-FXUS63-AFDARX",
+    "afd_time": "2026-09-05T17:58:00Z",
+    "updated": "2026-09-05T19:05:59.145497+00:00"
   }
 }
