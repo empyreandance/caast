@@ -1,91 +1,91 @@
 {
   "office": "FGZ",
-  "product_id": "202609050530-KFGZ-FXUS65-AFDFGZ",
-  "afd_time": "2026-09-05T05:30:00Z",
+  "product_id": "202609051020-KFGZ-FXUS65-AFDFGZ",
+  "afd_time": "2026-09-05T10:20:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-05T05:50:14.925936+00:00",
-  "query_preview": "..Main player in the weather over this weekend will be\nthe early season trough parked over the West Coast. It's brought\nsome mid and upper level drying which as shown on the 18Z sounding\nputs a pretty strong cap over the western half of the state.  \nDespite having some good low level moisture today ",
+  "updated": "2026-09-05T10:41:16.199627+00:00",
+  "query_preview": "..A large upper low over the northwest United States\nwill linger through the weekend, with ridging to our east. This\nsetup keeps south-southwesterly flow over our region which will\nallow for an increase in moisture starting later today and through\nSunday. While precipitable water values will increas",
   "analogs": [
     {
       "datetime_utc": "2013-09-24T14:58Z",
       "source_file": "FGZ_2013_24_1458.txt",
-      "similarity": 0.48568201065063477,
+      "similarity": 0.43406254053115845,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-09-08T22:42Z",
-      "source_file": "FGZ_2017_08_2242.txt",
-      "similarity": 0.47651416063308716,
-      "label": "severe_wind",
+      "datetime_utc": "2024-03-17T11:47Z",
+      "source_file": "FGZ_2024_17_1147.txt",
+      "similarity": 0.4175747334957123,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-03-17T09:28Z",
       "source_file": "FGZ_2024_17_0928.txt",
-      "similarity": 0.4613904058933258,
+      "similarity": 0.4175747334957123,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-03-17T11:47Z",
-      "source_file": "FGZ_2024_17_1147.txt",
-      "similarity": 0.4613904058933258,
+      "datetime_utc": "2013-04-15T01:25Z",
+      "source_file": "FGZ_2013_15_0125.txt",
+      "similarity": 0.4136717915534973,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-09-08T22:42Z",
+      "source_file": "FGZ_2017_08_2242.txt",
+      "similarity": 0.41296717524528503,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-12-11T16:59Z",
+      "source_file": "FGZ_2012_11_1659.txt",
+      "similarity": 0.40778622031211853,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-03-20T22:18Z",
       "source_file": "FGZ_2009_20_2218.txt",
-      "similarity": 0.45883506536483765,
+      "similarity": 0.4017370641231537,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-09-12T03:10Z",
-      "source_file": "FGZ_2016_12_0310.txt",
-      "similarity": 0.4535675644874573,
+      "datetime_utc": "2014-03-24T03:50Z",
+      "source_file": "FGZ_2014_24_0350.txt",
+      "similarity": 0.3977559804916382,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2025-10-18T19:39Z",
-      "source_file": "FGZ_2025_18_1939.txt",
-      "similarity": 0.45050138235092163,
-      "label": "flood",
-      "is_severe": false
+      "datetime_utc": "2016-09-12T03:10Z",
+      "source_file": "FGZ_2016_12_0310.txt",
+      "similarity": 0.39748242497444153,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2025-10-19T04:45Z",
-      "source_file": "FGZ_2025_19_0445.txt",
-      "similarity": 0.45050138235092163,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2025-10-18T22:55Z",
-      "source_file": "FGZ_2025_18_2255.txt",
-      "similarity": 0.45050138235092163,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-04-15T01:25Z",
-      "source_file": "FGZ_2013_15_0125.txt",
-      "similarity": 0.445794939994812,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2014-10-04T22:30Z",
+      "source_file": "FGZ_2014_04_2230.txt",
+      "similarity": 0.3972250819206238,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.45946786999702455,
-    "n_severe": 4,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.40978377461433413,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202609050530-KFGZ-FXUS65-AFDFGZ",
-    "afd_time": "2026-09-05T05:30:00Z",
-    "updated": "2026-09-05T05:50:14.925936+00:00"
+    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
+    "product_id": "202609051020-KFGZ-FXUS65-AFDFGZ",
+    "afd_time": "2026-09-05T10:20:00Z",
+    "updated": "2026-09-05T10:41:16.199627+00:00"
   }
 }
