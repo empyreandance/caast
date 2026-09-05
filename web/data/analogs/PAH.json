@@ -1,78 +1,78 @@
 {
   "office": "PAH",
-  "product_id": "202609051720-KPAH-FXUS63-AFDPAH",
-  "afd_time": "2026-09-05T17:20:00Z",
+  "product_id": "202609052030-KPAH-FXUS63-AFDPAH",
+  "afd_time": "2026-09-05T20:30:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-05T19:05:59.145497+00:00",
-  "query_preview": "..\nIssued at 231 AM CDT Sat Sep 5 2026\n\nAt last, we have arrived at the last day of the Extreme Heat\nWarning! Heat indices 105 to 110 are once again expected, as\ntemperatures climb to near 100 throughout the Quad State. No\nchanges were made to the Excessive Heat Warning this morning. \n\nWe briefly co",
+  "updated": "2026-09-05T21:20:05.332817+00:00",
+  "query_preview": "..\nIssued at 143 PM CDT Sat Sep 5 2026\n\nA sfc cold front to our north will slowly sink south today and \ntonight. We could see some isolated to scattered showers/storms pop \nup with the heat of the day ahead of the front. Right now location \nis lower confidence as there are no boundaries around to fo",
   "analogs": [
+    {
+      "datetime_utc": "2016-08-02T19:58Z",
+      "source_file": "PAH_2016_02_1958.txt",
+      "similarity": 0.41619521379470825,
+      "label": "severe_wind",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2016-08-02T23:34Z",
       "source_file": "PAH_2016_02_2334.txt",
-      "similarity": 0.40195244550704956,
+      "similarity": 0.41619521379470825,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-08-03T04:31Z",
       "source_file": "PAH_2016_03_0431.txt",
-      "similarity": 0.40195244550704956,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-08-02T19:58Z",
-      "source_file": "PAH_2016_02_1958.txt",
-      "similarity": 0.40195244550704956,
+      "similarity": 0.41619521379470825,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-06-12T17:57Z",
       "source_file": "PAH_2007_12_1757.txt",
-      "similarity": 0.39971739053726196,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2019-06-01T17:39Z",
-      "source_file": "PAH_2019_01_1739.txt",
-      "similarity": 0.38337182998657227,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2019-06-01T06:31Z",
-      "source_file": "PAH_2019_01_0631.txt",
-      "similarity": 0.38337182998657227,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2019-06-01T10:54Z",
-      "source_file": "PAH_2019_01_1054.txt",
-      "similarity": 0.38337182998657227,
+      "similarity": 0.4144465923309326,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2022-04-12T06:50Z",
       "source_file": "PAH_2022_12_0650.txt",
-      "similarity": 0.3804295063018799,
+      "similarity": 0.39159631729125977,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-03-16T06:50Z",
-      "source_file": "PAH_2004_16_0650.txt",
-      "similarity": 0.3789464235305786,
+      "datetime_utc": "2010-06-11T08:53Z",
+      "source_file": "PAH_2010_11_0853.txt",
+      "similarity": 0.3887631297111511,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-06-11T11:30Z",
+      "source_file": "PAH_2010_11_1130.txt",
+      "similarity": 0.3887631297111511,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-07-14T19:59Z",
+      "source_file": "PAH_2012_14_1959.txt",
+      "similarity": 0.38868099451065063,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-05-09T19:41Z",
+      "source_file": "PAH_2012_09_1941.txt",
+      "similarity": 0.3858293294906616,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-12-06T17:43Z",
-      "source_file": "PAH_2014_06_1743.txt",
-      "similarity": 0.3770376145839691,
+      "datetime_utc": "2012-05-09T23:05Z",
+      "source_file": "PAH_2012_09_2305.txt",
+      "similarity": 0.3858293294906616,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.3892103761434555,
+    "mean_similarity": 0.39924944639205934,
     "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202609051720-KPAH-FXUS63-AFDPAH",
-    "afd_time": "2026-09-05T17:20:00Z",
-    "updated": "2026-09-05T19:05:59.145497+00:00"
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202609052030-KPAH-FXUS63-AFDPAH",
+    "afd_time": "2026-09-05T20:30:00Z",
+    "updated": "2026-09-05T21:20:05.332817+00:00"
   }
 }
