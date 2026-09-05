@@ -1,59 +1,38 @@
 {
   "office": "IWX",
-  "product_id": "202609050008-KIWX-FXUS63-AFDIWX",
-  "afd_time": "2026-09-05T00:08:00Z",
+  "product_id": "202609050425-KIWX-FXUS63-AFDIWX",
+  "afd_time": "2026-09-05T04:25:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-05T01:01:50.638848+00:00",
+  "updated": "2026-09-05T05:50:14.925936+00:00",
   "query_preview": "..\nIssued at 226 PM EDT Fri Sep 4 2026\n\nModels continue to point towards a transition to a drier and \nsomewhat cooler pattern, but as has been the case the past several \ndays confidence in the finer details of this remain uncertain. \n\nThe quasi-stationary boundary remains in place from southern WI t",
   "analogs": [
     {
       "datetime_utc": "2007-02-05T20:58Z",
       "source_file": "IWX_2007_05_2058.txt",
-      "similarity": 0.4425368010997772,
+      "similarity": 0.4425368309020996,
       "label": "winter",
       "is_severe": false
     },
     {
+      "datetime_utc": "2012-03-11T17:27Z",
+      "source_file": "IWX_2012_11_1727.txt",
+      "similarity": 0.4395267963409424,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2012-03-11T11:50Z",
       "source_file": "IWX_2012_11_1150.txt",
-      "similarity": 0.4395267069339752,
+      "similarity": 0.4395267963409424,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-03-11T09:18Z",
       "source_file": "IWX_2012_11_0918.txt",
-      "similarity": 0.4395267069339752,
+      "similarity": 0.4395267963409424,
       "label": "tornado",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-03-11T17:27Z",
-      "source_file": "IWX_2012_11_1727.txt",
-      "similarity": 0.4395267069339752,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2019-02-12T05:00Z",
-      "source_file": "IWX_2019_12_0500.txt",
-      "similarity": 0.4324316382408142,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-02-11T21:01Z",
-      "source_file": "IWX_2019_11_2101.txt",
-      "similarity": 0.4324316382408142,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-02-12T06:40Z",
-      "source_file": "IWX_2019_12_0640.txt",
-      "similarity": 0.4324316382408142,
-      "label": "winter",
-      "is_severe": false
     },
     {
       "datetime_utc": "2019-02-11T23:29Z",
@@ -63,15 +42,36 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-02-12T02:19Z",
-      "source_file": "IWX_2019_12_0219.txt",
+      "datetime_utc": "2019-02-12T05:00Z",
+      "source_file": "IWX_2019_12_0500.txt",
       "similarity": 0.4324316382408142,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-06-16T07:58Z",
-      "source_file": "IWX_2005_16_0758.txt",
+      "datetime_utc": "2019-02-12T02:19Z",
+      "source_file": "IWX_2019_12_0219.txt",
+      "similarity": 0.4324316084384918,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-02-12T06:40Z",
+      "source_file": "IWX_2019_12_0640.txt",
+      "similarity": 0.4324316084384918,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-02-11T21:01Z",
+      "source_file": "IWX_2019_11_2101.txt",
+      "similarity": 0.4324316084384918,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-06-16T17:27Z",
+      "source_file": "IWX_2005_16_1727.txt",
       "similarity": 0.42890235781669617,
       "label": "quiet",
       "is_severe": false
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.43521774709224703,
+    "mean_similarity": 0.4352177679538727,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609050008-KIWX-FXUS63-AFDIWX",
-    "afd_time": "2026-09-05T00:08:00Z",
-    "updated": "2026-09-05T01:01:50.638848+00:00"
+    "product_id": "202609050425-KIWX-FXUS63-AFDIWX",
+    "afd_time": "2026-09-05T04:25:00Z",
+    "updated": "2026-09-05T05:50:14.925936+00:00"
   }
 }

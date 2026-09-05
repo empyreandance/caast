@@ -1,15 +1,15 @@
 {
   "office": "BOI",
-  "product_id": "202609042346-KBOI-FXUS65-AFDBOI",
-  "afd_time": "2026-09-04T23:46:00Z",
+  "product_id": "202609050457-KBOI-FXUS65-AFDBOI",
+  "afd_time": "2026-09-05T04:57:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-05T01:01:50.638848+00:00",
+  "updated": "2026-09-05T05:50:14.925936+00:00",
   "query_preview": "/Monday through Friday/...\nIssued 254 PM MDT FRI SEP 4 2026\nHigh pressure aloft will start to build over the area \nMonday/Monday night as an upper low exits the region across \nMontana into southern Canada. The higher pressure will bring \nwarmer air back into our CWA the rest of the week, with \ntempe",
   "analogs": [
     {
       "datetime_utc": "2012-03-04T16:15Z",
       "source_file": "BOI_2012_04_1615.txt",
-      "similarity": 0.45411205291748047,
+      "similarity": 0.4541120231151581,
       "label": "severe_wind",
       "is_severe": true
     },
@@ -23,14 +23,14 @@
     {
       "datetime_utc": "2006-10-07T03:50Z",
       "source_file": "BOI_2006_07_0350.txt",
-      "similarity": 0.4418027997016907,
+      "similarity": 0.44180282950401306,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-10-06T21:14Z",
       "source_file": "BOI_2006_06_2114.txt",
-      "similarity": 0.4418027997016907,
+      "similarity": 0.44180282950401306,
       "label": "quiet",
       "is_severe": false
     },
@@ -44,21 +44,14 @@
     {
       "datetime_utc": "2023-09-07T02:57Z",
       "source_file": "BOI_2023_07_0257.txt",
-      "similarity": 0.4370535612106323,
+      "similarity": 0.4370535910129547,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-09-06T20:32Z",
       "source_file": "BOI_2023_06_2032.txt",
-      "similarity": 0.4370535612106323,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-08-13T20:34Z",
-      "source_file": "BOI_2005_13_2034_1.txt",
-      "similarity": 0.4340839385986328,
+      "similarity": 0.4370535910129547,
       "label": "quiet",
       "is_severe": false
     },
@@ -68,6 +61,13 @@
       "similarity": 0.4340839385986328,
       "label": "tornado",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-08-13T20:34Z",
+      "source_file": "BOI_2005_13_2034_1.txt",
+      "similarity": 0.4340839385986328,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2007-02-24T10:17Z",
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.43956734538078307,
+    "mean_similarity": 0.4395673543214798,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609042346-KBOI-FXUS65-AFDBOI",
-    "afd_time": "2026-09-04T23:46:00Z",
-    "updated": "2026-09-05T01:01:50.638848+00:00"
+    "product_id": "202609050457-KBOI-FXUS65-AFDBOI",
+    "afd_time": "2026-09-05T04:57:00Z",
+    "updated": "2026-09-05T05:50:14.925936+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "LCH",
-  "product_id": "202609042330-KLCH-FXUS64-AFDLCH",
-  "afd_time": "2026-09-04T23:30:00Z",
+  "product_id": "202609050528-KLCH-FXUS64-AFDLCH",
+  "afd_time": "2026-09-05T05:28:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-05T01:01:50.638848+00:00",
-  "query_preview": "..\n(This evening through next Thursday)\nIssued at 157 PM CDT Fri Sep 4 2026\n\nToday will be the driest day weve had in a while in regard to\nPWATs, which are currently sitting just below the 90th percentile.\nPWATs will increase again this weekend before dropping once more\nheading into next week. Never",
+  "updated": "2026-09-05T05:50:14.925936+00:00",
+  "query_preview": "..\n(Today through Friday)\nIssued at 1223 AM CDT Sat Sep 5 2026\n\nA quiet and warm start to this holiday weekend is ongoing tonight, \nwith temperatures in the mid 70s to near 80 at the time of this \nwriting. 00Z LCH sounding showed a PWAT of 2.13\" which is once again \nright at the 90th percentile for ",
   "analogs": [
     {
       "datetime_utc": "2012-06-08T20:12Z",
       "source_file": "LCH_2012_08_2012.txt",
-      "similarity": 0.3699498474597931,
+      "similarity": 0.43108707666397095,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-09-11T15:13Z",
-      "source_file": "LCH_2006_11_1513.txt",
-      "similarity": 0.367053747177124,
-      "label": "quiet",
-      "is_severe": false
     },
     {
       "datetime_utc": "2007-09-03T20:48Z",
       "source_file": "LCH_2007_03_2048.txt",
-      "similarity": 0.36618801951408386,
+      "similarity": 0.4252300560474396,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-03-15T12:06Z",
-      "source_file": "LCH_2007_15_1206.txt",
-      "similarity": 0.365009069442749,
-      "label": "quiet",
+      "datetime_utc": "2019-01-02T17:18Z",
+      "source_file": "LCH_2019_02_1718_1.txt",
+      "similarity": 0.4236190617084503,
+      "label": "flood",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-01-02T09:48Z",
+      "source_file": "LCH_2019_02_0948.txt",
+      "similarity": 0.4236190617084503,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-01-02T11:27Z",
+      "source_file": "LCH_2019_02_1127.txt",
+      "similarity": 0.4236190617084503,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-01-02T15:56Z",
+      "source_file": "LCH_2019_02_1556_1.txt",
+      "similarity": 0.4236190617084503,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-12-20T21:30Z",
+      "source_file": "LCH_2013_20_2130.txt",
+      "similarity": 0.41636550426483154,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2006-01-14T16:18Z",
       "source_file": "LCH_2006_14_1618.txt",
-      "similarity": 0.36244815587997437,
+      "similarity": 0.4127957224845886,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-03-23T03:49Z",
-      "source_file": "LCH_2006_23_0349.txt",
-      "similarity": 0.3620356619358063,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-05-19T10:08Z",
-      "source_file": "LCH_2012_19_1008.txt",
-      "similarity": 0.3614988923072815,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-05-01T15:49Z",
-      "source_file": "LCH_2009_01_1549.txt",
-      "similarity": 0.361039936542511,
+      "datetime_utc": "2013-02-08T03:35Z",
+      "source_file": "LCH_2013_08_0335.txt",
+      "similarity": 0.40954723954200745,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2015-11-13T03:18Z",
-      "source_file": "LCH_2015_13_0318.txt",
-      "similarity": 0.3602123260498047,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2015-11-12T21:40Z",
-      "source_file": "LCH_2015_12_2140.txt",
-      "similarity": 0.3602123260498047,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2015-12-04T16:19Z",
+      "source_file": "LCH_2015_04_1619.txt",
+      "similarity": 0.4083307981491089,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.36356479823589327,
-    "n_severe": 5,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.41978326439857483,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
-    "product_id": "202609042330-KLCH-FXUS64-AFDLCH",
-    "afd_time": "2026-09-04T23:30:00Z",
-    "updated": "2026-09-05T01:01:50.638848+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202609050528-KLCH-FXUS64-AFDLCH",
+    "afd_time": "2026-09-05T05:28:00Z",
+    "updated": "2026-09-05T05:50:14.925936+00:00"
   }
 }
