@@ -1,14 +1,14 @@
 {
   "office": "CAE",
-  "product_id": "202609061434-KCAE-FXUS62-AFDCAE",
-  "afd_time": "2026-09-06T14:34:00Z",
+  "product_id": "202609061735-KCAE-FXUS62-AFDCAE",
+  "afd_time": "2026-09-06T17:35:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-06T17:08:41.933611+00:00",
+  "updated": "2026-09-06T19:16:28.885005+00:00",
   "query_preview": "..\nKEY MESSAGE 1. Damaging winds, localized flash flooding possible\ntoday.\n\nMultiple rounds of showers and thunderstorms are expected to\ntraverse the Southeast today as shortwaves move through the\nbroader trough. Convection over the southern Appalachians will\nwork towards the forecast area mid day a",
   "analogs": [
     {
-      "datetime_utc": "2020-04-10T23:54Z",
-      "source_file": "CAE_2020_10_2354.txt",
+      "datetime_utc": "2020-04-10T19:02Z",
+      "source_file": "CAE_2020_10_1902.txt",
       "similarity": 0.45638519525527954,
       "label": "tornado",
       "is_severe": true
@@ -21,13 +21,6 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-04-10T19:02Z",
-      "source_file": "CAE_2020_10_1902.txt",
-      "similarity": 0.45638519525527954,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2020-04-11T07:38Z",
       "source_file": "CAE_2020_11_0738.txt",
       "similarity": 0.45638519525527954,
@@ -35,23 +28,37 @@
       "is_severe": true
     },
     {
+      "datetime_utc": "2020-04-10T23:54Z",
+      "source_file": "CAE_2020_10_2354.txt",
+      "similarity": 0.45638519525527954,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2017-04-03T08:04Z",
       "source_file": "CAE_2017_03_0804.txt",
-      "similarity": 0.45483487844467163,
+      "similarity": 0.4548349380493164,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-04-03T02:43Z",
       "source_file": "CAE_2017_03_0243.txt",
-      "similarity": 0.45483487844467163,
+      "similarity": 0.4548349380493164,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-04-02T23:19Z",
       "source_file": "CAE_2017_02_2319.txt",
-      "similarity": 0.45483487844467163,
+      "similarity": 0.4548349380493164,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-06-05T15:29Z",
+      "source_file": "CAE_2019_05_1529.txt",
+      "similarity": 0.45204997062683105,
       "label": "tornado",
       "is_severe": true
     },
@@ -68,24 +75,17 @@
       "similarity": 0.45204997062683105,
       "label": "tornado",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2019-06-05T15:29Z",
-      "source_file": "CAE_2019_05_1529.txt",
-      "similarity": 0.45204997062683105,
-      "label": "tornado",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 1.0,
-    "mean_similarity": 0.4546195328235626,
+    "mean_similarity": 0.4546195507049561,
     "n_severe": 10,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609061434-KCAE-FXUS62-AFDCAE",
-    "afd_time": "2026-09-06T14:34:00Z",
-    "updated": "2026-09-06T17:08:41.933611+00:00"
+    "product_id": "202609061735-KCAE-FXUS62-AFDCAE",
+    "afd_time": "2026-09-06T17:35:00Z",
+    "updated": "2026-09-06T19:16:28.885005+00:00"
   }
 }
