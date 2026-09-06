@@ -1,91 +1,91 @@
 {
   "office": "SGX",
-  "product_id": "202609060616-KSGX-FXUS66-AFDSGX",
-  "afd_time": "2026-09-06T06:16:00Z",
+  "product_id": "202609061152-KSGX-FXUS66-AFDSGX",
+  "afd_time": "2026-09-06T11:52:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-06T09:30:52.561233+00:00",
-  "query_preview": "..FOR EXTREME SOUTHWESTERN CALIFORNIA INCLUDING ORANGE...\nSAN DIEGO...WESTERN RIVERSIDE AND SOUTHWESTERN SAN BERNARDINO\nCOUNTIES...\n\n...UPDATED AVIATION DISCUSSION FOR 06Z TAF PACKAGE...\n\nTropical Cyclone Marie is about 800 miles south of San Diego, CA \nthis morning. A swath of high clouds and moist",
+  "updated": "2026-09-06T13:43:18.853394+00:00",
+  "query_preview": "..FOR EXTREME SOUTHWESTERN CALIFORNIA INCLUDING ORANGE...\nSAN DIEGO...WESTERN RIVERSIDE AND SOUTHWESTERN SAN BERNARDINO\nCOUNTIES...\n\n\n...UPDATED AVIATION DISCUSSION...\n\nToday through tomorrow night...\n\nIncreasing mid to high level clouds with some embedded high'lofted \nshowers are beginning to devel",
   "analogs": [
+    {
+      "datetime_utc": "2009-07-31T16:05Z",
+      "source_file": "SGX_2009_31_1605.txt",
+      "similarity": 0.6612626314163208,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2013-02-05T17:30Z",
       "source_file": "SGX_2013_05_1730.txt",
-      "similarity": 0.6831303238868713,
+      "similarity": 0.6417801380157471,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-07-31T16:05Z",
-      "source_file": "SGX_2009_31_1605.txt",
-      "similarity": 0.6806237697601318,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2010-08-27T04:08Z",
       "source_file": "SGX_2010_27_0408.txt",
-      "similarity": 0.6627185344696045,
+      "similarity": 0.6373934745788574,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-08-15T04:16Z",
-      "source_file": "SGX_2018_15_0416.txt",
-      "similarity": 0.6451302170753479,
-      "label": "tornado",
-      "is_severe": true
     },
     {
       "datetime_utc": "2018-08-14T20:52Z",
       "source_file": "SGX_2018_14_2052.txt",
-      "similarity": 0.6451302170753479,
+      "similarity": 0.6365066766738892,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-08-15T04:16Z",
+      "source_file": "SGX_2018_15_0416.txt",
+      "similarity": 0.6365066766738892,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-02-04T05:28Z",
       "source_file": "SGX_2007_04_0528.txt",
-      "similarity": 0.6448624134063721,
+      "similarity": 0.6079942584037781,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-12-31T21:30Z",
+      "source_file": "SGX_2016_31_2130.txt",
+      "similarity": 0.5953372120857239,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-12-01T04:42Z",
+      "source_file": "SGX_2017_01_0442_1.txt",
+      "similarity": 0.5953372120857239,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-08-27T03:37Z",
       "source_file": "SGX_2004_27_0337.txt",
-      "similarity": 0.630869448184967,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-08-26T20:36Z",
-      "source_file": "SGX_2004_26_2036.txt",
-      "similarity": 0.630869448184967,
+      "similarity": 0.5930678844451904,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-08-26T15:55Z",
       "source_file": "SGX_2004_26_1555.txt",
-      "similarity": 0.630869448184967,
+      "similarity": 0.5930678844451904,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-09-05T03:57Z",
-      "source_file": "SGX_2008_05_0357_1.txt",
-      "similarity": 0.6269887685775757,
-      "label": "severe_wind",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.6481192588806153,
-    "n_severe": 4,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.619825404882431,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.65 below confidence floor 0.7",
-    "product_id": "202609060616-KSGX-FXUS66-AFDSGX",
-    "afd_time": "2026-09-06T06:16:00Z",
-    "updated": "2026-09-06T09:30:52.561233+00:00"
+    "reason": "top-10 mean similarity 0.62 below confidence floor 0.7",
+    "product_id": "202609061152-KSGX-FXUS66-AFDSGX",
+    "afd_time": "2026-09-06T11:52:00Z",
+    "updated": "2026-09-06T13:43:18.853394+00:00"
   }
 }

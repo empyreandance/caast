@@ -1,30 +1,37 @@
 {
   "office": "SGF",
-  "product_id": "202609060812-KSGF-FXUS63-AFDSGF",
-  "afd_time": "2026-09-06T08:12:00Z",
+  "product_id": "202609061040-KSGF-FXUS63-AFDSGF",
+  "afd_time": "2026-09-06T10:40:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-06T09:30:52.561233+00:00",
+  "updated": "2026-09-06T13:43:18.853394+00:00",
   "query_preview": "/MONDAY THROUGH SATURDAY/...\nIssued at 245 AM CDT Sun Sep 6 2026\n\nAbove Average Temps This Week: The surface front and lower\ndewpoints will create an airmass gradient over the area on\nMonday. Locations west of Highway 65 will likely experience\nhighs in the upper 90s to low 100s with dews in the midd",
   "analogs": [
     {
+      "datetime_utc": "2021-10-01T08:42Z",
+      "source_file": "SGF_2021_01_0842.txt",
+      "similarity": 0.5187434554100037,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2021-10-01T18:06Z",
       "source_file": "SGF_2021_01_1806.txt",
-      "similarity": 0.5187433362007141,
+      "similarity": 0.5187434554100037,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-10-01T11:58Z",
       "source_file": "SGF_2021_01_1158.txt",
-      "similarity": 0.5187433362007141,
+      "similarity": 0.5187434554100037,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2021-10-01T08:42Z",
-      "source_file": "SGF_2021_01_0842.txt",
-      "similarity": 0.5187433362007141,
-      "label": "quiet",
+      "datetime_utc": "2019-01-11T05:19Z",
+      "source_file": "SGF_2019_11_0519.txt",
+      "similarity": 0.5122133493423462,
+      "label": "flood",
       "is_severe": false
     },
     {
@@ -42,10 +49,10 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-01-11T05:19Z",
-      "source_file": "SGF_2019_11_0519.txt",
-      "similarity": 0.5122133493423462,
-      "label": "flood",
+      "datetime_utc": "2008-02-22T11:44Z",
+      "source_file": "SGF_2008_22_1144_1.txt",
+      "similarity": 0.5079413652420044,
+      "label": "winter",
       "is_severe": false
     },
     {
@@ -56,23 +63,16 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2008-02-22T11:44Z",
-      "source_file": "SGF_2008_22_1144_1.txt",
-      "similarity": 0.5079413652420044,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2022-03-25T08:15Z",
       "source_file": "SGF_2022_25_0815_1.txt",
-      "similarity": 0.507249653339386,
+      "similarity": 0.5072497129440308,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2022-03-25T11:27Z",
       "source_file": "SGF_2022_25_1127.txt",
-      "similarity": 0.507249653339386,
+      "similarity": 0.5072497129440308,
       "label": "tornado",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.5123252093791961,
+    "mean_similarity": 0.512325257062912,
     "n_severe": 2,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
-    "product_id": "202609060812-KSGF-FXUS63-AFDSGF",
-    "afd_time": "2026-09-06T08:12:00Z",
-    "updated": "2026-09-06T09:30:52.561233+00:00"
+    "product_id": "202609061040-KSGF-FXUS63-AFDSGF",
+    "afd_time": "2026-09-06T10:40:00Z",
+    "updated": "2026-09-06T13:43:18.853394+00:00"
   }
 }

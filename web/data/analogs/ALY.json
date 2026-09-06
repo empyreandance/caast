@@ -1,78 +1,78 @@
 {
   "office": "ALY",
-  "product_id": "202609060638-KALY-FXUS61-AFDALY",
-  "afd_time": "2026-09-06T06:38:00Z",
+  "product_id": "202609061013-KALY-FXUS61-AFDALY",
+  "afd_time": "2026-09-06T10:13:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-06T09:30:52.561233+00:00",
+  "updated": "2026-09-06T13:43:18.853394+00:00",
   "query_preview": "..\nKEY MESSAGE 1...As of 2:35 AM EDT...Current GOES 16 WV imagery \nshows a closed upper low (ULL) sitting near Nova Scotia, with a \nshortwave disturbance diving south into upstate NY around its \nwestern periphery. While there isn't a ton of moisture, this has\nstill provided enough lift for a few sho",
   "analogs": [
     {
+      "datetime_utc": "2024-08-19T07:30Z",
+      "source_file": "ALY_2024_19_0730.txt",
+      "similarity": 0.41094377636909485,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2024-08-18T19:58Z",
       "source_file": "ALY_2024_18_1958.txt",
-      "similarity": 0.41094374656677246,
+      "similarity": 0.41094377636909485,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-08-18T23:38Z",
+      "source_file": "ALY_2024_18_2338.txt",
+      "similarity": 0.41094377636909485,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2024-08-19T02:33Z",
       "source_file": "ALY_2024_19_0233.txt",
-      "similarity": 0.41094374656677246,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-08-18T23:38Z",
-      "source_file": "ALY_2024_18_2338.txt",
-      "similarity": 0.41094374656677246,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-08-19T07:30Z",
-      "source_file": "ALY_2024_19_0730.txt",
-      "similarity": 0.41094374656677246,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-10-03T11:32Z",
-      "source_file": "ALY_2010_03_1132.txt",
-      "similarity": 0.40784457325935364,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-10-03T12:18Z",
-      "source_file": "ALY_2010_03_1218.txt",
-      "similarity": 0.40784457325935364,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-10-03T14:58Z",
-      "source_file": "ALY_2010_03_1458.txt",
-      "similarity": 0.40784457325935364,
+      "similarity": 0.41094377636909485,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-10-03T17:35Z",
       "source_file": "ALY_2010_03_1735.txt",
-      "similarity": 0.40784457325935364,
+      "similarity": 0.4078446328639984,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-10-03T14:58Z",
+      "source_file": "ALY_2010_03_1458.txt",
+      "similarity": 0.4078446328639984,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-10-03T11:32Z",
+      "source_file": "ALY_2010_03_1132.txt",
+      "similarity": 0.4078446328639984,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-10-03T08:22Z",
       "source_file": "ALY_2010_03_0822.txt",
-      "similarity": 0.40784457325935364,
+      "similarity": 0.4078446328639984,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-06-26T15:38Z",
-      "source_file": "ALY_2004_26_1538.txt",
-      "similarity": 0.40728336572647095,
+      "datetime_utc": "2010-10-03T12:18Z",
+      "source_file": "ALY_2010_03_1218.txt",
+      "similarity": 0.4078446328639984,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-06-26T12:31Z",
+      "source_file": "ALY_2004_26_1231.txt",
+      "similarity": 0.4072834253311157,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.4090281218290329,
+    "mean_similarity": 0.40902816951274873,
     "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202609060638-KALY-FXUS61-AFDALY",
-    "afd_time": "2026-09-06T06:38:00Z",
-    "updated": "2026-09-06T09:30:52.561233+00:00"
+    "product_id": "202609061013-KALY-FXUS61-AFDALY",
+    "afd_time": "2026-09-06T10:13:00Z",
+    "updated": "2026-09-06T13:43:18.853394+00:00"
   }
 }

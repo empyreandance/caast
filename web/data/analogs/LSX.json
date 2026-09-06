@@ -1,38 +1,31 @@
 {
   "office": "LSX",
-  "product_id": "202609060759-KLSX-FXUS63-AFDLSX",
-  "afd_time": "2026-09-06T07:59:00Z",
+  "product_id": "202609061121-KLSX-FXUS63-AFDLSX",
+  "afd_time": "2026-09-06T11:21:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-06T09:30:52.561233+00:00",
+  "updated": "2026-09-06T13:43:18.853394+00:00",
   "query_preview": "/TUESDAY THROUGH SATURDAY/...\nIssued at 258 AM CDT Sun Sep 6 2026\n\nBy Tuesday and Wednesday, the upper-level ridge that had been in \nplace across the region last week, shifts back eastward, quickly \nretreating the surface high pressure and enabling low-level \nsouthwesterly WAA that warms 850-hPa tem",
   "analogs": [
     {
       "datetime_utc": "2005-01-20T03:41Z",
       "source_file": "LSX_2005_20_0341.txt",
-      "similarity": 0.39990001916885376,
+      "similarity": 0.39990007877349854,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-07-22T20:56Z",
       "source_file": "LSX_2005_22_2056.txt",
-      "similarity": 0.3976864218711853,
+      "similarity": 0.39768654108047485,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-11-23T08:49Z",
       "source_file": "LSX_2005_23_0849.txt",
-      "similarity": 0.3934836685657501,
+      "similarity": 0.3934836983680725,
       "label": "tornado",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-10-24T04:06Z",
-      "source_file": "LSX_2007_24_0406.txt",
-      "similarity": 0.39249536395072937,
-      "label": "quiet",
-      "is_severe": false
     },
     {
       "datetime_utc": "2007-10-23T23:07Z",
@@ -49,22 +42,29 @@
       "is_severe": false
     },
     {
+      "datetime_utc": "2007-10-24T04:06Z",
+      "source_file": "LSX_2007_24_0406.txt",
+      "similarity": 0.39249536395072937,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2004-07-20T07:18Z",
       "source_file": "LSX_2004_20_0718.txt",
-      "similarity": 0.38129276037216187,
+      "similarity": 0.38129281997680664,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-09-27T18:56Z",
-      "source_file": "LSX_2004_27_1856_1.txt",
+      "source_file": "LSX_2004_27_1856.txt",
       "similarity": 0.37917226552963257,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-09-27T18:56Z",
-      "source_file": "LSX_2004_27_1856.txt",
+      "source_file": "LSX_2004_27_1856_1.txt",
       "similarity": 0.37917226552963257,
       "label": "quiet",
       "is_severe": false
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.38867744505405427,
+    "mean_similarity": 0.38867747187614443,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202609060759-KLSX-FXUS63-AFDLSX",
-    "afd_time": "2026-09-06T07:59:00Z",
-    "updated": "2026-09-06T09:30:52.561233+00:00"
+    "product_id": "202609061121-KLSX-FXUS63-AFDLSX",
+    "afd_time": "2026-09-06T11:21:00Z",
+    "updated": "2026-09-06T13:43:18.853394+00:00"
   }
 }
