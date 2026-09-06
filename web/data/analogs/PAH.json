@@ -1,18 +1,11 @@
 {
   "office": "PAH",
-  "product_id": "202609052030-KPAH-FXUS63-AFDPAH",
-  "afd_time": "2026-09-05T20:30:00Z",
+  "product_id": "202609052348-KPAH-FXUS63-AFDPAH",
+  "afd_time": "2026-09-05T23:48:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-05T21:20:05.332817+00:00",
+  "updated": "2026-09-05T23:57:57.654622+00:00",
   "query_preview": "..\nIssued at 143 PM CDT Sat Sep 5 2026\n\nA sfc cold front to our north will slowly sink south today and \ntonight. We could see some isolated to scattered showers/storms pop \nup with the heat of the day ahead of the front. Right now location \nis lower confidence as there are no boundaries around to fo",
   "analogs": [
-    {
-      "datetime_utc": "2016-08-02T19:58Z",
-      "source_file": "PAH_2016_02_1958.txt",
-      "similarity": 0.41619521379470825,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2016-08-02T23:34Z",
       "source_file": "PAH_2016_02_2334.txt",
@@ -28,23 +21,23 @@
       "is_severe": true
     },
     {
+      "datetime_utc": "2016-08-02T19:58Z",
+      "source_file": "PAH_2016_02_1958.txt",
+      "similarity": 0.41619521379470825,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2007-06-12T17:57Z",
       "source_file": "PAH_2007_12_1757.txt",
-      "similarity": 0.4144465923309326,
+      "similarity": 0.414446622133255,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2022-04-12T06:50Z",
       "source_file": "PAH_2022_12_0650.txt",
-      "similarity": 0.39159631729125977,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-06-11T08:53Z",
-      "source_file": "PAH_2010_11_0853.txt",
-      "similarity": 0.3887631297111511,
+      "similarity": 0.391596257686615,
       "label": "tornado",
       "is_severe": true
     },
@@ -56,36 +49,43 @@
       "is_severe": true
     },
     {
+      "datetime_utc": "2010-06-11T08:53Z",
+      "source_file": "PAH_2010_11_0853.txt",
+      "similarity": 0.3887631297111511,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2012-07-14T19:59Z",
       "source_file": "PAH_2012_14_1959.txt",
-      "similarity": 0.38868099451065063,
+      "similarity": 0.38868093490600586,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-05-10T04:30Z",
+      "source_file": "PAH_2012_10_0430.txt",
+      "similarity": 0.38582926988601685,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-05-09T19:41Z",
       "source_file": "PAH_2012_09_1941.txt",
-      "similarity": 0.3858293294906616,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-05-09T23:05Z",
-      "source_file": "PAH_2012_09_2305.txt",
-      "similarity": 0.3858293294906616,
+      "similarity": 0.38582926988601685,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.8,
-    "mean_similarity": 0.39924944639205934,
-    "n_severe": 8,
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.39924942553043363,
+    "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202609052030-KPAH-FXUS63-AFDPAH",
-    "afd_time": "2026-09-05T20:30:00Z",
-    "updated": "2026-09-05T21:20:05.332817+00:00"
+    "product_id": "202609052348-KPAH-FXUS63-AFDPAH",
+    "afd_time": "2026-09-05T23:48:00Z",
+    "updated": "2026-09-05T23:57:57.654622+00:00"
   }
 }
