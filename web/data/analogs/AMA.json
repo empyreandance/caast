@@ -1,91 +1,91 @@
 {
   "office": "AMA",
-  "product_id": "202609052026-KAMA-FXUS64-AFDAMA",
-  "afd_time": "2026-09-05T20:26:00Z",
+  "product_id": "202609060410-KAMA-FXUS64-AFDAMA",
+  "afd_time": "2026-09-06T04:10:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-05T21:20:05.332817+00:00",
-  "query_preview": "..\n(Monday through next Friday)\nIssued at 324 PM CDT Sat Sep 5 2026\n\nDuring the long term, Monday into Friday, high pressure \ncontinues to dominate the region leaving afternoon highs in the 90s. \nWith the high pressure expected to go through a slight evolution and \npotential suppression, high temper",
+  "updated": "2026-09-06T04:46:16.007692+00:00",
+  "query_preview": "..\n(Tuesday through next Saturday)\nIssued at 831 PM CDT Sat Sep 5 2026\n\nThe flat high pressure across the southern portion of the country\nwill stay in place for the majority of the week. By next weekend\nanother decent trough will move from the Pacific Northwest into\nthe northern and central US but w",
   "analogs": [
+    {
+      "datetime_utc": "2004-07-08T21:13Z",
+      "source_file": "AMA_2004_08_2113.txt",
+      "similarity": 0.4365629255771637,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-04-23T20:28Z",
+      "source_file": "AMA_2005_23_2028.txt",
+      "similarity": 0.4338502883911133,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-01-27T09:00Z",
+      "source_file": "AMA_2004_27_0900_1.txt",
+      "similarity": 0.4258102476596832,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-06-27T08:01Z",
+      "source_file": "AMA_2022_27_0801.txt",
+      "similarity": 0.4242922365665436,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-06-27T10:53Z",
+      "source_file": "AMA_2022_27_1053.txt",
+      "similarity": 0.4242922365665436,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-11-27T10:32Z",
+      "source_file": "AMA_2005_27_1032.txt",
+      "similarity": 0.4228585958480835,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2004-10-27T08:55Z",
       "source_file": "AMA_2004_27_0855_1.txt",
-      "similarity": 0.46243709325790405,
+      "similarity": 0.4222260117530823,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-10-26T21:10Z",
       "source_file": "AMA_2004_26_2110.txt",
-      "similarity": 0.46243709325790405,
+      "similarity": 0.4222260117530823,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-02-14T09:57Z",
       "source_file": "AMA_2016_14_0957.txt",
-      "similarity": 0.45666253566741943,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-11-27T10:32Z",
-      "source_file": "AMA_2005_27_1032.txt",
-      "similarity": 0.45196905732154846,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-04-23T20:28Z",
-      "source_file": "AMA_2005_23_2028.txt",
-      "similarity": 0.4515339136123657,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-07-02T08:46Z",
-      "source_file": "AMA_2004_02_0846.txt",
-      "similarity": 0.4505993723869324,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-10-17T10:50Z",
-      "source_file": "AMA_2007_17_1050.txt",
-      "similarity": 0.44865334033966064,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-10-17T20:51Z",
-      "source_file": "AMA_2007_17_2051.txt",
-      "similarity": 0.44865334033966064,
+      "similarity": 0.42142802476882935,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-11-24T21:53Z",
       "source_file": "AMA_2004_24_2153.txt",
-      "similarity": 0.44364607334136963,
+      "similarity": 0.4212484359741211,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-02-02T21:17Z",
-      "source_file": "AMA_2016_02_2117.txt",
-      "similarity": 0.44227010011672974,
-      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.4518861919641495,
-    "n_severe": 1,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.4254795014858246,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609052026-KAMA-FXUS64-AFDAMA",
-    "afd_time": "2026-09-05T20:26:00Z",
-    "updated": "2026-09-05T21:20:05.332817+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202609060410-KAMA-FXUS64-AFDAMA",
+    "afd_time": "2026-09-06T04:10:00Z",
+    "updated": "2026-09-06T04:46:16.007692+00:00"
   }
 }
