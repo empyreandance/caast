@@ -1,91 +1,91 @@
 {
   "office": "RLX",
-  "product_id": "202609052359-KRLX-FXUS61-AFDRLX",
-  "afd_time": "2026-09-05T23:59:00Z",
+  "product_id": "202609060601-KRLX-FXUS61-AFDRLX",
+  "afd_time": "2026-09-06T06:01:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-06T04:46:16.007692+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...\n\nA cold front is pushing southward across the forecast area today \nwith showers and a few strong thunderstorms ahead of it. Much of \nthis thunderstorm activity has already exited northern and central \nWest Virginia, southeast Ohio, and northeast Kentucky, but a line of \nstrong to",
+  "updated": "2026-09-06T09:30:52.561233+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...\n\nShower and storm coverage winds down early this morning now that\nthe cold front has completed its slow passage through the\nforecast area. One last batch of nocturnal convection was\nshifting southeastward at the time of writing, and should clip\nour southern zones within the next ",
   "analogs": [
     {
-      "datetime_utc": "2008-02-07T10:18Z",
-      "source_file": "RLX_2008_07_1018.txt",
-      "similarity": 0.42187410593032837,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2008-08-01T11:29Z",
+      "source_file": "RLX_2008_01_1129.txt",
+      "similarity": 0.39301836490631104,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-08-01T10:52Z",
+      "source_file": "RLX_2008_01_1052.txt",
+      "similarity": 0.39301836490631104,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-08-01T14:59Z",
+      "source_file": "RLX_2008_01_1459.txt",
+      "similarity": 0.39301836490631104,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-08-01T07:32Z",
+      "source_file": "RLX_2008_01_0732.txt",
+      "similarity": 0.39301836490631104,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-08-01T17:38Z",
+      "source_file": "RLX_2008_01_1738.txt",
+      "similarity": 0.39301836490631104,
+      "label": "tornado",
+      "is_severe": true
     },
     {
       "datetime_utc": "2008-02-07T18:39Z",
       "source_file": "RLX_2008_07_1839.txt",
-      "similarity": 0.42187410593032837,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-02-07T09:15Z",
-      "source_file": "RLX_2008_07_0915.txt",
-      "similarity": 0.42187410593032837,
+      "similarity": 0.39195501804351807,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2008-02-07T15:14Z",
       "source_file": "RLX_2008_07_1514.txt",
-      "similarity": 0.42187410593032837,
+      "similarity": 0.39195501804351807,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2008-02-07T17:59Z",
       "source_file": "RLX_2008_07_1759.txt",
-      "similarity": 0.42187410593032837,
+      "similarity": 0.39195501804351807,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-04-22T19:02Z",
-      "source_file": "RLX_2015_22_1902_1.txt",
-      "similarity": 0.4150797426700592,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2008-02-07T10:18Z",
+      "source_file": "RLX_2008_07_1018.txt",
+      "similarity": 0.39195501804351807,
+      "label": "winter",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2015-04-23T10:29Z",
-      "source_file": "RLX_2015_23_1029_1.txt",
-      "similarity": 0.4150797426700592,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2015-04-23T05:32Z",
-      "source_file": "RLX_2015_23_0532.txt",
-      "similarity": 0.4150797426700592,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2015-04-23T16:11Z",
-      "source_file": "RLX_2015_23_1611.txt",
-      "similarity": 0.4150797426700592,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2015-04-23T18:00Z",
-      "source_file": "RLX_2015_23_1800.txt",
-      "similarity": 0.4150797426700592,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2008-02-07T09:15Z",
+      "source_file": "RLX_2008_07_0915.txt",
+      "similarity": 0.39195501804351807,
+      "label": "winter",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.4184769243001938,
+    "mean_similarity": 0.39248669147491455,
     "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202609052359-KRLX-FXUS61-AFDRLX",
-    "afd_time": "2026-09-05T23:59:00Z",
-    "updated": "2026-09-06T04:46:16.007692+00:00"
+    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
+    "product_id": "202609060601-KRLX-FXUS61-AFDRLX",
+    "afd_time": "2026-09-06T06:01:00Z",
+    "updated": "2026-09-06T09:30:52.561233+00:00"
   }
 }
