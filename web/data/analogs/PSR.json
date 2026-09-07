@@ -1,91 +1,91 @@
 {
   "office": "PSR",
-  "product_id": "202609062300-KPSR-FXUS65-AFDPSR",
-  "afd_time": "2026-09-06T23:00:00Z",
+  "product_id": "202609070949-KPSR-FXUS65-AFDPSR",
+  "afd_time": "2026-09-07T09:49:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-06T23:59:23.537335+00:00",
-  "query_preview": "/WEDNESDAY THROUGH SATURDAY/... \nHeading into the latter half of the workweek, ensemble model \nguidance has come into slightly better agreement on the overall \nsynoptic pattern. The models have come into better agreement on the \nplacement of the features, but still differ on the overall strength \nof",
+  "updated": "2026-09-07T10:25:26.035874+00:00",
+  "query_preview": "/THURSDAY THROUGH SUNDAY/...    \nLatest NBM/WPC guidance depicts the greatest coverage of Major \nHeatRisk across the forecast area on Thursday, with morning lows in \nthe middle to upper 80s across the lower deserts and forecast highs \n106F-110F. These temperatures during the hottest time of the year",
   "analogs": [
     {
-      "datetime_utc": "2023-08-15T18:05Z",
-      "source_file": "PSR_2023_15_1805.txt",
-      "similarity": 0.4452899396419525,
-      "label": "severe_wind",
+      "datetime_utc": "2006-03-10T12:18Z",
+      "source_file": "PSR_2006_10_1218.txt",
+      "similarity": 0.45760655403137207,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-01-22T09:48Z",
-      "source_file": "PSR_2010_22_0948.txt",
-      "similarity": 0.4450451135635376,
-      "label": "severe_hail",
+      "datetime_utc": "2006-03-10T18:02Z",
+      "source_file": "PSR_2006_10_1802.txt",
+      "similarity": 0.45760655403137207,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-06-29T10:44Z",
+      "source_file": "PSR_2004_29_1044_1.txt",
+      "similarity": 0.4557458162307739,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-08-15T18:05Z",
+      "source_file": "PSR_2023_15_1805.txt",
+      "similarity": 0.4531726837158203,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-01-22T13:18Z",
       "source_file": "PSR_2010_22_1318.txt",
-      "similarity": 0.4450451135635376,
+      "similarity": 0.45223504304885864,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2021-05-17T23:55Z",
-      "source_file": "PSR_2021_17_2355.txt",
-      "similarity": 0.44040071964263916,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2010-01-22T09:48Z",
+      "source_file": "PSR_2010_22_0948.txt",
+      "similarity": 0.45223504304885864,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2010-05-15T10:25Z",
-      "source_file": "PSR_2010_15_1025.txt",
-      "similarity": 0.4309330880641937,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-05-16T04:35Z",
-      "source_file": "PSR_2010_16_0435.txt",
-      "similarity": 0.4309330880641937,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-05-15T11:30Z",
-      "source_file": "PSR_2010_15_1130.txt",
-      "similarity": 0.4309330880641937,
+      "datetime_utc": "2004-06-25T22:30Z",
+      "source_file": "PSR_2004_25_2230_1.txt",
+      "similarity": 0.451820969581604,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2010-05-15T16:35Z",
       "source_file": "PSR_2010_15_1635.txt",
-      "similarity": 0.4309330880641937,
+      "similarity": 0.4510537385940552,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-08-28T09:55Z",
-      "source_file": "PSR_2006_28_0955.txt",
-      "similarity": 0.43016088008880615,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2010-05-15T10:25Z",
+      "source_file": "PSR_2010_15_1025.txt",
+      "similarity": 0.4510537385940552,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2004-06-29T10:44Z",
-      "source_file": "PSR_2004_29_1044_1.txt",
-      "similarity": 0.42997658252716064,
-      "label": "quiet",
+      "datetime_utc": "2010-05-16T04:35Z",
+      "source_file": "PSR_2010_16_0435.txt",
+      "similarity": 0.4510537385940552,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.4359650701284409,
-    "n_severe": 4,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.4533583879470825,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609062300-KPSR-FXUS65-AFDPSR",
-    "afd_time": "2026-09-06T23:00:00Z",
-    "updated": "2026-09-06T23:59:23.537335+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202609070949-KPSR-FXUS65-AFDPSR",
+    "afd_time": "2026-09-07T09:49:00Z",
+    "updated": "2026-09-07T10:25:26.035874+00:00"
   }
 }
