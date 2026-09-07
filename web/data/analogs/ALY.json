@@ -1,91 +1,91 @@
 {
   "office": "ALY",
-  "product_id": "202609071045-KALY-FXUS61-AFDALY",
-  "afd_time": "2026-09-07T10:45:00Z",
+  "product_id": "202609071810-KALY-FXUS61-AFDALY",
+  "afd_time": "2026-09-07T18:10:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-07T16:31:35.395399+00:00",
+  "updated": "2026-09-07T20:38:03.538310+00:00",
   "query_preview": "..\nKEY MESSAGE 1...\n\nHigh pressure centered over the lower Great Lakes early this \nmorning, will track east into NY State today. This will provide \ncontinue cool mornings and seasonably warm daytime temperatures \ntoday through Tuesday. Patchy fog will likely occur in typical \nfavored river/sheltered",
   "analogs": [
     {
-      "datetime_utc": "2024-08-18T19:58Z",
-      "source_file": "ALY_2024_18_1958.txt",
-      "similarity": 0.4513775706291199,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-08-19T02:33Z",
-      "source_file": "ALY_2024_19_0233.txt",
-      "similarity": 0.4513775706291199,
+      "datetime_utc": "2005-10-10T01:56Z",
+      "source_file": "ALY_2005_10_0156.txt",
+      "similarity": 0.4651821255683899,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-08-18T23:38Z",
-      "source_file": "ALY_2024_18_2338.txt",
-      "similarity": 0.4513775706291199,
-      "label": "flood",
-      "is_severe": false
+      "datetime_utc": "2005-10-09T21:41Z",
+      "source_file": "ALY_2005_09_2141.txt",
+      "similarity": 0.4651821255683899,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
       "datetime_utc": "2024-08-19T07:30Z",
       "source_file": "ALY_2024_19_0730.txt",
-      "similarity": 0.4513775706291199,
+      "similarity": 0.4621507525444031,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-06-26T15:38Z",
-      "source_file": "ALY_2004_26_1538.txt",
-      "similarity": 0.44805610179901123,
+      "datetime_utc": "2024-08-19T02:33Z",
+      "source_file": "ALY_2024_19_0233.txt",
+      "similarity": 0.4621507525444031,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-08-18T19:58Z",
+      "source_file": "ALY_2024_18_1958.txt",
+      "similarity": 0.4621507525444031,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-08-18T23:38Z",
+      "source_file": "ALY_2024_18_2338.txt",
+      "similarity": 0.4621507525444031,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-07-27T05:16Z",
+      "source_file": "ALY_2004_27_0516.txt",
+      "similarity": 0.46124231815338135,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-06-26T06:51Z",
-      "source_file": "ALY_2004_26_0651.txt",
-      "similarity": 0.44805610179901123,
+      "datetime_utc": "2005-09-29T01:54Z",
+      "source_file": "ALY_2005_29_0154.txt",
+      "similarity": 0.4576908051967621,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-09-28T20:15Z",
+      "source_file": "ALY_2005_28_2015.txt",
+      "similarity": 0.4576908051967621,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-06-26T12:31Z",
-      "source_file": "ALY_2004_26_1231.txt",
-      "similarity": 0.44805610179901123,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-07-20T05:44Z",
-      "source_file": "ALY_2021_20_0544.txt",
-      "similarity": 0.4465845823287964,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-07-20T01:45Z",
-      "source_file": "ALY_2021_20_0145.txt",
-      "similarity": 0.4465845823287964,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-07-20T04:52Z",
-      "source_file": "ALY_2021_20_0452.txt",
-      "similarity": 0.4465845823287964,
+      "datetime_utc": "2005-10-24T09:40Z",
+      "source_file": "ALY_2005_24_0940.txt",
+      "similarity": 0.45598676800727844,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.8,
-    "mean_similarity": 0.4489432334899902,
-    "n_severe": 8,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.4611577957868576,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609071045-KALY-FXUS61-AFDALY",
-    "afd_time": "2026-09-07T10:45:00Z",
-    "updated": "2026-09-07T16:31:35.395399+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202609071810-KALY-FXUS61-AFDALY",
+    "afd_time": "2026-09-07T18:10:00Z",
+    "updated": "2026-09-07T20:38:03.538310+00:00"
   }
 }
