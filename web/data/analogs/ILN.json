@@ -1,21 +1,14 @@
 {
   "office": "ILN",
-  "product_id": "202609071809-KILN-FXUS61-AFDILN",
-  "afd_time": "2026-09-07T18:09:00Z",
+  "product_id": "202609072332-KILN-FXUS61-AFDILN",
+  "afd_time": "2026-09-07T23:32:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-07T20:38:03.538310+00:00",
+  "updated": "2026-09-07T23:34:34.928077+00:00",
   "query_preview": "..\nKEY MESSAGE 1) \nHigh pressure centered over the eastern Great Lakes will continue to\ntranslate eastward tonight into tomorrow. As this occurs, low level \nflow will turn and become southerly on Tuesday. Meanwhile, mid level \nhigh pressure will expand eastward tomorrow but then start to get \nsuppre",
   "analogs": [
     {
       "datetime_utc": "2021-06-16T20:00Z",
       "source_file": "ILN_2021_16_2000.txt",
-      "similarity": 0.474001944065094,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-06-16T23:53Z",
-      "source_file": "ILN_2021_16_2353.txt",
       "similarity": 0.474001944065094,
       "label": "tornado",
       "is_severe": true
@@ -28,15 +21,15 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2023-05-25T01:33Z",
-      "source_file": "ILN_2023_25_0133.txt",
-      "similarity": 0.4724046587944031,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2021-06-16T23:53Z",
+      "source_file": "ILN_2021_16_2353.txt",
+      "similarity": 0.474001944065094,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2023-05-25T05:02Z",
-      "source_file": "ILN_2023_25_0502.txt",
+      "datetime_utc": "2023-05-24T23:40Z",
+      "source_file": "ILN_2023_24_2340_1.txt",
       "similarity": 0.4724046587944031,
       "label": "quiet",
       "is_severe": false
@@ -49,30 +42,37 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-05-24T23:40Z",
-      "source_file": "ILN_2023_24_2340_1.txt",
+      "datetime_utc": "2023-05-25T05:02Z",
+      "source_file": "ILN_2023_25_0502.txt",
       "similarity": 0.4724046587944031,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-05-09T05:28Z",
-      "source_file": "ILN_2023_09_0528.txt",
-      "similarity": 0.4653993248939514,
+      "datetime_utc": "2023-05-25T01:33Z",
+      "source_file": "ILN_2023_25_0133.txt",
+      "similarity": 0.4724046587944031,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-05-08T19:40Z",
+      "source_file": "ILN_2023_08_1940.txt",
+      "similarity": 0.46539944410324097,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-05-09T00:17Z",
+      "source_file": "ILN_2023_09_0017.txt",
+      "similarity": 0.46539944410324097,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2023-05-09T02:35Z",
       "source_file": "ILN_2023_09_0235.txt",
-      "similarity": 0.4653993248939514,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2023-05-09T00:17Z",
-      "source_file": "ILN_2023_09_0017.txt",
-      "similarity": 0.4653993248939514,
+      "similarity": 0.46539944410324097,
       "label": "tornado",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.4707822442054749,
+    "mean_similarity": 0.4707822799682617,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202609071809-KILN-FXUS61-AFDILN",
-    "afd_time": "2026-09-07T18:09:00Z",
-    "updated": "2026-09-07T20:38:03.538310+00:00"
+    "product_id": "202609072332-KILN-FXUS61-AFDILN",
+    "afd_time": "2026-09-07T23:32:00Z",
+    "updated": "2026-09-07T23:34:34.928077+00:00"
   }
 }
