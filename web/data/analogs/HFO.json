@@ -1,78 +1,78 @@
 {
   "office": "HFO",
-  "product_id": "202609071805-PHFO-FXHW60-AFDHFO",
-  "afd_time": "2026-09-07T18:05:00Z",
+  "product_id": "202609080225-PHFO-FXHW60-AFDHFO",
+  "afd_time": "2026-09-08T02:25:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-07T20:38:03.538310+00:00",
-  "query_preview": "..\nHurricane Lowell is about 325 statute miles southwest of Kauai \nthis morning moving north northeastward. Lowell's track has \nshifted eastward closer to Kauai and Niihau with advisory updates \nthis morning, and the core of Lowell is expected to pass west of \nthe Kauai. This has again has raised th",
+  "updated": "2026-09-08T04:44:18.631742+00:00",
+  "query_preview": "..\nHurricane Lowell is about 160 statute miles southwest of Kauai \nthis afternoon moving north northeastward at 18 mph as a high end\ncategory 2 (maximum sustained winds of 110 mph). The core of \nLowell is expected to pass west of Niihau, raising the possibility\nof hurricane force winds reaching Kaua",
   "analogs": [
-    {
-      "datetime_utc": "2015-10-02T01:54Z",
-      "source_file": "HFO_2015_02_0154.txt",
-      "similarity": 0.6494739055633545,
-      "label": "flood",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2006-12-15T06:39Z",
       "source_file": "HFO_2006_15_0639.txt",
-      "similarity": 0.6491523385047913,
+      "similarity": 0.6460707187652588,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-10-02T01:54Z",
+      "source_file": "HFO_2015_02_0154.txt",
+      "similarity": 0.6445332765579224,
+      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-01-15T19:58Z",
       "source_file": "HFO_2009_15_1958_1.txt",
-      "similarity": 0.6484616994857788,
+      "similarity": 0.6401691436767578,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-01-09T19:52Z",
-      "source_file": "HFO_2024_09_1952.txt",
-      "similarity": 0.6393700838088989,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-01-09T14:22Z",
-      "source_file": "HFO_2024_09_1422.txt",
-      "similarity": 0.6393700838088989,
-      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-12-26T06:56Z",
       "source_file": "HFO_2023_26_0656.txt",
-      "similarity": 0.6381500959396362,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-01-16T06:57Z",
-      "source_file": "HFO_2014_16_0657.txt",
-      "similarity": 0.6353827714920044,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-12-26T07:13Z",
-      "source_file": "HFO_2019_26_0713.txt",
-      "similarity": 0.6309237480163574,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-12-26T01:55Z",
-      "source_file": "HFO_2019_26_0155.txt",
-      "similarity": 0.6309237480163574,
+      "similarity": 0.6303068399429321,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2010-03-06T02:00Z",
       "source_file": "HFO_2010_06_0200.txt",
-      "similarity": 0.6304632425308228,
+      "similarity": 0.628926157951355,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-01-09T14:22Z",
+      "source_file": "HFO_2024_09_1422.txt",
+      "similarity": 0.628196120262146,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-01-09T19:52Z",
+      "source_file": "HFO_2024_09_1952.txt",
+      "similarity": 0.628196120262146,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-02-22T06:51Z",
+      "source_file": "HFO_2006_22_0651.txt",
+      "similarity": 0.6261922717094421,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-01-16T06:57Z",
+      "source_file": "HFO_2014_16_0657.txt",
+      "similarity": 0.625055193901062,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-07-09T19:51Z",
+      "source_file": "HFO_2009_09_1951.txt",
+      "similarity": 0.6216322779655457,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.0,
-    "mean_similarity": 0.63916717171669,
+    "mean_similarity": 0.6319278120994568,
     "n_severe": 0,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.64 below confidence floor 0.7",
-    "product_id": "202609071805-PHFO-FXHW60-AFDHFO",
-    "afd_time": "2026-09-07T18:05:00Z",
-    "updated": "2026-09-07T20:38:03.538310+00:00"
+    "reason": "top-10 mean similarity 0.63 below confidence floor 0.7",
+    "product_id": "202609080225-PHFO-FXHW60-AFDHFO",
+    "afd_time": "2026-09-08T02:25:00Z",
+    "updated": "2026-09-08T04:44:18.631742+00:00"
   }
 }
