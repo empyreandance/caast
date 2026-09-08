@@ -1,91 +1,91 @@
 {
   "office": "IWX",
-  "product_id": "202609080950-KIWX-FXUS63-AFDIWX",
-  "afd_time": "2026-09-08T09:50:00Z",
+  "product_id": "202609081833-KIWX-FXUS63-AFDIWX",
+  "afd_time": "2026-09-08T18:33:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-08T14:37:47.424240+00:00",
-  "query_preview": "..\nIssued at 300 AM EDT Tue Sep 8 2026\n\nHigh pressure remains in place today, currently centered over PA, \nwhile plenty of high clouds are filtering in from low pressure over \nthe Dakotas. The combination of return southerly flow off the \naformentioned high pressure along with 500-mb height increasi",
+  "updated": "2026-09-08T18:46:04.675521+00:00",
+  "query_preview": "..\nIssued at 233 PM EDT Tue Sep 8 2026\n\nLow confidence forecast remains through Thursday as models\ncontinue to differ on finer details for temps and precip\nchances, especially Wednesday night. Main cold front (much\ncooler and less humid air) is located from Minnesota to central\nNE and is not expecte",
   "analogs": [
     {
-      "datetime_utc": "2007-02-05T20:58Z",
-      "source_file": "IWX_2007_05_2058.txt",
-      "similarity": 0.42681634426116943,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2012-09-02T05:31Z",
+      "source_file": "IWX_2012_02_0531.txt",
+      "similarity": 0.4259268641471863,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2019-02-12T06:40Z",
-      "source_file": "IWX_2019_12_0640.txt",
-      "similarity": 0.4204680323600769,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2012-09-01T19:44Z",
+      "source_file": "IWX_2012_01_1944.txt",
+      "similarity": 0.4259268641471863,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2019-02-12T02:19Z",
-      "source_file": "IWX_2019_12_0219.txt",
-      "similarity": 0.4204680323600769,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-02-11T23:29Z",
-      "source_file": "IWX_2019_11_2329_1.txt",
-      "similarity": 0.4204680323600769,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-02-11T21:01Z",
-      "source_file": "IWX_2019_11_2101.txt",
-      "similarity": 0.4204680323600769,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-02-12T05:00Z",
-      "source_file": "IWX_2019_12_0500.txt",
-      "similarity": 0.4204680323600769,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-06-16T11:33Z",
-      "source_file": "IWX_2005_16_1133.txt",
-      "similarity": 0.4185316562652588,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2012-09-02T00:05Z",
+      "source_file": "IWX_2012_02_0005.txt",
+      "similarity": 0.4259268641471863,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2005-06-16T07:58Z",
       "source_file": "IWX_2005_16_0758.txt",
-      "similarity": 0.4185316562652588,
+      "similarity": 0.4230680465698242,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-06-16T17:27Z",
       "source_file": "IWX_2005_16_1727.txt",
-      "similarity": 0.4185316562652588,
+      "similarity": 0.4230680465698242,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-06-16T11:33Z",
+      "source_file": "IWX_2005_16_1133.txt",
+      "similarity": 0.4230680465698242,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-06-16T16:01Z",
       "source_file": "IWX_2005_16_1601.txt",
-      "similarity": 0.4185316562652588,
+      "similarity": 0.4230680465698242,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-09-06T10:37Z",
+      "source_file": "IWX_2017_06_1037.txt",
+      "similarity": 0.41965481638908386,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-09-06T07:30Z",
+      "source_file": "IWX_2017_06_0730.txt",
+      "similarity": 0.41965481638908386,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-09-06T17:01Z",
+      "source_file": "IWX_2017_06_1701.txt",
+      "similarity": 0.41965481638908386,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.42032831311225893,
-    "n_severe": 0,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.4229017227888107,
+    "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202609080950-KIWX-FXUS63-AFDIWX",
-    "afd_time": "2026-09-08T09:50:00Z",
-    "updated": "2026-09-08T14:37:47.424240+00:00"
+    "product_id": "202609081833-KIWX-FXUS63-AFDIWX",
+    "afd_time": "2026-09-08T18:33:00Z",
+    "updated": "2026-09-08T18:46:04.675521+00:00"
   }
 }

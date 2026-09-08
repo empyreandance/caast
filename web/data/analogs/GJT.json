@@ -1,91 +1,91 @@
 {
   "office": "GJT",
-  "product_id": "202609081112-KGJT-FXUS65-AFDGJT",
-  "afd_time": "2026-09-08T11:12:00Z",
+  "product_id": "202609081828-KGJT-FXUS65-AFDGJT",
+  "afd_time": "2026-09-08T18:28:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-08T14:37:47.424240+00:00",
-  "query_preview": "..\nIssued at 1018 PM MDT Mon Sep 7 2026\n\nDrier southwesterly flow will gradually transition to more \nzonal flow by Wednesday as high pressure builds into the Desert \nSouthwest. As a result, generally clear skies and warming \ntemperatures will be the story for the coming week. There is a \nlow (<15%) ",
+  "updated": "2026-09-08T18:46:04.675521+00:00",
+  "query_preview": "..\nIssued at 1216 PM MDT Tue Sep 8 2026\n\nDRY THROUGH THURSDAY: \n\nHigh pressure building to our south will support a shift from\nsouthwesterly to more west/northwesterly flow by tomorrow. The \nshift to more zonal flow will bring drier air to the region. \nThe drier air will remain in place through Thur",
   "analogs": [
     {
-      "datetime_utc": "2021-04-08T23:38Z",
-      "source_file": "GJT_2021_08_2338.txt",
-      "similarity": 0.4414973258972168,
-      "label": "severe_hail",
+      "datetime_utc": "2009-05-21T11:15Z",
+      "source_file": "GJT_2009_21_1115_1.txt",
+      "similarity": 0.421722412109375,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-04-08T21:32Z",
       "source_file": "GJT_2021_08_2132.txt",
-      "similarity": 0.4414973258972168,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-04-09T04:44Z",
-      "source_file": "GJT_2021_09_0444.txt",
-      "similarity": 0.4414973258972168,
+      "similarity": 0.41230833530426025,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-04-09T03:12Z",
       "source_file": "GJT_2021_09_0312.txt",
-      "similarity": 0.4414973258972168,
+      "similarity": 0.41230833530426025,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-05-21T11:15Z",
-      "source_file": "GJT_2009_21_1115_1.txt",
-      "similarity": 0.4351192116737366,
-      "label": "tornado",
+      "datetime_utc": "2021-04-09T04:44Z",
+      "source_file": "GJT_2021_09_0444.txt",
+      "similarity": 0.41230833530426025,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2023-01-23T11:55Z",
-      "source_file": "GJT_2023_23_1155.txt",
-      "similarity": 0.42655640840530396,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-23T17:37Z",
-      "source_file": "GJT_2023_23_1737.txt",
-      "similarity": 0.42655640840530396,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-23T09:44Z",
-      "source_file": "GJT_2023_23_0944.txt",
-      "similarity": 0.42655640840530396,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2021-04-08T23:38Z",
+      "source_file": "GJT_2021_08_2338.txt",
+      "similarity": 0.41230833530426025,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
       "datetime_utc": "2005-06-15T10:09Z",
       "source_file": "GJT_2005_15_1009.txt",
-      "similarity": 0.4251060485839844,
+      "similarity": 0.4064083695411682,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-05-31T20:57Z",
       "source_file": "GJT_2011_31_2057.txt",
-      "similarity": 0.42415985465049744,
+      "similarity": 0.4033205211162567,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-09-01T09:41Z",
+      "source_file": "GJT_2007_01_0941.txt",
+      "similarity": 0.40180152654647827,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-08-15T10:04Z",
+      "source_file": "GJT_2009_15_1004.txt",
+      "similarity": 0.40176814794540405,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-08-23T03:43Z",
+      "source_file": "GJT_2005_23_0343.txt",
+      "similarity": 0.3992699980735779,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.43300436437129974,
-    "n_severe": 6,
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.4083524316549301,
+    "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202609081112-KGJT-FXUS65-AFDGJT",
-    "afd_time": "2026-09-08T11:12:00Z",
-    "updated": "2026-09-08T14:37:47.424240+00:00"
+    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
+    "product_id": "202609081828-KGJT-FXUS65-AFDGJT",
+    "afd_time": "2026-09-08T18:28:00Z",
+    "updated": "2026-09-08T18:46:04.675521+00:00"
   }
 }
