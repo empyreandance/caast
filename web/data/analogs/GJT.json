@@ -1,91 +1,91 @@
 {
   "office": "GJT",
-  "product_id": "202609091119-KGJT-FXUS65-AFDGJT",
-  "afd_time": "2026-09-09T11:19:00Z",
+  "product_id": "202609091745-KGJT-FXUS65-AFDGJT",
+  "afd_time": "2026-09-09T17:45:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-09T11:29:57.963244+00:00",
-  "query_preview": "..\nIssued at 940 PM MDT Tue Sep 8 2026\n\nHigh pressure to our east flattens as a trough moves across the\nnorthern high plains and southern Canada. The only real\nsignificant change for us will be flow shifting from\nsouthwesterly to more north through northwesterly. Models\ncontinue to indicate drier ai",
+  "updated": "2026-09-09T19:50:15.933220+00:00",
+  "query_preview": "..\nIssued at 1132 AM MDT Wed Sep 9 2026\n\nWARM AND DRY CONDITIONS:\n\nHigh pressure that has been centered over the central US is getting \nnudged back west by shortwave activity across the northern tier. \nThis will result in dry westerly flow for the next few days. It\nwill also cause temperatures to ra",
   "analogs": [
-    {
-      "datetime_utc": "2021-04-08T21:32Z",
-      "source_file": "GJT_2021_08_2132.txt",
-      "similarity": 0.4610438644886017,
-      "label": "severe_hail",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2021-04-09T04:44Z",
       "source_file": "GJT_2021_09_0444.txt",
-      "similarity": 0.4610438644886017,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-04-09T03:12Z",
-      "source_file": "GJT_2021_09_0312.txt",
-      "similarity": 0.4610438644886017,
+      "similarity": 0.470622718334198,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-04-08T23:38Z",
       "source_file": "GJT_2021_08_2338.txt",
-      "similarity": 0.4610438644886017,
+      "similarity": 0.470622718334198,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-04-09T03:12Z",
+      "source_file": "GJT_2021_09_0312.txt",
+      "similarity": 0.470622718334198,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-04-08T21:32Z",
+      "source_file": "GJT_2021_08_2132.txt",
+      "similarity": 0.470622718334198,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-05-21T11:15Z",
       "source_file": "GJT_2009_21_1115_1.txt",
-      "similarity": 0.44905662536621094,
+      "similarity": 0.45707499980926514,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-04-04T08:51Z",
-      "source_file": "GJT_2008_04_0851.txt",
-      "similarity": 0.4410763382911682,
+      "datetime_utc": "2011-05-31T20:57Z",
+      "source_file": "GJT_2011_31_2057.txt",
+      "similarity": 0.45392775535583496,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-01-23T11:55Z",
+      "source_file": "GJT_2023_23_1155.txt",
+      "similarity": 0.45093852281570435,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-06-15T10:09Z",
-      "source_file": "GJT_2005_15_1009.txt",
-      "similarity": 0.44046857953071594,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-09-18T20:38Z",
-      "source_file": "GJT_2008_18_2038.txt",
-      "similarity": 0.43983563780784607,
-      "label": "quiet",
+      "datetime_utc": "2023-01-23T09:44Z",
+      "source_file": "GJT_2023_23_0944.txt",
+      "similarity": 0.45093852281570435,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-05-31T20:57Z",
-      "source_file": "GJT_2011_31_2057.txt",
-      "similarity": 0.4397343099117279,
-      "label": "quiet",
+      "datetime_utc": "2023-01-23T17:37Z",
+      "source_file": "GJT_2023_23_1737.txt",
+      "similarity": 0.45093852281570435,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-06-27T20:36Z",
-      "source_file": "GJT_2010_27_2036.txt",
-      "similarity": 0.43589305877685547,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2008-04-04T08:51Z",
+      "source_file": "GJT_2008_04_0851.txt",
+      "similarity": 0.447063684463501,
+      "label": "winter",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.44902400076389315,
-    "n_severe": 7,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.45933728814125063,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609091119-KGJT-FXUS65-AFDGJT",
-    "afd_time": "2026-09-09T11:19:00Z",
-    "updated": "2026-09-09T11:29:57.963244+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202609091745-KGJT-FXUS65-AFDGJT",
+    "afd_time": "2026-09-09T17:45:00Z",
+    "updated": "2026-09-09T19:50:15.933220+00:00"
   }
 }
