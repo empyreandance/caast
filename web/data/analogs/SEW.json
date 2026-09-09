@@ -1,91 +1,91 @@
 {
   "office": "SEW",
-  "product_id": "202609090258-KSEW-FXUS66-AFDSEW",
-  "afd_time": "2026-09-09T02:58:00Z",
+  "product_id": "202609090951-KSEW-FXUS66-AFDSEW",
+  "afd_time": "2026-09-09T09:51:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-09T06:03:36.553608+00:00",
-  "query_preview": "/FRIDAY THROUGH TUESDAY/...\nTroughing further develops over the Pacific Northwest on Friday\nwith a continued cooling trend late in the week. Ensembles are \nin general agreement that an upper low moves southwards offshore\nFriday before moving inland over WA/OR during the weekend. Rain\npotential incre",
+  "updated": "2026-09-09T11:29:57.963244+00:00",
+  "query_preview": "/FRIDAY NIGHT THROUGH TUESDAY/...\nThe upper-low will move inland over WA/OR during the weekend. Rain\npotential increases as the upper low moves inland, particularly\nSaturday into Saturday night. There is also a 10 to 15 percent \nprobability for thunderstorms Saturday afternoon. Some \nuncertainty in ",
   "analogs": [
     {
-      "datetime_utc": "2005-12-12T17:55Z",
-      "source_file": "SEW_2005_12_1755.txt",
-      "similarity": 0.5928170680999756,
+      "datetime_utc": "2014-07-28T21:39Z",
+      "source_file": "SEW_2014_28_2139.txt",
+      "similarity": 0.49254217743873596,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-01-16T11:29Z",
+      "source_file": "SEW_2016_16_1129.txt",
+      "similarity": 0.4893674850463867,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-01-21T11:11Z",
       "source_file": "SEW_2005_21_1111.txt",
-      "similarity": 0.5927911400794983,
+      "similarity": 0.48727455735206604,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-03-25T04:47Z",
+      "source_file": "SEW_2015_25_0447.txt",
+      "similarity": 0.48678213357925415,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-12-12T17:55Z",
+      "source_file": "SEW_2005_12_1755.txt",
+      "similarity": 0.4850563108921051,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-09-06T00:05Z",
+      "source_file": "SEW_2013_06_0005.txt",
+      "similarity": 0.4799461364746094,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-??-02T04:11Z",
       "source_file": "SEW_2005_02_0411.txt",
-      "similarity": 0.5817426443099976,
+      "similarity": 0.4789743423461914,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-09-06T00:05Z",
-      "source_file": "SEW_2013_06_0005.txt",
-      "similarity": 0.5737265944480896,
+      "datetime_utc": "2012-02-01T17:11Z",
+      "source_file": "SEW_2012_01_1711_1.txt",
+      "similarity": 0.47828930616378784,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-01-31T05:30Z",
+      "source_file": "SEW_2014_31_0530.txt",
+      "similarity": 0.47776925563812256,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-10-05T09:50Z",
       "source_file": "SEW_2019_05_0950.txt",
-      "similarity": 0.5714305639266968,
+      "similarity": 0.4769185781478882,
       "label": "severe_hail",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-12-29T18:04Z",
-      "source_file": "SEW_2017_29_1804.txt",
-      "similarity": 0.5712059736251831,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-12-02T05:14Z",
-      "source_file": "SEW_2015_02_0514.txt",
-      "similarity": 0.5707727670669556,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-09-13T21:57Z",
-      "source_file": "SEW_2018_13_2157.txt",
-      "similarity": 0.5663903951644897,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-09-14T03:50Z",
-      "source_file": "SEW_2018_14_0350.txt",
-      "similarity": 0.5663903951644897,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-01-16T11:29Z",
-      "source_file": "SEW_2016_16_1129.txt",
-      "similarity": 0.5656025409698486,
-      "label": "winter",
-      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.5752870082855225,
-    "n_severe": 1,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.48329202830791473,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.58 below confidence floor 0.7",
-    "product_id": "202609090258-KSEW-FXUS66-AFDSEW",
-    "afd_time": "2026-09-09T02:58:00Z",
-    "updated": "2026-09-09T06:03:36.553608+00:00"
+    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
+    "product_id": "202609090951-KSEW-FXUS66-AFDSEW",
+    "afd_time": "2026-09-09T09:51:00Z",
+    "updated": "2026-09-09T11:29:57.963244+00:00"
   }
 }

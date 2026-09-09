@@ -1,78 +1,78 @@
 {
   "office": "PBZ",
-  "product_id": "202609082300-KPBZ-FXUS61-AFDPBZ",
-  "afd_time": "2026-09-08T23:00:00Z",
+  "product_id": "202609090721-KPBZ-FXUS61-AFDPBZ",
+  "afd_time": "2026-09-09T07:21:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-09T00:20:14.417190+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...\nConfidence remains high that quiet and dry weather will persist\nthrough Wednesday afternoon under high pressure. Temperatures\nwill trend above average through tomorrow with southerly winds \nahead of an approaching disturbance.\n\nModels continue to depict a large-scale trough track",
+  "updated": "2026-09-09T11:29:57.963244+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...\nHigh-resolution models continue to indicate that shower and\nthunderstorm activity will increase late this evening just south\nof Lake Erie as an approaching trough and its associated cold\nfront move into the region. \n\nThe most likely window for storms to develop would be between\n7",
   "analogs": [
     {
-      "datetime_utc": "2017-08-23T06:38Z",
-      "source_file": "PBZ_2017_23_0638.txt",
-      "similarity": 0.4925781488418579,
+      "datetime_utc": "2017-08-23T11:54Z",
+      "source_file": "PBZ_2017_23_1154.txt",
+      "similarity": 0.48132675886154175,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-08-23T11:54Z",
-      "source_file": "PBZ_2017_23_1154.txt",
-      "similarity": 0.4925781488418579,
+      "datetime_utc": "2017-08-23T06:38Z",
+      "source_file": "PBZ_2017_23_0638.txt",
+      "similarity": 0.48132675886154175,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-08-23T09:08Z",
       "source_file": "PBZ_2017_23_0908.txt",
-      "similarity": 0.4925781488418579,
+      "similarity": 0.48132675886154175,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-06-06T07:21Z",
       "source_file": "PBZ_2006_06_0721.txt",
-      "similarity": 0.4792279899120331,
+      "similarity": 0.4679360091686249,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-05-25T06:31Z",
       "source_file": "PBZ_2009_25_0631.txt",
-      "similarity": 0.4768652319908142,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-09-20T18:32Z",
-      "source_file": "PBZ_2005_20_1832.txt",
-      "similarity": 0.4763833284378052,
+      "similarity": 0.4645228385925293,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2025-07-15T17:54Z",
       "source_file": "PBZ_2025_15_1754.txt",
-      "similarity": 0.4760381877422333,
+      "similarity": 0.4643869996070862,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-09-20T18:32Z",
+      "source_file": "PBZ_2005_20_1832.txt",
+      "similarity": 0.46267661452293396,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-03-16T05:34Z",
+      "source_file": "PBZ_2008_16_0534.txt",
+      "similarity": 0.4597751498222351,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-03-16T11:38Z",
+      "source_file": "PBZ_2008_16_1138.txt",
+      "similarity": 0.4597751498222351,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-06-11T17:33Z",
       "source_file": "PBZ_2021_11_1733_1.txt",
-      "similarity": 0.4719909131526947,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2023-07-31T18:09Z",
-      "source_file": "PBZ_2023_31_1809.txt",
-      "similarity": 0.4712538719177246,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2023-07-01T01:27Z",
-      "source_file": "PBZ_2023_01_0127.txt",
-      "similarity": 0.4712538719177246,
+      "similarity": 0.4596623182296753,
       "label": "tornado",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.4800747841596603,
+    "mean_similarity": 0.4682715356349945,
     "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202609082300-KPBZ-FXUS61-AFDPBZ",
-    "afd_time": "2026-09-08T23:00:00Z",
-    "updated": "2026-09-09T00:20:14.417190+00:00"
+    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
+    "product_id": "202609090721-KPBZ-FXUS61-AFDPBZ",
+    "afd_time": "2026-09-09T07:21:00Z",
+    "updated": "2026-09-09T11:29:57.963244+00:00"
   }
 }
