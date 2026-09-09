@@ -1,91 +1,91 @@
 {
   "office": "ALY",
-  "product_id": "202609081753-KALY-FXUS61-AFDALY",
-  "afd_time": "2026-09-08T17:53:00Z",
+  "product_id": "202609082347-KALY-FXUS61-AFDALY",
+  "afd_time": "2026-09-08T23:47:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-08T18:46:04.675521+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...\n\nHigh pressure continues across the region through tonight. Low \ntemperatures tonight into tomorrow morning continue to be near \nnormal. \n\nKEY MESSAGE 2...\n\nAfternoon Update: The forecast remains on track for tomorrow night \ninto Thursday morning. Increased wind gusts to range be",
+  "updated": "2026-09-09T00:20:14.417190+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...\n\nHigh pressure continues across much of the region through \ntonight. A few showers popped up late this pm/early this evening\nover the portions of the central-eastern Mohawk Valley with the\nweak backdoor front becoming stationary. Some slight chance \nPoPs were added for a few hour",
   "analogs": [
     {
-      "datetime_utc": "2024-08-19T02:33Z",
-      "source_file": "ALY_2024_19_0233.txt",
-      "similarity": 0.4677201509475708,
+      "datetime_utc": "2005-10-10T01:56Z",
+      "source_file": "ALY_2005_10_0156.txt",
+      "similarity": 0.4324541389942169,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-10-09T21:41Z",
+      "source_file": "ALY_2005_09_2141.txt",
+      "similarity": 0.4324541389942169,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-08-18T19:58Z",
       "source_file": "ALY_2024_18_1958.txt",
-      "similarity": 0.4677201509475708,
+      "similarity": 0.4322252869606018,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2024-08-19T07:30Z",
       "source_file": "ALY_2024_19_0730.txt",
-      "similarity": 0.4677201509475708,
+      "similarity": 0.4322252869606018,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-08-19T02:33Z",
+      "source_file": "ALY_2024_19_0233.txt",
+      "similarity": 0.4322252869606018,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-08-18T23:38Z",
       "source_file": "ALY_2024_18_2338.txt",
-      "similarity": 0.4677201509475708,
+      "similarity": 0.4322252869606018,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-10-09T21:41Z",
-      "source_file": "ALY_2005_09_2141.txt",
-      "similarity": 0.46457815170288086,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2023-08-18T02:15Z",
+      "source_file": "ALY_2023_18_0215.txt",
+      "similarity": 0.4256868362426758,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2005-10-10T01:56Z",
-      "source_file": "ALY_2005_10_0156.txt",
-      "similarity": 0.46457815170288086,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-07-20T01:45Z",
-      "source_file": "ALY_2021_20_0145.txt",
-      "similarity": 0.4638092517852783,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-07-20T04:52Z",
-      "source_file": "ALY_2021_20_0452.txt",
-      "similarity": 0.4638092517852783,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-07-20T05:44Z",
-      "source_file": "ALY_2021_20_0544.txt",
-      "similarity": 0.4638092517852783,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-08-23T07:54Z",
-      "source_file": "ALY_2020_23_0754.txt",
-      "similarity": 0.4585131108760834,
+      "datetime_utc": "2023-08-17T23:09Z",
+      "source_file": "ALY_2023_17_2309.txt",
+      "similarity": 0.4256868362426758,
       "label": "tornado",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-08-17T23:31Z",
+      "source_file": "ALY_2023_17_2331.txt",
+      "similarity": 0.4256868362426758,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-08-18T05:40Z",
+      "source_file": "ALY_2023_18_0540.txt",
+      "similarity": 0.4256868362426758,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.8,
-    "mean_similarity": 0.46499777734279635,
-    "n_severe": 8,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.4296556770801544,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202609081753-KALY-FXUS61-AFDALY",
-    "afd_time": "2026-09-08T17:53:00Z",
-    "updated": "2026-09-08T18:46:04.675521+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202609082347-KALY-FXUS61-AFDALY",
+    "afd_time": "2026-09-08T23:47:00Z",
+    "updated": "2026-09-09T00:20:14.417190+00:00"
   }
 }

@@ -1,24 +1,31 @@
 {
   "office": "DLH",
-  "product_id": "202609081941-KDLH-FXUS63-AFDDLH",
-  "afd_time": "2026-09-08T19:41:00Z",
+  "product_id": "202609082322-KDLH-FXUS63-AFDDLH",
+  "afd_time": "2026-09-08T23:22:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-08T21:56:15.382733+00:00",
+  "updated": "2026-09-09T00:20:14.417190+00:00",
   "query_preview": "..\nIssued at 240 PM CDT Tue Sep 8 2026\n\nRest of Today - Tonight:\n\nAs of 230 PM this afternoon, regional satellite imagery shows \nmuch of the Northland under cloud cover ahead of a cold front \nnow moving into portions of central to north-central Minnesota, \nwith rapid clearing behind it. This extensi",
   "analogs": [
     {
       "datetime_utc": "2023-09-25T21:00Z",
       "source_file": "DLH_2023_25_2100.txt",
-      "similarity": 0.4889998435974121,
+      "similarity": 0.48899978399276733,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2023-09-25T23:38Z",
       "source_file": "DLH_2023_25_2338.txt",
-      "similarity": 0.4889998435974121,
+      "similarity": 0.48899978399276733,
       "label": "tornado",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-02-10T05:29Z",
+      "source_file": "DLH_2024_10_0529_1.txt",
+      "similarity": 0.4837157726287842,
+      "label": "winter",
+      "is_severe": false
     },
     {
       "datetime_utc": "2024-02-09T23:35Z",
@@ -35,44 +42,37 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2024-02-10T05:29Z",
-      "source_file": "DLH_2024_10_0529_1.txt",
-      "similarity": 0.4837157726287842,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2008-08-06T20:04Z",
       "source_file": "DLH_2008_06_2004.txt",
-      "similarity": 0.4805784523487091,
+      "similarity": 0.4805784225463867,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-08-07T02:26Z",
       "source_file": "DLH_2008_07_0226.txt",
-      "similarity": 0.4805784523487091,
+      "similarity": 0.4805784225463867,
       "label": "severe_hail",
       "is_severe": true
     },
     {
+      "datetime_utc": "2023-01-26T11:42Z",
+      "source_file": "DLH_2023_26_1142.txt",
+      "similarity": 0.4797195792198181,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2023-01-26T17:49Z",
       "source_file": "DLH_2023_26_1749.txt",
-      "similarity": 0.4797195494174957,
+      "similarity": 0.4797195792198181,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-01-26T10:11Z",
       "source_file": "DLH_2023_26_1011.txt",
-      "similarity": 0.4797195494174957,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-26T11:42Z",
-      "source_file": "DLH_2023_26_1142.txt",
-      "similarity": 0.4797195494174957,
+      "similarity": 0.4797195792198181,
       "label": "winter",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.48294625580310824,
+    "mean_similarity": 0.4829462468624115,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202609081941-KDLH-FXUS63-AFDDLH",
-    "afd_time": "2026-09-08T19:41:00Z",
-    "updated": "2026-09-08T21:56:15.382733+00:00"
+    "product_id": "202609082322-KDLH-FXUS63-AFDDLH",
+    "afd_time": "2026-09-08T23:22:00Z",
+    "updated": "2026-09-09T00:20:14.417190+00:00"
   }
 }

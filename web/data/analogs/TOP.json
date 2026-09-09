@@ -1,22 +1,22 @@
 {
   "office": "TOP",
-  "product_id": "202609081927-KTOP-FXUS63-AFDTOP",
-  "afd_time": "2026-09-08T19:27:00Z",
+  "product_id": "202609082351-KTOP-FXUS63-AFDTOP",
+  "afd_time": "2026-09-08T23:51:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-08T21:56:15.382733+00:00",
+  "updated": "2026-09-09T00:20:14.417190+00:00",
   "query_preview": "..\nIssued at 227 PM CDT Tue Sep 8 2026\n\n19Z water vapor imagery showed the upper ridge was still over the \nsouthern plains as a series of upper level waves moved across the \nPacific Northwest and northern plains. Surface obs placed a weak \nboundary from northwest KS through the middle MO river valle",
   "analogs": [
     {
       "datetime_utc": "2004-02-21T10:36Z",
       "source_file": "TOP_2004_21_1036.txt",
-      "similarity": 0.44487863779067993,
+      "similarity": 0.4448786973953247,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-04-14T20:10Z",
       "source_file": "TOP_2007_14_2010.txt",
-      "similarity": 0.44142964482307434,
+      "similarity": 0.44142961502075195,
       "label": "quiet",
       "is_severe": false
     },
@@ -28,32 +28,25 @@
       "is_severe": true
     },
     {
+      "datetime_utc": "2012-12-17T21:47Z",
+      "source_file": "TOP_2012_17_2147.txt",
+      "similarity": 0.4293617904186249,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2012-12-17T23:42Z",
       "source_file": "TOP_2012_17_2342.txt",
-      "similarity": 0.4293617606163025,
+      "similarity": 0.4293617904186249,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-12-18T05:32Z",
       "source_file": "TOP_2012_18_0532.txt",
-      "similarity": 0.4293617606163025,
+      "similarity": 0.4293617904186249,
       "label": "severe_hail",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-12-17T21:47Z",
-      "source_file": "TOP_2012_17_2147.txt",
-      "similarity": 0.4293617606163025,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-05-20T17:47Z",
-      "source_file": "TOP_2022_20_1747.txt",
-      "similarity": 0.4260759949684143,
-      "label": "flood",
-      "is_severe": false
     },
     {
       "datetime_utc": "2022-05-20T08:31Z",
@@ -70,9 +63,16 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-02-20T21:18Z",
-      "source_file": "TOP_2015_20_2118.txt",
-      "similarity": 0.42574718594551086,
+      "datetime_utc": "2022-05-20T17:47Z",
+      "source_file": "TOP_2022_20_1747.txt",
+      "similarity": 0.4260759949684143,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-02-21T06:04Z",
+      "source_file": "TOP_2015_21_0604.txt",
+      "similarity": 0.42574721574783325,
       "label": "winter",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.4309471696615219,
+    "mean_similarity": 0.4309471845626831,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202609081927-KTOP-FXUS63-AFDTOP",
-    "afd_time": "2026-09-08T19:27:00Z",
-    "updated": "2026-09-08T21:56:15.382733+00:00"
+    "product_id": "202609082351-KTOP-FXUS63-AFDTOP",
+    "afd_time": "2026-09-08T23:51:00Z",
+    "updated": "2026-09-09T00:20:14.417190+00:00"
   }
 }
