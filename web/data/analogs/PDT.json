@@ -1,91 +1,91 @@
 {
   "office": "PDT",
-  "product_id": "202609101809-KPDT-FXUS66-AFDPDT",
-  "afd_time": "2026-09-10T18:09:00Z",
+  "product_id": "202609102047-KPDT-FXUS66-AFDPDT",
+  "afd_time": "2026-09-10T20:47:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-10T19:47:37.864960+00:00",
-  "query_preview": "..\nSHORT TERM: Current radar and infrared satellite imagery shows \ndry conditions as high level clouds stream across the Kittitas \nValley and into the Columbia Basin from the north. This is in \nresponse to an approaching upper level trough and associated \nweak cold front that will move into the area",
+  "updated": "2026-09-10T22:39:08.108925+00:00",
+  "query_preview": "..\n\n\nZonal flow was developing with an increasing mid level heights \ngradients Today. HiRES models show a weak tough forecast/placed \nacross the Interior and Pacific NW by about 7 am Friday. This is\nthe initial mass adjustment in advance of a more robust upper \nlow poised to move onto the PAC NW coa",
   "analogs": [
     {
       "datetime_utc": "2017-03-21T16:10Z",
       "source_file": "PDT_2017_21_1610.txt",
-      "similarity": 0.4260859191417694,
+      "similarity": 0.4757551848888397,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-03-21T21:49Z",
       "source_file": "PDT_2017_21_2149.txt",
-      "similarity": 0.4260859191417694,
+      "similarity": 0.4757551848888397,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-05-23T09:34Z",
+      "source_file": "PDT_2024_23_0934.txt",
+      "similarity": 0.4723120927810669,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-05-23T15:58Z",
       "source_file": "PDT_2024_23_1558.txt",
-      "similarity": 0.42319756746292114,
+      "similarity": 0.4723120927810669,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-05-23T17:25Z",
       "source_file": "PDT_2024_23_1725.txt",
-      "similarity": 0.42319756746292114,
+      "similarity": 0.4723120927810669,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-05-23T09:34Z",
-      "source_file": "PDT_2024_23_0934.txt",
-      "similarity": 0.42319756746292114,
+      "datetime_utc": "2006-08-19T16:20Z",
+      "source_file": "PDT_2006_19_1620.txt",
+      "similarity": 0.4580730199813843,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-01-01T10:25Z",
-      "source_file": "PDT_2005_01_1025.txt",
-      "similarity": 0.41908198595046997,
+      "datetime_utc": "2006-08-19T09:29Z",
+      "source_file": "PDT_2006_19_0929.txt",
+      "similarity": 0.4580730199813843,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-08-19T09:30Z",
+      "source_file": "PDT_2006_19_0930.txt",
+      "similarity": 0.4580730199813843,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-07-10T17:32Z",
+      "source_file": "PDT_2020_10_1732.txt",
+      "similarity": 0.4568781852722168,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2020-07-10T09:36Z",
       "source_file": "PDT_2020_10_0936.txt",
-      "similarity": 0.4155663847923279,
+      "similarity": 0.4568781852722168,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-07-10T16:42Z",
-      "source_file": "PDT_2020_10_1642.txt",
-      "similarity": 0.4155663847923279,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-07-10T17:32Z",
-      "source_file": "PDT_2020_10_1732.txt",
-      "similarity": 0.4155663847923279,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-08-19T09:30Z",
-      "source_file": "PDT_2006_19_0930.txt",
-      "similarity": 0.41320765018463135,
-      "label": "severe_wind",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.4200753331184387,
-    "n_severe": 6,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.4656422078609467,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202609101809-KPDT-FXUS66-AFDPDT",
-    "afd_time": "2026-09-10T18:09:00Z",
-    "updated": "2026-09-10T19:47:37.864960+00:00"
+    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
+    "product_id": "202609102047-KPDT-FXUS66-AFDPDT",
+    "afd_time": "2026-09-10T20:47:00Z",
+    "updated": "2026-09-10T22:39:08.108925+00:00"
   }
 }

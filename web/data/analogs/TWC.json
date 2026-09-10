@@ -1,91 +1,91 @@
 {
   "office": "TWC",
-  "product_id": "202609101556-KTWC-FXUS65-AFDTWC",
-  "afd_time": "2026-09-10T15:56:00Z",
+  "product_id": "202609102051-KTWC-FXUS65-AFDTWC",
+  "afd_time": "2026-09-10T20:51:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-10T16:29:08.596094+00:00",
-  "query_preview": "..\nThe upper pattern this morning is dominated by a\nridge of high pressure across the Desert Southwest with an \nupper-high center positioned over west-central Arizona. The \nlatest GOES precipitable water imagery still continues to depict\ndeep moisture across all of Southeast Arizona with PWATs \n1.50",
+  "updated": "2026-09-10T22:39:08.108925+00:00",
+  "query_preview": "..High pressure is centered over south central\nArizona. Ample moisture is in place with PWATs 25-50 percent \nabove normal and dewpoints generally in the low 60s. However \neven with the moisture in place the proximity of the high will \nkeep storm activity subdued. CAMs show most storm activity on \nth",
   "analogs": [
     {
       "datetime_utc": "2022-09-23T18:09Z",
       "source_file": "TWC_2022_23_1809.txt",
-      "similarity": 0.48790788650512695,
+      "similarity": 0.4809640049934387,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-08-08T03:46Z",
+      "source_file": "TWC_2011_08_0346.txt",
+      "similarity": 0.4710026681423187,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-11-06T16:10Z",
       "source_file": "TWC_2007_06_1610.txt",
-      "similarity": 0.4755534529685974,
+      "similarity": 0.4704911410808563,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-08-08T03:46Z",
-      "source_file": "TWC_2011_08_0346.txt",
-      "similarity": 0.4731358289718628,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2022-05-22T09:37Z",
       "source_file": "TWC_2022_22_0937.txt",
-      "similarity": 0.46782779693603516,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2017-01-31T03:25Z",
-      "source_file": "TWC_2017_31_0325.txt",
-      "similarity": 0.46724486351013184,
+      "similarity": 0.4663495421409607,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2012-04-29T11:17Z",
       "source_file": "TWC_2012_29_1117.txt",
-      "similarity": 0.46675240993499756,
+      "similarity": 0.46469998359680176,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-01-31T03:25Z",
+      "source_file": "TWC_2017_31_0325.txt",
+      "similarity": 0.4617311656475067,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2008-06-11T16:25Z",
       "source_file": "TWC_2008_11_1625.txt",
-      "similarity": 0.46569472551345825,
+      "similarity": 0.46137911081314087,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2013-12-27T20:30Z",
       "source_file": "TWC_2013_27_2030.txt",
-      "similarity": 0.4656679630279541,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-09-09T03:54Z",
-      "source_file": "TWC_2010_09_0354.txt",
-      "similarity": 0.4566819667816162,
+      "similarity": 0.45764052867889404,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2020-09-05T09:26Z",
       "source_file": "TWC_2020_05_0926.txt",
-      "similarity": 0.4564635753631592,
+      "similarity": 0.4511447250843048,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-11-30T03:57Z",
+      "source_file": "TWC_2015_30_0357.txt",
+      "similarity": 0.4510849714279175,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.4682930469512939,
+    "mean_similarity": 0.463648784160614,
     "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202609101556-KTWC-FXUS65-AFDTWC",
-    "afd_time": "2026-09-10T15:56:00Z",
-    "updated": "2026-09-10T16:29:08.596094+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202609102051-KTWC-FXUS65-AFDTWC",
+    "afd_time": "2026-09-10T20:51:00Z",
+    "updated": "2026-09-10T22:39:08.108925+00:00"
   }
 }
