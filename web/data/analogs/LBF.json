@@ -1,91 +1,91 @@
 {
   "office": "LBF",
-  "product_id": "202609101130-KLBF-FXUS63-AFDLBF",
-  "afd_time": "2026-09-10T11:30:00Z",
+  "product_id": "202609101939-KLBF-FXUS63-AFDLBF",
+  "afd_time": "2026-09-10T19:39:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-10T16:29:08.596094+00:00",
-  "query_preview": "/SATURDAY THROUGH WEDNESDAY/...\nIssued at 153 AM CDT Thu Sep 10 2026\n\nA cold front passing through late Friday night to possibly early \nSaturday morning will bring a nice reprieve from the hot weather. \nDaytime highs Saturday are expected to be in the mid to upper 70s \nacross western and north centr",
+  "updated": "2026-09-10T19:47:37.864960+00:00",
+  "query_preview": "/SATURDAY THROUGH WEDNESDAY/...\nIssued at 238 PM CDT Thu Sep 10 2026\n\nZonal flow aloft is expected to start this weekend, though an upper \nlevel trough will continue to track east across the western United \nStates. However, there remains some uncertainty in the forward speed \nof this trough, as well",
   "analogs": [
     {
-      "datetime_utc": "2012-11-15T21:12Z",
-      "source_file": "LBF_2012_15_2112.txt",
-      "similarity": 0.504504382610321,
-      "label": "quiet",
+      "datetime_utc": "2004-03-24T21:12Z",
+      "source_file": "LBF_2004_24_2112.txt",
+      "similarity": 0.4776453971862793,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-01-31T23:26Z",
+      "source_file": "LBF_2014_31_2326.txt",
+      "similarity": 0.4598246216773987,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-11-15T23:26Z",
-      "source_file": "LBF_2012_15_2326.txt",
-      "similarity": 0.504504382610321,
-      "label": "quiet",
+      "datetime_utc": "2014-01-31T20:49Z",
+      "source_file": "LBF_2014_31_2049.txt",
+      "similarity": 0.4598246216773987,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-11-16T05:20Z",
-      "source_file": "LBF_2012_16_0520.txt",
-      "similarity": 0.504504382610321,
-      "label": "quiet",
+      "datetime_utc": "2014-01-01T05:16Z",
+      "source_file": "LBF_2014_01_0516.txt",
+      "similarity": 0.4598246216773987,
+      "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-07-15T20:24Z",
-      "source_file": "LBF_2012_15_2024.txt",
-      "similarity": 0.49841028451919556,
-      "label": "tornado",
+      "datetime_utc": "2014-01-01T04:21Z",
+      "source_file": "LBF_2014_01_0421.txt",
+      "similarity": 0.4598246216773987,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-09-29T20:04Z",
+      "source_file": "LBF_2004_29_2004.txt",
+      "similarity": 0.45863187313079834,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-07-16T01:00Z",
       "source_file": "LBF_2012_16_0100.txt",
-      "similarity": 0.49841028451919556,
+      "similarity": 0.4572722017765045,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-07-15T20:24Z",
+      "source_file": "LBF_2012_15_2024.txt",
+      "similarity": 0.4572722017765045,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-07-16T05:22Z",
       "source_file": "LBF_2012_16_0522_2.txt",
-      "similarity": 0.49841028451919556,
+      "similarity": 0.4572722017765045,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-02-09T09:36Z",
-      "source_file": "LBF_2006_09_0936.txt",
-      "similarity": 0.4973371624946594,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-03-15T20:48Z",
-      "source_file": "LBF_2004_15_2048.txt",
-      "similarity": 0.49536973237991333,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-04-17T19:49Z",
-      "source_file": "LBF_2004_17_1949.txt",
-      "similarity": 0.49531152844429016,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-04-18T20:12Z",
-      "source_file": "LBF_2007_18_2012.txt",
-      "similarity": 0.493051141500473,
-      "label": "tornado",
+      "datetime_utc": "2005-09-21T20:13Z",
+      "source_file": "LBF_2005_21_2013.txt",
+      "similarity": 0.4562980532646179,
+      "label": "severe_hail",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.4989813566207886,
-    "n_severe": 5,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.46036904156208036,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202609101130-KLBF-FXUS63-AFDLBF",
-    "afd_time": "2026-09-10T11:30:00Z",
-    "updated": "2026-09-10T16:29:08.596094+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202609101939-KLBF-FXUS63-AFDLBF",
+    "afd_time": "2026-09-10T19:39:00Z",
+    "updated": "2026-09-10T19:47:37.864960+00:00"
   }
 }
