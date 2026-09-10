@@ -1,91 +1,91 @@
 {
   "office": "PBZ",
-  "product_id": "202609092334-KPBZ-FXUS61-AFDPBZ",
-  "afd_time": "2026-09-09T23:34:00Z",
+  "product_id": "202609100721-KPBZ-FXUS61-AFDPBZ",
+  "afd_time": "2026-09-10T07:21:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-10T01:08:33.729700+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...\nNot much has changed since the previous forecast cycle. High-\nresolution models continue to indicate a line of storms forming\nlate this evening just south of Lake Erie as an approaching \ntrough and associated cold front move into the region. \n\nThe most likely window remains betwe",
+  "updated": "2026-09-10T11:26:48.175581+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...\n\nThe threat for thunderstorms has decreased over the past three\nhours this morning. Remnant showers are currently tracking south\nof I-70 along a shallow moisture boundary. Rainfall rates remain\nlight across northern West Virginia and do not currently pose a\nsignificant flooding t",
   "analogs": [
     {
       "datetime_utc": "2017-08-23T09:08Z",
       "source_file": "PBZ_2017_23_0908.txt",
-      "similarity": 0.4822973608970642,
+      "similarity": 0.47643566131591797,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-08-23T11:54Z",
       "source_file": "PBZ_2017_23_1154.txt",
-      "similarity": 0.4822973608970642,
+      "similarity": 0.47643566131591797,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-08-23T06:38Z",
       "source_file": "PBZ_2017_23_0638.txt",
-      "similarity": 0.4822973608970642,
+      "similarity": 0.47643566131591797,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-06-06T07:21Z",
       "source_file": "PBZ_2006_06_0721.txt",
-      "similarity": 0.4696281850337982,
+      "similarity": 0.4557698965072632,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-05-25T06:31Z",
       "source_file": "PBZ_2009_25_0631.txt",
-      "similarity": 0.4657944142818451,
+      "similarity": 0.45455414056777954,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-01-27T14:32Z",
+      "source_file": "PBZ_2011_27_1432.txt",
+      "similarity": 0.45419952273368835,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-01-27T06:33Z",
+      "source_file": "PBZ_2011_27_0633.txt",
+      "similarity": 0.45419952273368835,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-03-16T11:38Z",
+      "source_file": "PBZ_2008_16_1138.txt",
+      "similarity": 0.4538404643535614,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-03-16T05:34Z",
+      "source_file": "PBZ_2008_16_0534.txt",
+      "similarity": 0.4538404643535614,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2025-07-15T17:54Z",
       "source_file": "PBZ_2025_15_1754.txt",
-      "similarity": 0.4643777906894684,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-09-20T18:32Z",
-      "source_file": "PBZ_2005_20_1832.txt",
-      "similarity": 0.464232861995697,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-06-11T17:33Z",
-      "source_file": "PBZ_2021_11_1733_1.txt",
-      "similarity": 0.4602288603782654,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-03-16T05:34Z",
-      "source_file": "PBZ_2008_16_0534.txt",
-      "similarity": 0.45968979597091675,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-03-16T11:38Z",
-      "source_file": "PBZ_2008_16_1138.txt",
-      "similarity": 0.45968979597091675,
+      "similarity": 0.45339059829711914,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.46905337870121,
-    "n_severe": 7,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.4609101593494415,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202609092334-KPBZ-FXUS61-AFDPBZ",
-    "afd_time": "2026-09-09T23:34:00Z",
-    "updated": "2026-09-10T01:08:33.729700+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202609100721-KPBZ-FXUS61-AFDPBZ",
+    "afd_time": "2026-09-10T07:21:00Z",
+    "updated": "2026-09-10T11:26:48.175581+00:00"
   }
 }

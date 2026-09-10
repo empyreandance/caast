@@ -1,91 +1,91 @@
 {
   "office": "OUN",
-  "product_id": "202609100409-KOUN-FXUS64-AFDOUN",
-  "afd_time": "2026-09-10T04:09:00Z",
+  "product_id": "202609101040-KOUN-FXUS64-AFDOUN",
+  "afd_time": "2026-09-10T10:40:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-10T06:03:28.450459+00:00",
-  "query_preview": "..\n(Saturday through Tuesday)\nIssued at 202 AM CDT Wed Sep 9 2026\n\nNearby surface ridging and southerly surface flow will keep \ntemperatures hot over the weekend. Upper 90s to lower 100s appear \nlikely with some risk of reaching heat advisory criteria across \nparts of southern Oklahoma and north Tex",
+  "updated": "2026-09-10T11:26:48.175581+00:00",
+  "query_preview": "..\n(Sunday through Wednesday)\nIssued at 200 AM CDT Thu Sep 10 2026\n\nWe look to remain generally dry with continued above-normal warmth \non Sunday and Monday as the upper ridge amplifies. Daily highs look \nto continue running in the mid-90s to low-100s, with potential for \neven warmer heat indices.\n\n",
   "analogs": [
     {
       "datetime_utc": "2024-02-17T16:15Z",
       "source_file": "OUN_2024_17_1615.txt",
-      "similarity": 0.4421146512031555,
+      "similarity": 0.4493368864059448,
       "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-08-25T01:55Z",
+      "source_file": "OUN_2009_25_0155.txt",
+      "similarity": 0.44611281156539917,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-09-05T11:42Z",
       "source_file": "OUN_2012_05_1142.txt",
-      "similarity": 0.440285325050354,
+      "similarity": 0.44539374113082886,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-09-05T09:47Z",
       "source_file": "OUN_2012_05_0947.txt",
-      "similarity": 0.440285325050354,
+      "similarity": 0.44539374113082886,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-08-25T01:55Z",
-      "source_file": "OUN_2009_25_0155.txt",
-      "similarity": 0.437808632850647,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-08-07T19:58Z",
       "source_file": "OUN_2006_07_1958.txt",
-      "similarity": 0.43635493516921997,
+      "similarity": 0.44480812549591064,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-10-17T02:25Z",
+      "source_file": "OUN_2015_17_0225.txt",
+      "similarity": 0.4409615099430084,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-07-16T15:27Z",
       "source_file": "OUN_2012_16_1527.txt",
-      "similarity": 0.4331153631210327,
+      "similarity": 0.4384765028953552,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-08-27T02:41Z",
       "source_file": "OUN_2010_27_0241.txt",
-      "similarity": 0.4301595687866211,
+      "similarity": 0.4379717707633972,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-02-03T17:46Z",
       "source_file": "OUN_2014_03_1746.txt",
-      "similarity": 0.4287765622138977,
+      "similarity": 0.4369466304779053,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-10-17T02:25Z",
-      "source_file": "OUN_2015_17_0225.txt",
-      "similarity": 0.42125821113586426,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-10-11T12:15Z",
-      "source_file": "OUN_2012_11_1215.txt",
-      "similarity": 0.42064058780670166,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2011-11-23T17:21Z",
+      "source_file": "OUN_2011_23_1721.txt",
+      "similarity": 0.42666202783584595,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.9,
-    "mean_similarity": 0.4330799162387848,
-    "n_severe": 9,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.44120637476444247,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202609100409-KOUN-FXUS64-AFDOUN",
-    "afd_time": "2026-09-10T04:09:00Z",
-    "updated": "2026-09-10T06:03:28.450459+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202609101040-KOUN-FXUS64-AFDOUN",
+    "afd_time": "2026-09-10T10:40:00Z",
+    "updated": "2026-09-10T11:26:48.175581+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "GRB",
-  "product_id": "202609100340-KGRB-FXUS63-AFDGRB",
-  "afd_time": "2026-09-10T03:40:00Z",
+  "product_id": "202609101049-KGRB-FXUS63-AFDGRB",
+  "afd_time": "2026-09-10T10:49:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-10T06:03:28.450459+00:00",
-  "query_preview": "..\nIssued at 131 PM CDT Wed Sep 9 2026\n\nRAP analysis indicates a cold front dropping into southeast \nWisconsin early this afternoon, with surface high pressure \ncentered over the northern Plains steadily building eastward \ntoward the western Great Lakes in its wake. West winds behind the\ndeparting c",
+  "updated": "2026-09-10T11:26:48.175581+00:00",
+  "query_preview": "..\nIssued at 218 AM CDT Thu Sep 10 2026\n\nA few patchy areas of shallow ground fog may develop early this \nmorning across central WI with clear skies and calm winds, otherwise \nwith high pressure moving across the region no impactful weather \nis expected today \n\nStorm Chances Return Late Friday: Next",
   "analogs": [
-    {
-      "datetime_utc": "2005-04-17T04:08Z",
-      "source_file": "GRB_2005_17_0408.txt",
-      "similarity": 0.46511298418045044,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-01-13T09:40Z",
-      "source_file": "GRB_2008_13_0940.txt",
-      "similarity": 0.4649199843406677,
-      "label": "winter",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2004-01-04T09:33Z",
       "source_file": "GRB_2004_04_0933.txt",
-      "similarity": 0.4638056755065918,
+      "similarity": 0.4431541860103607,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-07-07T08:40Z",
-      "source_file": "GRB_2006_07_0840.txt",
-      "similarity": 0.45794007182121277,
+      "datetime_utc": "2007-05-22T08:59Z",
+      "source_file": "GRB_2007_22_0859.txt",
+      "similarity": 0.4420185685157776,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-06-01T17:41Z",
+      "source_file": "GRB_2024_01_1741.txt",
+      "similarity": 0.4392693042755127,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-06-01T11:45Z",
+      "source_file": "GRB_2024_01_1145.txt",
+      "similarity": 0.4392693042755127,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-06-01T08:56Z",
+      "source_file": "GRB_2024_01_0856.txt",
+      "similarity": 0.4392693042755127,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-01-22T20:49Z",
       "source_file": "GRB_2009_22_2049_1.txt",
-      "similarity": 0.4576147794723511,
+      "similarity": 0.43889153003692627,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-01-22T20:49Z",
       "source_file": "GRB_2009_22_2049_2.txt",
-      "similarity": 0.4576147794723511,
+      "similarity": 0.43889153003692627,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-08-26T19:16Z",
-      "source_file": "GRB_2004_26_1916.txt",
-      "similarity": 0.4561116695404053,
-      "label": "severe_wind",
+      "datetime_utc": "2013-07-07T03:56Z",
+      "source_file": "GRB_2013_07_0356.txt",
+      "similarity": 0.43866467475891113,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-??-21T07:56Z",
-      "source_file": "GRB_2007_21_0756.txt",
-      "similarity": 0.45560938119888306,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2013-07-06T23:43Z",
+      "source_file": "GRB_2013_06_2343.txt",
+      "similarity": 0.43866467475891113,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2008-01-19T20:38Z",
-      "source_file": "GRB_2008_19_2038.txt",
-      "similarity": 0.4538489580154419,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-02-13T09:36Z",
-      "source_file": "GRB_2008_13_0936.txt",
-      "similarity": 0.45112383365631104,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2013-07-06T19:28Z",
+      "source_file": "GRB_2013_06_1928.txt",
+      "similarity": 0.43866467475891113,
+      "label": "tornado",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.4583702117204666,
-    "n_severe": 2,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.43967577517032624,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202609100340-KGRB-FXUS63-AFDGRB",
-    "afd_time": "2026-09-10T03:40:00Z",
-    "updated": "2026-09-10T06:03:28.450459+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202609101049-KGRB-FXUS63-AFDGRB",
+    "afd_time": "2026-09-10T10:49:00Z",
+    "updated": "2026-09-10T11:26:48.175581+00:00"
   }
 }
