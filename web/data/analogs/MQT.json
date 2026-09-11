@@ -1,91 +1,91 @@
 {
   "office": "MQT",
-  "product_id": "202609110501-KMQT-FXUS63-AFDMQT",
-  "afd_time": "2026-09-11T05:01:00Z",
+  "product_id": "202609111101-KMQT-FXUS63-AFDMQT",
+  "afd_time": "2026-09-11T11:01:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-11T06:05:13.777773+00:00",
-  "query_preview": "..\nIssued at 319 PM EDT Thu Sep 10 2026\n\nAfternoon GOES satellite imagery reveals mostly sunny skies across \nthe northern Great Lakes and Upper Midwest aside from diurnal cu \nlocally seen in the interior UP. With ridging aloft holding through \ntonight, clear skies should allow temps to fall into the",
+  "updated": "2026-09-11T11:29:16.425574+00:00",
+  "query_preview": "..\nIssued at 238 AM EDT Fri Sep 11 2026\n\nEarly this morning, RAP analysis has the midlevel ridge axis \nshifting over the Great Lakes at this time, with the surface high \ncentered over the Lower Peninsula. Meanwhile, a shortwave is moving \ninto Manitoba and another into eastern Wyoming. With ridging ",
   "analogs": [
     {
-      "datetime_utc": "2018-08-16T20:21Z",
-      "source_file": "MQT_2018_16_2021.txt",
-      "similarity": 0.45299232006073,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2023-09-13T11:30Z",
+      "source_file": "MQT_2023_13_1130.txt",
+      "similarity": 0.4596256911754608,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2018-08-16T19:40Z",
-      "source_file": "MQT_2018_16_1940.txt",
-      "similarity": 0.45299232006073,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2023-09-13T07:06Z",
+      "source_file": "MQT_2023_13_0706.txt",
+      "similarity": 0.4596256911754608,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2018-08-17T05:01Z",
       "source_file": "MQT_2018_17_0501.txt",
-      "similarity": 0.45299232006073,
+      "similarity": 0.45391029119491577,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-08-16T20:21Z",
+      "source_file": "MQT_2018_16_2021.txt",
+      "similarity": 0.45391029119491577,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-08-16T22:31Z",
       "source_file": "MQT_2018_16_2231.txt",
-      "similarity": 0.45299232006073,
+      "similarity": 0.45391029119491577,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2023-09-13T07:06Z",
-      "source_file": "MQT_2023_13_0706.txt",
-      "similarity": 0.4523411989212036,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2018-08-16T19:40Z",
+      "source_file": "MQT_2018_16_1940.txt",
+      "similarity": 0.45391029119491577,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2023-09-13T11:30Z",
-      "source_file": "MQT_2023_13_1130.txt",
-      "similarity": 0.4523411989212036,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2022-05-12T07:04Z",
+      "source_file": "MQT_2022_12_0704.txt",
+      "similarity": 0.45252084732055664,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2017-04-27T19:58Z",
-      "source_file": "MQT_2017_27_1958.txt",
-      "similarity": 0.4519049823284149,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2022-05-12T04:41Z",
+      "source_file": "MQT_2022_12_0441.txt",
+      "similarity": 0.45252084732055664,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2017-04-27T23:59Z",
-      "source_file": "MQT_2017_27_2359.txt",
-      "similarity": 0.4519049823284149,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2022-05-11T22:32Z",
+      "source_file": "MQT_2022_11_2232.txt",
+      "similarity": 0.45252084732055664,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2004-06-30T19:53Z",
-      "source_file": "MQT_2004_30_1953.txt",
-      "similarity": 0.44842004776000977,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-05-11T20:24Z",
-      "source_file": "MQT_2022_11_2024.txt",
-      "similarity": 0.44724011421203613,
+      "datetime_utc": "2022-05-11T19:43Z",
+      "source_file": "MQT_2022_11_1943.txt",
+      "similarity": 0.45252084732055664,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.45161218047142027,
-    "n_severe": 5,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.4544975936412811,
+    "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609110501-KMQT-FXUS63-AFDMQT",
-    "afd_time": "2026-09-11T05:01:00Z",
-    "updated": "2026-09-11T06:05:13.777773+00:00"
+    "product_id": "202609111101-KMQT-FXUS63-AFDMQT",
+    "afd_time": "2026-09-11T11:01:00Z",
+    "updated": "2026-09-11T11:29:16.425574+00:00"
   }
 }
