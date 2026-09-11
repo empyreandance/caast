@@ -1,91 +1,91 @@
 {
   "office": "BOI",
-  "product_id": "202609111728-KBOI-FXUS65-AFDBOI",
-  "afd_time": "2026-09-11T17:28:00Z",
+  "product_id": "202609112009-KBOI-FXUS65-AFDBOI",
+  "afd_time": "2026-09-11T20:09:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-11T19:48:25.664168+00:00",
-  "query_preview": "/Monday through Friday/...\nIssued 305 AM MDT FRI SEP 11 2026\nLow pressure will gradually move east early next week, but\ncontinued troughing will linger over the region, keeping\ntemperatures slightly below normal on Monday and Tuesday. \nAnother weak low pressure system will move in by Wednesday, \nbri",
+  "updated": "2026-09-11T22:40:07.679445+00:00",
+  "query_preview": "/Monday through Friday/...\nAs the low pressure system from the weekend moves eastward, \ntroughing continues along the west coast. The troughing will bring \nsouthwesterly flow and eventually strengthen into a closed low that \nrejoins the broader flow later in the week. The period from Monday \nthrough",
   "analogs": [
-    {
-      "datetime_utc": "2006-10-06T21:14Z",
-      "source_file": "BOI_2006_06_2114.txt",
-      "similarity": 0.47839754819869995,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-10-07T03:50Z",
-      "source_file": "BOI_2006_07_0350.txt",
-      "similarity": 0.47839754819869995,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2012-03-04T16:15Z",
       "source_file": "BOI_2012_04_1615.txt",
-      "similarity": 0.4746454954147339,
+      "similarity": 0.40173983573913574,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-11-18T16:45Z",
-      "source_file": "BOI_2014_18_1645.txt",
-      "similarity": 0.47309380769729614,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2012-03-04T10:44Z",
+      "source_file": "BOI_2012_04_1044.txt",
+      "similarity": 0.39263835549354553,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2023-09-07T02:57Z",
       "source_file": "BOI_2023_07_0257.txt",
-      "similarity": 0.4628993570804596,
+      "similarity": 0.3811599910259247,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-09-06T20:32Z",
       "source_file": "BOI_2023_06_2032.txt",
-      "similarity": 0.4628993570804596,
+      "similarity": 0.3811599910259247,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-12-30T14:17Z",
-      "source_file": "BOI_2005_30_1417.txt",
-      "similarity": 0.46132802963256836,
+      "datetime_utc": "2006-10-06T21:14Z",
+      "source_file": "BOI_2006_06_2114.txt",
+      "similarity": 0.3780158758163452,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-10-07T03:50Z",
+      "source_file": "BOI_2006_07_0350.txt",
+      "similarity": 0.3780158758163452,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-11-18T16:45Z",
+      "source_file": "BOI_2014_18_1645.txt",
+      "similarity": 0.3776944875717163,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-03-04T10:44Z",
-      "source_file": "BOI_2012_04_1044.txt",
-      "similarity": 0.45824024081230164,
-      "label": "severe_wind",
+      "datetime_utc": "2005-08-14T03:46Z",
+      "source_file": "BOI_2005_14_0346.txt",
+      "similarity": 0.3747337758541107,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-04-01T21:09Z",
-      "source_file": "BOI_2010_01_2109.txt",
-      "similarity": 0.45476430654525757,
-      "label": "winter",
+      "datetime_utc": "2005-08-13T20:34Z",
+      "source_file": "BOI_2005_13_2034_1.txt",
+      "similarity": 0.3747337758541107,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-04-01T21:11Z",
-      "source_file": "BOI_2010_01_2111.txt",
-      "similarity": 0.45476430654525757,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2019-04-18T15:35Z",
+      "source_file": "BOI_2019_18_1535_1.txt",
+      "similarity": 0.37206780910491943,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.4659429997205734,
-    "n_severe": 2,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.3811959773302078,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202609111728-KBOI-FXUS65-AFDBOI",
-    "afd_time": "2026-09-11T17:28:00Z",
-    "updated": "2026-09-11T19:48:25.664168+00:00"
+    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
+    "product_id": "202609112009-KBOI-FXUS65-AFDBOI",
+    "afd_time": "2026-09-11T20:09:00Z",
+    "updated": "2026-09-11T22:40:07.679445+00:00"
   }
 }
