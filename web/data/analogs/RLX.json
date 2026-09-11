@@ -1,91 +1,91 @@
 {
   "office": "RLX",
-  "product_id": "202609110924-KRLX-FXUS61-AFDRLX",
-  "afd_time": "2026-09-11T09:24:00Z",
+  "product_id": "202609111812-KRLX-FXUS61-AFDRLX-CCA",
+  "afd_time": "2026-09-11T18:12:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-11T11:29:16.425574+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...\n\nShowers and storms will continue across the area today, mainly south \nand east of the Ohio River, as a frontal boundary slowly sags south. \nStorms are not anticipated to be severe, but localized instances of \nflash flooding cannot be completely ruled out.\n\nSouthwesterly flow inc",
+  "updated": "2026-09-11T19:48:25.664168+00:00",
+  "query_preview": "..\n\nKEY MESSAGE 1...\n\nIn the mid/upper-levels, a progressive troughing pattern was present \nacross North America, with a vertically-stacked low embedded within \na large-scale trough that was rotating over northern Manitoba. This \nfeature trailed a downstream shortwave trough that was ejecting into \n",
   "analogs": [
     {
-      "datetime_utc": "2013-07-07T05:44Z",
-      "source_file": "RLX_2013_07_0544.txt",
-      "similarity": 0.46270912885665894,
-      "label": "tornado",
+      "datetime_utc": "2009-04-04T17:58Z",
+      "source_file": "RLX_2009_04_1758.txt",
+      "similarity": 0.45298993587493896,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2013-07-06T19:15Z",
-      "source_file": "RLX_2013_06_1915.txt",
-      "similarity": 0.46270912885665894,
-      "label": "tornado",
+      "datetime_utc": "2009-04-04T18:26Z",
+      "source_file": "RLX_2009_04_1826.txt",
+      "similarity": 0.45298993587493896,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2013-07-06T18:41Z",
-      "source_file": "RLX_2013_06_1841.txt",
-      "similarity": 0.46270912885665894,
-      "label": "tornado",
+      "datetime_utc": "2009-04-04T13:12Z",
+      "source_file": "RLX_2009_04_1312.txt",
+      "similarity": 0.45298993587493896,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2013-07-06T18:27Z",
-      "source_file": "RLX_2013_06_1827.txt",
-      "similarity": 0.46270912885665894,
-      "label": "tornado",
+      "datetime_utc": "2009-04-04T10:26Z",
+      "source_file": "RLX_2009_04_1026.txt",
+      "similarity": 0.45298993587493896,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2013-07-07T07:12Z",
-      "source_file": "RLX_2013_07_0712.txt",
-      "similarity": 0.46270912885665894,
-      "label": "tornado",
+      "datetime_utc": "2009-04-04T08:00Z",
+      "source_file": "RLX_2009_04_0800.txt",
+      "similarity": 0.45298993587493896,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2013-07-06T23:43Z",
-      "source_file": "RLX_2013_06_2343.txt",
-      "similarity": 0.46270912885665894,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2008-02-07T15:14Z",
+      "source_file": "RLX_2008_07_1514.txt",
+      "similarity": 0.44909700751304626,
+      "label": "winter",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2013-07-07T10:45Z",
-      "source_file": "RLX_2013_07_1045.txt",
-      "similarity": 0.46270912885665894,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-02-07T09:15Z",
-      "source_file": "RLX_2008_07_0915.txt",
-      "similarity": 0.4625524878501892,
+      "datetime_utc": "2008-02-07T17:59Z",
+      "source_file": "RLX_2008_07_1759.txt",
+      "similarity": 0.44909700751304626,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2008-02-07T18:39Z",
       "source_file": "RLX_2008_07_1839.txt",
-      "similarity": 0.4625524878501892,
+      "similarity": 0.44909700751304626,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2008-02-07T15:14Z",
-      "source_file": "RLX_2008_07_1514.txt",
-      "similarity": 0.4625524878501892,
+      "datetime_utc": "2008-02-07T10:18Z",
+      "source_file": "RLX_2008_07_1018.txt",
+      "similarity": 0.44909700751304626,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-02-07T09:15Z",
+      "source_file": "RLX_2008_07_0915.txt",
+      "similarity": 0.44909700751304626,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.462662136554718,
-    "n_severe": 7,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.4510434716939926,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202609110924-KRLX-FXUS61-AFDRLX",
-    "afd_time": "2026-09-11T09:24:00Z",
-    "updated": "2026-09-11T11:29:16.425574+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202609111812-KRLX-FXUS61-AFDRLX-CCA",
+    "afd_time": "2026-09-11T18:12:00Z",
+    "updated": "2026-09-11T19:48:25.664168+00:00"
   }
 }

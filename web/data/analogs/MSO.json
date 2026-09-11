@@ -1,91 +1,91 @@
 {
   "office": "MSO",
-  "product_id": "202609110739-KMSO-FXUS65-AFDMSO",
-  "afd_time": "2026-09-11T07:39:00Z",
+  "product_id": "202609111829-KMSO-FXUS65-AFDMSO",
+  "afd_time": "2026-09-11T18:29:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-11T11:29:16.425574+00:00",
-  "query_preview": "..\n\nKEY MESSAGES:\n\n-  Northeast winds Friday night through Saturday will create\n   choppy conditions on area lakes.\n\n-  A cutoff low pressure system brings widespread rain, with snow\n   above 6,000 feet Saturday night through Monday morning.\n\nShowers and thunderstorms will continue over western MT t",
+  "updated": "2026-09-11T19:48:25.664168+00:00",
+  "query_preview": "..\n\nKEY MESSAGES:\n\n-  Easterly gap winds during the overnights through Sunday\n   morning: choppy lakes and strong canyon winds.\n\n-  Widespread rain and mountain snow above 7,000 feet late\n   Saturday night, through Sunday, into Monday.\n\n-  Drying and warming conditions by mid-week.\n\nIsolated showers",
   "analogs": [
     {
       "datetime_utc": "2019-12-16T03:58Z",
       "source_file": "MSO_2019_16_0358.txt",
-      "similarity": 0.4696670174598694,
+      "similarity": 0.4902971684932709,
       "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-01-05T21:34Z",
+      "source_file": "MSO_2006_05_2134.txt",
+      "similarity": 0.4839642643928528,
+      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-01-06T04:26Z",
       "source_file": "MSO_2006_06_0426.txt",
-      "similarity": 0.4636616110801697,
+      "similarity": 0.4839642643928528,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-01-05T21:34Z",
-      "source_file": "MSO_2006_05_2134.txt",
-      "similarity": 0.4636616110801697,
-      "label": "flood",
-      "is_severe": false
     },
     {
       "datetime_utc": "2020-01-26T10:39Z",
       "source_file": "MSO_2020_26_1039.txt",
-      "similarity": 0.44682520627975464,
+      "similarity": 0.45785439014434814,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-07-13T00:26Z",
-      "source_file": "MSO_2007_13_0026.txt",
-      "similarity": 0.44390571117401123,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-10-24T23:35Z",
       "source_file": "MSO_2005_24_2335.txt",
-      "similarity": 0.43776246905326843,
+      "similarity": 0.4549808204174042,
       "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-07-13T00:26Z",
+      "source_file": "MSO_2007_13_0026.txt",
+      "similarity": 0.45393818616867065,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-09-03T14:42Z",
       "source_file": "MSO_2011_03_1442.txt",
-      "similarity": 0.4367601275444031,
+      "similarity": 0.45048093795776367,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-12-20T16:06Z",
       "source_file": "MSO_2009_20_1606.txt",
-      "similarity": 0.4333071708679199,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-02-09T17:04Z",
-      "source_file": "MSO_2010_09_1704.txt",
-      "similarity": 0.4316744804382324,
+      "similarity": 0.4497376084327698,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-09-17T09:03Z",
       "source_file": "MSO_2021_17_0903.txt",
-      "similarity": 0.42881304025650024,
+      "similarity": 0.4467945992946625,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-06-28T20:53Z",
+      "source_file": "MSO_2004_28_2053_1.txt",
+      "similarity": 0.4444954991340637,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.4456038445234299,
-    "n_severe": 5,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.4616507738828659,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609110739-KMSO-FXUS65-AFDMSO",
-    "afd_time": "2026-09-11T07:39:00Z",
-    "updated": "2026-09-11T11:29:16.425574+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202609111829-KMSO-FXUS65-AFDMSO",
+    "afd_time": "2026-09-11T18:29:00Z",
+    "updated": "2026-09-11T19:48:25.664168+00:00"
   }
 }

@@ -1,78 +1,78 @@
 {
   "office": "GRR",
-  "product_id": "202609111051-KGRR-FXUS63-AFDGRR",
-  "afd_time": "2026-09-11T10:51:00Z",
+  "product_id": "202609111919-KGRR-FXUS63-AFDGRR",
+  "afd_time": "2026-09-11T19:19:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-11T11:29:16.425574+00:00",
-  "query_preview": "..\nIssued at 138 AM EDT Fri Sep 11 2026\n\n- Low chance of Rain on Saturday\n\nSurface high pressure moves east on Saturday and return flow \nbrings some moisture. There could be a few showers on Saturday \nand Saturday night. There is enough ensemble support to bump up\nNBM POPs from around zero to slight",
+  "updated": "2026-09-11T19:48:25.664168+00:00",
+  "query_preview": "..\nIssued at 258 PM EDT Fri Sep 11 2026\n\n- Breezy Saturday with a small chance of showers\n\n Not a whole lot of change in the short range pattern. A mid level\ntrough emanating from an upper level low will swing through the\nregion tomorrow. This will bring stronger flow through northern\nlower Michigan",
   "analogs": [
+    {
+      "datetime_utc": "2011-05-21T03:33Z",
+      "source_file": "GRR_2011_21_0333.txt",
+      "similarity": 0.4760653078556061,
+      "label": "severe_wind",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2011-05-20T19:55Z",
       "source_file": "GRR_2011_20_1955.txt",
-      "similarity": 0.4479546546936035,
+      "similarity": 0.4760653078556061,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-05-20T23:56Z",
       "source_file": "GRR_2011_20_2356.txt",
-      "similarity": 0.4479546546936035,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-05-21T03:33Z",
-      "source_file": "GRR_2011_21_0333.txt",
-      "similarity": 0.4479546546936035,
+      "similarity": 0.4760653078556061,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-12-07T20:25Z",
       "source_file": "GRR_2016_07_2025.txt",
-      "similarity": 0.44727444648742676,
+      "similarity": 0.4658237099647522,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-12-08T05:51Z",
       "source_file": "GRR_2016_08_0551.txt",
-      "similarity": 0.44727444648742676,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-12-07T23:48Z",
-      "source_file": "GRR_2016_07_2348.txt",
-      "similarity": 0.44727444648742676,
+      "similarity": 0.4658237099647522,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-12-08T02:38Z",
       "source_file": "GRR_2016_08_0238.txt",
-      "similarity": 0.44727444648742676,
+      "similarity": 0.4658237099647522,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-12-03T17:31Z",
-      "source_file": "GRR_2015_03_1731.txt",
-      "similarity": 0.4437956213951111,
-      "label": "quiet",
+      "datetime_utc": "2016-12-07T23:48Z",
+      "source_file": "GRR_2016_07_2348.txt",
+      "similarity": 0.4658237099647522,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-12-03T20:15Z",
       "source_file": "GRR_2015_03_2015.txt",
-      "similarity": 0.4437956213951111,
+      "similarity": 0.46425938606262207,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-12-03T23:27Z",
       "source_file": "GRR_2015_03_2327.txt",
-      "similarity": 0.4437956213951111,
+      "similarity": 0.46425938606262207,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-12-03T17:31Z",
+      "source_file": "GRR_2015_03_1731.txt",
+      "similarity": 0.46425938606262207,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.44643486142158506,
+    "mean_similarity": 0.46842689216136935,
     "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609111051-KGRR-FXUS63-AFDGRR",
-    "afd_time": "2026-09-11T10:51:00Z",
-    "updated": "2026-09-11T11:29:16.425574+00:00"
+    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
+    "product_id": "202609111919-KGRR-FXUS63-AFDGRR",
+    "afd_time": "2026-09-11T19:19:00Z",
+    "updated": "2026-09-11T19:48:25.664168+00:00"
   }
 }
