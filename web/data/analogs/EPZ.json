@@ -1,91 +1,91 @@
 {
   "office": "EPZ",
-  "product_id": "202609102351-KEPZ-FXUS64-AFDEPZ",
-  "afd_time": "2026-09-10T23:51:00Z",
+  "product_id": "202609110417-KEPZ-FXUS64-AFDEPZ",
+  "afd_time": "2026-09-11T04:17:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-11T01:10:34.324105+00:00",
-  "query_preview": "..\nIssued at 932 AM MDT Thu Sep 10 2026\n\nStarting today and through Saturday, the borderland will be trending \ntoward a mostly dry and warmer pattern as high pressure builds aloft \nover the the desert southwest. Northeasterly flow surrounding the\nhigh will bring in dry, continental air from the Rock",
+  "updated": "2026-09-11T06:05:13.777773+00:00",
+  "query_preview": "..\nIssued at 1016 PM MDT Thu Sep 10 2026\n\nWV imagery showing upper high center over the Sonoran Desert.\nPolar jet has impinged somewhat toward our area but remaining north. \nWithin and under the high, recycled moisture persists over \nArizona and southern New Mexico. Satellite and KEPZ sounding show ",
   "analogs": [
-    {
-      "datetime_utc": "2007-05-13T21:28Z",
-      "source_file": "EPZ_2007_13_2128.txt",
-      "similarity": 0.5037841200828552,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2009-04-20T09:08Z",
       "source_file": "EPZ_2009_20_0908.txt",
-      "similarity": 0.49575796723365784,
+      "similarity": 0.5002639293670654,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-05-13T21:28Z",
+      "source_file": "EPZ_2007_13_2128.txt",
+      "similarity": 0.4901268482208252,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2004-12-17T10:17Z",
       "source_file": "EPZ_2004_17_1017.txt",
-      "similarity": 0.4771089553833008,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-09-24T10:43Z",
-      "source_file": "EPZ_2012_24_1043.txt",
-      "similarity": 0.4731082320213318,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-08-13T05:41Z",
-      "source_file": "EPZ_2021_13_0541_1.txt",
-      "similarity": 0.4718009829521179,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-08-12T19:46Z",
-      "source_file": "EPZ_2021_12_1946.txt",
-      "similarity": 0.4718009829521179,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-08-12T23:47Z",
-      "source_file": "EPZ_2021_12_2347.txt",
-      "similarity": 0.4718009829521179,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-11-13T21:22Z",
-      "source_file": "EPZ_2005_13_2122.txt",
-      "similarity": 0.46809595823287964,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-09-20T17:54Z",
-      "source_file": "EPZ_2022_20_1754.txt",
-      "similarity": 0.4672006368637085,
+      "similarity": 0.4735313355922699,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2022-09-20T11:47Z",
       "source_file": "EPZ_2022_20_1147.txt",
-      "similarity": 0.4672006368637085,
+      "similarity": 0.4684886634349823,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-09-20T10:02Z",
+      "source_file": "EPZ_2022_20_1002.txt",
+      "similarity": 0.4684886634349823,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-09-20T17:54Z",
+      "source_file": "EPZ_2022_20_1754.txt",
+      "similarity": 0.4684886634349823,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-11-13T21:22Z",
+      "source_file": "EPZ_2005_13_2122.txt",
+      "similarity": 0.4681777358055115,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-09-24T10:43Z",
+      "source_file": "EPZ_2012_24_1043.txt",
+      "similarity": 0.46676814556121826,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-08-12T23:47Z",
+      "source_file": "EPZ_2021_12_2347.txt",
+      "similarity": 0.46342334151268005,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-08-12T19:46Z",
+      "source_file": "EPZ_2021_12_1946.txt",
+      "similarity": 0.46342334151268005,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.4767659455537796,
-    "n_severe": 4,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.4731180667877197,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202609102351-KEPZ-FXUS64-AFDEPZ",
-    "afd_time": "2026-09-10T23:51:00Z",
-    "updated": "2026-09-11T01:10:34.324105+00:00"
+    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
+    "product_id": "202609110417-KEPZ-FXUS64-AFDEPZ",
+    "afd_time": "2026-09-11T04:17:00Z",
+    "updated": "2026-09-11T06:05:13.777773+00:00"
   }
 }

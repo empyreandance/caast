@@ -1,91 +1,91 @@
 {
   "office": "MOB",
-  "product_id": "202609110041-KMOB-FXUS64-AFDMOB",
-  "afd_time": "2026-09-11T00:41:00Z",
+  "product_id": "202609110555-KMOB-FXUS64-AFDMOB",
+  "afd_time": "2026-09-11T05:55:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-11T01:10:34.324105+00:00",
-  "query_preview": "..\nIssued at 1241 PM CDT Thu Sep 10 2026\n\nThe upper ridge over the area will continue to weaken and move \neast as a broad trough moves into the central plains. Ahead of \nthis trough, a weak frontal boundary will move into the Tennessee \nValley and stall before dissipating Friday night. Deep southerl",
+  "updated": "2026-09-11T06:05:13.777773+00:00",
+  "query_preview": "..\nIssued at 1255 AM CDT Fri Sep 11 2026\n\nThe upper ridge has been weakening across the Southeast with an \nadvancing shortwave moving in from the west through today. At the \nsurface, a weak low pressure and surface trough is currently just \noff the coast and is projected to move generally north-nort",
   "analogs": [
     {
-      "datetime_utc": "2013-10-05T05:09Z",
-      "source_file": "MOB_2013_05_0509.txt",
-      "similarity": 0.404266357421875,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2020-06-28T11:52Z",
+      "source_file": "MOB_2020_28_1152.txt",
+      "similarity": 0.424730122089386,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2013-10-04T21:40Z",
-      "source_file": "MOB_2013_04_2140.txt",
-      "similarity": 0.404266357421875,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-01-28T05:28Z",
-      "source_file": "MOB_2013_28_0528.txt",
-      "similarity": 0.40365445613861084,
+      "datetime_utc": "2020-06-28T09:52Z",
+      "source_file": "MOB_2020_28_0952.txt",
+      "similarity": 0.424730122089386,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2013-01-27T21:55Z",
       "source_file": "MOB_2013_27_2155.txt",
-      "similarity": 0.40365445613861084,
+      "similarity": 0.4237979054450989,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-01-28T05:28Z",
+      "source_file": "MOB_2013_28_0528.txt",
+      "similarity": 0.4237979054450989,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2013-01-27T23:54Z",
       "source_file": "MOB_2013_27_2354.txt",
-      "similarity": 0.40365445613861084,
+      "similarity": 0.4237979054450989,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-??-11T21:58Z",
-      "source_file": "MOB_2004_11_2158.txt",
-      "similarity": 0.39962106943130493,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-06-28T09:52Z",
-      "source_file": "MOB_2020_28_0952.txt",
-      "similarity": 0.39794838428497314,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-06-28T11:52Z",
-      "source_file": "MOB_2020_28_1152.txt",
-      "similarity": 0.39794838428497314,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-04-27T20:27Z",
-      "source_file": "MOB_2017_27_2027.txt",
-      "similarity": 0.39578932523727417,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-04-27T23:30Z",
       "source_file": "MOB_2017_27_2330.txt",
-      "similarity": 0.39578932523727417,
+      "similarity": 0.4188029170036316,
       "label": "tornado",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-04-27T20:27Z",
+      "source_file": "MOB_2017_27_2027.txt",
+      "similarity": 0.4188029170036316,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-10-05T05:09Z",
+      "source_file": "MOB_2013_05_0509.txt",
+      "similarity": 0.41870975494384766,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-10-04T21:40Z",
+      "source_file": "MOB_2013_04_2140.txt",
+      "similarity": 0.41870975494384766,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-??-11T21:58Z",
+      "source_file": "MOB_2004_11_2158.txt",
+      "similarity": 0.41681405901908875,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.40065925717353823,
+    "mean_similarity": 0.4212693363428116,
     "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202609110041-KMOB-FXUS64-AFDMOB",
-    "afd_time": "2026-09-11T00:41:00Z",
-    "updated": "2026-09-11T01:10:34.324105+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202609110555-KMOB-FXUS64-AFDMOB",
+    "afd_time": "2026-09-11T05:55:00Z",
+    "updated": "2026-09-11T06:05:13.777773+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "GRR",
-  "product_id": "202609102356-KGRR-FXUS63-AFDGRR",
-  "afd_time": "2026-09-10T23:56:00Z",
+  "product_id": "202609110538-KGRR-FXUS63-AFDGRR",
+  "afd_time": "2026-09-11T05:38:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-11T01:10:34.324105+00:00",
-  "query_preview": "..\nIssued at 219 PM EDT Thu Sep 10 2026\n\n- Mostly Dry Through this Weekend\n\nHigh pressure will dominate over the next few days. A shortwave\ntrough moving through Saturday may spark off some pop-up showers\nand thunderstorms late Saturday afternoon and evening. At this\ntime it is a 20 percent chance w",
+  "updated": "2026-09-11T06:05:13.777773+00:00",
+  "query_preview": "..\nIssued at 138 AM EDT Fri Sep 11 2026\n\n- Low chance of Rain on Saturday\n\nSurface high pressure moves east on Saturday and return flow \nbrings some moisture. There could be a few showers on Saturday \nand Saturday night. There is enough ensemble support to bump up\nNBM POPs from around zero to slight",
   "analogs": [
+    {
+      "datetime_utc": "2011-05-21T03:33Z",
+      "source_file": "GRR_2011_21_0333.txt",
+      "similarity": 0.44795477390289307,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-05-20T23:56Z",
+      "source_file": "GRR_2011_20_2356.txt",
+      "similarity": 0.44795477390289307,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-05-20T19:55Z",
+      "source_file": "GRR_2011_20_1955.txt",
+      "similarity": 0.44795477390289307,
+      "label": "severe_wind",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2016-12-08T02:38Z",
       "source_file": "GRR_2016_08_0238.txt",
-      "similarity": 0.4325406551361084,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-12-07T20:25Z",
-      "source_file": "GRR_2016_07_2025.txt",
-      "similarity": 0.4325406551361084,
+      "similarity": 0.4472745358943939,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-12-08T05:51Z",
       "source_file": "GRR_2016_08_0551.txt",
-      "similarity": 0.4325406551361084,
+      "similarity": 0.4472745358943939,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-12-07T20:25Z",
+      "source_file": "GRR_2016_07_2025.txt",
+      "similarity": 0.4472745358943939,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-12-07T23:48Z",
       "source_file": "GRR_2016_07_2348.txt",
-      "similarity": 0.4325406551361084,
+      "similarity": 0.4472745358943939,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-09-09T17:44Z",
-      "source_file": "GRR_2007_09_1744.txt",
-      "similarity": 0.4176734685897827,
+      "datetime_utc": "2015-12-03T23:27Z",
+      "source_file": "GRR_2015_03_2327.txt",
+      "similarity": 0.4437958002090454,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-09-09T11:51Z",
-      "source_file": "GRR_2007_09_1151.txt",
-      "similarity": 0.4176734685897827,
+      "datetime_utc": "2015-12-04T04:33Z",
+      "source_file": "GRR_2015_04_0433.txt",
+      "similarity": 0.4437958002090454,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-09-09T10:09Z",
-      "source_file": "GRR_2007_09_1009.txt",
-      "similarity": 0.4176734685897827,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-09-09T16:18Z",
-      "source_file": "GRR_2007_09_1618.txt",
-      "similarity": 0.4176734685897827,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-09-09T08:40Z",
-      "source_file": "GRR_2007_09_0840.txt",
-      "similarity": 0.4176734685897827,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-12-03T17:31Z",
-      "source_file": "GRR_2015_03_1731.txt",
-      "similarity": 0.41731518507003784,
+      "datetime_utc": "2015-12-03T20:15Z",
+      "source_file": "GRR_2015_03_2015.txt",
+      "similarity": 0.4437958002090454,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.4235845148563385,
-    "n_severe": 0,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.4464349865913391,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202609102356-KGRR-FXUS63-AFDGRR",
-    "afd_time": "2026-09-10T23:56:00Z",
-    "updated": "2026-09-11T01:10:34.324105+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202609110538-KGRR-FXUS63-AFDGRR",
+    "afd_time": "2026-09-11T05:38:00Z",
+    "updated": "2026-09-11T06:05:13.777773+00:00"
   }
 }
