@@ -1,11 +1,18 @@
 {
   "office": "DLH",
-  "product_id": "202609111838-KDLH-FXUS63-AFDDLH",
-  "afd_time": "2026-09-11T18:38:00Z",
+  "product_id": "202609112342-KDLH-FXUS63-AFDDLH",
+  "afd_time": "2026-09-11T23:42:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-11T19:48:25.664168+00:00",
+  "updated": "2026-09-12T01:12:12.359636+00:00",
   "query_preview": "..\nIssued at 131 PM CDT Fri Sep 11 2026\n\nCurrent Conditions:\n\nThe strong low level jet from the last night has helped to bring \nsome scattered showers across the Northland as a ribbon of warm air \nadvection between 925-850mb pivots over the region. This activity \ncontinues to slide northeast largely",
   "analogs": [
+    {
+      "datetime_utc": "2023-09-25T23:38Z",
+      "source_file": "DLH_2023_25_2338.txt",
+      "similarity": 0.4797787070274353,
+      "label": "tornado",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2023-09-25T21:00Z",
       "source_file": "DLH_2023_25_2100.txt",
@@ -14,11 +21,11 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2023-09-25T23:38Z",
-      "source_file": "DLH_2023_25_2338.txt",
-      "similarity": 0.4797787070274353,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2024-02-10T05:29Z",
+      "source_file": "DLH_2024_10_0529_1.txt",
+      "similarity": 0.47689998149871826,
+      "label": "winter",
+      "is_severe": false
     },
     {
       "datetime_utc": "2024-02-09T21:59Z",
@@ -35,44 +42,37 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2024-02-10T05:29Z",
-      "source_file": "DLH_2024_10_0529_1.txt",
-      "similarity": 0.47689998149871826,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2004-04-05T19:44Z",
       "source_file": "DLH_2004_05_1944.txt",
-      "similarity": 0.46145910024642944,
+      "similarity": 0.46145913004875183,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-06-09T20:28Z",
       "source_file": "DLH_2009_09_2028_1.txt",
-      "similarity": 0.45484623312950134,
+      "similarity": 0.45484626293182373,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-06-10T02:22Z",
       "source_file": "DLH_2009_10_0222.txt",
-      "similarity": 0.45484623312950134,
+      "similarity": 0.45484626293182373,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2019-05-27T09:04Z",
       "source_file": "DLH_2019_27_0904.txt",
-      "similarity": 0.45375514030456543,
+      "similarity": 0.4537551999092102,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2019-05-27T17:49Z",
       "source_file": "DLH_2019_27_1749.txt",
-      "similarity": 0.45375514030456543,
+      "similarity": 0.4537551999092102,
       "label": "severe_hail",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.4668919205665588,
+    "mean_similarity": 0.4668919414281845,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202609111838-KDLH-FXUS63-AFDDLH",
-    "afd_time": "2026-09-11T18:38:00Z",
-    "updated": "2026-09-11T19:48:25.664168+00:00"
+    "product_id": "202609112342-KDLH-FXUS63-AFDDLH",
+    "afd_time": "2026-09-11T23:42:00Z",
+    "updated": "2026-09-12T01:12:12.359636+00:00"
   }
 }
