@@ -1,91 +1,91 @@
 {
   "office": "LKN",
-  "product_id": "202609120701-KLKN-FXUS65-AFDLKN-AAA",
-  "afd_time": "2026-09-12T07:01:00Z",
+  "product_id": "202609121856-KLKN-FXUS65-AFDLKN",
+  "afd_time": "2026-09-12T18:56:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-12T10:53:18.068061+00:00",
-  "query_preview": "..\n(Today through Friday)\n\nWEATHER PATTERN OVERVIEW: Unseasonably warm temperatures continue\nthis afternoon with highs being several degrees above normal.\nStrong, gusty winds this afternoon and this evening, with sustained \nwinds up to 20-25 mph, and gusts as high as 45 mph. A Red Flag \nWarning rema",
+  "updated": "2026-09-12T19:28:40.500459+00:00",
+  "query_preview": "..\n(This afternoon through next Saturday)\n\nWEATHER PATTERN OVERVIEW: Strong gusty winds today as a low\npressure system to the northwest moves into Oregon/Washington\nstate which is tightening weather gradients, forming a jet streak\nover Nevada. Strongest winds this afternoon are expected over\nHumbold",
   "analogs": [
     {
       "datetime_utc": "2018-06-29T21:24Z",
       "source_file": "LKN_2018_29_2124.txt",
-      "similarity": 0.4442529082298279,
+      "similarity": 0.44829219579696655,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2024-07-05T19:59Z",
       "source_file": "LKN_2024_05_1959.txt",
-      "similarity": 0.4284861087799072,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-06-14T22:34Z",
-      "source_file": "LKN_2014_14_2234.txt",
-      "similarity": 0.42025983333587646,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-06-15T03:43Z",
-      "source_file": "LKN_2014_15_0343.txt",
-      "similarity": 0.42025983333587646,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-08-29T10:48Z",
-      "source_file": "LKN_2010_29_1048.txt",
-      "similarity": 0.41842254996299744,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-07-26T21:08Z",
-      "source_file": "LKN_2005_26_2108.txt",
-      "similarity": 0.4174724817276001,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-09-19T21:10Z",
-      "source_file": "LKN_2016_19_2110.txt",
-      "similarity": 0.41402697563171387,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-11-03T22:36Z",
-      "source_file": "LKN_2008_03_2236.txt",
-      "similarity": 0.41317474842071533,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-10-11T20:27Z",
-      "source_file": "LKN_2023_11_2027.txt",
-      "similarity": 0.4127567410469055,
+      "similarity": 0.4359619915485382,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2010-07-24T22:12Z",
       "source_file": "LKN_2010_24_2212.txt",
-      "similarity": 0.41229957342147827,
+      "similarity": 0.42625921964645386,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-06-14T22:34Z",
+      "source_file": "LKN_2014_14_2234.txt",
+      "similarity": 0.4215511679649353,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-06-15T03:43Z",
+      "source_file": "LKN_2014_15_0343.txt",
+      "similarity": 0.4215511679649353,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-09-19T21:10Z",
+      "source_file": "LKN_2016_19_2110.txt",
+      "similarity": 0.421508252620697,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-07-26T21:08Z",
+      "source_file": "LKN_2005_26_2108.txt",
+      "similarity": 0.4212266802787781,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-11-03T22:36Z",
+      "source_file": "LKN_2008_03_2236.txt",
+      "similarity": 0.4194038212299347,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-10-21T10:35Z",
+      "source_file": "LKN_2015_21_1035.txt",
+      "similarity": 0.4191943407058716,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-08-29T10:48Z",
+      "source_file": "LKN_2010_29_1048.txt",
+      "similarity": 0.415056437253952,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.42014117538928986,
+    "mean_similarity": 0.4250005275011063,
     "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202609120701-KLKN-FXUS65-AFDLKN-AAA",
-    "afd_time": "2026-09-12T07:01:00Z",
-    "updated": "2026-09-12T10:53:18.068061+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202609121856-KLKN-FXUS65-AFDLKN",
+    "afd_time": "2026-09-12T18:56:00Z",
+    "updated": "2026-09-12T19:28:40.500459+00:00"
   }
 }
