@@ -1,42 +1,35 @@
 {
   "office": "LBF",
-  "product_id": "202609112327-KLBF-FXUS63-AFDLBF",
-  "afd_time": "2026-09-11T23:27:00Z",
+  "product_id": "202609120534-KLBF-FXUS63-AFDLBF",
+  "afd_time": "2026-09-12T05:34:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-12T01:12:12.359636+00:00",
+  "updated": "2026-09-12T05:53:57.816341+00:00",
   "query_preview": "/MONDAY THROUGH FRIDAY/...\nIssued at 240 PM CDT Fri Sep 11 2026\n\nMonday, an upper-level trough will become established across the \nwestern United States, with an embedded upper-level low ejecting \nnortheastward through the afternoon and evening. Increasing flow \naloft and large-scale ascent associat",
   "analogs": [
     {
       "datetime_utc": "2004-03-24T21:12Z",
       "source_file": "LBF_2004_24_2112.txt",
-      "similarity": 0.5004587173461914,
+      "similarity": 0.5004585981369019,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-09-29T20:04Z",
       "source_file": "LBF_2004_29_2004.txt",
-      "similarity": 0.4838410019874573,
+      "similarity": 0.48384106159210205,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-09-21T20:13Z",
       "source_file": "LBF_2005_21_2013.txt",
-      "similarity": 0.4824977517127991,
+      "similarity": 0.48249778151512146,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-01-31T23:26Z",
-      "source_file": "LBF_2014_31_2326.txt",
-      "similarity": 0.4788724184036255,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-01-01T04:21Z",
-      "source_file": "LBF_2014_01_0421.txt",
+      "datetime_utc": "2014-01-01T05:16Z",
+      "source_file": "LBF_2014_01_0516.txt",
       "similarity": 0.4788724184036255,
       "label": "flood",
       "is_severe": false
@@ -49,30 +42,37 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-01-01T05:16Z",
-      "source_file": "LBF_2014_01_0516.txt",
+      "datetime_utc": "2014-01-01T04:21Z",
+      "source_file": "LBF_2014_01_0421.txt",
       "similarity": 0.4788724184036255,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-10-17T18:13Z",
-      "source_file": "LBF_2018_17_1813.txt",
-      "similarity": 0.4737595021724701,
+      "datetime_utc": "2014-01-31T23:26Z",
+      "source_file": "LBF_2014_31_2326.txt",
+      "similarity": 0.4788724184036255,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-10-17T11:15Z",
+      "source_file": "LBF_2018_17_1115.txt",
+      "similarity": 0.47375956177711487,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2018-10-17T08:33Z",
       "source_file": "LBF_2018_17_0833.txt",
-      "similarity": 0.4737595021724701,
+      "similarity": 0.47375956177711487,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-10-17T11:15Z",
-      "source_file": "LBF_2018_17_1115.txt",
-      "similarity": 0.4737595021724701,
+      "datetime_utc": "2018-10-17T18:13Z",
+      "source_file": "LBF_2018_17_1813.txt",
+      "similarity": 0.47375956177711487,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.480356565117836,
+    "mean_similarity": 0.48035658001899717,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202609112327-KLBF-FXUS63-AFDLBF",
-    "afd_time": "2026-09-11T23:27:00Z",
-    "updated": "2026-09-12T01:12:12.359636+00:00"
+    "product_id": "202609120534-KLBF-FXUS63-AFDLBF",
+    "afd_time": "2026-09-12T05:34:00Z",
+    "updated": "2026-09-12T05:53:57.816341+00:00"
   }
 }

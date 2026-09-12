@@ -1,18 +1,11 @@
 {
   "office": "PDT",
-  "product_id": "202609112249-KPDT-FXUS66-AFDPDT",
-  "afd_time": "2026-09-11T22:49:00Z",
+  "product_id": "202609120548-KPDT-FXUS66-AFDPDT",
+  "afd_time": "2026-09-12T05:48:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-12T01:12:12.359636+00:00",
+  "updated": "2026-09-12T05:53:57.816341+00:00",
   "query_preview": "..\nRegional radar was clear this afternoon with GOES satellite day\ncloud phase showing thin high level clouds spreading east \nacross the Upper Columbia Basin. Eastern WA Eastern OR, while \nmost of central Oregon and the southern Blue Mts were \nclear/sunny. The weak zonal flow aloft across the region",
   "analogs": [
-    {
-      "datetime_utc": "2017-03-21T16:10Z",
-      "source_file": "PDT_2017_21_1610.txt",
-      "similarity": 0.480630099773407,
-      "label": "tornado",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2017-03-21T21:49Z",
       "source_file": "PDT_2017_21_2149.txt",
@@ -21,58 +14,65 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-05-23T15:58Z",
-      "source_file": "PDT_2024_23_1558.txt",
-      "similarity": 0.4794858694076538,
-      "label": "severe_wind",
+      "datetime_utc": "2017-03-21T16:10Z",
+      "source_file": "PDT_2017_21_1610.txt",
+      "similarity": 0.480630099773407,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-05-23T17:25Z",
       "source_file": "PDT_2024_23_1725.txt",
-      "similarity": 0.4794858694076538,
+      "similarity": 0.47948595881462097,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-05-23T15:58Z",
+      "source_file": "PDT_2024_23_1558.txt",
+      "similarity": 0.47948595881462097,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-05-23T09:34Z",
       "source_file": "PDT_2024_23_0934.txt",
-      "similarity": 0.4794858694076538,
+      "similarity": 0.47948595881462097,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-08-29T21:50Z",
-      "source_file": "PDT_2011_29_2150.txt",
-      "similarity": 0.46733373403549194,
-      "label": "quiet",
-      "is_severe": false
     },
     {
       "datetime_utc": "2011-08-30T03:34Z",
       "source_file": "PDT_2011_30_0334.txt",
-      "similarity": 0.46733373403549194,
+      "similarity": 0.4673337936401367,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-08-19T16:20Z",
-      "source_file": "PDT_2006_19_1620.txt",
-      "similarity": 0.4645102918148041,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2011-08-29T21:50Z",
+      "source_file": "PDT_2011_29_2150.txt",
+      "similarity": 0.4673337936401367,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2006-08-19T09:29Z",
       "source_file": "PDT_2006_19_0929.txt",
-      "similarity": 0.4645102918148041,
+      "similarity": 0.46451032161712646,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-08-19T16:20Z",
+      "source_file": "PDT_2006_19_1620.txt",
+      "similarity": 0.46451032161712646,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-08-19T09:30Z",
       "source_file": "PDT_2006_19_0930.txt",
-      "similarity": 0.4645102918148041,
+      "similarity": 0.46451032161712646,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.47279161512851714,
+    "mean_similarity": 0.47279166281223295,
     "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202609112249-KPDT-FXUS66-AFDPDT",
-    "afd_time": "2026-09-11T22:49:00Z",
-    "updated": "2026-09-12T01:12:12.359636+00:00"
+    "product_id": "202609120548-KPDT-FXUS66-AFDPDT",
+    "afd_time": "2026-09-12T05:48:00Z",
+    "updated": "2026-09-12T05:53:57.816341+00:00"
   }
 }
