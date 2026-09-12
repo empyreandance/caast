@@ -1,78 +1,78 @@
 {
   "office": "GYX",
-  "product_id": "202609112316-KGYX-FXUS61-AFDGYX",
-  "afd_time": "2026-09-11T23:16:00Z",
+  "product_id": "202609121048-KGYX-FXUS61-AFDGYX",
+  "afd_time": "2026-09-12T10:48:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-12T01:12:12.359636+00:00",
-  "query_preview": "..\nKEY MESSAGE 1 DESCRIPTION...\nHigh pressure slides overhead tonight allowing for strong \nradiational cooing across the area. With Mt. Washington's \nobserved dewpoint sitting at the freezing mark early this \nafternoon, it is not out of the question for some the more \nsheltered northern valley locat",
+  "updated": "2026-09-12T10:53:18.068061+00:00",
+  "query_preview": "..\nKEY MESSAGE 1 DESCRIPTION...\nAfter early morning valley fog lifts, today will be another fair\nweather day as the center of SFC high pressure moves offshore.\nThis will result in a relatively light southerly wind with\ntemperatures well into the 70s at most locations. Sunny skies\nwill give way to in",
   "analogs": [
     {
       "datetime_utc": "2021-03-26T10:37Z",
       "source_file": "GYX_2021_26_1037.txt",
-      "similarity": 0.7071847915649414,
+      "similarity": 0.8800890445709229,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-04-11T13:41Z",
       "source_file": "GYX_2007_11_1341.txt",
-      "similarity": 0.6912789344787598,
+      "similarity": 0.8213679790496826,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-04-11T18:41Z",
+      "source_file": "GYX_2009_11_1841.txt",
+      "similarity": 0.6629413366317749,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-04-12T01:34Z",
+      "source_file": "GYX_2009_12_0134.txt",
+      "similarity": 0.6629413366317749,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-10-16T10:43Z",
+      "source_file": "GYX_2024_16_1043.txt",
+      "similarity": 0.6331884860992432,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-10-16T07:57Z",
+      "source_file": "GYX_2024_16_0757.txt",
+      "similarity": 0.6331884860992432,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-10-16T19:02Z",
+      "source_file": "GYX_2024_16_1902.txt",
+      "similarity": 0.6331884860992432,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-10-16T12:49Z",
+      "source_file": "GYX_2024_16_1249.txt",
+      "similarity": 0.6331884860992432,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-12-10T00:21Z",
+      "source_file": "GYX_2023_10_0021.txt",
+      "similarity": 0.6327422261238098,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-12-09T21:31Z",
       "source_file": "GYX_2023_09_2131.txt",
-      "similarity": 0.5698112845420837,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-12-10T00:21Z",
-      "source_file": "GYX_2023_10_0021.txt",
-      "similarity": 0.5698112845420837,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-12-10T03:54Z",
-      "source_file": "GYX_2023_10_0354.txt",
-      "similarity": 0.5698112845420837,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-03-11T19:59Z",
-      "source_file": "GYX_2024_11_1959_1.txt",
-      "similarity": 0.551302433013916,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-03-11T23:05Z",
-      "source_file": "GYX_2024_11_2305.txt",
-      "similarity": 0.5426419973373413,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-03-12T03:21Z",
-      "source_file": "GYX_2024_12_0321.txt",
-      "similarity": 0.5426419973373413,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-03-17T13:48Z",
-      "source_file": "GYX_2010_17_1348.txt",
-      "similarity": 0.5394219756126404,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-03-17T07:03Z",
-      "source_file": "GYX_2010_17_0703.txt",
-      "similarity": 0.5394219756126404,
+      "similarity": 0.6327422261238098,
       "label": "flood",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.5823327958583832,
+    "mean_similarity": 0.6825578093528748,
     "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.58 below confidence floor 0.7",
-    "product_id": "202609112316-KGYX-FXUS61-AFDGYX",
-    "afd_time": "2026-09-11T23:16:00Z",
-    "updated": "2026-09-12T01:12:12.359636+00:00"
+    "reason": "top-10 mean similarity 0.68 below confidence floor 0.7",
+    "product_id": "202609121048-KGYX-FXUS61-AFDGYX",
+    "afd_time": "2026-09-12T10:48:00Z",
+    "updated": "2026-09-12T10:53:18.068061+00:00"
   }
 }

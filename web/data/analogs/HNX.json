@@ -1,91 +1,91 @@
 {
   "office": "HNX",
-  "product_id": "202609112107-KHNX-FXUS66-AFDHNX",
-  "afd_time": "2026-09-11T21:07:00Z",
+  "product_id": "202609120607-KHNX-FXUS66-AFDHNX",
+  "afd_time": "2026-09-12T06:07:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-11T22:40:07.679445+00:00",
-  "query_preview": "..\n\nThe influence of the ridge that has bought warm weather and \nhigh pressure over the past several days remains, but the \noverall influence of this ridge is weakening. While remaining \nhot, temperatures will be cooler today in the Central Valley \ncompared to the intense heat yesterday. The probabi",
+  "updated": "2026-09-12T10:53:18.068061+00:00",
+  "query_preview": "..\nTemperatures remained warm on Friday with a number of spots\nstill reaching triple digits. The warm temperatures remain on\nSaturday as the ridge of high pressure continues to weaken and\nflatten as there is a 65 to 90 percent chance of highs of at\nleast 95 degrees on Saturday for most of the Valley",
   "analogs": [
-    {
-      "datetime_utc": "2004-06-24T09:50Z",
-      "source_file": "HNX_2004_24_0950.txt",
-      "similarity": 0.4073442220687866,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-06-24T15:52Z",
-      "source_file": "HNX_2004_24_1552.txt",
-      "similarity": 0.4073442220687866,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-01-29T11:16Z",
-      "source_file": "HNX_2005_29_1116.txt",
-      "similarity": 0.4017215967178345,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-06-26T04:20Z",
-      "source_file": "HNX_2006_26_0420_1.txt",
-      "similarity": 0.401617169380188,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-06-25T22:15Z",
-      "source_file": "HNX_2006_25_2215.txt",
-      "similarity": 0.401617169380188,
-      "label": "severe_hail",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2008-06-08T03:40Z",
       "source_file": "HNX_2008_08_0340.txt",
-      "similarity": 0.40052416920661926,
+      "similarity": 0.48153558373451233,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-12-19T22:52Z",
-      "source_file": "HNX_2005_19_2252.txt",
-      "similarity": 0.39799195528030396,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-12-20T05:12Z",
-      "source_file": "HNX_2005_20_0512.txt",
-      "similarity": 0.39799195528030396,
-      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-02-07T05:47Z",
       "source_file": "HNX_2007_07_0547.txt",
-      "similarity": 0.39632320404052734,
+      "similarity": 0.46549326181411743,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-02-06T22:01Z",
       "source_file": "HNX_2007_06_2201.txt",
-      "similarity": 0.39632320404052734,
+      "similarity": 0.46549326181411743,
       "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-04-11T05:06Z",
+      "source_file": "HNX_2010_11_0506.txt",
+      "similarity": 0.4611743092536926,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-01-29T11:16Z",
+      "source_file": "HNX_2005_29_1116.txt",
+      "similarity": 0.46085572242736816,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-06-24T09:50Z",
+      "source_file": "HNX_2004_24_0950.txt",
+      "similarity": 0.4566798210144043,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-06-24T15:52Z",
+      "source_file": "HNX_2004_24_1552.txt",
+      "similarity": 0.4566798210144043,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-04-01T03:48Z",
+      "source_file": "HNX_2010_01_0348.txt",
+      "similarity": 0.45585599541664124,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-04-30T21:40Z",
+      "source_file": "HNX_2010_30_2140.txt",
+      "similarity": 0.45585599541664124,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-12-20T05:12Z",
+      "source_file": "HNX_2005_20_0512.txt",
+      "similarity": 0.45446473360061646,
+      "label": "flood",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.40087988674640657,
-    "n_severe": 2,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.46140885055065156,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202609112107-KHNX-FXUS66-AFDHNX",
-    "afd_time": "2026-09-11T21:07:00Z",
-    "updated": "2026-09-11T22:40:07.679445+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202609120607-KHNX-FXUS66-AFDHNX",
+    "afd_time": "2026-09-12T06:07:00Z",
+    "updated": "2026-09-12T10:53:18.068061+00:00"
   }
 }

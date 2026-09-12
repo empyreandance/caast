@@ -1,92 +1,92 @@
 {
   "office": "CHS",
-  "product_id": "202609120046-KCHS-FXUS62-AFDCHS",
-  "afd_time": "2026-09-12T00:46:00Z",
+  "product_id": "202609120650-KCHS-FXUS62-AFDCHS",
+  "afd_time": "2026-09-12T06:50:00Z",
   "section_type": "extended",
-  "updated": "2026-09-12T01:12:12.359636+00:00",
-  "query_preview": "Aviation Outlook: Periodic flight restrictions will be\npossible Saturday and Sunday afternoons as showers/storms could\nimpact the terminals. The risk for periodic flight restrictions\nwill linger into the week as a typical summertime pattern of \nafternoon showers/storms dominates.",
+  "updated": "2026-09-12T10:53:18.068061+00:00",
+  "query_preview": "Aviation Outlook: Periodic flight restrictions will be \npossible Sunday afternoon due to showers and thunderstorms. Drier \nconditions return on Monday, possibly persisting through\nWednesday.",
   "analogs": [
     {
-      "datetime_utc": "2022-10-31T18:01Z",
-      "source_file": "CHS_2022_31_1801.txt",
-      "similarity": 0.985150158405304,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2013-03-04T21:16Z",
+      "source_file": "CHS_2013_04_2116.txt",
+      "similarity": 0.9922370910644531,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2022-10-31T11:56Z",
-      "source_file": "CHS_2022_31_1156.txt",
-      "similarity": 0.985150158405304,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-10-31T14:19Z",
-      "source_file": "CHS_2022_31_1419.txt",
-      "similarity": 0.985150158405304,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-10-31T08:30Z",
-      "source_file": "CHS_2022_31_0830.txt",
-      "similarity": 0.985150158405304,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-08-09T19:24Z",
-      "source_file": "CHS_2019_09_1924.txt",
-      "similarity": 0.9848548769950867,
+      "datetime_utc": "2008-05-03T19:35Z",
+      "source_file": "CHS_2008_03_1935.txt",
+      "similarity": 0.9915663599967957,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-08-09T08:09Z",
-      "source_file": "CHS_2019_09_0809.txt",
-      "similarity": 0.9848548769950867,
+      "datetime_utc": "2008-05-03T17:36Z",
+      "source_file": "CHS_2008_03_1736.txt",
+      "similarity": 0.9915663599967957,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-08-10T04:48Z",
-      "source_file": "CHS_2019_10_0448.txt",
-      "similarity": 0.9848548769950867,
+      "datetime_utc": "2025-03-29T20:10Z",
+      "source_file": "CHS_2025_29_2010.txt",
+      "similarity": 0.9915265440940857,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-08-09T17:16Z",
-      "source_file": "CHS_2019_09_1716.txt",
-      "similarity": 0.9848548769950867,
+      "datetime_utc": "2008-05-04T01:19Z",
+      "source_file": "CHS_2008_04_0119.txt",
+      "similarity": 0.9913845062255859,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-05-03T23:50Z",
+      "source_file": "CHS_2008_03_2350.txt",
+      "similarity": 0.9913845062255859,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-08-10T01:04Z",
-      "source_file": "CHS_2019_10_0104.txt",
-      "similarity": 0.9848548769950867,
+      "datetime_utc": "2015-07-30T14:20Z",
+      "source_file": "CHS_2015_30_1420.txt",
+      "similarity": 0.9913836717605591,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-08-09T22:20Z",
-      "source_file": "CHS_2019_09_2220.txt",
-      "similarity": 0.9848548769950867,
+      "datetime_utc": "2015-07-30T08:01Z",
+      "source_file": "CHS_2015_30_0801.txt",
+      "similarity": 0.9913836717605591,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-07-30T11:41Z",
+      "source_file": "CHS_2015_30_1141_1.txt",
+      "similarity": 0.9913836717605591,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-05-04T17:40Z",
+      "source_file": "CHS_2008_04_1740_1.txt",
+      "similarity": 0.9909915924072266,
+      "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "LOW",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.9849729895591736,
+    "level": "HIGH",
+    "severe_fraction": 1.0,
+    "mean_similarity": 0.9914807975292206,
     "base_rate": 0.6591567279490003,
-    "signal_value": -0.05915672794900029,
-    "n_severe": 6,
+    "signal_value": 0.34084327205099973,
+    "n_severe": 10,
     "n_total": 10,
-    "product_id": "202609120046-KCHS-FXUS62-AFDCHS",
-    "afd_time": "2026-09-12T00:46:00Z",
-    "updated": "2026-09-12T01:12:12.359636+00:00"
+    "product_id": "202609120650-KCHS-FXUS62-AFDCHS",
+    "afd_time": "2026-09-12T06:50:00Z",
+    "updated": "2026-09-12T10:53:18.068061+00:00"
   }
 }
