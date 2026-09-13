@@ -1,91 +1,91 @@
 {
   "office": "GID",
-  "product_id": "202609121802-KGID-FXUS63-AFDGID",
-  "afd_time": "2026-09-12T18:02:00Z",
+  "product_id": "202609122328-KGID-FXUS63-AFDGID",
+  "afd_time": "2026-09-12T23:28:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-12T19:28:40.500459+00:00",
-  "query_preview": "..\nIssued at 205 PM CDT Fri Sep 11 2026\n\nThis Evening/Tonight...\n\nWinds are breezy this afternoon gusting 25-35mph ahead of an \napproaching shortwave trough. Temperatures are sitting in the 80s to \nlow 90s with dewpoints in the mid-upper 60s. A cold front/dryline is \nexpected to enter far northweste",
+  "updated": "2026-09-13T01:05:28.964912+00:00",
+  "query_preview": "..\nIssued at 227 PM CDT Sat Sep 12 2026\n\nDespite relatively cool and stable air at the surface, scattered\nstorms have continued to develop over central Nebraska. These\nstorms, fueled by decent elevated instability (1000-2000 J/kg\nMUCAPE), have resulted in several strong to marginally severe\nupdrafts",
   "analogs": [
     {
       "datetime_utc": "2006-10-02T08:58Z",
       "source_file": "GID_2006_02_0858.txt",
-      "similarity": 0.4941980540752411,
+      "similarity": 0.4723992943763733,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-10-10T17:24Z",
+      "source_file": "GID_2011_10_1724.txt",
+      "similarity": 0.45564723014831543,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-10-10T09:22Z",
+      "source_file": "GID_2011_10_0922.txt",
+      "similarity": 0.45564723014831543,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
       "datetime_utc": "2004-12-09T02:12Z",
       "source_file": "GID_2004_09_0212.txt",
-      "similarity": 0.47700464725494385,
+      "similarity": 0.45265626907348633,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-09-27T05:09Z",
-      "source_file": "GID_2012_27_0509.txt",
-      "similarity": 0.47402018308639526,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-09-26T20:44Z",
-      "source_file": "GID_2012_26_2044.txt",
-      "similarity": 0.47402018308639526,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-09-26T23:51Z",
-      "source_file": "GID_2012_26_2351.txt",
-      "similarity": 0.47402018308639526,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-05-20T23:07Z",
-      "source_file": "GID_2014_20_2307.txt",
-      "similarity": 0.47209030389785767,
+      "datetime_utc": "2014-05-20T21:05Z",
+      "source_file": "GID_2014_20_2105.txt",
+      "similarity": 0.45198854804039,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-05-21T05:49Z",
       "source_file": "GID_2014_21_0549.txt",
-      "similarity": 0.47209030389785767,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-05-20T21:05Z",
-      "source_file": "GID_2014_20_2105.txt",
-      "similarity": 0.47209030389785767,
+      "similarity": 0.45198854804039,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-05-21T04:29Z",
       "source_file": "GID_2014_21_0429.txt",
-      "similarity": 0.47209030389785767,
+      "similarity": 0.45198854804039,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-10-10T09:22Z",
-      "source_file": "GID_2011_10_0922.txt",
-      "similarity": 0.4718708395957947,
+      "datetime_utc": "2014-05-20T23:07Z",
+      "source_file": "GID_2014_20_2307.txt",
+      "similarity": 0.45198854804039,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-11-15T09:24Z",
+      "source_file": "GID_2004_15_0924.txt",
+      "similarity": 0.4496099054813385,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-10-18T03:55Z",
+      "source_file": "GID_2010_18_0355.txt",
+      "similarity": 0.4465514123439789,
       "label": "severe_hail",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.8,
-    "mean_similarity": 0.4753495305776596,
-    "n_severe": 8,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.45404655337333677,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202609121802-KGID-FXUS63-AFDGID",
-    "afd_time": "2026-09-12T18:02:00Z",
-    "updated": "2026-09-12T19:28:40.500459+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202609122328-KGID-FXUS63-AFDGID",
+    "afd_time": "2026-09-12T23:28:00Z",
+    "updated": "2026-09-13T01:05:28.964912+00:00"
   }
 }

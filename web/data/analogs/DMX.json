@@ -1,78 +1,78 @@
 {
   "office": "DMX",
-  "product_id": "202609121957-KDMX-FXUS63-AFDDMX",
-  "afd_time": "2026-09-12T19:57:00Z",
+  "product_id": "202609122341-KDMX-FXUS63-AFDDMX",
+  "afd_time": "2026-09-12T23:41:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-12T22:23:32.342477+00:00",
-  "query_preview": "/MONDAY THROUGH FRIDAY/...\nIssued at 254 PM CDT Sat Sep 12 2026\n\n>> HEAVY RAIN AND THUNDERSTORM POTENTIAL MONDAY MORNING\n\nThe active pattern continues into at least the first half of the \nwork week, starting with Monday. The trough developing over the \npacific northwest will begin to push eastward t",
+  "updated": "2026-09-13T01:05:28.964912+00:00",
+  "query_preview": "/MONDAY THROUGH SATURDAY/...\nIssued at 254 PM CDT Sat Sep 12 2026\n\n>> HEAVY RAIN AND THUNDERSTORM POTENTIAL MONDAY MORNING\n\nThe active pattern continues into at least the first half of the \nwork week, starting with Monday. The trough developing over the \npacific northwest will begin to push eastward",
   "analogs": [
     {
       "datetime_utc": "2012-11-06T10:00Z",
       "source_file": "DMX_2012_06_1000.txt",
-      "similarity": 0.5090765953063965,
+      "similarity": 0.48948797583580017,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-08-18T04:57Z",
+      "source_file": "DMX_2014_18_0457.txt",
+      "similarity": 0.4879225492477417,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-08-17T20:41Z",
       "source_file": "DMX_2014_17_2041.txt",
-      "similarity": 0.5024470090866089,
+      "similarity": 0.4879225492477417,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-08-17T23:41Z",
       "source_file": "DMX_2014_17_2341.txt",
-      "similarity": 0.5024470090866089,
+      "similarity": 0.4879225492477417,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-08-18T04:57Z",
-      "source_file": "DMX_2014_18_0457.txt",
-      "similarity": 0.5024470090866089,
+      "datetime_utc": "2011-10-09T08:23Z",
+      "source_file": "DMX_2011_09_0823.txt",
+      "similarity": 0.4869309663772583,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-10-08T20:28Z",
+      "source_file": "DMX_2011_08_2028.txt",
+      "similarity": 0.4869309663772583,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-04-17T20:09Z",
+      "source_file": "DMX_2010_17_2009.txt",
+      "similarity": 0.48472991585731506,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-04-17T11:34Z",
       "source_file": "DMX_2010_17_1134.txt",
-      "similarity": 0.49587923288345337,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-04-17T20:09Z",
-      "source_file": "DMX_2010_17_2009.txt",
-      "similarity": 0.49587923288345337,
+      "similarity": 0.48472991585731506,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-04-17T08:35Z",
       "source_file": "DMX_2010_17_0835.txt",
-      "similarity": 0.49587923288345337,
+      "similarity": 0.48472991585731506,
       "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-09-28T07:58Z",
-      "source_file": "DMX_2012_28_0758.txt",
-      "similarity": 0.493988573551178,
-      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-03-27T20:32Z",
       "source_file": "DMX_2012_27_2032.txt",
-      "similarity": 0.48925095796585083,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-03-27T11:35Z",
-      "source_file": "DMX_2012_27_1135.txt",
-      "similarity": 0.48925095796585083,
+      "similarity": 0.47731202840805054,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 1.0,
-    "mean_similarity": 0.4976545810699463,
+    "mean_similarity": 0.48586193323135374,
     "n_severe": 10,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202609121957-KDMX-FXUS63-AFDDMX",
-    "afd_time": "2026-09-12T19:57:00Z",
-    "updated": "2026-09-12T22:23:32.342477+00:00"
+    "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
+    "product_id": "202609122341-KDMX-FXUS63-AFDDMX",
+    "afd_time": "2026-09-12T23:41:00Z",
+    "updated": "2026-09-13T01:05:28.964912+00:00"
   }
 }
