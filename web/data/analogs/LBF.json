@@ -1,91 +1,91 @@
 {
   "office": "LBF",
-  "product_id": "202609130540-KLBF-FXUS63-AFDLBF",
-  "afd_time": "2026-09-13T05:40:00Z",
+  "product_id": "202609131151-KLBF-FXUS63-AFDLBF",
+  "afd_time": "2026-09-13T11:51:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-13T06:16:01.284816+00:00",
-  "query_preview": "/MONDAY NIGHT THROUGH SATURDAY/...\nIssued at 230 PM CDT Sat Sep 12 2026\n\nMonday, a closed mid-level southern-stream trough will move into the \nregion through the day before ejecting northeastward during the \nafternoon and evening. Ahead of this system, warm air advection will \nincrease as southerly ",
+  "updated": "2026-09-13T12:04:32.799702+00:00",
+  "query_preview": "/MONDAY NIGHT THROUGH SATURDAY/...\nIssued at 217 AM CDT Sun Sep 13 2026\n\nA cold front passage late Monday will lead to low end chances \nfor showers and thunderstorms in the overnight, mainly across \nsouthern Nebraska. Tuesday will be the coolest day of the week \nas the cooler air mass behind the col",
   "analogs": [
+    {
+      "datetime_utc": "2012-11-15T23:26Z",
+      "source_file": "LBF_2012_15_2326.txt",
+      "similarity": 0.48441770672798157,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-11-15T21:12Z",
+      "source_file": "LBF_2012_15_2112.txt",
+      "similarity": 0.48441770672798157,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-11-16T05:20Z",
+      "source_file": "LBF_2012_16_0520.txt",
+      "similarity": 0.48441770672798157,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2004-03-24T21:12Z",
       "source_file": "LBF_2004_24_2112.txt",
-      "similarity": 0.5249892473220825,
+      "similarity": 0.482708215713501,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2018-10-17T11:15Z",
-      "source_file": "LBF_2018_17_1115.txt",
-      "similarity": 0.517086923122406,
-      "label": "quiet",
+      "datetime_utc": "2006-02-09T09:36Z",
+      "source_file": "LBF_2006_09_0936.txt",
+      "similarity": 0.4746297597885132,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-10-17T08:33Z",
-      "source_file": "LBF_2018_17_0833.txt",
-      "similarity": 0.517086923122406,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2012-07-16T05:22Z",
+      "source_file": "LBF_2012_16_0522_2.txt",
+      "similarity": 0.47443175315856934,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2018-10-17T18:13Z",
-      "source_file": "LBF_2018_17_1813.txt",
-      "similarity": 0.517086923122406,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2012-07-15T20:24Z",
+      "source_file": "LBF_2012_15_2024.txt",
+      "similarity": 0.47443175315856934,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2011-09-04T08:47Z",
-      "source_file": "LBF_2011_04_0847.txt",
-      "similarity": 0.5169224143028259,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2012-07-16T01:00Z",
+      "source_file": "LBF_2012_16_0100.txt",
+      "similarity": 0.47443175315856934,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2011-09-04T11:51Z",
-      "source_file": "LBF_2011_04_1151.txt",
-      "similarity": 0.5169224143028259,
-      "label": "quiet",
+      "datetime_utc": "2014-01-31T23:26Z",
+      "source_file": "LBF_2014_31_2326.txt",
+      "similarity": 0.4740844964981079,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-01-01T04:21Z",
       "source_file": "LBF_2014_01_0421.txt",
-      "similarity": 0.5142977237701416,
+      "similarity": 0.4740844964981079,
       "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-01-01T05:16Z",
-      "source_file": "LBF_2014_01_0516.txt",
-      "similarity": 0.5142977237701416,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-01-31T20:49Z",
-      "source_file": "LBF_2014_31_2049.txt",
-      "similarity": 0.5142977237701416,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-01-31T23:26Z",
-      "source_file": "LBF_2014_31_2326.txt",
-      "similarity": 0.5142977237701416,
-      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.5167285740375519,
-    "n_severe": 1,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.47820553481578826,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.52 below confidence floor 0.7",
-    "product_id": "202609130540-KLBF-FXUS63-AFDLBF",
-    "afd_time": "2026-09-13T05:40:00Z",
-    "updated": "2026-09-13T06:16:01.284816+00:00"
+    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
+    "product_id": "202609131151-KLBF-FXUS63-AFDLBF",
+    "afd_time": "2026-09-13T11:51:00Z",
+    "updated": "2026-09-13T12:04:32.799702+00:00"
   }
 }

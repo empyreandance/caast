@@ -1,91 +1,91 @@
 {
   "office": "LZK",
-  "product_id": "202609130536-KLZK-FXUS64-AFDLZK",
-  "afd_time": "2026-09-13T05:36:00Z",
+  "product_id": "202609131122-KLZK-FXUS64-AFDLZK",
+  "afd_time": "2026-09-13T11:22:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-13T06:16:01.284816+00:00",
-  "query_preview": "..\nIssued at 1229 PM CDT Sat Sep 12 2026\n\nSeveral moving parts in play this afternoon across the Lower\nMississippi Valley and the Southern Plains. The latest GOES East \nWater Vapor Imagery reveals a shortwave trough exiting to the \neast over the Tennessee Valley with northwest flow in place \nacross ",
+  "updated": "2026-09-13T12:04:32.799702+00:00",
+  "query_preview": "..\nIssued at 300 AM CDT Sun Sep 13 2026\n\nRegional WSR 88D radars depicted a complex of showers and \nthunderstorms ongoing over SErn KS, SWrn MO, and NErn OK. This \ncomplex was associated with a weak upper level disturbance within \nbackground Wrly upper flow along and just ahead of a surface \nboundar",
   "analogs": [
     {
-      "datetime_utc": "2019-05-11T20:12Z",
-      "source_file": "LZK_2019_11_2012.txt",
-      "similarity": 0.4455474019050598,
+      "datetime_utc": "2019-05-11T23:55Z",
+      "source_file": "LZK_2019_11_2355.txt",
+      "similarity": 0.43970221281051636,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-05-11T23:55Z",
-      "source_file": "LZK_2019_11_2355.txt",
-      "similarity": 0.4455474019050598,
+      "datetime_utc": "2019-05-11T20:12Z",
+      "source_file": "LZK_2019_11_2012.txt",
+      "similarity": 0.43970221281051636,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2019-05-12T06:12Z",
       "source_file": "LZK_2019_12_0612.txt",
-      "similarity": 0.4455474019050598,
+      "similarity": 0.43970221281051636,
       "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-08-27T19:30Z",
-      "source_file": "LZK_2022_27_1930.txt",
-      "similarity": 0.43922775983810425,
-      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2022-08-27T23:20Z",
       "source_file": "LZK_2022_27_2320.txt",
-      "similarity": 0.43922775983810425,
+      "similarity": 0.42870163917541504,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-08-27T19:30Z",
+      "source_file": "LZK_2022_27_1930.txt",
+      "similarity": 0.42870163917541504,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-01-13T20:08Z",
+      "source_file": "LZK_2005_13_2008_1.txt",
+      "similarity": 0.4248726963996887,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-11-22T20:16Z",
+      "source_file": "LZK_2020_22_2016.txt",
+      "similarity": 0.42481547594070435,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-11-23T05:34Z",
       "source_file": "LZK_2020_23_0534.txt",
-      "similarity": 0.43502160906791687,
+      "similarity": 0.42481547594070435,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-11-22T20:16Z",
-      "source_file": "LZK_2020_22_2016.txt",
-      "similarity": 0.43502160906791687,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-03-18T08:01Z",
-      "source_file": "LZK_2021_18_0801.txt",
-      "similarity": 0.43354883790016174,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-03-18T19:49Z",
-      "source_file": "LZK_2021_18_1949.txt",
-      "similarity": 0.43354883790016174,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2007-01-19T20:57Z",
+      "source_file": "LZK_2007_19_2057.txt",
+      "similarity": 0.41917532682418823,
+      "label": "winter",
+      "is_severe": false
     },
     {
       "datetime_utc": "2007-01-19T23:36Z",
       "source_file": "LZK_2007_19_2336_1.txt",
-      "similarity": 0.4328388571739197,
+      "similarity": 0.41917532682418823,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.9,
-    "mean_similarity": 0.4385077476501465,
-    "n_severe": 9,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.4289364218711853,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609130536-KLZK-FXUS64-AFDLZK",
-    "afd_time": "2026-09-13T05:36:00Z",
-    "updated": "2026-09-13T06:16:01.284816+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202609131122-KLZK-FXUS64-AFDLZK",
+    "afd_time": "2026-09-13T11:22:00Z",
+    "updated": "2026-09-13T12:04:32.799702+00:00"
   }
 }
