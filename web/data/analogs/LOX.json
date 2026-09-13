@@ -1,57 +1,50 @@
 {
   "office": "LOX",
-  "product_id": "202609121951-KLOX-FXUS66-AFDLOX",
-  "afd_time": "2026-09-12T19:51:00Z",
+  "product_id": "202609130547-KLOX-FXUS66-AFDLOX",
+  "afd_time": "2026-09-13T05:47:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-12T22:23:32.342477+00:00",
+  "updated": "2026-09-13T06:16:01.284816+00:00",
   "query_preview": "(WED-SAT)...12/1243 PM.\n\nLittle change expected Tuesday-Wednesday with a fairly stagnant \nupper pattern and persistent moderate to strong onshore flow. \nThere may be slight cooling each day, but the fairly mild mid- \nSeptember should continue. The marine layer will likely become \nmore robust across ",
   "analogs": [
     {
-      "datetime_utc": "2017-10-31T21:01Z",
-      "source_file": "LOX_2017_31_2101.txt",
-      "similarity": 0.38611888885498047,
+      "datetime_utc": "2017-10-01T05:55Z",
+      "source_file": "LOX_2017_01_0555.txt",
+      "similarity": 0.38611894845962524,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-10-01T03:22Z",
       "source_file": "LOX_2017_01_0322.txt",
-      "similarity": 0.38611888885498047,
+      "similarity": 0.38611894845962524,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-10-01T05:55Z",
-      "source_file": "LOX_2017_01_0555.txt",
-      "similarity": 0.38611888885498047,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-08-14T20:25Z",
-      "source_file": "LOX_2004_14_2025.txt",
-      "similarity": 0.37292325496673584,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-08-14T16:10Z",
-      "source_file": "LOX_2004_14_1610.txt",
-      "similarity": 0.37292325496673584,
+      "datetime_utc": "2017-10-31T21:01Z",
+      "source_file": "LOX_2017_31_2101.txt",
+      "similarity": 0.38611894845962524,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-08-15T04:01Z",
       "source_file": "LOX_2004_15_0401.txt",
-      "similarity": 0.37292325496673584,
+      "similarity": 0.3729233741760254,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-02-01T11:22Z",
-      "source_file": "LOX_2016_01_1122.txt",
-      "similarity": 0.3683907389640808,
+      "datetime_utc": "2004-08-14T20:25Z",
+      "source_file": "LOX_2004_14_2025.txt",
+      "similarity": 0.3729233741760254,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-08-14T16:10Z",
+      "source_file": "LOX_2004_14_1610.txt",
+      "similarity": 0.3729233741760254,
       "label": "quiet",
       "is_severe": false
     },
@@ -63,29 +56,36 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-02-28T23:15Z",
-      "source_file": "LOX_2009_28_2315.txt",
-      "similarity": 0.3621758222579956,
+      "datetime_utc": "2016-02-01T11:22Z",
+      "source_file": "LOX_2016_01_1122.txt",
+      "similarity": 0.3683907389640808,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-08-30T00:27Z",
-      "source_file": "LOX_2012_30_0027.txt",
-      "similarity": 0.3620694875717163,
+      "datetime_utc": "2009-02-28T23:15Z",
+      "source_file": "LOX_2009_28_2315.txt",
+      "similarity": 0.36217594146728516,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-08-29T21:00Z",
+      "source_file": "LOX_2012_29_2100.txt",
+      "similarity": 0.3620694875717163,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.37381532192230227,
-    "n_severe": 1,
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.3738153874874115,
+    "n_severe": 2,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
-    "product_id": "202609121951-KLOX-FXUS66-AFDLOX",
-    "afd_time": "2026-09-12T19:51:00Z",
-    "updated": "2026-09-12T22:23:32.342477+00:00"
+    "product_id": "202609130547-KLOX-FXUS66-AFDLOX",
+    "afd_time": "2026-09-13T05:47:00Z",
+    "updated": "2026-09-13T06:16:01.284816+00:00"
   }
 }

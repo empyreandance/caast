@@ -1,78 +1,78 @@
 {
   "office": "EWX",
-  "product_id": "202609122333-KEWX-FXUS64-AFDEWX",
-  "afd_time": "2026-09-12T23:33:00Z",
+  "product_id": "202609130606-KEWX-FXUS64-AFDEWX",
+  "afd_time": "2026-09-13T06:06:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-13T01:05:28.964912+00:00",
-  "query_preview": "..\n(Monday through next Saturday)\nIssued at 1252 PM CDT Sat Sep 12 2026\n\nAbove normal temperatures persist next week. An upper level ridge \nwill be centered northeast of our area Monday through at least the \nmiddle of next week, eventually expanding further west late week.\nHighs will continue to ran",
+  "updated": "2026-09-13T06:16:01.284816+00:00",
+  "query_preview": "..\n(Monday night through Saturday)\nIssued at 1245 AM CDT Sun Sep 13 2026\n\nAn upper level ridge will continue to be centered northeast of \nour area through at least the middle of next week, and began \nexpanding further west later in the week. Highs once more will \ncontinue to range from the middle 90",
   "analogs": [
+    {
+      "datetime_utc": "2008-05-09T20:31Z",
+      "source_file": "EWX_2008_09_2031.txt",
+      "similarity": 0.4671209156513214,
+      "label": "tornado",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2016-04-03T19:37Z",
       "source_file": "EWX_2016_03_1937.txt",
-      "similarity": 0.49050119519233704,
+      "similarity": 0.46705490350723267,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-07-19T08:19Z",
       "source_file": "EWX_2014_19_0819.txt",
-      "similarity": 0.48932504653930664,
+      "similarity": 0.46689945459365845,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-07-19T17:51Z",
       "source_file": "EWX_2014_19_1751.txt",
-      "similarity": 0.48932504653930664,
+      "similarity": 0.46689945459365845,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-05-09T20:31Z",
-      "source_file": "EWX_2008_09_2031.txt",
-      "similarity": 0.48064979910850525,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-08-26T16:58Z",
       "source_file": "EWX_2004_26_1658.txt",
-      "similarity": 0.472298800945282,
+      "similarity": 0.45981401205062866,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-10-12T16:44Z",
-      "source_file": "EWX_2009_12_1644.txt",
-      "similarity": 0.47180384397506714,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-03-03T17:47Z",
-      "source_file": "EWX_2014_03_1747.txt",
-      "similarity": 0.47062256932258606,
+      "datetime_utc": "2014-03-03T16:48Z",
+      "source_file": "EWX_2014_03_1648.txt",
+      "similarity": 0.45699483156204224,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-03-03T09:56Z",
       "source_file": "EWX_2014_03_0956.txt",
-      "similarity": 0.47062256932258606,
+      "similarity": 0.45699483156204224,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-03-03T16:48Z",
-      "source_file": "EWX_2014_03_1648.txt",
-      "similarity": 0.47062256932258606,
+      "datetime_utc": "2014-03-03T17:47Z",
+      "source_file": "EWX_2014_03_1747.txt",
+      "similarity": 0.45699483156204224,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2017-07-24T23:32Z",
-      "source_file": "EWX_2017_24_2332.txt",
-      "similarity": 0.46976763010025024,
+      "datetime_utc": "2009-10-12T16:44Z",
+      "source_file": "EWX_2009_12_1644.txt",
+      "similarity": 0.4543311595916748,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2025-08-31T06:34Z",
+      "source_file": "EWX_2025_31_0634.txt",
+      "similarity": 0.4536289572715759,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.4775539070367813,
+    "mean_similarity": 0.4606733351945877,
     "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202609122333-KEWX-FXUS64-AFDEWX",
-    "afd_time": "2026-09-12T23:33:00Z",
-    "updated": "2026-09-13T01:05:28.964912+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202609130606-KEWX-FXUS64-AFDEWX",
+    "afd_time": "2026-09-13T06:06:00Z",
+    "updated": "2026-09-13T06:16:01.284816+00:00"
   }
 }
