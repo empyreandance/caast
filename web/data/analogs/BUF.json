@@ -1,91 +1,91 @@
 {
   "office": "BUF",
-  "product_id": "202609131050-KBUF-FXUS61-AFDBUF",
-  "afd_time": "2026-09-13T10:50:00Z",
+  "product_id": "202609131734-KBUF-FXUS61-AFDBUF",
+  "afd_time": "2026-09-13T17:34:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-13T12:04:32.799702+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Warm and humid conditions will continue today, \nwith showers and scattered thunderstorms through this evening.\n\nGOES water vapor imagery shows a southern stream shortwave trough \nacross Pennsylvania early this morning. An axis of PWATS over 1.5 \ninches within a region of strong mo",
+  "updated": "2026-09-13T19:31:16.096340+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...Scattered showers and thunderstorms through early \nevening, with a few more scattered showers overnight. A few storms \nmay produce isolated strong wind gusts and brief heavy downpours.\n\nA sharp mid level trough will advance from Ontario to Quebec \ntonight, with DPVA and height fal",
   "analogs": [
     {
-      "datetime_utc": "2005-07-30T18:22Z",
-      "source_file": "BUF_2005_30_1822.txt",
-      "similarity": 0.46187061071395874,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2019-12-07T22:14Z",
+      "source_file": "BUF_2019_07_2214.txt",
+      "similarity": 0.481794536113739,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-12-08T00:52Z",
+      "source_file": "BUF_2019_08_0052.txt",
+      "similarity": 0.481794536113739,
+      "label": "winter",
+      "is_severe": false
     },
     {
       "datetime_utc": "2005-07-31T06:53Z",
       "source_file": "BUF_2005_31_0653.txt",
-      "similarity": 0.46187061071395874,
+      "similarity": 0.4775482416152954,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-07-31T13:23Z",
       "source_file": "BUF_2005_31_1323.txt",
-      "similarity": 0.46187061071395874,
+      "similarity": 0.4775482416152954,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-12-08T00:52Z",
-      "source_file": "BUF_2019_08_0052.txt",
-      "similarity": 0.4584326148033142,
+      "datetime_utc": "2005-07-30T18:22Z",
+      "source_file": "BUF_2005_30_1822.txt",
+      "similarity": 0.4775482416152954,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-11-18T20:10Z",
+      "source_file": "BUF_2022_18_2010.txt",
+      "similarity": 0.46545735001564026,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-12-07T22:14Z",
-      "source_file": "BUF_2019_07_2214.txt",
-      "similarity": 0.4584326148033142,
+      "datetime_utc": "2022-11-19T06:23Z",
+      "source_file": "BUF_2022_19_0623.txt",
+      "similarity": 0.46545735001564026,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-09-12T18:53Z",
-      "source_file": "BUF_2018_12_1853.txt",
-      "similarity": 0.4521947503089905,
-      "label": "flood",
+      "datetime_utc": "2022-11-19T00:39Z",
+      "source_file": "BUF_2022_19_0039.txt",
+      "similarity": 0.46545735001564026,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2024-09-04T18:18Z",
-      "source_file": "BUF_2024_04_1818.txt",
-      "similarity": 0.4498921036720276,
-      "label": "tornado",
+      "datetime_utc": "2019-12-24T06:10Z",
+      "source_file": "BUF_2019_24_0610.txt",
+      "similarity": 0.4624461233615875,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-09-04T10:25Z",
-      "source_file": "BUF_2024_04_1025.txt",
-      "similarity": 0.4498921036720276,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-09-04T08:20Z",
-      "source_file": "BUF_2024_04_0820.txt",
-      "similarity": 0.4498921036720276,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-09-04T14:40Z",
-      "source_file": "BUF_2024_04_1440.txt",
-      "similarity": 0.4498921036720276,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2019-12-23T22:55Z",
+      "source_file": "BUF_2019_23_2255.txt",
+      "similarity": 0.4624461233615875,
+      "label": "winter",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.45542402267456056,
-    "n_severe": 7,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.471749809384346,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202609131050-KBUF-FXUS61-AFDBUF",
-    "afd_time": "2026-09-13T10:50:00Z",
-    "updated": "2026-09-13T12:04:32.799702+00:00"
+    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
+    "product_id": "202609131734-KBUF-FXUS61-AFDBUF",
+    "afd_time": "2026-09-13T17:34:00Z",
+    "updated": "2026-09-13T19:31:16.096340+00:00"
   }
 }
