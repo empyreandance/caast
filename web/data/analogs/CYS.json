@@ -1,92 +1,92 @@
 {
   "office": "CYS",
-  "product_id": "202609140450-KCYS-FXUS65-AFDCYS",
-  "afd_time": "2026-09-14T04:50:00Z",
+  "product_id": "202609141148-KCYS-FXUS65-AFDCYS",
+  "afd_time": "2026-09-14T11:48:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-14T06:23:27.124344+00:00",
-  "query_preview": "/TUESDAY NIGHT THROUGH SATURDAY/...\nIssued at 240 PM MDT Sun Sep 13 2026\n\nTuesday and into the weekend, the upper level low \nkeeps migrating east into the Great Lakes and Hudson Bay region. The \ncounter clockwise circulation will begin filtering cold air from the \nArctic into the region undergoing s",
+  "updated": "2026-09-14T14:09:15.623125+00:00",
+  "query_preview": "/THURSDAY THROUGH SUNDAY/...\nIssued at 240 PM MDT Sun Sep 13 2026\n\nTuesday and into the weekend, the upper level low \nkeeps migrating east into the Great Lakes and Hudson Bay region. The \ncounter clockwise circulation will begin filtering cold air from the \nArctic into the region undergoing some war",
   "analogs": [
     {
       "datetime_utc": "2013-01-18T15:56Z",
       "source_file": "CYS_2013_18_1556.txt",
-      "similarity": 0.7582787871360779,
+      "similarity": 0.754370927810669,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-10-21T09:23Z",
+      "source_file": "CYS_2005_21_0923.txt",
+      "similarity": 0.7165691256523132,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2010-05-04T21:44Z",
       "source_file": "CYS_2010_04_2144.txt",
-      "similarity": 0.7224379777908325,
+      "similarity": 0.7053501605987549,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-10-21T09:23Z",
-      "source_file": "CYS_2005_21_0923.txt",
-      "similarity": 0.721025824546814,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-09-14T18:53Z",
-      "source_file": "CYS_2007_14_1853.txt",
-      "similarity": 0.7057896852493286,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2015-07-26T05:47Z",
-      "source_file": "CYS_2015_26_0547.txt",
-      "similarity": 0.6977735757827759,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2015-07-25T20:39Z",
-      "source_file": "CYS_2015_25_2039.txt",
-      "similarity": 0.6977735757827759,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2015-07-26T02:48Z",
-      "source_file": "CYS_2015_26_0248.txt",
-      "similarity": 0.6977735757827759,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2015-07-25T23:39Z",
-      "source_file": "CYS_2015_25_2339.txt",
-      "similarity": 0.6977735757827759,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-02-05T22:12Z",
-      "source_file": "CYS_2011_05_2212.txt",
-      "similarity": 0.69327312707901,
-      "label": "winter",
-      "is_severe": false
     },
     {
       "datetime_utc": "2011-02-05T23:45Z",
       "source_file": "CYS_2011_05_2345.txt",
-      "similarity": 0.69327312707901,
+      "similarity": 0.6921889781951904,
       "label": "winter",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-02-06T05:57Z",
+      "source_file": "CYS_2011_06_0557.txt",
+      "similarity": 0.6921889781951904,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-02-05T22:12Z",
+      "source_file": "CYS_2011_05_2212.txt",
+      "similarity": 0.6921889781951904,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-02-06T03:36Z",
+      "source_file": "CYS_2011_06_0336.txt",
+      "similarity": 0.6921889781951904,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-02-06T01:46Z",
+      "source_file": "CYS_2011_06_0146.txt",
+      "similarity": 0.6921889781951904,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-02-06T04:45Z",
+      "source_file": "CYS_2011_06_0445.txt",
+      "similarity": 0.6921889781951904,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-07-25T23:39Z",
+      "source_file": "CYS_2015_25_2339.txt",
+      "similarity": 0.6868927478790283,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
-    "level": "LOW",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.7085172832012177,
+    "level": "QUIET",
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.7016316831111908,
     "base_rate": 0.5068515384080318,
-    "signal_value": 0.09314846159196821,
-    "n_severe": 6,
+    "signal_value": -0.30685153840803175,
+    "n_severe": 2,
     "n_total": 10,
-    "product_id": "202609140450-KCYS-FXUS65-AFDCYS",
-    "afd_time": "2026-09-14T04:50:00Z",
-    "updated": "2026-09-14T06:23:27.124344+00:00"
+    "product_id": "202609141148-KCYS-FXUS65-AFDCYS",
+    "afd_time": "2026-09-14T11:48:00Z",
+    "updated": "2026-09-14T14:09:15.623125+00:00"
   }
 }
