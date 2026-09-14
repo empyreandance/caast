@@ -1,91 +1,91 @@
 {
   "office": "GLD",
-  "product_id": "202609141730-KGLD-FXUS63-AFDGLD",
-  "afd_time": "2026-09-14T17:30:00Z",
+  "product_id": "202609142300-KGLD-FXUS63-AFDGLD",
+  "afd_time": "2026-09-14T23:00:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-14T19:26:32.368597+00:00",
-  "query_preview": "/FRIDAY THROUGH SUNDAY/...\nIssued at 204 PM MDT Sun Sep 13 2026\n\nWednesday morning, ensembles are favoring a strong 500-mb high \nacross the Southeastern United States, with troughing to the \nwest. At the same time, a strong surface high supported by an \nactive jet stream looks to be located in the G",
+  "updated": "2026-09-14T23:12:47.566770+00:00",
+  "query_preview": "/FRIDAY THROUGH MONDAY/...\nIssued at 234 PM MDT Mon Sep 14 2026\n\nOn Friday, an upper level low-pressure system over the Middle\nRockies will be sliding towards the east over northern CONUS\nthat will help bring in a cold front overnight and into Saturday\nmorning. Sunday onward, there is some uncertain",
   "analogs": [
     {
-      "datetime_utc": "2019-02-15T09:25Z",
-      "source_file": "GLD_2019_15_0925.txt",
-      "similarity": 0.5060172080993652,
+      "datetime_utc": "2025-01-20T16:57Z",
+      "source_file": "GLD_2025_20_1657.txt",
+      "similarity": 0.4884166121482849,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-02-15T02:01Z",
-      "source_file": "GLD_2019_15_0201.txt",
-      "similarity": 0.5060172080993652,
+      "datetime_utc": "2025-01-20T16:40Z",
+      "source_file": "GLD_2025_20_1640.txt",
+      "similarity": 0.4884166121482849,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2025-01-20T20:17Z",
+      "source_file": "GLD_2025_20_2017.txt",
+      "similarity": 0.4884166121482849,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-09-21T20:33Z",
+      "source_file": "GLD_2005_21_2033.txt",
+      "similarity": 0.4851759076118469,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-09-21T20:33Z",
+      "source_file": "GLD_2005_21_2033.txt",
+      "similarity": 0.4851759076118469,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-02-14T21:21Z",
+      "source_file": "GLD_2019_14_2121.txt",
+      "similarity": 0.4842533469200134,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-02-15T04:32Z",
       "source_file": "GLD_2019_15_0432.txt",
-      "similarity": 0.5060172080993652,
+      "similarity": 0.4842533469200134,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-02-15T09:25Z",
+      "source_file": "GLD_2019_15_0925.txt",
+      "similarity": 0.4842533469200134,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-02-14T22:05Z",
       "source_file": "GLD_2019_14_2205.txt",
-      "similarity": 0.5060172080993652,
+      "similarity": 0.4842533469200134,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-02-14T21:21Z",
-      "source_file": "GLD_2019_14_2121.txt",
-      "similarity": 0.5060172080993652,
+      "datetime_utc": "2019-02-15T02:01Z",
+      "source_file": "GLD_2019_15_0201.txt",
+      "similarity": 0.4842533469200134,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-09-21T20:33Z",
-      "source_file": "GLD_2005_21_2033.txt",
-      "similarity": 0.49808207154273987,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-09-21T20:33Z",
-      "source_file": "GLD_2005_21_2033.txt",
-      "similarity": 0.49808207154273987,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-04-04T19:49Z",
-      "source_file": "GLD_2014_04_1949.txt",
-      "similarity": 0.4942849278450012,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-04-04T08:27Z",
-      "source_file": "GLD_2014_04_0827.txt",
-      "similarity": 0.4942849278450012,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-04-04T09:36Z",
-      "source_file": "GLD_2014_04_0936.txt",
-      "similarity": 0.4942849278450012,
-      "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.5009104967117309,
+    "mean_similarity": 0.4856868386268616,
     "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202609141730-KGLD-FXUS63-AFDGLD",
-    "afd_time": "2026-09-14T17:30:00Z",
-    "updated": "2026-09-14T19:26:32.368597+00:00"
+    "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
+    "product_id": "202609142300-KGLD-FXUS63-AFDGLD",
+    "afd_time": "2026-09-14T23:00:00Z",
+    "updated": "2026-09-14T23:12:47.566770+00:00"
   }
 }

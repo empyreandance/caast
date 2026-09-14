@@ -1,91 +1,91 @@
 {
   "office": "BOI",
-  "product_id": "202609141829-KBOI-FXUS65-AFDBOI",
-  "afd_time": "2026-09-14T18:29:00Z",
+  "product_id": "202609142005-KBOI-FXUS65-AFDBOI",
+  "afd_time": "2026-09-14T20:05:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-14T19:26:32.368597+00:00",
-  "query_preview": "/Thursday through Monday/...\nIssued 307 AM MDT MON SEP 14 2026\nCool and unsettled conditions will continue on Friday, with showers \nlingering over high terrain. Precipitation accumulations look to be \nminimal and isolated to higher elevations in Baker County, OR and \nthe West Central Mountains. A sh",
+  "updated": "2026-09-14T23:12:47.566770+00:00",
+  "query_preview": "/Thursday through Monday/...\nThe end of the work week will remain unsettled, with an upper-\nlevel low pressure system moving overhead. Precipitation chances\nwill be highest in the west-central Idaho mountains (50-70%\nchance), with mentionable chances elsewhere (15-40% chance),\nlowest in the valleys.",
   "analogs": [
     {
       "datetime_utc": "2012-03-04T16:15Z",
       "source_file": "BOI_2012_04_1615.txt",
-      "similarity": 0.4698846638202667,
+      "similarity": 0.4519715905189514,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-10-06T21:14Z",
-      "source_file": "BOI_2006_06_2114.txt",
-      "similarity": 0.46876534819602966,
-      "label": "quiet",
+      "datetime_utc": "2012-03-04T10:44Z",
+      "source_file": "BOI_2012_04_1044.txt",
+      "similarity": 0.43892937898635864,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-11-18T16:45Z",
+      "source_file": "BOI_2014_18_1645.txt",
+      "similarity": 0.43777191638946533,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-10-07T03:50Z",
       "source_file": "BOI_2006_07_0350.txt",
-      "similarity": 0.46876534819602966,
+      "similarity": 0.4372851252555847,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-11-18T16:45Z",
-      "source_file": "BOI_2014_18_1645.txt",
-      "similarity": 0.4652348756790161,
-      "label": "winter",
+      "datetime_utc": "2006-10-06T21:14Z",
+      "source_file": "BOI_2006_06_2114.txt",
+      "similarity": 0.4372851252555847,
+      "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-03-04T10:44Z",
-      "source_file": "BOI_2012_04_1044.txt",
-      "similarity": 0.4546912610530853,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2023-09-06T20:32Z",
       "source_file": "BOI_2023_06_2032.txt",
-      "similarity": 0.4482751190662384,
+      "similarity": 0.4317207336425781,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-09-07T02:57Z",
       "source_file": "BOI_2023_07_0257.txt",
-      "similarity": 0.4482751190662384,
+      "similarity": 0.4317207336425781,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-08-13T20:34Z",
       "source_file": "BOI_2005_13_2034_1.txt",
-      "similarity": 0.44645461440086365,
+      "similarity": 0.4290105700492859,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-08-14T03:46Z",
       "source_file": "BOI_2005_14_0346.txt",
-      "similarity": 0.44645461440086365,
+      "similarity": 0.4290105700492859,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-02-24T10:17Z",
-      "source_file": "BOI_2007_24_1017.txt",
-      "similarity": 0.4450990855693817,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2019-04-18T15:35Z",
+      "source_file": "BOI_2019_18_1535_1.txt",
+      "similarity": 0.4285709261894226,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.45619000494480133,
-    "n_severe": 3,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.43532766699790953,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202609141829-KBOI-FXUS65-AFDBOI",
-    "afd_time": "2026-09-14T18:29:00Z",
-    "updated": "2026-09-14T19:26:32.368597+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202609142005-KBOI-FXUS65-AFDBOI",
+    "afd_time": "2026-09-14T20:05:00Z",
+    "updated": "2026-09-14T23:12:47.566770+00:00"
   }
 }
