@@ -1,91 +1,91 @@
 {
   "office": "SLC",
-  "product_id": "202609140425-KSLC-FXUS65-AFDSLC",
-  "afd_time": "2026-09-14T04:25:00Z",
+  "product_id": "202609141907-KSLC-FXUS65-AFDSLC",
+  "afd_time": "2026-09-14T19:07:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-14T06:23:27.124344+00:00",
-  "query_preview": "..A Pacific Northwest storm system is making its way\ninto Montana this evening, with its associated cold front near a\nKENV-KEMM line. The frontal passage has been mostly dry so far,\nwith just a few very isolated cells developing in the vicinity of\nthe boundary. The front will continue slowly southea",
+  "updated": "2026-09-14T19:26:32.368597+00:00",
+  "query_preview": "..As the upper level low associated with Sunday's cold\nfront shifts into the High Plains, the weakening boundary remains\nin place across southern Utah. Since the front did not clear all\nthe way to Arizona, deep moisture remains south of the\nfront...with implications for the forecast for Tuesday.\n\nTh",
   "analogs": [
+    {
+      "datetime_utc": "2004-07-18T03:20Z",
+      "source_file": "SLC_2004_18_0320.txt",
+      "similarity": 0.4686259627342224,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2024-07-10T10:14Z",
       "source_file": "SLC_2024_10_1014.txt",
-      "similarity": 0.4643956422805786,
+      "similarity": 0.46506914496421814,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2019-03-08T12:11Z",
       "source_file": "SLC_2019_08_1211.txt",
-      "similarity": 0.4602348804473877,
+      "similarity": 0.4574483633041382,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-07-18T03:20Z",
-      "source_file": "SLC_2004_18_0320.txt",
-      "similarity": 0.45693492889404297,
-      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-10-06T04:12Z",
       "source_file": "SLC_2007_06_0412.txt",
-      "similarity": 0.45599937438964844,
+      "similarity": 0.4527938961982727,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-11-01T09:11Z",
-      "source_file": "SLC_2019_01_0911.txt",
-      "similarity": 0.4531485438346863,
-      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-07-09T03:32Z",
       "source_file": "SLC_2017_09_0332.txt",
-      "similarity": 0.4488041400909424,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2019-06-19T10:08Z",
-      "source_file": "SLC_2019_19_1008.txt",
-      "similarity": 0.4449729919433594,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-06-21T15:32Z",
-      "source_file": "SLC_2010_21_1532.txt",
-      "similarity": 0.44361573457717896,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-08-18T03:22Z",
-      "source_file": "SLC_2021_18_0322.txt",
-      "similarity": 0.44106292724609375,
+      "similarity": 0.45171818137168884,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-08-17T21:19Z",
       "source_file": "SLC_2021_17_2119.txt",
-      "similarity": 0.44106292724609375,
+      "similarity": 0.4512314200401306,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-08-17T21:26Z",
+      "source_file": "SLC_2021_17_2126.txt",
+      "similarity": 0.4512314200401306,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-08-18T03:22Z",
+      "source_file": "SLC_2021_18_0322.txt",
+      "similarity": 0.4512314200401306,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-11-01T09:11Z",
+      "source_file": "SLC_2019_01_0911.txt",
+      "similarity": 0.4512135684490204,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-06-19T10:08Z",
+      "source_file": "SLC_2019_19_1008.txt",
+      "similarity": 0.44517621397972107,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.4510232090950012,
-    "n_severe": 4,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.45457395911216736,
+    "n_severe": 5,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609140425-KSLC-FXUS65-AFDSLC",
-    "afd_time": "2026-09-14T04:25:00Z",
-    "updated": "2026-09-14T06:23:27.124344+00:00"
+    "product_id": "202609141907-KSLC-FXUS65-AFDSLC",
+    "afd_time": "2026-09-14T19:07:00Z",
+    "updated": "2026-09-14T19:26:32.368597+00:00"
   }
 }
