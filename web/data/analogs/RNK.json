@@ -1,91 +1,91 @@
 {
   "office": "RNK",
-  "product_id": "202609142309-KRNK-FXUS61-AFDRNK",
-  "afd_time": "2026-09-14T23:09:00Z",
+  "product_id": "202609150603-KRNK-FXUS61-AFDRNK",
+  "afd_time": "2026-09-15T06:03:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-14T23:12:47.566770+00:00",
-  "query_preview": "..\nKEY MESSAGE 1: Dry conditions through midweek, with rain \nchances late week.\n\nA larger amplitude upper level shortwave trough is currently\nprogressing across the Mid-Atlantic states today today. A cold \nfront in association with this upper level trough passed through\nthe area during the overnight",
+  "updated": "2026-09-15T07:50:33.625613+00:00",
+  "query_preview": "..\nKEY MESSAGE 1: Dry conditions through midweek, with rain \nchances late week and into the weekend.\n\nStrong high pressure firmly in place today, and it will \ncontinue to bring dry weather through at least Wednesday. \nRidging will begin to breakdown by Thursday and weak upper \ndisturbances will roun",
   "analogs": [
+    {
+      "datetime_utc": "2004-08-19T14:04Z",
+      "source_file": "RNK_2004_19_1404.txt",
+      "similarity": 0.46216434240341187,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-08-19T06:04Z",
+      "source_file": "RNK_2004_19_0604.txt",
+      "similarity": 0.46216434240341187,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-08-19T11:00Z",
+      "source_file": "RNK_2004_19_1100.txt",
+      "similarity": 0.46216434240341187,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-06-28T14:51Z",
+      "source_file": "RNK_2010_28_1451.txt",
+      "similarity": 0.4444865584373474,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-06-28T10:52Z",
+      "source_file": "RNK_2010_28_1052.txt",
+      "similarity": 0.4444865584373474,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-06-28T07:30Z",
+      "source_file": "RNK_2010_28_0730.txt",
+      "similarity": 0.4444865584373474,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-04-06T21:04Z",
+      "source_file": "RNK_2023_06_2104.txt",
+      "similarity": 0.439814031124115,
+      "label": "flood",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2020-06-22T05:15Z",
       "source_file": "RNK_2020_22_0515.txt",
-      "similarity": 0.45424479246139526,
+      "similarity": 0.43966996669769287,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-06-22T06:52Z",
       "source_file": "RNK_2020_22_0652.txt",
-      "similarity": 0.45424479246139526,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2025-07-07T22:54Z",
-      "source_file": "RNK_2025_07_2254.txt",
-      "similarity": 0.447351336479187,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2025-07-07T23:16Z",
-      "source_file": "RNK_2025_07_2316.txt",
-      "similarity": 0.447351336479187,
+      "similarity": 0.43966996669769287,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2025-07-07T18:06Z",
       "source_file": "RNK_2025_07_1806.txt",
-      "similarity": 0.447351336479187,
+      "similarity": 0.43966928124427795,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-09-01T19:14Z",
-      "source_file": "RNK_2006_01_1914.txt",
-      "similarity": 0.44479936361312866,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-09-02T05:33Z",
-      "source_file": "RNK_2006_02_0533.txt",
-      "similarity": 0.44479936361312866,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-05-23T01:35Z",
-      "source_file": "RNK_2005_23_0135.txt",
-      "similarity": 0.44224774837493896,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-05-22T22:22Z",
-      "source_file": "RNK_2005_22_2222.txt",
-      "similarity": 0.44224774837493896,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-05-22T23:27Z",
-      "source_file": "RNK_2005_22_2327.txt",
-      "similarity": 0.44224774837493896,
-      "label": "quiet",
-      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.4466885566711426,
-    "n_severe": 5,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.4478775948286057,
+    "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609142309-KRNK-FXUS61-AFDRNK",
-    "afd_time": "2026-09-14T23:09:00Z",
-    "updated": "2026-09-14T23:12:47.566770+00:00"
+    "product_id": "202609150603-KRNK-FXUS61-AFDRNK",
+    "afd_time": "2026-09-15T06:03:00Z",
+    "updated": "2026-09-15T07:50:33.625613+00:00"
   }
 }
