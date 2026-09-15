@@ -1,78 +1,78 @@
 {
   "office": "TWC",
-  "product_id": "202609151010-KTWC-FXUS65-AFDTWC",
-  "afd_time": "2026-09-15T10:10:00Z",
+  "product_id": "202609152112-KTWC-FXUS65-AFDTWC",
+  "afd_time": "2026-09-15T21:12:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-15T13:38:48.041707+00:00",
-  "query_preview": "..Southerly flow will continue to persist across the\narea through Thursday with well above normal precipitable water\nvalues (PWATs) for September of 1.2\" to 1.8\" across southern \nArizona. This will keep elevated concerns for heavy rain from\nthunderstorms, with hourly rainfall rates of 1\"-2\" (locally",
+  "updated": "2026-09-15T21:31:48.816531+00:00",
+  "query_preview": "..Much less coverage of shower and thunderstorm activity \nat this time today compared to yesterday, just a few isolated \nshowers so far as of this writing. Heavy rainfall is still a \nconcern with any stronger storms that develop (mainly from \nSells eastward) later in the afternoon. Slight risk for \n",
   "analogs": [
     {
       "datetime_utc": "2022-09-23T18:09Z",
       "source_file": "TWC_2022_23_1809.txt",
-      "similarity": 0.47693294286727905,
+      "similarity": 0.46780329942703247,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-08-08T03:46Z",
+      "source_file": "TWC_2011_08_0346.txt",
+      "similarity": 0.4562712013721466,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-11-06T16:10Z",
       "source_file": "TWC_2007_06_1610.txt",
-      "similarity": 0.4579516053199768,
+      "similarity": 0.4555153250694275,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-01-31T03:25Z",
       "source_file": "TWC_2017_31_0325.txt",
-      "similarity": 0.45688650012016296,
+      "similarity": 0.4542722702026367,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-08-08T03:46Z",
-      "source_file": "TWC_2011_08_0346.txt",
-      "similarity": 0.45467883348464966,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2012-04-29T11:17Z",
       "source_file": "TWC_2012_29_1117.txt",
-      "similarity": 0.45459550619125366,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-09-05T09:26Z",
-      "source_file": "TWC_2020_05_0926.txt",
-      "similarity": 0.4472608268260956,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-12-27T20:30Z",
-      "source_file": "TWC_2013_27_2030.txt",
-      "similarity": 0.44534391164779663,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-05-22T09:37Z",
-      "source_file": "TWC_2022_22_0937.txt",
-      "similarity": 0.44382503628730774,
+      "similarity": 0.4474143087863922,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2008-06-11T16:25Z",
       "source_file": "TWC_2008_11_1625.txt",
-      "similarity": 0.443661093711853,
+      "similarity": 0.4440823197364807,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-02-12T09:40Z",
-      "source_file": "TWC_2010_12_0940.txt",
-      "similarity": 0.43878719210624695,
+      "datetime_utc": "2022-05-22T09:37Z",
+      "source_file": "TWC_2022_22_0937.txt",
+      "similarity": 0.4431758522987366,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-09-05T09:26Z",
+      "source_file": "TWC_2020_05_0926.txt",
+      "similarity": 0.4402599632740021,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-12-27T20:30Z",
+      "source_file": "TWC_2013_27_2030.txt",
+      "similarity": 0.4374566674232483,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-09-29T08:00Z",
+      "source_file": "TWC_2013_29_0800.txt",
+      "similarity": 0.4333399534225464,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.4519923448562622,
+    "mean_similarity": 0.44795911610126493,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609151010-KTWC-FXUS65-AFDTWC",
-    "afd_time": "2026-09-15T10:10:00Z",
-    "updated": "2026-09-15T13:38:48.041707+00:00"
+    "product_id": "202609152112-KTWC-FXUS65-AFDTWC",
+    "afd_time": "2026-09-15T21:12:00Z",
+    "updated": "2026-09-15T21:31:48.816531+00:00"
   }
 }
