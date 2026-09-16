@@ -1,91 +1,91 @@
 {
   "office": "LMK",
-  "product_id": "202609161546-KLMK-FXUS63-AFDLMK",
-  "afd_time": "2026-09-16T15:46:00Z",
+  "product_id": "202609161750-KLMK-FXUS63-AFDLMK",
+  "afd_time": "2026-09-16T17:50:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-16T17:03:26.029047+00:00",
-  "query_preview": "/THURSDAY NIGHT THROUGH TUESDAY/...\nIssued at 342 AM EDT Wed Sep 16 2026\n\nThursday night into Friday, we begin to see the upper high slide \nwest towards Texas, pushing the ridge above it north through the \neastern Plains and Midwest. Northwest flow, ahead of the ridge, will \npush a surface high thro",
+  "updated": "2026-09-16T20:13:28.797830+00:00",
+  "query_preview": "/THURSDAY NIGHT THROUGH TUESDAY/...\nIssued at 150 PM EDT Wed Sep 16 2026\n\nStalled sfc boundary will drift southward towards the Ohio Valley \nand the Commonwealth Thursday night into Friday morning. This will \nincrease shower/storm chances across the CWA especially over \nsouthern IN, north central KY",
   "analogs": [
+    {
+      "datetime_utc": "2008-08-29T06:53Z",
+      "source_file": "LMK_2008_29_0653.txt",
+      "similarity": 0.43343737721443176,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-08-29T16:59Z",
+      "source_file": "LMK_2008_29_1659.txt",
+      "similarity": 0.43343737721443176,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-08-29T15:46Z",
+      "source_file": "LMK_2008_29_1546.txt",
+      "similarity": 0.43343737721443176,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-08-29T10:39Z",
+      "source_file": "LMK_2008_29_1039.txt",
+      "similarity": 0.43343737721443176,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-01-27T05:24Z",
+      "source_file": "LMK_2025_27_0524.txt",
+      "similarity": 0.4328916668891907,
+      "label": "flood",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2025-01-26T23:54Z",
       "source_file": "LMK_2025_26_2354.txt",
-      "similarity": 0.4479374885559082,
+      "similarity": 0.4328916668891907,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2025-01-27T01:42Z",
       "source_file": "LMK_2025_27_0142.txt",
-      "similarity": 0.4479374885559082,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2025-01-27T05:24Z",
-      "source_file": "LMK_2025_27_0524.txt",
-      "similarity": 0.4479374885559082,
+      "similarity": 0.4328916668891907,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2025-01-26T20:14Z",
       "source_file": "LMK_2025_26_2014.txt",
-      "similarity": 0.4479374885559082,
+      "similarity": 0.4328916668891907,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-11-16T17:19Z",
-      "source_file": "LMK_2011_16_1719.txt",
-      "similarity": 0.4468640089035034,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2011-11-16T11:24Z",
       "source_file": "LMK_2011_16_1124_1.txt",
-      "similarity": 0.4468640089035034,
+      "similarity": 0.43134453892707825,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-11-16T14:58Z",
-      "source_file": "LMK_2011_16_1458.txt",
-      "similarity": 0.4468640089035034,
+      "datetime_utc": "2011-11-16T17:19Z",
+      "source_file": "LMK_2011_16_1719.txt",
+      "similarity": 0.43134453892707825,
       "label": "severe_hail",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-11-16T08:04Z",
-      "source_file": "LMK_2011_16_0804.txt",
-      "similarity": 0.4468640089035034,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2025-11-29T01:51Z",
-      "source_file": "LMK_2025_29_0151.txt",
-      "similarity": 0.4417582154273987,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2025-11-28T23:25Z",
-      "source_file": "LMK_2025_28_2325.txt",
-      "similarity": 0.4417582154273987,
-      "label": "winter",
-      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.4462722420692444,
-    "n_severe": 4,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.43280052542686465,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609161546-KLMK-FXUS63-AFDLMK",
-    "afd_time": "2026-09-16T15:46:00Z",
-    "updated": "2026-09-16T17:03:26.029047+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202609161750-KLMK-FXUS63-AFDLMK",
+    "afd_time": "2026-09-16T17:50:00Z",
+    "updated": "2026-09-16T20:13:28.797830+00:00"
   }
 }

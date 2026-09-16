@@ -1,56 +1,49 @@
 {
   "office": "CLE",
-  "product_id": "202609161602-KCLE-FXUS61-AFDCLE",
-  "afd_time": "2026-09-16T16:02:00Z",
+  "product_id": "202609161802-KCLE-FXUS61-AFDCLE",
+  "afd_time": "2026-09-16T18:02:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-16T17:03:26.029047+00:00",
+  "updated": "2026-09-16T20:13:28.797830+00:00",
   "query_preview": "..\nKEY MESSAGE 1... \nA slow-moving front continues to slowly drift to the south\nacross the Ohio Valley, including across parts of northern and\nnortheast OH. Periodic showers and storms are expected through\nthe day today into tonight, with locally heavy rain and isolated\nflooding remaining the primar",
   "analogs": [
     {
-      "datetime_utc": "2018-08-31T08:06Z",
-      "source_file": "CLE_2018_31_0806.txt",
-      "similarity": 0.46951594948768616,
+      "datetime_utc": "2018-08-31T15:58Z",
+      "source_file": "CLE_2018_31_1558.txt",
+      "similarity": 0.46951591968536377,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-08-31T13:10Z",
       "source_file": "CLE_2018_31_1310.txt",
-      "similarity": 0.46951594948768616,
+      "similarity": 0.46951591968536377,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-08-31T17:51Z",
       "source_file": "CLE_2018_31_1751.txt",
-      "similarity": 0.46951594948768616,
+      "similarity": 0.46951591968536377,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-08-31T08:06Z",
+      "source_file": "CLE_2018_31_0806.txt",
+      "similarity": 0.46951591968536377,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-08-31T11:12Z",
       "source_file": "CLE_2018_31_1112.txt",
-      "similarity": 0.46951594948768616,
+      "similarity": 0.46951591968536377,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2018-08-31T15:58Z",
-      "source_file": "CLE_2018_31_1558.txt",
-      "similarity": 0.46951594948768616,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-10-06T06:12Z",
-      "source_file": "CLE_2024_06_0612.txt",
-      "similarity": 0.45841795206069946,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-10-06T01:29Z",
-      "source_file": "CLE_2024_06_0129.txt",
+      "datetime_utc": "2024-10-05T19:55Z",
+      "source_file": "CLE_2024_05_1955.txt",
       "similarity": 0.45841795206069946,
       "label": "severe_wind",
       "is_severe": true
@@ -63,16 +56,23 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-10-05T19:55Z",
-      "source_file": "CLE_2024_05_1955.txt",
+      "datetime_utc": "2024-10-06T01:29Z",
+      "source_file": "CLE_2024_06_0129.txt",
       "similarity": 0.45841795206069946,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2021-08-07T19:42Z",
-      "source_file": "CLE_2021_07_1942.txt",
-      "similarity": 0.45784497261047363,
+      "datetime_utc": "2024-10-06T06:12Z",
+      "source_file": "CLE_2024_06_0612.txt",
+      "similarity": 0.45841795206069946,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-08-07T23:55Z",
+      "source_file": "CLE_2021_07_2355.txt",
+      "similarity": 0.45784494280815125,
       "label": "tornado",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 1.0,
-    "mean_similarity": 0.46390965282917024,
+    "mean_similarity": 0.4639096349477768,
     "n_severe": 10,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202609161602-KCLE-FXUS61-AFDCLE",
-    "afd_time": "2026-09-16T16:02:00Z",
-    "updated": "2026-09-16T17:03:26.029047+00:00"
+    "product_id": "202609161802-KCLE-FXUS61-AFDCLE",
+    "afd_time": "2026-09-16T18:02:00Z",
+    "updated": "2026-09-16T20:13:28.797830+00:00"
   }
 }

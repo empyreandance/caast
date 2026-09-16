@@ -1,91 +1,91 @@
 {
   "office": "GRB",
-  "product_id": "202609161111-KGRB-FXUS63-AFDGRB",
-  "afd_time": "2026-09-16T11:11:00Z",
+  "product_id": "202609161841-KGRB-FXUS63-AFDGRB",
+  "afd_time": "2026-09-16T18:41:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-16T11:43:21.814684+00:00",
-  "query_preview": "..\nIssued at 119 AM CDT Wed Sep 16 2026\n\nThe latest RAP analysis and satellite/radar imagery show high \npressure centered across the northern Plains early this morning, \nsteadily shifting eastward into the western Great Lakes. Latest \nradar imagery depicts an active thunderstorm belt along a cold \nf",
+  "updated": "2026-09-16T20:13:28.797830+00:00",
+  "query_preview": "..\nIssued at 141 PM CDT Wed Sep 16 2026\n\nLight rain chances (20 to 50%) return tonight into Thursday \nmorning: Cloud cover will increase this evening as weak \noverrunning moisture moves in ahead of a shortwave moving east \nacross southern Canada. Rain chances tonight generally range from \n20 to 50 p",
   "analogs": [
-    {
-      "datetime_utc": "2005-04-17T04:08Z",
-      "source_file": "GRB_2005_17_0408.txt",
-      "similarity": 0.46486714482307434,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2004-01-04T09:33Z",
       "source_file": "GRB_2004_04_0933.txt",
-      "similarity": 0.45215535163879395,
+      "similarity": 0.4448888301849365,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2008-01-13T09:40Z",
       "source_file": "GRB_2008_13_0940.txt",
-      "similarity": 0.4519994258880615,
+      "similarity": 0.44099438190460205,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2024-10-03T04:07Z",
-      "source_file": "GRB_2024_03_0407.txt",
-      "similarity": 0.4472874701023102,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-10-02T19:45Z",
-      "source_file": "GRB_2024_02_1945.txt",
-      "similarity": 0.4472874701023102,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-10-02T23:55Z",
-      "source_file": "GRB_2024_02_2355.txt",
-      "similarity": 0.4472874701023102,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2009-01-22T20:49Z",
       "source_file": "GRB_2009_22_2049_1.txt",
-      "similarity": 0.4455518126487732,
+      "similarity": 0.44005754590034485,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-01-22T20:49Z",
       "source_file": "GRB_2009_22_2049_2.txt",
-      "similarity": 0.4455518126487732,
+      "similarity": 0.44005754590034485,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2025-11-19T23:48Z",
-      "source_file": "GRB_2025_19_2348.txt",
-      "similarity": 0.44500041007995605,
-      "label": "winter",
+      "datetime_utc": "2024-06-01T11:45Z",
+      "source_file": "GRB_2024_01_1145.txt",
+      "similarity": 0.43859222531318665,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-06-01T08:56Z",
+      "source_file": "GRB_2024_01_0856.txt",
+      "similarity": 0.43859222531318665,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-06-01T17:41Z",
+      "source_file": "GRB_2024_01_1741.txt",
+      "similarity": 0.43859222531318665,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-??-21T07:56Z",
+      "source_file": "GRB_2007_21_0756.txt",
+      "similarity": 0.43731600046157837,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2025-11-19T20:33Z",
-      "source_file": "GRB_2025_19_2033.txt",
-      "similarity": 0.44500041007995605,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2025-04-14T11:28Z",
+      "source_file": "GRB_2025_14_1128.txt",
+      "similarity": 0.4372149705886841,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-04-14T17:22Z",
+      "source_file": "GRB_2025_14_1722.txt",
+      "similarity": 0.4372149705886841,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.44919887781143186,
-    "n_severe": 3,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.4393520921468735,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609161111-KGRB-FXUS63-AFDGRB",
-    "afd_time": "2026-09-16T11:11:00Z",
-    "updated": "2026-09-16T11:43:21.814684+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202609161841-KGRB-FXUS63-AFDGRB",
+    "afd_time": "2026-09-16T18:41:00Z",
+    "updated": "2026-09-16T20:13:28.797830+00:00"
   }
 }
