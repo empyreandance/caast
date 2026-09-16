@@ -1,18 +1,11 @@
 {
   "office": "PBZ",
-  "product_id": "202609151640-KPBZ-FXUS61-AFDPBZ",
-  "afd_time": "2026-09-15T16:40:00Z",
+  "product_id": "202609152342-KPBZ-FXUS61-AFDPBZ",
+  "afd_time": "2026-09-15T23:42:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-15T18:16:07.459181+00:00",
+  "updated": "2026-09-16T00:27:58.346067+00:00",
   "query_preview": "..\nKEY MESSAGE 1... \nA surface cold front is expected to drift sewd tonight, reaching\nLake Erie/northern Ohio Wednesday morning. A few showers are\npossible, mainly across NW PA late tonight into Wednesday\nmorning with convergence ahead of the front. \n\nRecent model data has trended toward a more rapi",
   "analogs": [
-    {
-      "datetime_utc": "2017-08-23T09:08Z",
-      "source_file": "PBZ_2017_23_0908.txt",
-      "similarity": 0.4867814779281616,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2017-08-23T11:54Z",
       "source_file": "PBZ_2017_23_1154.txt",
@@ -28,51 +21,58 @@
       "is_severe": false
     },
     {
+      "datetime_utc": "2017-08-23T09:08Z",
+      "source_file": "PBZ_2017_23_0908.txt",
+      "similarity": 0.4867814779281616,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2006-06-06T07:21Z",
       "source_file": "PBZ_2006_06_0721.txt",
-      "similarity": 0.47945070266723633,
+      "similarity": 0.47945064306259155,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-05-25T06:31Z",
       "source_file": "PBZ_2009_25_0631.txt",
-      "similarity": 0.4775821268558502,
+      "similarity": 0.4775821566581726,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-09-20T18:32Z",
       "source_file": "PBZ_2005_20_1832.txt",
-      "similarity": 0.475774884223938,
+      "similarity": 0.4757748544216156,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2023-07-31T18:09Z",
-      "source_file": "PBZ_2023_31_1809.txt",
-      "similarity": 0.47002190351486206,
+      "datetime_utc": "2023-07-31T23:21Z",
+      "source_file": "PBZ_2023_31_2321.txt",
+      "similarity": 0.4700218439102173,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2023-07-01T01:27Z",
       "source_file": "PBZ_2023_01_0127.txt",
-      "similarity": 0.47002190351486206,
+      "similarity": 0.4700218439102173,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2023-07-31T23:21Z",
-      "source_file": "PBZ_2023_31_2321.txt",
-      "similarity": 0.47002190351486206,
+      "datetime_utc": "2023-07-31T18:09Z",
+      "source_file": "PBZ_2023_31_1809.txt",
+      "similarity": 0.4700218439102173,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2023-07-01T00:06Z",
       "source_file": "PBZ_2023_01_0006.txt",
-      "similarity": 0.47002190351486206,
+      "similarity": 0.4700218439102173,
       "label": "tornado",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.4773239761590958,
+    "mean_similarity": 0.4773239463567734,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202609151640-KPBZ-FXUS61-AFDPBZ",
-    "afd_time": "2026-09-15T16:40:00Z",
-    "updated": "2026-09-15T18:16:07.459181+00:00"
+    "product_id": "202609152342-KPBZ-FXUS61-AFDPBZ",
+    "afd_time": "2026-09-15T23:42:00Z",
+    "updated": "2026-09-16T00:27:58.346067+00:00"
   }
 }

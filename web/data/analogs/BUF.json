@@ -1,38 +1,31 @@
 {
   "office": "BUF",
-  "product_id": "202609151913-KBUF-FXUS61-AFDBUF",
-  "afd_time": "2026-09-15T19:13:00Z",
+  "product_id": "202609152326-KBUF-FXUS61-AFDBUF",
+  "afd_time": "2026-09-15T23:26:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-15T21:31:48.816531+00:00",
+  "updated": "2026-09-16T00:27:58.346067+00:00",
   "query_preview": "..\nKEY MESSAGE 1...\nA cold front will push in from the northwest late tonight into\nWednesday morning, stall/waiver over or just south of the area\nthrough Thursday, before finally getting flushed out well to \nthe south Thursday night. The main forecast challenges through \nThursday will be determining",
   "analogs": [
     {
+      "datetime_utc": "2005-07-30T18:22Z",
+      "source_file": "BUF_2005_30_1822.txt",
+      "similarity": 0.4659639596939087,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2005-07-31T06:53Z",
       "source_file": "BUF_2005_31_0653.txt",
-      "similarity": 0.4659639894962311,
+      "similarity": 0.4659639596939087,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-07-31T13:23Z",
       "source_file": "BUF_2005_31_1323.txt",
-      "similarity": 0.4659639894962311,
+      "similarity": 0.4659639596939087,
       "label": "tornado",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-07-30T18:22Z",
-      "source_file": "BUF_2005_30_1822.txt",
-      "similarity": 0.4659639894962311,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2019-12-08T00:52Z",
-      "source_file": "BUF_2019_08_0052.txt",
-      "similarity": 0.46505802869796753,
-      "label": "winter",
-      "is_severe": false
     },
     {
       "datetime_utc": "2019-12-07T22:14Z",
@@ -42,29 +35,29 @@
       "is_severe": false
     },
     {
+      "datetime_utc": "2019-12-08T00:52Z",
+      "source_file": "BUF_2019_08_0052.txt",
+      "similarity": 0.46505802869796753,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2018-09-12T18:53Z",
       "source_file": "BUF_2018_12_1853.txt",
-      "similarity": 0.45328012108802795,
+      "similarity": 0.45328015089035034,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2024-09-04T14:40Z",
-      "source_file": "BUF_2024_04_1440.txt",
-      "similarity": 0.45219022035598755,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-09-04T10:25Z",
-      "source_file": "BUF_2024_04_1025.txt",
-      "similarity": 0.45219022035598755,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2024-09-04T08:20Z",
       "source_file": "BUF_2024_04_0820.txt",
+      "similarity": 0.45219022035598755,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-09-04T18:18Z",
+      "source_file": "BUF_2024_04_1818.txt",
       "similarity": 0.45219022035598755,
       "label": "tornado",
       "is_severe": true
@@ -75,17 +68,24 @@
       "similarity": 0.45219022035598755,
       "label": "tornado",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-09-04T14:40Z",
+      "source_file": "BUF_2024_04_1440.txt",
+      "similarity": 0.45219022035598755,
+      "label": "tornado",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.45900490283966067,
+    "mean_similarity": 0.45900489687919616,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202609151913-KBUF-FXUS61-AFDBUF",
-    "afd_time": "2026-09-15T19:13:00Z",
-    "updated": "2026-09-15T21:31:48.816531+00:00"
+    "product_id": "202609152326-KBUF-FXUS61-AFDBUF",
+    "afd_time": "2026-09-15T23:26:00Z",
+    "updated": "2026-09-16T00:27:58.346067+00:00"
   }
 }
