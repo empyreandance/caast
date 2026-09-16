@@ -1,91 +1,91 @@
 {
   "office": "FWD",
-  "product_id": "202609152326-KFWD-FXUS64-AFDFWD",
-  "afd_time": "2026-09-15T23:26:00Z",
+  "product_id": "202609161037-KFWD-FXUS64-AFDFWD",
+  "afd_time": "2026-09-16T10:37:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-16T00:27:58.346067+00:00",
-  "query_preview": "..\n(Wednesday night through next Monday)\nIssued at 1249 PM CDT Tue Sep 15 2026\n\nHot and mostly dry weather conditions will prevail through \nSaturday as the upper level ridge centered over the southeast \nU.S. continues to expand westward into our region. Outside of \nsome low rain/storm chances over o",
+  "updated": "2026-09-16T11:43:21.814684+00:00",
+  "query_preview": "..\n(Thursday through Tuesday)\nIssued at 129 AM CDT Wed Sep 16 2026\n\nHeat continues into this weekend with highs running around 10 \ndegrees above normal and little chance for rainfall as stubborn \nridging remains in place across the Arklatex. Troughing will amplify \na bit during this time over the In",
   "analogs": [
+    {
+      "datetime_utc": "2004-10-01T19:48Z",
+      "source_file": "FWD_2004_01_1948.txt",
+      "similarity": 0.39999324083328247,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-10-02T09:40Z",
+      "source_file": "FWD_2004_02_0940.txt",
+      "similarity": 0.39999324083328247,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2007-11-12T08:51Z",
       "source_file": "FWD_2007_12_0851.txt",
-      "similarity": 0.42435401678085327,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-12-08T09:38Z",
-      "source_file": "FWD_2005_08_0938.txt",
-      "similarity": 0.4120793342590332,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-01-29T08:59Z",
-      "source_file": "FWD_2005_29_0859.txt",
-      "similarity": 0.41176390647888184,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-01-29T22:02Z",
-      "source_file": "FWD_2005_29_2202.txt",
-      "similarity": 0.41176390647888184,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-11-12T10:17Z",
-      "source_file": "FWD_2007_12_1017.txt",
-      "similarity": 0.411297082901001,
+      "similarity": 0.39262282848358154,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-11-12T21:06Z",
       "source_file": "FWD_2007_12_2106.txt",
-      "similarity": 0.411297082901001,
+      "similarity": 0.3810630440711975,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-02-15T03:37Z",
-      "source_file": "FWD_2006_15_0337.txt",
-      "similarity": 0.4110667109489441,
-      "label": "winter",
+      "datetime_utc": "2007-11-12T10:17Z",
+      "source_file": "FWD_2007_12_1017.txt",
+      "similarity": 0.3810630440711975,
+      "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-02-14T23:17Z",
-      "source_file": "FWD_2006_14_2317.txt",
-      "similarity": 0.4110667109489441,
-      "label": "winter",
+      "datetime_utc": "2005-01-29T22:02Z",
+      "source_file": "FWD_2005_29_2202.txt",
+      "similarity": 0.3734971880912781,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-02-14T21:51Z",
-      "source_file": "FWD_2006_14_2151.txt",
-      "similarity": 0.4110667109489441,
-      "label": "winter",
+      "datetime_utc": "2005-01-29T08:59Z",
+      "source_file": "FWD_2005_29_0859.txt",
+      "similarity": 0.3734971880912781,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-09-19T08:41Z",
+      "source_file": "FWD_2014_19_0841.txt",
+      "similarity": 0.3732250928878784,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-06-10T19:35Z",
       "source_file": "FWD_2006_10_1935.txt",
-      "similarity": 0.4094758629798889,
+      "similarity": 0.3722410500049591,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-06-27T20:00Z",
+      "source_file": "FWD_2006_27_2000.txt",
+      "similarity": 0.3710753321647644,
+      "label": "severe_hail",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.41252313256263734,
+    "mean_similarity": 0.38182712495327,
     "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202609152326-KFWD-FXUS64-AFDFWD",
-    "afd_time": "2026-09-15T23:26:00Z",
-    "updated": "2026-09-16T00:27:58.346067+00:00"
+    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
+    "product_id": "202609161037-KFWD-FXUS64-AFDFWD",
+    "afd_time": "2026-09-16T10:37:00Z",
+    "updated": "2026-09-16T11:43:21.814684+00:00"
   }
 }
