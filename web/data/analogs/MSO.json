@@ -1,91 +1,91 @@
 {
   "office": "MSO",
-  "product_id": "202609161733-KMSO-FXUS65-AFDMSO",
-  "afd_time": "2026-09-16T17:33:00Z",
+  "product_id": "202609171009-KMSO-FXUS65-AFDMSO",
+  "afd_time": "2026-09-17T10:09:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-16T20:13:28.797830+00:00",
-  "query_preview": "..\n\n\nKEY MESSAGES:\n\n-  Warm and dry today with sunny skies; breezy easterly winds \n   developing this evening.\n\n-  Showers and thunderstorms Thursday into Friday, generally south\n   of Highway 12 and I-90. Storms will be capable of brief heavy\n   rain, small hail, and sudden wind gusts up to 45 mph.",
+  "updated": "2026-09-17T13:34:13.136248+00:00",
+  "query_preview": "..\n\nKEY MESSAGES:\n\n-  Showers and thunderstorms today through Saturday.\n\n-  Warming and drying Sunday through early next week.\n\n\nA low pressure system will have an impacted on the Northern\nRockies for the next couple of days as surges of moisture and\nenergy make their way through the region. Latest ",
   "analogs": [
     {
       "datetime_utc": "2019-12-16T03:58Z",
       "source_file": "MSO_2019_16_0358.txt",
-      "similarity": 0.4801621735095978,
+      "similarity": 0.47911056876182556,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-01-05T21:34Z",
-      "source_file": "MSO_2006_05_2134.txt",
-      "similarity": 0.4740210771560669,
-      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-01-06T04:26Z",
       "source_file": "MSO_2006_06_0426.txt",
-      "similarity": 0.4740210771560669,
+      "similarity": 0.47262677550315857,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-01-05T21:34Z",
+      "source_file": "MSO_2006_05_2134.txt",
+      "similarity": 0.47262677550315857,
+      "label": "flood",
+      "is_severe": false
     },
     {
       "datetime_utc": "2020-01-26T10:39Z",
       "source_file": "MSO_2020_26_1039.txt",
-      "similarity": 0.453029602766037,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-10-24T23:35Z",
-      "source_file": "MSO_2005_24_2335.txt",
-      "similarity": 0.4521508514881134,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-07-13T00:26Z",
-      "source_file": "MSO_2007_13_0026.txt",
-      "similarity": 0.44766709208488464,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-06-28T20:53Z",
-      "source_file": "MSO_2004_28_2053_1.txt",
-      "similarity": 0.4404194951057434,
+      "similarity": 0.4537079334259033,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-12-20T16:06Z",
       "source_file": "MSO_2009_20_1606.txt",
-      "similarity": 0.4402623772621155,
+      "similarity": 0.44732025265693665,
       "label": "winter",
       "is_severe": false
     },
     {
+      "datetime_utc": "2007-07-13T00:26Z",
+      "source_file": "MSO_2007_13_0026.txt",
+      "similarity": 0.4469447135925293,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-10-24T23:35Z",
+      "source_file": "MSO_2005_24_2335.txt",
+      "similarity": 0.44641491770744324,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2011-09-03T14:42Z",
       "source_file": "MSO_2011_03_1442.txt",
-      "similarity": 0.4386887848377228,
+      "similarity": 0.4445958435535431,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-02-09T17:04Z",
+      "source_file": "MSO_2010_09_1704.txt",
+      "similarity": 0.4374465048313141,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-05-12T08:43Z",
       "source_file": "MSO_2004_12_0843.txt",
-      "similarity": 0.43617188930511475,
+      "similarity": 0.4359900951385498,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.4536594420671463,
-    "n_severe": 5,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.45367843806743624,
+    "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609161733-KMSO-FXUS65-AFDMSO",
-    "afd_time": "2026-09-16T17:33:00Z",
-    "updated": "2026-09-16T20:13:28.797830+00:00"
+    "product_id": "202609171009-KMSO-FXUS65-AFDMSO",
+    "afd_time": "2026-09-17T10:09:00Z",
+    "updated": "2026-09-17T13:34:13.136248+00:00"
   }
 }
