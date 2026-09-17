@@ -1,91 +1,91 @@
 {
   "office": "MSO",
-  "product_id": "202609171009-KMSO-FXUS65-AFDMSO",
-  "afd_time": "2026-09-17T10:09:00Z",
+  "product_id": "202609171921-KMSO-FXUS65-AFDMSO",
+  "afd_time": "2026-09-17T19:21:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-17T13:34:13.136248+00:00",
-  "query_preview": "..\n\nKEY MESSAGES:\n\n-  Showers and thunderstorms today through Saturday.\n\n-  Warming and drying Sunday through early next week.\n\n\nA low pressure system will have an impacted on the Northern\nRockies for the next couple of days as surges of moisture and\nenergy make their way through the region. Latest ",
+  "updated": "2026-09-17T22:15:30.480824+00:00",
+  "query_preview": "..\n\nKEY MESSAGES:\n\n-  Showers and thunderstorms this afternoon through Saturday,\n   focused I-90 southward. Gusty outflow winds today, locally\n   heavy rain concern on Friday.\n\n-  Warming and drying Sunday through early next week.\n\n\nThis Afternoon through Saturday: An upper-level low spinning over\nN",
   "analogs": [
     {
       "datetime_utc": "2019-12-16T03:58Z",
       "source_file": "MSO_2019_16_0358.txt",
-      "similarity": 0.47911056876182556,
+      "similarity": 0.48726582527160645,
       "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-01-05T21:34Z",
+      "source_file": "MSO_2006_05_2134.txt",
+      "similarity": 0.48008304834365845,
+      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-01-06T04:26Z",
       "source_file": "MSO_2006_06_0426.txt",
-      "similarity": 0.47262677550315857,
+      "similarity": 0.48008304834365845,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-01-05T21:34Z",
-      "source_file": "MSO_2006_05_2134.txt",
-      "similarity": 0.47262677550315857,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-01-26T10:39Z",
-      "source_file": "MSO_2020_26_1039.txt",
-      "similarity": 0.4537079334259033,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-12-20T16:06Z",
-      "source_file": "MSO_2009_20_1606.txt",
-      "similarity": 0.44732025265693665,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-07-13T00:26Z",
-      "source_file": "MSO_2007_13_0026.txt",
-      "similarity": 0.4469447135925293,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-10-24T23:35Z",
       "source_file": "MSO_2005_24_2335.txt",
-      "similarity": 0.44641491770744324,
+      "similarity": 0.45559805631637573,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-09-03T14:42Z",
-      "source_file": "MSO_2011_03_1442.txt",
-      "similarity": 0.4445958435535431,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2007-07-13T00:26Z",
+      "source_file": "MSO_2007_13_0026.txt",
+      "similarity": 0.45135653018951416,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2010-02-09T17:04Z",
-      "source_file": "MSO_2010_09_1704.txt",
-      "similarity": 0.4374465048313141,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2021-09-17T09:03Z",
+      "source_file": "MSO_2021_17_0903.txt",
+      "similarity": 0.4485154151916504,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2004-05-12T08:43Z",
       "source_file": "MSO_2004_12_0843.txt",
-      "similarity": 0.4359900951385498,
+      "similarity": 0.44736504554748535,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-06-28T20:53Z",
+      "source_file": "MSO_2004_28_2053_1.txt",
+      "similarity": 0.4464161992073059,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-08-28T09:20Z",
+      "source_file": "MSO_2018_28_0920.txt",
+      "similarity": 0.445661723613739,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-01-26T10:39Z",
+      "source_file": "MSO_2020_26_1039.txt",
+      "similarity": 0.44484370946884155,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.45367843806743624,
-    "n_severe": 4,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.45871886014938357,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609171009-KMSO-FXUS65-AFDMSO",
-    "afd_time": "2026-09-17T10:09:00Z",
-    "updated": "2026-09-17T13:34:13.136248+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202609171921-KMSO-FXUS65-AFDMSO",
+    "afd_time": "2026-09-17T19:21:00Z",
+    "updated": "2026-09-17T22:15:30.480824+00:00"
   }
 }
