@@ -1,91 +1,91 @@
 {
   "office": "MEG",
-  "product_id": "202609180020-KMEG-FXUS64-AFDMEG",
-  "afd_time": "2026-09-18T00:20:00Z",
+  "product_id": "202609180340-KMEG-FXUS64-AFDMEG",
+  "afd_time": "2026-09-18T03:40:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-18T00:28:54.917207+00:00",
-  "query_preview": "..\n(This evening through next Wednesday)\nIssued at 1207 PM CDT Thu Sep 17 2026\n\nA stubborn, expansive, and anomalously strong 600-dam ridge\nremains in place across portions of the Southern Plains, Lower\nMississippi Valley, Ohio River Valley, and Southeast. Relentless\nheat will persist across the reg",
+  "updated": "2026-09-18T06:00:00.707071+00:00",
+  "query_preview": "..\n(Tonight through next Thursday)\nIssued at 1039 PM CDT Thu Sep 17 2026\n\nA 599 dam ridge remains centered over Arkansas as of Thursday\nevening. This ridge will continue to slowly inch southwestward as\nbroad troughing emerges over the Pacific Northwest. Due to the\nintensity of the ridge, the area wi",
   "analogs": [
     {
       "datetime_utc": "2006-06-13T18:53Z",
       "source_file": "MEG_2006_13_1853.txt",
-      "similarity": 0.4085903763771057,
+      "similarity": 0.38967248797416687,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-03-27T09:31Z",
+      "source_file": "MEG_2007_27_0931.txt",
+      "similarity": 0.3816222548484802,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-07-04T04:53Z",
       "source_file": "MEG_2007_04_0453.txt",
-      "similarity": 0.39533406496047974,
+      "similarity": 0.37693578004837036,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-01-29T21:30Z",
-      "source_file": "MEG_2005_29_2130.txt",
-      "similarity": 0.3952931761741638,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2005-08-03T14:51Z",
+      "source_file": "MEG_2005_03_1451.txt",
+      "similarity": 0.3763240575790405,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2007-03-27T09:31Z",
-      "source_file": "MEG_2007_27_0931.txt",
-      "similarity": 0.3906552195549011,
+      "datetime_utc": "2005-11-22T17:06Z",
+      "source_file": "MEG_2005_22_1706.txt",
+      "similarity": 0.3740840554237366,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-02-14T04:16Z",
       "source_file": "MEG_2021_14_0416.txt",
-      "similarity": 0.38982105255126953,
+      "similarity": 0.3719864785671234,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-02-03T04:28Z",
-      "source_file": "MEG_2012_03_0428.txt",
-      "similarity": 0.3875178098678589,
-      "label": "quiet",
+      "datetime_utc": "2010-01-07T10:40Z",
+      "source_file": "MEG_2010_07_1040.txt",
+      "similarity": 0.37162792682647705,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-02-02T21:47Z",
-      "source_file": "MEG_2012_02_2147.txt",
-      "similarity": 0.3875178098678589,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2017-05-06T19:51Z",
+      "source_file": "MEG_2017_06_1951.txt",
+      "similarity": 0.37101444602012634,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2012-02-03T05:48Z",
-      "source_file": "MEG_2012_03_0548.txt",
-      "similarity": 0.3875178098678589,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2017-05-07T04:37Z",
+      "source_file": "MEG_2017_07_0437_1.txt",
+      "similarity": 0.37101444602012634,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2012-02-02T23:41Z",
-      "source_file": "MEG_2012_02_2341.txt",
-      "similarity": 0.3875178098678589,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-10-15T19:14Z",
-      "source_file": "MEG_2006_15_1914.txt",
-      "similarity": 0.38441410660743713,
-      "label": "tornado",
+      "datetime_utc": "2017-05-07T01:00Z",
+      "source_file": "MEG_2017_07_0100.txt",
+      "similarity": 0.37101444602012634,
+      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.39141792356967925,
-    "n_severe": 4,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.3755296379327774,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202609180020-KMEG-FXUS64-AFDMEG",
-    "afd_time": "2026-09-18T00:20:00Z",
-    "updated": "2026-09-18T00:28:54.917207+00:00"
+    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
+    "product_id": "202609180340-KMEG-FXUS64-AFDMEG",
+    "afd_time": "2026-09-18T03:40:00Z",
+    "updated": "2026-09-18T06:00:00.707071+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "DDC",
-  "product_id": "202609172219-KDDC-FXUS63-AFDDDC",
-  "afd_time": "2026-09-17T22:19:00Z",
+  "product_id": "202609180410-KDDC-FXUS63-AFDDDC",
+  "afd_time": "2026-09-18T04:10:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-18T00:28:54.917207+00:00",
-  "query_preview": "..\nIssued at 1246 PM CDT Thu Sep 17 2026\n\nThe synoptic pattern aloft continues to be headlined by a expansive \nhigh pressure system over the southeastern portion of the CONUS. The \nlow pressure system over the Pacific Northwest continues to hold \nsteady near the Oregon/California border. Nearer to t",
+  "updated": "2026-09-18T06:00:00.707071+00:00",
+  "query_preview": "..\nIssued at 1110 PM CDT Thu Sep 17 2026\n\nLate evening water vapor satellite imagery and RAP upper air \nanalysis reveal strong ridging is in place atop the Ark-La-Tex \nregion, with a potent cut-off low over the northwestern CONUS. At \nthe surface, a lee cyclone remains in place across eastern CO and",
   "analogs": [
+    {
+      "datetime_utc": "2004-08-29T18:06Z",
+      "source_file": "DDC_2004_29_1806.txt",
+      "similarity": 0.46987906098365784,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-07-06T19:13Z",
+      "source_file": "DDC_2007_06_1913.txt",
+      "similarity": 0.46728092432022095,
+      "label": "severe_wind",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2006-04-15T19:45Z",
       "source_file": "DDC_2006_15_1945.txt",
-      "similarity": 0.4645227789878845,
+      "similarity": 0.46631157398223877,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2022-11-07T04:44Z",
-      "source_file": "DDC_2022_07_0444.txt",
-      "similarity": 0.46304693818092346,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-11-06T18:18Z",
-      "source_file": "DDC_2022_06_1818.txt",
-      "similarity": 0.46304693818092346,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-11-06T16:47Z",
-      "source_file": "DDC_2022_06_1647.txt",
-      "similarity": 0.46304693818092346,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-11-06T22:31Z",
-      "source_file": "DDC_2022_06_2231.txt",
-      "similarity": 0.46304693818092346,
+      "datetime_utc": "2005-04-28T07:45Z",
+      "source_file": "DDC_2005_28_0745.txt",
+      "similarity": 0.4658491611480713,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-03-18T07:57Z",
       "source_file": "DDC_2005_18_0757.txt",
-      "similarity": 0.4588865637779236,
+      "similarity": 0.4634433686733246,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-08-29T18:06Z",
-      "source_file": "DDC_2004_29_1806.txt",
-      "similarity": 0.4579627811908722,
-      "label": "severe_hail",
+      "datetime_utc": "2012-06-16T00:01Z",
+      "source_file": "DDC_2012_16_0001.txt",
+      "similarity": 0.4631628394126892,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-04-28T07:45Z",
-      "source_file": "DDC_2005_28_0745.txt",
-      "similarity": 0.45455479621887207,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-09-16T20:24Z",
-      "source_file": "DDC_2005_16_2024.txt",
-      "similarity": 0.45252659916877747,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-07-06T19:13Z",
-      "source_file": "DDC_2007_06_1913.txt",
-      "similarity": 0.4521736204624176,
+      "datetime_utc": "2004-07-09T08:00Z",
+      "source_file": "DDC_2004_09_0800.txt",
+      "similarity": 0.4620189666748047,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-11-07T04:44Z",
+      "source_file": "DDC_2022_07_0444.txt",
+      "similarity": 0.46171310544013977,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-11-06T18:18Z",
+      "source_file": "DDC_2022_06_1818.txt",
+      "similarity": 0.46171310544013977,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-11-06T16:47Z",
+      "source_file": "DDC_2022_06_1647.txt",
+      "similarity": 0.46171310544013977,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.45928148925304413,
-    "n_severe": 2,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.46430852115154264,
+    "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202609172219-KDDC-FXUS63-AFDDDC",
-    "afd_time": "2026-09-17T22:19:00Z",
-    "updated": "2026-09-18T00:28:54.917207+00:00"
+    "product_id": "202609180410-KDDC-FXUS63-AFDDDC",
+    "afd_time": "2026-09-18T04:10:00Z",
+    "updated": "2026-09-18T06:00:00.707071+00:00"
   }
 }

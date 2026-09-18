@@ -1,91 +1,91 @@
 {
   "office": "MFL",
-  "product_id": "202609172238-KMFL-FXUS62-AFDMFL",
-  "afd_time": "2026-09-17T22:38:00Z",
+  "product_id": "202609180505-KMFL-FXUS62-AFDMFL",
+  "afd_time": "2026-09-18T05:05:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-18T00:28:54.917207+00:00",
-  "query_preview": "..\n(Friday night through Wednesday)\nIssued at 100 AM EDT Thu Sep 17 2026\n\nAs we head into the weekend and early into next week, the mid/upper \nlevel low will move into the Gulf, and higher moisture levels move \ninto the region. Light ESE flow this weekend will eventually become \nsoutherly by early n",
+  "updated": "2026-09-18T06:00:00.707071+00:00",
+  "query_preview": "..\n(Saturday night through Thursday)\nIssued at 102 AM EDT Fri Sep 18 2026\n\nWet pattern will continue through at least the middle of next week. \nThe upper level low will linger in the eastern Gulf and then \neventually lift up into the broader upper level flow early next \nweek. Meanwhile, South FL wil",
   "analogs": [
     {
       "datetime_utc": "2016-02-07T20:45Z",
       "source_file": "MFL_2016_07_2045.txt",
-      "similarity": 0.4453892409801483,
+      "similarity": 0.4598899781703949,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-02-07T08:38Z",
       "source_file": "MFL_2016_07_0838.txt",
-      "similarity": 0.4453892409801483,
+      "similarity": 0.4598899781703949,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-05-18T11:40Z",
-      "source_file": "MFL_2018_18_1140.txt",
-      "similarity": 0.4392006993293762,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-05-18T15:32Z",
-      "source_file": "MFL_2018_18_1532.txt",
-      "similarity": 0.4392006993293762,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-05-18T07:37Z",
-      "source_file": "MFL_2018_18_0737.txt",
-      "similarity": 0.4392006993293762,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-05-18T17:52Z",
-      "source_file": "MFL_2018_18_1752.txt",
-      "similarity": 0.4392006993293762,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-05-23T05:39Z",
-      "source_file": "MFL_2014_23_0539.txt",
-      "similarity": 0.4365473985671997,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-05-23T00:36Z",
-      "source_file": "MFL_2014_23_0036.txt",
-      "similarity": 0.4365473985671997,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-05-22T18:33Z",
-      "source_file": "MFL_2014_22_1833.txt",
-      "similarity": 0.4365473985671997,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2012-01-02T11:42Z",
       "source_file": "MFL_2012_02_1142.txt",
-      "similarity": 0.4338316321372986,
+      "similarity": 0.45481985807418823,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-01-02T11:28Z",
+      "source_file": "MFL_2012_02_1128.txt",
+      "similarity": 0.45481985807418823,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-01-02T18:00Z",
+      "source_file": "MFL_2012_02_1800.txt",
+      "similarity": 0.45481985807418823,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-09-18T05:54Z",
+      "source_file": "MFL_2014_18_0554.txt",
+      "similarity": 0.4532940983772278,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-09-18T01:22Z",
+      "source_file": "MFL_2014_18_0122.txt",
+      "similarity": 0.4532940983772278,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-09-17T18:18Z",
+      "source_file": "MFL_2014_17_1818.txt",
+      "similarity": 0.4532940983772278,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-09-17T23:43Z",
+      "source_file": "MFL_2014_17_2343.txt",
+      "similarity": 0.4532940983772278,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-05-18T11:40Z",
+      "source_file": "MFL_2018_18_1140.txt",
+      "similarity": 0.45206522941589355,
+      "label": "flood",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.4391055107116699,
-    "n_severe": 3,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.4549481153488159,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609172238-KMFL-FXUS62-AFDMFL",
-    "afd_time": "2026-09-17T22:38:00Z",
-    "updated": "2026-09-18T00:28:54.917207+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202609180505-KMFL-FXUS62-AFDMFL",
+    "afd_time": "2026-09-18T05:05:00Z",
+    "updated": "2026-09-18T06:00:00.707071+00:00"
   }
 }
