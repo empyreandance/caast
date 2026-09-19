@@ -1,24 +1,17 @@
 {
   "office": "PIH",
-  "product_id": "202609190706-KPIH-FXUS65-AFDPIH",
-  "afd_time": "2026-09-19T07:06:00Z",
+  "product_id": "202609191738-KPIH-FXUS65-AFDPIH",
+  "afd_time": "2026-09-19T17:38:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-19T11:06:32.985700+00:00",
+  "updated": "2026-09-19T18:06:31.612132+00:00",
   "query_preview": "..\nIssued at 104 AM MDT Sat Sep 19 2026\n\n|Low pressure will settle over eastern Idaho today. Will \nprobably see a mix of sun and clouds today with occasional light\nrain showers and isolated thunderstorms. The heavy rains that \nwe have around the past couple days should be over. Additional \nrainfall ",
   "analogs": [
     {
       "datetime_utc": "2010-05-01T09:40Z",
       "source_file": "PIH_2010_01_0940.txt",
-      "similarity": 0.43673545122146606,
+      "similarity": 0.4367353916168213,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-09-24T09:14Z",
-      "source_file": "PIH_2005_24_0914.txt",
-      "similarity": 0.43666407465934753,
-      "label": "quiet",
-      "is_severe": false
     },
     {
       "datetime_utc": "2005-09-24T16:17Z",
@@ -28,51 +21,58 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-06-11T19:26Z",
-      "source_file": "PIH_2009_11_1926.txt",
-      "similarity": 0.4270535707473755,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2005-09-24T09:14Z",
+      "source_file": "PIH_2005_24_0914.txt",
+      "similarity": 0.43666407465934753,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2009-05-12T19:25Z",
-      "source_file": "PIH_2009_12_1925.txt",
-      "similarity": 0.4220062792301178,
-      "label": "severe_wind",
+      "datetime_utc": "2009-06-11T19:26Z",
+      "source_file": "PIH_2009_11_1926.txt",
+      "similarity": 0.4270535409450531,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-05-13T01:52Z",
       "source_file": "PIH_2009_13_0152.txt",
-      "similarity": 0.4220062792301178,
+      "similarity": 0.4220063090324402,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-05-12T19:25Z",
+      "source_file": "PIH_2009_12_1925.txt",
+      "similarity": 0.4220063090324402,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-05-17T01:41Z",
       "source_file": "PIH_2006_17_0141.txt",
-      "similarity": 0.4174930453300476,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-05-24T14:51Z",
-      "source_file": "PIH_2011_24_1451.txt",
-      "similarity": 0.41517049074172974,
+      "similarity": 0.41749298572540283,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-05-24T09:18Z",
       "source_file": "PIH_2011_24_0918.txt",
-      "similarity": 0.41517049074172974,
+      "similarity": 0.41517043113708496,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-05-24T14:51Z",
+      "source_file": "PIH_2011_24_1451.txt",
+      "similarity": 0.41517043113708496,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-07-01T08:46Z",
       "source_file": "PIH_2010_01_0846.txt",
-      "similarity": 0.41507524251937866,
+      "similarity": 0.41507527232170105,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.4244038999080658,
+    "mean_similarity": 0.42440388202667234,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202609190706-KPIH-FXUS65-AFDPIH",
-    "afd_time": "2026-09-19T07:06:00Z",
-    "updated": "2026-09-19T11:06:32.985700+00:00"
+    "product_id": "202609191738-KPIH-FXUS65-AFDPIH",
+    "afd_time": "2026-09-19T17:38:00Z",
+    "updated": "2026-09-19T18:06:31.612132+00:00"
   }
 }
