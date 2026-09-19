@@ -1,9 +1,9 @@
 {
   "office": "TSA",
-  "product_id": "202609190530-KTSA-FXUS64-AFDTSA",
-  "afd_time": "2026-09-19T05:30:00Z",
+  "product_id": "202609191128-KTSA-FXUS64-AFDTSA",
+  "afd_time": "2026-09-19T11:28:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-19T06:02:55.135708+00:00",
+  "updated": "2026-09-19T14:29:23.388167+00:00",
   "query_preview": "..\n(Saturday Night through Friday)\nIssued at 1156 PM CDT Fri Sep 18 2026\n\nA cold front will approach the area from the north Saturday\nevening and overnight, with shower and thunderstorm chances\nspreading into parts of northeast Oklahoma by late evening into\nthe overnight hours. As the cold front sag",
   "analogs": [
     {
@@ -16,42 +16,49 @@
     {
       "datetime_utc": "2012-07-03T08:28Z",
       "source_file": "TSA_2012_03_0828.txt",
-      "similarity": 0.4561656713485718,
+      "similarity": 0.45616573095321655,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-07-03T11:37Z",
       "source_file": "TSA_2012_03_1137.txt",
-      "similarity": 0.4561656713485718,
+      "similarity": 0.45616573095321655,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-07-16T16:01Z",
       "source_file": "TSA_2010_16_1601.txt",
-      "similarity": 0.44866353273391724,
+      "similarity": 0.44866350293159485,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-10-23T20:40Z",
       "source_file": "TSA_2014_23_2040.txt",
-      "similarity": 0.4462931156158447,
+      "similarity": 0.4462931752204895,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-11-10T15:50Z",
       "source_file": "TSA_2021_10_1550.txt",
-      "similarity": 0.4450764060020447,
+      "similarity": 0.44507643580436707,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-11-10T16:55Z",
       "source_file": "TSA_2021_10_1655.txt",
-      "similarity": 0.4450764060020447,
+      "similarity": 0.44507643580436707,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-12-27T01:56Z",
+      "source_file": "TSA_2010_27_0156.txt",
+      "similarity": 0.4442375898361206,
       "label": "tornado",
       "is_severe": true
     },
@@ -68,24 +75,17 @@
       "similarity": 0.4442375898361206,
       "label": "tornado",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-12-27T01:56Z",
-      "source_file": "TSA_2010_27_0156.txt",
-      "similarity": 0.4442375898361206,
-      "label": "tornado",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.44905305504798887,
+    "mean_similarity": 0.4490530759096146,
     "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609190530-KTSA-FXUS64-AFDTSA",
-    "afd_time": "2026-09-19T05:30:00Z",
-    "updated": "2026-09-19T06:02:55.135708+00:00"
+    "product_id": "202609191128-KTSA-FXUS64-AFDTSA",
+    "afd_time": "2026-09-19T11:28:00Z",
+    "updated": "2026-09-19T14:29:23.388167+00:00"
   }
 }
