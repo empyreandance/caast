@@ -1,91 +1,91 @@
 {
   "office": "BTV",
-  "product_id": "202609190515-KBTV-FXUS61-AFDBTV",
-  "afd_time": "2026-09-19T05:15:00Z",
+  "product_id": "202609190623-KBTV-FXUS61-AFDBTV",
+  "afd_time": "2026-09-19T06:23:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-19T06:02:55.135708+00:00",
-  "query_preview": "..\nAs of 227 PM EDT Friday...\n\nKEY MESSAGE 1: Gusty winds will continue across Lake Champlain through \n2-4 AM on Saturday. Sustained winds may approach 25 knots at times \nbetween 9 PM and midnight but winds will generally range from 20-23 \nknots. A few gusts closer to 30 knots will be possible, espe",
+  "updated": "2026-09-19T11:06:32.985700+00:00",
+  "query_preview": "..\nAs of 223 AM EDT Saturday...\n\nKEY MESSAGE 1: Patchy morning frost across the northwestern Adirondacks \nand Essex County, Vermont remains on track where the combination of \ntemperatures in the low to mid 30s and light winds around daybreak \nare most likely. Otherwise, uneventful weather is expecte",
   "analogs": [
-    {
-      "datetime_utc": "2005-02-16T23:34Z",
-      "source_file": "BTV_2005_16_2334.txt",
-      "similarity": 0.40020474791526794,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-02-16T19:50Z",
-      "source_file": "BTV_2005_16_1950.txt",
-      "similarity": 0.40020474791526794,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2009-05-26T01:59Z",
       "source_file": "BTV_2009_26_0159.txt",
-      "similarity": 0.39098551869392395,
+      "similarity": 0.4304458796977997,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-05-26T07:46Z",
       "source_file": "BTV_2009_26_0746.txt",
-      "similarity": 0.39098551869392395,
+      "similarity": 0.4304458796977997,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2023-10-04T05:34Z",
-      "source_file": "BTV_2023_04_0534.txt",
-      "similarity": 0.3891603946685791,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-10-04T02:37Z",
-      "source_file": "BTV_2023_04_0237.txt",
-      "similarity": 0.3891603946685791,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-10-03T19:46Z",
-      "source_file": "BTV_2023_03_1946.txt",
-      "similarity": 0.3891603946685791,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-10-03T23:56Z",
-      "source_file": "BTV_2023_03_2356.txt",
-      "similarity": 0.3891603946685791,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2017-05-04T17:50Z",
       "source_file": "BTV_2017_04_1750.txt",
-      "similarity": 0.38678860664367676,
+      "similarity": 0.4273909628391266,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-05-04T08:06Z",
+      "source_file": "BTV_2017_04_0806.txt",
+      "similarity": 0.4273909628391266,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-05-04T11:24Z",
+      "source_file": "BTV_2017_04_1124.txt",
+      "similarity": 0.4273909628391266,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-05-04T14:25Z",
       "source_file": "BTV_2017_04_1425.txt",
-      "similarity": 0.38678860664367676,
+      "similarity": 0.4273909628391266,
       "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-05-04T08:02Z",
+      "source_file": "BTV_2017_04_0802.txt",
+      "similarity": 0.4273909628391266,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-11-09T03:47Z",
+      "source_file": "BTV_2006_09_0347.txt",
+      "similarity": 0.41894593834877014,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-11-08T19:22Z",
+      "source_file": "BTV_2006_08_1922.txt",
+      "similarity": 0.41894593834877014,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-01-23T07:32Z",
+      "source_file": "BTV_2005_23_0732.txt",
+      "similarity": 0.413093626499176,
+      "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.3912599325180054,
-    "n_severe": 2,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.42488320767879484,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202609190515-KBTV-FXUS61-AFDBTV",
-    "afd_time": "2026-09-19T05:15:00Z",
-    "updated": "2026-09-19T06:02:55.135708+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202609190623-KBTV-FXUS61-AFDBTV",
+    "afd_time": "2026-09-19T06:23:00Z",
+    "updated": "2026-09-19T11:06:32.985700+00:00"
   }
 }
