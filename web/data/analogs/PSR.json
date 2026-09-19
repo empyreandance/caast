@@ -1,78 +1,78 @@
 {
   "office": "PSR",
-  "product_id": "202609191710-KPSR-FXUS65-AFDPSR",
-  "afd_time": "2026-09-19T17:10:00Z",
+  "product_id": "202609192010-KPSR-FXUS65-AFDPSR",
+  "afd_time": "2026-09-19T20:10:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-19T18:06:31.612132+00:00",
-  "query_preview": "/MONDAY THROUGH FRIDAY/...\nModels are in good agreement that a Pacific low will move to the \nsouth-central coast of California by early Monday and then move \neastward onshore throughout the day. If it weren't for the lack of \nmoisture on Monday it would be a decent set up for a transitional \nsevere ",
+  "updated": "2026-09-19T20:46:17.872536+00:00",
+  "query_preview": "/Tuesday through Friday/...\nOn Tuesday, an upper low will slowly weaken as it moves northeast \ninto NV/UT before getting swept up into the large scale flow on \nWednesday moving into the northern Plains. At the same time, a weak \nridge over TX and will start to strengthen on resulting in \nsouthwester",
   "analogs": [
     {
-      "datetime_utc": "2018-02-17T11:27Z",
-      "source_file": "PSR_2018_17_1127.txt",
-      "similarity": 0.46216917037963867,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2006-03-10T12:18Z",
+      "source_file": "PSR_2006_10_1218.txt",
+      "similarity": 0.47246065735816956,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2018-02-17T16:15Z",
-      "source_file": "PSR_2018_17_1615.txt",
-      "similarity": 0.46216917037963867,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2006-03-10T18:02Z",
+      "source_file": "PSR_2006_10_1802.txt",
+      "similarity": 0.47246065735816956,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2018-02-17T12:46Z",
-      "source_file": "PSR_2018_17_1246.txt",
-      "similarity": 0.46216917037963867,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-05-14T10:11Z",
-      "source_file": "PSR_2008_14_1011.txt",
-      "similarity": 0.45405447483062744,
+      "datetime_utc": "2004-06-29T10:44Z",
+      "source_file": "PSR_2004_29_1044_1.txt",
+      "similarity": 0.47043365240097046,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-01-22T09:48Z",
-      "source_file": "PSR_2010_22_0948.txt",
-      "similarity": 0.4525371789932251,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2010-01-22T13:18Z",
       "source_file": "PSR_2010_22_1318.txt",
-      "similarity": 0.4525371789932251,
+      "similarity": 0.4680585563182831,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2013-06-26T16:20Z",
-      "source_file": "PSR_2013_26_1620.txt",
-      "similarity": 0.4463862180709839,
-      "label": "severe_wind",
+      "datetime_utc": "2010-01-22T09:48Z",
+      "source_file": "PSR_2010_22_0948.txt",
+      "similarity": 0.4680585563182831,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-04-15T03:49Z",
-      "source_file": "PSR_2014_15_0349.txt",
-      "similarity": 0.44408154487609863,
-      "label": "winter",
+      "datetime_utc": "2004-06-25T22:30Z",
+      "source_file": "PSR_2004_25_2230_1.txt",
+      "similarity": 0.4639109969139099,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2022-03-23T23:06Z",
-      "source_file": "PSR_2022_23_2306.txt",
-      "similarity": 0.44407936930656433,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2022-05-22T23:36Z",
+      "source_file": "PSR_2022_22_2336.txt",
+      "similarity": 0.46347954869270325,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2018-01-25T10:30Z",
-      "source_file": "PSR_2018_25_1030.txt",
-      "similarity": 0.44383010268211365,
+      "datetime_utc": "2022-05-23T05:24Z",
+      "source_file": "PSR_2022_23_0524_1.txt",
+      "similarity": 0.46347954869270325,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-12-07T15:37Z",
+      "source_file": "PSR_2017_07_1537.txt",
+      "similarity": 0.46303099393844604,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-05-15T16:35Z",
+      "source_file": "PSR_2010_15_1635.txt",
+      "similarity": 0.46247440576553345,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.4524013578891754,
+    "mean_similarity": 0.4667847573757172,
     "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609191710-KPSR-FXUS65-AFDPSR",
-    "afd_time": "2026-09-19T17:10:00Z",
-    "updated": "2026-09-19T18:06:31.612132+00:00"
+    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
+    "product_id": "202609192010-KPSR-FXUS65-AFDPSR",
+    "afd_time": "2026-09-19T20:10:00Z",
+    "updated": "2026-09-19T20:46:17.872536+00:00"
   }
 }

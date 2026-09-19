@@ -1,51 +1,44 @@
 {
   "office": "BUF",
-  "product_id": "202609191750-KBUF-FXUS61-AFDBUF",
-  "afd_time": "2026-09-19T17:50:00Z",
+  "product_id": "202609192028-KBUF-FXUS61-AFDBUF",
+  "afd_time": "2026-09-19T20:28:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-19T18:06:31.612132+00:00",
+  "updated": "2026-09-19T20:46:17.872536+00:00",
   "query_preview": "..\nKEY MESSAGE 1...Rain showers and isolated thunderstorms return to \nthe region tonight through Sunday.\n\nRegional radar shows a swath of precipitation from the Mid-West to \nwestern NY this afternoon. An abundant amount of dry air across the \nregion will result in continued dry weather through most ",
   "analogs": [
     {
-      "datetime_utc": "2019-12-07T22:14Z",
-      "source_file": "BUF_2019_07_2214.txt",
-      "similarity": 0.48459771275520325,
+      "datetime_utc": "2019-12-08T00:52Z",
+      "source_file": "BUF_2019_08_0052.txt",
+      "similarity": 0.4845978021621704,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-12-08T00:52Z",
-      "source_file": "BUF_2019_08_0052.txt",
-      "similarity": 0.48459771275520325,
+      "datetime_utc": "2019-12-07T22:14Z",
+      "source_file": "BUF_2019_07_2214.txt",
+      "similarity": 0.4845978021621704,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-07-30T18:22Z",
       "source_file": "BUF_2005_30_1822.txt",
-      "similarity": 0.4789322018623352,
+      "similarity": 0.47893226146698,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-07-31T06:53Z",
       "source_file": "BUF_2005_31_0653.txt",
-      "similarity": 0.4789322018623352,
+      "similarity": 0.47893226146698,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-07-31T13:23Z",
       "source_file": "BUF_2005_31_1323.txt",
-      "similarity": 0.4789322018623352,
+      "similarity": 0.47893226146698,
       "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-05-08T07:11Z",
-      "source_file": "BUF_2022_08_0711.txt",
-      "similarity": 0.4668952226638794,
-      "label": "severe_hail",
       "is_severe": true
     },
     {
@@ -70,9 +63,16 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2022-11-19T00:39Z",
-      "source_file": "BUF_2022_19_0039.txt",
-      "similarity": 0.46581268310546875,
+      "datetime_utc": "2022-05-08T07:11Z",
+      "source_file": "BUF_2022_08_0711.txt",
+      "similarity": 0.4668952226638794,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-11-19T06:23Z",
+      "source_file": "BUF_2022_19_0623.txt",
+      "similarity": 0.4658127427101135,
       "label": "winter",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.4739385604858398,
+    "mean_similarity": 0.4739386022090912,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202609191750-KBUF-FXUS61-AFDBUF",
-    "afd_time": "2026-09-19T17:50:00Z",
-    "updated": "2026-09-19T18:06:31.612132+00:00"
+    "product_id": "202609192028-KBUF-FXUS61-AFDBUF",
+    "afd_time": "2026-09-19T20:28:00Z",
+    "updated": "2026-09-19T20:46:17.872536+00:00"
   }
 }
