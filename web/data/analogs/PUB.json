@@ -1,91 +1,91 @@
 {
   "office": "PUB",
-  "product_id": "202609182035-KPUB-FXUS65-AFDPUB",
-  "afd_time": "2026-09-18T20:35:00Z",
+  "product_id": "202609190018-KPUB-FXUS65-AFDPUB",
+  "afd_time": "2026-09-19T00:18:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-18T22:38:36.372447+00:00",
-  "query_preview": "/SATURDAY NIGHT THROUGH THURSDAY/...\nIssued at 141 PM MDT Fri Sep 18 2026\n\nPotential day-2 severe set-up on the plains Sunday, as post\nfrontal upslope deepens under brisk w-sw flow aloft, while\nstrong upper trough lifts out of WY into the High Plains. CAPE\n1k-2k J/KG and 0-6km shear over 30 kts (loc",
+  "updated": "2026-09-19T01:14:40.862739+00:00",
+  "query_preview": "/SATURDAY NIGHT THROUGH FRIDAY/...\nIssued at 141 PM MDT Fri Sep 18 2026\n\nPotential day-2 severe set-up on the plains Sunday, as post\nfrontal upslope deepens under brisk w-sw flow aloft, while\nstrong upper trough lifts out of WY into the High Plains. CAPE\n1k-2k J/KG and 0-6km shear over 30 kts (local",
   "analogs": [
     {
       "datetime_utc": "2007-06-03T19:56Z",
       "source_file": "PUB_2007_03_1956.txt",
-      "similarity": 0.4132545590400696,
+      "similarity": 0.3855491280555725,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-06-04T20:45Z",
       "source_file": "PUB_2007_04_2045.txt",
-      "similarity": 0.40187868475914,
+      "similarity": 0.3757771849632263,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-10-14T10:46Z",
-      "source_file": "PUB_2011_14_1046.txt",
-      "similarity": 0.4018426537513733,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-04-20T10:33Z",
-      "source_file": "PUB_2012_20_1033.txt",
-      "similarity": 0.4012231230735779,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-09-25T09:07Z",
       "source_file": "PUB_2006_25_0907.txt",
-      "similarity": 0.40077561140060425,
+      "similarity": 0.3716464936733246,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2008-11-16T21:44Z",
-      "source_file": "PUB_2008_16_2144.txt",
-      "similarity": 0.39556610584259033,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-11-18T21:34Z",
-      "source_file": "PUB_2005_18_2134.txt",
-      "similarity": 0.3841211795806885,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-05-12T06:38Z",
-      "source_file": "PUB_2016_12_0638.txt",
-      "similarity": 0.3816834092140198,
+      "datetime_utc": "2012-04-20T10:33Z",
+      "source_file": "PUB_2012_20_1033.txt",
+      "similarity": 0.3692299425601959,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-07-08T10:09Z",
-      "source_file": "PUB_2007_08_1009.txt",
-      "similarity": 0.3808121085166931,
-      "label": "severe_wind",
+      "datetime_utc": "2011-10-14T10:46Z",
+      "source_file": "PUB_2011_14_1046.txt",
+      "similarity": 0.36324363946914673,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-04-20T20:42Z",
+      "source_file": "PUB_2006_20_2042.txt",
+      "similarity": 0.3549765348434448,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-11-22T10:31Z",
       "source_file": "PUB_2005_22_1031_1.txt",
-      "similarity": 0.3806854486465454,
+      "similarity": 0.3544943630695343,
       "label": "winter",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-06-18T04:36Z",
+      "source_file": "PUB_2012_18_0436.txt",
+      "similarity": 0.35229021310806274,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-06-17T21:12Z",
+      "source_file": "PUB_2012_17_2112.txt",
+      "similarity": 0.35229021310806274,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-06-17T23:13Z",
+      "source_file": "PUB_2012_17_2313.txt",
+      "similarity": 0.35229021310806274,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.3941842883825302,
-    "n_severe": 5,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.36317879259586333,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202609182035-KPUB-FXUS65-AFDPUB",
-    "afd_time": "2026-09-18T20:35:00Z",
-    "updated": "2026-09-18T22:38:36.372447+00:00"
+    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
+    "product_id": "202609190018-KPUB-FXUS65-AFDPUB",
+    "afd_time": "2026-09-19T00:18:00Z",
+    "updated": "2026-09-19T01:14:40.862739+00:00"
   }
 }
