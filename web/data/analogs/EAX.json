@@ -1,18 +1,11 @@
 {
   "office": "EAX",
-  "product_id": "202609182330-KEAX-FXUS63-AFDEAX",
-  "afd_time": "2026-09-18T23:30:00Z",
+  "product_id": "202609190500-KEAX-FXUS63-AFDEAX",
+  "afd_time": "2026-09-19T05:00:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-19T01:14:40.862739+00:00",
+  "updated": "2026-09-19T06:02:55.135708+00:00",
   "query_preview": "..\nIssued at 412 PM CDT Fri Sep 18 2026\n\nEarlier fog over northern Missouri has eroded away this afternoon, \nwith temperatures across the area climbing into the 90s as daytime \nheating has commenced. A warm frontal boundary draped across north-\ncentral Missouri is projected to continue pushing north",
   "analogs": [
-    {
-      "datetime_utc": "2014-08-03T20:44Z",
-      "source_file": "EAX_2014_03_2044.txt",
-      "similarity": 0.4466087818145752,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2014-08-03T17:37Z",
       "source_file": "EAX_2014_03_1737.txt",
@@ -21,15 +14,22 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2016-03-29T18:05Z",
-      "source_file": "EAX_2016_29_1805.txt",
-      "similarity": 0.4381808042526245,
+      "datetime_utc": "2014-08-03T20:44Z",
+      "source_file": "EAX_2014_03_2044.txt",
+      "similarity": 0.4466087818145752,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-03-29T10:59Z",
       "source_file": "EAX_2016_29_1059.txt",
+      "similarity": 0.4381808042526245,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-03-29T18:05Z",
+      "source_file": "EAX_2016_29_1805.txt",
       "similarity": 0.4381808042526245,
       "label": "severe_wind",
       "is_severe": true
@@ -42,37 +42,37 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-05-15T08:11Z",
-      "source_file": "EAX_2024_15_0811.txt",
-      "similarity": 0.43755340576171875,
+      "datetime_utc": "2024-05-15T17:40Z",
+      "source_file": "EAX_2024_15_1740.txt",
+      "similarity": 0.4375534653663635,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-05-15T17:40Z",
-      "source_file": "EAX_2024_15_1740.txt",
-      "similarity": 0.43755340576171875,
+      "datetime_utc": "2024-05-15T08:11Z",
+      "source_file": "EAX_2024_15_0811.txt",
+      "similarity": 0.4375534653663635,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-05-15T11:35Z",
       "source_file": "EAX_2024_15_1135.txt",
-      "similarity": 0.43755340576171875,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-03-30T10:54Z",
-      "source_file": "EAX_2014_30_1054.txt",
-      "similarity": 0.42724841833114624,
+      "similarity": 0.4375534653663635,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-03-30T17:40Z",
       "source_file": "EAX_2014_30_1740_1.txt",
-      "similarity": 0.42724841833114624,
+      "similarity": 0.42724844813346863,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-03-30T10:54Z",
+      "source_file": "EAX_2014_30_1054.txt",
+      "similarity": 0.42724844813346863,
       "label": "tornado",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 1.0,
-    "mean_similarity": 0.43749170303344725,
+    "mean_similarity": 0.4374917268753052,
     "n_severe": 10,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609182330-KEAX-FXUS63-AFDEAX",
-    "afd_time": "2026-09-18T23:30:00Z",
-    "updated": "2026-09-19T01:14:40.862739+00:00"
+    "product_id": "202609190500-KEAX-FXUS63-AFDEAX",
+    "afd_time": "2026-09-19T05:00:00Z",
+    "updated": "2026-09-19T06:02:55.135708+00:00"
   }
 }
