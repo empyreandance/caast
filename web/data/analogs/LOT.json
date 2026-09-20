@@ -1,21 +1,14 @@
 {
   "office": "LOT",
-  "product_id": "202609191742-KLOT-FXUS63-AFDLOT",
-  "afd_time": "2026-09-19T17:42:00Z",
+  "product_id": "202609200016-KLOT-FXUS63-AFDLOT",
+  "afd_time": "2026-09-20T00:16:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-19T18:06:31.612132+00:00",
+  "updated": "2026-09-20T01:14:37.442588+00:00",
   "query_preview": "..\nIssued at 1242 PM CDT Sat Sep 19 2026\n\nA broad surface trough extends from northeast Iowa, southwest\nacross Kansas and into the Texas and Oklahoma Panhandles. A \nconvectively- reinforced outflow/gravity wave associated with \nwidespread morning convection had pushed well south through \ncentral Ill",
   "analogs": [
     {
       "datetime_utc": "2008-10-14T15:46Z",
       "source_file": "LOT_2008_14_1546.txt",
-      "similarity": 0.44647812843322754,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-10-14T17:42Z",
-      "source_file": "LOT_2008_14_1742.txt",
       "similarity": 0.44647812843322754,
       "label": "severe_wind",
       "is_severe": true
@@ -35,6 +28,13 @@
       "is_severe": true
     },
     {
+      "datetime_utc": "2008-10-14T17:42Z",
+      "source_file": "LOT_2008_14_1742.txt",
+      "similarity": 0.44647812843322754,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2006-06-16T20:49Z",
       "source_file": "LOT_2006_16_2049.txt",
       "similarity": 0.4462500214576721,
@@ -44,35 +44,35 @@
     {
       "datetime_utc": "2016-06-08T19:41Z",
       "source_file": "LOT_2016_08_1941.txt",
-      "similarity": 0.43606579303741455,
+      "similarity": 0.4360657334327698,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-11-02T11:59Z",
-      "source_file": "LOT_2004_02_1159.txt",
-      "similarity": 0.4174991548061371,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2004-11-02T18:01Z",
       "source_file": "LOT_2004_02_1801.txt",
-      "similarity": 0.4174991548061371,
+      "similarity": 0.4174990653991699,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-11-02T09:05Z",
       "source_file": "LOT_2004_02_0905.txt",
-      "similarity": 0.4174991548061371,
+      "similarity": 0.4174990653991699,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-11-02T11:59Z",
+      "source_file": "LOT_2004_02_1159.txt",
+      "similarity": 0.4174990653991699,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-09-04T08:40Z",
       "source_file": "LOT_2015_04_0840.txt",
-      "similarity": 0.4169129431247711,
+      "similarity": 0.41691288352012634,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.43376387357711793,
+    "mean_similarity": 0.4337638348340988,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202609191742-KLOT-FXUS63-AFDLOT",
-    "afd_time": "2026-09-19T17:42:00Z",
-    "updated": "2026-09-19T18:06:31.612132+00:00"
+    "product_id": "202609200016-KLOT-FXUS63-AFDLOT",
+    "afd_time": "2026-09-20T00:16:00Z",
+    "updated": "2026-09-20T01:14:37.442588+00:00"
   }
 }
