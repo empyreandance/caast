@@ -1,78 +1,78 @@
 {
   "office": "GSP",
-  "product_id": "202609200002-KGSP-FXUS62-AFDGSP",
-  "afd_time": "2026-09-20T00:02:00Z",
+  "product_id": "202609200550-KGSP-FXUS62-AFDGSP",
+  "afd_time": "2026-09-20T05:50:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-20T01:14:37.442588+00:00",
-  "query_preview": "..\nKey message 1: Thunderstorms are possible each afternoon and evening\nthrough Monday, with a few of them severe today and Monday. Damaging\nwind gusts and excessive rain are the main threats.\n\nOur weather remains a bit unsettled over the next few days as we\nare under what amounts to an atmospheric ",
+  "updated": "2026-09-20T06:25:23.483578+00:00",
+  "query_preview": "..\nKey message 1: Scattered showers and thunderstorms are expected each \nafternoon and evening through Monday. A few of the storms may become \nsevere, with damaging wind gusts and excessive rain being the main \nthreats. Temperatures will remain above normal both Sunday and Monday.\n\nConditions will r",
   "analogs": [
-    {
-      "datetime_utc": "2008-01-31T17:41Z",
-      "source_file": "GSP_2008_31_1741.txt",
-      "similarity": 0.6972011923789978,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2008-01-31T18:36Z",
       "source_file": "GSP_2008_31_1836.txt",
-      "similarity": 0.6972011923789978,
+      "similarity": 0.6926124095916748,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-01-31T16:41Z",
       "source_file": "GSP_2008_31_1641.txt",
-      "similarity": 0.6972011923789978,
+      "similarity": 0.6926124095916748,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-01-31T17:41Z",
+      "source_file": "GSP_2008_31_1741.txt",
+      "similarity": 0.6926124095916748,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-11-27T14:58Z",
+      "source_file": "GSP_2020_27_1458.txt",
+      "similarity": 0.6182532906532288,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-09-13T01:57Z",
+      "source_file": "GSP_2007_13_0157.txt",
+      "similarity": 0.6163992881774902,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-09-12T23:25Z",
       "source_file": "GSP_2007_12_2325.txt",
-      "similarity": 0.6197087168693542,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-13T01:57Z",
-      "source_file": "GSP_2007_13_0157.txt",
-      "similarity": 0.6197087168693542,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-13T03:49Z",
-      "source_file": "GSP_2007_13_0349.txt",
-      "similarity": 0.6197087168693542,
+      "similarity": 0.6163992881774902,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-09-12T18:29Z",
       "source_file": "GSP_2007_12_1829.txt",
-      "similarity": 0.6197087168693542,
+      "similarity": 0.6163992881774902,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-11-27T14:58Z",
-      "source_file": "GSP_2020_27_1458.txt",
-      "similarity": 0.6157926917076111,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2007-09-13T03:49Z",
+      "source_file": "GSP_2007_13_0349.txt",
+      "similarity": 0.6163992881774902,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2006-06-12T17:36Z",
-      "source_file": "GSP_2006_12_1736.txt",
-      "similarity": 0.6092684864997864,
+      "datetime_utc": "2007-02-18T15:43Z",
+      "source_file": "GSP_2007_18_1543.txt",
+      "similarity": 0.6126135587692261,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-06-12T14:41Z",
-      "source_file": "GSP_2006_12_1441.txt",
-      "similarity": 0.6092684864997864,
+      "datetime_utc": "2007-02-18T07:35Z",
+      "source_file": "GSP_2007_18_0735.txt",
+      "similarity": 0.6126135587692261,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.6404768109321595,
+    "mean_similarity": 0.6386914789676666,
     "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.64 below confidence floor 0.7",
-    "product_id": "202609200002-KGSP-FXUS62-AFDGSP",
-    "afd_time": "2026-09-20T00:02:00Z",
-    "updated": "2026-09-20T01:14:37.442588+00:00"
+    "product_id": "202609200550-KGSP-FXUS62-AFDGSP",
+    "afd_time": "2026-09-20T05:50:00Z",
+    "updated": "2026-09-20T06:25:23.483578+00:00"
   }
 }

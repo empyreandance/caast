@@ -1,91 +1,91 @@
 {
   "office": "EWX",
-  "product_id": "202609192325-KEWX-FXUS64-AFDEWX",
-  "afd_time": "2026-09-19T23:25:00Z",
+  "product_id": "202609200518-KEWX-FXUS64-AFDEWX",
+  "afd_time": "2026-09-20T05:18:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-20T01:14:37.442588+00:00",
-  "query_preview": "..\n(Monday through next Saturday)\nIssued at 1207 PM CDT Sat Sep 19 2026\n\nDespite some of the increased troughiness out west, the mid level\nridge holds its ground and corrals the instability over the \nhigher terrain Monday. The ridge does weaken slightly but it \nposition directly overhead helps keep ",
+  "updated": "2026-09-20T06:25:23.483578+00:00",
+  "query_preview": "..\n(Monday night through Saturday)\nIssued at 1212 AM CDT Sun Sep 20 2026\n\nZonal flow aloft through the midweek over South Central Texas means \nthe weak front is unlikely to advance much farther south into our \narea. Nonetheless, its accompanying band of higher theta-e and \nmoisture stuck beneath mid",
   "analogs": [
+    {
+      "datetime_utc": "2004-08-26T16:58Z",
+      "source_file": "EWX_2004_26_1658.txt",
+      "similarity": 0.4851367473602295,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2025-08-31T11:28Z",
+      "source_file": "EWX_2025_31_1128.txt",
+      "similarity": 0.48331916332244873,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-08-31T06:34Z",
+      "source_file": "EWX_2025_31_0634.txt",
+      "similarity": 0.48331916332244873,
+      "label": "severe_wind",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2008-05-09T20:31Z",
       "source_file": "EWX_2008_09_2031.txt",
-      "similarity": 0.4794802665710449,
+      "similarity": 0.4822387397289276,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-07-18T07:34Z",
+      "source_file": "EWX_2014_18_0734.txt",
+      "similarity": 0.47669634222984314,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-07-18T17:35Z",
+      "source_file": "EWX_2014_18_1735.txt",
+      "similarity": 0.47669634222984314,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-07-18T15:30Z",
+      "source_file": "EWX_2014_18_1530.txt",
+      "similarity": 0.47669634222984314,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-04-12T20:08Z",
+      "source_file": "EWX_2006_12_2008.txt",
+      "similarity": 0.4738978147506714,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-07-19T08:19Z",
       "source_file": "EWX_2014_19_0819.txt",
-      "similarity": 0.47840991616249084,
+      "similarity": 0.47205591201782227,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-07-19T17:51Z",
       "source_file": "EWX_2014_19_1751.txt",
-      "similarity": 0.47840991616249084,
+      "similarity": 0.47205591201782227,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-04-03T19:37Z",
-      "source_file": "EWX_2016_03_1937.txt",
-      "similarity": 0.4750218093395233,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-08-26T16:58Z",
-      "source_file": "EWX_2004_26_1658.txt",
-      "similarity": 0.4692801237106323,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-02-09T16:14Z",
-      "source_file": "EWX_2007_09_1614.txt",
-      "similarity": 0.4631255865097046,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-03-03T16:48Z",
-      "source_file": "EWX_2014_03_1648.txt",
-      "similarity": 0.4631185233592987,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-03-03T17:47Z",
-      "source_file": "EWX_2014_03_1747.txt",
-      "similarity": 0.4631185233592987,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-03-03T09:56Z",
-      "source_file": "EWX_2014_03_0956.txt",
-      "similarity": 0.4631185233592987,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-01-02T08:20Z",
-      "source_file": "EWX_2017_02_0820.txt",
-      "similarity": 0.46299663186073303,
-      "label": "winter",
-      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.4696079820394516,
-    "n_severe": 7,
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.47821124792099,
+    "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202609192325-KEWX-FXUS64-AFDEWX",
-    "afd_time": "2026-09-19T23:25:00Z",
-    "updated": "2026-09-20T01:14:37.442588+00:00"
+    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
+    "product_id": "202609200518-KEWX-FXUS64-AFDEWX",
+    "afd_time": "2026-09-20T05:18:00Z",
+    "updated": "2026-09-20T06:25:23.483578+00:00"
   }
 }
