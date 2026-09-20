@@ -1,91 +1,91 @@
 {
   "office": "JKL",
-  "product_id": "202609200545-KJKL-FXUS63-AFDJKL",
-  "afd_time": "2026-09-20T05:45:00Z",
+  "product_id": "202609201204-KJKL-FXUS63-AFDJKL",
+  "afd_time": "2026-09-20T12:04:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-20T06:25:23.483578+00:00",
-  "query_preview": "..(Monday through Saturday)\nIssued at 409 PM EDT SAT SEP 19 2026\n\nAt the start of the long term period, eastern Kentucky will find \nitself in a region of largely zonal flow aloft, with a broad \ntrough over the northeastern CONUS and a closed upper level low to\nthe northwest in the Northern Plains. A",
+  "updated": "2026-09-20T12:28:02.967069+00:00",
+  "query_preview": "..(Monday night through Saturday)\nIssued at 443 AM EDT SUN SEP 20 2026\n\nThe extended period opens Monday evening with fairly zonal flow\naloft. At the surface, a strong area of high pressure will be\nsituated south of James Bay. South of this high, a cold front \nwill be draped from the Mid-Atlantic ac",
   "analogs": [
     {
       "datetime_utc": "2005-08-24T22:22Z",
       "source_file": "JKL_2005_24_2222.txt",
-      "similarity": 0.4438168406486511,
+      "similarity": 0.46574127674102783,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-08-08T21:13Z",
+      "source_file": "JKL_2004_08_2113.txt",
+      "similarity": 0.4645456075668335,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-08-09T09:27Z",
       "source_file": "JKL_2004_09_0927.txt",
-      "similarity": 0.4306214153766632,
+      "similarity": 0.4645456075668335,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-08-09T02:17Z",
       "source_file": "JKL_2004_09_0217.txt",
-      "similarity": 0.4306214153766632,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-08-08T21:13Z",
-      "source_file": "JKL_2004_08_2113.txt",
-      "similarity": 0.4306214153766632,
+      "similarity": 0.4645456075668335,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-10-08T23:23Z",
       "source_file": "JKL_2007_08_2323.txt",
-      "similarity": 0.423494815826416,
+      "similarity": 0.4560600519180298,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-10-08T19:59Z",
       "source_file": "JKL_2007_08_1959.txt",
-      "similarity": 0.423494815826416,
+      "similarity": 0.4560600519180298,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-10-09T05:36Z",
       "source_file": "JKL_2007_09_0536.txt",
-      "similarity": 0.423494815826416,
+      "similarity": 0.4560600519180298,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-05-01T07:59Z",
-      "source_file": "JKL_2005_01_0759_1.txt",
-      "similarity": 0.4229261577129364,
+      "datetime_utc": "2004-11-10T22:28Z",
+      "source_file": "JKL_2004_10_2228.txt",
+      "similarity": 0.4531303644180298,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-01-12T08:00Z",
+      "source_file": "JKL_2013_12_0800_1.txt",
+      "similarity": 0.4521494507789612,
+      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-05-31T08:46Z",
       "source_file": "JKL_2004_31_0846.txt",
-      "similarity": 0.4214760959148407,
+      "similarity": 0.4514915943145752,
       "label": "tornado",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-10-21T01:38Z",
-      "source_file": "JKL_2004_21_0138.txt",
-      "similarity": 0.42091137170791626,
-      "label": "quiet",
-      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.4271479159593582,
+    "mean_similarity": 0.4584329664707184,
     "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202609200545-KJKL-FXUS63-AFDJKL",
-    "afd_time": "2026-09-20T05:45:00Z",
-    "updated": "2026-09-20T06:25:23.483578+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202609201204-KJKL-FXUS63-AFDJKL",
+    "afd_time": "2026-09-20T12:04:00Z",
+    "updated": "2026-09-20T12:28:02.967069+00:00"
   }
 }
