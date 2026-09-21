@@ -1,78 +1,78 @@
 {
   "office": "BOI",
-  "product_id": "202609211741-KBOI-FXUS65-AFDBOI",
-  "afd_time": "2026-09-21T17:41:00Z",
+  "product_id": "202609212047-KBOI-FXUS65-AFDBOI",
+  "afd_time": "2026-09-21T20:47:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-21T19:35:41.710184+00:00",
-  "query_preview": "/Thursday through Monday/...\nIssued 245 AM MDT MON SEP 21 2026\nA ridge will remain over the area on Thursday. Thursday will be\nthe hottest day in the 7-day period, with temperatures near 90\ndegrees in lower elevations and 80 degrees in higher elevations. \nA trough moves into the Pacific NW Friday/Sa",
+  "updated": "2026-09-21T23:21:36.157057+00:00",
+  "query_preview": "/Thursday through Monday/...\nThursday looks to be the warmest day of the week, with \nincreasing southerly flow ahead of the next system. Temperatures\non Thursday will be 10-15 degrees above normal, with lower \nelevation max temps around the around 90 degrees and around 80 \ndegrees in mountain valley",
   "analogs": [
     {
       "datetime_utc": "2012-03-04T16:15Z",
       "source_file": "BOI_2012_04_1615.txt",
-      "similarity": 0.44732436537742615,
+      "similarity": 0.3966888189315796,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-10-07T03:50Z",
-      "source_file": "BOI_2006_07_0350.txt",
-      "similarity": 0.4440433979034424,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2006-10-06T21:14Z",
       "source_file": "BOI_2006_06_2114.txt",
-      "similarity": 0.4440433979034424,
+      "similarity": 0.39615577459335327,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-11-18T16:45Z",
-      "source_file": "BOI_2014_18_1645.txt",
-      "similarity": 0.43915051221847534,
-      "label": "winter",
+      "datetime_utc": "2006-10-07T03:50Z",
+      "source_file": "BOI_2006_07_0350.txt",
+      "similarity": 0.39615577459335327,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-09-07T02:57Z",
       "source_file": "BOI_2023_07_0257.txt",
-      "similarity": 0.43807661533355713,
+      "similarity": 0.39447981119155884,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-09-06T20:32Z",
       "source_file": "BOI_2023_06_2032.txt",
-      "similarity": 0.43807661533355713,
+      "similarity": 0.39447981119155884,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-11-18T16:45Z",
+      "source_file": "BOI_2014_18_1645.txt",
+      "similarity": 0.3932993710041046,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2012-03-04T10:44Z",
       "source_file": "BOI_2012_04_1044.txt",
-      "similarity": 0.4346742331981659,
+      "similarity": 0.3846571147441864,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-08-14T03:46Z",
+      "source_file": "BOI_2005_14_0346.txt",
+      "similarity": 0.38070106506347656,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-08-13T20:34Z",
       "source_file": "BOI_2005_13_2034_1.txt",
-      "similarity": 0.43109849095344543,
+      "similarity": 0.38070106506347656,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-08-14T03:46Z",
-      "source_file": "BOI_2005_14_0346.txt",
-      "similarity": 0.43109849095344543,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2019-04-18T08:41Z",
-      "source_file": "BOI_2019_18_0841.txt",
-      "similarity": 0.42431098222732544,
+      "datetime_utc": "2019-04-18T15:35Z",
+      "source_file": "BOI_2019_18_1535_1.txt",
+      "similarity": 0.3805302381515503,
       "label": "severe_hail",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.4371897101402283,
+    "mean_similarity": 0.38978488445281984,
     "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609211741-KBOI-FXUS65-AFDBOI",
-    "afd_time": "2026-09-21T17:41:00Z",
-    "updated": "2026-09-21T19:35:41.710184+00:00"
+    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
+    "product_id": "202609212047-KBOI-FXUS65-AFDBOI",
+    "afd_time": "2026-09-21T20:47:00Z",
+    "updated": "2026-09-21T23:21:36.157057+00:00"
   }
 }
