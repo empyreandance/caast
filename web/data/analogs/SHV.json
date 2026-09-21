@@ -1,91 +1,91 @@
 {
   "office": "SHV",
-  "product_id": "202609210050-KSHV-FXUS64-AFDSHV",
-  "afd_time": "2026-09-21T00:50:00Z",
+  "product_id": "202609210617-KSHV-FXUS64-AFDSHV",
+  "afd_time": "2026-09-21T06:17:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-21T01:12:17.348862+00:00",
-  "query_preview": "..\nIssued at 115 PM CDT Sun Sep 20 2026\n\nThe synoptic scale pattern this afternoon features a relentless\nridge of high pressure extending along the Texas and Louisiana\ncoastlines into the lower Southern Plains and through the\nArkLaMiss region. Downstream from this persistent feature is a \nweak close",
+  "updated": "2026-09-21T06:26:50.932497+00:00",
+  "query_preview": "..\nIssued at 116 AM CDT Mon Sep 21 2026\n\nA weak band of showers has been slowly drifting across north Texas \nand south Oklahoma through the evening, but struggling to maintain \nstructure as it pushes into our CWA. Short range guidance suggests \nthis will continue through the night, with light shower",
   "analogs": [
     {
       "datetime_utc": "2008-01-30T16:05Z",
       "source_file": "SHV_2008_30_1605_1.txt",
-      "similarity": 0.392416775226593,
+      "similarity": 0.40096551179885864,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-05-22T20:10Z",
+      "source_file": "SHV_2006_22_2010.txt",
+      "similarity": 0.3878195285797119,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-06-05T19:56Z",
+      "source_file": "SHV_2005_05_1956.txt",
+      "similarity": 0.38415852189064026,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-10-03T01:20Z",
       "source_file": "SHV_2014_03_0120.txt",
-      "similarity": 0.3867083191871643,
+      "similarity": 0.3807257413864136,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-12-02T03:00Z",
       "source_file": "SHV_2006_02_0300.txt",
-      "similarity": 0.3865469694137573,
+      "similarity": 0.37937361001968384,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-05-22T20:10Z",
-      "source_file": "SHV_2006_22_2010.txt",
-      "similarity": 0.38366496562957764,
+      "datetime_utc": "2006-04-29T03:28Z",
+      "source_file": "SHV_2006_29_0328.txt",
+      "similarity": 0.3786512613296509,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-03-28T16:18Z",
       "source_file": "SHV_2005_28_1618.txt",
-      "similarity": 0.3813199996948242,
+      "similarity": 0.37659162282943726,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2008-09-13T01:02Z",
       "source_file": "SHV_2008_13_0102.txt",
-      "similarity": 0.38123130798339844,
+      "similarity": 0.3764263689517975,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-04-29T03:28Z",
-      "source_file": "SHV_2006_29_0328.txt",
-      "similarity": 0.37873417139053345,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-12-06T03:00Z",
-      "source_file": "SHV_2006_06_0300.txt",
-      "similarity": 0.378464937210083,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-05-27T00:21Z",
-      "source_file": "SHV_2006_27_0021.txt",
-      "similarity": 0.3784327805042267,
+      "datetime_utc": "2008-05-28T08:39Z",
+      "source_file": "SHV_2008_28_0839.txt",
+      "similarity": 0.3757288455963135,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-05-22T08:00Z",
       "source_file": "SHV_2005_22_0800_2.txt",
-      "similarity": 0.37747666239738464,
+      "similarity": 0.3752817213535309,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.3824996888637543,
-    "n_severe": 6,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.38157227337360383,
+    "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202609210050-KSHV-FXUS64-AFDSHV",
-    "afd_time": "2026-09-21T00:50:00Z",
-    "updated": "2026-09-21T01:12:17.348862+00:00"
+    "product_id": "202609210617-KSHV-FXUS64-AFDSHV",
+    "afd_time": "2026-09-21T06:17:00Z",
+    "updated": "2026-09-21T06:26:50.932497+00:00"
   }
 }

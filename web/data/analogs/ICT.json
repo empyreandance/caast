@@ -1,21 +1,14 @@
 {
   "office": "ICT",
-  "product_id": "202609202352-KICT-FXUS63-AFDICT",
-  "afd_time": "2026-09-20T23:52:00Z",
+  "product_id": "202609210408-KICT-FXUS63-AFDICT",
+  "afd_time": "2026-09-21T04:08:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-21T01:12:17.348862+00:00",
+  "updated": "2026-09-21T06:26:50.932497+00:00",
   "query_preview": "..\nIssued at 214 PM CDT Sun Sep 20 2026\n\nA cold front was bisecting southeast Kansas this morning with a \nconsiderable amount of post-frontal stratus impacting much of \nnorthern and portions of central Kansas. This is expected to keep \ntemperatures in the 70s for most areas behind the front with som",
   "analogs": [
     {
       "datetime_utc": "2017-07-21T23:26Z",
       "source_file": "ICT_2017_21_2326.txt",
-      "similarity": 0.4513663947582245,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-07-21T19:11Z",
-      "source_file": "ICT_2017_21_1911.txt",
       "similarity": 0.4513663947582245,
       "label": "severe_wind",
       "is_severe": true
@@ -28,9 +21,16 @@
       "is_severe": true
     },
     {
+      "datetime_utc": "2017-07-21T19:11Z",
+      "source_file": "ICT_2017_21_1911.txt",
+      "similarity": 0.4513663947582245,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2004-03-04T09:11Z",
       "source_file": "ICT_2004_04_0911.txt",
-      "similarity": 0.44966447353363037,
+      "similarity": 0.44966453313827515,
       "label": "quiet",
       "is_severe": false
     },
@@ -44,29 +44,22 @@
     {
       "datetime_utc": "2004-03-15T20:43Z",
       "source_file": "ICT_2004_15_2043.txt",
-      "similarity": 0.43213626742362976,
+      "similarity": 0.4321363568305969,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-08-11T20:11Z",
-      "source_file": "ICT_2005_11_2011.txt",
-      "similarity": 0.43208634853363037,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2005-08-12T01:49Z",
       "source_file": "ICT_2005_12_0149.txt",
-      "similarity": 0.43208634853363037,
+      "similarity": 0.43208637833595276,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-06-05T04:39Z",
-      "source_file": "ICT_2019_05_0439.txt",
-      "similarity": 0.42711299657821655,
-      "label": "severe_wind",
+      "datetime_utc": "2005-08-11T20:11Z",
+      "source_file": "ICT_2005_11_2011.txt",
+      "similarity": 0.43208637833595276,
+      "label": "tornado",
       "is_severe": true
     },
     {
@@ -75,17 +68,24 @@
       "similarity": 0.42711299657821655,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-06-05T04:39Z",
+      "source_file": "ICT_2019_05_0439.txt",
+      "similarity": 0.42711299657821655,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.4395509362220764,
+    "mean_similarity": 0.43955095708370207,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609202352-KICT-FXUS63-AFDICT",
-    "afd_time": "2026-09-20T23:52:00Z",
-    "updated": "2026-09-21T01:12:17.348862+00:00"
+    "product_id": "202609210408-KICT-FXUS63-AFDICT",
+    "afd_time": "2026-09-21T04:08:00Z",
+    "updated": "2026-09-21T06:26:50.932497+00:00"
   }
 }
