@@ -1,91 +1,92 @@
 {
   "office": "HFO",
-  "product_id": "202609201434-PHFO-FXHW60-AFDHFO",
-  "afd_time": "2026-09-20T14:34:00Z",
+  "product_id": "202609211301-PHFO-FXHW60-AFDHFO",
+  "afd_time": "2026-09-21T13:01:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-20T16:52:14.477507+00:00",
-  "query_preview": "..\nEarly this morning, local radar imagery shows relatively few \nlight showers across the region embedded within locally breezy \ntrade winds. This is supported by the surface observations across \nthe islands, which show very light rainfall accumulation has \noccurred overnight. The spots which did se",
+  "updated": "2026-09-21T14:15:49.728542+00:00",
+  "query_preview": "..\n\nAttention going forward is on the time frame spanning Wednesday \ninto the weekend. Uncertainty is running significantly higher than\nnormal as Former TD-15-E lurks well southeast of the islands and\npresents as a disorganized area of showers and thunderstorms. \nGeneral consensus exists that activi",
   "analogs": [
     {
-      "datetime_utc": "2015-10-02T01:54Z",
-      "source_file": "HFO_2015_02_0154.txt",
-      "similarity": 0.6728308200836182,
-      "label": "flood",
+      "datetime_utc": "2006-11-04T20:34Z",
+      "source_file": "HFO_2006_04_2034.txt",
+      "similarity": 0.8198869228363037,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-09-17T01:45Z",
+      "source_file": "HFO_2009_17_0145.txt",
+      "similarity": 0.807397186756134,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-03-16T02:00Z",
+      "source_file": "HFO_2024_16_0200.txt",
+      "similarity": 0.7988935708999634,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-06-01T20:10Z",
+      "source_file": "HFO_2018_01_2010.txt",
+      "similarity": 0.7963618040084839,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-06-15T20:02Z",
+      "source_file": "HFO_2019_15_2002.txt",
+      "similarity": 0.7957348823547363,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2018-06-17T13:59Z",
       "source_file": "HFO_2018_17_1359.txt",
-      "similarity": 0.6704691052436829,
+      "similarity": 0.7948492169380188,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2024-01-09T14:22Z",
-      "source_file": "HFO_2024_09_1422.txt",
-      "similarity": 0.6620133519172668,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-01-09T19:52Z",
-      "source_file": "HFO_2024_09_1952.txt",
-      "similarity": 0.6620133519172668,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-01-15T19:58Z",
-      "source_file": "HFO_2009_15_1958_1.txt",
-      "similarity": 0.6617015600204468,
+      "datetime_utc": "2007-09-21T07:36Z",
+      "source_file": "HFO_2007_21_0736.txt",
+      "similarity": 0.793748676776886,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-08-22T13:54Z",
-      "source_file": "HFO_2009_22_1354.txt",
-      "similarity": 0.657231330871582,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-12-15T06:39Z",
-      "source_file": "HFO_2006_15_0639.txt",
-      "similarity": 0.6571595668792725,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-02-11T01:30Z",
-      "source_file": "HFO_2008_11_0130_1.txt",
-      "similarity": 0.6570743918418884,
+      "datetime_utc": "2018-06-01T14:07Z",
+      "source_file": "HFO_2018_01_1407.txt",
+      "similarity": 0.7932155132293701,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-04-27T01:58Z",
       "source_file": "HFO_2017_27_0158.txt",
-      "similarity": 0.6565086245536804,
+      "similarity": 0.7926743030548096,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2021-04-09T19:48Z",
-      "source_file": "HFO_2021_09_1948.txt",
-      "similarity": 0.6552068591117859,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2016-03-23T01:57Z",
+      "source_file": "HFO_2016_23_0157.txt",
+      "similarity": 0.7910202145576477,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.6612208962440491,
-    "n_severe": 0,
+    "level": "QUIET",
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.7983782291412354,
+    "base_rate": null,
+    "signal_value": -0.4,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.66 below confidence floor 0.7",
-    "product_id": "202609201434-PHFO-FXHW60-AFDHFO",
-    "afd_time": "2026-09-20T14:34:00Z",
-    "updated": "2026-09-20T16:52:14.477507+00:00"
+    "product_id": "202609211301-PHFO-FXHW60-AFDHFO",
+    "afd_time": "2026-09-21T13:01:00Z",
+    "updated": "2026-09-21T14:15:49.728542+00:00"
   }
 }

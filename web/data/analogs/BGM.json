@@ -1,91 +1,91 @@
 {
   "office": "BGM",
-  "product_id": "202609210608-KBGM-FXUS61-AFDBGM",
-  "afd_time": "2026-09-21T06:08:00Z",
+  "product_id": "202609211409-KBGM-FXUS61-AFDBGM",
+  "afd_time": "2026-09-21T14:09:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-21T06:26:50.932497+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...\n\nDrizzle and light rain will gradually taper off into this evening as \nthe weak cold front presses south and east. The latest satellite \nloop shows plenty of low clouds in place across NY and PA this \nafternoon, fading to higher, thinner clouds over southern Ontario. \nThe main fo",
+  "updated": "2026-09-21T14:15:49.728542+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...\n\nStill quite a bit of low level moisture around this morning with\nlow stratus and fog. Eventually, heating and drier air aloft\nwill mix out the moisture and by early afternoon. However, still\nlikely to see mostly cloudy conditions this afternoon with\nwidespread cirrostratus over ",
   "analogs": [
     {
-      "datetime_utc": "2004-07-14T23:16Z",
-      "source_file": "BGM_2004_14_2316.txt",
-      "similarity": 0.4548830986022949,
+      "datetime_utc": "2021-06-03T18:22Z",
+      "source_file": "BGM_2021_03_1822.txt",
+      "similarity": 0.44119057059288025,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-06-03T23:43Z",
+      "source_file": "BGM_2021_03_2343.txt",
+      "similarity": 0.44119057059288025,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-06-04T06:23Z",
+      "source_file": "BGM_2021_04_0623.txt",
+      "similarity": 0.44119057059288025,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-06-04T00:44Z",
+      "source_file": "BGM_2021_04_0044.txt",
+      "similarity": 0.44119057059288025,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-07-14T18:19Z",
+      "source_file": "BGM_2004_14_1819.txt",
+      "similarity": 0.436720609664917,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-07-15T02:46Z",
       "source_file": "BGM_2004_15_0246.txt",
-      "similarity": 0.4548830986022949,
+      "similarity": 0.436720609664917,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-07-14T18:19Z",
-      "source_file": "BGM_2004_14_1819.txt",
-      "similarity": 0.4548830986022949,
+      "datetime_utc": "2004-07-14T23:16Z",
+      "source_file": "BGM_2004_14_2316.txt",
+      "similarity": 0.436720609664917,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-05-22T11:08Z",
-      "source_file": "BGM_2018_22_1108.txt",
-      "similarity": 0.43915659189224243,
+      "datetime_utc": "2016-08-20T18:18Z",
+      "source_file": "BGM_2016_20_1818.txt",
+      "similarity": 0.41706186532974243,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2018-05-22T07:49Z",
-      "source_file": "BGM_2018_22_0749.txt",
-      "similarity": 0.43915659189224243,
+      "datetime_utc": "2016-08-20T15:27Z",
+      "source_file": "BGM_2016_20_1527.txt",
+      "similarity": 0.41706186532974243,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2018-05-22T14:50Z",
-      "source_file": "BGM_2018_22_1450.txt",
-      "similarity": 0.43915659189224243,
+      "datetime_utc": "2016-08-20T10:59Z",
+      "source_file": "BGM_2016_20_1059.txt",
+      "similarity": 0.41706186532974243,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-05-22T17:47Z",
-      "source_file": "BGM_2018_22_1747.txt",
-      "similarity": 0.43915659189224243,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-05-22T06:56Z",
-      "source_file": "BGM_2018_22_0656.txt",
-      "similarity": 0.43915659189224243,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-11-29T20:46Z",
-      "source_file": "BGM_2011_29_2046.txt",
-      "similarity": 0.4327442944049835,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-11-29T23:47Z",
-      "source_file": "BGM_2011_29_2347.txt",
-      "similarity": 0.4327442944049835,
-      "label": "quiet",
-      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.4425920844078064,
-    "n_severe": 5,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.43261097073554994,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609210608-KBGM-FXUS61-AFDBGM",
-    "afd_time": "2026-09-21T06:08:00Z",
-    "updated": "2026-09-21T06:26:50.932497+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202609211409-KBGM-FXUS61-AFDBGM",
+    "afd_time": "2026-09-21T14:09:00Z",
+    "updated": "2026-09-21T14:15:49.728542+00:00"
   }
 }
