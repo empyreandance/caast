@@ -1,91 +1,91 @@
 {
   "office": "EKA",
-  "product_id": "202609220855-KEKA-FXUS66-AFDEKA",
-  "afd_time": "2026-09-22T08:55:00Z",
+  "product_id": "202609222150-KEKA-FXUS66-AFDEKA",
+  "afd_time": "2026-09-22T21:50:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-22T10:02:56.853052+00:00",
-  "query_preview": "..An upper-level shortwave trough off the Central\nCalifornia coast continues to weaken the ridge aloft, drawing high \ncirrus across the region. At the surface, dry conditions remain \ndriven by the zonal onshore pressure gradient established between \nthe eastern Pacific surface high and the interior ",
+  "updated": "2026-09-22T22:15:05.127855+00:00",
+  "query_preview": "..The coastal stratus showed some weakness today, \nallowing for more periods of sunshine. Light coastal drizzle has \naccumulated up to a few hundredths of precipitation over the past two \ndays, mainly around Humboldt Bay. More drizzle is likely tonight. \nTemperatures trend warmer Wednesday with a st",
   "analogs": [
+    {
+      "datetime_utc": "2005-12-30T14:47Z",
+      "source_file": "EKA_2005_30_1447.txt",
+      "similarity": 0.45412224531173706,
+      "label": "severe_wind",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2015-09-11T22:14Z",
       "source_file": "EKA_2015_11_2214.txt",
-      "similarity": 0.460696816444397,
+      "similarity": 0.4399907886981964,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-02-16T22:43Z",
       "source_file": "EKA_2005_16_2243.txt",
-      "similarity": 0.4565179646015167,
+      "similarity": 0.4399825930595398,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-12-30T14:47Z",
-      "source_file": "EKA_2005_30_1447.txt",
-      "similarity": 0.45393481850624084,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-04-27T21:45Z",
-      "source_file": "EKA_2010_27_2145.txt",
-      "similarity": 0.4510633945465088,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2007-10-30T23:02Z",
       "source_file": "EKA_2007_30_2302.txt",
-      "similarity": 0.44864004850387573,
+      "similarity": 0.43299514055252075,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-01-20T22:51Z",
       "source_file": "EKA_2004_20_2251.txt",
-      "similarity": 0.447561115026474,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-02-25T14:15Z",
-      "source_file": "EKA_2016_25_1415.txt",
-      "similarity": 0.44357532262802124,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-02-25T13:18Z",
-      "source_file": "EKA_2016_25_1318.txt",
-      "similarity": 0.44357532262802124,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-02-25T13:04Z",
-      "source_file": "EKA_2016_25_1304.txt",
-      "similarity": 0.44357532262802124,
+      "similarity": 0.43016529083251953,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2013-01-23T12:07Z",
       "source_file": "EKA_2013_23_1207.txt",
-      "similarity": 0.4421038031578064,
+      "similarity": 0.4279913902282715,
       "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-04-27T21:45Z",
+      "source_file": "EKA_2010_27_2145.txt",
+      "similarity": 0.42794686555862427,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-06-22T21:48Z",
+      "source_file": "EKA_2013_22_2148.txt",
+      "similarity": 0.4261108636856079,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-06-23T22:22Z",
+      "source_file": "EKA_2013_23_2222.txt",
+      "similarity": 0.4233819246292114,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-02-25T13:18Z",
+      "source_file": "EKA_2016_25_1318.txt",
+      "similarity": 0.42270684242248535,
+      "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.44912439286708833,
+    "mean_similarity": 0.4325393944978714,
     "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609220855-KEKA-FXUS66-AFDEKA",
-    "afd_time": "2026-09-22T08:55:00Z",
-    "updated": "2026-09-22T10:02:56.853052+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202609222150-KEKA-FXUS66-AFDEKA",
+    "afd_time": "2026-09-22T21:50:00Z",
+    "updated": "2026-09-22T22:15:05.127855+00:00"
   }
 }

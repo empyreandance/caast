@@ -1,91 +1,91 @@
 {
   "office": "ALY",
-  "product_id": "202609221749-KALY-FXUS61-AFDALY",
-  "afd_time": "2026-09-22T17:49:00Z",
+  "product_id": "202609221911-KALY-FXUS61-AFDALY",
+  "afd_time": "2026-09-22T19:11:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-22T18:59:10.505983+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...A strong Canadian surface anticyclone continues \nto build south of James Bay from southeast Ontario and south- \ncentral Quebec today. A low pressure system passing over the Mid\nAtlantic States and an upper level disturbance have produced \nabundant clouds this morning, which will g",
+  "updated": "2026-09-22T22:15:05.127855+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...\n\nCurrent sfc analysis shows a strong pair of Canadian surface high \npressure systems over the Great Lakes and south of James Bay, \ncontinuing to build into the region. Gradual decrease in moisture \nwill allow for some partial clearing of clouds late this afternoon \nto evening, ma",
   "analogs": [
+    {
+      "datetime_utc": "2005-03-05T09:55Z",
+      "source_file": "ALY_2005_05_0955.txt",
+      "similarity": 0.40684938430786133,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2005-10-10T01:56Z",
       "source_file": "ALY_2005_10_0156.txt",
-      "similarity": 0.39662909507751465,
+      "similarity": 0.4032016396522522,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-10-09T21:41Z",
       "source_file": "ALY_2005_09_2141.txt",
-      "similarity": 0.39662909507751465,
+      "similarity": 0.4032016396522522,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-07-27T05:16Z",
-      "source_file": "ALY_2004_27_0516.txt",
-      "similarity": 0.3905552625656128,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-03-05T09:55Z",
-      "source_file": "ALY_2005_05_0955.txt",
-      "similarity": 0.3871433734893799,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2025-11-06T07:05Z",
       "source_file": "ALY_2025_06_0705.txt",
-      "similarity": 0.38618046045303345,
+      "similarity": 0.40135258436203003,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2025-09-28T04:55Z",
-      "source_file": "ALY_2025_28_0455.txt",
-      "similarity": 0.38473865389823914,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2004-07-27T05:16Z",
+      "source_file": "ALY_2004_27_0516.txt",
+      "similarity": 0.3968857526779175,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2025-09-27T23:01Z",
-      "source_file": "ALY_2025_27_2301.txt",
-      "similarity": 0.38473865389823914,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2010-10-03T11:32Z",
+      "source_file": "ALY_2010_03_1132.txt",
+      "similarity": 0.39638087153434753,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2025-09-27T17:35Z",
-      "source_file": "ALY_2025_27_1735.txt",
-      "similarity": 0.38473865389823914,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2010-10-03T08:22Z",
+      "source_file": "ALY_2010_03_0822.txt",
+      "similarity": 0.39638087153434753,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2024-08-18T19:58Z",
-      "source_file": "ALY_2024_18_1958.txt",
-      "similarity": 0.38360795378685,
-      "label": "flood",
-      "is_severe": false
+      "datetime_utc": "2010-10-03T14:58Z",
+      "source_file": "ALY_2010_03_1458.txt",
+      "similarity": 0.39638087153434753,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2024-08-18T23:38Z",
-      "source_file": "ALY_2024_18_2338.txt",
-      "similarity": 0.38360795378685,
-      "label": "flood",
-      "is_severe": false
+      "datetime_utc": "2010-10-03T17:35Z",
+      "source_file": "ALY_2010_03_1735.txt",
+      "similarity": 0.39638087153434753,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-10-03T12:18Z",
+      "source_file": "ALY_2010_03_1218.txt",
+      "similarity": 0.39638087153434753,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.3878569155931473,
-    "n_severe": 3,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.3993395358324051,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202609221749-KALY-FXUS61-AFDALY",
-    "afd_time": "2026-09-22T17:49:00Z",
-    "updated": "2026-09-22T18:59:10.505983+00:00"
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202609221911-KALY-FXUS61-AFDALY",
+    "afd_time": "2026-09-22T19:11:00Z",
+    "updated": "2026-09-22T22:15:05.127855+00:00"
   }
 }
