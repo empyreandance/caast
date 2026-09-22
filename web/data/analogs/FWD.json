@@ -1,9 +1,9 @@
 {
   "office": "FWD",
-  "product_id": "202609220647-KFWD-FXUS64-AFDFWD",
-  "afd_time": "2026-09-22T06:47:00Z",
+  "product_id": "202609221050-KFWD-FXUS64-AFDFWD",
+  "afd_time": "2026-09-22T10:50:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-22T10:02:56.853052+00:00",
+  "updated": "2026-09-22T15:01:13.217460+00:00",
   "query_preview": "..\n(Wednesday through Monday)\nIssued at 1253 AM CDT Tue Sep 22 2026\n\nThe remainder of the workweek will feature hot and mostly rain-\nfree weather as a secondary push of dry air arrives within \nnortheasterly low-level flow while the near-surface moisture axis\npivots into West Texas. The one exception",
   "analogs": [
     {
@@ -28,15 +28,15 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-11-12T21:06Z",
-      "source_file": "FWD_2007_12_2106.txt",
+      "datetime_utc": "2007-11-12T10:17Z",
+      "source_file": "FWD_2007_12_1017.txt",
       "similarity": 0.414126455783844,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-11-12T10:17Z",
-      "source_file": "FWD_2007_12_1017.txt",
+      "datetime_utc": "2007-11-12T21:06Z",
+      "source_file": "FWD_2007_12_2106.txt",
       "similarity": 0.414126455783844,
       "label": "flood",
       "is_severe": false
@@ -58,7 +58,14 @@
     {
       "datetime_utc": "2014-09-19T08:41Z",
       "source_file": "FWD_2014_19_0841.txt",
-      "similarity": 0.4100426435470581,
+      "similarity": 0.4100427031517029,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-03-02T20:31Z",
+      "source_file": "FWD_2007_02_2031.txt",
+      "similarity": 0.40999728441238403,
       "label": "quiet",
       "is_severe": false
     },
@@ -68,24 +75,17 @@
       "similarity": 0.40999728441238403,
       "label": "severe_hail",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-03-02T20:31Z",
-      "source_file": "FWD_2007_02_2031.txt",
-      "similarity": 0.40999728441238403,
-      "label": "quiet",
-      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.41344717144966125,
+    "mean_similarity": 0.4134471774101257,
     "n_severe": 1,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202609220647-KFWD-FXUS64-AFDFWD",
-    "afd_time": "2026-09-22T06:47:00Z",
-    "updated": "2026-09-22T10:02:56.853052+00:00"
+    "product_id": "202609221050-KFWD-FXUS64-AFDFWD",
+    "afd_time": "2026-09-22T10:50:00Z",
+    "updated": "2026-09-22T15:01:13.217460+00:00"
   }
 }
