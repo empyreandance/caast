@@ -1,91 +1,91 @@
 {
   "office": "LUB",
-  "product_id": "202609212318-KLUB-FXUS64-AFDLUB",
-  "afd_time": "2026-09-21T23:18:00Z",
+  "product_id": "202609220329-KLUB-FXUS64-AFDLUB",
+  "afd_time": "2026-09-22T03:29:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-21T23:21:36.157057+00:00",
-  "query_preview": "..\n(Tuesday night through next Sunday)\nIssued at 1219 PM CDT Mon Sep 21 2026\n\nDuring the latter half of the work week, the mid-level disturbance\nover NM will gradually lift northeast, with additional embedded \nwaves traversing the southwest flow regime to our west/north. This\nshould result in precip",
+  "updated": "2026-09-22T05:05:09.180581+00:00",
+  "query_preview": "..\n(Wednesday night through next Monday)\nIssued at 1026 PM CDT Mon Sep 21 2026\n\nThe upper shortwave will continue to track northeastward into the \nHigh Plains through the first part of the extended period as the \nupper high centered across the ETX region amplifies slightly into \nportions of the lowe",
   "analogs": [
     {
-      "datetime_utc": "2004-09-09T20:00Z",
-      "source_file": "LUB_2004_09_2000.txt",
-      "similarity": 0.4777722954750061,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2018-12-10T20:42Z",
+      "source_file": "LUB_2018_10_2042.txt",
+      "similarity": 0.4896835386753082,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-06-23T20:39Z",
+      "source_file": "LUB_2008_23_2039.txt",
+      "similarity": 0.4874677062034607,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2021-01-17T09:19Z",
       "source_file": "LUB_2021_17_0919.txt",
-      "similarity": 0.4777660071849823,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-01-17T17:25Z",
-      "source_file": "LUB_2021_17_1725_1.txt",
-      "similarity": 0.4777660071849823,
+      "similarity": 0.48562830686569214,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-01-17T11:11Z",
       "source_file": "LUB_2021_17_1111.txt",
-      "similarity": 0.4777660071849823,
+      "similarity": 0.48562830686569214,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-07-22T20:35Z",
-      "source_file": "LUB_2012_22_2035.txt",
-      "similarity": 0.47735902667045593,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2021-01-17T17:25Z",
+      "source_file": "LUB_2021_17_1725_1.txt",
+      "similarity": 0.48562830686569214,
+      "label": "winter",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2024-04-23T23:22Z",
-      "source_file": "LUB_2024_23_2322_1.txt",
-      "similarity": 0.4765491485595703,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-07-19T11:03Z",
-      "source_file": "LUB_2016_19_1103.txt",
-      "similarity": 0.47618672251701355,
+      "datetime_utc": "2020-09-10T00:18Z",
+      "source_file": "LUB_2020_10_0018.txt",
+      "similarity": 0.48494574427604675,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-09-10T05:49Z",
+      "source_file": "LUB_2020_10_0549.txt",
+      "similarity": 0.48494574427604675,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-09-09T19:43Z",
+      "source_file": "LUB_2020_09_1943.txt",
+      "similarity": 0.48494574427604675,
+      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-07-19T09:20Z",
       "source_file": "LUB_2016_19_0920.txt",
-      "similarity": 0.47618672251701355,
+      "similarity": 0.4834323525428772,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-07-19T17:44Z",
-      "source_file": "LUB_2016_19_1744.txt",
-      "similarity": 0.47618672251701355,
+      "datetime_utc": "2016-07-19T11:03Z",
+      "source_file": "LUB_2016_19_1103.txt",
+      "similarity": 0.4834323525428772,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-09-17T11:39Z",
-      "source_file": "LUB_2015_17_1139.txt",
-      "similarity": 0.47571560740470886,
-      "label": "severe_wind",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.4769254267215729,
-    "n_severe": 3,
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.485573810338974,
+    "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202609212318-KLUB-FXUS64-AFDLUB",
-    "afd_time": "2026-09-21T23:18:00Z",
-    "updated": "2026-09-21T23:21:36.157057+00:00"
+    "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
+    "product_id": "202609220329-KLUB-FXUS64-AFDLUB",
+    "afd_time": "2026-09-22T03:29:00Z",
+    "updated": "2026-09-22T05:05:09.180581+00:00"
   }
 }

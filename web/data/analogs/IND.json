@@ -1,31 +1,24 @@
 {
   "office": "IND",
-  "product_id": "202609212145-KIND-FXUS63-AFDIND",
-  "afd_time": "2026-09-21T21:45:00Z",
+  "product_id": "202609220112-KIND-FXUS63-AFDIND",
+  "afd_time": "2026-09-22T01:12:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-21T23:21:36.157057+00:00",
+  "updated": "2026-09-22T05:05:09.180581+00:00",
   "query_preview": "(This Evening through Monday)... \nIssued at 220 PM EDT Mon Sep 21 2026\n\nMuch cooler air has overspread the region in the wake of the \nfrontal passage late Sunday. Cloudy and breezy conditions are \nexpected through Wednesday as an upper low moves slowly through the \narea. This feature will cutoff ove",
   "analogs": [
     {
-      "datetime_utc": "2007-06-26T10:23Z",
-      "source_file": "IND_2007_26_1023.txt",
-      "similarity": 0.4773191511631012,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2007-06-26T07:20Z",
       "source_file": "IND_2007_26_0720_1.txt",
-      "similarity": 0.4773191511631012,
+      "similarity": 0.4773190915584564,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-01-02T04:30Z",
-      "source_file": "IND_2010_02_0430_1.txt",
-      "similarity": 0.4639180600643158,
-      "label": "flood",
-      "is_severe": false
+      "datetime_utc": "2007-06-26T10:23Z",
+      "source_file": "IND_2007_26_1023.txt",
+      "similarity": 0.4773190915584564,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2010-01-02T02:14Z",
@@ -35,44 +28,51 @@
       "is_severe": false
     },
     {
+      "datetime_utc": "2010-01-02T04:30Z",
+      "source_file": "IND_2010_02_0430_1.txt",
+      "similarity": 0.4639180600643158,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2006-05-24T19:42Z",
       "source_file": "IND_2006_24_1942.txt",
-      "similarity": 0.46171337366104126,
+      "similarity": 0.4617133140563965,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-05-25T05:16Z",
       "source_file": "IND_2006_25_0516_1.txt",
-      "similarity": 0.46171337366104126,
+      "similarity": 0.4617133140563965,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-03-21T19:38Z",
+      "source_file": "IND_2010_21_1938.txt",
+      "similarity": 0.45164549350738525,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-03-22T02:02Z",
       "source_file": "IND_2010_22_0202.txt",
-      "similarity": 0.45164555311203003,
+      "similarity": 0.45164549350738525,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-03-21T22:49Z",
       "source_file": "IND_2010_21_2249.txt",
-      "similarity": 0.45164555311203003,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-03-21T19:38Z",
-      "source_file": "IND_2010_21_1938.txt",
-      "similarity": 0.45164555311203003,
+      "similarity": 0.45164549350738525,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-03-22T05:10Z",
       "source_file": "IND_2010_22_0510.txt",
-      "similarity": 0.45164555311203003,
+      "similarity": 0.45164549350738525,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.46124833822250366,
+    "mean_similarity": 0.46124829053878785,
     "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202609212145-KIND-FXUS63-AFDIND",
-    "afd_time": "2026-09-21T21:45:00Z",
-    "updated": "2026-09-21T23:21:36.157057+00:00"
+    "product_id": "202609220112-KIND-FXUS63-AFDIND",
+    "afd_time": "2026-09-22T01:12:00Z",
+    "updated": "2026-09-22T05:05:09.180581+00:00"
   }
 }

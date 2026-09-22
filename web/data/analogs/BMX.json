@@ -1,91 +1,91 @@
 {
   "office": "BMX",
-  "product_id": "202609212010-KBMX-FXUS64-AFDBMX",
-  "afd_time": "2026-09-21T20:10:00Z",
+  "product_id": "202609220437-KBMX-FXUS64-AFDBMX",
+  "afd_time": "2026-09-22T04:37:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-21T23:21:36.157057+00:00",
-  "query_preview": "..\n(This evening through Sunday)\nIssued at 308 PM CDT MON SEP 21 2026\n\nScattered convection with frequent lightning, heavy rainfall and\ngusty winds at times is being noted across the north central\nportions of Central Alabama ATTM. We have a 1 out of 5 risk for\nsevere storms this afternoon and evenin",
+  "updated": "2026-09-22T05:05:09.180581+00:00",
+  "query_preview": "..\n(Tuesday through next Monday)\nIssued at 1136 PM CDT MON SEP 21 2026\n\nA marginal risk (level 1 out of 5) for severe storms remains in\neffect across Central Alabama through this upcoming evening as a\npronounced upper-level shortwave trough moves northeastward\ntoward the Great Lakes, driving an acco",
   "analogs": [
     {
       "datetime_utc": "2008-11-15T00:54Z",
       "source_file": "BMX_2008_15_0054.txt",
-      "similarity": 0.41015639901161194,
+      "similarity": 0.4131543040275574,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-07-20T20:36Z",
+      "source_file": "BMX_2005_20_2036.txt",
+      "similarity": 0.4008389413356781,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-08-05T20:11Z",
+      "source_file": "BMX_2005_05_2011.txt",
+      "similarity": 0.39432069659233093,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-06-11T10:28Z",
+      "source_file": "BMX_2005_11_1028.txt",
+      "similarity": 0.3936621844768524,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-06-10T20:07Z",
+      "source_file": "BMX_2005_10_2007.txt",
+      "similarity": 0.3936621844768524,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-04-09T10:04Z",
       "source_file": "BMX_2005_09_1004.txt",
-      "similarity": 0.4005809426307678,
+      "similarity": 0.39310771226882935,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-12-06T09:42Z",
+      "source_file": "BMX_2004_06_0942.txt",
+      "similarity": 0.3918223977088928,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-07-23T08:20Z",
       "source_file": "BMX_2004_23_0820.txt",
-      "similarity": 0.395129919052124,
+      "similarity": 0.39093905687332153,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-07-20T20:36Z",
-      "source_file": "BMX_2005_20_2036.txt",
-      "similarity": 0.3930119276046753,
+      "datetime_utc": "2011-06-05T08:03Z",
+      "source_file": "BMX_2011_05_0803.txt",
+      "similarity": 0.3904086947441101,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-06-10T20:07Z",
-      "source_file": "BMX_2005_10_2007.txt",
-      "similarity": 0.3928524851799011,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-06-11T10:28Z",
-      "source_file": "BMX_2005_11_1028.txt",
-      "similarity": 0.3928524851799011,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-08-05T20:11Z",
-      "source_file": "BMX_2005_05_2011.txt",
-      "similarity": 0.39227885007858276,
+      "datetime_utc": "2011-06-05T11:23Z",
+      "source_file": "BMX_2011_05_1123_1.txt",
+      "similarity": 0.3904086947441101,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-07-12T17:51Z",
-      "source_file": "BMX_2008_12_1751.txt",
-      "similarity": 0.3914458751678467,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-07-12T16:12Z",
-      "source_file": "BMX_2008_12_1612.txt",
-      "similarity": 0.3914458751678467,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-12-06T09:42Z",
-      "source_file": "BMX_2004_06_0942.txt",
-      "similarity": 0.39123260974884033,
-      "label": "quiet",
-      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.39509873688220976,
+    "mean_similarity": 0.3952324867248535,
     "n_severe": 5,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202609212010-KBMX-FXUS64-AFDBMX",
-    "afd_time": "2026-09-21T20:10:00Z",
-    "updated": "2026-09-21T23:21:36.157057+00:00"
+    "product_id": "202609220437-KBMX-FXUS64-AFDBMX",
+    "afd_time": "2026-09-22T04:37:00Z",
+    "updated": "2026-09-22T05:05:09.180581+00:00"
   }
 }

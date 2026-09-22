@@ -1,29 +1,29 @@
 {
   "office": "GSP",
-  "product_id": "202609211852-KGSP-FXUS62-AFDGSP",
-  "afd_time": "2026-09-21T18:52:00Z",
+  "product_id": "202609220011-KGSP-FXUS62-AFDGSP",
+  "afd_time": "2026-09-22T00:11:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-21T19:35:41.710184+00:00",
+  "updated": "2026-09-22T05:05:09.180581+00:00",
   "query_preview": "..\nKey message 1: A few severe thunderstorms are possible today and\nTuesday, mainly in the late afternoon and early evening. The\nprimary concerns from any stronger storms will be damaging wind\ngusts and excessive rainfall.\n\nSomewhat unseasonably warm and humid conditions persist this\nafternoon. We l",
   "analogs": [
     {
-      "datetime_utc": "2008-01-31T16:41Z",
-      "source_file": "GSP_2008_31_1641.txt",
-      "similarity": 0.6825500726699829,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2008-01-31T18:36Z",
       "source_file": "GSP_2008_31_1836.txt",
-      "similarity": 0.6825500726699829,
+      "similarity": 0.6825499534606934,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-01-31T17:41Z",
       "source_file": "GSP_2008_31_1741.txt",
-      "similarity": 0.6825500726699829,
+      "similarity": 0.6825499534606934,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-01-31T16:41Z",
+      "source_file": "GSP_2008_31_1641.txt",
+      "similarity": 0.6825499534606934,
       "label": "severe_wind",
       "is_severe": true
     },
@@ -33,6 +33,20 @@
       "similarity": 0.6357901692390442,
       "label": "winter",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-07-28T18:30Z",
+      "source_file": "GSP_2024_28_1830.txt",
+      "similarity": 0.6152337789535522,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-07-28T16:01Z",
+      "source_file": "GSP_2024_28_1601.txt",
+      "similarity": 0.6152337789535522,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2024-07-28T13:43Z",
@@ -49,20 +63,6 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-07-28T16:01Z",
-      "source_file": "GSP_2024_28_1601.txt",
-      "similarity": 0.6152337789535522,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-07-28T18:30Z",
-      "source_file": "GSP_2024_28_1830.txt",
-      "similarity": 0.6152337789535522,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2024-07-28T07:22Z",
       "source_file": "GSP_2024_28_0722_1.txt",
       "similarity": 0.6152337789535522,
@@ -70,8 +70,8 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2021-12-18T11:43Z",
-      "source_file": "GSP_2021_18_1143.txt",
+      "datetime_utc": "2021-12-18T08:24Z",
+      "source_file": "GSP_2021_18_0824.txt",
       "similarity": 0.6083471775054932,
       "label": "quiet",
       "is_severe": false
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.6367956459522247,
+    "mean_similarity": 0.6367956101894379,
     "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.64 below confidence floor 0.7",
-    "product_id": "202609211852-KGSP-FXUS62-AFDGSP",
-    "afd_time": "2026-09-21T18:52:00Z",
-    "updated": "2026-09-21T19:35:41.710184+00:00"
+    "product_id": "202609220011-KGSP-FXUS62-AFDGSP",
+    "afd_time": "2026-09-22T00:11:00Z",
+    "updated": "2026-09-22T05:05:09.180581+00:00"
   }
 }
