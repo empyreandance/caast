@@ -1,91 +1,91 @@
 {
   "office": "FWD",
-  "product_id": "202609220145-KFWD-FXUS64-AFDFWD",
-  "afd_time": "2026-09-22T01:45:00Z",
+  "product_id": "202609220647-KFWD-FXUS64-AFDFWD",
+  "afd_time": "2026-09-22T06:47:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-22T05:05:09.180581+00:00",
-  "query_preview": "..\n(Wednesday through next Sunday) \nIssued at 156 PM CDT Mon Sep 21 2026\n\nPredominantly dry weather is forecast from midweek onward as\nbuilding heights aloft maintain above normal temperatures, while\nlarge-scale subsidence limits rain chances. A reinforcing push of\ndry air in east/northeast flow wil",
+  "updated": "2026-09-22T10:02:56.853052+00:00",
+  "query_preview": "..\n(Wednesday through Monday)\nIssued at 1253 AM CDT Tue Sep 22 2026\n\nThe remainder of the workweek will feature hot and mostly rain-\nfree weather as a secondary push of dry air arrives within \nnortheasterly low-level flow while the near-surface moisture axis\npivots into West Texas. The one exception",
   "analogs": [
     {
-      "datetime_utc": "2004-10-01T19:48Z",
-      "source_file": "FWD_2004_01_1948.txt",
-      "similarity": 0.40420934557914734,
-      "label": "quiet",
+      "datetime_utc": "2007-11-12T08:51Z",
+      "source_file": "FWD_2007_12_0851.txt",
+      "similarity": 0.4236733913421631,
+      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-10-02T09:40Z",
       "source_file": "FWD_2004_02_0940.txt",
-      "similarity": 0.40420934557914734,
+      "similarity": 0.41485267877578735,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-11-12T08:51Z",
-      "source_file": "FWD_2007_12_0851.txt",
-      "similarity": 0.38450175523757935,
+      "datetime_utc": "2004-10-01T19:48Z",
+      "source_file": "FWD_2004_01_1948.txt",
+      "similarity": 0.41485267877578735,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-11-12T21:06Z",
+      "source_file": "FWD_2007_12_2106.txt",
+      "similarity": 0.414126455783844,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-12-20T21:08Z",
-      "source_file": "FWD_2017_20_2108.txt",
-      "similarity": 0.38191115856170654,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-09-19T08:41Z",
-      "source_file": "FWD_2014_19_0841.txt",
-      "similarity": 0.3793013393878937,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-01-22T19:56Z",
-      "source_file": "FWD_2005_22_1956.txt",
-      "similarity": 0.3762536644935608,
-      "label": "quiet",
+      "datetime_utc": "2007-11-12T10:17Z",
+      "source_file": "FWD_2007_12_1017.txt",
+      "similarity": 0.414126455783844,
+      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-01-29T22:02Z",
       "source_file": "FWD_2005_29_2202.txt",
-      "similarity": 0.3749973177909851,
+      "similarity": 0.4114014208316803,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-01-29T08:59Z",
       "source_file": "FWD_2005_29_0859.txt",
-      "similarity": 0.3749973177909851,
+      "similarity": 0.4114014208316803,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-11-12T10:17Z",
-      "source_file": "FWD_2007_12_1017.txt",
-      "similarity": 0.37491750717163086,
-      "label": "flood",
+      "datetime_utc": "2014-09-19T08:41Z",
+      "source_file": "FWD_2014_19_0841.txt",
+      "similarity": 0.4100426435470581,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-11-12T21:06Z",
-      "source_file": "FWD_2007_12_2106.txt",
-      "similarity": 0.37491750717163086,
-      "label": "flood",
+      "datetime_utc": "2007-03-03T09:54Z",
+      "source_file": "FWD_2007_03_0954.txt",
+      "similarity": 0.40999728441238403,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-03-02T20:31Z",
+      "source_file": "FWD_2007_02_2031.txt",
+      "similarity": 0.40999728441238403,
+      "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.3830216258764267,
-    "n_severe": 0,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.41344717144966125,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202609220145-KFWD-FXUS64-AFDFWD",
-    "afd_time": "2026-09-22T01:45:00Z",
-    "updated": "2026-09-22T05:05:09.180581+00:00"
+    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
+    "product_id": "202609220647-KFWD-FXUS64-AFDFWD",
+    "afd_time": "2026-09-22T06:47:00Z",
+    "updated": "2026-09-22T10:02:56.853052+00:00"
   }
 }

@@ -1,92 +1,91 @@
 {
   "office": "PHI",
-  "product_id": "202609212341-KPHI-FXUS61-AFDPHI",
-  "afd_time": "2026-09-21T23:41:00Z",
+  "product_id": "202609220850-KPHI-FXUS61-AFDPHI",
+  "afd_time": "2026-09-22T08:50:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-22T05:05:09.180581+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...A frontal boundary south of the region will keep \nrain chances around through mid-week, especially across southern \nportions of the area.\n\nThe cold front that crossed through our region Sunday night is \nstalling to our south, and remain there through Tuesday. It \ncontinues to look",
+  "updated": "2026-09-22T10:02:56.853052+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...Periods of rain showers will impact the area\nthrough much of the day, and lingering into tonight for Delmarva\nand far southern New Jersey.\n\nThe cold front that crossed through our region Sunday night has\nstalled well to our south across the Carolinas. Strengthening \ndiffluence alo",
   "analogs": [
     {
       "datetime_utc": "2012-10-25T20:24Z",
       "source_file": "PHI_2012_25_2024.txt",
-      "similarity": 0.8967610597610474,
+      "similarity": 0.7663124799728394,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-05-19T02:07Z",
       "source_file": "PHI_2018_19_0207.txt",
-      "similarity": 0.8115396499633789,
+      "similarity": 0.685199499130249,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-07-23T07:26Z",
       "source_file": "PHI_2017_23_0726.txt",
-      "similarity": 0.7503960132598877,
+      "similarity": 0.6088994741439819,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-05-25T18:17Z",
       "source_file": "PHI_2017_25_1817.txt",
-      "similarity": 0.7334903478622437,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-05-25T16:44Z",
-      "source_file": "PHI_2017_25_1644.txt",
-      "similarity": 0.7334903478622437,
+      "similarity": 0.5956469774246216,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-05-25T14:04Z",
       "source_file": "PHI_2017_25_1404.txt",
-      "similarity": 0.7334903478622437,
+      "similarity": 0.5956469774246216,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-02-18T08:44Z",
-      "source_file": "PHI_2006_18_0844.txt",
-      "similarity": 0.712562084197998,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-02-17T20:38Z",
-      "source_file": "PHI_2006_17_2038.txt",
-      "similarity": 0.712562084197998,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2017-05-25T16:44Z",
+      "source_file": "PHI_2017_25_1644.txt",
+      "similarity": 0.5956469774246216,
+      "label": "tornado",
+      "is_severe": true
     },
     {
       "datetime_utc": "2011-10-31T17:28Z",
       "source_file": "PHI_2011_31_1728.txt",
-      "similarity": 0.7021285891532898,
+      "similarity": 0.5910027027130127,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-10-31T07:22Z",
       "source_file": "PHI_2011_31_0722.txt",
-      "similarity": 0.700818657875061,
+      "similarity": 0.5896220207214355,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-10-31T12:57Z",
+      "source_file": "PHI_2011_31_1257.txt",
+      "similarity": 0.5896220207214355,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-02-17T20:38Z",
+      "source_file": "PHI_2006_17_2038.txt",
+      "similarity": 0.5791428089141846,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "LOW",
+    "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.7487239181995392,
-    "base_rate": 0.5448406070728342,
-    "signal_value": 0.05515939292716576,
+    "mean_similarity": 0.6196741938591004,
     "n_severe": 6,
     "n_total": 10,
-    "product_id": "202609212341-KPHI-FXUS61-AFDPHI",
-    "afd_time": "2026-09-21T23:41:00Z",
-    "updated": "2026-09-22T05:05:09.180581+00:00"
+    "reason": "top-10 mean similarity 0.62 below confidence floor 0.7",
+    "product_id": "202609220850-KPHI-FXUS61-AFDPHI",
+    "afd_time": "2026-09-22T08:50:00Z",
+    "updated": "2026-09-22T10:02:56.853052+00:00"
   }
 }

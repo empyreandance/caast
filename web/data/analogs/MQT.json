@@ -1,78 +1,78 @@
 {
   "office": "MQT",
-  "product_id": "202609212314-KMQT-FXUS63-AFDMQT",
-  "afd_time": "2026-09-21T23:14:00Z",
+  "product_id": "202609220740-KMQT-FXUS63-AFDMQT",
+  "afd_time": "2026-09-22T07:40:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-21T23:21:36.157057+00:00",
-  "query_preview": "..\nIssued at 156 PM EDT Mon Sep 21 2026\n\nAfternoon water vapor imagery reveals quite nicely a compact \nmidlevel low spinning over the Plains, centered near Sioux Falls, \nthough high pressure centered north of Lake Superior is helping to \nsuppress this well south of the UP. Closer to home, we remain ",
+  "updated": "2026-09-22T10:02:56.853052+00:00",
+  "query_preview": "..\nIssued at 340 AM EDT Tue Sep 22 2026\n\nAs of 06Z this morning, RAP surface analysis shows a high pressure \ncenter occupying the western portion of Quebec at 1030 mb, with \ntrailing 1027-28 mb over the UP. From GOES Nighttime Microphysics, \nthe more substantial cloud cover has moved south throughou",
   "analogs": [
+    {
+      "datetime_utc": "2021-09-14T15:13Z",
+      "source_file": "MQT_2021_14_1513.txt",
+      "similarity": 0.45549702644348145,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-09-14T09:02Z",
+      "source_file": "MQT_2021_14_0902.txt",
+      "similarity": 0.45549702644348145,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-09-14T11:55Z",
+      "source_file": "MQT_2021_14_1155.txt",
+      "similarity": 0.45549702644348145,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-09-14T08:22Z",
+      "source_file": "MQT_2021_14_0822.txt",
+      "similarity": 0.45549702644348145,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-09-14T17:47Z",
+      "source_file": "MQT_2021_14_1747.txt",
+      "similarity": 0.45549702644348145,
+      "label": "severe_wind",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2023-09-13T11:30Z",
       "source_file": "MQT_2023_13_1130.txt",
-      "similarity": 0.4447595477104187,
+      "similarity": 0.45492449402809143,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-09-13T07:06Z",
       "source_file": "MQT_2023_13_0706.txt",
-      "similarity": 0.4447595477104187,
+      "similarity": 0.45492449402809143,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2022-05-12T07:04Z",
-      "source_file": "MQT_2022_12_0704.txt",
-      "similarity": 0.4438851475715637,
-      "label": "severe_wind",
+      "datetime_utc": "2018-08-16T22:31Z",
+      "source_file": "MQT_2018_16_2231.txt",
+      "similarity": 0.44514256715774536,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2022-05-11T22:32Z",
-      "source_file": "MQT_2022_11_2232.txt",
-      "similarity": 0.4438851475715637,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-05-11T19:43Z",
-      "source_file": "MQT_2022_11_1943.txt",
-      "similarity": 0.4438851475715637,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-05-11T20:24Z",
-      "source_file": "MQT_2022_11_2024.txt",
-      "similarity": 0.4438851475715637,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-05-12T04:41Z",
-      "source_file": "MQT_2022_12_0441.txt",
-      "similarity": 0.4438851475715637,
-      "label": "severe_wind",
+      "datetime_utc": "2018-08-16T20:21Z",
+      "source_file": "MQT_2018_16_2021.txt",
+      "similarity": 0.44514256715774536,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-08-17T05:01Z",
       "source_file": "MQT_2018_17_0501.txt",
-      "similarity": 0.44246238470077515,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-08-16T22:31Z",
-      "source_file": "MQT_2018_16_2231.txt",
-      "similarity": 0.44246238470077515,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-08-16T19:40Z",
-      "source_file": "MQT_2018_16_1940.txt",
-      "similarity": 0.44246238470077515,
+      "similarity": 0.44514256715774536,
       "label": "severe_hail",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.44363319873809814,
+    "mean_similarity": 0.45227618217468263,
     "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609212314-KMQT-FXUS63-AFDMQT",
-    "afd_time": "2026-09-21T23:14:00Z",
-    "updated": "2026-09-21T23:21:36.157057+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202609220740-KMQT-FXUS63-AFDMQT",
+    "afd_time": "2026-09-22T07:40:00Z",
+    "updated": "2026-09-22T10:02:56.853052+00:00"
   }
 }
