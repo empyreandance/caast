@@ -1,9 +1,9 @@
 {
   "office": "JKL",
-  "product_id": "202609231007-KJKL-FXUS63-AFDJKL",
-  "afd_time": "2026-09-23T10:07:00Z",
+  "product_id": "202609231335-KJKL-FXUS63-AFDJKL",
+  "afd_time": "2026-09-23T13:35:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-23T11:45:20.614042+00:00",
+  "updated": "2026-09-23T17:09:05.147251+00:00",
   "query_preview": "..(Thursday night through Tuesday)\nIssued at 600 AM EDT WED SEP 23 2026\n\nThe long-term period opens Thursday evening with a closed ~579 dam\nlow near/over the Outer Banks, supporting a strong early autumn \nstorm system developing off the East Coast. Meanwhile, 500 hPa \nridging is in place across the ",
   "analogs": [
     {
@@ -16,13 +16,6 @@
     {
       "datetime_utc": "2011-07-17T12:01Z",
       "source_file": "JKL_2011_17_1201.txt",
-      "similarity": 0.3065783381462097,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-07-17T17:47Z",
-      "source_file": "JKL_2011_17_1747.txt",
       "similarity": 0.3065783381462097,
       "label": "severe_wind",
       "is_severe": true
@@ -42,25 +35,32 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-11-02T12:56Z",
-      "source_file": "JKL_2004_02_1256.txt",
-      "similarity": 0.3024059534072876,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2011-07-17T17:47Z",
+      "source_file": "JKL_2011_17_1747.txt",
+      "similarity": 0.3065783381462097,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2011-07-25T19:40Z",
-      "source_file": "JKL_2011_25_1940.txt",
-      "similarity": 0.2971215546131134,
-      "label": "flood",
+      "datetime_utc": "2004-11-02T12:56Z",
+      "source_file": "JKL_2004_02_1256.txt",
+      "similarity": 0.30240598320961,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2010-03-17T07:18Z",
       "source_file": "JKL_2010_17_0718.txt",
-      "similarity": 0.2971215546131134,
+      "similarity": 0.2971215844154358,
       "label": "severe_hail",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-07-25T19:40Z",
+      "source_file": "JKL_2011_25_1940.txt",
+      "similarity": 0.2971215844154358,
+      "label": "flood",
+      "is_severe": false
     },
     {
       "datetime_utc": "2005-07-16T08:56Z",
@@ -70,8 +70,8 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-07-15T18:45Z",
-      "source_file": "JKL_2005_15_1845.txt",
+      "datetime_utc": "2005-07-16T14:27Z",
+      "source_file": "JKL_2005_16_1427.txt",
       "similarity": 0.2942703366279602,
       "label": "severe_wind",
       "is_severe": true
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.30180814266204836,
+    "mean_similarity": 0.30180815160274505,
     "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.30 below confidence floor 0.7",
-    "product_id": "202609231007-KJKL-FXUS63-AFDJKL",
-    "afd_time": "2026-09-23T10:07:00Z",
-    "updated": "2026-09-23T11:45:20.614042+00:00"
+    "product_id": "202609231335-KJKL-FXUS63-AFDJKL",
+    "afd_time": "2026-09-23T13:35:00Z",
+    "updated": "2026-09-23T17:09:05.147251+00:00"
   }
 }
