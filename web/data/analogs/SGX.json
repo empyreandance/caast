@@ -1,91 +1,92 @@
 {
   "office": "SGX",
-  "product_id": "202609222021-KSGX-FXUS66-AFDSGX",
-  "afd_time": "2026-09-22T20:21:00Z",
+  "product_id": "202609230021-KSGX-FXUS66-AFDSGX",
+  "afd_time": "2026-09-23T00:21:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-22T22:15:05.127855+00:00",
-  "query_preview": "..FOR EXTREME SOUTHWESTERN CALIFORNIA INCLUDING ORANGE...\nSAN DIEGO...WESTERN RIVERSIDE AND SOUTHWESTERN SAN BERNARDINO\nCOUNTIES...\n\nSunnier skies are expected this afternoon with high temperatures \nrunning near to up to 7 degrees warmer than yesterday. The marine \nlayer is expected to get shallower",
+  "updated": "2026-09-23T00:42:33.954373+00:00",
+  "query_preview": "..FOR EXTREME SOUTHWESTERN CALIFORNIA INCLUDING ORANGE...\nSAN DIEGO...WESTERN RIVERSIDE AND SOUTHWESTERN SAN BERNARDINO\nCOUNTIES...\n\n\n...UPDATED AVIATION DISCUSSION for 00Z TAF ISSUANCE...\n\nSunnier skies are expected this afternoon with high temperatures \nrunning near to up to 7 degrees warmer than ",
   "analogs": [
     {
       "datetime_utc": "2013-02-05T17:30Z",
       "source_file": "SGX_2013_05_1730.txt",
-      "similarity": 0.7125992178916931,
+      "similarity": 0.7491283416748047,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2022-07-12T03:26Z",
-      "source_file": "SGX_2022_12_0326.txt",
-      "similarity": 0.6968750953674316,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-12-30T17:48Z",
-      "source_file": "SGX_2004_30_1748.txt",
-      "similarity": 0.6968157887458801,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-06-21T04:28Z",
-      "source_file": "SGX_2019_21_0428.txt",
-      "similarity": 0.6960740089416504,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-08-06T15:34Z",
-      "source_file": "SGX_2010_06_1534.txt",
-      "similarity": 0.6933179497718811,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-04-02T11:26Z",
-      "source_file": "SGX_2006_02_1126.txt",
-      "similarity": 0.6932468414306641,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-02-04T05:28Z",
-      "source_file": "SGX_2007_04_0528.txt",
-      "similarity": 0.690557599067688,
+      "datetime_utc": "2007-10-22T21:39Z",
+      "source_file": "SGX_2007_22_2139_1.txt",
+      "similarity": 0.7485220432281494,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-10-22T21:25Z",
       "source_file": "SGX_2007_22_2125.txt",
-      "similarity": 0.6904791593551636,
+      "similarity": 0.7485220432281494,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-10-22T21:39Z",
-      "source_file": "SGX_2007_22_2139_1.txt",
-      "similarity": 0.6904791593551636,
+      "datetime_utc": "2004-12-30T17:48Z",
+      "source_file": "SGX_2004_30_1748.txt",
+      "similarity": 0.7473409175872803,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-06-21T04:28Z",
+      "source_file": "SGX_2019_21_0428.txt",
+      "similarity": 0.744391918182373,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2025-04-20T20:25Z",
+      "source_file": "SGX_2025_20_2025_1.txt",
+      "similarity": 0.7433408498764038,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-07-12T03:26Z",
+      "source_file": "SGX_2022_12_0326.txt",
+      "similarity": 0.7429014444351196,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-04-02T11:26Z",
+      "source_file": "SGX_2006_02_1126.txt",
+      "similarity": 0.7418210506439209,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-08-06T15:34Z",
+      "source_file": "SGX_2010_06_1534.txt",
+      "similarity": 0.7401638627052307,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-02-14T21:41Z",
       "source_file": "SGX_2015_14_2141.txt",
-      "similarity": 0.6903322339057922,
+      "similarity": 0.7400311231613159,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.6950777053833008,
-    "n_severe": 2,
+    "level": "LOW",
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.7446163594722748,
+    "base_rate": 0.24531994822742054,
+    "signal_value": 0.05468005177257945,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.70 below confidence floor 0.7",
-    "product_id": "202609222021-KSGX-FXUS66-AFDSGX",
-    "afd_time": "2026-09-22T20:21:00Z",
-    "updated": "2026-09-22T22:15:05.127855+00:00"
+    "product_id": "202609230021-KSGX-FXUS66-AFDSGX",
+    "afd_time": "2026-09-23T00:21:00Z",
+    "updated": "2026-09-23T00:42:33.954373+00:00"
   }
 }
