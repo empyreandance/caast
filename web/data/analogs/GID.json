@@ -1,78 +1,78 @@
 {
   "office": "GID",
-  "product_id": "202609231210-KGID-FXUS63-AFDGID",
-  "afd_time": "2026-09-23T12:10:00Z",
+  "product_id": "202609231744-KGID-FXUS63-AFDGID",
+  "afd_time": "2026-09-23T17:44:00Z",
   "section_type": "extended",
-  "updated": "2026-09-23T17:09:05.147251+00:00",
+  "updated": "2026-09-23T20:28:31.948457+00:00",
   "query_preview": "period of on-and-off rainfall through early this \nweekend. There remains some uncertainty as to exactly when rain \nwill get going in our area, with most 12z CAMs suggesting later \nin the night to early Wednesday morning, while the 12z GFS and \nEuro try to start rain in the late evening hours. The be",
   "analogs": [
     {
       "datetime_utc": "2011-10-10T17:24Z",
       "source_file": "GID_2011_10_1724.txt",
-      "similarity": 0.5066709518432617,
+      "similarity": 0.5066708326339722,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-10-10T09:22Z",
       "source_file": "GID_2011_10_0922.txt",
-      "similarity": 0.5066709518432617,
+      "similarity": 0.5066708326339722,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-12-31T21:33Z",
-      "source_file": "GID_2011_31_2133.txt",
-      "similarity": 0.4851389527320862,
+      "datetime_utc": "2011-12-01T03:47Z",
+      "source_file": "GID_2012_01_0347.txt",
+      "similarity": 0.48513883352279663,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-12-01T00:01Z",
       "source_file": "GID_2012_01_0001.txt",
-      "similarity": 0.4851389527320862,
+      "similarity": 0.48513883352279663,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-12-01T03:47Z",
-      "source_file": "GID_2012_01_0347.txt",
-      "similarity": 0.4851389527320862,
+      "datetime_utc": "2011-12-31T21:33Z",
+      "source_file": "GID_2011_31_2133.txt",
+      "similarity": 0.48513883352279663,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2010-07-12T20:09Z",
       "source_file": "GID_2010_12_2009.txt",
-      "similarity": 0.482399046421051,
+      "similarity": 0.4823991060256958,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-07-12T23:27Z",
       "source_file": "GID_2010_12_2327.txt",
-      "similarity": 0.482399046421051,
+      "similarity": 0.4823991060256958,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-07-13T05:23Z",
       "source_file": "GID_2010_13_0523.txt",
-      "similarity": 0.482399046421051,
+      "similarity": 0.4823991060256958,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-04-25T12:36Z",
+      "source_file": "GID_2013_25_1236.txt",
+      "similarity": 0.4784247577190399,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2013-04-25T09:36Z",
       "source_file": "GID_2013_25_0936.txt",
-      "similarity": 0.4784248471260071,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-04-25T17:34Z",
-      "source_file": "GID_2013_25_1734.txt",
-      "similarity": 0.4784248471260071,
+      "similarity": 0.4784247577190399,
       "label": "severe_hail",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.48728055953979493,
+    "mean_similarity": 0.48728049993515016,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
-    "product_id": "202609231210-KGID-FXUS63-AFDGID",
-    "afd_time": "2026-09-23T12:10:00Z",
-    "updated": "2026-09-23T17:09:05.147251+00:00"
+    "product_id": "202609231744-KGID-FXUS63-AFDGID",
+    "afd_time": "2026-09-23T17:44:00Z",
+    "updated": "2026-09-23T20:28:31.948457+00:00"
   }
 }

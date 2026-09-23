@@ -1,0 +1,91 @@
+{
+  "office": "SJU",
+  "product_id": "202609231753-TJSJ-FXCA62-AFDSJU",
+  "afd_time": "2026-09-23T17:53:00Z",
+  "section_type": "long_term",
+  "updated": "2026-09-23T20:28:31.948457+00:00",
+  "query_preview": "...MRR/RVM \nMARINE, BEACH FORECAST & KEY MESSAGES...CVB",
+  "analogs": [
+    {
+      "datetime_utc": "2009-03-28T17:44Z",
+      "source_file": "SJU_2009_28_1744.txt",
+      "similarity": 0.4236757755279541,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-09-02T00:54Z",
+      "source_file": "SJU_2010_02_0054.txt",
+      "similarity": 0.38415640592575073,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-04-16T01:22Z",
+      "source_file": "SJU_2023_16_0122.txt",
+      "similarity": 0.3827942907810211,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-10-07T23:17Z",
+      "source_file": "SJU_2015_07_2317.txt",
+      "similarity": 0.36245468258857727,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-06-23T22:44Z",
+      "source_file": "SJU_2023_23_2244.txt",
+      "similarity": 0.3525383472442627,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-06-23T22:46Z",
+      "source_file": "SJU_2023_23_2246.txt",
+      "similarity": 0.3525383472442627,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-03-09T07:32Z",
+      "source_file": "SJU_2009_09_0732.txt",
+      "similarity": 0.3502933979034424,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-06-23T09:48Z",
+      "source_file": "SJU_2023_23_0948.txt",
+      "similarity": 0.3494822382926941,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-11-21T08:59Z",
+      "source_file": "SJU_2021_21_0859.txt",
+      "similarity": 0.3466723561286926,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-11-21T15:23Z",
+      "source_file": "SJU_2021_21_1523.txt",
+      "similarity": 0.3463023900985718,
+      "label": "flood",
+      "is_severe": false
+    }
+  ],
+  "signal": {
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.3650908231735229,
+    "n_severe": 2,
+    "n_total": 10,
+    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
+    "product_id": "202609231753-TJSJ-FXCA62-AFDSJU",
+    "afd_time": "2026-09-23T17:53:00Z",
+    "updated": "2026-09-23T20:28:31.948457+00:00"
+  }
+}
