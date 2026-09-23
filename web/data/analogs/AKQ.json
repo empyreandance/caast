@@ -1,91 +1,91 @@
 {
   "office": "AKQ",
-  "product_id": "202609230002-KAKQ-FXUS61-AFDAKQ",
-  "afd_time": "2026-09-23T00:02:00Z",
+  "product_id": "202609230521-KAKQ-FXUS61-AFDAKQ",
+  "afd_time": "2026-09-23T05:21:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-23T00:42:33.954373+00:00",
-  "query_preview": "..\nAs of 315 PM EDT Tuesday...\n\nKEY MESSAGE 1...Heavy rain continues across southeastern portions of \nthe area into this evening as a front lingers across the area.\nCooler, CAD conditions take hold for the remainder of the\nforecast area.\n\nThis afternoon, high pressure is situated over Ontario, Canad",
+  "updated": "2026-09-23T06:03:38.186898+00:00",
+  "query_preview": "..\nAs of 1000 PM EDT Tuesday...\n\nKEY MESSAGE 1...Cooler, CAD conditions take hold for the forecast area\novernight.\n\nRainfall rates continue to lighten up later this evening into \ntonight as a cooler wedge airmass continues to push into the \narea from the north, with mainly just rain and drizzle. \nTe",
   "analogs": [
+    {
+      "datetime_utc": "2017-01-26T08:56Z",
+      "source_file": "AKQ_2017_26_0856.txt",
+      "similarity": 0.4461487829685211,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-01-26T17:57Z",
+      "source_file": "AKQ_2017_26_1757.txt",
+      "similarity": 0.4461487829685211,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-01-26T11:47Z",
+      "source_file": "AKQ_2017_26_1147.txt",
+      "similarity": 0.4461487829685211,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-01-26T17:35Z",
+      "source_file": "AKQ_2017_26_1735.txt",
+      "similarity": 0.4461487829685211,
+      "label": "winter",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2016-06-25T01:49Z",
       "source_file": "AKQ_2016_25_0149.txt",
-      "similarity": 0.44048359990119934,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-06-25T05:59Z",
-      "source_file": "AKQ_2016_25_0559.txt",
-      "similarity": 0.44048359990119934,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-06-25T00:11Z",
-      "source_file": "AKQ_2016_25_0011.txt",
-      "similarity": 0.44048359990119934,
+      "similarity": 0.4446101188659668,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-06-24T20:27Z",
       "source_file": "AKQ_2016_24_2027.txt",
-      "similarity": 0.44048359990119934,
+      "similarity": 0.4446101188659668,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-05-27T07:37Z",
-      "source_file": "AKQ_2004_27_0737.txt",
-      "similarity": 0.4381744861602783,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2016-06-25T05:59Z",
+      "source_file": "AKQ_2016_25_0559.txt",
+      "similarity": 0.4446101188659668,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-06-25T00:11Z",
+      "source_file": "AKQ_2016_25_0011.txt",
+      "similarity": 0.4446101188659668,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2004-09-09T08:34Z",
       "source_file": "AKQ_2004_09_0834.txt",
-      "similarity": 0.4368961453437805,
+      "similarity": 0.44457483291625977,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-09-09T23:49Z",
-      "source_file": "AKQ_2010_09_2349.txt",
-      "similarity": 0.43661531805992126,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-09-10T18:35Z",
-      "source_file": "AKQ_2010_10_1835.txt",
-      "similarity": 0.43661531805992126,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-09-10T01:35Z",
-      "source_file": "AKQ_2010_10_0135.txt",
-      "similarity": 0.43661531805992126,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-09-10T08:12Z",
-      "source_file": "AKQ_2010_10_0812.txt",
-      "similarity": 0.43661531805992126,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2018-01-05T19:12Z",
+      "source_file": "AKQ_2018_05_1912.txt",
+      "similarity": 0.4444922208786011,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.4383466303348541,
-    "n_severe": 4,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.44521026611328124,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609230002-KAKQ-FXUS61-AFDAKQ",
-    "afd_time": "2026-09-23T00:02:00Z",
-    "updated": "2026-09-23T00:42:33.954373+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202609230521-KAKQ-FXUS61-AFDAKQ",
+    "afd_time": "2026-09-23T05:21:00Z",
+    "updated": "2026-09-23T06:03:38.186898+00:00"
   }
 }

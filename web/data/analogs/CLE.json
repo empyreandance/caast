@@ -1,63 +1,49 @@
 {
   "office": "CLE",
-  "product_id": "202609222353-KCLE-FXUS61-AFDCLE",
-  "afd_time": "2026-09-22T23:53:00Z",
+  "product_id": "202609230531-KCLE-FXUS61-AFDCLE",
+  "afd_time": "2026-09-23T05:31:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-23T00:42:33.954373+00:00",
+  "updated": "2026-09-23T06:03:38.186898+00:00",
   "query_preview": "..\nKEY MESSAGE 1... \nThe latest radar and satellite imagery reveal a large area of \ncloud cover and occasional light rain showers and/or drizzle \nextending from the Midwest to the Mid-Atlantic Coast, associated\nwith an elongated surface trough to the north of a stationary \nfront. Initially, periodic",
   "analogs": [
     {
-      "datetime_utc": "2018-08-31T11:12Z",
-      "source_file": "CLE_2018_31_1112.txt",
-      "similarity": 0.440673291683197,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-08-31T15:58Z",
-      "source_file": "CLE_2018_31_1558.txt",
-      "similarity": 0.440673291683197,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2018-08-31T13:10Z",
       "source_file": "CLE_2018_31_1310.txt",
-      "similarity": 0.440673291683197,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-08-31T17:51Z",
-      "source_file": "CLE_2018_31_1751.txt",
-      "similarity": 0.440673291683197,
+      "similarity": 0.44067323207855225,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-08-31T08:06Z",
       "source_file": "CLE_2018_31_0806.txt",
-      "similarity": 0.440673291683197,
+      "similarity": 0.44067323207855225,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-08-31T15:58Z",
+      "source_file": "CLE_2018_31_1558.txt",
+      "similarity": 0.44067323207855225,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-08-31T11:12Z",
+      "source_file": "CLE_2018_31_1112.txt",
+      "similarity": 0.44067323207855225,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-08-31T17:51Z",
+      "source_file": "CLE_2018_31_1751.txt",
+      "similarity": 0.44067323207855225,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-02-11T08:07Z",
       "source_file": "CLE_2009_11_0807.txt",
-      "similarity": 0.434692919254303,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-02-11T16:07Z",
-      "source_file": "CLE_2009_11_1607.txt",
-      "similarity": 0.434692919254303,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-02-11T11:34Z",
-      "source_file": "CLE_2009_11_1134.txt",
       "similarity": 0.434692919254303,
       "label": "severe_wind",
       "is_severe": true
@@ -70,9 +56,23 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2025-11-02T05:31Z",
-      "source_file": "CLE_2025_02_0531.txt",
-      "similarity": 0.43147993087768555,
+      "datetime_utc": "2009-02-11T11:34Z",
+      "source_file": "CLE_2009_11_1134.txt",
+      "similarity": 0.434692919254303,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-02-11T16:07Z",
+      "source_file": "CLE_2009_11_1607.txt",
+      "similarity": 0.434692919254303,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-11-01T23:58Z",
+      "source_file": "CLE_2025_01_2358.txt",
+      "similarity": 0.43147990107536316,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 1.0,
-    "mean_similarity": 0.43736180663108826,
+    "mean_similarity": 0.43736177384853364,
     "n_severe": 10,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609222353-KCLE-FXUS61-AFDCLE",
-    "afd_time": "2026-09-22T23:53:00Z",
-    "updated": "2026-09-23T00:42:33.954373+00:00"
+    "product_id": "202609230531-KCLE-FXUS61-AFDCLE",
+    "afd_time": "2026-09-23T05:31:00Z",
+    "updated": "2026-09-23T06:03:38.186898+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "SLC",
-  "product_id": "202609221829-KSLC-FXUS65-AFDSLC",
-  "afd_time": "2026-09-22T18:29:00Z",
+  "product_id": "202609230411-KSLC-FXUS65-AFDSLC",
+  "afd_time": "2026-09-23T04:11:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-22T18:59:10.505983+00:00",
-  "query_preview": "..This morning's stratiform rain has pushed out of\nnorthern Utah and clearing skies are starting to erode the stable\nairmass that was left in place after this morning's rain.\nConvection is ongoing across portions of southeastern Utah where\nshear is maximized. 30-50 kt shear will gradually overspread",
+  "updated": "2026-09-23T06:03:38.186898+00:00",
+  "query_preview": "..A shortwave trough which brought several rounds of\nshowers and thunderstorms across northern Utah today is quickly\nlifting north through the northern Rockies. A few lingering\nshowers persist across far northern Utah in proximity to the\ntrailing trough axis, however a cooler and more stable airmass",
   "analogs": [
     {
-      "datetime_utc": "2004-07-18T03:20Z",
-      "source_file": "SLC_2004_18_0320.txt",
-      "similarity": 0.46145933866500854,
+      "datetime_utc": "2019-03-08T12:11Z",
+      "source_file": "SLC_2019_08_1211.txt",
+      "similarity": 0.4656093418598175,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-07-10T10:14Z",
+      "source_file": "SLC_2024_10_1014.txt",
+      "similarity": 0.4611899256706238,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-06-21T15:32Z",
+      "source_file": "SLC_2010_21_1532.txt",
+      "similarity": 0.45853689312934875,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-05-22T02:35Z",
+      "source_file": "SLC_2005_22_0235.txt",
+      "similarity": 0.4547806978225708,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-11-01T09:11Z",
       "source_file": "SLC_2019_01_0911.txt",
-      "similarity": 0.4495425224304199,
+      "similarity": 0.45157915353775024,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2024-07-10T10:14Z",
-      "source_file": "SLC_2024_10_1014.txt",
-      "similarity": 0.4435938596725464,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2019-06-19T10:08Z",
-      "source_file": "SLC_2019_19_1008.txt",
-      "similarity": 0.4397144913673401,
+      "datetime_utc": "2004-03-18T04:30Z",
+      "source_file": "SLC_2004_18_0430.txt",
+      "similarity": 0.45089489221572876,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-07-09T03:32Z",
-      "source_file": "SLC_2017_09_0332.txt",
-      "similarity": 0.439170241355896,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2019-04-09T12:45Z",
+      "source_file": "SLC_2019_09_1245.txt",
+      "similarity": 0.4483051300048828,
+      "label": "winter",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2019-03-08T12:11Z",
-      "source_file": "SLC_2019_08_1211.txt",
-      "similarity": 0.43784207105636597,
+      "datetime_utc": "2019-04-09T15:56Z",
+      "source_file": "SLC_2019_09_1556.txt",
+      "similarity": 0.4483051300048828,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-10-06T04:12Z",
       "source_file": "SLC_2007_06_0412.txt",
-      "similarity": 0.43700483441352844,
+      "similarity": 0.44658175110816956,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2021-08-18T03:22Z",
-      "source_file": "SLC_2021_18_0322.txt",
-      "similarity": 0.43309885263442993,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-08-17T21:26Z",
-      "source_file": "SLC_2021_17_2126.txt",
-      "similarity": 0.43309885263442993,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-08-17T21:19Z",
-      "source_file": "SLC_2021_17_2119.txt",
-      "similarity": 0.43309885263442993,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2019-06-19T10:08Z",
+      "source_file": "SLC_2019_19_1008.txt",
+      "similarity": 0.4438133239746094,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.4407623916864395,
-    "n_severe": 5,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.45295962393283845,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609221829-KSLC-FXUS65-AFDSLC",
-    "afd_time": "2026-09-22T18:29:00Z",
-    "updated": "2026-09-22T18:59:10.505983+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202609230411-KSLC-FXUS65-AFDSLC",
+    "afd_time": "2026-09-23T04:11:00Z",
+    "updated": "2026-09-23T06:03:38.186898+00:00"
   }
 }
