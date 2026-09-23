@@ -1,59 +1,52 @@
 {
   "office": "IWX",
-  "product_id": "202609231811-KIWX-FXUS63-AFDIWX",
-  "afd_time": "2026-09-23T18:11:00Z",
+  "product_id": "202609232240-KIWX-FXUS63-AFDIWX",
+  "afd_time": "2026-09-23T22:40:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-23T20:28:31.948457+00:00",
+  "updated": "2026-09-23T23:46:33.058046+00:00",
   "query_preview": "..\nIssued at 205 PM EDT Wed Sep 23 2026\n\nA stagnant rex block pattern continues across the Great Lakes and \nOhio Valley today. Water vapor imagery early this afternoon indicates\ntwo distinct short waves progressing through this pattern with the\nfirst dropping southeast across far southern Indiana/we",
   "analogs": [
     {
       "datetime_utc": "2012-03-11T17:27Z",
       "source_file": "IWX_2012_11_1727.txt",
-      "similarity": 0.4267386198043823,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-03-11T09:18Z",
-      "source_file": "IWX_2012_11_0918.txt",
-      "similarity": 0.4267386198043823,
+      "similarity": 0.4267386496067047,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-03-11T11:50Z",
       "source_file": "IWX_2012_11_1150.txt",
-      "similarity": 0.4267386198043823,
+      "similarity": 0.4267386496067047,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-03-11T09:18Z",
+      "source_file": "IWX_2012_11_0918.txt",
+      "similarity": 0.4267386496067047,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-09-07T19:58Z",
       "source_file": "IWX_2018_07_1958_1.txt",
-      "similarity": 0.42653101682662964,
+      "similarity": 0.4265310764312744,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2018-09-08T04:53Z",
       "source_file": "IWX_2018_08_0453.txt",
-      "similarity": 0.42653101682662964,
+      "similarity": 0.4265310764312744,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2018-09-07T23:02Z",
       "source_file": "IWX_2018_07_2302.txt",
-      "similarity": 0.42653101682662964,
+      "similarity": 0.4265310764312744,
       "label": "flood",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-02-28T09:57Z",
-      "source_file": "IWX_2007_28_0957.txt",
-      "similarity": 0.4237014055252075,
-      "label": "severe_hail",
-      "is_severe": true
     },
     {
       "datetime_utc": "2007-02-28T17:34Z",
@@ -70,9 +63,16 @@
       "is_severe": true
     },
     {
+      "datetime_utc": "2007-02-28T09:57Z",
+      "source_file": "IWX_2007_28_0957.txt",
+      "similarity": 0.4237014055252075,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2007-02-05T20:58Z",
       "source_file": "IWX_2007_05_2058.txt",
-      "similarity": 0.4232708811759949,
+      "similarity": 0.42327094078063965,
       "label": "winter",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.42541840076446535,
+    "mean_similarity": 0.42541843354701997,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202609231811-KIWX-FXUS63-AFDIWX",
-    "afd_time": "2026-09-23T18:11:00Z",
-    "updated": "2026-09-23T20:28:31.948457+00:00"
+    "product_id": "202609232240-KIWX-FXUS63-AFDIWX",
+    "afd_time": "2026-09-23T22:40:00Z",
+    "updated": "2026-09-23T23:46:33.058046+00:00"
   }
 }

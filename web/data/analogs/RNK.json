@@ -1,37 +1,44 @@
 {
   "office": "RNK",
-  "product_id": "202609231812-KRNK-FXUS61-AFDRNK",
-  "afd_time": "2026-09-23T18:12:00Z",
+  "product_id": "202609232248-KRNK-FXUS61-AFDRNK",
+  "afd_time": "2026-09-23T22:48:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-23T20:28:31.948457+00:00",
+  "updated": "2026-09-23T23:46:33.058046+00:00",
   "query_preview": "..\nKEY MESSAGE 1: Rain showers, drizzle, and cooler temperatures will \ncontinue into Thursday. Drier and more seasonable temperatures \nreturn for the weekend and persist into next week.\n\nCool wedging pattern continues into Thursday, featuring areas of\nlight rain, drizzle, and patchy fog. Cool, below",
   "analogs": [
     {
-      "datetime_utc": "2004-08-19T06:04Z",
-      "source_file": "RNK_2004_19_0604.txt",
-      "similarity": 0.4037840664386749,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2004-08-19T14:04Z",
       "source_file": "RNK_2004_19_1404.txt",
-      "similarity": 0.4037840664386749,
+      "similarity": 0.4037841856479645,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-08-19T11:00Z",
       "source_file": "RNK_2004_19_1100.txt",
-      "similarity": 0.4037840664386749,
+      "similarity": 0.4037841856479645,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-08-19T06:04Z",
+      "source_file": "RNK_2004_19_0604.txt",
+      "similarity": 0.4037841856479645,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-04-11T18:47Z",
       "source_file": "RNK_2004_11_1847.txt",
-      "similarity": 0.3943997621536255,
+      "similarity": 0.39439982175827026,
       "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-05-06T00:02Z",
+      "source_file": "RNK_2013_06_0002.txt",
+      "similarity": 0.3831356167793274,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
@@ -49,30 +56,23 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2013-05-06T00:02Z",
-      "source_file": "RNK_2013_06_0002.txt",
-      "similarity": 0.3831356167793274,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2005-12-21T07:47Z",
       "source_file": "RNK_2005_21_0747.txt",
-      "similarity": 0.38073664903640747,
+      "similarity": 0.38073667883872986,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-12-21T16:21Z",
       "source_file": "RNK_2005_21_1621.txt",
-      "similarity": 0.38073664903640747,
+      "similarity": 0.38073667883872986,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-11-21T11:00Z",
       "source_file": "RNK_2005_21_1100.txt",
-      "similarity": 0.3794366121292114,
+      "similarity": 0.3794366717338562,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.3896068722009659,
+    "mean_similarity": 0.38960692584514617,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202609231812-KRNK-FXUS61-AFDRNK",
-    "afd_time": "2026-09-23T18:12:00Z",
-    "updated": "2026-09-23T20:28:31.948457+00:00"
+    "product_id": "202609232248-KRNK-FXUS61-AFDRNK",
+    "afd_time": "2026-09-23T22:48:00Z",
+    "updated": "2026-09-23T23:46:33.058046+00:00"
   }
 }
