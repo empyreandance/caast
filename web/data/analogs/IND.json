@@ -1,91 +1,91 @@
 {
   "office": "IND",
-  "product_id": "202609241247-KIND-FXUS63-AFDIND",
-  "afd_time": "2026-09-24T12:47:00Z",
+  "product_id": "202609241749-KIND-FXUS63-AFDIND",
+  "afd_time": "2026-09-24T17:49:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-24T15:13:08.313514+00:00",
-  "query_preview": "(Today through Wednesday)...\nIssued at 253 AM EDT Thu Sep 24 2026\n\nSurface high pressure, centered over southeastern Canada, has been \nin place for the past few days. An upper-level low passed overhead \nyesterday, allowing for the surface wind field to gain cyclonic \ncurvature. This has lead to weak",
+  "updated": "2026-09-24T19:15:05.931922+00:00",
+  "query_preview": "(This evening through Thursday)...\nIssued at 149 PM EDT Thu Sep 24 2026\n\nREST OF TODAY AND TONIGHT\n\nThe overall synoptic setup remains similar \nover the area with a surface high over SE Canada and an upper low \njust to the SE. Cold, moist advection along the cold conveyor belt \nalong with modest sub",
   "analogs": [
     {
       "datetime_utc": "2007-06-26T07:20Z",
       "source_file": "IND_2007_26_0720_1.txt",
-      "similarity": 0.39819586277008057,
+      "similarity": 0.4345957636833191,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-06-26T10:23Z",
       "source_file": "IND_2007_26_1023.txt",
-      "similarity": 0.39819586277008057,
+      "similarity": 0.4345957636833191,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-05-24T19:42Z",
-      "source_file": "IND_2006_24_1942.txt",
-      "similarity": 0.3964079022407532,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-05-25T05:16Z",
-      "source_file": "IND_2006_25_0516_1.txt",
-      "similarity": 0.3964079022407532,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-11-27T23:30Z",
-      "source_file": "IND_2021_27_2330.txt",
-      "similarity": 0.3943004310131073,
+      "datetime_utc": "2019-07-21T03:39Z",
+      "source_file": "IND_2019_21_0339_1.txt",
+      "similarity": 0.42981329560279846,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-01-02T02:14Z",
-      "source_file": "IND_2010_02_0214_1.txt",
-      "similarity": 0.3925487995147705,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-01-02T04:30Z",
-      "source_file": "IND_2010_02_0430_1.txt",
-      "similarity": 0.3925487995147705,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-09-03T17:00Z",
-      "source_file": "IND_2005_03_1700.txt",
-      "similarity": 0.3886341452598572,
+      "datetime_utc": "2019-07-21T06:35Z",
+      "source_file": "IND_2019_21_0635.txt",
+      "similarity": 0.42981329560279846,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-01-13T15:38Z",
-      "source_file": "IND_2010_13_1538.txt",
-      "similarity": 0.3874624967575073,
-      "label": "winter",
+      "datetime_utc": "2019-07-20T19:10Z",
+      "source_file": "IND_2019_20_1910.txt",
+      "similarity": 0.42981329560279846,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-07-20T22:43Z",
+      "source_file": "IND_2019_20_2243.txt",
+      "similarity": 0.42981329560279846,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-07-21T02:23Z",
+      "source_file": "IND_2019_21_0223.txt",
+      "similarity": 0.42981329560279846,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-01-13T16:30Z",
-      "source_file": "IND_2010_13_1630.txt",
-      "similarity": 0.3874624967575073,
-      "label": "winter",
+      "datetime_utc": "2019-07-21T01:37Z",
+      "source_file": "IND_2019_21_0137.txt",
+      "similarity": 0.42981329560279846,
+      "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-07-20T20:22Z",
+      "source_file": "IND_2019_20_2022.txt",
+      "similarity": 0.42981329560279846,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-07-20T20:51Z",
+      "source_file": "IND_2019_20_2051.txt",
+      "similarity": 0.42981329560279846,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.3932164698839188,
-    "n_severe": 4,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.4307697892189026,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202609241247-KIND-FXUS63-AFDIND",
-    "afd_time": "2026-09-24T12:47:00Z",
-    "updated": "2026-09-24T15:13:08.313514+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202609241749-KIND-FXUS63-AFDIND",
+    "afd_time": "2026-09-24T17:49:00Z",
+    "updated": "2026-09-24T19:15:05.931922+00:00"
   }
 }
