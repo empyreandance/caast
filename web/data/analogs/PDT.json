@@ -1,91 +1,91 @@
 {
   "office": "PDT",
-  "product_id": "202609232241-KPDT-FXUS66-AFDPDT",
-  "afd_time": "2026-09-23T22:41:00Z",
+  "product_id": "202609240957-KPDT-FXUS66-AFDPDT",
+  "afd_time": "2026-09-24T09:57:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-23T23:46:33.058046+00:00",
-  "query_preview": "..\nCurrent satellite shows mostly cirrus clouds moving over the region. \nDry conditions will persist today with temperatures in the upper 60s \nto low 70s and light diurnally driven winds. \n\nCAMs models show weak ridging remaining over the region through the \nday today. This will keep the region unde",
+  "updated": "2026-09-24T10:06:47.406520+00:00",
+  "query_preview": "..Nighttime satellite imagery tonight shows\nscattered decks of cirrus moving across the forecast area, while\nsurface observations show quiet conditions.\n\nToday through Sunday: Mostly quiet conditions with near to \nabove normal temperatures will prevail again today as the PacNW \nsits underneath a sou",
   "analogs": [
+    {
+      "datetime_utc": "2024-05-23T15:58Z",
+      "source_file": "PDT_2024_23_1558.txt",
+      "similarity": 0.461045503616333,
+      "label": "severe_wind",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2024-05-23T17:25Z",
       "source_file": "PDT_2024_23_1725.txt",
-      "similarity": 0.4657728672027588,
+      "similarity": 0.461045503616333,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-05-23T09:34Z",
       "source_file": "PDT_2024_23_0934.txt",
-      "similarity": 0.4657728672027588,
+      "similarity": 0.461045503616333,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-05-23T15:58Z",
-      "source_file": "PDT_2024_23_1558.txt",
-      "similarity": 0.4657728672027588,
-      "label": "severe_wind",
+      "datetime_utc": "2011-08-29T21:50Z",
+      "source_file": "PDT_2011_29_2150.txt",
+      "similarity": 0.45109760761260986,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-08-30T03:34Z",
+      "source_file": "PDT_2011_30_0334.txt",
+      "similarity": 0.45109760761260986,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-08-15T09:48Z",
+      "source_file": "PDT_2004_15_0948.txt",
+      "similarity": 0.4483221173286438,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-03-21T21:49Z",
+      "source_file": "PDT_2017_21_2149.txt",
+      "similarity": 0.44714808464050293,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-03-21T16:10Z",
+      "source_file": "PDT_2017_21_1610.txt",
+      "similarity": 0.44714808464050293,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-08-19T09:30Z",
       "source_file": "PDT_2006_19_0930.txt",
-      "similarity": 0.46082860231399536,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-08-19T09:29Z",
-      "source_file": "PDT_2006_19_0929.txt",
-      "similarity": 0.46082860231399536,
+      "similarity": 0.4469577670097351,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-08-19T16:20Z",
       "source_file": "PDT_2006_19_1620.txt",
-      "similarity": 0.46082860231399536,
+      "similarity": 0.4469577670097351,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-07-10T09:36Z",
-      "source_file": "PDT_2020_10_0936.txt",
-      "similarity": 0.4580867290496826,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-07-10T17:32Z",
-      "source_file": "PDT_2020_10_1732.txt",
-      "similarity": 0.4580867290496826,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-07-10T16:42Z",
-      "source_file": "PDT_2020_10_1642.txt",
-      "similarity": 0.4580867290496826,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-08-29T21:50Z",
-      "source_file": "PDT_2011_29_2150.txt",
-      "similarity": 0.45707130432128906,
-      "label": "quiet",
-      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.4611135900020599,
-    "n_severe": 6,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.45218655467033386,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202609232241-KPDT-FXUS66-AFDPDT",
-    "afd_time": "2026-09-23T22:41:00Z",
-    "updated": "2026-09-23T23:46:33.058046+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202609240957-KPDT-FXUS66-AFDPDT",
+    "afd_time": "2026-09-24T09:57:00Z",
+    "updated": "2026-09-24T10:06:47.406520+00:00"
   }
 }

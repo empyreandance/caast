@@ -1,92 +1,92 @@
 {
   "office": "ILM",
-  "product_id": "202609232300-KILM-FXUS62-AFDILM",
-  "afd_time": "2026-09-23T23:00:00Z",
+  "product_id": "202609240621-KILM-FXUS62-AFDILM",
+  "afd_time": "2026-09-24T06:21:00Z",
   "section_type": "extended",
-  "updated": "2026-09-23T23:46:33.058046+00:00",
-  "query_preview": "Outlook...Moderate chance late Thursday through early \nFriday of MVFR Conditions. Mainly VFR expected thereafter as low\npressure pushes farther away from the area.",
+  "updated": "2026-09-24T10:06:47.406520+00:00",
+  "query_preview": "Outlook...After lingering low clouds clear the coast\naround 06z Friday, VFR conditions should continue for the next \nseveral days.",
   "analogs": [
     {
-      "datetime_utc": "2020-05-15T07:35Z",
-      "source_file": "ILM_2020_15_0735.txt",
-      "similarity": 0.9881831407546997,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2023-04-04T01:44Z",
+      "source_file": "ILM_2023_04_0144.txt",
+      "similarity": 0.9634519815444946,
+      "label": "flood",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2020-05-15T11:25Z",
-      "source_file": "ILM_2020_15_1125.txt",
-      "similarity": 0.9881831407546997,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2023-04-03T23:39Z",
+      "source_file": "ILM_2023_03_2339.txt",
+      "similarity": 0.9634519815444946,
+      "label": "flood",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2020-05-15T05:37Z",
-      "source_file": "ILM_2020_15_0537.txt",
-      "similarity": 0.9881831407546997,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2023-04-04T05:17Z",
+      "source_file": "ILM_2023_04_0517.txt",
+      "similarity": 0.9634519815444946,
+      "label": "flood",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2020-05-15T14:15Z",
-      "source_file": "ILM_2020_15_1415.txt",
-      "similarity": 0.9881831407546997,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-06-08T16:41Z",
-      "source_file": "ILM_2021_08_1641.txt",
-      "similarity": 0.9835659265518188,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-06-08T19:37Z",
-      "source_file": "ILM_2021_08_1937.txt",
-      "similarity": 0.9835659265518188,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-07-14T19:11Z",
-      "source_file": "ILM_2018_14_1911.txt",
-      "similarity": 0.9809138774871826,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-07-14T21:55Z",
-      "source_file": "ILM_2018_14_2155.txt",
-      "similarity": 0.9809138774871826,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2023-04-03T19:08Z",
+      "source_file": "ILM_2023_03_1908.txt",
+      "similarity": 0.9634519815444946,
+      "label": "flood",
+      "is_severe": false
     },
     {
       "datetime_utc": "2018-07-15T00:35Z",
       "source_file": "ILM_2018_15_0035.txt",
-      "similarity": 0.9809138774871826,
+      "similarity": 0.9633588194847107,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-07-14T17:28Z",
       "source_file": "ILM_2018_14_1728.txt",
-      "similarity": 0.9809138774871826,
+      "similarity": 0.9633588194847107,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-07-14T19:11Z",
+      "source_file": "ILM_2018_14_1911.txt",
+      "similarity": 0.9633588194847107,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-07-14T21:55Z",
+      "source_file": "ILM_2018_14_2155.txt",
+      "similarity": 0.9633588194847107,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-01-31T21:18Z",
+      "source_file": "ILM_2006_31_2118.txt",
+      "similarity": 0.9547503590583801,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-08-15T00:05Z",
+      "source_file": "ILM_2022_15_0005.txt",
+      "similarity": 0.9508039951324463,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "HIGH",
-    "severe_fraction": 1.0,
-    "mean_similarity": 0.9843519926071167,
+    "level": "LOW",
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.9612797558307647,
     "base_rate": 0.6020755588042934,
-    "signal_value": 0.3979244411957066,
-    "n_severe": 10,
+    "signal_value": -0.0020755588042934425,
+    "n_severe": 6,
     "n_total": 10,
-    "product_id": "202609232300-KILM-FXUS62-AFDILM",
-    "afd_time": "2026-09-23T23:00:00Z",
-    "updated": "2026-09-23T23:46:33.058046+00:00"
+    "product_id": "202609240621-KILM-FXUS62-AFDILM",
+    "afd_time": "2026-09-24T06:21:00Z",
+    "updated": "2026-09-24T10:06:47.406520+00:00"
   }
 }

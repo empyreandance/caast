@@ -1,91 +1,91 @@
 {
   "office": "VEF",
-  "product_id": "202609232140-KVEF-FXUS65-AFDVEF",
-  "afd_time": "2026-09-23T21:40:00Z",
+  "product_id": "202609240658-KVEF-FXUS65-AFDVEF",
+  "afd_time": "2026-09-24T06:58:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-23T23:46:33.058046+00:00",
-  "query_preview": "..\n\nThe cooldown we experienced yesterday was short-lived, with a  \nwarming trend underway that will allow for temperatures this \nafternoon to top out pretty close to normal for late September.\nThis warming trend continues through the end of the week as \nthicknesses increase over the region, with hi",
+  "updated": "2026-09-24T10:06:47.406520+00:00",
+  "query_preview": "..Today through Mid Next Week.\n\nSubtle ridging aloft the next few days will support a warming trend \nthrough Saturday for the Lower Great Basin and Mojave Desert. Low \nlevel temperatures anomalies slowly increase each day supporting \ntemperatures about 3-6 degrees above normal for this time of year.",
   "analogs": [
+    {
+      "datetime_utc": "2008-09-23T10:00Z",
+      "source_file": "VEF_2008_23_1000.txt",
+      "similarity": 0.4620282053947449,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-09-23T15:38Z",
+      "source_file": "VEF_2008_23_1538.txt",
+      "similarity": 0.4620282053947449,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-01-17T22:27Z",
+      "source_file": "VEF_2005_17_2227.txt",
+      "similarity": 0.45784029364585876,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2007-02-25T22:53Z",
       "source_file": "VEF_2007_25_2253.txt",
-      "similarity": 0.48126259446144104,
+      "similarity": 0.45722776651382446,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-02-26T05:03Z",
       "source_file": "VEF_2007_26_0503.txt",
-      "similarity": 0.48126259446144104,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-09-23T15:38Z",
-      "source_file": "VEF_2008_23_1538.txt",
-      "similarity": 0.4768507778644562,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-09-23T10:00Z",
-      "source_file": "VEF_2008_23_1000.txt",
-      "similarity": 0.4768507778644562,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-01-01T23:09Z",
-      "source_file": "VEF_2009_01_2309.txt",
-      "similarity": 0.4742890000343323,
+      "similarity": 0.45722776651382446,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-01-02T05:23Z",
       "source_file": "VEF_2009_02_0523.txt",
-      "similarity": 0.4742890000343323,
+      "similarity": 0.45380908250808716,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-06-16T04:20Z",
-      "source_file": "VEF_2005_16_0420.txt",
-      "similarity": 0.47183623909950256,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-01-17T22:27Z",
-      "source_file": "VEF_2005_17_2227.txt",
-      "similarity": 0.47177809476852417,
-      "label": "quiet",
+      "datetime_utc": "2009-01-01T23:09Z",
+      "source_file": "VEF_2009_01_2309.txt",
+      "similarity": 0.45380908250808716,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-06-30T09:00Z",
       "source_file": "VEF_2004_30_0900.txt",
-      "similarity": 0.4669705033302307,
+      "similarity": 0.451643168926239,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2024-07-16T03:19Z",
       "source_file": "VEF_2024_16_0319.txt",
-      "similarity": 0.4632736146450043,
+      "similarity": 0.44779765605926514,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-01-28T17:42Z",
+      "source_file": "VEF_2010_28_1742.txt",
+      "similarity": 0.4461371898651123,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.47386631965637205,
-    "n_severe": 2,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.45495484173297884,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202609232140-KVEF-FXUS65-AFDVEF",
-    "afd_time": "2026-09-23T21:40:00Z",
-    "updated": "2026-09-23T23:46:33.058046+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202609240658-KVEF-FXUS65-AFDVEF",
+    "afd_time": "2026-09-24T06:58:00Z",
+    "updated": "2026-09-24T10:06:47.406520+00:00"
   }
 }
