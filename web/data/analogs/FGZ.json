@@ -1,91 +1,91 @@
 {
   "office": "FGZ",
-  "product_id": "202609241653-KFGZ-FXUS65-AFDFGZ",
-  "afd_time": "2026-09-24T16:53:00Z",
+  "product_id": "202609242127-KFGZ-FXUS65-AFDFGZ",
+  "afd_time": "2026-09-24T21:27:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-24T19:15:05.931922+00:00",
-  "query_preview": "..At 230 AM, there are a few showers and thunderstorms\nover central Yavapai County from around Prescott to Crown King,\notherwise dry conditions are being observed. There is a distinct\narea of low pressure over northern Mexico this morning, and this\nfeature will drift northward into southern Arizona ",
+  "updated": "2026-09-24T22:32:07.090036+00:00",
+  "query_preview": "..At 230 PM, there are scattered thunderstorms mostly over\nYavapai County. An area of low pressure over northern Mexico is\ndrifting northward into southern Arizona. With well above average\nmoisture remaining over our area, we expect another round of \nscattered showers and thunderstorms tonight, with",
   "analogs": [
     {
       "datetime_utc": "2013-09-24T14:58Z",
       "source_file": "FGZ_2013_24_1458.txt",
-      "similarity": 0.48181360960006714,
+      "similarity": 0.4787857234477997,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-09-08T22:42Z",
       "source_file": "FGZ_2017_08_2242.txt",
-      "similarity": 0.47224193811416626,
+      "similarity": 0.465689480304718,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-09-12T03:10Z",
+      "source_file": "FGZ_2016_12_0310.txt",
+      "similarity": 0.4497414231300354,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-03-20T22:18Z",
       "source_file": "FGZ_2009_20_2218.txt",
-      "similarity": 0.4554237425327301,
+      "similarity": 0.44857102632522583,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2024-03-17T09:28Z",
       "source_file": "FGZ_2024_17_0928.txt",
-      "similarity": 0.45420682430267334,
+      "similarity": 0.4483758807182312,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-03-17T11:47Z",
       "source_file": "FGZ_2024_17_1147.txt",
-      "similarity": 0.45420682430267334,
+      "similarity": 0.4483758807182312,
       "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-09-12T03:10Z",
-      "source_file": "FGZ_2016_12_0310.txt",
-      "similarity": 0.4539298415184021,
-      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-10-05T03:59Z",
       "source_file": "FGZ_2014_05_0359.txt",
-      "similarity": 0.44383102655410767,
+      "similarity": 0.44266998767852783,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-10-04T22:30Z",
       "source_file": "FGZ_2014_04_2230.txt",
-      "similarity": 0.44383102655410767,
+      "similarity": 0.44266998767852783,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2025-10-19T04:45Z",
-      "source_file": "FGZ_2025_19_0445.txt",
-      "similarity": 0.44337770342826843,
-      "label": "flood",
-      "is_severe": false
+      "datetime_utc": "2012-12-11T16:59Z",
+      "source_file": "FGZ_2012_11_1659.txt",
+      "similarity": 0.4422230124473572,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2025-10-18T22:55Z",
-      "source_file": "FGZ_2025_18_2255.txt",
-      "similarity": 0.44337770342826843,
-      "label": "flood",
+      "datetime_utc": "2013-04-15T01:25Z",
+      "source_file": "FGZ_2013_15_0125.txt",
+      "similarity": 0.4388704299926758,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.45462402403354646,
-    "n_severe": 6,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.450597283244133,
+    "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609241653-KFGZ-FXUS65-AFDFGZ",
-    "afd_time": "2026-09-24T16:53:00Z",
-    "updated": "2026-09-24T19:15:05.931922+00:00"
+    "product_id": "202609242127-KFGZ-FXUS65-AFDFGZ",
+    "afd_time": "2026-09-24T21:27:00Z",
+    "updated": "2026-09-24T22:32:07.090036+00:00"
   }
 }
