@@ -1,18 +1,11 @@
 {
   "office": "ABR",
-  "product_id": "202609241921-KABR-FXUS63-AFDABR",
-  "afd_time": "2026-09-24T19:21:00Z",
+  "product_id": "202609242347-KABR-FXUS63-AFDABR-AAA",
+  "afd_time": "2026-09-24T23:47:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-24T22:32:07.090036+00:00",
+  "updated": "2026-09-25T01:36:06.789967+00:00",
   "query_preview": "..\nIssued at 218 PM CDT Thu Sep 24 2026\n\nTonight, moisture from departing rain showers and light winds will \ncreate a prime environment for fog development. While confidence is \nhighest along the North Dakota/South Dakota border, nearly the \nentire forecast area is expected to see some sort of visib",
   "analogs": [
-    {
-      "datetime_utc": "2021-10-29T09:23Z",
-      "source_file": "ABR_2021_29_0923.txt",
-      "similarity": 0.5112625360488892,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2021-10-29T20:31Z",
       "source_file": "ABR_2021_29_2031.txt",
@@ -21,51 +14,58 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-10-15T20:04Z",
-      "source_file": "ABR_2012_15_2004.txt",
-      "similarity": 0.5109142661094666,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2021-10-29T09:23Z",
+      "source_file": "ABR_2021_29_0923.txt",
+      "similarity": 0.5112625360488892,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2012-10-16T01:27Z",
       "source_file": "ABR_2012_16_0127.txt",
-      "similarity": 0.5109142661094666,
+      "similarity": 0.510914146900177,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-10-15T20:04Z",
+      "source_file": "ABR_2012_15_2004.txt",
+      "similarity": 0.510914146900177,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-10-16T09:16Z",
       "source_file": "ABR_2012_16_0916.txt",
-      "similarity": 0.5109142661094666,
+      "similarity": 0.510914146900177,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-02-04T21:45Z",
       "source_file": "ABR_2004_04_2145.txt",
-      "similarity": 0.507095217704773,
+      "similarity": 0.5070950984954834,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-03-08T16:10Z",
       "source_file": "ABR_2007_08_1610.txt",
-      "similarity": 0.5067651867866516,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-11-09T01:32Z",
-      "source_file": "ABR_2009_09_0132.txt",
-      "similarity": 0.5064098834991455,
+      "similarity": 0.5067650675773621,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-11-08T20:30Z",
       "source_file": "ABR_2009_08_2030.txt",
-      "similarity": 0.5064098834991455,
+      "similarity": 0.5064097046852112,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-11-09T01:32Z",
+      "source_file": "ABR_2009_09_0132.txt",
+      "similarity": 0.5064097046852112,
       "label": "quiet",
       "is_severe": false
     },
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.5087676882743836,
+    "mean_similarity": 0.508767592906952,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
-    "product_id": "202609241921-KABR-FXUS63-AFDABR",
-    "afd_time": "2026-09-24T19:21:00Z",
-    "updated": "2026-09-24T22:32:07.090036+00:00"
+    "product_id": "202609242347-KABR-FXUS63-AFDABR-AAA",
+    "afd_time": "2026-09-24T23:47:00Z",
+    "updated": "2026-09-25T01:36:06.789967+00:00"
   }
 }

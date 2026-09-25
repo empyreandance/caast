@@ -1,11 +1,18 @@
 {
   "office": "DLH",
-  "product_id": "202609241950-KDLH-FXUS63-AFDDLH",
-  "afd_time": "2026-09-24T19:50:00Z",
+  "product_id": "202609242335-KDLH-FXUS63-AFDDLH",
+  "afd_time": "2026-09-24T23:35:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-24T22:32:07.090036+00:00",
+  "updated": "2026-09-25T01:36:06.789967+00:00",
   "query_preview": "..\nIssued at 250 PM CDT Thu Sep 24 2026\n\nLATE AFTERNOON AND TONIGHT:\n\nA broad area of isentropic lift stretched from southwest to \nnortheast Minnesota early this afternoon along and ahead of a \nshortwave trough which stretched from far northwest Ontario into\nsouthern Minnesota. A lobe of 500 mb vort",
   "analogs": [
+    {
+      "datetime_utc": "2023-01-26T11:42Z",
+      "source_file": "DLH_2023_26_1142.txt",
+      "similarity": 0.4960418939590454,
+      "label": "winter",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2023-01-26T17:49Z",
       "source_file": "DLH_2023_26_1749.txt",
@@ -16,13 +23,6 @@
     {
       "datetime_utc": "2023-01-26T10:11Z",
       "source_file": "DLH_2023_26_1011.txt",
-      "similarity": 0.4960418939590454,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-26T11:42Z",
-      "source_file": "DLH_2023_26_1142.txt",
       "similarity": 0.4960418939590454,
       "label": "winter",
       "is_severe": false
@@ -44,14 +44,14 @@
     {
       "datetime_utc": "2015-09-11T20:00Z",
       "source_file": "DLH_2015_11_2000.txt",
-      "similarity": 0.4865342676639557,
+      "similarity": 0.4865342378616333,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2015-09-12T05:59Z",
       "source_file": "DLH_2015_12_0559.txt",
-      "similarity": 0.4865342676639557,
+      "similarity": 0.4865342378616333,
       "label": "severe_hail",
       "is_severe": true
     },
@@ -72,7 +72,7 @@
     {
       "datetime_utc": "2015-01-07T09:46Z",
       "source_file": "DLH_2015_07_0946.txt",
-      "similarity": 0.4823799729347229,
+      "similarity": 0.4823800027370453,
       "label": "winter",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.489297616481781,
+    "mean_similarity": 0.48929761350154877,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
-    "product_id": "202609241950-KDLH-FXUS63-AFDDLH",
-    "afd_time": "2026-09-24T19:50:00Z",
-    "updated": "2026-09-24T22:32:07.090036+00:00"
+    "product_id": "202609242335-KDLH-FXUS63-AFDDLH",
+    "afd_time": "2026-09-24T23:35:00Z",
+    "updated": "2026-09-25T01:36:06.789967+00:00"
   }
 }
