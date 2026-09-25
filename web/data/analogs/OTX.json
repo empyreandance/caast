@@ -1,91 +1,91 @@
 {
   "office": "OTX",
-  "product_id": "202609251813-KOTX-FXUS66-AFDOTX",
-  "afd_time": "2026-09-25T18:13:00Z",
+  "product_id": "202609252159-KOTX-FXUS66-AFDOTX",
+  "afd_time": "2026-09-25T21:59:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-25T18:42:38.847631+00:00",
-  "query_preview": "..\n     WINDY CONDITIONS TODAY...\n\nToday and tonight: A low pressure system and cold front coming \nashore over western Washington and Oregon this morning will \nsweep through the Pacific Northwest and bring rains, high \nmountain snow, a small chance of thunderstorms and windy \nconditions. This low lo",
+  "updated": "2026-09-25T22:26:03.957063+00:00",
+  "query_preview": "..\nTonight: Winds and convection will start to ease stating late \nevening and overnight. Winds will remain breezy through the \nnight with gusts still peaking into the low 30 mph range across \nthe Basin. The colder air mass will lead to a drop in overnight \ntemperatures. Lows will be in the 30s to lo",
   "analogs": [
     {
-      "datetime_utc": "2006-08-11T09:04Z",
-      "source_file": "OTX_2006_11_0904.txt",
-      "similarity": 0.2872265577316284,
+      "datetime_utc": "2009-04-10T18:02Z",
+      "source_file": "OTX_2009_10_1802.txt",
+      "similarity": 0.4372519850730896,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-05-11T20:31Z",
-      "source_file": "OTX_2006_11_2031.txt",
-      "similarity": 0.28194698691368103,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-07-22T21:40Z",
-      "source_file": "OTX_2008_22_2140.txt",
-      "similarity": 0.2803654968738556,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-07-15T17:59Z",
-      "source_file": "OTX_2010_15_1759.txt",
-      "similarity": 0.2787775993347168,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-11-14T17:04Z",
-      "source_file": "OTX_2012_14_1704.txt",
-      "similarity": 0.27154549956321716,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-07-19T04:35Z",
-      "source_file": "OTX_2005_19_0435.txt",
-      "similarity": 0.2710675597190857,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-12-27T17:49Z",
-      "source_file": "OTX_2004_27_1749.txt",
-      "similarity": 0.2703434228897095,
-      "label": "quiet",
+      "datetime_utc": "2004-12-05T17:47Z",
+      "source_file": "OTX_2004_05_1747.txt",
+      "similarity": 0.4297112226486206,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-07-20T15:50Z",
       "source_file": "OTX_2005_20_1550.txt",
-      "similarity": 0.26912254095077515,
+      "similarity": 0.4241812825202942,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-07-20T17:29Z",
       "source_file": "OTX_2005_20_1729.txt",
-      "similarity": 0.26912254095077515,
+      "similarity": 0.4241812825202942,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-04-10T18:02Z",
-      "source_file": "OTX_2009_10_1802.txt",
-      "similarity": 0.2683323621749878,
+      "datetime_utc": "2005-07-22T20:44Z",
+      "source_file": "OTX_2005_22_2044.txt",
+      "similarity": 0.4107711911201477,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-08-01T09:19Z",
+      "source_file": "OTX_2004_01_0919.txt",
+      "similarity": 0.40943676233291626,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-12-27T17:49Z",
+      "source_file": "OTX_2004_27_1749.txt",
+      "similarity": 0.40141403675079346,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-09-30T04:42Z",
+      "source_file": "OTX_2024_30_0442.txt",
+      "similarity": 0.40060415863990784,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-08-11T09:04Z",
+      "source_file": "OTX_2006_11_0904.txt",
+      "similarity": 0.39624491333961487,
       "label": "severe_hail",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-10-13T05:35Z",
+      "source_file": "OTX_2014_13_0535.txt",
+      "similarity": 0.39435118436813354,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.2747850567102432,
-    "n_severe": 4,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.4128148019313812,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.27 below confidence floor 0.7",
-    "product_id": "202609251813-KOTX-FXUS66-AFDOTX",
-    "afd_time": "2026-09-25T18:13:00Z",
-    "updated": "2026-09-25T18:42:38.847631+00:00"
+    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
+    "product_id": "202609252159-KOTX-FXUS66-AFDOTX",
+    "afd_time": "2026-09-25T21:59:00Z",
+    "updated": "2026-09-25T22:26:03.957063+00:00"
   }
 }

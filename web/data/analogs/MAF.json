@@ -1,91 +1,91 @@
 {
   "office": "MAF",
-  "product_id": "202609251753-KMAF-FXUS64-AFDMAF",
-  "afd_time": "2026-09-25T17:53:00Z",
+  "product_id": "202609252133-KMAF-FXUS64-AFDMAF",
+  "afd_time": "2026-09-25T21:33:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-25T18:42:38.847631+00:00",
-  "query_preview": "..\n(Saturday night through Thursday)\nIssued at 332 AM CDT Fri Sep 25 2026\n\nWeak upper-level ridging over the region will allow warmer and drier \nconditions to continue on Sunday. High temperatures are expected to \nrange from the upper 80s to mid 90s for most locations. A low chance \n(10-20%) of isol",
+  "updated": "2026-09-25T22:26:03.957063+00:00",
+  "query_preview": "..\n(Sunday through Thursday)\nIssued at 244 PM CDT Fri Sep 25 2026\n\nUpper ridging continues to build back over west Texas and SE NM \nSunday, ahead of another storm system. Highs Sunday and Monday look \nto reach the 80s (western counties) to 90s. Monday, our next storm \nsystem begins to approach our a",
   "analogs": [
     {
       "datetime_utc": "2010-11-11T15:56Z",
       "source_file": "MAF_2010_11_1556.txt",
-      "similarity": 0.4810243844985962,
+      "similarity": 0.48934829235076904,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-02-06T19:04Z",
+      "source_file": "MAF_2005_06_1904.txt",
+      "similarity": 0.4887735843658447,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-09-12T19:35Z",
       "source_file": "MAF_2009_12_1935.txt",
-      "similarity": 0.47929099202156067,
+      "similarity": 0.48776912689208984,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-07-19T02:50Z",
-      "source_file": "MAF_2013_19_0250.txt",
-      "similarity": 0.4766089618206024,
+      "datetime_utc": "2017-01-28T09:17Z",
+      "source_file": "MAF_2017_28_0917.txt",
+      "similarity": 0.48630085587501526,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-04-10T00:22Z",
-      "source_file": "MAF_2013_10_0022.txt",
-      "similarity": 0.47594383358955383,
-      "label": "tornado",
-      "is_severe": true
     },
     {
       "datetime_utc": "2013-04-10T05:34Z",
       "source_file": "MAF_2013_10_0534.txt",
-      "similarity": 0.47594383358955383,
+      "similarity": 0.48534584045410156,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2013-04-09T19:45Z",
       "source_file": "MAF_2013_09_1945.txt",
-      "similarity": 0.47594383358955383,
+      "similarity": 0.48534584045410156,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-04-10T00:22Z",
+      "source_file": "MAF_2013_10_0022.txt",
+      "similarity": 0.48534584045410156,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2013-04-09T23:22Z",
       "source_file": "MAF_2013_09_2322.txt",
-      "similarity": 0.47594383358955383,
+      "similarity": 0.48534584045410156,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-02-06T19:04Z",
-      "source_file": "MAF_2005_06_1904.txt",
-      "similarity": 0.47529351711273193,
-      "label": "quiet",
+      "datetime_utc": "2013-12-20T22:52Z",
+      "source_file": "MAF_2013_20_2252.txt",
+      "similarity": 0.48376038670539856,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-06-09T19:45Z",
       "source_file": "MAF_2017_09_1945.txt",
-      "similarity": 0.4734014868736267,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-06-09T23:40Z",
-      "source_file": "MAF_2017_09_2340.txt",
-      "similarity": 0.4734014868736267,
+      "similarity": 0.48229488730430603,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.476279616355896,
-    "n_severe": 6,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.48596304953098296,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202609251753-KMAF-FXUS64-AFDMAF",
-    "afd_time": "2026-09-25T17:53:00Z",
-    "updated": "2026-09-25T18:42:38.847631+00:00"
+    "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
+    "product_id": "202609252133-KMAF-FXUS64-AFDMAF",
+    "afd_time": "2026-09-25T21:33:00Z",
+    "updated": "2026-09-25T22:26:03.957063+00:00"
   }
 }
