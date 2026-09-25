@@ -1,9 +1,9 @@
 {
   "office": "ILM",
-  "product_id": "202609251208-KILM-FXUS62-AFDILM",
-  "afd_time": "2026-09-25T12:08:00Z",
+  "product_id": "202609251802-KILM-FXUS62-AFDILM-AAC",
+  "afd_time": "2026-09-25T18:02:00Z",
   "section_type": "extended",
-  "updated": "2026-09-25T13:53:33.532775+00:00",
+  "updated": "2026-09-25T18:42:38.847631+00:00",
   "query_preview": "Outlook...VFR conditions should prevail through early next \nweek. There is a low chance of morning ground fog Tuesday as shallow \nAtlantic moisture returns onshore.",
   "analogs": [
     {
@@ -16,6 +16,13 @@
     {
       "datetime_utc": "2020-05-15T07:35Z",
       "source_file": "ILM_2020_15_0735.txt",
+      "similarity": 0.9757737517356873,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-05-15T14:15Z",
+      "source_file": "ILM_2020_15_1415.txt",
       "similarity": 0.9757737517356873,
       "label": "tornado",
       "is_severe": true
@@ -35,44 +42,37 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-05-15T14:15Z",
-      "source_file": "ILM_2020_15_1415.txt",
-      "similarity": 0.9757737517356873,
-      "label": "tornado",
+      "datetime_utc": "2021-03-18T08:31Z",
+      "source_file": "ILM_2021_18_0831.txt",
+      "similarity": 0.9733572602272034,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-03-18T14:14Z",
       "source_file": "ILM_2021_18_1414.txt",
-      "similarity": 0.9733573198318481,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-03-18T16:47Z",
-      "source_file": "ILM_2021_18_1647.txt",
-      "similarity": 0.9733573198318481,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-03-18T08:31Z",
-      "source_file": "ILM_2021_18_0831.txt",
-      "similarity": 0.9733573198318481,
+      "similarity": 0.9733572602272034,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-03-18T16:33Z",
       "source_file": "ILM_2021_18_1633.txt",
-      "similarity": 0.9733573198318481,
+      "similarity": 0.9733572602272034,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-03-18T16:47Z",
+      "source_file": "ILM_2021_18_1647.txt",
+      "similarity": 0.9733572602272034,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-06-30T00:48Z",
       "source_file": "ILM_2024_30_0048.txt",
-      "similarity": 0.97216796875,
+      "similarity": 0.9721680283546448,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,13 +80,13 @@
   "signal": {
     "level": "LOW",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.9753218293190002,
+    "mean_similarity": 0.9753218114376068,
     "base_rate": 0.6020755588042934,
     "signal_value": 0.2979244411957066,
     "n_severe": 9,
     "n_total": 10,
-    "product_id": "202609251208-KILM-FXUS62-AFDILM",
-    "afd_time": "2026-09-25T12:08:00Z",
-    "updated": "2026-09-25T13:53:33.532775+00:00"
+    "product_id": "202609251802-KILM-FXUS62-AFDILM-AAC",
+    "afd_time": "2026-09-25T18:02:00Z",
+    "updated": "2026-09-25T18:42:38.847631+00:00"
   }
 }

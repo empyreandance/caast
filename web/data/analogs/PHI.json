@@ -1,9 +1,9 @@
 {
   "office": "PHI",
-  "product_id": "202609251144-KPHI-FXUS61-AFDPHI",
-  "afd_time": "2026-09-25T11:44:00Z",
+  "product_id": "202609251713-KPHI-FXUS61-AFDPHI",
+  "afd_time": "2026-09-25T17:13:00Z",
   "section_type": "extended",
-  "updated": "2026-09-25T13:53:33.532775+00:00",
+  "updated": "2026-09-25T18:42:38.847631+00:00",
   "query_preview": "through 2 AM Sunday for Kent and Sussex, DE. Tide \nlevels are high enough though on the New Jersey side of the Bay \nto result in minor tidal flooding, even with the wind pushing \nwater away from the NJ Delaware Bay coastline. Confidence is \nhigh enough to warrant an extension to the Coastal Flood \nA",
   "analogs": [
     {
@@ -12,6 +12,27 @@
       "similarity": 0.9947075843811035,
       "label": "flood",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-04-03T20:25Z",
+      "source_file": "PHI_2016_03_2025.txt",
+      "similarity": 0.9933929443359375,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-04-03T22:34Z",
+      "source_file": "PHI_2016_03_2234.txt",
+      "similarity": 0.9933929443359375,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-04-03T22:19Z",
+      "source_file": "PHI_2016_03_2219.txt",
+      "similarity": 0.9933929443359375,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2016-04-04T01:24Z",
@@ -35,37 +56,16 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2016-04-03T22:19Z",
-      "source_file": "PHI_2016_03_2219.txt",
-      "similarity": 0.9933929443359375,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-04-03T22:34Z",
-      "source_file": "PHI_2016_03_2234.txt",
-      "similarity": 0.9933929443359375,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-04-03T20:25Z",
-      "source_file": "PHI_2016_03_2025.txt",
-      "similarity": 0.9933929443359375,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-11-12T01:01Z",
-      "source_file": "PHI_2009_12_0101.txt",
-      "similarity": 0.9930319786071777,
+      "datetime_utc": "2009-11-11T20:02Z",
+      "source_file": "PHI_2009_11_2002.txt",
+      "similarity": 0.9930318593978882,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-11-11T20:02Z",
-      "source_file": "PHI_2009_11_2002.txt",
-      "similarity": 0.9930319786071777,
+      "datetime_utc": "2009-11-12T01:01Z",
+      "source_file": "PHI_2009_12_0101.txt",
+      "similarity": 0.9930318593978882,
       "label": "flood",
       "is_severe": false
     },
@@ -80,13 +80,13 @@
   "signal": {
     "level": "LOW",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.9934114158153534,
+    "mean_similarity": 0.9934113919734955,
     "base_rate": 0.5448406070728342,
     "signal_value": 0.05515939292716576,
     "n_severe": 6,
     "n_total": 10,
-    "product_id": "202609251144-KPHI-FXUS61-AFDPHI",
-    "afd_time": "2026-09-25T11:44:00Z",
-    "updated": "2026-09-25T13:53:33.532775+00:00"
+    "product_id": "202609251713-KPHI-FXUS61-AFDPHI",
+    "afd_time": "2026-09-25T17:13:00Z",
+    "updated": "2026-09-25T18:42:38.847631+00:00"
   }
 }
