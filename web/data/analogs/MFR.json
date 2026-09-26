@@ -1,78 +1,78 @@
 {
   "office": "MFR",
-  "product_id": "202609261848-KMFR-FXUS66-AFDMFR",
-  "afd_time": "2026-09-26T18:48:00Z",
+  "product_id": "202609262100-KMFR-FXUS66-AFDMFR",
+  "afd_time": "2026-09-26T21:00:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-26T19:57:37.837445+00:00",
-  "query_preview": "..Satellite imagery is showing some lower clouds in\nthe inland valleys of Coos and Douglas counties this morning.\nThese should burn off mid-late morning. Other than some high \nclouds at times, short wave upper ridging will bring dry weather \narea wide today with afternoon temperatures a few degrees ",
+  "updated": "2026-09-26T22:57:03.438272+00:00",
+  "query_preview": "..\n\nHigh clouds are moving through the region this afternoon under\nthis upper level zonal flow. We're also watching a thermal trough\nover Oregon this afternoon denoted by the inverted 850 mb heights\nand light east flow around 850mb. This isn't a very strong \nthermal trough, but one is located right ",
   "analogs": [
+    {
+      "datetime_utc": "2005-04-13T21:36Z",
+      "source_file": "MFR_2005_13_2136.txt",
+      "similarity": 0.47535431385040283,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2011-08-15T03:40Z",
       "source_file": "MFR_2011_15_0340.txt",
-      "similarity": 0.4706176221370697,
+      "similarity": 0.4701356887817383,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-08-18T03:50Z",
-      "source_file": "MFR_2009_18_0350.txt",
-      "similarity": 0.4704515337944031,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-02-29T22:02Z",
-      "source_file": "MFR_2008_29_2202.txt",
-      "similarity": 0.4702266454696655,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-02-01T04:39Z",
-      "source_file": "MFR_2008_01_0439.txt",
-      "similarity": 0.4702266454696655,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-04-13T21:36Z",
-      "source_file": "MFR_2005_13_2136.txt",
-      "similarity": 0.4627268612384796,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-08-26T04:03Z",
-      "source_file": "MFR_2015_26_0403.txt",
-      "similarity": 0.45971715450286865,
+      "datetime_utc": "2007-06-19T09:34Z",
+      "source_file": "MFR_2007_19_0934.txt",
+      "similarity": 0.45778119564056396,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-06-19T15:36Z",
       "source_file": "MFR_2007_19_1536_1.txt",
-      "similarity": 0.455043226480484,
+      "similarity": 0.45778119564056396,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-06-19T09:34Z",
-      "source_file": "MFR_2007_19_0934.txt",
-      "similarity": 0.455043226480484,
+      "datetime_utc": "2005-11-13T10:51Z",
+      "source_file": "MFR_2005_13_1051.txt",
+      "similarity": 0.4521276652812958,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-07-12T16:06Z",
-      "source_file": "MFR_2007_12_1606.txt",
-      "similarity": 0.45161521434783936,
+      "datetime_utc": "2009-10-27T03:53Z",
+      "source_file": "MFR_2009_27_0353_1.txt",
+      "similarity": 0.45206379890441895,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-10-27T03:53Z",
+      "source_file": "MFR_2009_27_0353.txt",
+      "similarity": 0.45206379890441895,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-08-26T04:03Z",
+      "source_file": "MFR_2015_26_0403.txt",
+      "similarity": 0.45200270414352417,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-07-30T03:51Z",
+      "source_file": "MFR_2005_30_0351.txt",
+      "similarity": 0.45009177923202515,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-07-12T09:57Z",
-      "source_file": "MFR_2007_12_0957.txt",
-      "similarity": 0.45161521434783936,
+      "datetime_utc": "2005-07-29T21:29Z",
+      "source_file": "MFR_2005_29_2129.txt",
+      "similarity": 0.45009177923202515,
       "label": "severe_hail",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.4617283344268799,
+    "mean_similarity": 0.45694939196109774,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202609261848-KMFR-FXUS66-AFDMFR",
-    "afd_time": "2026-09-26T18:48:00Z",
-    "updated": "2026-09-26T19:57:37.837445+00:00"
+    "product_id": "202609262100-KMFR-FXUS66-AFDMFR",
+    "afd_time": "2026-09-26T21:00:00Z",
+    "updated": "2026-09-26T22:57:03.438272+00:00"
   }
 }

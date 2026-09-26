@@ -1,91 +1,91 @@
 {
   "office": "TWC",
-  "product_id": "202609261524-KTWC-FXUS65-AFDTWC",
-  "afd_time": "2026-09-26T15:24:00Z",
+  "product_id": "202609262100-KTWC-FXUS65-AFDTWC",
+  "afd_time": "2026-09-26T21:00:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-26T17:15:15.202403+00:00",
-  "query_preview": "..The latest satellite imagery shows mostly clear skies \nacross southeast Arizona, with just some high level cirrus clouds \nattm. Blended total precipitable water imagery indicates PWATS have \nlowered into the 0.35 to 0.50 range across the eastern half of the \nforecast area, with values in the 0.50 ",
+  "updated": "2026-09-26T22:57:03.438272+00:00",
+  "query_preview": "..Very little change versus 24 hours ago. The large \nscale pattern has a storm system moving across the northern tier of \nstates and high pressure aloft centered over northern Mexico and the \nwestern Gulf. A trough starts to dig south along the Pacific Coast \non Sunday, as Hurricane Polo moves north",
   "analogs": [
     {
-      "datetime_utc": "2022-05-22T09:37Z",
-      "source_file": "TWC_2022_22_0937.txt",
-      "similarity": 0.4659423828125,
+      "datetime_utc": "2022-09-23T18:09Z",
+      "source_file": "TWC_2022_23_1809.txt",
+      "similarity": 0.4899047911167145,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-11-06T16:10Z",
+      "source_file": "TWC_2007_06_1610.txt",
+      "similarity": 0.4833943545818329,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-05-09T04:26Z",
-      "source_file": "TWC_2016_09_0426.txt",
-      "similarity": 0.4647040069103241,
+      "datetime_utc": "2022-05-22T09:37Z",
+      "source_file": "TWC_2022_22_0937.txt",
+      "similarity": 0.47671496868133545,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-01-31T03:25Z",
+      "source_file": "TWC_2017_31_0325.txt",
+      "similarity": 0.47167325019836426,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-08-08T03:46Z",
+      "source_file": "TWC_2011_08_0346.txt",
+      "similarity": 0.47041556239128113,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-12-27T20:30Z",
+      "source_file": "TWC_2013_27_2030.txt",
+      "similarity": 0.46905791759490967,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-06-11T16:25Z",
+      "source_file": "TWC_2008_11_1625.txt",
+      "similarity": 0.4657973647117615,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-04-29T11:17Z",
+      "source_file": "TWC_2012_29_1117.txt",
+      "similarity": 0.4642826020717621,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-11-30T03:57Z",
       "source_file": "TWC_2015_30_0357.txt",
-      "similarity": 0.4612828493118286,
+      "similarity": 0.46264204382896423,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-02-17T04:15Z",
-      "source_file": "TWC_2014_17_0415.txt",
-      "similarity": 0.46091318130493164,
+      "datetime_utc": "2010-02-12T09:40Z",
+      "source_file": "TWC_2010_12_0940.txt",
+      "similarity": 0.4590040147304535,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-01-07T04:16Z",
-      "source_file": "TWC_2013_07_0416.txt",
-      "similarity": 0.4560657739639282,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-05-03T04:30Z",
-      "source_file": "TWC_2013_03_0430.txt",
-      "similarity": 0.4528011083602905,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-05-03T04:43Z",
-      "source_file": "TWC_2011_03_0443.txt",
-      "similarity": 0.4522324800491333,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-06-11T03:45Z",
-      "source_file": "TWC_2008_11_0345.txt",
-      "similarity": 0.45186540484428406,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-12-01T20:55Z",
-      "source_file": "TWC_2009_01_2055.txt",
-      "similarity": 0.4503896236419678,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-12-02T04:25Z",
-      "source_file": "TWC_2009_02_0425.txt",
-      "similarity": 0.4503896236419678,
-      "label": "severe_wind",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.4566586434841156,
+    "mean_similarity": 0.4712886869907379,
     "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202609261524-KTWC-FXUS65-AFDTWC",
-    "afd_time": "2026-09-26T15:24:00Z",
-    "updated": "2026-09-26T17:15:15.202403+00:00"
+    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
+    "product_id": "202609262100-KTWC-FXUS65-AFDTWC",
+    "afd_time": "2026-09-26T21:00:00Z",
+    "updated": "2026-09-26T22:57:03.438272+00:00"
   }
 }
