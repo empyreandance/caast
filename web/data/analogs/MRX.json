@@ -1,91 +1,91 @@
 {
   "office": "MRX",
-  "product_id": "202609252327-KMRX-FXUS64-AFDMRX",
-  "afd_time": "2026-09-25T23:27:00Z",
+  "product_id": "202609260533-KMRX-FXUS64-AFDMRX",
+  "afd_time": "2026-09-26T05:33:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-26T01:38:48.786820+00:00",
-  "query_preview": "..\nIssued at 213 PM EDT Fri Sep 25 2026\n\nPleasant fall-like temperatures have been a welcome change to the \nheat of the previous weeks. For the next few days, we will maintain \na northerly flow through the column due to the strong low pressure \nsystem off the Mid-Atlantic/New England coastline and a",
+  "updated": "2026-09-26T07:48:00.130274+00:00",
+  "query_preview": "..\nIssued at 129 AM EDT Sat Sep 26 2026\n\nIn the upper levels, a ridge is over the Mississippi Valley and a \nclosed low is just off the coast of the Mid-Atlantic. At the \nsurface, high pressure is centered over the Great Lakes extending \nsouthward to the Gulf Coast. A Nor'easter is just off the coast",
   "analogs": [
-    {
-      "datetime_utc": "2011-10-26T19:22Z",
-      "source_file": "MRX_2011_26_1922.txt",
-      "similarity": 0.3625117838382721,
-      "label": "winter",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2004-06-02T22:34Z",
       "source_file": "MRX_2004_02_2234.txt",
-      "similarity": 0.3617655038833618,
+      "similarity": 0.34871286153793335,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-08-12T15:27Z",
+      "source_file": "MRX_2007_12_1527.txt",
+      "similarity": 0.33831655979156494,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-08-12T08:10Z",
+      "source_file": "MRX_2007_12_0810.txt",
+      "similarity": 0.33831655979156494,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-01-13T20:56Z",
+      "source_file": "MRX_2006_13_2056.txt",
+      "similarity": 0.3339495360851288,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-02-05T17:51Z",
       "source_file": "MRX_2010_05_1751.txt",
-      "similarity": 0.3522842228412628,
+      "similarity": 0.3331780433654785,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-04-10T07:01Z",
-      "source_file": "MRX_2006_10_0701.txt",
-      "similarity": 0.34906578063964844,
+      "datetime_utc": "2016-05-21T14:03Z",
+      "source_file": "MRX_2016_21_1403.txt",
+      "similarity": 0.32959508895874023,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-10-26T19:22Z",
+      "source_file": "MRX_2011_26_1922.txt",
+      "similarity": 0.32869386672973633,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-07-29T19:11Z",
+      "source_file": "MRX_2008_29_1911.txt",
+      "similarity": 0.3277897834777832,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-05-01T11:03Z",
+      "source_file": "MRX_2011_01_1103.txt",
+      "similarity": 0.3273791968822479,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-11-07T15:20Z",
       "source_file": "MRX_2008_07_1520.txt",
-      "similarity": 0.3485603332519531,
+      "similarity": 0.32721424102783203,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-05-16T13:54Z",
-      "source_file": "MRX_2007_16_1354.txt",
-      "similarity": 0.3482341170310974,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-11-29T15:00Z",
-      "source_file": "MRX_2010_29_1500.txt",
-      "similarity": 0.3474845886230469,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-07-20T07:25Z",
-      "source_file": "MRX_2005_20_0725.txt",
-      "similarity": 0.34667807817459106,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2015-10-10T23:33Z",
-      "source_file": "MRX_2015_10_2333.txt",
-      "similarity": 0.346022367477417,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-05-21T14:03Z",
-      "source_file": "MRX_2016_21_1403.txt",
-      "similarity": 0.34594643115997314,
-      "label": "severe_wind",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.3508553206920624,
-    "n_severe": 7,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.333314573764801,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
-    "product_id": "202609252327-KMRX-FXUS64-AFDMRX",
-    "afd_time": "2026-09-25T23:27:00Z",
-    "updated": "2026-09-26T01:38:48.786820+00:00"
+    "reason": "top-10 mean similarity 0.33 below confidence floor 0.7",
+    "product_id": "202609260533-KMRX-FXUS64-AFDMRX",
+    "afd_time": "2026-09-26T05:33:00Z",
+    "updated": "2026-09-26T07:48:00.130274+00:00"
   }
 }
