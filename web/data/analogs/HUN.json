@@ -1,91 +1,91 @@
 {
   "office": "HUN",
-  "product_id": "202609262142-KHUN-FXUS64-AFDHUN",
-  "afd_time": "2026-09-26T21:42:00Z",
+  "product_id": "202609270042-KHUN-FXUS64-AFDHUN",
+  "afd_time": "2026-09-27T00:42:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-26T22:57:03.438272+00:00",
-  "query_preview": "..\n(Monday night through Friday)\nIssued at 1039 PM CDT Fri Sep 25 2026\n\nOverall, the pattern will be in transition this period after a weak\ntrough pushes into the Southeast U.S. Tuesday, being overwhelmed by a\nbuilding ridge over the southwest Atlantic basin. This builds\ninfluence into the southeast",
+  "updated": "2026-09-27T01:33:02.495467+00:00",
+  "query_preview": "..\n(Tuesday night through Saturday)\nIssued at 741 PM CDT Sat Sep 26 2026\n\nWe will begin to transition patterns in the long term period as upper\nridging expands over the Plains and eventually into the Southeastern\nregion. This will bring warming temperatures and an increase in\nhumidity toward the mid",
   "analogs": [
+    {
+      "datetime_utc": "2010-08-24T18:57Z",
+      "source_file": "HUN_2010_24_1857.txt",
+      "similarity": 0.3522030711174011,
+      "label": "severe_wind",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2007-01-05T09:51Z",
       "source_file": "HUN_2007_05_0951.txt",
-      "similarity": 0.4401656985282898,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-09-01T02:40Z",
-      "source_file": "HUN_2011_01_0240.txt",
-      "similarity": 0.4285244941711426,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-08-08T19:35Z",
-      "source_file": "HUN_2020_08_1935.txt",
-      "similarity": 0.4270394742488861,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-08-09T02:16Z",
-      "source_file": "HUN_2020_09_0216.txt",
-      "similarity": 0.4270394742488861,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-08-08T22:27Z",
-      "source_file": "HUN_2020_08_2227.txt",
-      "similarity": 0.4270394742488861,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-08-09T05:39Z",
-      "source_file": "HUN_2020_09_0539.txt",
-      "similarity": 0.4270394742488861,
+      "similarity": 0.34937211871147156,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-07-24T16:10Z",
       "source_file": "HUN_2008_24_1610.txt",
-      "similarity": 0.4253557324409485,
+      "similarity": 0.3430296778678894,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-05-04T17:41Z",
-      "source_file": "HUN_2008_04_1741.txt",
-      "similarity": 0.42510783672332764,
+      "datetime_utc": "2011-09-01T02:40Z",
+      "source_file": "HUN_2011_01_0240.txt",
+      "similarity": 0.3404039144515991,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-05-04T08:10Z",
-      "source_file": "HUN_2008_04_0810.txt",
-      "similarity": 0.42510783672332764,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2008-12-15T21:52Z",
+      "source_file": "HUN_2008_15_2152.txt",
+      "similarity": 0.3391151428222656,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2010-08-24T18:57Z",
-      "source_file": "HUN_2010_24_1857.txt",
-      "similarity": 0.4223056137561798,
+      "datetime_utc": "2008-12-16T09:22Z",
+      "source_file": "HUN_2008_16_0922.txt",
+      "similarity": 0.3391151428222656,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-08-11T08:51Z",
+      "source_file": "HUN_2009_11_0851.txt",
+      "similarity": 0.3386901319026947,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-04-26T19:32Z",
+      "source_file": "HUN_2007_26_1932.txt",
+      "similarity": 0.33496537804603577,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-09-23T08:32Z",
+      "source_file": "HUN_2006_23_0832.txt",
+      "similarity": 0.3343415856361389,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-11-24T20:11Z",
+      "source_file": "HUN_2005_24_2011.txt",
+      "similarity": 0.33379071950912476,
+      "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 1.0,
-    "mean_similarity": 0.42747251093387606,
-    "n_severe": 10,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.3405026882886887,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202609262142-KHUN-FXUS64-AFDHUN",
-    "afd_time": "2026-09-26T21:42:00Z",
-    "updated": "2026-09-26T22:57:03.438272+00:00"
+    "reason": "top-10 mean similarity 0.34 below confidence floor 0.7",
+    "product_id": "202609270042-KHUN-FXUS64-AFDHUN",
+    "afd_time": "2026-09-27T00:42:00Z",
+    "updated": "2026-09-27T01:33:02.495467+00:00"
   }
 }
