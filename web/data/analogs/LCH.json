@@ -1,78 +1,78 @@
 {
   "office": "LCH",
-  "product_id": "202609271133-KLCH-FXUS64-AFDLCH",
-  "afd_time": "2026-09-27T11:33:00Z",
+  "product_id": "202609271731-KLCH-FXUS64-AFDLCH",
+  "afd_time": "2026-09-27T17:31:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-27T14:07:17.181703+00:00",
-  "query_preview": "..\n(Today through Saturday)\nIssued at 1215 AM CDT Sun Sep 27 2026\n\nSaturday night surface analysis shows weak high pressure over the \nsoutheastern CONUS, which is expected to begin to weaken as it \ncontinues to meander overhead today. Aloft, ridging over Mexico \nextends north into the southern Plain",
+  "updated": "2026-09-27T18:29:27.717256+00:00",
+  "query_preview": "..\n(This afternoon through next Saturday)\nIssued at 1230 PM CDT Sun Sep 27 2026\n\nWeak high pressure extends southwest from Canada across the OH \nand MS valleys to the northern gulf coast this afternoon, while \naloft, a ridge is over the central plains, TX, and the NW gulf \ncoast. A fairly dry airmas",
   "analogs": [
-    {
-      "datetime_utc": "2012-06-08T20:12Z",
-      "source_file": "LCH_2012_08_2012.txt",
-      "similarity": 0.4030255079269409,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-02-08T03:35Z",
-      "source_file": "LCH_2013_08_0335.txt",
-      "similarity": 0.3995771110057831,
-      "label": "tornado",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2006-01-14T16:18Z",
       "source_file": "LCH_2006_14_1618.txt",
-      "similarity": 0.39815157651901245,
+      "similarity": 0.4267732501029968,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-09-03T20:48Z",
-      "source_file": "LCH_2007_03_2048.txt",
-      "similarity": 0.39786478877067566,
-      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-12-04T16:19Z",
       "source_file": "LCH_2015_04_1619.txt",
-      "similarity": 0.39768272638320923,
+      "similarity": 0.4224318861961365,
       "label": "quiet",
       "is_severe": false
     },
     {
+      "datetime_utc": "2006-09-11T15:13Z",
+      "source_file": "LCH_2006_11_1513.txt",
+      "similarity": 0.42213863134384155,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-03-15T12:06Z",
+      "source_file": "LCH_2007_15_1206.txt",
+      "similarity": 0.4219305217266083,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-06-08T20:12Z",
+      "source_file": "LCH_2012_08_2012.txt",
+      "similarity": 0.42016837000846863,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-05-01T15:49Z",
+      "source_file": "LCH_2009_01_1549.txt",
+      "similarity": 0.41811615228652954,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-03-23T03:49Z",
+      "source_file": "LCH_2006_23_0349.txt",
+      "similarity": 0.41608038544654846,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-02-08T03:35Z",
+      "source_file": "LCH_2013_08_0335.txt",
+      "similarity": 0.41598036885261536,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2015-11-28T20:51Z",
       "source_file": "LCH_2015_28_2051.txt",
-      "similarity": 0.3965233564376831,
+      "similarity": 0.4148101210594177,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-11-29T05:42Z",
       "source_file": "LCH_2015_29_0542.txt",
-      "similarity": 0.3965233564376831,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-11-29T02:04Z",
-      "source_file": "LCH_2015_29_0204.txt",
-      "similarity": 0.3965233564376831,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-05-01T15:49Z",
-      "source_file": "LCH_2009_01_1549.txt",
-      "similarity": 0.39600276947021484,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-01-14T02:59Z",
-      "source_file": "LCH_2004_14_0259_1.txt",
-      "similarity": 0.39444491267204285,
+      "similarity": 0.4148101210594177,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.3976319462060928,
+    "mean_similarity": 0.41932398080825806,
     "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202609271133-KLCH-FXUS64-AFDLCH",
-    "afd_time": "2026-09-27T11:33:00Z",
-    "updated": "2026-09-27T14:07:17.181703+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202609271731-KLCH-FXUS64-AFDLCH",
+    "afd_time": "2026-09-27T17:31:00Z",
+    "updated": "2026-09-27T18:29:27.717256+00:00"
   }
 }
