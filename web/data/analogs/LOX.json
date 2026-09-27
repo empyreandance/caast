@@ -1,91 +1,91 @@
 {
   "office": "LOX",
-  "product_id": "202609271757-KLOX-FXUS66-AFDLOX",
-  "afd_time": "2026-09-27T17:57:00Z",
+  "product_id": "202609272103-KLOX-FXUS66-AFDLOX",
+  "afd_time": "2026-09-27T21:03:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-27T18:29:27.717256+00:00",
-  "query_preview": "(WED-SAT)...27/1030 AM.\n\nGood confidence in high pressure and warmer temperatures Wednesday\nthrough the rest of the week. Current guidance has northerly \nonshore flow peaking Tuesday, then trending weaker each day.\nOffshore gradients look moderate at best, so coastal areas will\nlikely begin to see s",
+  "updated": "2026-09-27T22:17:13.882811+00:00",
+  "query_preview": "(THU-SUN)...27/159 PM.\n\nAbove normal confidence in building heat into this weekend and it\nwill likely remain quite hot for many areas into at least the \nmiddle part of next week. Moderate to high heat risk is possible \nwith widespread highs in the upper 80s to low 100s in play. A \nfairly stagnant pa",
   "analogs": [
-    {
-      "datetime_utc": "2016-02-01T11:22Z",
-      "source_file": "LOX_2016_01_1122.txt",
-      "similarity": 0.3469294309616089,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2016-01-31T22:14Z",
       "source_file": "LOX_2016_31_2214.txt",
-      "similarity": 0.3469294309616089,
+      "similarity": 0.3998207151889801,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-07-03T11:04Z",
-      "source_file": "LOX_2004_03_1104.txt",
-      "similarity": 0.33969125151634216,
+      "datetime_utc": "2016-02-01T11:22Z",
+      "source_file": "LOX_2016_01_1122.txt",
+      "similarity": 0.3998207151889801,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-12-13T22:12Z",
-      "source_file": "LOX_2004_13_2212.txt",
-      "similarity": 0.33676570653915405,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2010-10-15T15:29Z",
+      "source_file": "LOX_2010_15_1529.txt",
+      "similarity": 0.39388376474380493,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2017-10-31T21:01Z",
-      "source_file": "LOX_2017_31_2101.txt",
-      "similarity": 0.33586907386779785,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2010-10-15T11:31Z",
+      "source_file": "LOX_2010_15_1131.txt",
+      "similarity": 0.39388376474380493,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2017-10-01T05:55Z",
-      "source_file": "LOX_2017_01_0555.txt",
-      "similarity": 0.33586907386779785,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2010-10-15T11:53Z",
+      "source_file": "LOX_2010_15_1153.txt",
+      "similarity": 0.39388376474380493,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2017-10-01T03:22Z",
-      "source_file": "LOX_2017_01_0322.txt",
-      "similarity": 0.33586907386779785,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-09-19T14:16Z",
-      "source_file": "LOX_2007_19_1416.txt",
-      "similarity": 0.33535921573638916,
-      "label": "severe_hail",
+      "datetime_utc": "2010-10-15T19:25Z",
+      "source_file": "LOX_2010_15_1925.txt",
+      "similarity": 0.39388376474380493,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-09-19T16:58Z",
       "source_file": "LOX_2007_19_1658.txt",
-      "similarity": 0.33535921573638916,
+      "similarity": 0.3877600431442261,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-09-19T16:10Z",
       "source_file": "LOX_2007_19_1610.txt",
-      "similarity": 0.33535921573638916,
+      "similarity": 0.3877600431442261,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-09-19T11:40Z",
+      "source_file": "LOX_2007_19_1140.txt",
+      "similarity": 0.3877600431442261,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-09-19T14:16Z",
+      "source_file": "LOX_2007_19_1416.txt",
+      "similarity": 0.3877600431442261,
       "label": "severe_hail",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.3384000688791275,
-    "n_severe": 4,
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.3926216661930084,
+    "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.34 below confidence floor 0.7",
-    "product_id": "202609271757-KLOX-FXUS66-AFDLOX",
-    "afd_time": "2026-09-27T17:57:00Z",
-    "updated": "2026-09-27T18:29:27.717256+00:00"
+    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
+    "product_id": "202609272103-KLOX-FXUS66-AFDLOX",
+    "afd_time": "2026-09-27T21:03:00Z",
+    "updated": "2026-09-27T22:17:13.882811+00:00"
   }
 }

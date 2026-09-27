@@ -1,91 +1,91 @@
 {
   "office": "MQT",
-  "product_id": "202609271727-KMQT-FXUS63-AFDMQT",
-  "afd_time": "2026-09-27T17:27:00Z",
+  "product_id": "202609271908-KMQT-FXUS63-AFDMQT",
+  "afd_time": "2026-09-27T19:08:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-27T18:29:27.717256+00:00",
-  "query_preview": "..\nIssued at 222 AM EDT Sun Sep 27 2026\n\nAn omega-like blocking pattern remains in place this morning, with \nthe axis of the upper level ridge centered directly over the UP \nbetween deep troughing centered over western Canada and the Mid \nAtlantic. Water vapor imagery reveals a weak disturbance ridi",
+  "updated": "2026-09-27T22:17:13.882811+00:00",
+  "query_preview": "..\nIssued at 308 PM EDT Sun Sep 27 2026\n\nThis afternoon water vapor imagery and 500mb model height analysis \nshowed the blocking ridge continued to eroded as shortwaves moved \nacross the northern periphery of the remaining ridge. Downstream an \nupper level low associated with the nor'easter was near",
   "analogs": [
     {
-      "datetime_utc": "2023-09-13T11:30Z",
-      "source_file": "MQT_2023_13_1130.txt",
-      "similarity": 0.44711852073669434,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-09-13T07:06Z",
-      "source_file": "MQT_2023_13_0706.txt",
-      "similarity": 0.44711852073669434,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-08-17T05:01Z",
-      "source_file": "MQT_2018_17_0501.txt",
-      "similarity": 0.44019240140914917,
+      "datetime_utc": "2018-08-16T22:31Z",
+      "source_file": "MQT_2018_16_2231.txt",
+      "similarity": 0.42712247371673584,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-08-16T19:40Z",
       "source_file": "MQT_2018_16_1940.txt",
-      "similarity": 0.44019240140914917,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-08-16T22:31Z",
-      "source_file": "MQT_2018_16_2231.txt",
-      "similarity": 0.44019240140914917,
+      "similarity": 0.42712247371673584,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-08-16T20:21Z",
       "source_file": "MQT_2018_16_2021.txt",
-      "similarity": 0.44019240140914917,
+      "similarity": 0.42712247371673584,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2022-05-11T20:24Z",
-      "source_file": "MQT_2022_11_2024.txt",
-      "similarity": 0.4389059543609619,
-      "label": "severe_wind",
+      "datetime_utc": "2018-08-17T05:01Z",
+      "source_file": "MQT_2018_17_0501.txt",
+      "similarity": 0.42712247371673584,
+      "label": "severe_hail",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-08-19T17:40Z",
+      "source_file": "MQT_2016_19_1740.txt",
+      "similarity": 0.42386507987976074,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-09-13T11:30Z",
+      "source_file": "MQT_2023_13_1130.txt",
+      "similarity": 0.4237636625766754,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-09-13T07:06Z",
+      "source_file": "MQT_2023_13_0706.txt",
+      "similarity": 0.4237636625766754,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-06-30T19:53Z",
+      "source_file": "MQT_2004_30_1953.txt",
+      "similarity": 0.42017894983291626,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2022-05-11T22:32Z",
       "source_file": "MQT_2022_11_2232.txt",
-      "similarity": 0.4389059543609619,
+      "similarity": 0.41887667775154114,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2022-05-12T04:41Z",
       "source_file": "MQT_2022_12_0441.txt",
-      "similarity": 0.4389059543609619,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-05-11T19:43Z",
-      "source_file": "MQT_2022_11_1943.txt",
-      "similarity": 0.4389059543609619,
+      "similarity": 0.41887667775154114,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.8,
-    "mean_similarity": 0.4410630464553833,
-    "n_severe": 8,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.4237814605236053,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609271727-KMQT-FXUS63-AFDMQT",
-    "afd_time": "2026-09-27T17:27:00Z",
-    "updated": "2026-09-27T18:29:27.717256+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202609271908-KMQT-FXUS63-AFDMQT",
+    "afd_time": "2026-09-27T19:08:00Z",
+    "updated": "2026-09-27T22:17:13.882811+00:00"
   }
 }

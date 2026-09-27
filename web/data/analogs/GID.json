@@ -1,78 +1,78 @@
 {
   "office": "GID",
-  "product_id": "202609271722-KGID-FXUS63-AFDGID",
-  "afd_time": "2026-09-27T17:22:00Z",
+  "product_id": "202609271852-KGID-FXUS63-AFDGID",
+  "afd_time": "2026-09-27T18:52:00Z",
   "section_type": "extended",
-  "updated": "2026-09-27T18:29:27.717256+00:00",
-  "query_preview": "stretch of wet/cool conditions Tue through Thu.\n\n- Heavy rain and hydro issues are becoming an increasing concern\n  for the upcoming week given substantial fetch/connection to \n  deep Pacific moisture and already wet soils from widespread \n  rainfall last week. Latest WPC Excessive Rainfall outlooks",
+  "updated": "2026-09-27T22:17:13.882811+00:00",
+  "query_preview": "periods of steady and occasionally heavy rainfall, \nespecially across the Tuesday-Thursday time period. Hurricane Polo \nin the Pacific is soon expected to be steered northeast and into the \nSouthern Plains by an approaching southwest U.S. trough. The outer \nplume of moisture by this hurricane is lik",
   "analogs": [
-    {
-      "datetime_utc": "2011-10-10T17:24Z",
-      "source_file": "GID_2011_10_1724.txt",
-      "similarity": 0.4365764260292053,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-10-10T09:22Z",
-      "source_file": "GID_2011_10_0922.txt",
-      "similarity": 0.4365764260292053,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-10-26T17:54Z",
-      "source_file": "GID_2007_26_1754.txt",
-      "similarity": 0.414631724357605,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-07-12T23:27Z",
-      "source_file": "GID_2010_12_2327.txt",
-      "similarity": 0.4139453172683716,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-07-12T20:09Z",
-      "source_file": "GID_2010_12_2009.txt",
-      "similarity": 0.4139453172683716,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-07-13T05:23Z",
-      "source_file": "GID_2010_13_0523.txt",
-      "similarity": 0.4139453172683716,
-      "label": "tornado",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2004-09-07T18:27Z",
       "source_file": "GID_2004_07_1827.txt",
-      "similarity": 0.4092407524585724,
+      "similarity": 0.4332670569419861,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-09-08T02:38Z",
       "source_file": "GID_2004_08_0238.txt",
-      "similarity": 0.4092407524585724,
+      "similarity": 0.4332670569419861,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-09-22T16:45Z",
-      "source_file": "GID_2004_22_1645.txt",
-      "similarity": 0.40541142225265503,
+      "datetime_utc": "2013-04-25T09:36Z",
+      "source_file": "GID_2013_25_0936.txt",
+      "similarity": 0.4317358136177063,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-04-25T12:36Z",
+      "source_file": "GID_2013_25_1236.txt",
+      "similarity": 0.4317358136177063,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-04-25T17:34Z",
+      "source_file": "GID_2013_25_1734.txt",
+      "similarity": 0.4317358136177063,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-10-10T09:22Z",
+      "source_file": "GID_2011_10_0922.txt",
+      "similarity": 0.42499256134033203,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-10-10T17:24Z",
+      "source_file": "GID_2011_10_1724.txt",
+      "similarity": 0.42499256134033203,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-11-09T09:52Z",
+      "source_file": "GID_2004_09_0952.txt",
+      "similarity": 0.42084845900535583,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-07-18T14:24Z",
-      "source_file": "GID_2004_18_1424.txt",
-      "similarity": 0.40058547258377075,
+      "datetime_utc": "2020-05-25T05:54Z",
+      "source_file": "GID_2020_25_0554.txt",
+      "similarity": 0.41249459981918335,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-05-24T23:32Z",
+      "source_file": "GID_2020_24_2332.txt",
+      "similarity": 0.41249459981918335,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.4154098927974701,
+    "mean_similarity": 0.4257564336061478,
     "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202609271722-KGID-FXUS63-AFDGID",
-    "afd_time": "2026-09-27T17:22:00Z",
-    "updated": "2026-09-27T18:29:27.717256+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202609271852-KGID-FXUS63-AFDGID",
+    "afd_time": "2026-09-27T18:52:00Z",
+    "updated": "2026-09-27T22:17:13.882811+00:00"
   }
 }
