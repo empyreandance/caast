@@ -1,91 +1,91 @@
 {
   "office": "FGZ",
-  "product_id": "202609270533-KFGZ-FXUS65-AFDFGZ",
-  "afd_time": "2026-09-27T05:33:00Z",
-  "section_type": "long_term",
-  "updated": "2026-09-27T08:17:27.431436+00:00",
-  "query_preview": "models at this time aren't showing anything else coming\nin. This will be the end of Monsoon 2026, both meteorlogically and\ncalender wise. With some ridging moving in towards the end of the \nweek look for a pleasant start to October as high temperatures \nrecover to a few degrees above average.",
+  "product_id": "202609271111-KFGZ-FXUS65-AFDFGZ",
+  "afd_time": "2026-09-27T11:11:00Z",
+  "section_type": "discussion",
+  "updated": "2026-09-27T14:07:17.181703+00:00",
+  "query_preview": "..Moisture from tropical cyclones Odalys and Polo will begin\noverspreading the area, most likely in the high and mid levels at\nfirst which will increase cloud cover today, with some light rain\nstarting this afternoon. The lower levels will be dry at first \nbut start moistening up from these initial ",
   "analogs": [
     {
-      "datetime_utc": "2009-03-26T03:56Z",
-      "source_file": "FGZ_2009_26_0356.txt",
-      "similarity": 0.43077558279037476,
+      "datetime_utc": "2013-09-24T14:58Z",
+      "source_file": "FGZ_2013_24_1458.txt",
+      "similarity": 0.4652148485183716,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-09-08T22:42Z",
+      "source_file": "FGZ_2017_08_2242.txt",
+      "similarity": 0.46328234672546387,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-03-17T11:47Z",
+      "source_file": "FGZ_2024_17_1147.txt",
+      "similarity": 0.45671069622039795,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-03-17T09:28Z",
+      "source_file": "FGZ_2024_17_0928.txt",
+      "similarity": 0.45671069622039795,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-03-20T22:18Z",
+      "source_file": "FGZ_2009_20_2218.txt",
+      "similarity": 0.4442474842071533,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-07-18T15:59Z",
-      "source_file": "FGZ_2012_18_1559.txt",
-      "similarity": 0.4189797043800354,
+      "datetime_utc": "2016-09-12T03:10Z",
+      "source_file": "FGZ_2016_12_0310.txt",
+      "similarity": 0.43978363275527954,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2025-10-18T19:39Z",
       "source_file": "FGZ_2025_18_1939.txt",
-      "similarity": 0.4086887836456299,
+      "similarity": 0.43261080980300903,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2025-10-18T22:55Z",
       "source_file": "FGZ_2025_18_2255.txt",
-      "similarity": 0.4086887836456299,
+      "similarity": 0.43261080980300903,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2025-10-19T04:45Z",
       "source_file": "FGZ_2025_19_0445.txt",
-      "similarity": 0.4086887836456299,
+      "similarity": 0.43261080980300903,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-11-24T03:15Z",
-      "source_file": "FGZ_2012_24_0315.txt",
-      "similarity": 0.40276429057121277,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-11-24T09:30Z",
-      "source_file": "FGZ_2012_24_0930.txt",
-      "similarity": 0.40276429057121277,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-12-28T03:36Z",
-      "source_file": "FGZ_2008_28_0336.txt",
-      "similarity": 0.4006805419921875,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-01-10T03:00Z",
-      "source_file": "FGZ_2009_10_0300.txt",
-      "similarity": 0.39962849020957947,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-12-29T03:57Z",
-      "source_file": "FGZ_2013_29_0357.txt",
-      "similarity": 0.3988879323005676,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2019-12-02T21:51Z",
+      "source_file": "FGZ_2019_02_2151.txt",
+      "similarity": 0.43010401725769043,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.408054718375206,
-    "n_severe": 1,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.4453886151313782,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202609270533-KFGZ-FXUS65-AFDFGZ",
-    "afd_time": "2026-09-27T05:33:00Z",
-    "updated": "2026-09-27T08:17:27.431436+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202609271111-KFGZ-FXUS65-AFDFGZ",
+    "afd_time": "2026-09-27T11:11:00Z",
+    "updated": "2026-09-27T14:07:17.181703+00:00"
   }
 }
