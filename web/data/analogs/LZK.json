@@ -1,30 +1,44 @@
 {
   "office": "LZK",
-  "product_id": "202609271953-KLZK-FXUS64-AFDLZK",
-  "afd_time": "2026-09-27T19:53:00Z",
+  "product_id": "202609272245-KLZK-FXUS64-AFDLZK-AAA",
+  "afd_time": "2026-09-27T22:45:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-27T22:17:13.882811+00:00",
+  "updated": "2026-09-28T00:56:44.183661+00:00",
   "query_preview": "..\nIssued at 253 PM CDT Sun Sep 27 2026\n\nAloft this afternoon, a H500 low located over the US east coast \ncontinues to move up the eastern seaboard this afternoon. A mid \nlevel ridge encompasses the western portion of the central and \nsouthern Plains regions with deepening trough moving ashore onto ",
   "analogs": [
     {
+      "datetime_utc": "2019-05-12T06:12Z",
+      "source_file": "LZK_2019_12_0612.txt",
+      "similarity": 0.3902624249458313,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2019-05-11T23:55Z",
       "source_file": "LZK_2019_11_2355.txt",
-      "similarity": 0.3902624547481537,
+      "similarity": 0.3902624249458313,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2019-05-11T20:12Z",
       "source_file": "LZK_2019_11_2012.txt",
-      "similarity": 0.3902624547481537,
+      "similarity": 0.3902624249458313,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-05-12T06:12Z",
-      "source_file": "LZK_2019_12_0612.txt",
-      "similarity": 0.3902624547481537,
-      "label": "tornado",
+      "datetime_utc": "2007-11-10T11:09Z",
+      "source_file": "LZK_2007_10_1109.txt",
+      "similarity": 0.3812671899795532,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-11-10T15:06Z",
+      "source_file": "LZK_2007_10_1506.txt",
+      "similarity": 0.3812671899795532,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
@@ -42,37 +56,23 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-11-10T15:06Z",
-      "source_file": "LZK_2007_10_1506.txt",
-      "similarity": 0.3812671899795532,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-11-10T11:09Z",
-      "source_file": "LZK_2007_10_1109.txt",
-      "similarity": 0.3812671899795532,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2015-09-21T19:39Z",
       "source_file": "LZK_2015_21_1939.txt",
-      "similarity": 0.37817537784576416,
+      "similarity": 0.37817543745040894,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-09-20T20:11Z",
       "source_file": "LZK_2005_20_2011.txt",
-      "similarity": 0.3769755959510803,
+      "similarity": 0.3769756257534027,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2022-06-12T07:55Z",
       "source_file": "LZK_2022_12_0755.txt",
-      "similarity": 0.37168020009994507,
+      "similarity": 0.37168022990226746,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.38226872980594634,
+    "mean_similarity": 0.38226873278617857,
     "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202609271953-KLZK-FXUS64-AFDLZK",
-    "afd_time": "2026-09-27T19:53:00Z",
-    "updated": "2026-09-27T22:17:13.882811+00:00"
+    "product_id": "202609272245-KLZK-FXUS64-AFDLZK-AAA",
+    "afd_time": "2026-09-27T22:45:00Z",
+    "updated": "2026-09-28T00:56:44.183661+00:00"
   }
 }
