@@ -1,91 +1,91 @@
 {
   "office": "EKA",
-  "product_id": "202609280726-KEKA-FXUS66-AFDEKA",
-  "afd_time": "2026-09-28T07:26:00Z",
-  "section_type": "discussion",
-  "updated": "2026-09-28T15:35:11.401801+00:00",
-  "query_preview": "..Water vapor satellite loops show the primary 500 mb \nshortwave trough axis advancing east toward the Great Basin. Light \nboundary layer winds and post-frontal dry air will maximize \nradiational cooling through daybreak, keeping localized frost \nrisks focused within sheltered interior valleys. Broa",
+  "product_id": "202609282138-KEKA-FXUS66-AFDEKA",
+  "afd_time": "2026-09-28T21:38:00Z",
+  "section_type": "extended",
+  "updated": "2026-09-28T22:06:28.337126+00:00",
+  "query_preview": "dry period with interior valley high temperatures warming \n  into the 80s and 90s.\n\n* An arriving long-period west-northwest swell brings an elevated \n  risk for sneaker waves along beaches today.",
   "analogs": [
+    {
+      "datetime_utc": "2012-02-29T23:30Z",
+      "source_file": "EKA_2012_29_2330.txt",
+      "similarity": 0.4490695595741272,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-07-09T21:21Z",
+      "source_file": "EKA_2005_09_2121.txt",
+      "similarity": 0.4474058747291565,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-07-10T12:34Z",
+      "source_file": "EKA_2005_10_1234.txt",
+      "similarity": 0.4474058747291565,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2005-12-30T14:47Z",
       "source_file": "EKA_2005_30_1447.txt",
-      "similarity": 0.4699153006076813,
+      "similarity": 0.445531964302063,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-02-16T22:43Z",
-      "source_file": "EKA_2005_16_2243.txt",
-      "similarity": 0.44201886653900146,
+      "datetime_utc": "2013-06-11T10:10Z",
+      "source_file": "EKA_2013_11_1010.txt",
+      "similarity": 0.4437693953514099,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-06-22T21:48Z",
-      "source_file": "EKA_2013_22_2148.txt",
-      "similarity": 0.4400043487548828,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2012-02-13T23:15Z",
+      "source_file": "EKA_2012_13_2315.txt",
+      "similarity": 0.4421464800834656,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2015-09-11T22:14Z",
-      "source_file": "EKA_2015_11_2214.txt",
-      "similarity": 0.43380433320999146,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-10-30T23:02Z",
-      "source_file": "EKA_2007_30_2302.txt",
-      "similarity": 0.4328725039958954,
-      "label": "quiet",
+      "datetime_utc": "2013-10-21T23:02Z",
+      "source_file": "EKA_2013_21_2302.txt",
+      "similarity": 0.4398691654205322,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2013-06-23T22:22Z",
       "source_file": "EKA_2013_23_2222.txt",
-      "similarity": 0.4328639507293701,
+      "similarity": 0.4358048141002655,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-05-11T09:16Z",
-      "source_file": "EKA_2004_11_0916.txt",
-      "similarity": 0.43013620376586914,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-01-23T12:07Z",
-      "source_file": "EKA_2013_23_1207.txt",
-      "similarity": 0.42967677116394043,
+      "datetime_utc": "2018-02-09T12:07Z",
+      "source_file": "EKA_2018_09_1207.txt",
+      "similarity": 0.4332684874534607,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-04-27T21:45Z",
-      "source_file": "EKA_2010_27_2145.txt",
-      "similarity": 0.4287269711494446,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-04-04T12:03Z",
-      "source_file": "EKA_2017_04_1203.txt",
-      "similarity": 0.42802900075912476,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2005-02-16T22:43Z",
+      "source_file": "EKA_2005_16_2243.txt",
+      "similarity": 0.432660311460495,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.43680482506752016,
-    "n_severe": 3,
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.4416931927204132,
+    "n_severe": 2,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609280726-KEKA-FXUS66-AFDEKA",
-    "afd_time": "2026-09-28T07:26:00Z",
-    "updated": "2026-09-28T15:35:11.401801+00:00"
+    "product_id": "202609282138-KEKA-FXUS66-AFDEKA",
+    "afd_time": "2026-09-28T21:38:00Z",
+    "updated": "2026-09-28T22:06:28.337126+00:00"
   }
 }

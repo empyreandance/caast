@@ -1,91 +1,91 @@
 {
   "office": "PAH",
-  "product_id": "202609281120-KPAH-FXUS63-AFDPAH",
-  "afd_time": "2026-09-28T11:20:00Z",
+  "product_id": "202609282137-KPAH-FXUS63-AFDPAH",
+  "afd_time": "2026-09-28T21:37:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-28T15:35:11.401801+00:00",
-  "query_preview": "..\nIssued at 204 AM CDT Mon Sep 28 2026\n\nSurface high pressure will linger over the Quad State today into\nTuesday, then build to the east, allowing south winds to return\nto the region Wednesday. Temperatures will start out a few\ndegrees below normal today and then trend upward through\nWednesday and ",
+  "updated": "2026-09-28T22:06:28.337126+00:00",
+  "query_preview": "..\nIssued at 1157 AM CDT Mon Sep 28 2026\n\nA broad upper level trough over the Ohio Valley and high pressure at \nthe sfc will begin to build east by Wednesday, allowing for a \nsignificant warm up. Rising heights aloft with 850 mb temps of 18-19C \nwill translate to temperatures warming 10 degrees abov",
   "analogs": [
     {
-      "datetime_utc": "2012-03-03T20:08Z",
-      "source_file": "PAH_2012_03_2008.txt",
-      "similarity": 0.4029572010040283,
-      "label": "flood",
-      "is_severe": false
+      "datetime_utc": "2006-09-25T20:02Z",
+      "source_file": "PAH_2006_25_2002.txt",
+      "similarity": 0.4213976263999939,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2010-11-02T04:45Z",
-      "source_file": "PAH_2010_02_0445.txt",
-      "similarity": 0.40259847044944763,
+      "datetime_utc": "2004-10-01T18:19Z",
+      "source_file": "PAH_2004_01_1819.txt",
+      "similarity": 0.4195758104324341,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-11-01T19:26Z",
-      "source_file": "PAH_2010_01_1926.txt",
-      "similarity": 0.40259847044944763,
+      "datetime_utc": "2013-11-11T20:29Z",
+      "source_file": "PAH_2013_11_2029.txt",
+      "similarity": 0.41620609164237976,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-03-16T06:50Z",
+      "source_file": "PAH_2004_16_0650.txt",
+      "similarity": 0.41492053866386414,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-05-09T19:41Z",
-      "source_file": "PAH_2012_09_1941.txt",
-      "similarity": 0.400350421667099,
+      "datetime_utc": "2012-05-09T23:05Z",
+      "source_file": "PAH_2012_09_2305.txt",
+      "similarity": 0.4135548174381256,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2012-05-10T04:30Z",
       "source_file": "PAH_2012_10_0430.txt",
-      "similarity": 0.400350421667099,
+      "similarity": 0.4135548174381256,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-05-09T23:05Z",
-      "source_file": "PAH_2012_09_2305.txt",
-      "similarity": 0.400350421667099,
+      "datetime_utc": "2012-05-09T19:41Z",
+      "source_file": "PAH_2012_09_1941.txt",
+      "similarity": 0.4135548174381256,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-03-10T18:23Z",
-      "source_file": "PAH_2010_10_1823.txt",
-      "similarity": 0.3997951149940491,
-      "label": "severe_wind",
+      "datetime_utc": "2022-04-12T06:50Z",
+      "source_file": "PAH_2022_12_0650.txt",
+      "similarity": 0.41263502836227417,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-03-10T08:26Z",
-      "source_file": "PAH_2010_10_0826.txt",
-      "similarity": 0.3997951149940491,
-      "label": "severe_wind",
+      "datetime_utc": "2010-06-11T11:30Z",
+      "source_file": "PAH_2010_11_1130.txt",
+      "similarity": 0.4120329022407532,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-07-27T23:52Z",
-      "source_file": "PAH_2012_27_2352.txt",
-      "similarity": 0.39800816774368286,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-07-27T20:32Z",
-      "source_file": "PAH_2012_27_2032.txt",
-      "similarity": 0.39800816774368286,
-      "label": "severe_wind",
+      "datetime_utc": "2010-06-11T08:53Z",
+      "source_file": "PAH_2010_11_0853.txt",
+      "similarity": 0.4120329022407532,
+      "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.40048119723796843,
-    "n_severe": 5,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.41494653522968294,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202609281120-KPAH-FXUS63-AFDPAH",
-    "afd_time": "2026-09-28T11:20:00Z",
-    "updated": "2026-09-28T15:35:11.401801+00:00"
+    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
+    "product_id": "202609282137-KPAH-FXUS63-AFDPAH",
+    "afd_time": "2026-09-28T21:37:00Z",
+    "updated": "2026-09-28T22:06:28.337126+00:00"
   }
 }
