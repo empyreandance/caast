@@ -1,11 +1,32 @@
 {
   "office": "GLD",
-  "product_id": "202609272234-KGLD-FXUS63-AFDGLD",
-  "afd_time": "2026-09-27T22:34:00Z",
+  "product_id": "202609280601-KGLD-FXUS63-AFDGLD",
+  "afd_time": "2026-09-28T06:01:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-28T00:56:44.183661+00:00",
+  "updated": "2026-09-28T07:01:16.889550+00:00",
   "query_preview": "/WEDNESDAY THROUGH SUNDAY/...\nIssued at 310 PM MDT Sun Sep 27 2026\n\nA variety of weather is in store for the Tri-State area through \nSunday. The long term period will start off wet and windy until \nsunny skies return Friday morning. Temperatures will be consistent \nwith high temperatures forecast in",
   "analogs": [
+    {
+      "datetime_utc": "2019-02-14T21:21Z",
+      "source_file": "GLD_2019_14_2121.txt",
+      "similarity": 0.4751091003417969,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-02-15T02:01Z",
+      "source_file": "GLD_2019_15_0201.txt",
+      "similarity": 0.4751091003417969,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-02-15T04:32Z",
+      "source_file": "GLD_2019_15_0432.txt",
+      "similarity": 0.4751091003417969,
+      "label": "winter",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2019-02-15T09:25Z",
       "source_file": "GLD_2019_15_0925.txt",
@@ -21,58 +42,37 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-02-15T04:32Z",
-      "source_file": "GLD_2019_15_0432.txt",
-      "similarity": 0.4751091003417969,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-02-15T02:01Z",
-      "source_file": "GLD_2019_15_0201.txt",
-      "similarity": 0.4751091003417969,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-02-14T21:21Z",
-      "source_file": "GLD_2019_14_2121.txt",
-      "similarity": 0.4751091003417969,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-04-04T08:27Z",
-      "source_file": "GLD_2014_04_0827.txt",
-      "similarity": 0.4690048396587372,
+      "datetime_utc": "2014-04-04T19:49Z",
+      "source_file": "GLD_2014_04_1949.txt",
+      "similarity": 0.4690048098564148,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-04-04T11:47Z",
       "source_file": "GLD_2014_04_1147.txt",
-      "similarity": 0.4690048396587372,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-04-04T09:36Z",
-      "source_file": "GLD_2014_04_0936.txt",
-      "similarity": 0.4690048396587372,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-04-04T19:49Z",
-      "source_file": "GLD_2014_04_1949.txt",
-      "similarity": 0.4690048396587372,
+      "similarity": 0.4690048098564148,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-04-04T17:32Z",
       "source_file": "GLD_2014_04_1732_1.txt",
-      "similarity": 0.4690048396587372,
+      "similarity": 0.4690048098564148,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-04-04T08:27Z",
+      "source_file": "GLD_2014_04_0827.txt",
+      "similarity": 0.4690048098564148,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-04-04T09:36Z",
+      "source_file": "GLD_2014_04_0936.txt",
+      "similarity": 0.4690048098564148,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.0,
-    "mean_similarity": 0.47205697000026703,
+    "mean_similarity": 0.47205695509910583,
     "n_severe": 0,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202609272234-KGLD-FXUS63-AFDGLD",
-    "afd_time": "2026-09-27T22:34:00Z",
-    "updated": "2026-09-28T00:56:44.183661+00:00"
+    "product_id": "202609280601-KGLD-FXUS63-AFDGLD",
+    "afd_time": "2026-09-28T06:01:00Z",
+    "updated": "2026-09-28T07:01:16.889550+00:00"
   }
 }

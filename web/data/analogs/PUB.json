@@ -1,65 +1,58 @@
 {
   "office": "PUB",
-  "product_id": "202609272333-KPUB-FXUS65-AFDPUB",
-  "afd_time": "2026-09-27T23:33:00Z",
+  "product_id": "202609280437-KPUB-FXUS65-AFDPUB",
+  "afd_time": "2026-09-28T04:37:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-28T00:56:44.183661+00:00",
+  "updated": "2026-09-28T07:01:16.889550+00:00",
   "query_preview": "/MONDAY NIGHT THROUGH SUNDAY/...\nIssued at 248 PM MDT Sun Sep 27 2026\n\nWhile latest models continue to point to significant precipitation \nacross Rockies through the middle of the week, the details on location \nof the heaviest precipitation continue to fluctuate, as models differ \non the location of",
   "analogs": [
     {
       "datetime_utc": "2006-04-20T20:42Z",
       "source_file": "PUB_2006_20_2042.txt",
-      "similarity": 0.2958219051361084,
+      "similarity": 0.29582181572914124,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-06-03T19:56Z",
       "source_file": "PUB_2007_03_1956.txt",
-      "similarity": 0.292877197265625,
+      "similarity": 0.2928771376609802,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-06-04T20:45Z",
       "source_file": "PUB_2007_04_2045.txt",
-      "similarity": 0.2846461534500122,
+      "similarity": 0.28464603424072266,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-09-25T09:07Z",
       "source_file": "PUB_2006_25_0907.txt",
-      "similarity": 0.2790519595146179,
+      "similarity": 0.279051810503006,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-09-07T16:56Z",
       "source_file": "PUB_2021_07_1656.txt",
-      "similarity": 0.27883338928222656,
+      "similarity": 0.2788332402706146,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-09-07T10:08Z",
       "source_file": "PUB_2021_07_1008.txt",
-      "similarity": 0.27883338928222656,
+      "similarity": 0.2788332402706146,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-05-17T05:28Z",
       "source_file": "PUB_2017_17_0528.txt",
-      "similarity": 0.27802300453186035,
+      "similarity": 0.2780228555202484,
       "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-07-22T21:08Z",
-      "source_file": "PUB_2024_22_2108.txt",
-      "similarity": 0.27428489923477173,
-      "label": "severe_wind",
       "is_severe": true
     },
     {
@@ -75,17 +68,24 @@
       "similarity": 0.27428489923477173,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-07-22T21:08Z",
+      "source_file": "PUB_2024_22_2108.txt",
+      "similarity": 0.27428489923477173,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.2810941696166992,
+    "mean_similarity": 0.2810940831899643,
     "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.28 below confidence floor 0.7",
-    "product_id": "202609272333-KPUB-FXUS65-AFDPUB",
-    "afd_time": "2026-09-27T23:33:00Z",
-    "updated": "2026-09-28T00:56:44.183661+00:00"
+    "product_id": "202609280437-KPUB-FXUS65-AFDPUB",
+    "afd_time": "2026-09-28T04:37:00Z",
+    "updated": "2026-09-28T07:01:16.889550+00:00"
   }
 }

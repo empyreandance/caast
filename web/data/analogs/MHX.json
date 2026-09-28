@@ -1,92 +1,91 @@
 {
   "office": "MHX",
-  "product_id": "202609280026-KMHX-FXUS62-AFDMHX",
-  "afd_time": "2026-09-28T00:26:00Z",
+  "product_id": "202609280631-KMHX-FXUS62-AFDMHX",
+  "afd_time": "2026-09-28T06:31:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-28T00:56:44.183661+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...While seas have decreased considerably over the\nlast 24 hours, there is still some potential for minor ocean\noverwash at the next high tide this evening (around 8 PM) for\nportions of the Outer Banks. In addition, minor soundside \nflooding (1 ft or less) is still possible for coast",
+  "updated": "2026-09-28T07:01:16.889550+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...While seas have come down, minor soundside \nflooding (1 ft or less) is still possible for coastal areas \nadjacent to tidal rivers and sounds due to already elevated \nwaters levels and high astronomical tides. The high astronomical\ntides peak on Tuesday, but seas have fallen substa",
   "analogs": [
     {
       "datetime_utc": "2011-08-26T09:00Z",
       "source_file": "MHX_2011_26_0900.txt",
-      "similarity": 0.8346481323242188,
+      "similarity": 0.7363694906234741,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-08-26T11:00Z",
       "source_file": "MHX_2011_26_1100.txt",
-      "similarity": 0.8346481323242188,
+      "similarity": 0.7363694906234741,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-06-25T08:16Z",
       "source_file": "MHX_2011_25_0816.txt",
-      "similarity": 0.793720543384552,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-06-25T11:33Z",
-      "source_file": "MHX_2011_25_1133.txt",
-      "similarity": 0.766159176826477,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-06-25T16:23Z",
-      "source_file": "MHX_2011_25_1623.txt",
-      "similarity": 0.766159176826477,
+      "similarity": 0.6878417134284973,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-06-25T17:13Z",
       "source_file": "MHX_2011_25_1713.txt",
-      "similarity": 0.766159176826477,
+      "similarity": 0.6597181558609009,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-06-25T17:20Z",
       "source_file": "MHX_2011_25_1720.txt",
-      "similarity": 0.766159176826477,
+      "similarity": 0.6597181558609009,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-06-25T11:33Z",
+      "source_file": "MHX_2011_25_1133.txt",
+      "similarity": 0.6597181558609009,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-06-25T16:23Z",
+      "source_file": "MHX_2011_25_1623.txt",
+      "similarity": 0.6597181558609009,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-03-15T00:43Z",
       "source_file": "MHX_2006_15_0043.txt",
-      "similarity": 0.6830213069915771,
+      "similarity": 0.594826340675354,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-07-29T00:26Z",
       "source_file": "MHX_2004_29_0026.txt",
-      "similarity": 0.6187195181846619,
+      "similarity": 0.5776666402816772,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-02-02T08:15Z",
       "source_file": "MHX_2004_02_0815.txt",
-      "similarity": 0.6046493649482727,
+      "similarity": 0.5632488131523132,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "LOW",
+    "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.7434043705463409,
-    "base_rate": 0.5206861191386222,
-    "signal_value": 0.17931388086137778,
+    "mean_similarity": 0.6535195112228394,
     "n_severe": 7,
     "n_total": 10,
-    "product_id": "202609280026-KMHX-FXUS62-AFDMHX",
-    "afd_time": "2026-09-28T00:26:00Z",
-    "updated": "2026-09-28T00:56:44.183661+00:00"
+    "reason": "top-10 mean similarity 0.65 below confidence floor 0.7",
+    "product_id": "202609280631-KMHX-FXUS62-AFDMHX",
+    "afd_time": "2026-09-28T06:31:00Z",
+    "updated": "2026-09-28T07:01:16.889550+00:00"
   }
 }
