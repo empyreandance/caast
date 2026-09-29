@@ -1,91 +1,91 @@
 {
   "office": "BOX",
-  "product_id": "202609291122-KBOX-FXUS61-AFDBOX",
-  "afd_time": "2026-09-29T11:22:00Z",
-  "section_type": "discussion",
-  "updated": "2026-09-29T15:58:34.381673+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Conditions continue to improve today as the low\nfinally pushes offshore and into the Gulf of Maine.\n\nDamp conditions are slowly beginning to improve as the low \nslowly moves across Cape Cod and offshore into the Gulf of Maine\ntoday. Winds have already begun to transition west-sout",
+  "product_id": "202609291756-KBOX-FXUS61-AFDBOX",
+  "afd_time": "2026-09-29T17:56:00Z",
+  "section_type": "extended",
+  "updated": "2026-09-29T20:52:48.116034+00:00",
+  "query_preview": "into Wednesday based on latest NERFC river forecasts. \nOtherwise no significant changes.",
   "analogs": [
     {
-      "datetime_utc": "2005-05-20T01:19Z",
-      "source_file": "BOX_2005_20_0119.txt",
-      "similarity": 0.3883971571922302,
+      "datetime_utc": "2006-03-29T01:35Z",
+      "source_file": "BOX_2006_29_0135.txt",
+      "similarity": 0.4941427707672119,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-03-28T20:50Z",
+      "source_file": "BOX_2006_28_2050.txt",
+      "similarity": 0.4941427707672119,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-03-28T21:06Z",
+      "source_file": "BOX_2006_28_2106.txt",
+      "similarity": 0.4941427707672119,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-07-09T20:10Z",
+      "source_file": "BOX_2005_09_2010_1.txt",
+      "similarity": 0.48838019371032715,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-07-10T02:33Z",
+      "source_file": "BOX_2005_10_0233.txt",
+      "similarity": 0.48838019371032715,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-10-01T18:14Z",
+      "source_file": "BOX_2017_01_1814.txt",
+      "similarity": 0.47294723987579346,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-05-19T20:01Z",
-      "source_file": "BOX_2005_19_2001.txt",
-      "similarity": 0.3883971571922302,
+      "datetime_utc": "2017-10-01T14:03Z",
+      "source_file": "BOX_2017_01_1403.txt",
+      "similarity": 0.47294723987579346,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-07-20T07:05Z",
-      "source_file": "BOX_2004_20_0705.txt",
-      "similarity": 0.3819265365600586,
+      "datetime_utc": "2017-10-01T10:59Z",
+      "source_file": "BOX_2017_01_1059.txt",
+      "similarity": 0.47294723987579346,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-07-20T09:10Z",
-      "source_file": "BOX_2004_20_0910.txt",
-      "similarity": 0.3819265365600586,
+      "datetime_utc": "2017-10-01T07:11Z",
+      "source_file": "BOX_2017_01_0711.txt",
+      "similarity": 0.47294723987579346,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2021-02-16T09:12Z",
-      "source_file": "BOX_2021_16_0912_1.txt",
-      "similarity": 0.3781033158302307,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-02-16T15:51Z",
-      "source_file": "BOX_2021_16_1551.txt",
-      "similarity": 0.3781033158302307,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-02-16T11:52Z",
-      "source_file": "BOX_2021_16_1152.txt",
-      "similarity": 0.3781033158302307,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-09-15T09:01Z",
-      "source_file": "BOX_2019_15_0901.txt",
-      "similarity": 0.3760710656642914,
+      "datetime_utc": "2004-08-12T06:44Z",
+      "source_file": "BOX_2004_12_0644.txt",
+      "similarity": 0.47046780586242676,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-09-15T11:00Z",
-      "source_file": "BOX_2019_15_1100.txt",
-      "similarity": 0.3760710656642914,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-02-16T06:30Z",
-      "source_file": "BOX_2021_16_0630.txt",
-      "similarity": 0.37543362379074097,
-      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.3802533090114594,
-    "n_severe": 0,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.4821445465087891,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202609291122-KBOX-FXUS61-AFDBOX",
-    "afd_time": "2026-09-29T11:22:00Z",
-    "updated": "2026-09-29T15:58:34.381673+00:00"
+    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
+    "product_id": "202609291756-KBOX-FXUS61-AFDBOX",
+    "afd_time": "2026-09-29T17:56:00Z",
+    "updated": "2026-09-29T20:52:48.116034+00:00"
   }
 }

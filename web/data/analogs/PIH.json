@@ -1,91 +1,91 @@
 {
   "office": "PIH",
-  "product_id": "202609291106-KPIH-FXUS65-AFDPIH",
-  "afd_time": "2026-09-29T11:06:00Z",
+  "product_id": "202609291901-KPIH-FXUS65-AFDPIH",
+  "afd_time": "2026-09-29T19:01:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-29T15:58:34.381673+00:00",
-  "query_preview": "..\nIssued at 214 AM MDT Tue Sep 29 2026\n\nHigh pressure will build in from the west beginning today and remain \n in control of the pattern through the first part of next week. 500 \nmb ensemble clusters solidly support this upper-level pattern during \nthis timeframe. This will mean dry conditions for ",
+  "updated": "2026-09-29T20:52:48.116034+00:00",
+  "query_preview": "..\nIssued at 100 PM MDT Tue Sep 29 2026\n\nAfternoon satellite imagery displays mostly clear skies with \nonly a few stray cirrus clouds drifting across the region. A \nbroad, tranquil weather pattern is firmly established, marking \nthe beginning of a prolonged period of quiet weather across \neastern Id",
   "analogs": [
     {
-      "datetime_utc": "2009-06-27T19:43Z",
-      "source_file": "PIH_2009_27_1943.txt",
-      "similarity": 0.3890666961669922,
+      "datetime_utc": "2009-05-15T19:29Z",
+      "source_file": "PIH_2009_15_1929.txt",
+      "similarity": 0.32027316093444824,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-09-24T09:14Z",
-      "source_file": "PIH_2005_24_0914.txt",
-      "similarity": 0.3858274519443512,
+      "datetime_utc": "2006-05-17T01:41Z",
+      "source_file": "PIH_2006_17_0141.txt",
+      "similarity": 0.3142992854118347,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-08-26T07:59Z",
+      "source_file": "PIH_2004_26_0759.txt",
+      "similarity": 0.3113124668598175,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-11-02T14:29Z",
+      "source_file": "PIH_2010_02_1429.txt",
+      "similarity": 0.3097009062767029,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-11-02T07:42Z",
+      "source_file": "PIH_2010_02_0742.txt",
+      "similarity": 0.3097009062767029,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-09-24T16:17Z",
       "source_file": "PIH_2005_24_1617.txt",
-      "similarity": 0.3858274519443512,
+      "similarity": 0.3075604736804962,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-02-09T09:53Z",
-      "source_file": "PIH_2009_09_0953.txt",
-      "similarity": 0.38327792286872864,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-09-26T15:38Z",
-      "source_file": "PIH_2006_26_1538.txt",
-      "similarity": 0.38296690583229065,
+      "datetime_utc": "2005-09-24T09:14Z",
+      "source_file": "PIH_2005_24_0914.txt",
+      "similarity": 0.3075604736804962,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-05-17T01:41Z",
-      "source_file": "PIH_2006_17_0141.txt",
-      "similarity": 0.37864118814468384,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2020-08-09T08:34Z",
+      "source_file": "PIH_2020_09_0834.txt",
+      "similarity": 0.30534353852272034,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2005-02-14T17:45Z",
       "source_file": "PIH_2005_14_1745.txt",
-      "similarity": 0.3756259083747864,
+      "similarity": 0.3047066330909729,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2025-05-23T17:27Z",
-      "source_file": "PIH_2025_23_1727_1.txt",
-      "similarity": 0.37216049432754517,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2025-05-23T11:32Z",
-      "source_file": "PIH_2025_23_1132.txt",
-      "similarity": 0.37216049432754517,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-05-12T19:25Z",
-      "source_file": "PIH_2009_12_1925.txt",
-      "similarity": 0.36987727880477905,
+      "datetime_utc": "2009-06-27T19:43Z",
+      "source_file": "PIH_2009_27_1943.txt",
+      "similarity": 0.304401695728302,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.37954317927360537,
-    "n_severe": 5,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.3094859540462494,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202609291106-KPIH-FXUS65-AFDPIH",
-    "afd_time": "2026-09-29T11:06:00Z",
-    "updated": "2026-09-29T15:58:34.381673+00:00"
+    "reason": "top-10 mean similarity 0.31 below confidence floor 0.7",
+    "product_id": "202609291901-KPIH-FXUS65-AFDPIH",
+    "afd_time": "2026-09-29T19:01:00Z",
+    "updated": "2026-09-29T20:52:48.116034+00:00"
   }
 }

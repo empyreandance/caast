@@ -1,91 +1,92 @@
 {
   "office": "MHX",
-  "product_id": "202609291048-KMHX-FXUS62-AFDMHX",
-  "afd_time": "2026-09-29T10:48:00Z",
+  "product_id": "202609291740-KMHX-FXUS62-AFDMHX",
+  "afd_time": "2026-09-29T17:40:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-29T15:58:34.381673+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...While wind and seas have come down, minor \nsoundside flooding (1 ft or less) is still possible for mainly \nDowneast Carteret county through the next several high tide \ncycles. The high astronomical tides peak today, and already high\nwater levels due to last week's wind event will ",
+  "updated": "2026-09-29T20:52:48.116034+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...Coastal Flood advisory has been dropped at this \ntime. Nuisance flooding is still possible for mainly Downeast \nCarteret county through the next several high tide cycles but data \nfrom this morning showed significant receding compared to yesterday. \nStanding water on roadways, and",
   "analogs": [
     {
-      "datetime_utc": "2011-08-26T11:00Z",
-      "source_file": "MHX_2011_26_1100.txt",
-      "similarity": 0.739281952381134,
+      "datetime_utc": "2011-08-26T09:00Z",
+      "source_file": "MHX_2011_26_0900.txt",
+      "similarity": 0.9197522401809692,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-08-26T09:00Z",
-      "source_file": "MHX_2011_26_0900.txt",
-      "similarity": 0.739281952381134,
+      "datetime_utc": "2011-08-26T11:00Z",
+      "source_file": "MHX_2011_26_1100.txt",
+      "similarity": 0.9197522401809692,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-06-25T08:16Z",
       "source_file": "MHX_2011_25_0816.txt",
-      "similarity": 0.723311185836792,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-06-25T16:23Z",
-      "source_file": "MHX_2011_25_1623.txt",
-      "similarity": 0.6993504166603088,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-06-25T17:20Z",
-      "source_file": "MHX_2011_25_1720.txt",
-      "similarity": 0.6993504166603088,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-06-25T17:13Z",
-      "source_file": "MHX_2011_25_1713.txt",
-      "similarity": 0.6993504166603088,
+      "similarity": 0.8741644620895386,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-06-25T11:33Z",
       "source_file": "MHX_2011_25_1133.txt",
-      "similarity": 0.6993504166603088,
+      "similarity": 0.8484066724777222,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-06-25T16:23Z",
+      "source_file": "MHX_2011_25_1623.txt",
+      "similarity": 0.8484066724777222,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-06-25T17:13Z",
+      "source_file": "MHX_2011_25_1713.txt",
+      "similarity": 0.8484066724777222,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-06-25T17:20Z",
+      "source_file": "MHX_2011_25_1720.txt",
+      "similarity": 0.8484066724777222,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-03-15T00:43Z",
       "source_file": "MHX_2006_15_0043.txt",
-      "similarity": 0.615386962890625,
+      "similarity": 0.7363550662994385,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-02-13T20:23Z",
-      "source_file": "MHX_2009_13_2023.txt",
-      "similarity": 0.5849565267562866,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-06-03T00:09Z",
-      "source_file": "MHX_2006_03_0009.txt",
-      "similarity": 0.5772222280502319,
-      "label": "severe_wind",
+      "datetime_utc": "2011-04-22T20:19Z",
+      "source_file": "MHX_2011_22_2019.txt",
+      "similarity": 0.6718757152557373,
+      "label": "tornado",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-07-29T00:26Z",
+      "source_file": "MHX_2004_29_0026.txt",
+      "similarity": 0.6497792601585388,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
+    "level": "MODERATE",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.6776842474937439,
+    "mean_similarity": 0.816530567407608,
+    "base_rate": 0.5206861191386222,
+    "signal_value": 0.2793138808613779,
     "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.68 below confidence floor 0.7",
-    "product_id": "202609291048-KMHX-FXUS62-AFDMHX",
-    "afd_time": "2026-09-29T10:48:00Z",
-    "updated": "2026-09-29T15:58:34.381673+00:00"
+    "product_id": "202609291740-KMHX-FXUS62-AFDMHX",
+    "afd_time": "2026-09-29T17:40:00Z",
+    "updated": "2026-09-29T20:52:48.116034+00:00"
   }
 }
