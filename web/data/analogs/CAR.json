@@ -1,91 +1,91 @@
 {
   "office": "CAR",
-  "product_id": "202609301230-KCAR-FXUS61-AFDCAR",
-  "afd_time": "2026-09-30T12:30:00Z",
+  "product_id": "202609301820-KCAR-FXUS61-AFDCAR",
+  "afd_time": "2026-09-30T18:20:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-30T13:49:38.292619+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...The next round of rain showers is expected for \nthe end of the week, though drought relief is unlikely. \n\nKEY MESSAGE 1 DESCRIPTION...\nHigh pressure to the south will build through mid-week, bringing\ndry conditions until late week. Low pressure to the northwest in\nCanada tracks ea",
+  "updated": "2026-09-30T19:26:37.830983+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...The next round of rain showers is expected for \nthe end of the week, though drought relief is unlikely. \n\nKEY MESSAGE 1 DESCRIPTION...\nHigh pressure over the mid-Atlantic region results in dry \nconditions until Friday. Low pressure to the northwest in Canada\ntracks eastward, bring",
   "analogs": [
-    {
-      "datetime_utc": "2023-11-08T20:51Z",
-      "source_file": "CAR_2023_08_2051.txt",
-      "similarity": 0.5215401649475098,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-11-09T03:35Z",
-      "source_file": "CAR_2023_09_0335.txt",
-      "similarity": 0.5215401649475098,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-11-09T00:37Z",
-      "source_file": "CAR_2023_09_0037.txt",
-      "similarity": 0.5215401649475098,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-11-08T22:52Z",
-      "source_file": "CAR_2023_08_2252.txt",
-      "similarity": 0.5215401649475098,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-11-09T06:04Z",
-      "source_file": "CAR_2023_09_0604.txt",
-      "similarity": 0.5215401649475098,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2018-06-27T19:36Z",
       "source_file": "CAR_2018_27_1936_1.txt",
-      "similarity": 0.5207933187484741,
+      "similarity": 0.5072850584983826,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-06-27T19:36Z",
       "source_file": "CAR_2018_27_1936.txt",
-      "similarity": 0.5207933187484741,
+      "similarity": 0.5072850584983826,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-08-29T15:23Z",
-      "source_file": "CAR_2011_29_1523.txt",
-      "similarity": 0.5199333429336548,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2023-11-09T06:04Z",
+      "source_file": "CAR_2023_09_0604.txt",
+      "similarity": 0.5054105520248413,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2011-08-29T09:04Z",
-      "source_file": "CAR_2011_29_0904.txt",
-      "similarity": 0.5199333429336548,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2023-11-09T03:35Z",
+      "source_file": "CAR_2023_09_0335.txt",
+      "similarity": 0.5054105520248413,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-11-09T00:37Z",
+      "source_file": "CAR_2023_09_0037.txt",
+      "similarity": 0.5054105520248413,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-11-08T20:51Z",
+      "source_file": "CAR_2023_08_2051.txt",
+      "similarity": 0.5054105520248413,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-11-08T22:52Z",
+      "source_file": "CAR_2023_08_2252.txt",
+      "similarity": 0.5054105520248413,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-05-08T20:52Z",
+      "source_file": "CAR_2021_08_2052.txt",
+      "similarity": 0.503207266330719,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-10-29T07:27Z",
+      "source_file": "CAR_2005_29_0727.txt",
+      "similarity": 0.5028632879257202,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2011-08-29T13:39Z",
       "source_file": "CAR_2011_29_1339.txt",
-      "similarity": 0.5199333429336548,
+      "similarity": 0.5024564266204834,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.5209087491035461,
-    "n_severe": 5,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.5050149857997894,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.52 below confidence floor 0.7",
-    "product_id": "202609301230-KCAR-FXUS61-AFDCAR",
-    "afd_time": "2026-09-30T12:30:00Z",
-    "updated": "2026-09-30T13:49:38.292619+00:00"
+    "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
+    "product_id": "202609301820-KCAR-FXUS61-AFDCAR",
+    "afd_time": "2026-09-30T18:20:00Z",
+    "updated": "2026-09-30T19:26:37.830983+00:00"
   }
 }

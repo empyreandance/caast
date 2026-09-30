@@ -1,91 +1,91 @@
 {
   "office": "GGW",
-  "product_id": "202609300454-KGGW-FXUS65-AFDGGW",
-  "afd_time": "2026-09-30T04:54:00Z",
+  "product_id": "202609301846-KGGW-FXUS65-AFDGGW",
+  "afd_time": "2026-09-30T18:46:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-30T06:49:28.775035+00:00",
-  "query_preview": "..\nSynoptic Setup: Forecast begins with zonal flow running from off \nthe coast of the Pacific Northwest through the PCNW and Montana. \nNorth of this is cooler air at the surface embedded in a broad \ntrough over the southwestern quadrant of Canada that is leaking \ndown into the Plains and northeast M",
+  "updated": "2026-09-30T19:26:37.830983+00:00",
+  "query_preview": "..\nSynoptic Setup: A cold front is dropping south across Montana \nthis afternoon. Quite a difference in conditions north of the \nfront this afternoon with clouds, scattered showers and temps in \nthe 50s over the northern zones with 60s and 70s to the south with\nmore sunshine.\n\nModels did not pick up",
   "analogs": [
     {
-      "datetime_utc": "2025-11-26T21:19Z",
-      "source_file": "GGW_2025_26_2119.txt",
-      "similarity": 0.44701290130615234,
-      "label": "winter",
+      "datetime_utc": "2006-07-04T02:58Z",
+      "source_file": "GGW_2006_04_0258.txt",
+      "similarity": 0.44399330019950867,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-06-26T09:27Z",
-      "source_file": "GGW_2006_26_0927.txt",
-      "similarity": 0.43697628378868103,
+      "datetime_utc": "2006-07-03T20:49Z",
+      "source_file": "GGW_2006_03_2049.txt",
+      "similarity": 0.44399330019950867,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-07-27T20:39Z",
+      "source_file": "GGW_2006_27_2039.txt",
+      "similarity": 0.43618205189704895,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-06-26T15:01Z",
-      "source_file": "GGW_2006_26_1501.txt",
-      "similarity": 0.43697628378868103,
-      "label": "severe_wind",
+      "datetime_utc": "2006-06-09T20:34Z",
+      "source_file": "GGW_2006_09_2034_1.txt",
+      "similarity": 0.435539573431015,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-05-13T08:33Z",
-      "source_file": "GGW_2006_13_0833.txt",
-      "similarity": 0.4329164922237396,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-05-13T15:51Z",
-      "source_file": "GGW_2006_13_1551.txt",
-      "similarity": 0.4329164922237396,
-      "label": "severe_wind",
+      "datetime_utc": "2006-06-10T02:47Z",
+      "source_file": "GGW_2006_10_0247.txt",
+      "similarity": 0.435539573431015,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-06-17T10:17Z",
       "source_file": "GGW_2010_17_1017.txt",
-      "similarity": 0.4205707609653473,
+      "similarity": 0.42667481303215027,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-06-17T16:21Z",
       "source_file": "GGW_2010_17_1621_1.txt",
-      "similarity": 0.4205707609653473,
+      "similarity": 0.42667481303215027,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2025-11-27T10:35Z",
-      "source_file": "GGW_2025_27_1035.txt",
-      "similarity": 0.4198533296585083,
+      "datetime_utc": "2006-05-13T15:51Z",
+      "source_file": "GGW_2006_13_1551.txt",
+      "similarity": 0.42556869983673096,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-05-13T08:33Z",
+      "source_file": "GGW_2006_13_0833.txt",
+      "similarity": 0.42556869983673096,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-11-26T21:19Z",
+      "source_file": "GGW_2025_26_2119.txt",
+      "similarity": 0.4247065782546997,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-07-03T20:49Z",
-      "source_file": "GGW_2006_03_2049.txt",
-      "similarity": 0.4186866283416748,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-07-04T02:58Z",
-      "source_file": "GGW_2006_04_0258.txt",
-      "similarity": 0.4186866283416748,
-      "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.4285166561603546,
-    "n_severe": 6,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.43244414031505585,
+    "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202609300454-KGGW-FXUS65-AFDGGW",
-    "afd_time": "2026-09-30T04:54:00Z",
-    "updated": "2026-09-30T06:49:28.775035+00:00"
+    "product_id": "202609301846-KGGW-FXUS65-AFDGGW",
+    "afd_time": "2026-09-30T18:46:00Z",
+    "updated": "2026-09-30T19:26:37.830983+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "OAX",
-  "product_id": "202609301047-KOAX-FXUS63-AFDOAX",
-  "afd_time": "2026-09-30T10:47:00Z",
+  "product_id": "202609301834-KOAX-FXUS63-AFDOAX",
+  "afd_time": "2026-09-30T18:34:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-30T13:49:38.292619+00:00",
-  "query_preview": "..\nIssued at 1136 PM CDT Tue Sep 29 2026\n\nClouds across eastern Nebraska and western Iowa tonight as a\nplume of moisture continues to stream in from the remnants of\nHurricane Polo as well as the Gulf. An upper-level trough over\nArizona is helping to pull this moisture northward as well as\ntrack thes",
+  "updated": "2026-09-30T19:26:37.830983+00:00",
+  "query_preview": "..\nIssued at 126 PM CDT Wed Sep 30 2026\n\nToday through Thursday...\n\nGulf moisture, surging into the region ahead of the remnants of \nHurricane Polo, crashed into a stalled frontal boundary, bisecting \nthe forecast area. This interaction brought a steady rainfall to \nlocations along and south of I-80",
   "analogs": [
-    {
-      "datetime_utc": "2009-03-02T08:50Z",
-      "source_file": "OAX_2009_02_0850.txt",
-      "similarity": 0.4455515444278717,
-      "label": "severe_hail",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2010-11-02T19:48Z",
       "source_file": "OAX_2010_02_1948.txt",
-      "similarity": 0.44456276297569275,
+      "similarity": 0.4593788981437683,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-06-06T19:29Z",
-      "source_file": "OAX_2007_06_1929.txt",
-      "similarity": 0.44152742624282837,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-07-21T07:41Z",
-      "source_file": "OAX_2004_21_0741.txt",
-      "similarity": 0.43910467624664307,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-10-08T07:48Z",
-      "source_file": "OAX_2008_08_0748.txt",
-      "similarity": 0.43681401014328003,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-05-18T18:50Z",
-      "source_file": "OAX_2013_18_1850.txt",
-      "similarity": 0.4354891777038574,
-      "label": "tornado",
-      "is_severe": true
     },
     {
       "datetime_utc": "2018-02-01T05:20Z",
       "source_file": "OAX_2018_01_0520_1.txt",
-      "similarity": 0.43419551849365234,
+      "similarity": 0.4547845125198364,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2018-02-28T21:08Z",
       "source_file": "OAX_2018_28_2108.txt",
-      "similarity": 0.43419551849365234,
+      "similarity": 0.4547845125198364,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2016-11-07T12:46Z",
-      "source_file": "OAX_2016_07_1246.txt",
-      "similarity": 0.43166226148605347,
+      "datetime_utc": "2007-06-06T19:29Z",
+      "source_file": "OAX_2007_06_1929.txt",
+      "similarity": 0.45429727435112,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-07-21T07:41Z",
+      "source_file": "OAX_2004_21_0741.txt",
+      "similarity": 0.45233863592147827,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-03-02T08:50Z",
+      "source_file": "OAX_2009_02_0850.txt",
+      "similarity": 0.44933584332466125,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-10-08T07:48Z",
+      "source_file": "OAX_2008_08_0748.txt",
+      "similarity": 0.44759103655815125,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-11-07T17:24Z",
-      "source_file": "OAX_2016_07_1724.txt",
-      "similarity": 0.43166226148605347,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2013-05-18T18:50Z",
+      "source_file": "OAX_2013_18_1850.txt",
+      "similarity": 0.4438055157661438,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-09-11T08:03Z",
+      "source_file": "OAX_2018_11_0803.txt",
+      "similarity": 0.44359472393989563,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-09-11T11:37Z",
+      "source_file": "OAX_2018_11_1137.txt",
+      "similarity": 0.44359472393989563,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.4374765157699585,
-    "n_severe": 5,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.4503505676984787,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609301047-KOAX-FXUS63-AFDOAX",
-    "afd_time": "2026-09-30T10:47:00Z",
-    "updated": "2026-09-30T13:49:38.292619+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202609301834-KOAX-FXUS63-AFDOAX",
+    "afd_time": "2026-09-30T18:34:00Z",
+    "updated": "2026-09-30T19:26:37.830983+00:00"
   }
 }
