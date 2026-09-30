@@ -1,91 +1,91 @@
 {
   "office": "GID",
-  "product_id": "202609291748-KGID-FXUS63-AFDGID",
-  "afd_time": "2026-09-29T17:48:00Z",
+  "product_id": "202609292358-KGID-FXUS63-AFDGID",
+  "afd_time": "2026-09-29T23:58:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-29T20:52:48.116034+00:00",
-  "query_preview": "..\nIssued at 343 PM CDT Mon Sep 28 2026\n\n\nRest of Monday and Tonight... \n\nA few isolated showers and thunderstorms (primarily near and \nnorth of the KS / NE state line) cannot be ruled out this \nafternoon into evening, however a substantial cap casts a good \ndeal of doubt on these storms successfull",
+  "updated": "2026-09-30T00:33:03.307811+00:00",
+  "query_preview": "..\nIssued at 415 PM CDT Tue Sep 29 2026\n\nCurrently...\n\nThe first of several rounds of precipitation to impact the\nforecast area made its way through the area last night into \nearly this morning, dropping a swath of roughly 0.25-0.75in \nacross the NWrn quarter of the forecast area. The next round is ",
   "analogs": [
     {
       "datetime_utc": "2006-10-02T08:58Z",
       "source_file": "GID_2006_02_0858.txt",
-      "similarity": 0.4642108082771301,
+      "similarity": 0.41979801654815674,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-01-18T10:47Z",
+      "source_file": "GID_2023_18_1047.txt",
+      "similarity": 0.40899643301963806,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-01-18T11:59Z",
+      "source_file": "GID_2023_18_1159.txt",
+      "similarity": 0.40899643301963806,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-01-18T18:14Z",
+      "source_file": "GID_2023_18_1814.txt",
+      "similarity": 0.40899643301963806,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-01-18T18:36Z",
+      "source_file": "GID_2023_18_1836.txt",
+      "similarity": 0.40899643301963806,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-12-09T02:12Z",
       "source_file": "GID_2004_09_0212.txt",
-      "similarity": 0.4497641324996948,
+      "similarity": 0.40422165393829346,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-10-10T17:24Z",
-      "source_file": "GID_2011_10_1724.txt",
-      "similarity": 0.44778087735176086,
+      "datetime_utc": "2012-09-26T23:51Z",
+      "source_file": "GID_2012_26_2351.txt",
+      "similarity": 0.40246573090553284,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-10-10T09:22Z",
-      "source_file": "GID_2011_10_0922.txt",
-      "similarity": 0.44778087735176086,
+      "datetime_utc": "2012-09-27T05:09Z",
+      "source_file": "GID_2012_27_0509.txt",
+      "similarity": 0.40246573090553284,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-05-20T23:07Z",
-      "source_file": "GID_2014_20_2307.txt",
-      "similarity": 0.44616761803627014,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-05-20T21:05Z",
-      "source_file": "GID_2014_20_2105.txt",
-      "similarity": 0.44616761803627014,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-05-21T04:29Z",
-      "source_file": "GID_2014_21_0429.txt",
-      "similarity": 0.44616761803627014,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-05-21T05:49Z",
-      "source_file": "GID_2014_21_0549.txt",
-      "similarity": 0.44616761803627014,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-10-17T20:17Z",
-      "source_file": "GID_2010_17_2017.txt",
-      "similarity": 0.4425468444824219,
+      "datetime_utc": "2012-09-26T20:44Z",
+      "source_file": "GID_2012_26_2044.txt",
+      "similarity": 0.40246573090553284,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-10-18T07:42Z",
-      "source_file": "GID_2010_18_0742.txt",
-      "similarity": 0.4425468444824219,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2013-07-10T05:37Z",
+      "source_file": "GID_2013_10_0537.txt",
+      "similarity": 0.40182220935821533,
+      "label": "flood",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.8,
-    "mean_similarity": 0.4479300856590271,
-    "n_severe": 8,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.4069224804639816,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202609291748-KGID-FXUS63-AFDGID",
-    "afd_time": "2026-09-29T17:48:00Z",
-    "updated": "2026-09-29T20:52:48.116034+00:00"
+    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
+    "product_id": "202609292358-KGID-FXUS63-AFDGID",
+    "afd_time": "2026-09-29T23:58:00Z",
+    "updated": "2026-09-30T00:33:03.307811+00:00"
   }
 }

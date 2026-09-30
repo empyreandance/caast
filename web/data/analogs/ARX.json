@@ -1,22 +1,29 @@
 {
   "office": "ARX",
-  "product_id": "202609291822-KARX-FXUS63-AFDARX",
-  "afd_time": "2026-09-29T18:22:00Z",
+  "product_id": "202609292335-KARX-FXUS63-AFDARX",
+  "afd_time": "2026-09-29T23:35:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-29T20:52:48.116034+00:00",
+  "updated": "2026-09-30T00:33:03.307811+00:00",
   "query_preview": "..\nIssued at 118 PM CDT Tue Sep 29 2026\n\nThis afternoon to Thursday: Widespread Rainfall\n\nLight rain showers are moving east across Iowa and Minnesota at\nthis time. This activity will reach the western portions of the\nforecast area here shortly and should continue to move east \nover the region the r",
   "analogs": [
     {
       "datetime_utc": "2009-10-23T08:56Z",
       "source_file": "ARX_2009_23_0856.txt",
-      "similarity": 0.45563215017318726,
+      "similarity": 0.45563220977783203,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2010-12-02T21:24Z",
       "source_file": "ARX_2010_02_2124.txt",
-      "similarity": 0.4495944678783417,
+      "similarity": 0.44959452748298645,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-05-03T03:10Z",
+      "source_file": "ARX_2020_03_0310.txt",
+      "similarity": 0.439625084400177,
       "label": "winter",
       "is_severe": false
     },
@@ -25,13 +32,6 @@
       "source_file": "ARX_2020_02_1930_1.txt",
       "similarity": 0.439625084400177,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-05-03T03:10Z",
-      "source_file": "ARX_2020_03_0310.txt",
-      "similarity": 0.439625084400177,
-      "label": "winter",
       "is_severe": false
     },
     {
@@ -44,35 +44,35 @@
     {
       "datetime_utc": "2006-10-08T20:15Z",
       "source_file": "ARX_2006_08_2015.txt",
-      "similarity": 0.4335337281227112,
+      "similarity": 0.43353381752967834,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-03-09T09:15Z",
       "source_file": "ARX_2011_09_0915.txt",
-      "similarity": 0.43079352378845215,
+      "similarity": 0.4307935833930969,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-07-30T07:08Z",
       "source_file": "ARX_2009_30_0708.txt",
-      "similarity": 0.43020328879356384,
+      "similarity": 0.43020331859588623,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-07-29T19:26Z",
       "source_file": "ARX_2009_29_1926.txt",
-      "similarity": 0.43020328879356384,
+      "similarity": 0.43020331859588623,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-07-22T07:41Z",
       "source_file": "ARX_2004_22_0741.txt",
-      "similarity": 0.4299677312374115,
+      "similarity": 0.4299677610397339,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.4378803431987762,
+    "mean_similarity": 0.4378803789615631,
     "n_severe": 2,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202609291822-KARX-FXUS63-AFDARX",
-    "afd_time": "2026-09-29T18:22:00Z",
-    "updated": "2026-09-29T20:52:48.116034+00:00"
+    "product_id": "202609292335-KARX-FXUS63-AFDARX",
+    "afd_time": "2026-09-29T23:35:00Z",
+    "updated": "2026-09-30T00:33:03.307811+00:00"
   }
 }

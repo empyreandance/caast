@@ -1,9 +1,9 @@
 {
   "office": "PIH",
-  "product_id": "202609291901-KPIH-FXUS65-AFDPIH",
-  "afd_time": "2026-09-29T19:01:00Z",
+  "product_id": "202609292316-KPIH-FXUS65-AFDPIH",
+  "afd_time": "2026-09-29T23:16:00Z",
   "section_type": "discussion",
-  "updated": "2026-09-29T20:52:48.116034+00:00",
+  "updated": "2026-09-30T00:33:03.307811+00:00",
   "query_preview": "..\nIssued at 100 PM MDT Tue Sep 29 2026\n\nAfternoon satellite imagery displays mostly clear skies with \nonly a few stray cirrus clouds drifting across the region. A \nbroad, tranquil weather pattern is firmly established, marking \nthe beginning of a prolonged period of quiet weather across \neastern Id",
   "analogs": [
     {
@@ -16,22 +16,15 @@
     {
       "datetime_utc": "2006-05-17T01:41Z",
       "source_file": "PIH_2006_17_0141.txt",
-      "similarity": 0.3142992854118347,
+      "similarity": 0.31429922580718994,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-08-26T07:59Z",
       "source_file": "PIH_2004_26_0759.txt",
-      "similarity": 0.3113124668598175,
+      "similarity": 0.3113124370574951,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-11-02T14:29Z",
-      "source_file": "PIH_2010_02_1429.txt",
-      "similarity": 0.3097009062767029,
-      "label": "winter",
       "is_severe": false
     },
     {
@@ -42,16 +35,23 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-09-24T16:17Z",
-      "source_file": "PIH_2005_24_1617.txt",
-      "similarity": 0.3075604736804962,
-      "label": "quiet",
+      "datetime_utc": "2010-11-02T14:29Z",
+      "source_file": "PIH_2010_02_1429.txt",
+      "similarity": 0.3097009062767029,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-09-24T09:14Z",
       "source_file": "PIH_2005_24_0914.txt",
-      "similarity": 0.3075604736804962,
+      "similarity": 0.30756038427352905,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-09-24T16:17Z",
+      "source_file": "PIH_2005_24_1617.txt",
+      "similarity": 0.30756038427352905,
       "label": "quiet",
       "is_severe": false
     },
@@ -65,14 +65,14 @@
     {
       "datetime_utc": "2005-02-14T17:45Z",
       "source_file": "PIH_2005_14_1745.txt",
-      "similarity": 0.3047066330909729,
+      "similarity": 0.3047066032886505,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-06-27T19:43Z",
       "source_file": "PIH_2009_27_1943.txt",
-      "similarity": 0.304401695728302,
+      "similarity": 0.3044016361236572,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.3094859540462494,
+    "mean_similarity": 0.3094859182834625,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.31 below confidence floor 0.7",
-    "product_id": "202609291901-KPIH-FXUS65-AFDPIH",
-    "afd_time": "2026-09-29T19:01:00Z",
-    "updated": "2026-09-29T20:52:48.116034+00:00"
+    "product_id": "202609292316-KPIH-FXUS65-AFDPIH",
+    "afd_time": "2026-09-29T23:16:00Z",
+    "updated": "2026-09-30T00:33:03.307811+00:00"
   }
 }
