@@ -1,17 +1,24 @@
 {
   "office": "LUB",
-  "product_id": "202610010510-KLUB-FXUS64-AFDLUB",
-  "afd_time": "2026-10-01T05:10:00Z",
+  "product_id": "202610011120-KLUB-FXUS64-AFDLUB",
+  "afd_time": "2026-10-01T11:20:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-01T06:03:37.494398+00:00",
+  "updated": "2026-10-01T13:25:28.908119+00:00",
   "query_preview": "..\n(Friday night through next Wednesday)\nIssued at 1018 PM CDT Wed Sep 30 2026\n\nCloudy skies and scattered showers into the afternoon on Friday will \nallow for some of the coolest high temperatures we have seen in some \ntime with highs only reaching the mid-to-upper 60s on the Caprock \nand low 70s o",
   "analogs": [
     {
       "datetime_utc": "2018-12-10T20:42Z",
       "source_file": "LUB_2018_10_2042.txt",
-      "similarity": 0.5038681626319885,
+      "similarity": 0.5038682222366333,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-01-17T17:25Z",
+      "source_file": "LUB_2021_17_1725_1.txt",
+      "similarity": 0.49811625480651855,
+      "label": "winter",
+      "is_severe": false
     },
     {
       "datetime_utc": "2021-01-17T11:11Z",
@@ -28,37 +35,30 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2021-01-17T17:25Z",
-      "source_file": "LUB_2021_17_1725_1.txt",
-      "similarity": 0.49811625480651855,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2004-09-09T20:00Z",
       "source_file": "LUB_2004_09_2000.txt",
-      "similarity": 0.4932357370853424,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-07-17T08:36Z",
-      "source_file": "LUB_2016_17_0836.txt",
-      "similarity": 0.49263665080070496,
+      "similarity": 0.4932357966899872,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-07-17T10:59Z",
       "source_file": "LUB_2016_17_1059.txt",
-      "similarity": 0.49263665080070496,
+      "similarity": 0.49263671040534973,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-07-17T17:33Z",
       "source_file": "LUB_2016_17_1733.txt",
-      "similarity": 0.49263665080070496,
+      "similarity": 0.49263671040534973,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-07-17T08:36Z",
+      "source_file": "LUB_2016_17_0836.txt",
+      "similarity": 0.49263671040534973,
       "label": "quiet",
       "is_severe": false
     },
@@ -70,9 +70,9 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-01-23T11:26Z",
-      "source_file": "LUB_2011_23_1126.txt",
-      "similarity": 0.491361141204834,
+      "datetime_utc": "2011-01-23T08:29Z",
+      "source_file": "LUB_2011_23_0829.txt",
+      "similarity": 0.49136120080947876,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.4952451467514038,
+    "mean_similarity": 0.4952451825141907,
     "n_severe": 2,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202610010510-KLUB-FXUS64-AFDLUB",
-    "afd_time": "2026-10-01T05:10:00Z",
-    "updated": "2026-10-01T06:03:37.494398+00:00"
+    "product_id": "202610011120-KLUB-FXUS64-AFDLUB",
+    "afd_time": "2026-10-01T11:20:00Z",
+    "updated": "2026-10-01T13:25:28.908119+00:00"
   }
 }

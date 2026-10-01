@@ -1,91 +1,91 @@
 {
   "office": "SGF",
-  "product_id": "202610010354-KSGF-FXUS63-AFDSGF",
-  "afd_time": "2026-10-01T03:54:00Z",
+  "product_id": "202610011110-KSGF-FXUS63-AFDSGF",
+  "afd_time": "2026-10-01T11:10:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-01T06:03:37.494398+00:00",
-  "query_preview": "/FRIDAY NIGHT THROUGH WEDNESDAY/...\nIssued at 1154 AM CDT Wed Sep 30 2026\n\nThe weekend into early next week is quiet with no precip in the\nforecast, highs in the 70s, and lows in the 50s.",
+  "updated": "2026-10-01T13:25:28.908119+00:00",
+  "query_preview": "/FRIDAY NIGHT THROUGH WEDNESDAY/...\nIssued at 239 AM CDT Thu Oct 1 2026\n\nA drier airmass will settle into the region, with dry \nconditions through the weekend and into the majority of the \nwork week. Expect temperatures to remain in the 70s on a daily \nbasis before a warm-up occurs mid-week causing ",
   "analogs": [
     {
-      "datetime_utc": "2014-11-02T20:51Z",
-      "source_file": "SGF_2014_02_2051.txt",
-      "similarity": 0.4217816889286041,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2010-08-08T08:24Z",
+      "source_file": "SGF_2010_08_0824.txt",
+      "similarity": 0.429589182138443,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2014-11-02T23:09Z",
       "source_file": "SGF_2014_02_2309.txt",
-      "similarity": 0.4217816889286041,
+      "similarity": 0.42728692293167114,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-11-02T20:51Z",
+      "source_file": "SGF_2014_02_2051.txt",
+      "similarity": 0.42728692293167114,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-11-03T05:26Z",
       "source_file": "SGF_2014_03_0526.txt",
-      "similarity": 0.4217816889286041,
+      "similarity": 0.42728692293167114,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-01-09T23:55Z",
-      "source_file": "SGF_2018_09_2355.txt",
-      "similarity": 0.4197930097579956,
-      "label": "winter",
+      "datetime_utc": "2021-12-20T23:59Z",
+      "source_file": "SGF_2021_20_2359.txt",
+      "similarity": 0.42453065514564514,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-01-10T05:56Z",
-      "source_file": "SGF_2018_10_0556.txt",
-      "similarity": 0.4197930097579956,
-      "label": "winter",
+      "datetime_utc": "2021-12-20T20:38Z",
+      "source_file": "SGF_2021_20_2038.txt",
+      "similarity": 0.42453065514564514,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-01-09T19:54Z",
-      "source_file": "SGF_2018_09_1954_1.txt",
-      "similarity": 0.4197930097579956,
-      "label": "winter",
+      "datetime_utc": "2021-12-21T05:43Z",
+      "source_file": "SGF_2021_21_0543.txt",
+      "similarity": 0.42453065514564514,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-08-08T08:24Z",
-      "source_file": "SGF_2010_08_0824.txt",
-      "similarity": 0.4190536141395569,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-02-22T10:05Z",
-      "source_file": "SGF_2008_22_1005.txt",
-      "similarity": 0.41435563564300537,
-      "label": "winter",
+      "datetime_utc": "2022-07-08T17:07Z",
+      "source_file": "SGF_2022_08_1707.txt",
+      "similarity": 0.42305368185043335,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2008-02-22T11:44Z",
-      "source_file": "SGF_2008_22_1144_1.txt",
-      "similarity": 0.41435563564300537,
-      "label": "winter",
+      "datetime_utc": "2022-07-08T11:27Z",
+      "source_file": "SGF_2022_08_1127.txt",
+      "similarity": 0.42305368185043335,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2022-03-25T11:27Z",
-      "source_file": "SGF_2022_25_1127.txt",
-      "similarity": 0.4125783443450928,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2022-07-08T18:00Z",
+      "source_file": "SGF_2022_08_1800.txt",
+      "similarity": 0.42305368185043335,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.41850673258304594,
-    "n_severe": 2,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.4254202961921692,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202610010354-KSGF-FXUS63-AFDSGF",
-    "afd_time": "2026-10-01T03:54:00Z",
-    "updated": "2026-10-01T06:03:37.494398+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202610011110-KSGF-FXUS63-AFDSGF",
+    "afd_time": "2026-10-01T11:10:00Z",
+    "updated": "2026-10-01T13:25:28.908119+00:00"
   }
 }
