@@ -1,78 +1,78 @@
 {
   "office": "EAX",
-  "product_id": "202610011122-KEAX-FXUS63-AFDEAX",
-  "afd_time": "2026-10-01T11:22:00Z",
+  "product_id": "202610011927-KEAX-FXUS63-AFDEAX",
+  "afd_time": "2026-10-01T19:27:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-01T13:25:28.908119+00:00",
-  "query_preview": "..\nIssued at 158 AM CDT Thu Oct 1 2026\n\nThe heavy rain potential will continue through tonight, however the \nbiggest forecast change is that axis of heaviest precipitation \ncontinues to trend further south. This may prove helpful in \nmitigating flooding across northeast Kansas in northern Missouri \n",
+  "updated": "2026-10-01T19:36:22.419491+00:00",
+  "query_preview": "..\nIssued at 225 PM CDT Thu Oct 1 2026\n\nA 500-hPa trough is currently moving across the central and\nsouthern Plains with an associated surface low pressure system\ndeveloping in the vicinity of the OK/TX panhandles. A stalled\nfrontal boundary is positioned from northern IL to southern KS\nand is actin",
   "analogs": [
     {
       "datetime_utc": "2014-08-03T17:37Z",
       "source_file": "EAX_2014_03_1737.txt",
-      "similarity": 0.45339488983154297,
+      "similarity": 0.42371875047683716,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-08-03T20:44Z",
       "source_file": "EAX_2014_03_2044.txt",
-      "similarity": 0.45339488983154297,
+      "similarity": 0.42371875047683716,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-05-15T11:35Z",
-      "source_file": "EAX_2024_15_1135.txt",
-      "similarity": 0.4418834447860718,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-05-15T17:40Z",
-      "source_file": "EAX_2024_15_1740.txt",
-      "similarity": 0.4418834447860718,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-05-15T08:11Z",
-      "source_file": "EAX_2024_15_0811.txt",
-      "similarity": 0.4418834447860718,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-03-29T18:05Z",
       "source_file": "EAX_2016_29_1805.txt",
-      "similarity": 0.43999361991882324,
+      "similarity": 0.42150241136550903,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-03-29T09:00Z",
       "source_file": "EAX_2016_29_0900_2.txt",
-      "similarity": 0.43999361991882324,
+      "similarity": 0.42150241136550903,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-03-29T10:59Z",
       "source_file": "EAX_2016_29_1059.txt",
-      "similarity": 0.43999361991882324,
+      "similarity": 0.42150241136550903,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-03-30T17:40Z",
       "source_file": "EAX_2014_30_1740_1.txt",
-      "similarity": 0.4375476539134979,
+      "similarity": 0.4123426377773285,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-03-30T09:03Z",
+      "source_file": "EAX_2014_30_0903.txt",
+      "similarity": 0.4123426377773285,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-03-30T10:54Z",
       "source_file": "EAX_2014_30_1054.txt",
-      "similarity": 0.4375476539134979,
+      "similarity": 0.4123426377773285,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-05-15T17:40Z",
+      "source_file": "EAX_2024_15_1740.txt",
+      "similarity": 0.40868765115737915,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-05-15T11:35Z",
+      "source_file": "EAX_2024_15_1135.txt",
+      "similarity": 0.40868765115737915,
       "label": "tornado",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 1.0,
-    "mean_similarity": 0.4427516281604767,
+    "mean_similarity": 0.41663479506969453,
     "n_severe": 10,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610011122-KEAX-FXUS63-AFDEAX",
-    "afd_time": "2026-10-01T11:22:00Z",
-    "updated": "2026-10-01T13:25:28.908119+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202610011927-KEAX-FXUS63-AFDEAX",
+    "afd_time": "2026-10-01T19:27:00Z",
+    "updated": "2026-10-01T19:36:22.419491+00:00"
   }
 }

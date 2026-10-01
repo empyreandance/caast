@@ -1,91 +1,91 @@
 {
   "office": "ILN",
-  "product_id": "202610011043-KILN-FXUS61-AFDILN",
-  "afd_time": "2026-10-01T10:43:00Z",
+  "product_id": "202610011813-KILN-FXUS61-AFDILN",
+  "afd_time": "2026-10-01T18:13:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-01T13:25:28.908119+00:00",
-  "query_preview": "..\nKey Message 1)\n\nA mid level ridge centered over the southeast U.S. extending north\ninto the Ohio Valley will offer dry and very warm conditions today. \n\nWell above normal temperatures are expected for today with highs\nfrom the mid 80s north to the upper 80s south. Can not rule out the\npotential f",
+  "updated": "2026-10-01T19:36:22.419491+00:00",
+  "query_preview": "..\nKey Message 1)\nHigh temperatures will be in the 80s in most locations this afternoon\nwith a few spots near 90 degrees. Breezy conditions will continue\ninto the early evening hours.  A cold front will move through on \nFriday ushering in cooler air through the day. Temperatures will then\ngenerally ",
   "analogs": [
+    {
+      "datetime_utc": "2008-06-08T20:21Z",
+      "source_file": "ILN_2008_08_2021.txt",
+      "similarity": 0.45187073945999146,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-06-08T23:40Z",
+      "source_file": "ILN_2008_08_2340.txt",
+      "similarity": 0.45187073945999146,
+      "label": "tornado",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2008-06-09T07:49Z",
       "source_file": "ILN_2008_09_0749.txt",
-      "similarity": 0.4543587267398834,
+      "similarity": 0.45187073945999146,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-06-09T06:07Z",
       "source_file": "ILN_2008_09_0607_1.txt",
-      "similarity": 0.4543587267398834,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-06-08T23:40Z",
-      "source_file": "ILN_2008_08_2340.txt",
-      "similarity": 0.4543587267398834,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-06-09T16:31Z",
-      "source_file": "ILN_2008_09_1631.txt",
-      "similarity": 0.4543587267398834,
+      "similarity": 0.45187073945999146,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-06-09T10:53Z",
       "source_file": "ILN_2008_09_1053.txt",
-      "similarity": 0.4543587267398834,
+      "similarity": 0.45187073945999146,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-06-08T20:21Z",
-      "source_file": "ILN_2008_08_2021.txt",
-      "similarity": 0.4543587267398834,
-      "label": "tornado",
+      "datetime_utc": "2008-06-09T16:31Z",
+      "source_file": "ILN_2008_09_1631.txt",
+      "similarity": 0.45187073945999146,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-11-27T08:56Z",
+      "source_file": "ILN_2005_27_0856.txt",
+      "similarity": 0.4496042728424072,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-07-07T10:45Z",
+      "source_file": "ILN_2012_07_1045.txt",
+      "similarity": 0.4453917145729065,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-07-07T08:14Z",
+      "source_file": "ILN_2012_07_0814.txt",
+      "similarity": 0.4453917145729065,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2025-09-06T18:00Z",
       "source_file": "ILN_2025_06_1800.txt",
-      "similarity": 0.44882044196128845,
+      "similarity": 0.44397813081741333,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2025-09-06T23:18Z",
-      "source_file": "ILN_2025_06_2318.txt",
-      "similarity": 0.44882044196128845,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-02-16T09:45Z",
-      "source_file": "ILN_2024_16_0945.txt",
-      "similarity": 0.44628041982650757,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-02-16T18:09Z",
-      "source_file": "ILN_2024_16_1809.txt",
-      "similarity": 0.44628041982650757,
-      "label": "severe_hail",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.8,
-    "mean_similarity": 0.45163540840148925,
-    "n_severe": 8,
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.44955902695655825,
+    "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610011043-KILN-FXUS61-AFDILN",
-    "afd_time": "2026-10-01T10:43:00Z",
-    "updated": "2026-10-01T13:25:28.908119+00:00"
+    "product_id": "202610011813-KILN-FXUS61-AFDILN",
+    "afd_time": "2026-10-01T18:13:00Z",
+    "updated": "2026-10-01T19:36:22.419491+00:00"
   }
 }
