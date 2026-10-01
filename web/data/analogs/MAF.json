@@ -1,91 +1,91 @@
 {
   "office": "MAF",
-  "product_id": "202609301747-KMAF-FXUS64-AFDMAF",
-  "afd_time": "2026-09-30T17:47:00Z",
+  "product_id": "202609302318-KMAF-FXUS64-AFDMAF",
+  "afd_time": "2026-09-30T23:18:00Z",
   "section_type": "long_term",
-  "updated": "2026-09-30T19:26:37.830983+00:00",
-  "query_preview": "..\n(Thursday night through Tuesday)\nIssued at 110 AM CDT Wed Sep 30 2026\n\nNortherly winds stay elevated above 25 mph with occasional gusts \nabove 35 mph through Friday afternoon, as CAA behind Thursday's \nfront continues. Highs will struggle to rise above the mid 70s F \nfor most of the area north of",
+  "updated": "2026-09-30T23:56:30.502332+00:00",
+  "query_preview": "..\n(Friday through Tuesday)\nIssued at 137 PM CDT Wed Sep 30 2026\n\nNortherly to northeasterly winds remain elevated around 15 mph, \ngusting up to 25 mph across much of the region with strongest winds \nto the west over the higher terrain behind the frontal passage \novernight Thursday. High temperature",
   "analogs": [
     {
-      "datetime_utc": "2005-02-06T19:04Z",
-      "source_file": "MAF_2005_06_1904.txt",
-      "similarity": 0.5095759630203247,
+      "datetime_utc": "2010-11-11T15:56Z",
+      "source_file": "MAF_2010_11_1556.txt",
+      "similarity": 0.4891986548900604,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-11-11T15:56Z",
-      "source_file": "MAF_2010_11_1556.txt",
-      "similarity": 0.5070494413375854,
+      "datetime_utc": "2013-12-20T22:52Z",
+      "source_file": "MAF_2013_20_2252.txt",
+      "similarity": 0.4860035479068756,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-02-06T19:04Z",
+      "source_file": "MAF_2005_06_1904.txt",
+      "similarity": 0.48568278551101685,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-09-12T19:35Z",
       "source_file": "MAF_2009_12_1935.txt",
-      "similarity": 0.5033979415893555,
+      "similarity": 0.4839039444923401,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-01-28T09:17Z",
-      "source_file": "MAF_2017_28_0917.txt",
-      "similarity": 0.49767059087753296,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-03-14T22:31Z",
-      "source_file": "MAF_2005_14_2231.txt",
-      "similarity": 0.4969964921474457,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-09-10T10:45Z",
-      "source_file": "MAF_2011_10_1045.txt",
-      "similarity": 0.4935988187789917,
+      "datetime_utc": "2017-06-09T23:40Z",
+      "source_file": "MAF_2017_09_2340.txt",
+      "similarity": 0.47987881302833557,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2018-09-12T16:52Z",
-      "source_file": "MAF_2018_12_1652.txt",
-      "similarity": 0.49293607473373413,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2017-06-10T05:07Z",
+      "source_file": "MAF_2017_10_0507.txt",
+      "similarity": 0.47987881302833557,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2013-07-19T02:50Z",
-      "source_file": "MAF_2013_19_0250.txt",
-      "similarity": 0.4927474558353424,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2017-06-09T19:45Z",
+      "source_file": "MAF_2017_09_1945.txt",
+      "similarity": 0.47987881302833557,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2016-01-05T18:22Z",
-      "source_file": "MAF_2016_05_1822.txt",
-      "similarity": 0.4916655123233795,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2013-04-10T05:34Z",
+      "source_file": "MAF_2013_10_0534.txt",
+      "similarity": 0.4796370267868042,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2013-04-09T19:45Z",
-      "source_file": "MAF_2013_09_1945.txt",
-      "similarity": 0.4914569854736328,
+      "datetime_utc": "2013-04-09T23:22Z",
+      "source_file": "MAF_2013_09_2322.txt",
+      "similarity": 0.4796370267868042,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-04-10T00:22Z",
+      "source_file": "MAF_2013_10_0022.txt",
+      "similarity": 0.4796370267868042,
       "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.4977095276117325,
-    "n_severe": 2,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.48233364522457123,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202609301747-KMAF-FXUS64-AFDMAF",
-    "afd_time": "2026-09-30T17:47:00Z",
-    "updated": "2026-09-30T19:26:37.830983+00:00"
+    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
+    "product_id": "202609302318-KMAF-FXUS64-AFDMAF",
+    "afd_time": "2026-09-30T23:18:00Z",
+    "updated": "2026-09-30T23:56:30.502332+00:00"
   }
 }
