@@ -1,91 +1,92 @@
 {
   "office": "LIX",
-  "product_id": "202610021050-KLIX-FXUS64-AFDLIX",
-  "afd_time": "2026-10-02T10:50:00Z",
+  "product_id": "202610021826-KLIX-FXUS64-AFDLIX",
+  "afd_time": "2026-10-02T18:26:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-02T12:44:11.222725+00:00",
-  "query_preview": "..\n(Monday night through Thursday)\nIssued at 1223 AM CDT Fri Oct 2 2026\n\nUpper ridging will be over the Rockies Monday evening, with \nshortwaves off the Atlantic Coast and moving through the central \nPlains States. Ridging will remain over the Rockies for much of next \nweek, with troughing becoming ",
+  "updated": "2026-10-02T18:29:48.428096+00:00",
+  "query_preview": "..\n(Monday night through Thursday night) Issued at 1232 PM CDT Fri Oct \n2 2026\n\nBy Monday night the aforementioned front will effectively stall out \nin the northern Gulf. Through the week, it will drift further south \nand this will set up another rain intensity gradient of no rain in \nour southweste",
   "analogs": [
-    {
-      "datetime_utc": "2011-02-05T02:40Z",
-      "source_file": "LIX_2011_05_0240.txt",
-      "similarity": 0.7307068109512329,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2016-07-24T01:09Z",
       "source_file": "LIX_2016_24_0109.txt",
-      "similarity": 0.7238356471061707,
+      "similarity": 0.8864806890487671,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-07-23T21:04Z",
       "source_file": "LIX_2016_23_2104_1.txt",
-      "similarity": 0.7238356471061707,
+      "similarity": 0.8864806890487671,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-09-19T20:07Z",
-      "source_file": "LIX_2012_19_2007.txt",
-      "similarity": 0.7127390503883362,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2011-02-05T02:40Z",
+      "source_file": "LIX_2011_05_0240.txt",
+      "similarity": 0.8676270246505737,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2006-10-16T09:27Z",
       "source_file": "LIX_2006_16_0927.txt",
-      "similarity": 0.7009040117263794,
+      "similarity": 0.8449904918670654,
       "label": "tornado",
       "is_severe": true
     },
     {
+      "datetime_utc": "2012-09-19T20:07Z",
+      "source_file": "LIX_2012_19_2007.txt",
+      "similarity": 0.8118230104446411,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2004-06-16T08:14Z",
       "source_file": "LIX_2004_16_0814.txt",
-      "similarity": 0.6519197225570679,
+      "similarity": 0.7852398157119751,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-02-20T16:44Z",
       "source_file": "LIX_2005_20_1644.txt",
-      "similarity": 0.6515190005302429,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-09-08T09:47Z",
-      "source_file": "LIX_2022_08_0947.txt",
-      "similarity": 0.6313272714614868,
+      "similarity": 0.7776942253112793,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2022-09-08T11:15Z",
       "source_file": "LIX_2022_08_1115.txt",
-      "similarity": 0.6313272714614868,
+      "similarity": 0.752088189125061,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-10-25T20:29Z",
-      "source_file": "LIX_2009_25_2029.txt",
-      "similarity": 0.6151453256607056,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2022-09-08T09:47Z",
+      "source_file": "LIX_2022_08_0947.txt",
+      "similarity": 0.752088189125061,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-05-26T16:04Z",
+      "source_file": "LIX_2021_26_1604.txt",
+      "similarity": 0.7426663637161255,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.6773259758949279,
-    "n_severe": 5,
+    "level": "QUIET",
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.8107178688049317,
+    "base_rate": 0.6297014764522039,
+    "signal_value": -0.22970147645220385,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.68 below confidence floor 0.7",
-    "product_id": "202610021050-KLIX-FXUS64-AFDLIX",
-    "afd_time": "2026-10-02T10:50:00Z",
-    "updated": "2026-10-02T12:44:11.222725+00:00"
+    "product_id": "202610021826-KLIX-FXUS64-AFDLIX",
+    "afd_time": "2026-10-02T18:26:00Z",
+    "updated": "2026-10-02T18:29:48.428096+00:00"
   }
 }
