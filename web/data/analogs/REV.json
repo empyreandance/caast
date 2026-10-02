@@ -1,78 +1,78 @@
 {
   "office": "REV",
-  "product_id": "202610010725-KREV-FXUS65-AFDREV",
-  "afd_time": "2026-10-01T07:25:00Z",
+  "product_id": "202610011942-KREV-FXUS65-AFDREV",
+  "afd_time": "2026-10-01T19:42:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-01T13:25:28.908119+00:00",
-  "query_preview": "..\n\nLarge scale ridge over the western U.S. will be the dominant \nfeature through next week. The only exception to this is a weak \nlow pressure moving through the region on Sunday into Monday. \nAfter this low pressure moves out, models and ensembles have good\nagreement that high pressure will once a",
+  "updated": "2026-10-01T23:57:03.918463+00:00",
+  "query_preview": "..\n\nFair weather prevails today. Some high clouds will move in later\ntonight, but that's about it for the weather today. Although, smoke\nfrom the Dome Fire will make it to the Sierra and Sierra Front \nthis afternoon and evening, per the HRRR. Similar conditions are \nexpected to continue over the nex",
   "analogs": [
     {
       "datetime_utc": "2016-08-28T09:39Z",
       "source_file": "REV_2016_28_0939.txt",
-      "similarity": 0.41418856382369995,
+      "similarity": 0.3960368037223816,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-02-03T20:42Z",
+      "source_file": "REV_2022_03_2042.txt",
+      "similarity": 0.35044366121292114,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-08-16T23:21Z",
+      "source_file": "REV_2020_16_2321.txt",
+      "similarity": 0.33748432993888855,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-11-13T22:47Z",
+      "source_file": "REV_2004_13_2247.txt",
+      "similarity": 0.33307480812072754,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-08-20T08:48Z",
+      "source_file": "REV_2016_20_0848.txt",
+      "similarity": 0.33099573850631714,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-09-11T21:33Z",
+      "source_file": "REV_2005_11_2133.txt",
+      "similarity": 0.32796013355255127,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-02-17T11:59Z",
+      "source_file": "REV_2011_17_1159.txt",
+      "similarity": 0.327475368976593,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-09-16T10:29Z",
       "source_file": "REV_2007_16_1029.txt",
-      "similarity": 0.35996145009994507,
+      "similarity": 0.3268072009086609,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-10-02T10:15Z",
       "source_file": "REV_2016_02_1015.txt",
-      "similarity": 0.3549157977104187,
+      "similarity": 0.3176587224006653,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-02-17T11:59Z",
-      "source_file": "REV_2011_17_1159.txt",
-      "similarity": 0.3523339331150055,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-08-16T23:21Z",
-      "source_file": "REV_2020_16_2321.txt",
-      "similarity": 0.3514152765274048,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-02-03T20:42Z",
-      "source_file": "REV_2022_03_2042.txt",
-      "similarity": 0.34993213415145874,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-11-05T10:29Z",
-      "source_file": "REV_2014_05_1029.txt",
-      "similarity": 0.3452240824699402,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-01-22T22:34Z",
-      "source_file": "REV_2013_22_2234.txt",
-      "similarity": 0.33827245235443115,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-08-20T08:48Z",
-      "source_file": "REV_2016_20_0848.txt",
-      "similarity": 0.3358290195465088,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-04-27T04:14Z",
-      "source_file": "REV_2012_27_0414.txt",
-      "similarity": 0.3310176730155945,
+      "datetime_utc": "2007-01-30T11:27Z",
+      "source_file": "REV_2007_30_1127.txt",
+      "similarity": 0.3166511654853821,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.3533090382814407,
+    "mean_similarity": 0.33645879328250883,
     "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
-    "product_id": "202610010725-KREV-FXUS65-AFDREV",
-    "afd_time": "2026-10-01T07:25:00Z",
-    "updated": "2026-10-01T13:25:28.908119+00:00"
+    "reason": "top-10 mean similarity 0.34 below confidence floor 0.7",
+    "product_id": "202610011942-KREV-FXUS65-AFDREV",
+    "afd_time": "2026-10-01T19:42:00Z",
+    "updated": "2026-10-01T23:57:03.918463+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "MLB",
-  "product_id": "202610011108-KMLB-FXUS62-AFDMLB",
-  "afd_time": "2026-10-01T11:08:00Z",
+  "product_id": "202610012342-KMLB-FXUS62-AFDMLB",
+  "afd_time": "2026-10-01T23:42:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-01T13:25:28.908119+00:00",
-  "query_preview": "..\nIssued at 248 AM EDT Thu Oct 1 2026\n\nCurrently-Today... KMLB radar imagery shows scattered showers and \nlightning storms over the Treasure Coast, as well as Okeechobee \ncounty. GOES-19 satellite imagery and local observations indicate\npartly cloudy skies across east central Florida. Temperatures ",
+  "updated": "2026-10-01T23:57:03.918463+00:00",
+  "query_preview": "..\nIssued at 234 PM EDT Thu Oct 1 2026\n\nCurrent-Tonight...More sunshine early in the period across the \ninterior with morning rainfall along the coast and adjacent \ncoastal waters providing more cloud-cover here. Highs may still \nrecover into the M-U80s across coastal counties and U80s to around\n90F",
   "analogs": [
     {
       "datetime_utc": "2011-10-05T07:31Z",
       "source_file": "MLB_2011_05_0731.txt",
-      "similarity": 0.44279050827026367,
+      "similarity": 0.4325384199619293,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2023-11-03T19:56Z",
       "source_file": "MLB_2023_03_1956.txt",
-      "similarity": 0.42538022994995117,
+      "similarity": 0.41996055841445923,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-01-18T07:30Z",
       "source_file": "MLB_2005_18_0730.txt",
-      "similarity": 0.42217081785202026,
+      "similarity": 0.4164104163646698,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-07-21T18:31Z",
+      "source_file": "MLB_2010_21_1831.txt",
+      "similarity": 0.4016961455345154,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2009-11-08T09:43Z",
       "source_file": "MLB_2009_08_0943.txt",
-      "similarity": 0.4109574556350708,
+      "similarity": 0.40077733993530273,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-10-27T19:10Z",
-      "source_file": "MLB_2018_27_1910.txt",
-      "similarity": 0.40729498863220215,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-09-16T11:44Z",
-      "source_file": "MLB_2024_16_1144.txt",
-      "similarity": 0.40688398480415344,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-09-16T18:25Z",
-      "source_file": "MLB_2024_16_1825.txt",
-      "similarity": 0.40688398480415344,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-09-16T08:45Z",
-      "source_file": "MLB_2024_16_0845.txt",
-      "similarity": 0.40688398480415344,
+      "datetime_utc": "2016-10-04T08:11Z",
+      "source_file": "MLB_2016_04_0811.txt",
+      "similarity": 0.40040385723114014,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-10-04T19:17Z",
       "source_file": "MLB_2016_04_1917.txt",
-      "similarity": 0.40611159801483154,
+      "similarity": 0.40040385723114014,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2016-10-04T08:11Z",
-      "source_file": "MLB_2016_04_0811.txt",
-      "similarity": 0.40611159801483154,
+      "datetime_utc": "2004-10-19T18:38Z",
+      "source_file": "MLB_2004_19_1838.txt",
+      "similarity": 0.3969285488128662,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-10-27T19:10Z",
+      "source_file": "MLB_2018_27_1910.txt",
+      "similarity": 0.3962799310684204,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-09-16T11:44Z",
+      "source_file": "MLB_2024_16_1144.txt",
+      "similarity": 0.39576196670532227,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.41414691507816315,
-    "n_severe": 7,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.40611610412597654,
+    "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202610011108-KMLB-FXUS62-AFDMLB",
-    "afd_time": "2026-10-01T11:08:00Z",
-    "updated": "2026-10-01T13:25:28.908119+00:00"
+    "product_id": "202610012342-KMLB-FXUS62-AFDMLB",
+    "afd_time": "2026-10-01T23:42:00Z",
+    "updated": "2026-10-01T23:57:03.918463+00:00"
   }
 }
