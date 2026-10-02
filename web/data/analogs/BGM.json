@@ -1,28 +1,21 @@
 {
   "office": "BGM",
-  "product_id": "202610011926-KBGM-FXUS61-AFDBGM",
-  "afd_time": "2026-10-01T19:26:00Z",
+  "product_id": "202610020104-KBGM-FXUS61-AFDBGM",
+  "afd_time": "2026-10-02T01:04:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-01T19:36:22.419491+00:00",
+  "updated": "2026-10-02T05:46:25.382751+00:00",
   "query_preview": "..\nKEY MESSAGE 1...\n\nScattered rain showers continue to push to the east across the\nregion ahead of a warm front over central PA into western NY.\nThis front is driving clouds across the area, which should keep\ntemperatures a few degrees cooler than guidance suggests,\nclimbing to the mid 60s to low 7",
   "analogs": [
     {
-      "datetime_utc": "2018-05-22T14:50Z",
-      "source_file": "BGM_2018_22_1450.txt",
-      "similarity": 0.4393429160118103,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-05-22T11:08Z",
-      "source_file": "BGM_2018_22_1108.txt",
-      "similarity": 0.4393429160118103,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2018-05-22T17:47Z",
       "source_file": "BGM_2018_22_1747.txt",
+      "similarity": 0.4393429160118103,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-05-22T14:50Z",
+      "source_file": "BGM_2018_22_1450.txt",
       "similarity": 0.4393429160118103,
       "label": "severe_wind",
       "is_severe": true
@@ -42,37 +35,44 @@
       "is_severe": true
     },
     {
+      "datetime_utc": "2018-05-22T11:08Z",
+      "source_file": "BGM_2018_22_1108.txt",
+      "similarity": 0.4393429160118103,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2004-02-13T09:11Z",
       "source_file": "BGM_2004_13_0911.txt",
-      "similarity": 0.42878520488739014,
+      "similarity": 0.428785115480423,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-07-17T23:51Z",
       "source_file": "BGM_2017_17_2351.txt",
-      "similarity": 0.427595317363739,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-07-18T06:31Z",
-      "source_file": "BGM_2017_18_0631.txt",
-      "similarity": 0.427595317363739,
+      "similarity": 0.42759522795677185,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-07-18T05:54Z",
       "source_file": "BGM_2017_18_0554_1.txt",
-      "similarity": 0.427595317363739,
+      "similarity": 0.42759522795677185,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2017-07-17T19:42Z",
-      "source_file": "BGM_2017_17_1942.txt",
-      "similarity": 0.427595317363739,
+      "datetime_utc": "2017-07-18T07:19Z",
+      "source_file": "BGM_2017_18_0719.txt",
+      "similarity": 0.42759522795677185,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-07-18T06:31Z",
+      "source_file": "BGM_2017_18_0631.txt",
+      "similarity": 0.42759522795677185,
       "label": "tornado",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.43358810544013976,
+    "mean_similarity": 0.4335880607366562,
     "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610011926-KBGM-FXUS61-AFDBGM",
-    "afd_time": "2026-10-01T19:26:00Z",
-    "updated": "2026-10-01T19:36:22.419491+00:00"
+    "product_id": "202610020104-KBGM-FXUS61-AFDBGM",
+    "afd_time": "2026-10-02T01:04:00Z",
+    "updated": "2026-10-02T05:46:25.382751+00:00"
   }
 }
