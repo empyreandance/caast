@@ -1,91 +1,91 @@
 {
   "office": "PBZ",
-  "product_id": "202610031107-KPBZ-FXUS61-AFDPBZ",
-  "afd_time": "2026-10-03T11:07:00Z",
+  "product_id": "202610031715-KPBZ-FXUS61-AFDPBZ",
+  "afd_time": "2026-10-03T17:15:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-03T13:29:09.822438+00:00",
-  "query_preview": "..\nKEY MESSAGE 1... \nThe broad trough will remain in place through the weekend and\ninto next week, with temperatures returning to seasonal values \nfor early October. The cooler temperatures will be reinforced by\na shortwave digging through the upper trough on Sunday. This \nwave could pull moisture, ",
+  "updated": "2026-10-03T18:01:44.773592+00:00",
+  "query_preview": "..\nKEY MESSAGE 1... \nA dry forecast with the only shot at measurable rainfall coming\ntonight into Sunday in the West Virginia mountains. There will \nbe a lot more clouds in Pennsylvania Sunday than today. Eastern \nOhio should be able to stay in the clear from the system passing\nthrough the mid Atlan",
   "analogs": [
-    {
-      "datetime_utc": "2007-09-01T15:07Z",
-      "source_file": "PBZ_2007_01_1507.txt",
-      "similarity": 0.4620330333709717,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-01T17:59Z",
-      "source_file": "PBZ_2007_01_1759.txt",
-      "similarity": 0.4620330333709717,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-01T05:19Z",
-      "source_file": "PBZ_2007_01_0519.txt",
-      "similarity": 0.4620330333709717,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2006-08-17T07:44Z",
       "source_file": "PBZ_2006_17_0744.txt",
-      "similarity": 0.4601218104362488,
+      "similarity": 0.4601621925830841,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-02-13T07:57Z",
+      "source_file": "PBZ_2021_13_0757_1.txt",
+      "similarity": 0.45327892899513245,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-02-13T13:19Z",
+      "source_file": "PBZ_2021_13_1319.txt",
+      "similarity": 0.45327892899513245,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-02-13T12:25Z",
+      "source_file": "PBZ_2021_13_1225.txt",
+      "similarity": 0.45327892899513245,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-02-13T07:51Z",
+      "source_file": "PBZ_2021_13_0751.txt",
+      "similarity": 0.45327892899513245,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-03-22T19:23Z",
+      "source_file": "PBZ_2018_22_1923.txt",
+      "similarity": 0.4498825967311859,
+      "label": "flood",
+      "is_severe": false
     },
     {
       "datetime_utc": "2018-03-22T23:44Z",
       "source_file": "PBZ_2018_22_2344.txt",
-      "similarity": 0.4592526853084564,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-03-23T16:37Z",
-      "source_file": "PBZ_2018_23_1637.txt",
-      "similarity": 0.4592526853084564,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-03-23T12:21Z",
-      "source_file": "PBZ_2018_23_1221.txt",
-      "similarity": 0.4592526853084564,
+      "similarity": 0.4498825967311859,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2018-03-23T17:38Z",
       "source_file": "PBZ_2018_23_1738.txt",
-      "similarity": 0.4592526853084564,
+      "similarity": 0.4498825967311859,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-03-23T08:09Z",
-      "source_file": "PBZ_2018_23_0809.txt",
-      "similarity": 0.4592526853084564,
+      "datetime_utc": "2018-03-22T21:49Z",
+      "source_file": "PBZ_2018_22_2149.txt",
+      "similarity": 0.4498825967311859,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-03-23T01:23Z",
-      "source_file": "PBZ_2018_23_0123.txt",
-      "similarity": 0.4592526853084564,
+      "datetime_utc": "2018-03-23T16:37Z",
+      "source_file": "PBZ_2018_23_1637.txt",
+      "similarity": 0.4498825967311859,
       "label": "flood",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.4601737022399902,
-    "n_severe": 4,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.45226908922195436,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202610031107-KPBZ-FXUS61-AFDPBZ",
-    "afd_time": "2026-10-03T11:07:00Z",
-    "updated": "2026-10-03T13:29:09.822438+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202610031715-KPBZ-FXUS61-AFDPBZ",
+    "afd_time": "2026-10-03T17:15:00Z",
+    "updated": "2026-10-03T18:01:44.773592+00:00"
   }
 }
