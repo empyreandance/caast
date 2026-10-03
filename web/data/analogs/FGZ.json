@@ -1,91 +1,91 @@
 {
   "office": "FGZ",
-  "product_id": "202610031726-KFGZ-FXUS65-AFDFGZ",
-  "afd_time": "2026-10-03T17:26:00Z",
+  "product_id": "202610031838-KFGZ-FXUS65-AFDFGZ",
+  "afd_time": "2026-10-03T18:38:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-03T18:01:44.773592+00:00",
-  "query_preview": "..High pressure will remain in place through this \nforecast period. The high is strong enough to keep the atmosphere \ncapped and daytime temperatures generally above normal. Limited \nmoisture attempts to move in from the east from time to time, but it \nis doubtful this will result in much more than ",
+  "updated": "2026-10-03T21:22:48.179102+00:00",
+  "query_preview": "..High pressure largely remains in control across \nnorthern Arizona for the duration of the forecast period. As a \nresult, temperatures will remain fairly steady each day, around \nfairly seasonable values. \n\nA weak upper-level low moving ejecting off the Pacific into \nCalifornia will slightly increa",
   "analogs": [
     {
-      "datetime_utc": "2013-09-24T14:58Z",
-      "source_file": "FGZ_2013_24_1458.txt",
-      "similarity": 0.45353084802627563,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2014-10-05T03:59Z",
+      "source_file": "FGZ_2014_05_0359.txt",
+      "similarity": 0.497394859790802,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2014-10-04T22:30Z",
       "source_file": "FGZ_2014_04_2230.txt",
-      "similarity": 0.45342767238616943,
+      "similarity": 0.497394859790802,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-10-05T03:59Z",
-      "source_file": "FGZ_2014_05_0359.txt",
-      "similarity": 0.45342767238616943,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-04-15T01:25Z",
-      "source_file": "FGZ_2013_15_0125.txt",
-      "similarity": 0.44710850715637207,
-      "label": "winter",
+      "datetime_utc": "2013-09-24T14:58Z",
+      "source_file": "FGZ_2013_24_1458.txt",
+      "similarity": 0.48995426297187805,
+      "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-03-24T03:50Z",
-      "source_file": "FGZ_2014_24_0350.txt",
-      "similarity": 0.44594570994377136,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-12-11T16:59Z",
-      "source_file": "FGZ_2012_11_1659.txt",
-      "similarity": 0.44554901123046875,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-12-28T03:36Z",
-      "source_file": "FGZ_2008_28_0336.txt",
-      "similarity": 0.44497644901275635,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-10-11T04:21Z",
-      "source_file": "FGZ_2015_11_0421.txt",
-      "similarity": 0.44407886266708374,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2012-04-09T16:27Z",
       "source_file": "FGZ_2012_09_1627.txt",
-      "similarity": 0.44350385665893555,
+      "similarity": 0.48118171095848083,
       "label": "winter",
       "is_severe": false
     },
     {
+      "datetime_utc": "2008-12-28T03:36Z",
+      "source_file": "FGZ_2008_28_0336.txt",
+      "similarity": 0.47574302554130554,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-12-11T16:59Z",
+      "source_file": "FGZ_2012_11_1659.txt",
+      "similarity": 0.47545069456100464,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2014-03-28T16:09Z",
       "source_file": "FGZ_2014_28_1609.txt",
-      "similarity": 0.44330528378486633,
+      "similarity": 0.4739013910293579,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-01-19T16:08Z",
+      "source_file": "FGZ_2012_19_1608.txt",
+      "similarity": 0.4721006453037262,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-05-04T17:18Z",
+      "source_file": "FGZ_2015_04_1718.txt",
+      "similarity": 0.4720107913017273,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-10-14T16:24Z",
+      "source_file": "FGZ_2012_14_1624.txt",
+      "similarity": 0.4711388349533081,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.44748538732528687,
-    "n_severe": 6,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.48062710762023925,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610031726-KFGZ-FXUS65-AFDFGZ",
-    "afd_time": "2026-10-03T17:26:00Z",
-    "updated": "2026-10-03T18:01:44.773592+00:00"
+    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
+    "product_id": "202610031838-KFGZ-FXUS65-AFDFGZ",
+    "afd_time": "2026-10-03T18:38:00Z",
+    "updated": "2026-10-03T21:22:48.179102+00:00"
   }
 }
