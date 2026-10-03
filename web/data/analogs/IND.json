@@ -1,91 +1,91 @@
 {
   "office": "IND",
-  "product_id": "202610022339-KIND-FXUS63-AFDIND",
-  "afd_time": "2026-10-02T23:39:00Z",
+  "product_id": "202610030512-KIND-FXUS63-AFDIND",
+  "afd_time": "2026-10-03T05:12:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-03T02:03:46.976523+00:00",
-  "query_preview": "(This evening through Friday)...\nIssued at 215 PM EDT Fri Oct 2 2026\n\nRest of This Afternoon through Saturday...\n\nForcing continues to shift south this afternoon, keeping the bulk of \nthe rain south of central Indiana. There could be some \nsprinkles/light drizzle in the south as some light returns h",
+  "updated": "2026-10-03T08:13:22.074239+00:00",
+  "query_preview": "(Today through Friday)...\nIssued at 112 AM EDT Sat Oct 3 2026\n\nAutumn announces itself in a big way through the next week, with \nmuch milder conditions and a prolonged dry spell under the influence \nof two strong areas of surface high pressure.\n\nDry weather is forecast throughout the next seven days",
   "analogs": [
     {
-      "datetime_utc": "2021-11-27T23:30Z",
-      "source_file": "IND_2021_27_2330.txt",
-      "similarity": 0.3924521207809448,
-      "label": "quiet",
+      "datetime_utc": "2010-01-02T02:14Z",
+      "source_file": "IND_2010_02_0214_1.txt",
+      "similarity": 0.45613259077072144,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-01-02T04:30Z",
+      "source_file": "IND_2010_02_0430_1.txt",
+      "similarity": 0.45613259077072144,
+      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-05-24T19:42Z",
       "source_file": "IND_2006_24_1942.txt",
-      "similarity": 0.38842618465423584,
+      "similarity": 0.4518079161643982,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-05-25T05:16Z",
       "source_file": "IND_2006_25_0516_1.txt",
-      "similarity": 0.38842618465423584,
+      "similarity": 0.4518079161643982,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2017-03-02T09:00Z",
-      "source_file": "IND_2017_02_0900.txt",
-      "similarity": 0.38645192980766296,
+      "datetime_utc": "2007-06-26T07:20Z",
+      "source_file": "IND_2007_26_0720_1.txt",
+      "similarity": 0.4515441060066223,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2017-03-02T11:32Z",
-      "source_file": "IND_2017_02_1132.txt",
-      "similarity": 0.38645192980766296,
+      "datetime_utc": "2007-06-26T10:23Z",
+      "source_file": "IND_2007_26_1023.txt",
+      "similarity": 0.4515441060066223,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2017-03-02T15:03Z",
-      "source_file": "IND_2017_02_1503_1.txt",
-      "similarity": 0.38645192980766296,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2005-12-05T19:53Z",
+      "source_file": "IND_2005_05_1953.txt",
+      "similarity": 0.4492177367210388,
+      "label": "winter",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2017-03-02T17:10Z",
-      "source_file": "IND_2017_02_1710.txt",
-      "similarity": 0.38645192980766296,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2021-11-27T23:30Z",
+      "source_file": "IND_2021_27_2330.txt",
+      "similarity": 0.44173526763916016,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2010-06-08T18:22Z",
-      "source_file": "IND_2010_08_1822.txt",
-      "similarity": 0.3855055570602417,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2020-02-12T22:41Z",
+      "source_file": "IND_2020_12_2241.txt",
+      "similarity": 0.43988367915153503,
+      "label": "flood",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2010-06-09T07:05Z",
-      "source_file": "IND_2010_09_0705.txt",
-      "similarity": 0.3855055570602417,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-06-09T01:52Z",
-      "source_file": "IND_2010_09_0152.txt",
-      "similarity": 0.3855055570602417,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2020-02-12T21:38Z",
+      "source_file": "IND_2020_12_2138.txt",
+      "similarity": 0.43988367915153503,
+      "label": "flood",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.9,
-    "mean_similarity": 0.38716288805007937,
-    "n_severe": 9,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.4489689588546753,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202610022339-KIND-FXUS63-AFDIND",
-    "afd_time": "2026-10-02T23:39:00Z",
-    "updated": "2026-10-03T02:03:46.976523+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202610030512-KIND-FXUS63-AFDIND",
+    "afd_time": "2026-10-03T05:12:00Z",
+    "updated": "2026-10-03T08:13:22.074239+00:00"
   }
 }
