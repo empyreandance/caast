@@ -1,9 +1,9 @@
 {
   "office": "FGZ",
-  "product_id": "202610041123-KFGZ-FXUS65-AFDFGZ",
-  "afd_time": "2026-10-04T11:23:00Z",
+  "product_id": "202610041646-KFGZ-FXUS65-AFDFGZ",
+  "afd_time": "2026-10-04T16:46:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-04T13:16:22.376097+00:00",
+  "updated": "2026-10-04T17:41:06.726742+00:00",
   "query_preview": "..A ridge centered over the Four Corners will keep dry \nand seasonably warm weather in place through at least early next \nweek. Surface high pressure over the central plains will maintain \nour locally gusty easterly winds, especially today. Wind gusts could \nreach 30 mph at times over higher terrain",
   "analogs": [
     {
@@ -16,28 +16,28 @@
     {
       "datetime_utc": "2017-09-08T22:42Z",
       "source_file": "FGZ_2017_08_2242.txt",
-      "similarity": 0.482707679271698,
+      "similarity": 0.4827077090740204,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-10-05T03:59Z",
+      "source_file": "FGZ_2014_05_0359.txt",
+      "similarity": 0.47409045696258545,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-10-04T22:30Z",
       "source_file": "FGZ_2014_04_2230.txt",
-      "similarity": 0.47409042716026306,
+      "similarity": 0.47409045696258545,
       "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-10-05T03:59Z",
-      "source_file": "FGZ_2014_05_0359.txt",
-      "similarity": 0.47409042716026306,
-      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-09-12T03:10Z",
       "source_file": "FGZ_2016_12_0310.txt",
-      "similarity": 0.4729909896850586,
+      "similarity": 0.47299104928970337,
       "label": "severe_wind",
       "is_severe": true
     },
@@ -51,21 +51,21 @@
     {
       "datetime_utc": "2012-12-11T16:59Z",
       "source_file": "FGZ_2012_11_1659.txt",
-      "similarity": 0.4697333872318268,
+      "similarity": 0.46973341703414917,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-12-23T21:40Z",
       "source_file": "FGZ_2011_23_2140.txt",
-      "similarity": 0.46966782212257385,
+      "similarity": 0.46966785192489624,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-03-20T22:18Z",
       "source_file": "FGZ_2009_20_2218.txt",
-      "similarity": 0.46363958716392517,
+      "similarity": 0.46363961696624756,
       "label": "winter",
       "is_severe": false
     },
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.4742288708686829,
+    "mean_similarity": 0.47422889471054075,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610041123-KFGZ-FXUS65-AFDFGZ",
-    "afd_time": "2026-10-04T11:23:00Z",
-    "updated": "2026-10-04T13:16:22.376097+00:00"
+    "product_id": "202610041646-KFGZ-FXUS65-AFDFGZ",
+    "afd_time": "2026-10-04T16:46:00Z",
+    "updated": "2026-10-04T17:41:06.726742+00:00"
   }
 }
