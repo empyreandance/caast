@@ -1,91 +1,91 @@
 {
   "office": "PUB",
-  "product_id": "202610031833-KPUB-FXUS65-AFDPUB",
-  "afd_time": "2026-10-03T18:33:00Z",
+  "product_id": "202610032324-KPUB-FXUS65-AFDPUB",
+  "afd_time": "2026-10-03T23:24:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-03T21:22:48.179102+00:00",
-  "query_preview": "/SUNDAY NIGHT THROUGH FRIDAY/...\nIssued at 1232 PM MDT Sat Oct 3 2026\n\nNot much change in the forecast for most of next week. High pressure \nwill remain in place overhead, along with light winds and relatively \ndry air. Latest guidance shows some isolated to scattered afternoon \nshowers over the mou",
+  "updated": "2026-10-04T00:43:30.553675+00:00",
+  "query_preview": "/SUNDAY NIGHT THROUGH SATURDAY/...\nIssued at 1232 PM MDT Sat Oct 3 2026\n\nNot much change in the forecast for most of next week. High pressure \nwill remain in place overhead, along with light winds and relatively \ndry air. Latest guidance shows some isolated to scattered afternoon \nshowers over the m",
   "analogs": [
     {
       "datetime_utc": "2007-06-03T19:56Z",
       "source_file": "PUB_2007_03_1956.txt",
-      "similarity": 0.41083186864852905,
+      "similarity": 0.4184802770614624,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-06-04T20:45Z",
       "source_file": "PUB_2007_04_2045.txt",
-      "similarity": 0.40220844745635986,
+      "similarity": 0.41225266456604004,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-09-25T09:07Z",
       "source_file": "PUB_2006_25_0907.txt",
-      "similarity": 0.39196306467056274,
+      "similarity": 0.39898303151130676,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-06-27T02:46Z",
       "source_file": "PUB_2021_27_0246.txt",
-      "similarity": 0.39057061076164246,
+      "similarity": 0.3967435956001282,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-10-14T10:46Z",
       "source_file": "PUB_2011_14_1046.txt",
-      "similarity": 0.38722360134124756,
+      "similarity": 0.39409080147743225,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-11-22T10:31Z",
       "source_file": "PUB_2005_22_1031_1.txt",
-      "similarity": 0.3833880126476288,
+      "similarity": 0.391029417514801,
       "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-11-27T11:22Z",
+      "source_file": "PUB_2004_27_1122.txt",
+      "similarity": 0.38539785146713257,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-11-16T21:44Z",
+      "source_file": "PUB_2008_16_2144.txt",
+      "similarity": 0.384612113237381,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2024-07-22T23:33Z",
       "source_file": "PUB_2024_22_2333.txt",
-      "similarity": 0.3807032108306885,
+      "similarity": 0.384589821100235,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-07-22T21:08Z",
       "source_file": "PUB_2024_22_2108.txt",
-      "similarity": 0.3807032108306885,
+      "similarity": 0.384589821100235,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-07-23T04:59Z",
-      "source_file": "PUB_2024_23_0459.txt",
-      "similarity": 0.3807032108306885,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-11-27T11:22Z",
-      "source_file": "PUB_2004_27_1122.txt",
-      "similarity": 0.37712520360946655,
-      "label": "quiet",
-      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.38854204416275023,
-    "n_severe": 6,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.39507693946361544,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202610031833-KPUB-FXUS65-AFDPUB",
-    "afd_time": "2026-10-03T18:33:00Z",
-    "updated": "2026-10-03T21:22:48.179102+00:00"
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202610032324-KPUB-FXUS65-AFDPUB",
+    "afd_time": "2026-10-03T23:24:00Z",
+    "updated": "2026-10-04T00:43:30.553675+00:00"
   }
 }
