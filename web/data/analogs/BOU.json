@@ -1,91 +1,91 @@
 {
   "office": "BOU",
-  "product_id": "202610032357-KBOU-FXUS65-AFDBOU",
-  "afd_time": "2026-10-03T23:57:00Z",
+  "product_id": "202610040617-KBOU-FXUS65-AFDBOU",
+  "afd_time": "2026-10-04T06:17:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-04T00:43:30.553675+00:00",
-  "query_preview": "/Through Saturday/...\nIssued at 1216 PM MDT Sat Oct 3 2026\n\nAn upper-level ridge has settled over the area and should stick \naround for the next several days, keeping things warm and dry for \nthe foreseeable future. A weak cold front is expected to move \nacross Colorado this afternoon, bringing a fe",
+  "updated": "2026-10-04T07:01:08.218580+00:00",
+  "query_preview": "/Through Saturday/...\nIssued at 1049 PM MDT Sat Oct 3 2026\n\nAn upper level high will be centered over the Great Basin on Sun and \nthen will weaken some on Mon.  Cross-sections show just enough mid \nlevel moisture with favorable lapse rates to allow for isold high \nbased showers mainly over Park coun",
   "analogs": [
+    {
+      "datetime_utc": "2009-06-30T21:18Z",
+      "source_file": "BOU_2009_30_2118_1.txt",
+      "similarity": 0.3801266551017761,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-06-30T21:18Z",
+      "source_file": "BOU_2009_30_2118.txt",
+      "similarity": 0.3801266551017761,
+      "label": "tornado",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2015-03-02T10:47Z",
       "source_file": "BOU_2015_02_1047.txt",
-      "similarity": 0.4157475233078003,
+      "similarity": 0.37984535098075867,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-03-02T16:43Z",
       "source_file": "BOU_2015_02_1643.txt",
-      "similarity": 0.4157475233078003,
+      "similarity": 0.37984535098075867,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-08-16T08:46Z",
-      "source_file": "BOU_2004_16_0846.txt",
-      "similarity": 0.40604403614997864,
-      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-09-01T08:05Z",
       "source_file": "BOU_2005_01_0805.txt",
-      "similarity": 0.4038291275501251,
+      "similarity": 0.3787364363670349,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-03-16T09:19Z",
-      "source_file": "BOU_2009_16_0919.txt",
-      "similarity": 0.3958202600479126,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-06-13T20:45Z",
-      "source_file": "BOU_2006_13_2045.txt",
-      "similarity": 0.39507585763931274,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-09-13T08:54Z",
-      "source_file": "BOU_2008_13_0854.txt",
-      "similarity": 0.39185941219329834,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-03-14T09:02Z",
-      "source_file": "BOU_2009_14_0902.txt",
-      "similarity": 0.391848623752594,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-04-12T09:43Z",
-      "source_file": "BOU_2005_12_0943.txt",
-      "similarity": 0.39163583517074585,
-      "label": "quiet",
-      "is_severe": false
     },
     {
       "datetime_utc": "2005-05-10T08:48Z",
       "source_file": "BOU_2005_10_0848.txt",
-      "similarity": 0.3912574052810669,
+      "similarity": 0.37837231159210205,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-08-20T09:03Z",
+      "source_file": "BOU_2004_20_0903.txt",
+      "similarity": 0.3698588013648987,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-09-27T20:55Z",
+      "source_file": "BOU_2011_27_2055.txt",
+      "similarity": 0.3687657117843628,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-09-28T03:21Z",
+      "source_file": "BOU_2011_28_0321.txt",
+      "similarity": 0.3687657117843628,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-07-22T20:57Z",
+      "source_file": "BOU_2007_22_2057_1.txt",
+      "similarity": 0.36611393094062805,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.3998865604400635,
-    "n_severe": 4,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.37505569159984586,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202610032357-KBOU-FXUS65-AFDBOU",
-    "afd_time": "2026-10-03T23:57:00Z",
-    "updated": "2026-10-04T00:43:30.553675+00:00"
+    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
+    "product_id": "202610040617-KBOU-FXUS65-AFDBOU",
+    "afd_time": "2026-10-04T06:17:00Z",
+    "updated": "2026-10-04T07:01:08.218580+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "BMX",
-  "product_id": "202610032343-KBMX-FXUS64-AFDBMX",
-  "afd_time": "2026-10-03T23:43:00Z",
+  "product_id": "202610040649-KBMX-FXUS64-AFDBMX",
+  "afd_time": "2026-10-04T06:49:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-04T00:43:30.553675+00:00",
-  "query_preview": "..\n(This afternoon through Friday)\nIssued at 108 PM CDT SAT OCT 3 2026\n\nThe overall synoptic setup and forecast expectations through the\nweekend remain largely unchanged. Key features include a stalled\nboundary to our north and a shortwave advancing inland from the\nGulf. Within 24 hours of onset, mo",
+  "updated": "2026-10-04T07:01:08.218580+00:00",
+  "query_preview": "..\n(Sunday through next Saturday)\nIssued at 1143 PM CDT SAT OCT 3 2026\n\nOver the last 24-hours, there has been an unfortunate and  \nsubstantial shift in the forecast, resulting in a dramatic\ndecrease in previously forecasted rainfall amounts. Previously,\nthe disturbance moving inland from the Gulf w",
   "analogs": [
-    {
-      "datetime_utc": "2008-11-15T00:54Z",
-      "source_file": "BMX_2008_15_0054.txt",
-      "similarity": 0.40029287338256836,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2005-04-09T10:04Z",
       "source_file": "BMX_2005_09_1004.txt",
-      "similarity": 0.39684122800827026,
+      "similarity": 0.37610089778900146,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-02-11T04:23Z",
-      "source_file": "BMX_2005_11_0423.txt",
-      "similarity": 0.39137551188468933,
+      "datetime_utc": "2008-11-15T00:54Z",
+      "source_file": "BMX_2008_15_0054.txt",
+      "similarity": 0.3629896640777588,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-01-18T21:45Z",
       "source_file": "BMX_2006_18_2145.txt",
-      "similarity": 0.3909234404563904,
+      "similarity": 0.362149178981781,
       "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-02-11T04:23Z",
+      "source_file": "BMX_2005_11_0423.txt",
+      "similarity": 0.36182522773742676,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-05-30T19:47Z",
+      "source_file": "BMX_2005_30_1947.txt",
+      "similarity": 0.3594858646392822,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-11-01T11:01Z",
+      "source_file": "BMX_2004_01_1101.txt",
+      "similarity": 0.356771856546402,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-01-30T10:47Z",
+      "source_file": "BMX_2005_30_1047.txt",
+      "similarity": 0.35361647605895996,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-06-16T10:01Z",
+      "source_file": "BMX_2006_16_1001.txt",
+      "similarity": 0.3532351851463318,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-03-15T09:12Z",
       "source_file": "BMX_2007_15_0912.txt",
-      "similarity": 0.3894495368003845,
+      "similarity": 0.35284537076950073,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-07-23T08:20Z",
-      "source_file": "BMX_2004_23_0820.txt",
-      "similarity": 0.38789665699005127,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-08-29T20:44Z",
-      "source_file": "BMX_2005_29_2044.txt",
-      "similarity": 0.3868798017501831,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2004-12-06T09:42Z",
       "source_file": "BMX_2004_06_0942.txt",
-      "similarity": 0.383304238319397,
+      "similarity": 0.3501821458339691,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-08-05T20:11Z",
-      "source_file": "BMX_2005_05_2011.txt",
-      "similarity": 0.3829127848148346,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-07-21T08:12Z",
-      "source_file": "BMX_2004_21_0812.txt",
-      "similarity": 0.3819689154624939,
-      "label": "severe_wind",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.3891844987869263,
-    "n_severe": 5,
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.3589201867580414,
+    "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202610032343-KBMX-FXUS64-AFDBMX",
-    "afd_time": "2026-10-03T23:43:00Z",
-    "updated": "2026-10-04T00:43:30.553675+00:00"
+    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
+    "product_id": "202610040649-KBMX-FXUS64-AFDBMX",
+    "afd_time": "2026-10-04T06:49:00Z",
+    "updated": "2026-10-04T07:01:08.218580+00:00"
   }
 }
