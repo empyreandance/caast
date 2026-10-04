@@ -1,91 +1,91 @@
 {
   "office": "GGW",
-  "product_id": "202610040514-KGGW-FXUS65-AFDGGW",
-  "afd_time": "2026-10-04T05:14:00Z",
+  "product_id": "202610041951-KGGW-FXUS65-AFDGGW",
+  "afd_time": "2026-10-04T19:51:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-04T07:01:08.218580+00:00",
-  "query_preview": "..\nAccording to the 18Z GEFS, a ridge is expected to stay overhead\nthrough the entire work week, and no precipitation is forecast in\nthat time. There is low certainty on precipitation moving in on\nthe weekend, but a cool down is expected on Saturday.  \n\nFORECAST CONFIDENCE & DEVIATIONS:\nNo changes w",
+  "updated": "2026-10-04T21:34:09.781817+00:00",
+  "query_preview": "..\n\nAn upper-level ridge over the western US will remain overhead \nthrough Thursday. Fair conditions are expected to persist.\n\nAn upper-level trough is expected to dig over Montana sometime\nbetween Friday and Saturday. Timing of the trough between the GFS\nand ECMWF is inconsistent, but increased clo",
   "analogs": [
     {
-      "datetime_utc": "2025-11-25T21:16Z",
-      "source_file": "GGW_2025_25_2116.txt",
-      "similarity": 0.4552878141403198,
+      "datetime_utc": "2025-11-26T21:19Z",
+      "source_file": "GGW_2025_26_2119.txt",
+      "similarity": 0.428720086812973,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2025-11-26T10:42Z",
-      "source_file": "GGW_2025_26_1042.txt",
-      "similarity": 0.4552878141403198,
-      "label": "winter",
+      "datetime_utc": "2006-05-13T08:33Z",
+      "source_file": "GGW_2006_13_0833.txt",
+      "similarity": 0.4243626892566681,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-05-13T15:51Z",
+      "source_file": "GGW_2006_13_1551.txt",
+      "similarity": 0.4243626892566681,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-05-25T23:02Z",
+      "source_file": "GGW_2009_25_2302.txt",
+      "similarity": 0.42049527168273926,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-05-25T20:56Z",
+      "source_file": "GGW_2009_25_2056.txt",
+      "similarity": 0.42049527168273926,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-05-26T03:31Z",
+      "source_file": "GGW_2009_26_0331.txt",
+      "similarity": 0.42049527168273926,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-06-26T15:01Z",
       "source_file": "GGW_2006_26_1501.txt",
-      "similarity": 0.45379385352134705,
+      "similarity": 0.4181891679763794,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-06-26T09:27Z",
       "source_file": "GGW_2006_26_0927.txt",
-      "similarity": 0.45379385352134705,
+      "similarity": 0.4181891679763794,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-11-25T10:02Z",
-      "source_file": "GGW_2006_25_1002.txt",
-      "similarity": 0.45254337787628174,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-03-01T20:47Z",
-      "source_file": "GGW_2005_01_2047.txt",
-      "similarity": 0.44977325201034546,
+      "datetime_utc": "2006-07-03T20:49Z",
+      "source_file": "GGW_2006_03_2049.txt",
+      "similarity": 0.41324955224990845,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-03-02T03:51Z",
-      "source_file": "GGW_2005_02_0351.txt",
-      "similarity": 0.44977325201034546,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-09-13T09:08Z",
-      "source_file": "GGW_2008_13_0908.txt",
-      "similarity": 0.44838857650756836,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-09-13T16:07Z",
-      "source_file": "GGW_2008_13_1607.txt",
-      "similarity": 0.44838857650756836,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-10-09T20:06Z",
-      "source_file": "GGW_2006_09_2006.txt",
-      "similarity": 0.4463888704776764,
+      "datetime_utc": "2006-07-04T02:58Z",
+      "source_file": "GGW_2006_04_0258.txt",
+      "similarity": 0.41324955224990845,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.45134192407131196,
-    "n_severe": 2,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.42018087208271027,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610040514-KGGW-FXUS65-AFDGGW",
-    "afd_time": "2026-10-04T05:14:00Z",
-    "updated": "2026-10-04T07:01:08.218580+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202610041951-KGGW-FXUS65-AFDGGW",
+    "afd_time": "2026-10-04T19:51:00Z",
+    "updated": "2026-10-04T21:34:09.781817+00:00"
   }
 }
