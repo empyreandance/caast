@@ -1,78 +1,78 @@
 {
   "office": "DMX",
-  "product_id": "202610041924-KDMX-FXUS63-AFDDMX",
-  "afd_time": "2026-10-04T19:24:00Z",
+  "product_id": "202610042320-KDMX-FXUS63-AFDDMX",
+  "afd_time": "2026-10-04T23:20:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-04T21:34:09.781817+00:00",
-  "query_preview": "/MONDAY THROUGH SATURDAY/...\nIssued at 224 PM CDT Sun Oct 4 2026\n\nA slowly building area of large scale ridging will lead to \npersistent upper-level northwest flow into the Midwest region \nthroughout the remainder of the work week. Dry conditions are \nexpected to keep hold, with warming temperatures",
+  "updated": "2026-10-05T01:00:36.397330+00:00",
+  "query_preview": "/MONDAY THROUGH SUNDAY/...\nIssued at 224 PM CDT Sun Oct 4 2026\n\nA slowly building area of large scale ridging will lead to \npersistent upper-level northwest flow into the Midwest region \nthroughout the remainder of the work week. Dry conditions are \nexpected to keep hold, with warming temperatures T",
   "analogs": [
     {
       "datetime_utc": "2012-11-06T10:00Z",
       "source_file": "DMX_2012_06_1000.txt",
-      "similarity": 0.5140618085861206,
+      "similarity": 0.5203375816345215,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-09-28T07:58Z",
       "source_file": "DMX_2012_28_0758.txt",
-      "similarity": 0.510204017162323,
+      "similarity": 0.5145494341850281,
       "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-08-17T23:41Z",
+      "source_file": "DMX_2014_17_2341.txt",
+      "similarity": 0.5080455541610718,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-08-18T04:57Z",
       "source_file": "DMX_2014_18_0457.txt",
-      "similarity": 0.502604067325592,
+      "similarity": 0.5080455541610718,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-08-17T20:41Z",
       "source_file": "DMX_2014_17_2041.txt",
-      "similarity": 0.502604067325592,
+      "similarity": 0.5080455541610718,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-08-17T23:41Z",
-      "source_file": "DMX_2014_17_2341.txt",
-      "similarity": 0.502604067325592,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-10-21T04:20Z",
-      "source_file": "DMX_2014_21_0420.txt",
-      "similarity": 0.4968611001968384,
+      "datetime_utc": "2005-10-29T08:49Z",
+      "source_file": "DMX_2005_29_0849.txt",
+      "similarity": 0.4988574683666229,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-10-20T23:38Z",
       "source_file": "DMX_2014_20_2338.txt",
-      "similarity": 0.4968611001968384,
+      "similarity": 0.49809208512306213,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-10-21T04:20Z",
+      "source_file": "DMX_2014_21_0420.txt",
+      "similarity": 0.49809208512306213,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-10-20T20:33Z",
       "source_file": "DMX_2014_20_2033.txt",
-      "similarity": 0.4968611001968384,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-10-29T08:49Z",
-      "source_file": "DMX_2005_29_0849.txt",
-      "similarity": 0.4952395558357239,
+      "similarity": 0.49809208512306213,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-07-27T04:33Z",
       "source_file": "DMX_2014_27_0433.txt",
-      "similarity": 0.4922957122325897,
+      "similarity": 0.4954495131969452,
       "label": "severe_hail",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.5010196596384049,
+    "mean_similarity": 0.504760691523552,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202610041924-KDMX-FXUS63-AFDDMX",
-    "afd_time": "2026-10-04T19:24:00Z",
-    "updated": "2026-10-04T21:34:09.781817+00:00"
+    "product_id": "202610042320-KDMX-FXUS63-AFDDMX",
+    "afd_time": "2026-10-04T23:20:00Z",
+    "updated": "2026-10-05T01:00:36.397330+00:00"
   }
 }

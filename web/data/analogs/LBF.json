@@ -1,28 +1,14 @@
 {
   "office": "LBF",
-  "product_id": "202610042018-KLBF-FXUS63-AFDLBF",
-  "afd_time": "2026-10-04T20:18:00Z",
+  "product_id": "202610042322-KLBF-FXUS63-AFDLBF",
+  "afd_time": "2026-10-04T23:22:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-04T21:34:09.781817+00:00",
+  "updated": "2026-10-05T01:00:36.397330+00:00",
   "query_preview": "/TUESDAY THROUGH SUNDAY/...\nIssued at 318 PM CDT Sun Oct 4 2026\n\nDry conditions remains likely through the first half of the upcoming \nweek. Upper ridging across the western CONUS should flatten some \nwith general northwesterly flow persisting. Moisture will remain \nbottled up along the Gulf Coast w",
   "analogs": [
     {
       "datetime_utc": "2012-01-20T19:03Z",
       "source_file": "LBF_2012_20_1903.txt",
-      "similarity": 0.5371520519256592,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-01-20T17:30Z",
-      "source_file": "LBF_2012_20_1730.txt",
-      "similarity": 0.5371520519256592,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-01-20T09:29Z",
-      "source_file": "LBF_2012_20_0929_1.txt",
       "similarity": 0.5371520519256592,
       "label": "winter",
       "is_severe": false
@@ -35,30 +21,51 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-07-24T21:00Z",
-      "source_file": "LBF_2012_24_2100.txt",
-      "similarity": 0.5332992076873779,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2012-01-20T09:29Z",
+      "source_file": "LBF_2012_20_0929_1.txt",
+      "similarity": 0.5371520519256592,
+      "label": "winter",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2012-07-24T23:00Z",
-      "source_file": "LBF_2012_24_2300.txt",
-      "similarity": 0.5332992076873779,
+      "datetime_utc": "2012-01-20T17:30Z",
+      "source_file": "LBF_2012_20_1730.txt",
+      "similarity": 0.5371520519256592,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-07-25T02:01Z",
+      "source_file": "LBF_2012_25_0201.txt",
+      "similarity": 0.5332991480827332,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-07-25T05:10Z",
       "source_file": "LBF_2012_25_0510.txt",
-      "similarity": 0.5332992076873779,
+      "similarity": 0.5332991480827332,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-07-25T02:01Z",
-      "source_file": "LBF_2012_25_0201.txt",
-      "similarity": 0.5332992076873779,
+      "datetime_utc": "2012-07-24T23:00Z",
+      "source_file": "LBF_2012_24_2300.txt",
+      "similarity": 0.5332991480827332,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-07-24T21:00Z",
+      "source_file": "LBF_2012_24_2100.txt",
+      "similarity": 0.5332991480827332,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-07-25T20:12Z",
+      "source_file": "LBF_2012_25_2012.txt",
+      "similarity": 0.5331869721412659,
       "label": "severe_wind",
       "is_severe": true
     },
@@ -68,24 +75,17 @@
       "similarity": 0.5331869721412659,
       "label": "tornado",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-07-25T20:12Z",
-      "source_file": "LBF_2012_25_2012.txt",
-      "similarity": 0.5331869721412659,
-      "label": "severe_wind",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.534817898273468,
+    "mean_similarity": 0.5348178744316101,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.53 below confidence floor 0.7",
-    "product_id": "202610042018-KLBF-FXUS63-AFDLBF",
-    "afd_time": "2026-10-04T20:18:00Z",
-    "updated": "2026-10-04T21:34:09.781817+00:00"
+    "product_id": "202610042322-KLBF-FXUS63-AFDLBF",
+    "afd_time": "2026-10-04T23:22:00Z",
+    "updated": "2026-10-05T01:00:36.397330+00:00"
   }
 }
