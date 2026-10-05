@@ -1,91 +1,91 @@
 {
   "office": "BGM",
-  "product_id": "202610051048-KBGM-FXUS61-AFDBGM",
-  "afd_time": "2026-10-05T10:48:00Z",
+  "product_id": "202610051901-KBGM-FXUS61-AFDBGM",
+  "afd_time": "2026-10-05T19:01:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-05T16:07:26.095162+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...\n\nA cold front pushes through this morning as a low pressure\nsystem slides across Ontario, bringing scattered showers from\nwest to east across central NY. Cold air filtering in behind the\nfront will allow lake effect showers to develop across portions\nof Onondaga, Madison, and sou",
+  "updated": "2026-10-05T22:43:18.342841+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...\n\nA very blustery day across the region with winds gusting\n20-35mph behind the cold front that pushed through this morning.\nMost of the rain showers have moved east, but a few pop up lake\neffect showers will be possible into the evening for areas north\nof the Southern Tier. Model ",
   "analogs": [
-    {
-      "datetime_utc": "2018-05-22T17:47Z",
-      "source_file": "BGM_2018_22_1747.txt",
-      "similarity": 0.44343921542167664,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2018-05-22T11:08Z",
       "source_file": "BGM_2018_22_1108.txt",
-      "similarity": 0.44343921542167664,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-05-22T06:56Z",
-      "source_file": "BGM_2018_22_0656.txt",
-      "similarity": 0.44343921542167664,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-05-22T14:50Z",
-      "source_file": "BGM_2018_22_1450.txt",
-      "similarity": 0.44343921542167664,
+      "similarity": 0.44269776344299316,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-05-22T07:49Z",
       "source_file": "BGM_2018_22_0749.txt",
-      "similarity": 0.44343921542167664,
+      "similarity": 0.44269776344299316,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-07-14T18:19Z",
-      "source_file": "BGM_2004_14_1819.txt",
-      "similarity": 0.44230303168296814,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2018-05-22T14:50Z",
+      "source_file": "BGM_2018_22_1450.txt",
+      "similarity": 0.44269776344299316,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2004-07-15T02:46Z",
-      "source_file": "BGM_2004_15_0246.txt",
-      "similarity": 0.44230303168296814,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2018-05-22T17:47Z",
+      "source_file": "BGM_2018_22_1747.txt",
+      "similarity": 0.44269776344299316,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2004-07-14T23:16Z",
-      "source_file": "BGM_2004_14_2316.txt",
-      "similarity": 0.44230303168296814,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2018-05-22T06:56Z",
+      "source_file": "BGM_2018_22_0656.txt",
+      "similarity": 0.44269776344299316,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-09-19T10:39Z",
+      "source_file": "BGM_2025_19_1039.txt",
+      "similarity": 0.4312669038772583,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-09-19T06:40Z",
+      "source_file": "BGM_2025_19_0640.txt",
+      "similarity": 0.4312669038772583,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-09-19T17:34Z",
+      "source_file": "BGM_2025_19_1734.txt",
+      "similarity": 0.4312669038772583,
+      "label": "tornado",
+      "is_severe": true
     },
     {
       "datetime_utc": "2004-02-13T09:11Z",
       "source_file": "BGM_2004_13_0911.txt",
-      "similarity": 0.4361484944820404,
+      "similarity": 0.42955732345581055,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-11-30T02:54Z",
-      "source_file": "BGM_2011_30_0254.txt",
-      "similarity": 0.4330891966819763,
-      "label": "quiet",
+      "datetime_utc": "2021-03-17T17:50Z",
+      "source_file": "BGM_2021_17_1750.txt",
+      "similarity": 0.42757487297058105,
+      "label": "flood",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.44133428633213045,
-    "n_severe": 5,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.4364421725273132,
+    "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610051048-KBGM-FXUS61-AFDBGM",
-    "afd_time": "2026-10-05T10:48:00Z",
-    "updated": "2026-10-05T16:07:26.095162+00:00"
+    "product_id": "202610051901-KBGM-FXUS61-AFDBGM",
+    "afd_time": "2026-10-05T19:01:00Z",
+    "updated": "2026-10-05T22:43:18.342841+00:00"
   }
 }

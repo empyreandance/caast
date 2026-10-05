@@ -1,91 +1,91 @@
 {
   "office": "LCH",
-  "product_id": "202610051209-KLCH-FXUS64-AFDLCH",
-  "afd_time": "2026-10-05T12:09:00Z",
+  "product_id": "202610051811-KLCH-FXUS64-AFDLCH",
+  "afd_time": "2026-10-05T18:11:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-05T16:07:26.095162+00:00",
-  "query_preview": "..\n(This evening through next Saturday)\nIssued at 240 PM CDT Sun Oct 4 2026\n\nLatest SFC analysis showed that the weak frontal boundary that has \nbeen hanging around the area for the past couple of days has pushed \noffshore all but the lower Atchafalaya Basin. The KLCH RAOB was \nstill quite moist, co",
+  "updated": "2026-10-05T22:43:18.342841+00:00",
+  "query_preview": "..\n(This evening through next Sunday)\nIssued at 108 PM CDT Mon Oct 5 2026\n\nMonday afternoon surface analysis shows a cold front draped along \nthe Gulf Coast, from south of New Orleans to east of Brownsville at \nthis time. Excessive moisture associated with this boundary has \nlargely been shunted off",
   "analogs": [
+    {
+      "datetime_utc": "2006-01-14T16:18Z",
+      "source_file": "LCH_2006_14_1618.txt",
+      "similarity": 0.4440159499645233,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-??-13T21:44Z",
+      "source_file": "LCH_2004_13_2144.txt",
+      "similarity": 0.442142128944397,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-01-14T02:59Z",
+      "source_file": "LCH_2004_14_0259_1.txt",
+      "similarity": 0.442142128944397,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2006-09-11T15:13Z",
       "source_file": "LCH_2006_11_1513.txt",
-      "similarity": 0.3869187831878662,
+      "similarity": 0.439848929643631,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-03-01T11:04Z",
+      "source_file": "LCH_2012_01_1104.txt",
+      "similarity": 0.4326387047767639,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2006-03-23T03:49Z",
       "source_file": "LCH_2006_23_0349.txt",
-      "similarity": 0.3857271075248718,
+      "similarity": 0.4319121837615967,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-01-14T16:18Z",
-      "source_file": "LCH_2006_14_1618.txt",
-      "similarity": 0.38393449783325195,
+      "datetime_utc": "2005-04-17T02:25Z",
+      "source_file": "LCH_2005_17_0225.txt",
+      "similarity": 0.4313572347164154,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-06-08T20:12Z",
-      "source_file": "LCH_2012_08_2012.txt",
-      "similarity": 0.38277706503868103,
+      "datetime_utc": "2015-11-13T03:18Z",
+      "source_file": "LCH_2015_13_0318.txt",
+      "similarity": 0.4304150938987732,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-11-12T21:40Z",
+      "source_file": "LCH_2015_12_2140.txt",
+      "similarity": 0.4304150938987732,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2015-12-04T16:19Z",
       "source_file": "LCH_2015_04_1619.txt",
-      "similarity": 0.38001441955566406,
+      "similarity": 0.4297295808792114,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-03-15T12:06Z",
-      "source_file": "LCH_2007_15_1206.txt",
-      "similarity": 0.37566497921943665,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-01-02T11:27Z",
-      "source_file": "LCH_2019_02_1127.txt",
-      "similarity": 0.3750706613063812,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-01-02T15:56Z",
-      "source_file": "LCH_2019_02_1556_1.txt",
-      "similarity": 0.3750706613063812,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-01-02T09:48Z",
-      "source_file": "LCH_2019_02_0948.txt",
-      "similarity": 0.3750706613063812,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-01-02T17:18Z",
-      "source_file": "LCH_2019_02_1718_1.txt",
-      "similarity": 0.3750706613063812,
-      "label": "flood",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.37953194975852966,
-    "n_severe": 1,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.4354617029428482,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610051209-KLCH-FXUS64-AFDLCH",
-    "afd_time": "2026-10-05T12:09:00Z",
-    "updated": "2026-10-05T16:07:26.095162+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202610051811-KLCH-FXUS64-AFDLCH",
+    "afd_time": "2026-10-05T18:11:00Z",
+    "updated": "2026-10-05T22:43:18.342841+00:00"
   }
 }

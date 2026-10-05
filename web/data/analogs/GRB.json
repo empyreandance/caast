@@ -1,91 +1,91 @@
 {
   "office": "GRB",
-  "product_id": "202610051130-KGRB-FXUS63-AFDGRB",
-  "afd_time": "2026-10-05T11:30:00Z",
+  "product_id": "202610051652-KGRB-FXUS63-AFDGRB",
+  "afd_time": "2026-10-05T16:52:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-05T16:07:26.095162+00:00",
-  "query_preview": "..\nIssued at 130 AM CDT Mon Oct 5 2026\n\nFrost/freeze... Temperatures have been slow to fall after sunset\nwith light winds and scattered mid clouds around, with readings \nin the upper 30s to low 40s early this morning across headline \nareas. However, with several hours yet for cooling to occur, \ncurr",
+  "updated": "2026-10-05T22:43:18.342841+00:00",
+  "query_preview": "..\nIssued at 1151 AM CDT Mon Oct 5 2026\n\nThe current surface analysis displays high pressure positioned \nover the western Great Lakes, delivering clear skies and pleasant \nfall conditions across northern Wisconsin. On the western flank of\nthe ridge, warm advection is increasing across the Northern \n",
   "analogs": [
     {
       "datetime_utc": "2005-04-17T04:08Z",
       "source_file": "GRB_2005_17_0408.txt",
-      "similarity": 0.4993263781070709,
+      "similarity": 0.4680408835411072,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-07-07T08:40Z",
-      "source_file": "GRB_2006_07_0840.txt",
-      "similarity": 0.4685840308666229,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2008-01-13T09:40Z",
       "source_file": "GRB_2008_13_0940.txt",
-      "similarity": 0.46784234046936035,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-07-23T19:12Z",
-      "source_file": "GRB_2004_23_1912.txt",
-      "similarity": 0.4654679298400879,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-??-21T07:56Z",
-      "source_file": "GRB_2007_21_0756.txt",
-      "similarity": 0.4626520574092865,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-03-19T20:20Z",
-      "source_file": "GRB_2010_19_2020.txt",
-      "similarity": 0.4612545967102051,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-08-26T19:16Z",
-      "source_file": "GRB_2004_26_1916.txt",
-      "similarity": 0.45978206396102905,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-01-22T20:49Z",
-      "source_file": "GRB_2009_22_2049_1.txt",
-      "similarity": 0.45960667729377747,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-01-22T20:49Z",
-      "source_file": "GRB_2009_22_2049_2.txt",
-      "similarity": 0.45960667729377747,
+      "similarity": 0.4580231308937073,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-01-04T09:33Z",
       "source_file": "GRB_2004_04_0933.txt",
-      "similarity": 0.45953208208084106,
+      "similarity": 0.4538280665874481,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-??-21T07:56Z",
+      "source_file": "GRB_2007_21_0756.txt",
+      "similarity": 0.45252326130867004,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-07-07T08:40Z",
+      "source_file": "GRB_2006_07_0840.txt",
+      "similarity": 0.451946496963501,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-01-22T20:49Z",
+      "source_file": "GRB_2009_22_2049_1.txt",
+      "similarity": 0.4514508843421936,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-01-22T20:49Z",
+      "source_file": "GRB_2009_22_2049_2.txt",
+      "similarity": 0.4514508843421936,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-08-26T19:16Z",
+      "source_file": "GRB_2004_26_1916.txt",
+      "similarity": 0.4501117765903473,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-01-19T20:38Z",
+      "source_file": "GRB_2008_19_2038.txt",
+      "similarity": 0.4481000602245331,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-02-13T09:36Z",
+      "source_file": "GRB_2008_13_0936.txt",
+      "similarity": 0.4464793801307678,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.4663654834032059,
+    "mean_similarity": 0.4531954824924469,
     "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610051130-KGRB-FXUS63-AFDGRB",
-    "afd_time": "2026-10-05T11:30:00Z",
-    "updated": "2026-10-05T16:07:26.095162+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202610051652-KGRB-FXUS63-AFDGRB",
+    "afd_time": "2026-10-05T16:52:00Z",
+    "updated": "2026-10-05T22:43:18.342841+00:00"
   }
 }
