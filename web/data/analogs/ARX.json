@@ -1,91 +1,91 @@
 {
   "office": "ARX",
-  "product_id": "202610052348-KARX-FXUS63-AFDARX",
-  "afd_time": "2026-10-05T23:48:00Z",
+  "product_id": "202610060538-KARX-FXUS63-AFDARX",
+  "afd_time": "2026-10-06T05:38:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-06T03:04:35.033801+00:00",
-  "query_preview": "..\nIssued at 1236 PM CDT Mon Oct 5 2026\n\nToday - Tuesday: Low Potential for Showers North of I-94, Breezy\nTuesday\n\nRather benign weather continues across the Upper Mississippi \nRiver Valley today into Tuesday. The exception is the low \npotential (10-30%) for some scattered showers north of I-94 \nton",
+  "updated": "2026-10-06T10:26:12.357171+00:00",
+  "query_preview": "..\nIssued at 1235 AM CDT Tue Oct 6 2026\n\nToday - Friday: Warmer & Breezy Today, Staying Dry \n\nNorthwesterly synoptic flow continues to dominate the synoptic flow \npattern over the next few days with shortwave ridging moving through \nthe region for the daytime hours. As a result, flow turns to \nsouth",
   "analogs": [
+    {
+      "datetime_utc": "2010-10-02T19:42Z",
+      "source_file": "ARX_2010_02_1942.txt",
+      "similarity": 0.45095294713974,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2009-10-23T08:56Z",
       "source_file": "ARX_2009_23_0856.txt",
-      "similarity": 0.49718981981277466,
+      "similarity": 0.4411112666130066,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-07-22T07:41Z",
       "source_file": "ARX_2004_22_0741.txt",
-      "similarity": 0.48392847180366516,
+      "similarity": 0.43642356991767883,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-10-02T19:42Z",
-      "source_file": "ARX_2010_02_1942.txt",
-      "similarity": 0.4832304120063782,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-12-02T21:24Z",
-      "source_file": "ARX_2010_02_2124.txt",
-      "similarity": 0.47116178274154663,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-12-30T16:48Z",
-      "source_file": "ARX_2010_30_1648.txt",
-      "similarity": 0.4707765281200409,
-      "label": "severe_hail",
+      "datetime_utc": "2005-06-29T09:05Z",
+      "source_file": "ARX_2005_29_0905.txt",
+      "similarity": 0.43011075258255005,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-12-30T09:29Z",
-      "source_file": "ARX_2010_30_0929.txt",
-      "similarity": 0.4707765281200409,
-      "label": "severe_hail",
+      "datetime_utc": "2023-07-18T03:34Z",
+      "source_file": "ARX_2023_18_0334.txt",
+      "similarity": 0.42872118949890137,
+      "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-11-29T20:14Z",
-      "source_file": "ARX_2004_29_2014.txt",
-      "similarity": 0.46784883737564087,
-      "label": "quiet",
-      "is_severe": false
     },
     {
       "datetime_utc": "2023-07-17T23:14Z",
       "source_file": "ARX_2023_17_2314.txt",
-      "similarity": 0.466810405254364,
+      "similarity": 0.42872118949890137,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2023-07-17T18:47Z",
       "source_file": "ARX_2023_17_1847.txt",
-      "similarity": 0.466810405254364,
+      "similarity": 0.42872118949890137,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2023-07-18T03:34Z",
-      "source_file": "ARX_2023_18_0334.txt",
-      "similarity": 0.466810405254364,
-      "label": "severe_wind",
+      "datetime_utc": "2004-11-16T20:37Z",
+      "source_file": "ARX_2004_16_2037.txt",
+      "similarity": 0.4282523989677429,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-03-09T09:15Z",
+      "source_file": "ARX_2011_09_0915.txt",
+      "similarity": 0.4272111654281616,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-12-30T09:29Z",
+      "source_file": "ARX_2010_30_0929.txt",
+      "similarity": 0.4256601929664612,
+      "label": "severe_hail",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.47453435957431794,
+    "mean_similarity": 0.43258858621120455,
     "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610052348-KARX-FXUS63-AFDARX",
-    "afd_time": "2026-10-05T23:48:00Z",
-    "updated": "2026-10-06T03:04:35.033801+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202610060538-KARX-FXUS63-AFDARX",
+    "afd_time": "2026-10-06T05:38:00Z",
+    "updated": "2026-10-06T10:26:12.357171+00:00"
   }
 }

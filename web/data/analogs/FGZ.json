@@ -1,9 +1,9 @@
 {
   "office": "FGZ",
-  "product_id": "202610052314-KFGZ-FXUS65-AFDFGZ",
-  "afd_time": "2026-10-05T23:14:00Z",
+  "product_id": "202610060535-KFGZ-FXUS65-AFDFGZ",
+  "afd_time": "2026-10-06T05:35:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-06T03:04:35.033801+00:00",
+  "updated": "2026-10-06T10:26:12.357171+00:00",
   "query_preview": "..Through Friday, High pressure aloft will dominate \nthe weather across northern Arizona. Surface pressure gradients \nwill favor northeast to southeast flow at 5 to 15 mph through \nThursday, mainly during the daytime hours. Nighttime winds will be\nmainly light and variable. Winds shifting to light f",
   "analogs": [
     {
@@ -14,13 +14,6 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-10-05T03:59Z",
-      "source_file": "FGZ_2014_05_0359.txt",
-      "similarity": 0.48655304312705994,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2014-10-04T22:30Z",
       "source_file": "FGZ_2014_04_2230.txt",
       "similarity": 0.48655304312705994,
@@ -28,23 +21,30 @@
       "is_severe": true
     },
     {
+      "datetime_utc": "2014-10-05T03:59Z",
+      "source_file": "FGZ_2014_05_0359.txt",
+      "similarity": 0.48655304312705994,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2012-12-11T16:59Z",
       "source_file": "FGZ_2012_11_1659.txt",
-      "similarity": 0.48263657093048096,
+      "similarity": 0.48263663053512573,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-04-09T16:27Z",
       "source_file": "FGZ_2012_09_1627.txt",
-      "similarity": 0.47879138588905334,
+      "similarity": 0.47879135608673096,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2013-04-15T01:25Z",
       "source_file": "FGZ_2013_15_0125.txt",
-      "similarity": 0.47717562317848206,
+      "similarity": 0.47717559337615967,
       "label": "winter",
       "is_severe": false
     },
@@ -58,21 +58,21 @@
     {
       "datetime_utc": "2015-05-04T17:18Z",
       "source_file": "FGZ_2015_04_1718.txt",
-      "similarity": 0.47069206833839417,
+      "similarity": 0.47069212794303894,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-03-28T16:09Z",
       "source_file": "FGZ_2014_28_1609.txt",
-      "similarity": 0.4706570506095886,
+      "similarity": 0.47065699100494385,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-10-14T16:24Z",
       "source_file": "FGZ_2012_14_1624.txt",
-      "similarity": 0.4702901542186737,
+      "similarity": 0.4702901840209961,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.47996423244476316,
+    "mean_similarity": 0.47996423542499544,
     "n_severe": 5,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202610052314-KFGZ-FXUS65-AFDFGZ",
-    "afd_time": "2026-10-05T23:14:00Z",
-    "updated": "2026-10-06T03:04:35.033801+00:00"
+    "product_id": "202610060535-KFGZ-FXUS65-AFDFGZ",
+    "afd_time": "2026-10-06T05:35:00Z",
+    "updated": "2026-10-06T10:26:12.357171+00:00"
   }
 }
