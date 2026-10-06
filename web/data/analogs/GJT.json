@@ -1,91 +1,91 @@
 {
   "office": "GJT",
-  "product_id": "202610061140-KGJT-FXUS65-AFDGJT",
-  "afd_time": "2026-10-06T11:40:00Z",
+  "product_id": "202610061835-KGJT-FXUS65-AFDGJT",
+  "afd_time": "2026-10-06T18:35:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-06T17:15:54.844346+00:00",
-  "query_preview": "..\nIssued at 946 PM MDT Mon Oct 5 2026\n\nISOLATED RAIN SHOWERS AND THUNDERSTORMS NEXT COUPLE DAYS:\n\nDeterministic models continue to push a shortwave through the \nregion over the next 48 or so hours. With moisture still sitting\nabove normal, this added forcing will promote an uptick in \nstorm coverag",
+  "updated": "2026-10-06T21:45:25.032305+00:00",
+  "query_preview": "..\nIssued at 1149 AM MDT Tue Oct 6 2026\n\nDAILY MOUNTAIN SHOWERS AND STORMS IN THE AFTERNOON: \n\nA shortwave trough is moving across the region today. This\nshortwave will provide some support for mountain showers and\nthunderstorms, primarily during the afternoon hours over the\nsouthern and central Col",
   "analogs": [
-    {
-      "datetime_utc": "2009-05-21T11:15Z",
-      "source_file": "GJT_2009_21_1115_1.txt",
-      "similarity": 0.4519108533859253,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-04-09T03:12Z",
-      "source_file": "GJT_2021_09_0312.txt",
-      "similarity": 0.44599154591560364,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-04-08T21:32Z",
-      "source_file": "GJT_2021_08_2132.txt",
-      "similarity": 0.44599154591560364,
-      "label": "severe_hail",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2021-04-09T04:44Z",
       "source_file": "GJT_2021_09_0444.txt",
-      "similarity": 0.44599154591560364,
+      "similarity": 0.46695470809936523,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-04-08T23:38Z",
       "source_file": "GJT_2021_08_2338.txt",
-      "similarity": 0.44599154591560364,
+      "similarity": 0.46695470809936523,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-06-15T10:09Z",
-      "source_file": "GJT_2005_15_1009.txt",
-      "similarity": 0.43995556235313416,
+      "datetime_utc": "2021-04-09T03:12Z",
+      "source_file": "GJT_2021_09_0312.txt",
+      "similarity": 0.46695470809936523,
       "label": "severe_hail",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-04-08T21:32Z",
+      "source_file": "GJT_2021_08_2132.txt",
+      "similarity": 0.46695470809936523,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-05-21T11:15Z",
+      "source_file": "GJT_2009_21_1115_1.txt",
+      "similarity": 0.45286113023757935,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-04-04T08:51Z",
+      "source_file": "GJT_2008_04_0851.txt",
+      "similarity": 0.44757235050201416,
+      "label": "winter",
+      "is_severe": false
     },
     {
       "datetime_utc": "2009-08-15T10:04Z",
       "source_file": "GJT_2009_15_1004.txt",
-      "similarity": 0.4372803270816803,
+      "similarity": 0.44404345750808716,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-12-17T09:13Z",
-      "source_file": "GJT_2004_17_0913.txt",
-      "similarity": 0.43450456857681274,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-09-01T09:41Z",
-      "source_file": "GJT_2007_01_0941.txt",
-      "similarity": 0.43309271335601807,
-      "label": "tornado",
+      "datetime_utc": "2021-08-10T07:45Z",
+      "source_file": "GJT_2021_10_0745.txt",
+      "similarity": 0.4439229369163513,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-08-25T09:40Z",
-      "source_file": "GJT_2007_25_0940.txt",
-      "similarity": 0.430427610874176,
-      "label": "severe_hail",
+      "datetime_utc": "2021-08-10T18:05Z",
+      "source_file": "GJT_2021_10_1805.txt",
+      "similarity": 0.4439229369163513,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-08-10T11:24Z",
+      "source_file": "GJT_2021_10_1124.txt",
+      "similarity": 0.4439229369163513,
+      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.4411137819290161,
+    "mean_similarity": 0.45440645813941954,
     "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610061140-KGJT-FXUS65-AFDGJT",
-    "afd_time": "2026-10-06T11:40:00Z",
-    "updated": "2026-10-06T17:15:54.844346+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202610061835-KGJT-FXUS65-AFDGJT",
+    "afd_time": "2026-10-06T18:35:00Z",
+    "updated": "2026-10-06T21:45:25.032305+00:00"
   }
 }

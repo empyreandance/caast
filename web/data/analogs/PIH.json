@@ -1,91 +1,91 @@
 {
   "office": "PIH",
-  "product_id": "202610061058-KPIH-FXUS65-AFDPIH",
-  "afd_time": "2026-10-06T10:58:00Z",
+  "product_id": "202610061935-KPIH-FXUS65-AFDPIH",
+  "afd_time": "2026-10-06T19:35:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-06T17:15:54.844346+00:00",
-  "query_preview": "..\nIssued at 1149 PM MDT Mon Oct 5 2026\n\nWe are still expecting a few showers, and maybe a thunderstorm\ntoday closer to the Utah border, throughout the day. The low\ncontinues to track farther south, and it may end up far enough\nsouth that our forecast for isolated coverage is a stretch.\nExpect littl",
+  "updated": "2026-10-06T21:45:25.032305+00:00",
+  "query_preview": "..\nIssued at 128 PM MDT Tue Oct 6 2026\n\nAfternoon satellite imagery shows virtually no cloud cover \nacross eastern Idaho as quiet and abnormally warm October \nweather continues. A stable synoptic regime will maintain this \npattern through the end of the workweek, with only subtle day- \nto-day temper",
   "analogs": [
-    {
-      "datetime_utc": "2005-09-24T16:17Z",
-      "source_file": "PIH_2005_24_1617.txt",
-      "similarity": 0.39632493257522583,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-09-24T09:14Z",
-      "source_file": "PIH_2005_24_0914.txt",
-      "similarity": 0.39632493257522583,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2006-05-17T01:41Z",
       "source_file": "PIH_2006_17_0141.txt",
-      "similarity": 0.3955566883087158,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-05-01T09:40Z",
-      "source_file": "PIH_2010_01_0940.txt",
-      "similarity": 0.3887539505958557,
+      "similarity": 0.3672361671924591,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-06-27T19:43Z",
       "source_file": "PIH_2009_27_1943.txt",
-      "similarity": 0.3857010006904602,
+      "similarity": 0.3528754711151123,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-07-01T08:46Z",
-      "source_file": "PIH_2010_01_0846.txt",
-      "similarity": 0.38373205065727234,
+      "datetime_utc": "2009-05-15T19:29Z",
+      "source_file": "PIH_2009_15_1929.txt",
+      "similarity": 0.3517122268676758,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-11-02T07:42Z",
+      "source_file": "PIH_2010_02_0742.txt",
+      "similarity": 0.35003817081451416,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-11-02T14:29Z",
+      "source_file": "PIH_2010_02_1429.txt",
+      "similarity": 0.35003817081451416,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-09-24T09:14Z",
+      "source_file": "PIH_2005_24_0914.txt",
+      "similarity": 0.34729504585266113,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-06-11T19:26Z",
-      "source_file": "PIH_2009_11_1926.txt",
-      "similarity": 0.37858352065086365,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2005-09-24T16:17Z",
+      "source_file": "PIH_2005_24_1617.txt",
+      "similarity": 0.34729504585266113,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2010-07-27T19:45Z",
-      "source_file": "PIH_2010_27_1945.txt",
-      "similarity": 0.378052294254303,
+      "datetime_utc": "2010-05-01T09:40Z",
+      "source_file": "PIH_2010_01_0940.txt",
+      "similarity": 0.3423679769039154,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-07-28T02:28Z",
-      "source_file": "PIH_2010_28_0228.txt",
-      "similarity": 0.378052294254303,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2006-09-13T01:34Z",
+      "source_file": "PIH_2006_13_0134.txt",
+      "similarity": 0.3404114246368408,
+      "label": "winter",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2010-06-28T09:33Z",
-      "source_file": "PIH_2010_28_0933.txt",
-      "similarity": 0.37502723932266235,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2020-10-01T19:55Z",
+      "source_file": "PIH_2020_01_1955.txt",
+      "similarity": 0.33989596366882324,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.3856108903884888,
-    "n_severe": 7,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.3489165663719177,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202610061058-KPIH-FXUS65-AFDPIH",
-    "afd_time": "2026-10-06T10:58:00Z",
-    "updated": "2026-10-06T17:15:54.844346+00:00"
+    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
+    "product_id": "202610061935-KPIH-FXUS65-AFDPIH",
+    "afd_time": "2026-10-06T19:35:00Z",
+    "updated": "2026-10-06T21:45:25.032305+00:00"
   }
 }

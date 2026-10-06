@@ -1,91 +1,91 @@
 {
   "office": "AMA",
-  "product_id": "202610061125-KAMA-FXUS64-AFDAMA",
-  "afd_time": "2026-10-06T11:25:00Z",
+  "product_id": "202610061733-KAMA-FXUS64-AFDAMA",
+  "afd_time": "2026-10-06T17:33:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-06T17:15:54.844346+00:00",
-  "query_preview": "..\n(Thursday through next Monday)\nIssued at 1142 PM CDT Mon Oct 5 2026\n\nLong range global models are showing the development of a tropical \nsystem in the Gulf and a developing trough taking shape over the \nwestern CONUS. The GFS wants to keep this trough more compact while \nthe ECMWF wants to evolve",
+  "updated": "2026-10-06T21:45:25.032305+00:00",
+  "query_preview": "..\n(Thursday through next Monday)\nIssued at 1232 PM CDT Tue Oct 6 2026\n\nThrough the remainder of this week, operational models still try to \nanalyze and further deepen a trough and associated mid-level low \nnear the Four Corners. Currently its moving southeast and is still \nexpected to go west and s",
   "analogs": [
     {
-      "datetime_utc": "2025-10-04T18:44Z",
-      "source_file": "AMA_2025_04_1844.txt",
-      "similarity": 0.37913447618484497,
+      "datetime_utc": "2005-11-27T10:32Z",
+      "source_file": "AMA_2005_27_1032.txt",
+      "similarity": 0.47056344151496887,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2025-10-04T23:23Z",
-      "source_file": "AMA_2025_04_2323.txt",
-      "similarity": 0.37913447618484497,
+      "datetime_utc": "2005-04-23T20:28Z",
+      "source_file": "AMA_2005_23_2028.txt",
+      "similarity": 0.4688485562801361,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-07-08T21:13Z",
-      "source_file": "AMA_2004_08_2113.txt",
-      "similarity": 0.3756762742996216,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2004-10-26T21:10Z",
       "source_file": "AMA_2004_26_2110.txt",
-      "similarity": 0.37542828917503357,
+      "similarity": 0.46799346804618835,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-10-27T08:55Z",
       "source_file": "AMA_2004_27_0855_1.txt",
-      "similarity": 0.37542828917503357,
+      "similarity": 0.46799346804618835,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-02-14T09:57Z",
+      "source_file": "AMA_2016_14_0957.txt",
+      "similarity": 0.4647866189479828,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-01-24T22:00Z",
+      "source_file": "AMA_2010_24_2200.txt",
+      "similarity": 0.46471601724624634,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-02-02T21:17Z",
+      "source_file": "AMA_2016_02_2117.txt",
+      "similarity": 0.4614775776863098,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-02-03T08:55Z",
+      "source_file": "AMA_2016_03_0855.txt",
+      "similarity": 0.4614775776863098,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-10-13T20:13Z",
+      "source_file": "AMA_2019_13_2013.txt",
+      "similarity": 0.4544910788536072,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2004-01-27T09:00Z",
       "source_file": "AMA_2004_27_0900_1.txt",
-      "similarity": 0.37196266651153564,
+      "similarity": 0.4540892243385315,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-11-24T21:53Z",
-      "source_file": "AMA_2004_24_2153.txt",
-      "similarity": 0.37109363079071045,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-05-29T08:41Z",
-      "source_file": "AMA_2008_29_0841.txt",
-      "similarity": 0.36987996101379395,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-05-28T20:14Z",
-      "source_file": "AMA_2008_28_2014.txt",
-      "similarity": 0.36987996101379395,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-08-27T19:30Z",
-      "source_file": "AMA_2021_27_1930.txt",
-      "similarity": 0.36931532621383667,
-      "label": "severe_wind",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.3736933350563049,
-    "n_severe": 4,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.4636437028646469,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
-    "product_id": "202610061125-KAMA-FXUS64-AFDAMA",
-    "afd_time": "2026-10-06T11:25:00Z",
-    "updated": "2026-10-06T17:15:54.844346+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202610061733-KAMA-FXUS64-AFDAMA",
+    "afd_time": "2026-10-06T17:33:00Z",
+    "updated": "2026-10-06T21:45:25.032305+00:00"
   }
 }
