@@ -1,31 +1,24 @@
 {
   "office": "FWD",
-  "product_id": "202610051811-KFWD-FXUS64-AFDFWD",
-  "afd_time": "2026-10-05T18:11:00Z",
+  "product_id": "202610060144-KFWD-FXUS64-AFDFWD",
+  "afd_time": "2026-10-06T01:44:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-05T22:43:18.342841+00:00",
+  "updated": "2026-10-06T03:04:35.033801+00:00",
   "query_preview": "..\n(Wednesday night through next Sunday) \nIssued at 110 PM CDT Mon Oct 5 2026\n\nBottom line: mostly dry conditions are expected to persist \ninto the weekend. \n\nLate in the week, an upper-level shortwave is progged to swing \nsoutheast from California to Texas while a tropical wave is \nanticipated to c",
   "analogs": [
     {
       "datetime_utc": "2007-11-12T08:51Z",
       "source_file": "FWD_2007_12_0851.txt",
-      "similarity": 0.4400813579559326,
+      "similarity": 0.44008123874664307,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-12-08T09:38Z",
       "source_file": "FWD_2005_08_0938.txt",
-      "similarity": 0.43323561549186707,
+      "similarity": 0.4332355856895447,
       "label": "severe_hail",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-01-29T08:59Z",
-      "source_file": "FWD_2005_29_0859.txt",
-      "similarity": 0.43286311626434326,
-      "label": "quiet",
-      "is_severe": false
     },
     {
       "datetime_utc": "2005-01-29T22:02Z",
@@ -35,16 +28,23 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-11-12T21:06Z",
-      "source_file": "FWD_2007_12_2106.txt",
-      "similarity": 0.4315875768661499,
-      "label": "flood",
+      "datetime_utc": "2005-01-29T08:59Z",
+      "source_file": "FWD_2005_29_0859.txt",
+      "similarity": 0.43286311626434326,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-11-12T10:17Z",
       "source_file": "FWD_2007_12_1017.txt",
-      "similarity": 0.4315875768661499,
+      "similarity": 0.4315875470638275,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-11-12T21:06Z",
+      "source_file": "FWD_2007_12_2106.txt",
+      "similarity": 0.4315875470638275,
       "label": "flood",
       "is_severe": false
     },
@@ -63,16 +63,16 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2025-11-02T18:37Z",
-      "source_file": "FWD_2025_02_1837.txt",
-      "similarity": 0.42976999282836914,
+      "datetime_utc": "2025-11-02T23:19Z",
+      "source_file": "FWD_2025_02_2319.txt",
+      "similarity": 0.42976993322372437,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2025-11-02T23:19Z",
-      "source_file": "FWD_2025_02_2319.txt",
-      "similarity": 0.42976999282836914,
+      "datetime_utc": "2025-11-02T18:37Z",
+      "source_file": "FWD_2025_02_1837.txt",
+      "similarity": 0.42976993322372437,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.4321393698453903,
+    "mean_similarity": 0.4321393370628357,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610051811-KFWD-FXUS64-AFDFWD",
-    "afd_time": "2026-10-05T18:11:00Z",
-    "updated": "2026-10-05T22:43:18.342841+00:00"
+    "product_id": "202610060144-KFWD-FXUS64-AFDFWD",
+    "afd_time": "2026-10-06T01:44:00Z",
+    "updated": "2026-10-06T03:04:35.033801+00:00"
   }
 }

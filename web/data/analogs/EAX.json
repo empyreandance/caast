@@ -1,18 +1,11 @@
 {
   "office": "EAX",
-  "product_id": "202610051851-KEAX-FXUS63-AFDEAX",
-  "afd_time": "2026-10-05T18:51:00Z",
+  "product_id": "202610052255-KEAX-FXUS63-AFDEAX",
+  "afd_time": "2026-10-05T22:55:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-05T22:43:18.342841+00:00",
+  "updated": "2026-10-06T03:04:35.033801+00:00",
   "query_preview": "..\nIssued at 150 PM CDT Mon Oct 5 2026\n\nAmplifying ridge over the western CONUS with broad surface \nanticyclone over the central CONUS continues to drive mild and dry \nweather conditions across the area. There is a short-wave trough \ndriving a deeper cyclone that is centered over the Canadian Prairi",
   "analogs": [
-    {
-      "datetime_utc": "2016-03-29T18:05Z",
-      "source_file": "EAX_2016_29_1805.txt",
-      "similarity": 0.49906089901924133,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2016-03-29T10:59Z",
       "source_file": "EAX_2016_29_1059.txt",
@@ -23,6 +16,13 @@
     {
       "datetime_utc": "2016-03-29T09:00Z",
       "source_file": "EAX_2016_29_0900_2.txt",
+      "similarity": 0.49906089901924133,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-03-29T18:05Z",
+      "source_file": "EAX_2016_29_1805.txt",
       "similarity": 0.49906089901924133,
       "label": "severe_wind",
       "is_severe": true
@@ -49,30 +49,30 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-08-03T17:37Z",
-      "source_file": "EAX_2014_03_1737.txt",
-      "similarity": 0.49258947372436523,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2014-08-03T20:44Z",
       "source_file": "EAX_2014_03_2044.txt",
-      "similarity": 0.49258947372436523,
+      "similarity": 0.49258944392204285,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2022-08-05T08:04Z",
-      "source_file": "EAX_2022_05_0804.txt",
-      "similarity": 0.49015212059020996,
+      "datetime_utc": "2014-08-03T17:37Z",
+      "source_file": "EAX_2014_03_1737.txt",
+      "similarity": 0.49258944392204285,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2022-08-05T17:25Z",
       "source_file": "EAX_2022_05_1725.txt",
-      "similarity": 0.49015212059020996,
+      "similarity": 0.4901520907878876,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-08-05T11:08Z",
+      "source_file": "EAX_2022_05_1108.txt",
+      "similarity": 0.4901520907878876,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.49557425677776334,
+    "mean_similarity": 0.49557424485683443,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202610051851-KEAX-FXUS63-AFDEAX",
-    "afd_time": "2026-10-05T18:51:00Z",
-    "updated": "2026-10-05T22:43:18.342841+00:00"
+    "product_id": "202610052255-KEAX-FXUS63-AFDEAX",
+    "afd_time": "2026-10-05T22:55:00Z",
+    "updated": "2026-10-06T03:04:35.033801+00:00"
   }
 }
