@@ -1,91 +1,91 @@
 {
   "office": "PHI",
-  "product_id": "202610071240-KPHI-FXUS61-AFDPHI",
-  "afd_time": "2026-10-07T12:40:00Z",
+  "product_id": "202610071809-KPHI-FXUS61-AFDPHI",
+  "afd_time": "2026-10-07T18:09:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-07T16:36:33.374174+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Tranquil weather will prevail this week \ncontinuing into the weekend with no significant weather hazards \nanticipated. \n\nHigh pressure will be in control through most of the week \nresulting in mostly clear/sunny skies. Following this morning's\nchilly weather temperatures will mode",
+  "updated": "2026-10-07T22:03:51.914938+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...Tranquil weather will prevail this week \ncontinuing into the weekend with no significant weather hazards \nanticipated. \n\nAloft, a closed low will traverse portions of Ontario and the \nHudson Bay and into Quebec through Friday, with long wave \ntroughing across much of the northeast",
   "analogs": [
     {
       "datetime_utc": "2012-10-25T20:24Z",
       "source_file": "PHI_2012_25_2024.txt",
-      "similarity": 0.81855309009552,
+      "similarity": 0.7900747656822205,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-05-19T02:07Z",
       "source_file": "PHI_2018_19_0207.txt",
-      "similarity": 0.7251542806625366,
+      "similarity": 0.694011390209198,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-07-23T07:26Z",
       "source_file": "PHI_2017_23_0726.txt",
-      "similarity": 0.6322866082191467,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-05-25T18:17Z",
-      "source_file": "PHI_2017_25_1817.txt",
-      "similarity": 0.6286308765411377,
+      "similarity": 0.6201004981994629,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-05-25T16:44Z",
       "source_file": "PHI_2017_25_1644.txt",
-      "similarity": 0.6286308765411377,
+      "similarity": 0.6081010103225708,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-05-25T18:17Z",
+      "source_file": "PHI_2017_25_1817.txt",
+      "similarity": 0.6081010103225708,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-05-25T14:04Z",
       "source_file": "PHI_2017_25_1404.txt",
-      "similarity": 0.6286308765411377,
+      "similarity": 0.6081010103225708,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2017-10-25T03:42Z",
-      "source_file": "PHI_2017_25_0342.txt",
-      "similarity": 0.6225240230560303,
-      "label": "flood",
+      "datetime_utc": "2011-10-31T17:28Z",
+      "source_file": "PHI_2011_31_1728.txt",
+      "similarity": 0.5887606143951416,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-11-24T04:10Z",
-      "source_file": "PHI_2019_24_0410.txt",
-      "similarity": 0.620165228843689,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2011-10-31T12:57Z",
+      "source_file": "PHI_2011_31_1257.txt",
+      "similarity": 0.5865906476974487,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2019-11-24T02:13Z",
-      "source_file": "PHI_2019_24_0213.txt",
-      "similarity": 0.620165228843689,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2011-10-31T07:22Z",
+      "source_file": "PHI_2011_31_0722.txt",
+      "similarity": 0.5865906476974487,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2019-11-24T05:31Z",
-      "source_file": "PHI_2019_24_0531.txt",
-      "similarity": 0.620165228843689,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2006-02-17T20:38Z",
+      "source_file": "PHI_2006_17_2038.txt",
+      "similarity": 0.5865116119384766,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.9,
-    "mean_similarity": 0.6544906318187713,
-    "n_severe": 9,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.6276943206787109,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.65 below confidence floor 0.7",
-    "product_id": "202610071240-KPHI-FXUS61-AFDPHI",
-    "afd_time": "2026-10-07T12:40:00Z",
-    "updated": "2026-10-07T16:36:33.374174+00:00"
+    "reason": "top-10 mean similarity 0.63 below confidence floor 0.7",
+    "product_id": "202610071809-KPHI-FXUS61-AFDPHI",
+    "afd_time": "2026-10-07T18:09:00Z",
+    "updated": "2026-10-07T22:03:51.914938+00:00"
   }
 }
