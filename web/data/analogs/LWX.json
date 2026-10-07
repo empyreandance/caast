@@ -1,91 +1,92 @@
 {
   "office": "LWX",
-  "product_id": "202610061847-KLWX-FXUS61-AFDLWX",
-  "afd_time": "2026-10-06T18:47:00Z",
+  "product_id": "202610070036-KLWX-FXUS61-AFDLWX",
+  "afd_time": "2026-10-07T00:36:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-06T21:45:25.032305+00:00",
-  "query_preview": "..\n\n\nKEY MESSAGE 1...Quiet weather conditions are expected through the end of\nthe week.\n\nHigh pressure will shift offshore tonight allowing for a\nslightly warmer night. Winds turn southerly tomorrow allowing\ntemps to climb back into the 70s. Temperatures warm up to near\n80 Thursday before the passag",
+  "updated": "2026-10-07T01:38:19.106218+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...Quiet weather conditions are expected through\nthe end of the week.\n\nHigh pressure will shift offshore tonight allowing for a\nslightly warmer night as winds become slightly elevated. \nHowever, many locations will still be in the lower to mid 40s, \nwith some upper 30s possible in th",
   "analogs": [
     {
       "datetime_utc": "2008-06-17T18:20Z",
       "source_file": "LWX_2008_17_1820.txt",
-      "similarity": 0.7618088126182556,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-07-03T19:11Z",
-      "source_file": "LWX_2018_03_1911.txt",
-      "similarity": 0.7110888957977295,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-07-04T02:04Z",
-      "source_file": "LWX_2018_04_0204.txt",
-      "similarity": 0.7110888957977295,
+      "similarity": 0.8489599227905273,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-09-28T19:05Z",
       "source_file": "LWX_2005_28_1905.txt",
-      "similarity": 0.7080579996109009,
+      "similarity": 0.8410351276397705,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-10-23T08:04Z",
+      "source_file": "LWX_2013_23_0804.txt",
+      "similarity": 0.8252681493759155,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-07-03T19:11Z",
+      "source_file": "LWX_2018_03_1911.txt",
+      "similarity": 0.8239041566848755,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-07-04T02:04Z",
+      "source_file": "LWX_2018_04_0204.txt",
+      "similarity": 0.8239041566848755,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-04-16T01:47Z",
       "source_file": "LWX_2007_16_0147.txt",
-      "similarity": 0.688596785068512,
+      "similarity": 0.8093311190605164,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-10-23T08:04Z",
-      "source_file": "LWX_2013_23_0804.txt",
-      "similarity": 0.6716943383216858,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-01-16T09:00Z",
-      "source_file": "LWX_2014_16_0900_1.txt",
-      "similarity": 0.663628339767456,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-01-16T15:03Z",
-      "source_file": "LWX_2014_16_1503.txt",
-      "similarity": 0.663628339767456,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-04-17T07:26Z",
-      "source_file": "LWX_2006_17_0726.txt",
-      "similarity": 0.6200487613677979,
-      "label": "severe_wind",
+      "datetime_utc": "2022-06-13T19:34Z",
+      "source_file": "LWX_2022_13_1934.txt",
+      "similarity": 0.7502743601799011,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-04-17T15:40Z",
       "source_file": "LWX_2006_17_1540.txt",
-      "similarity": 0.6200487613677979,
+      "similarity": 0.7322695255279541,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-04-17T07:26Z",
+      "source_file": "LWX_2006_17_0726.txt",
+      "similarity": 0.7322695255279541,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-07-11T19:35Z",
+      "source_file": "LWX_2009_11_1935.txt",
+      "similarity": 0.7098156809806824,
+      "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.6819689929485321,
-    "n_severe": 6,
+    "level": "MODERATE",
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.7897031724452972,
+    "base_rate": 0.5958263093646458,
+    "signal_value": 0.2041736906353543,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.68 below confidence floor 0.7",
-    "product_id": "202610061847-KLWX-FXUS61-AFDLWX",
-    "afd_time": "2026-10-06T18:47:00Z",
-    "updated": "2026-10-06T21:45:25.032305+00:00"
+    "product_id": "202610070036-KLWX-FXUS61-AFDLWX",
+    "afd_time": "2026-10-07T00:36:00Z",
+    "updated": "2026-10-07T01:38:19.106218+00:00"
   }
 }

@@ -1,78 +1,78 @@
 {
   "office": "PBZ",
-  "product_id": "202610061633-KPBZ-FXUS61-AFDPBZ",
-  "afd_time": "2026-10-06T16:33:00Z",
+  "product_id": "202610062326-KPBZ-FXUS61-AFDPBZ",
+  "afd_time": "2026-10-06T23:26:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-06T17:15:54.844346+00:00",
+  "updated": "2026-10-07T01:38:19.106218+00:00",
   "query_preview": "..\nKEY MESSAGE 1... \nMostly quiet and dry conditions are expected through early\nSunday. A cold front will pass through the region early\nThursday. Through measurable precipitation chances remain low\nwith the front, generally less than 30%, given shallow boundary\nlayer moisture and weak forcing. Low-l",
   "analogs": [
     {
       "datetime_utc": "2005-06-07T17:45Z",
       "source_file": "PBZ_2005_07_1745.txt",
-      "similarity": 0.5759333372116089,
+      "similarity": 0.575933039188385,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-07-01T00:06Z",
+      "source_file": "PBZ_2023_01_0006.txt",
+      "similarity": 0.5660785436630249,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-07-01T01:27Z",
+      "source_file": "PBZ_2023_01_0127.txt",
+      "similarity": 0.5660785436630249,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2023-07-31T18:09Z",
       "source_file": "PBZ_2023_31_1809.txt",
-      "similarity": 0.5660790205001831,
+      "similarity": 0.5660785436630249,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2023-07-31T23:21Z",
       "source_file": "PBZ_2023_31_2321.txt",
-      "similarity": 0.5660790205001831,
+      "similarity": 0.5660785436630249,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2023-07-01T01:27Z",
-      "source_file": "PBZ_2023_01_0127.txt",
-      "similarity": 0.5660790205001831,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2023-07-01T00:06Z",
-      "source_file": "PBZ_2023_01_0006.txt",
-      "similarity": 0.5660790205001831,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-08-17T07:44Z",
       "source_file": "PBZ_2006_17_0744.txt",
-      "similarity": 0.5651023387908936,
+      "similarity": 0.5651019811630249,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-07-09T12:09Z",
       "source_file": "PBZ_2012_09_1209.txt",
-      "similarity": 0.5618826150894165,
+      "similarity": 0.5618821978569031,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-07-09T13:37Z",
       "source_file": "PBZ_2012_09_1337.txt",
-      "similarity": 0.5618826150894165,
+      "similarity": 0.5618821978569031,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-07-09T16:12Z",
       "source_file": "PBZ_2012_09_1612.txt",
-      "similarity": 0.5618826150894165,
+      "similarity": 0.5618821978569031,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2021-02-13T07:57Z",
-      "source_file": "PBZ_2021_13_0757_1.txt",
-      "similarity": 0.5594601035118103,
+      "datetime_utc": "2021-02-13T13:19Z",
+      "source_file": "PBZ_2021_13_1319.txt",
+      "similarity": 0.5594596862792969,
       "label": "winter",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.5650459706783295,
+    "mean_similarity": 0.5650455474853515,
     "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.57 below confidence floor 0.7",
-    "product_id": "202610061633-KPBZ-FXUS61-AFDPBZ",
-    "afd_time": "2026-10-06T16:33:00Z",
-    "updated": "2026-10-06T17:15:54.844346+00:00"
+    "product_id": "202610062326-KPBZ-FXUS61-AFDPBZ",
+    "afd_time": "2026-10-06T23:26:00Z",
+    "updated": "2026-10-07T01:38:19.106218+00:00"
   }
 }

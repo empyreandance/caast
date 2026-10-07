@@ -1,78 +1,78 @@
 {
   "office": "FWD",
-  "product_id": "202610061733-KFWD-FXUS64-AFDFWD",
-  "afd_time": "2026-10-06T17:33:00Z",
+  "product_id": "202610062320-KFWD-FXUS64-AFDFWD",
+  "afd_time": "2026-10-06T23:20:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-06T21:45:25.032305+00:00",
+  "updated": "2026-10-07T01:38:19.106218+00:00",
   "query_preview": "..\n(Wednesday night through next Monday)\nIssued at 1233 PM CDT Tue Oct 6 2026\n\nSurface ridging will remain extended from the the Midwest toward\nNorth Texas, keeping light east-northeast surface winds over our\nforecast area through at least the end of the work week. This will\nallow for those pleasant",
   "analogs": [
     {
       "datetime_utc": "2005-12-08T09:38Z",
       "source_file": "FWD_2005_08_0938.txt",
-      "similarity": 0.4046681821346283,
+      "similarity": 0.40466827154159546,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-11-12T08:51Z",
       "source_file": "FWD_2007_12_0851.txt",
-      "similarity": 0.4039788246154785,
+      "similarity": 0.40397894382476807,
       "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-02-14T21:51Z",
+      "source_file": "FWD_2006_14_2151.txt",
+      "similarity": 0.40194201469421387,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-02-14T23:17Z",
       "source_file": "FWD_2006_14_2317.txt",
-      "similarity": 0.4019419550895691,
+      "similarity": 0.40194201469421387,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-02-15T03:37Z",
       "source_file": "FWD_2006_15_0337.txt",
-      "similarity": 0.4019419550895691,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-02-14T21:51Z",
-      "source_file": "FWD_2006_14_2151.txt",
-      "similarity": 0.4019419550895691,
+      "similarity": 0.40194201469421387,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2025-11-02T23:19Z",
       "source_file": "FWD_2025_02_2319.txt",
-      "similarity": 0.40129515528678894,
+      "similarity": 0.4012952744960785,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2025-11-02T18:37Z",
       "source_file": "FWD_2025_02_1837.txt",
-      "similarity": 0.40129515528678894,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-01-29T22:02Z",
-      "source_file": "FWD_2005_29_2202.txt",
-      "similarity": 0.40128904581069946,
+      "similarity": 0.4012952744960785,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-01-29T08:59Z",
       "source_file": "FWD_2005_29_0859.txt",
-      "similarity": 0.40128904581069946,
+      "similarity": 0.401289165019989,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-01-29T22:02Z",
+      "source_file": "FWD_2005_29_2202.txt",
+      "similarity": 0.401289165019989,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2025-12-17T00:06Z",
       "source_file": "FWD_2025_17_0006.txt",
-      "similarity": 0.3998996913433075,
+      "similarity": 0.39989978075027466,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.40195409655570985,
+    "mean_similarity": 0.40195419192314147,
     "n_severe": 1,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202610061733-KFWD-FXUS64-AFDFWD",
-    "afd_time": "2026-10-06T17:33:00Z",
-    "updated": "2026-10-06T21:45:25.032305+00:00"
+    "product_id": "202610062320-KFWD-FXUS64-AFDFWD",
+    "afd_time": "2026-10-06T23:20:00Z",
+    "updated": "2026-10-07T01:38:19.106218+00:00"
   }
 }
