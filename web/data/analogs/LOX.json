@@ -1,91 +1,91 @@
 {
   "office": "LOX",
-  "product_id": "202610070538-KLOX-FXUS66-AFDLOX",
-  "afd_time": "2026-10-07T05:38:00Z",
+  "product_id": "202610071623-KLOX-FXUS66-AFDLOX",
+  "afd_time": "2026-10-07T16:23:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-07T08:46:35.816681+00:00",
-  "query_preview": "(SAT-TUE)...06/143 PM.\n\nThe entire West coast will see a very quick reversal to below\nnormal temperatures Sunday through Tuesday as a cold low pressure\nsystem drops south out of Canada. At the same time, there is an\nincreasing number of model solutions showing remnant moisture and\nenergy from Rachel",
+  "updated": "2026-10-07T16:36:33.374174+00:00",
+  "query_preview": "(SAT-TUE)...07/230 AM.\n\nA dramatic switch in the weather will occur over the weekend as a\nearly season cold upper low moves out of British Columbia and into\nthe west coast. It will develop into the large trof and by Sunday\nhgt could drop to 565 dam. Onshore flow increases as there will be\na much mor",
   "analogs": [
+    {
+      "datetime_utc": "2016-01-31T22:14Z",
+      "source_file": "LOX_2016_31_2214.txt",
+      "similarity": 0.5136069059371948,
+      "label": "severe_hail",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2016-02-01T11:22Z",
       "source_file": "LOX_2016_01_1122.txt",
-      "similarity": 0.5032634139060974,
+      "similarity": 0.5136069059371948,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-01-31T22:14Z",
-      "source_file": "LOX_2016_31_2214.txt",
-      "similarity": 0.5032634139060974,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-19T11:44Z",
-      "source_file": "LOX_2007_19_1144.txt",
-      "similarity": 0.4868634343147278,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-19T16:58Z",
-      "source_file": "LOX_2007_19_1658.txt",
-      "similarity": 0.4868634343147278,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-19T16:10Z",
-      "source_file": "LOX_2007_19_1610.txt",
-      "similarity": 0.4868634343147278,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2007-09-19T11:40Z",
       "source_file": "LOX_2007_19_1140.txt",
-      "similarity": 0.4868634343147278,
+      "similarity": 0.5018366575241089,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-09-19T14:16Z",
       "source_file": "LOX_2007_19_1416.txt",
-      "similarity": 0.4868634343147278,
+      "similarity": 0.5018366575241089,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-10-16T04:16Z",
-      "source_file": "LOX_2010_16_0416.txt",
-      "similarity": 0.4784191846847534,
-      "label": "severe_wind",
+      "datetime_utc": "2007-09-19T16:58Z",
+      "source_file": "LOX_2007_19_1658.txt",
+      "similarity": 0.5018366575241089,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-10-15T20:52Z",
-      "source_file": "LOX_2010_15_2052.txt",
-      "similarity": 0.4784191846847534,
-      "label": "severe_wind",
+      "datetime_utc": "2007-09-19T16:10Z",
+      "source_file": "LOX_2007_19_1610.txt",
+      "similarity": 0.5018366575241089,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-07-16T16:23Z",
-      "source_file": "LOX_2004_16_1623.txt",
-      "similarity": 0.47452372312545776,
+      "datetime_utc": "2007-09-19T11:44Z",
+      "source_file": "LOX_2007_19_1144.txt",
+      "similarity": 0.5018366575241089,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-08-15T04:01Z",
+      "source_file": "LOX_2004_15_0401.txt",
+      "similarity": 0.49198174476623535,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-08-14T16:10Z",
+      "source_file": "LOX_2004_14_1610.txt",
+      "similarity": 0.49198174476623535,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-08-14T20:25Z",
+      "source_file": "LOX_2004_14_2025.txt",
+      "similarity": 0.49198174476623535,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.8,
-    "mean_similarity": 0.48722060918807986,
-    "n_severe": 8,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.501234233379364,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
-    "product_id": "202610070538-KLOX-FXUS66-AFDLOX",
-    "afd_time": "2026-10-07T05:38:00Z",
-    "updated": "2026-10-07T08:46:35.816681+00:00"
+    "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
+    "product_id": "202610071623-KLOX-FXUS66-AFDLOX",
+    "afd_time": "2026-10-07T16:23:00Z",
+    "updated": "2026-10-07T16:36:33.374174+00:00"
   }
 }
