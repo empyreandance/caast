@@ -1,91 +1,91 @@
 {
   "office": "ABQ",
-  "product_id": "202610072328-KABQ-FXUS65-AFDABQ-AAA",
-  "afd_time": "2026-10-07T23:28:00Z",
+  "product_id": "202610080718-KABQ-FXUS65-AFDABQ",
+  "afd_time": "2026-10-08T07:18:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-08T02:01:29.992868+00:00",
-  "query_preview": "..\n(Friday through Tuesday)\nIssued at 1255 PM MDT Wed Oct 7 2026\n\nCan't rule out a few showers and perhaps a stray thunderstorm\nacross western NM on Friday as southwest flow, and arguably a very\nweak shortwave, crosses the northwest half of the state. A\ndeepening lee side trough should increase sout",
+  "updated": "2026-10-08T09:04:46.951635+00:00",
+  "query_preview": "..\n(Friday night through Wednesday)\nIssued at 1216 AM MDT Thu Oct 8 2026\n\nThings turn a bit more interesting for western to north central NM\nSaturday into Sunday as the remnants of Rachel and the\naforementioned eastern Pacific cold core low merge offshore of the\nBaja and then move into southern CA a",
   "analogs": [
     {
       "datetime_utc": "2004-06-10T21:01Z",
       "source_file": "ABQ_2004_10_2101.txt",
-      "similarity": 0.4094672203063965,
+      "similarity": 0.44420769810676575,
       "label": "tornado",
       "is_severe": true
     },
     {
+      "datetime_utc": "2011-02-20T10:53Z",
+      "source_file": "ABQ_2011_20_1053.txt",
+      "similarity": 0.42999815940856934,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2004-03-11T21:15Z",
       "source_file": "ABQ_2004_11_2115.txt",
-      "similarity": 0.39736926555633545,
+      "similarity": 0.4249568581581116,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-05-03T08:59Z",
+      "source_file": "ABQ_2006_03_0859.txt",
+      "similarity": 0.424346387386322,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-05-20T21:21Z",
+      "source_file": "ABQ_2005_20_2121.txt",
+      "similarity": 0.4239763915538788,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-12-10T09:59Z",
+      "source_file": "ABQ_2006_10_0959.txt",
+      "similarity": 0.42384621500968933,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-12-15T10:06Z",
+      "source_file": "ABQ_2006_15_1006.txt",
+      "similarity": 0.42151346802711487,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-04-13T09:11Z",
+      "source_file": "ABQ_2022_13_0911.txt",
+      "similarity": 0.42049896717071533,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2008-06-07T09:08Z",
       "source_file": "ABQ_2008_07_0908.txt",
-      "similarity": 0.3958261013031006,
+      "similarity": 0.41996973752975464,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-02-20T10:53Z",
-      "source_file": "ABQ_2011_20_1053.txt",
-      "similarity": 0.39393436908721924,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-05-03T08:59Z",
-      "source_file": "ABQ_2006_03_0859.txt",
-      "similarity": 0.3888242840766907,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-11-10T09:32Z",
       "source_file": "ABQ_2024_10_0932.txt",
-      "similarity": 0.38863807916641235,
+      "similarity": 0.41963738203048706,
       "label": "winter",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-05-20T21:21Z",
-      "source_file": "ABQ_2005_20_2121.txt",
-      "similarity": 0.38827401399612427,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-12-15T10:06Z",
-      "source_file": "ABQ_2006_15_1006.txt",
-      "similarity": 0.3880029022693634,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-12-10T09:59Z",
-      "source_file": "ABQ_2006_10_0959.txt",
-      "similarity": 0.38455045223236084,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2025-10-07T07:18Z",
-      "source_file": "ABQ_2025_07_0718.txt",
-      "similarity": 0.38408762216567993,
-      "label": "severe_hail",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.3918974310159683,
-    "n_severe": 4,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.4252951264381409,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202610072328-KABQ-FXUS65-AFDABQ-AAA",
-    "afd_time": "2026-10-07T23:28:00Z",
-    "updated": "2026-10-08T02:01:29.992868+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202610080718-KABQ-FXUS65-AFDABQ",
+    "afd_time": "2026-10-08T07:18:00Z",
+    "updated": "2026-10-08T09:04:46.951635+00:00"
   }
 }

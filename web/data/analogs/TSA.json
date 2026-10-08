@@ -1,91 +1,91 @@
 {
   "office": "TSA",
-  "product_id": "202610072357-KTSA-FXUS64-AFDTSA",
-  "afd_time": "2026-10-07T23:57:00Z",
+  "product_id": "202610080454-KTSA-FXUS64-AFDTSA",
+  "afd_time": "2026-10-08T04:54:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-08T02:01:29.992868+00:00",
-  "query_preview": "..\n(Tomorrow through Wednesday)\nIssued at 1229 PM CDT Wed Oct 7 2026\n\nHigh pressure/mid-level ridging will remain in place through the \nend of the week with above average temperatures and dry weather \nensuing. Moisture and precipitation associated with tropical \nsystem Isaias is likely to remain eas",
+  "updated": "2026-10-08T09:04:46.951635+00:00",
+  "query_preview": "..\n(Saturday through Wednesday)\nIssued at 1138 PM CDT Wed Oct 7 2026\n\nCurrent high pressure over the region is progged to get a push\nnorth/northeast Saturday as now Hurricane Isaias moves onshore. \nLatest model solutions continue to keep Isaias east of the CWA, \nthough easterly winds and scattered c",
   "analogs": [
     {
       "datetime_utc": "2008-12-16T15:40Z",
       "source_file": "TSA_2008_16_1540.txt",
-      "similarity": 0.4135317802429199,
+      "similarity": 0.47565358877182007,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-08-28T02:22Z",
-      "source_file": "TSA_2007_28_0222.txt",
-      "similarity": 0.4102068543434143,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-08-27T20:14Z",
-      "source_file": "TSA_2007_27_2014.txt",
-      "similarity": 0.4102068543434143,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-07-03T08:28Z",
-      "source_file": "TSA_2012_03_0828.txt",
-      "similarity": 0.4088977873325348,
+      "datetime_utc": "2012-07-03T11:37Z",
+      "source_file": "TSA_2012_03_1137.txt",
+      "similarity": 0.4649162292480469,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-07-03T11:37Z",
-      "source_file": "TSA_2012_03_1137.txt",
-      "similarity": 0.4088977873325348,
+      "datetime_utc": "2012-07-03T08:28Z",
+      "source_file": "TSA_2012_03_0828.txt",
+      "similarity": 0.4649162292480469,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-08-22T15:36Z",
+      "source_file": "TSA_2014_22_1536.txt",
+      "similarity": 0.46394070982933044,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-08-22T17:24Z",
+      "source_file": "TSA_2014_22_1724.txt",
+      "similarity": 0.46394070982933044,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-08-22T08:57Z",
+      "source_file": "TSA_2014_22_0857.txt",
+      "similarity": 0.46394070982933044,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-08-22T11:07Z",
+      "source_file": "TSA_2014_22_1107.txt",
+      "similarity": 0.46394070982933044,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-07-16T16:01Z",
       "source_file": "TSA_2010_16_1601.txt",
-      "similarity": 0.40780651569366455,
+      "similarity": 0.4627794623374939,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2021-02-05T23:20Z",
-      "source_file": "TSA_2021_05_2320.txt",
-      "similarity": 0.40733802318573,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-02-05T20:31Z",
-      "source_file": "TSA_2021_05_2031.txt",
-      "similarity": 0.40733802318573,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-03-13T08:02Z",
-      "source_file": "TSA_2019_13_0802.txt",
-      "similarity": 0.4064371585845947,
+      "datetime_utc": "2006-08-29T08:43Z",
+      "source_file": "TSA_2006_29_0843.txt",
+      "similarity": 0.46036070585250854,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-03-13T11:19Z",
-      "source_file": "TSA_2019_13_1119.txt",
-      "similarity": 0.4064371585845947,
+      "datetime_utc": "2006-08-29T15:50Z",
+      "source_file": "TSA_2006_29_1550.txt",
+      "similarity": 0.46036070585250854,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.4087097942829132,
-    "n_severe": 3,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.46447497606277466,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202610072357-KTSA-FXUS64-AFDTSA",
-    "afd_time": "2026-10-07T23:57:00Z",
-    "updated": "2026-10-08T02:01:29.992868+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202610080454-KTSA-FXUS64-AFDTSA",
+    "afd_time": "2026-10-08T04:54:00Z",
+    "updated": "2026-10-08T09:04:46.951635+00:00"
   }
 }
