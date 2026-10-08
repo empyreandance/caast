@@ -1,91 +1,91 @@
 {
   "office": "TFX",
-  "product_id": "202610072017-KTFX-FXUS65-AFDTFX",
-  "afd_time": "2026-10-07T20:17:00Z",
+  "product_id": "202610072323-KTFX-FXUS65-AFDTFX",
+  "afd_time": "2026-10-07T23:23:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-07T22:03:51.914938+00:00",
-  "query_preview": "..\n\n - Meteorological Overview:\n\nUpper-level ridging will persist over the next couple days \nallowing for the continuing trend of warm and dry conditions\nacross the region through Friday. Starting Friday afternoon, the \nridge starts to break down and southwesterly flow aloft starts to \nincrease as a",
+  "updated": "2026-10-08T02:01:29.992868+00:00",
+  "query_preview": "..\n/Issued 217 PM MDT Wed Oct 7 2026/ \n\n - Meteorological Overview:\n\nUpper-level ridging will persist over the next couple days \nallowing for the continuing trend of warm and dry conditions\nacross the region through Friday. Starting Friday afternoon, the \nridge starts to break down and southwesterly",
   "analogs": [
-    {
-      "datetime_utc": "2004-02-28T03:39Z",
-      "source_file": "TFX_2004_28_0339.txt",
-      "similarity": 0.3983114957809448,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-02-27T21:22Z",
-      "source_file": "TFX_2004_27_2122.txt",
-      "similarity": 0.39321935176849365,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-08-21T05:55Z",
-      "source_file": "TFX_2015_21_0555.txt",
-      "similarity": 0.38571590185165405,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-08-20T21:54Z",
-      "source_file": "TFX_2015_20_2154_1.txt",
-      "similarity": 0.38571590185165405,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2015-08-20T23:40Z",
       "source_file": "TFX_2015_20_2340.txt",
-      "similarity": 0.38571590185165405,
+      "similarity": 0.3968876004219055,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-08-21T03:22Z",
       "source_file": "TFX_2015_21_0322.txt",
-      "similarity": 0.38571590185165405,
+      "similarity": 0.3968876004219055,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-05-12T03:04Z",
-      "source_file": "TFX_2004_12_0304.txt",
-      "similarity": 0.3748088479042053,
+      "datetime_utc": "2015-08-20T21:54Z",
+      "source_file": "TFX_2015_20_2154_1.txt",
+      "similarity": 0.3968876004219055,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-05-11T20:38Z",
-      "source_file": "TFX_2004_11_2038.txt",
-      "similarity": 0.3748088479042053,
+      "datetime_utc": "2015-08-21T05:55Z",
+      "source_file": "TFX_2015_21_0555.txt",
+      "similarity": 0.3968876004219055,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-04-09T00:06Z",
+      "source_file": "TFX_2011_09_0006.txt",
+      "similarity": 0.3724291920661926,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-04-09T03:11Z",
+      "source_file": "TFX_2011_09_0311.txt",
+      "similarity": 0.3724291920661926,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-04-09T05:01Z",
+      "source_file": "TFX_2011_09_0501.txt",
+      "similarity": 0.3724291920661926,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-12-02T04:29Z",
+      "source_file": "TFX_2011_02_0429.txt",
+      "similarity": 0.3705587387084961,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-12-25T23:15Z",
-      "source_file": "TFX_2013_25_2315.txt",
-      "similarity": 0.3711503744125366,
+      "datetime_utc": "2011-12-01T23:56Z",
+      "source_file": "TFX_2011_01_2356.txt",
+      "similarity": 0.3705587387084961,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-12-26T04:17Z",
-      "source_file": "TFX_2013_26_0417.txt",
-      "similarity": 0.3711503744125366,
+      "datetime_utc": "2011-12-02T05:50Z",
+      "source_file": "TFX_2011_02_0550.txt",
+      "similarity": 0.3705587387084961,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.38263128995895385,
-    "n_severe": 0,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.3816514194011688,
+    "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610072017-KTFX-FXUS65-AFDTFX",
-    "afd_time": "2026-10-07T20:17:00Z",
-    "updated": "2026-10-07T22:03:51.914938+00:00"
+    "product_id": "202610072323-KTFX-FXUS65-AFDTFX",
+    "afd_time": "2026-10-07T23:23:00Z",
+    "updated": "2026-10-08T02:01:29.992868+00:00"
   }
 }
