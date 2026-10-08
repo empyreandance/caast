@@ -1,91 +1,91 @@
 {
   "office": "KEY",
-  "product_id": "202610080849-KKEY-FXUS62-AFDKEY",
-  "afd_time": "2026-10-08T08:49:00Z",
+  "product_id": "202610081439-KKEY-FXUS62-AFDKEY",
+  "afd_time": "2026-10-08T14:39:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-08T09:04:46.951635+00:00",
-  "query_preview": "..\nIssued at 449 AM EDT Thu Oct 8 2026\nCIMSS products continues to show a complex pattern in place \nacross the Lower 48, Gulf and western North Atlantic. We now have \nHurricane Isaias which is centered over the southwestern Gulf to \nthe north of the Yucatan Peninsula. A stationary front remains in \n",
+  "updated": "2026-10-08T16:33:54.749343+00:00",
+  "query_preview": "..\nIssued at 1035 AM EDT Thu Oct 8 2026\nHurricane Isaias intensified into a Category 1 storm early this \nmorning, making it the first hurricane of the 2026 Atlantic \nseason. No threats are anticipated for the Florida Keys. Instead, \nwe are seeing weather conditions associated with being on the \neast",
   "analogs": [
+    {
+      "datetime_utc": "2009-12-17T08:41Z",
+      "source_file": "KEY_2009_17_0841.txt",
+      "similarity": 0.33938854932785034,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-09-23T18:54Z",
+      "source_file": "KEY_2009_23_1854.txt",
+      "similarity": 0.33845609426498413,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2011-07-14T18:52Z",
       "source_file": "KEY_2011_14_1852.txt",
-      "similarity": 0.3564508557319641,
+      "similarity": 0.336703360080719,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-10-27T19:05Z",
       "source_file": "KEY_2024_27_1905.txt",
-      "similarity": 0.3562800884246826,
+      "similarity": 0.33249181509017944,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-12-17T08:41Z",
-      "source_file": "KEY_2009_17_0841.txt",
-      "similarity": 0.34855496883392334,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2013-06-20T19:08Z",
+      "source_file": "KEY_2013_20_1908.txt",
+      "similarity": 0.3302900195121765,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2016-12-31T20:22Z",
-      "source_file": "KEY_2016_31_2022.txt",
-      "similarity": 0.34787461161613464,
+      "datetime_utc": "2015-01-22T09:40Z",
+      "source_file": "KEY_2015_22_0940.txt",
+      "similarity": 0.32989072799682617,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-09-23T18:54Z",
-      "source_file": "KEY_2009_23_1854.txt",
-      "similarity": 0.3474249839782715,
+      "datetime_utc": "2008-11-08T20:23Z",
+      "source_file": "KEY_2008_08_2023.txt",
+      "similarity": 0.32810336351394653,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-12-30T07:18Z",
-      "source_file": "KEY_2009_30_0718.txt",
-      "similarity": 0.34510087966918945,
+      "datetime_utc": "2016-12-31T20:22Z",
+      "source_file": "KEY_2016_31_2022.txt",
+      "similarity": 0.3261777460575104,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-02-03T09:56Z",
+      "source_file": "KEY_2015_03_0956.txt",
+      "similarity": 0.3250165581703186,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-12-04T08:39Z",
-      "source_file": "KEY_2010_04_0839.txt",
-      "similarity": 0.34455180168151855,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-04-05T19:01Z",
-      "source_file": "KEY_2016_05_1901.txt",
-      "similarity": 0.34347888827323914,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-12-19T09:33Z",
-      "source_file": "KEY_2015_19_0933.txt",
-      "similarity": 0.34024620056152344,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2017-03-30T07:10Z",
-      "source_file": "KEY_2017_30_0710.txt",
-      "similarity": 0.33941876888275146,
+      "datetime_utc": "2018-09-04T18:43Z",
+      "source_file": "KEY_2018_04_1843.txt",
+      "similarity": 0.32388705015182495,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.34693820476531984,
-    "n_severe": 3,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.3310405284166336,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
-    "product_id": "202610080849-KKEY-FXUS62-AFDKEY",
-    "afd_time": "2026-10-08T08:49:00Z",
-    "updated": "2026-10-08T09:04:46.951635+00:00"
+    "reason": "top-10 mean similarity 0.33 below confidence floor 0.7",
+    "product_id": "202610081439-KKEY-FXUS62-AFDKEY",
+    "afd_time": "2026-10-08T14:39:00Z",
+    "updated": "2026-10-08T16:33:54.749343+00:00"
   }
 }

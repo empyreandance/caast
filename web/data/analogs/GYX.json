@@ -1,9 +1,9 @@
 {
   "office": "GYX",
-  "product_id": "202610080521-KGYX-FXUS61-AFDGYX",
-  "afd_time": "2026-10-08T05:21:00Z",
+  "product_id": "202610081011-KGYX-FXUS61-AFDGYX",
+  "afd_time": "2026-10-08T10:11:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-08T09:04:46.951635+00:00",
+  "updated": "2026-10-08T16:33:54.749343+00:00",
   "query_preview": "..\nKEY MESSAGE 1 DESCRIPTION...\n\nCyclonic flow aloft will prevail today with a cold front pushing\noffshore this morning. A broken line of showers and perhaps a\nrumble will push southeast of the mountains through day break \nand then offshore between 7 am and 9 am. QPF with these showers \nwill be ligh",
   "analogs": [
     {
@@ -17,6 +17,13 @@
       "datetime_utc": "2007-04-11T13:41Z",
       "source_file": "GYX_2007_11_1341.txt",
       "similarity": 0.7717894315719604,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-12-10T00:21Z",
+      "source_file": "GYX_2023_10_0021.txt",
+      "similarity": 0.6614953279495239,
       "label": "flood",
       "is_severe": false
     },
@@ -35,57 +42,50 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-12-10T00:21Z",
-      "source_file": "GYX_2023_10_0021.txt",
-      "similarity": 0.6614953279495239,
-      "label": "flood",
+      "datetime_utc": "2009-04-12T01:34Z",
+      "source_file": "GYX_2009_12_0134.txt",
+      "similarity": 0.6246044635772705,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-04-11T18:41Z",
       "source_file": "GYX_2009_11_1841.txt",
-      "similarity": 0.6246045231819153,
+      "similarity": 0.6246044635772705,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-04-12T01:34Z",
-      "source_file": "GYX_2009_12_0134.txt",
-      "similarity": 0.6246045231819153,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-03-11T02:45Z",
-      "source_file": "GYX_2011_11_0245.txt",
-      "similarity": 0.6202314496040344,
-      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-03-10T20:47Z",
       "source_file": "GYX_2011_10_2047.txt",
-      "similarity": 0.6202314496040344,
+      "similarity": 0.6202315092086792,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2020-05-20T02:22Z",
-      "source_file": "GYX_2020_20_0222.txt",
+      "datetime_utc": "2011-03-11T02:45Z",
+      "source_file": "GYX_2011_11_0245.txt",
+      "similarity": 0.6202315092086792,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-05-19T19:01Z",
+      "source_file": "GYX_2020_19_1901.txt",
       "similarity": 0.60101318359375,
-      "label": "severe_wind",
-      "is_severe": true
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
+    "severe_fraction": 0.1,
     "mean_similarity": 0.6700739622116089,
-    "n_severe": 2,
+    "n_severe": 1,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.67 below confidence floor 0.7",
-    "product_id": "202610080521-KGYX-FXUS61-AFDGYX",
-    "afd_time": "2026-10-08T05:21:00Z",
-    "updated": "2026-10-08T09:04:46.951635+00:00"
+    "product_id": "202610081011-KGYX-FXUS61-AFDGYX",
+    "afd_time": "2026-10-08T10:11:00Z",
+    "updated": "2026-10-08T16:33:54.749343+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "PDT",
-  "product_id": "202610080523-KPDT-FXUS66-AFDPDT",
-  "afd_time": "2026-10-08T05:23:00Z",
+  "product_id": "202610081120-KPDT-FXUS66-AFDPDT",
+  "afd_time": "2026-10-08T11:20:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-08T09:04:46.951635+00:00",
-  "query_preview": "..\nCurrent radar and visible satellite imagery shows dry conditions\nunder clear skies. This is a result of an upper level ridge\nlocated just offshore. The ridge will begin to track west and \nfurther into the Eastern Pacific into Thursday, opening the door\nto an incoming system originating from the G",
+  "updated": "2026-10-08T16:33:54.749343+00:00",
+  "query_preview": "..\nNot much to talk about on radar and satellite with dry and clear\nconditions prevailing thanks to an upper level ridge aloft. The\nupper level ridge will continue pushing out of the area, with\nthe upper level pattern becoming more zonal heading into\nThursday. We'll see temperatures peak today in th",
   "analogs": [
+    {
+      "datetime_utc": "2017-03-21T16:10Z",
+      "source_file": "PDT_2017_21_1610.txt",
+      "similarity": 0.4399046301841736,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-03-21T21:49Z",
+      "source_file": "PDT_2017_21_2149.txt",
+      "similarity": 0.4399046301841736,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-05-23T15:58Z",
+      "source_file": "PDT_2024_23_1558.txt",
+      "similarity": 0.4386428892612457,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-05-23T17:25Z",
+      "source_file": "PDT_2024_23_1725.txt",
+      "similarity": 0.4386428892612457,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-05-23T09:34Z",
+      "source_file": "PDT_2024_23_0934.txt",
+      "similarity": 0.4386428892612457,
+      "label": "severe_wind",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2005-01-01T10:25Z",
       "source_file": "PDT_2005_01_1025.txt",
-      "similarity": 0.4204758405685425,
+      "similarity": 0.43647223711013794,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-08-19T09:29Z",
       "source_file": "PDT_2006_19_0929.txt",
-      "similarity": 0.4021754860877991,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-08-19T09:30Z",
-      "source_file": "PDT_2006_19_0930.txt",
-      "similarity": 0.4021754860877991,
+      "similarity": 0.43387389183044434,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-08-19T16:20Z",
       "source_file": "PDT_2006_19_1620.txt",
-      "similarity": 0.4021754860877991,
+      "similarity": 0.43387389183044434,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-07-10T09:36Z",
-      "source_file": "PDT_2020_10_0936.txt",
-      "similarity": 0.4013124108314514,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2006-08-19T09:30Z",
+      "source_file": "PDT_2006_19_0930.txt",
+      "similarity": 0.43387389183044434,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2020-07-10T17:32Z",
       "source_file": "PDT_2020_10_1732.txt",
-      "similarity": 0.4013124108314514,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-07-10T16:42Z",
-      "source_file": "PDT_2020_10_1642.txt",
-      "similarity": 0.4013124108314514,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2017-03-21T21:49Z",
-      "source_file": "PDT_2017_21_2149.txt",
-      "similarity": 0.3999054729938507,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-03-21T16:10Z",
-      "source_file": "PDT_2017_21_1610.txt",
-      "similarity": 0.3999054729938507,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-02-06T10:26Z",
-      "source_file": "PDT_2018_06_1026.txt",
-      "similarity": 0.3972304165363312,
+      "similarity": 0.43308696150779724,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.40279808938503264,
-    "n_severe": 5,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.43669188022613525,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202610080523-KPDT-FXUS66-AFDPDT",
-    "afd_time": "2026-10-08T05:23:00Z",
-    "updated": "2026-10-08T09:04:46.951635+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202610081120-KPDT-FXUS66-AFDPDT",
+    "afd_time": "2026-10-08T11:20:00Z",
+    "updated": "2026-10-08T16:33:54.749343+00:00"
   }
 }
