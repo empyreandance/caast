@@ -1,91 +1,91 @@
 {
   "office": "AKQ",
-  "product_id": "202610090948-KAKQ-FXUS61-AFDAKQ",
-  "afd_time": "2026-10-09T09:48:00Z",
+  "product_id": "202610091937-KAKQ-FXUS61-AFDAKQ",
+  "afd_time": "2026-10-09T19:37:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-09T16:22:27.882859+00:00",
-  "query_preview": "..\nAs of 255 AM EDT Friday...\n\nKEY MESSAGE 1...Seasonable to slightly above average \ntemperatures and dry conditions through Saturday.\n\nMoisture at the upper levels is streaming north and east from \nHurricane Isaias early this morning, leading to a high level cloud \ndeck spreading across the local r",
+  "updated": "2026-10-09T21:44:38.007445+00:00",
+  "query_preview": "..\nAs of 245 PM EDT Friday...\n\nKEY MESSAGE 1...Rain chances increase Saturday night into Sunday as \nthe remnants of Hurricane Isaias move farther inland.\n\nHurricane Isaias has been upgraded to a major (Category 3) hurricane \nacross the northern Gulf. Isaias is expected to make landfall along \nthe fa",
   "analogs": [
     {
-      "datetime_utc": "2006-07-07T19:12Z",
-      "source_file": "AKQ_2006_07_1912.txt",
-      "similarity": 0.3650054335594177,
+      "datetime_utc": "2016-06-24T20:27Z",
+      "source_file": "AKQ_2016_24_2027.txt",
+      "similarity": 0.4429931342601776,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-06-25T00:11Z",
+      "source_file": "AKQ_2016_25_0011.txt",
+      "similarity": 0.4429931342601776,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-06-25T01:49Z",
+      "source_file": "AKQ_2016_25_0149.txt",
+      "similarity": 0.4429931342601776,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-06-25T05:59Z",
+      "source_file": "AKQ_2016_25_0559.txt",
+      "similarity": 0.4429931342601776,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-05-27T07:37Z",
       "source_file": "AKQ_2004_27_0737.txt",
-      "similarity": 0.36077526211738586,
+      "similarity": 0.4328460693359375,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-08-31T14:14Z",
-      "source_file": "AKQ_2007_31_1414.txt",
-      "similarity": 0.3534194827079773,
+      "datetime_utc": "2004-09-09T08:34Z",
+      "source_file": "AKQ_2004_09_0834.txt",
+      "similarity": 0.42864203453063965,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-08-31T14:28Z",
-      "source_file": "AKQ_2007_31_1428.txt",
-      "similarity": 0.3534194827079773,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-08-31T08:33Z",
-      "source_file": "AKQ_2007_31_0833.txt",
-      "similarity": 0.3534194827079773,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-08-10T01:53Z",
-      "source_file": "AKQ_2009_10_0153.txt",
-      "similarity": 0.3519482910633087,
+      "datetime_utc": "2012-07-22T08:22Z",
+      "source_file": "AKQ_2012_22_0822.txt",
+      "similarity": 0.4277679920196533,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-08-10T15:59Z",
-      "source_file": "AKQ_2009_10_1559.txt",
-      "similarity": 0.3519482910633087,
+      "datetime_utc": "2012-07-22T18:01Z",
+      "source_file": "AKQ_2012_22_1801.txt",
+      "similarity": 0.4277679920196533,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-08-10T07:32Z",
-      "source_file": "AKQ_2009_10_0732.txt",
-      "similarity": 0.3519482910633087,
+      "datetime_utc": "2012-07-22T14:30Z",
+      "source_file": "AKQ_2012_22_1430.txt",
+      "similarity": 0.4277679920196533,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-08-09T20:07Z",
-      "source_file": "AKQ_2009_09_2007.txt",
-      "similarity": 0.3519482910633087,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-08-10T18:01Z",
-      "source_file": "AKQ_2009_10_1801.txt",
-      "similarity": 0.3519482910633087,
+      "datetime_utc": "2012-07-22T09:06Z",
+      "source_file": "AKQ_2012_22_0906.txt",
+      "similarity": 0.4277679920196533,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.3545780599117279,
-    "n_severe": 6,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.4344532608985901,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
-    "product_id": "202610090948-KAKQ-FXUS61-AFDAKQ",
-    "afd_time": "2026-10-09T09:48:00Z",
-    "updated": "2026-10-09T16:22:27.882859+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202610091937-KAKQ-FXUS61-AFDAKQ",
+    "afd_time": "2026-10-09T19:37:00Z",
+    "updated": "2026-10-09T21:44:38.007445+00:00"
   }
 }

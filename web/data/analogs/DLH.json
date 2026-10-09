@@ -1,91 +1,91 @@
 {
   "office": "DLH",
-  "product_id": "202610091111-KDLH-FXUS63-AFDDLH",
-  "afd_time": "2026-10-09T11:11:00Z",
+  "product_id": "202610092013-KDLH-FXUS63-AFDDLH",
+  "afd_time": "2026-10-09T20:13:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-09T16:22:27.882859+00:00",
-  "query_preview": "..\nIssued at 300 PM CDT Thu Oct 8 2026\n\nFRIDAY INTO SUNDAY:\n\nSurface high pressure departing to the east will lead to\nsoutherly/southeasterly winds developing on Friday. Temperatures\nwill be on the increase, reaching the low 60s to around 70F, and\nsome 50s in the Arrowhead due to onshore flow. Winds",
+  "updated": "2026-10-09T21:44:38.007445+00:00",
+  "query_preview": "..\nIssued at 313 PM CDT Fri Oct 9 2026\n\nREST OF TODAY AND TONIGHT:\n\nSurface high pressure over the central Great Lakes as of Friday\nafternoon has led to southeast winds with gusts to around 15-25 \nmph and mostly clear skies across much of the Northland, though \ncloudier in far northern Minnesota to ",
   "analogs": [
-    {
-      "datetime_utc": "2018-11-03T04:53Z",
-      "source_file": "DLH_2018_03_0453.txt",
-      "similarity": 0.4762829542160034,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-11-03T04:17Z",
-      "source_file": "DLH_2018_03_0417.txt",
-      "similarity": 0.4762829542160034,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-26T10:11Z",
-      "source_file": "DLH_2023_26_1011.txt",
-      "similarity": 0.47237592935562134,
-      "label": "winter",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2023-01-26T17:49Z",
       "source_file": "DLH_2023_26_1749.txt",
-      "similarity": 0.47237592935562134,
+      "similarity": 0.465810626745224,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-01-26T11:42Z",
       "source_file": "DLH_2023_26_1142.txt",
-      "similarity": 0.47237592935562134,
+      "similarity": 0.465810626745224,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2008-08-06T20:04Z",
-      "source_file": "DLH_2008_06_2004.txt",
-      "similarity": 0.4678279757499695,
-      "label": "severe_hail",
+      "datetime_utc": "2023-01-26T10:11Z",
+      "source_file": "DLH_2023_26_1011.txt",
+      "similarity": 0.465810626745224,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-09-25T21:00Z",
+      "source_file": "DLH_2023_25_2100.txt",
+      "similarity": 0.4515083432197571,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-09-25T23:38Z",
+      "source_file": "DLH_2023_25_2338.txt",
+      "similarity": 0.4515083432197571,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-08-07T02:26Z",
       "source_file": "DLH_2008_07_0226.txt",
-      "similarity": 0.4678279757499695,
+      "similarity": 0.4513437747955322,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-10-31T15:11Z",
-      "source_file": "DLH_2009_31_1511.txt",
-      "similarity": 0.46617406606674194,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2008-08-06T20:04Z",
+      "source_file": "DLH_2008_06_2004.txt",
+      "similarity": 0.4513437747955322,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2009-10-31T18:36Z",
-      "source_file": "DLH_2009_31_1836.txt",
-      "similarity": 0.46617406606674194,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2010-06-10T17:59Z",
+      "source_file": "DLH_2010_10_1759.txt",
+      "similarity": 0.4509481191635132,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2009-10-31T08:12Z",
-      "source_file": "DLH_2009_31_0812.txt",
-      "similarity": 0.46617406606674194,
+      "datetime_utc": "2010-06-10T20:32Z",
+      "source_file": "DLH_2010_10_2032.txt",
+      "similarity": 0.4509481191635132,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-11-03T04:17Z",
+      "source_file": "DLH_2018_03_0417.txt",
+      "similarity": 0.4497586488723755,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.4703871846199036,
-    "n_severe": 2,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.45547910034656525,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610091111-KDLH-FXUS63-AFDDLH",
-    "afd_time": "2026-10-09T11:11:00Z",
-    "updated": "2026-10-09T16:22:27.882859+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202610092013-KDLH-FXUS63-AFDDLH",
+    "afd_time": "2026-10-09T20:13:00Z",
+    "updated": "2026-10-09T21:44:38.007445+00:00"
   }
 }

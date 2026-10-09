@@ -1,91 +1,91 @@
 {
   "office": "SGF",
-  "product_id": "202610091106-KSGF-FXUS63-AFDSGF",
-  "afd_time": "2026-10-09T11:06:00Z",
+  "product_id": "202610091743-KSGF-FXUS63-AFDSGF",
+  "afd_time": "2026-10-09T17:43:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-09T16:22:27.882859+00:00",
-  "query_preview": "/SATURDAY NIGHT THROUGH THURSDAY/...\nIssued at 327 AM CDT Fri Oct 9 2026\n\nThe ridge parked over the Central Plains keeps most of the\nremnants of Hurricane Isaias further east of our area. This\nridge will persist through the early part of next week and it\nwill slowly move east. Meanwhile, Hurricane S",
+  "updated": "2026-10-09T21:44:38.007445+00:00",
+  "query_preview": "/SATURDAY THROUGH THURSDAY/...\nIssued at 1243 PM CDT Fri Oct 9 2026\n\nLater this evening/tonight, Hurricane Isaias is progged to make \nlandfall over AL/MS before weakening and pivoting northwest towards \nnorthern MS Saturday afternoon, and then northeast towards the Ohio \nValley, further weakening th",
   "analogs": [
     {
-      "datetime_utc": "2021-10-01T08:42Z",
-      "source_file": "SGF_2021_01_0842.txt",
-      "similarity": 0.44121241569519043,
+      "datetime_utc": "2022-03-25T08:15Z",
+      "source_file": "SGF_2022_25_0815_1.txt",
+      "similarity": 0.4564829468727112,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-03-25T11:27Z",
+      "source_file": "SGF_2022_25_1127.txt",
+      "similarity": 0.4564829468727112,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-11-02T20:51Z",
+      "source_file": "SGF_2014_02_2051.txt",
+      "similarity": 0.4555911719799042,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-11-03T05:26Z",
+      "source_file": "SGF_2014_03_0526.txt",
+      "similarity": 0.4555911719799042,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-11-02T23:09Z",
+      "source_file": "SGF_2014_02_2309.txt",
+      "similarity": 0.4555911719799042,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-10-01T11:58Z",
       "source_file": "SGF_2021_01_1158.txt",
-      "similarity": 0.44121241569519043,
+      "similarity": 0.44878876209259033,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-10-01T18:06Z",
       "source_file": "SGF_2021_01_1806.txt",
-      "similarity": 0.44121241569519043,
+      "similarity": 0.44878876209259033,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2022-03-25T11:27Z",
-      "source_file": "SGF_2022_25_1127.txt",
-      "similarity": 0.4410218298435211,
+      "datetime_utc": "2021-10-01T08:42Z",
+      "source_file": "SGF_2021_01_0842.txt",
+      "similarity": 0.44878876209259033,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-05-20T05:03Z",
+      "source_file": "SGF_2020_20_0503.txt",
+      "similarity": 0.44612058997154236,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2022-03-25T08:15Z",
-      "source_file": "SGF_2022_25_0815_1.txt",
-      "similarity": 0.4410218298435211,
+      "datetime_utc": "2020-05-19T20:24Z",
+      "source_file": "SGF_2020_19_2024.txt",
+      "similarity": 0.44612058997154236,
       "label": "tornado",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-01-19T09:16Z",
-      "source_file": "SGF_2008_19_0916_1.txt",
-      "similarity": 0.42922401428222656,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-01-19T12:02Z",
-      "source_file": "SGF_2008_19_1202.txt",
-      "similarity": 0.42922401428222656,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-01-19T17:28Z",
-      "source_file": "SGF_2008_19_1728.txt",
-      "similarity": 0.42922401428222656,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-01-10T21:52Z",
-      "source_file": "SGF_2019_10_2152.txt",
-      "similarity": 0.42773714661598206,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-01-11T05:19Z",
-      "source_file": "SGF_2019_11_0519.txt",
-      "similarity": 0.42773714661598206,
-      "label": "flood",
-      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.43488272428512575,
-    "n_severe": 2,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.4518346875905991,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610091106-KSGF-FXUS63-AFDSGF",
-    "afd_time": "2026-10-09T11:06:00Z",
-    "updated": "2026-10-09T16:22:27.882859+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202610091743-KSGF-FXUS63-AFDSGF",
+    "afd_time": "2026-10-09T17:43:00Z",
+    "updated": "2026-10-09T21:44:38.007445+00:00"
   }
 }
