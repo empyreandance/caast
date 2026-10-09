@@ -1,91 +1,91 @@
 {
   "office": "PDT",
-  "product_id": "202610090550-KPDT-FXUS66-AFDPDT",
-  "afd_time": "2026-10-09T05:50:00Z",
+  "product_id": "202610091146-KPDT-FXUS66-AFDPDT",
+  "afd_time": "2026-10-09T11:46:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-09T09:16:25.547917+00:00",
-  "query_preview": "..\nA Freeze Watch is in effect for Grande Ronde Valley, Central\nOregon, and Wallowa Valley for tomorrow night through Saturday\nmorning.\n\nBeginning tomorrow, an upper level trough is highly likely to\nmove into the PacNW area from the Gulf of Alaska (over 90%\nchance). With it, the threat of freezing m",
+  "updated": "2026-10-09T16:22:27.882859+00:00",
+  "query_preview": "..\nNighttime satellite imagery tonight shows cirrus\nspreading east across the forecast area ahead of an approaching\ncold front and upper level trough.\n\nToday through Sunday: Unsettled weather conditions will return\nto the PacNW today as a cold front and upper trough drop into\nthe region from the nor",
   "analogs": [
     {
-      "datetime_utc": "2020-07-10T16:42Z",
-      "source_file": "PDT_2020_10_1642.txt",
-      "similarity": 0.41097384691238403,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-07-10T17:32Z",
-      "source_file": "PDT_2020_10_1732.txt",
-      "similarity": 0.41097384691238403,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-07-10T09:36Z",
-      "source_file": "PDT_2020_10_0936.txt",
-      "similarity": 0.41097384691238403,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2017-03-21T16:10Z",
-      "source_file": "PDT_2017_21_1610.txt",
-      "similarity": 0.40860965847969055,
-      "label": "tornado",
+      "datetime_utc": "2024-05-23T17:25Z",
+      "source_file": "PDT_2024_23_1725.txt",
+      "similarity": 0.43163031339645386,
+      "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-03-21T21:49Z",
-      "source_file": "PDT_2017_21_2149.txt",
-      "similarity": 0.40860965847969055,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-01-01T10:25Z",
-      "source_file": "PDT_2005_01_1025.txt",
-      "similarity": 0.4063822031021118,
-      "label": "quiet",
-      "is_severe": false
     },
     {
       "datetime_utc": "2024-05-23T15:58Z",
       "source_file": "PDT_2024_23_1558.txt",
-      "similarity": 0.4042068123817444,
+      "similarity": 0.43163031339645386,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-05-23T09:34Z",
       "source_file": "PDT_2024_23_0934.txt",
-      "similarity": 0.4042068123817444,
+      "similarity": 0.43163031339645386,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-05-23T17:25Z",
-      "source_file": "PDT_2024_23_1725.txt",
-      "similarity": 0.4042068123817444,
-      "label": "severe_wind",
+      "datetime_utc": "2017-03-21T21:49Z",
+      "source_file": "PDT_2017_21_2149.txt",
+      "similarity": 0.4256134033203125,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-08-19T09:29Z",
-      "source_file": "PDT_2006_19_0929.txt",
-      "similarity": 0.4006001651287079,
-      "label": "severe_wind",
+      "datetime_utc": "2017-03-21T16:10Z",
+      "source_file": "PDT_2017_21_1610.txt",
+      "similarity": 0.4256134033203125,
+      "label": "tornado",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-08-30T03:34Z",
+      "source_file": "PDT_2011_30_0334.txt",
+      "similarity": 0.42417147755622864,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-08-29T21:50Z",
+      "source_file": "PDT_2011_29_2150.txt",
+      "similarity": 0.42417147755622864,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-07-10T17:32Z",
+      "source_file": "PDT_2020_10_1732.txt",
+      "similarity": 0.42368847131729126,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-07-10T09:36Z",
+      "source_file": "PDT_2020_10_0936.txt",
+      "similarity": 0.42368847131729126,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-07-10T16:42Z",
+      "source_file": "PDT_2020_10_1642.txt",
+      "similarity": 0.42368847131729126,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.4069743663072586,
-    "n_severe": 6,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.42655261158943175,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202610090550-KPDT-FXUS66-AFDPDT",
-    "afd_time": "2026-10-09T05:50:00Z",
-    "updated": "2026-10-09T09:16:25.547917+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202610091146-KPDT-FXUS66-AFDPDT",
+    "afd_time": "2026-10-09T11:46:00Z",
+    "updated": "2026-10-09T16:22:27.882859+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "BOI",
-  "product_id": "202610090611-KBOI-FXUS65-AFDBOI",
-  "afd_time": "2026-10-09T06:11:00Z",
+  "product_id": "202610091212-KBOI-FXUS65-AFDBOI",
+  "afd_time": "2026-10-09T12:12:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-09T09:16:25.547917+00:00",
-  "query_preview": "/Monday through Friday/...\nIssued 228 PM MDT THU OCT 8 2026\nCool and unsettled conditions will continue into Sunday. As the low \nthat will bring us our cool down digs south into the Great Basin, \nmoisture from Rachel will be transported north in the southerly flow\naloft. While the bulk of this remna",
+  "updated": "2026-10-09T16:22:27.882859+00:00",
+  "query_preview": "/Monday through Friday/...\nIssued 349 AM MDT FRI OCT 9 2026\nCome Monday, there remains considerable guidance uncertainty over \nthe final track of the closed upper low as it either shifts slightly \neastward directly over our area into the upper Great Basin or \nimmediately dig further down into southe",
   "analogs": [
-    {
-      "datetime_utc": "2012-03-04T16:15Z",
-      "source_file": "BOI_2012_04_1615.txt",
-      "similarity": 0.3965970277786255,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-11-18T16:45Z",
-      "source_file": "BOI_2014_18_1645.txt",
-      "similarity": 0.38905608654022217,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-10-07T03:50Z",
-      "source_file": "BOI_2006_07_0350.txt",
-      "similarity": 0.3881552219390869,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-10-06T21:14Z",
-      "source_file": "BOI_2006_06_2114.txt",
-      "similarity": 0.3881552219390869,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-03-04T10:44Z",
-      "source_file": "BOI_2012_04_1044.txt",
-      "similarity": 0.38641613721847534,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2023-09-07T02:57Z",
       "source_file": "BOI_2023_07_0257.txt",
-      "similarity": 0.3786746859550476,
+      "similarity": 0.3403046727180481,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-09-06T20:32Z",
       "source_file": "BOI_2023_06_2032.txt",
-      "similarity": 0.3786746859550476,
+      "similarity": 0.3403046727180481,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-08-14T03:46Z",
-      "source_file": "BOI_2005_14_0346.txt",
-      "similarity": 0.37575289607048035,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2006-10-07T03:50Z",
+      "source_file": "BOI_2006_07_0350.txt",
+      "similarity": 0.33864229917526245,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2005-08-13T20:34Z",
-      "source_file": "BOI_2005_13_2034_1.txt",
-      "similarity": 0.37575289607048035,
+      "datetime_utc": "2006-10-06T21:14Z",
+      "source_file": "BOI_2006_06_2114.txt",
+      "similarity": 0.33864229917526245,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-04-18T08:41Z",
       "source_file": "BOI_2019_18_0841.txt",
-      "similarity": 0.369745135307312,
+      "similarity": 0.3281491994857788,
       "label": "severe_hail",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-04-18T15:35Z",
+      "source_file": "BOI_2019_18_1535_1.txt",
+      "similarity": 0.3281491994857788,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-05-05T15:27Z",
+      "source_file": "BOI_2007_05_1527.txt",
+      "similarity": 0.32785284519195557,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-11-18T16:45Z",
+      "source_file": "BOI_2014_18_1645.txt",
+      "similarity": 0.32770299911499023,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-08-14T03:46Z",
+      "source_file": "BOI_2005_14_0346.txt",
+      "similarity": 0.3257913887500763,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-08-13T20:34Z",
+      "source_file": "BOI_2005_13_2034_1.txt",
+      "similarity": 0.3257913887500763,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.3826979994773865,
+    "mean_similarity": 0.3321330964565277,
     "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610090611-KBOI-FXUS65-AFDBOI",
-    "afd_time": "2026-10-09T06:11:00Z",
-    "updated": "2026-10-09T09:16:25.547917+00:00"
+    "reason": "top-10 mean similarity 0.33 below confidence floor 0.7",
+    "product_id": "202610091212-KBOI-FXUS65-AFDBOI",
+    "afd_time": "2026-10-09T12:12:00Z",
+    "updated": "2026-10-09T16:22:27.882859+00:00"
   }
 }
