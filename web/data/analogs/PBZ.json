@@ -1,78 +1,78 @@
 {
   "office": "PBZ",
-  "product_id": "202610082255-KPBZ-FXUS61-AFDPBZ",
-  "afd_time": "2026-10-08T22:55:00Z",
+  "product_id": "202610090814-KPBZ-FXUS61-AFDPBZ",
+  "afd_time": "2026-10-09T08:14:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-09T02:15:58.587550+00:00",
-  "query_preview": "..\nKEY MESSAGE 1... \nHigh pressure will continue to dominate the weather pattern for\nthe region through Saturday morning. Expect abundant sunshine,\nabove normal temperature that peaks Saturday afternoon, and dry\nconditions.\n\nRain may creep into southern zones by Saturday evening along\nwith increasin",
+  "updated": "2026-10-09T09:16:25.547917+00:00",
+  "query_preview": "..\n\n\nKEY MESSAGE 1...\nConfidence remains high that quiet and dry conditions will\npersist through late Saturday under high pressure.\n\nRain chances and gusty winds will increase late Saturday night\ninto Sunday as Hurricane Isaias tracks northward over the next\n72 hours. Although the system is expected",
   "analogs": [
     {
-      "datetime_utc": "2009-05-25T06:31Z",
-      "source_file": "PBZ_2009_25_0631.txt",
-      "similarity": 0.4379001259803772,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-09-20T18:32Z",
-      "source_file": "PBZ_2005_20_1832.txt",
-      "similarity": 0.4336816072463989,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-08-23T09:08Z",
-      "source_file": "PBZ_2017_23_0908.txt",
-      "similarity": 0.43312907218933105,
+      "datetime_utc": "2017-08-23T11:54Z",
+      "source_file": "PBZ_2017_23_1154.txt",
+      "similarity": 0.4608730375766754,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-08-23T06:38Z",
       "source_file": "PBZ_2017_23_0638.txt",
-      "similarity": 0.43312907218933105,
+      "similarity": 0.4608730375766754,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-08-23T11:54Z",
-      "source_file": "PBZ_2017_23_1154.txt",
-      "similarity": 0.43312907218933105,
+      "datetime_utc": "2017-08-23T09:08Z",
+      "source_file": "PBZ_2017_23_0908.txt",
+      "similarity": 0.4608730375766754,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-06-10T05:32Z",
-      "source_file": "PBZ_2007_10_0532.txt",
-      "similarity": 0.4284934401512146,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-06-10T17:35Z",
-      "source_file": "PBZ_2007_10_1735.txt",
-      "similarity": 0.4284934401512146,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2023-07-31T23:21Z",
-      "source_file": "PBZ_2023_31_2321.txt",
-      "similarity": 0.4284382462501526,
+      "datetime_utc": "2009-05-25T06:31Z",
+      "source_file": "PBZ_2009_25_0631.txt",
+      "similarity": 0.4521516263484955,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2023-07-01T00:06Z",
-      "source_file": "PBZ_2023_01_0006.txt",
-      "similarity": 0.4284382462501526,
+      "datetime_utc": "2005-09-20T18:32Z",
+      "source_file": "PBZ_2005_20_1832.txt",
+      "similarity": 0.45168352127075195,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-06-06T07:21Z",
+      "source_file": "PBZ_2006_06_0721.txt",
+      "similarity": 0.44989216327667236,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-07-15T17:54Z",
+      "source_file": "PBZ_2025_15_1754.txt",
+      "similarity": 0.4484928250312805,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-06-11T17:33Z",
+      "source_file": "PBZ_2021_11_1733_1.txt",
+      "similarity": 0.4452570080757141,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2023-07-31T18:09Z",
-      "source_file": "PBZ_2023_31_1809.txt",
-      "similarity": 0.4284382462501526,
+      "datetime_utc": "2014-05-29T08:22Z",
+      "source_file": "PBZ_2014_29_0822_1.txt",
+      "similarity": 0.4450746178627014,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-05-29T11:08Z",
+      "source_file": "PBZ_2014_29_1108.txt",
+      "similarity": 0.4450746178627014,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.43132705688476564,
+    "mean_similarity": 0.45202454924583435,
     "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610082255-KPBZ-FXUS61-AFDPBZ",
-    "afd_time": "2026-10-08T22:55:00Z",
-    "updated": "2026-10-09T02:15:58.587550+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202610090814-KPBZ-FXUS61-AFDPBZ",
+    "afd_time": "2026-10-09T08:14:00Z",
+    "updated": "2026-10-09T09:16:25.547917+00:00"
   }
 }

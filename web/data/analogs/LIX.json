@@ -1,92 +1,91 @@
 {
   "office": "LIX",
-  "product_id": "202610082124-KLIX-FXUS64-AFDLIX",
-  "afd_time": "2026-10-08T21:24:00Z",
+  "product_id": "202610090530-KLIX-FXUS64-AFDLIX",
+  "afd_time": "2026-10-09T05:30:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-08T22:09:46.252496+00:00",
-  "query_preview": "..\n(Sunday night through Wednesday)\nIssued at 1154 AM CDT Thu Oct 8 2026\n\nBy Sunday night, Isaias (or remnants) will be over the Ohio River\nValley and no longer an issue for our area. Upper and surface \nhighs will be building into the area with little or no rain \nexpected through midweek as dry air ",
+  "updated": "2026-10-09T09:16:25.547917+00:00",
+  "query_preview": "..\n(Monday night through Thursday)\nIssued at 1222 AM CDT Fri Oct 9 2026\n\nOn Monday night, upper and surface ridging will be pretty much \ncentered over the area. The ridging will eventually slide eastward \nto around Atlanta by Thursday. With this pattern, don't see much of \nan opportunity for precipi",
   "analogs": [
     {
-      "datetime_utc": "2016-07-24T01:09Z",
-      "source_file": "LIX_2016_24_0109.txt",
-      "similarity": 0.7933726906776428,
+      "datetime_utc": "2012-09-19T20:07Z",
+      "source_file": "LIX_2012_19_2007.txt",
+      "similarity": 0.6432344913482666,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-02-05T02:40Z",
+      "source_file": "LIX_2011_05_0240.txt",
+      "similarity": 0.6378442049026489,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-07-23T21:04Z",
       "source_file": "LIX_2016_23_2104_1.txt",
-      "similarity": 0.7933726906776428,
+      "similarity": 0.6278344988822937,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-02-05T02:40Z",
-      "source_file": "LIX_2011_05_0240.txt",
-      "similarity": 0.7805546522140503,
+      "datetime_utc": "2016-07-24T01:09Z",
+      "source_file": "LIX_2016_24_0109.txt",
+      "similarity": 0.6278344988822937,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-10-16T09:27Z",
       "source_file": "LIX_2006_16_0927.txt",
-      "similarity": 0.7576836347579956,
+      "similarity": 0.6017677783966064,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-09-19T20:07Z",
-      "source_file": "LIX_2012_19_2007.txt",
-      "similarity": 0.7443621158599854,
+      "datetime_utc": "2024-05-26T20:41Z",
+      "source_file": "LIX_2024_26_2041.txt",
+      "similarity": 0.5940492749214172,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-06-16T08:14Z",
+      "source_file": "LIX_2004_16_0814.txt",
+      "similarity": 0.5875102877616882,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-05-16T16:01Z",
+      "source_file": "LIX_2020_16_1601.txt",
+      "similarity": 0.5794353485107422,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-02-20T16:44Z",
+      "source_file": "LIX_2005_20_1644.txt",
+      "similarity": 0.5783207416534424,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2022-09-08T09:47Z",
       "source_file": "LIX_2022_08_0947.txt",
-      "similarity": 0.6939273476600647,
+      "similarity": 0.5777425765991211,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-09-08T11:15Z",
-      "source_file": "LIX_2022_08_1115.txt",
-      "similarity": 0.6939273476600647,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-06-16T08:14Z",
-      "source_file": "LIX_2004_16_0814.txt",
-      "similarity": 0.693208634853363,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-05-26T20:41Z",
-      "source_file": "LIX_2024_26_2041.txt",
-      "similarity": 0.680932879447937,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-03-20T08:57Z",
-      "source_file": "LIX_2006_20_0857.txt",
-      "similarity": 0.6801947355270386,
-      "label": "severe_hail",
-      "is_severe": true
     }
   ],
   "signal": {
-    "level": "LOW",
+    "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.7311536729335785,
-    "base_rate": 0.6297014764522039,
-    "signal_value": -0.02970147645220389,
+    "mean_similarity": 0.6055573701858521,
     "n_severe": 6,
     "n_total": 10,
-    "product_id": "202610082124-KLIX-FXUS64-AFDLIX",
-    "afd_time": "2026-10-08T21:24:00Z",
-    "updated": "2026-10-08T22:09:46.252496+00:00"
+    "reason": "top-10 mean similarity 0.61 below confidence floor 0.7",
+    "product_id": "202610090530-KLIX-FXUS64-AFDLIX",
+    "afd_time": "2026-10-09T05:30:00Z",
+    "updated": "2026-10-09T09:16:25.547917+00:00"
   }
 }

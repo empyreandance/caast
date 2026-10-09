@@ -1,78 +1,78 @@
 {
   "office": "JKL",
-  "product_id": "202610090000-KJKL-FXUS63-AFDJKL-AAA",
-  "afd_time": "2026-10-09T00:00:00Z",
+  "product_id": "202610090900-KJKL-FXUS63-AFDJKL",
+  "afd_time": "2026-10-09T09:00:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-09T02:15:58.587550+00:00",
-  "query_preview": "..(Saturday through Thursday)\nIssued at 430 PM EDT THU OCT 8 2026\n\nAt the start of the extended period, all eyes will shift\ntowards the remnants of Hurricane Isaias. Model and ensemble\nguidance continue to meander west and east with the storm track as\nIsaias approaches the Gulf coastline. Previous g",
+  "updated": "2026-10-09T09:16:25.547917+00:00",
+  "query_preview": "..(Saturday night through Thursday)\nIssued at 500 AM EDT FRI OCT 9 2026\n\nThe extended portion of the forecast looks to be on track with \nthe idea of the remains of Isaias exiting to the east Sunday and\nearly Monday followed by drying in its wake as ridging aloft\nbuilds into the state from the southw",
   "analogs": [
     {
       "datetime_utc": "2005-08-24T22:22Z",
       "source_file": "JKL_2005_24_2222.txt",
-      "similarity": 0.41745978593826294,
+      "similarity": 0.4109569787979126,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-08-09T09:27Z",
+      "source_file": "JKL_2004_09_0927.txt",
+      "similarity": 0.4046746492385864,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-08-09T02:17Z",
       "source_file": "JKL_2004_09_0217.txt",
-      "similarity": 0.4136353135108948,
+      "similarity": 0.4046746492385864,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-08-08T21:13Z",
       "source_file": "JKL_2004_08_2113.txt",
-      "similarity": 0.4136353135108948,
+      "similarity": 0.4046746492385864,
       "label": "severe_hail",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-08-09T09:27Z",
-      "source_file": "JKL_2004_09_0927.txt",
-      "similarity": 0.4136353135108948,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-11-02T12:56Z",
-      "source_file": "JKL_2004_02_1256.txt",
-      "similarity": 0.4096077084541321,
-      "label": "quiet",
-      "is_severe": false
     },
     {
       "datetime_utc": "2007-10-08T19:59Z",
       "source_file": "JKL_2007_08_1959.txt",
-      "similarity": 0.408174604177475,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-10-09T05:36Z",
-      "source_file": "JKL_2007_09_0536.txt",
-      "similarity": 0.408174604177475,
+      "similarity": 0.402560830116272,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-10-08T23:23Z",
       "source_file": "JKL_2007_08_2323.txt",
-      "similarity": 0.408174604177475,
+      "similarity": 0.402560830116272,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-07-20T14:50Z",
-      "source_file": "JKL_2007_20_1450.txt",
-      "similarity": 0.4047449827194214,
+      "datetime_utc": "2007-10-09T05:36Z",
+      "source_file": "JKL_2007_09_0536.txt",
+      "similarity": 0.402560830116272,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-11-02T12:56Z",
+      "source_file": "JKL_2004_02_1256.txt",
+      "similarity": 0.4009599983692169,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-07-20T17:55Z",
+      "source_file": "JKL_2007_20_1755.txt",
+      "similarity": 0.39598771929740906,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-07-20T07:10Z",
-      "source_file": "JKL_2007_20_0710.txt",
-      "similarity": 0.4047449827194214,
+      "datetime_utc": "2007-07-20T14:50Z",
+      "source_file": "JKL_2007_20_1450.txt",
+      "similarity": 0.39598771929740906,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.4101987212896347,
+    "mean_similarity": 0.4025598853826523,
     "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202610090000-KJKL-FXUS63-AFDJKL-AAA",
-    "afd_time": "2026-10-09T00:00:00Z",
-    "updated": "2026-10-09T02:15:58.587550+00:00"
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202610090900-KJKL-FXUS63-AFDJKL",
+    "afd_time": "2026-10-09T09:00:00Z",
+    "updated": "2026-10-09T09:16:25.547917+00:00"
   }
 }
