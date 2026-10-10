@@ -1,91 +1,91 @@
 {
   "office": "DDC",
-  "product_id": "202610101005-KDDC-FXUS63-AFDDDC",
-  "afd_time": "2026-10-10T10:05:00Z",
+  "product_id": "202610101903-KDDC-FXUS63-AFDDDC",
+  "afd_time": "2026-10-10T19:03:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-10T15:26:47.439465+00:00",
-  "query_preview": "..\nIssued at 1234 AM CDT Sat Oct 10 2026\n\nVery warm, and even borderline hot, temperatures this weekend \nthrough Monday as a southwest downslope plume overspreads the \nCentral and Southern High Plains. Monday still looks to be the \nwarmest day with widespread highs in the lower 90s. The record high ",
+  "updated": "2026-10-10T20:07:43.807947+00:00",
+  "query_preview": "..\nIssued at 203 PM CDT Sat Oct 10 2026\n\nAn upper level ridge is currently sitting above the Plains and will \nslowly inch eastward as an upper level trough digs into the western \nUnited States. Towards the surface, lee troughing will be the main \nfeature across eastern Colorado leading to south to s",
   "analogs": [
+    {
+      "datetime_utc": "2004-08-29T18:06Z",
+      "source_file": "DDC_2004_29_1806.txt",
+      "similarity": 0.4644266366958618,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-03-18T07:57Z",
+      "source_file": "DDC_2005_18_0757.txt",
+      "similarity": 0.45963960886001587,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2006-04-15T19:45Z",
       "source_file": "DDC_2006_15_1945.txt",
-      "similarity": 0.45218831300735474,
+      "similarity": 0.4594178795814514,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-04-28T07:45Z",
       "source_file": "DDC_2005_28_0745.txt",
-      "similarity": 0.44946762919425964,
+      "similarity": 0.45909714698791504,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-11-06T22:31Z",
-      "source_file": "DDC_2022_06_2231.txt",
-      "similarity": 0.448382705450058,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-11-07T04:44Z",
-      "source_file": "DDC_2022_07_0444.txt",
-      "similarity": 0.448382705450058,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-11-06T16:47Z",
-      "source_file": "DDC_2022_06_1647.txt",
-      "similarity": 0.448382705450058,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-11-06T18:18Z",
-      "source_file": "DDC_2022_06_1818.txt",
-      "similarity": 0.448382705450058,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-08-29T18:06Z",
-      "source_file": "DDC_2004_29_1806.txt",
-      "similarity": 0.4462476670742035,
-      "label": "severe_hail",
-      "is_severe": true
     },
     {
       "datetime_utc": "2007-07-06T19:13Z",
       "source_file": "DDC_2007_06_1913.txt",
-      "similarity": 0.4453786313533783,
+      "similarity": 0.4581230878829956,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-03-18T07:57Z",
-      "source_file": "DDC_2005_18_0757.txt",
-      "similarity": 0.44508546590805054,
+      "datetime_utc": "2006-01-28T08:11Z",
+      "source_file": "DDC_2006_28_0811.txt",
+      "similarity": 0.4581022262573242,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-01-28T08:11Z",
-      "source_file": "DDC_2006_28_0811.txt",
-      "similarity": 0.4424903392791748,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2012-06-16T00:01Z",
+      "source_file": "DDC_2012_16_0001.txt",
+      "similarity": 0.45597028732299805,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-03-25T05:46Z",
+      "source_file": "DDC_2015_25_0546.txt",
+      "similarity": 0.4507668912410736,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-07-09T08:00Z",
+      "source_file": "DDC_2004_09_0800.txt",
+      "similarity": 0.4502389430999756,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-07-05T07:28Z",
+      "source_file": "DDC_2006_05_0728.txt",
+      "similarity": 0.44979798793792725,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.4474388867616653,
-    "n_severe": 2,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.4565580695867538,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610101005-KDDC-FXUS63-AFDDDC",
-    "afd_time": "2026-10-10T10:05:00Z",
-    "updated": "2026-10-10T15:26:47.439465+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202610101903-KDDC-FXUS63-AFDDDC",
+    "afd_time": "2026-10-10T19:03:00Z",
+    "updated": "2026-10-10T20:07:43.807947+00:00"
   }
 }
