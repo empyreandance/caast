@@ -1,78 +1,78 @@
 {
   "office": "REV",
-  "product_id": "202610100853-KREV-FXUS65-AFDREV",
-  "afd_time": "2026-10-10T08:53:00Z",
+  "product_id": "202610102147-KREV-FXUS65-AFDREV",
+  "afd_time": "2026-10-10T21:47:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-10T15:26:47.439465+00:00",
-  "query_preview": "..\n\nEvidence of the inbound frontal boundary is showing up across \ncentral Oregon on the satellite returns this morning, soon to take \naim at the northern borders of California and Nevada. Winds are \nalready beginning to pick up along the ridges, with southwest winds \nincreasing through the day toda",
+  "updated": "2026-10-10T23:38:09.119200+00:00",
+  "query_preview": "..\n\nAccording to the latest surface observations, a cold front, \nassociated with an upper trough over the western CONUS, has crossed \ninto NE California and far NW Nevada this afternoon. Ahead of this \nfrontal passage, winds through this evening will gust up to around \n35-45 mph in the lower valleys",
   "analogs": [
     {
       "datetime_utc": "2016-08-28T09:39Z",
       "source_file": "REV_2016_28_0939.txt",
-      "similarity": 0.43903499841690063,
+      "similarity": 0.4107564687728882,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-08-20T08:48Z",
+      "source_file": "REV_2016_20_0848.txt",
+      "similarity": 0.3412168025970459,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2022-02-03T20:42Z",
       "source_file": "REV_2022_03_2042.txt",
-      "similarity": 0.365165650844574,
+      "similarity": 0.3354448080062866,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2020-08-16T23:21Z",
       "source_file": "REV_2020_16_2321.txt",
-      "similarity": 0.36031079292297363,
+      "similarity": 0.32949793338775635,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-02-17T11:59Z",
-      "source_file": "REV_2011_17_1159.txt",
-      "similarity": 0.35893428325653076,
+      "datetime_utc": "2013-01-22T22:34Z",
+      "source_file": "REV_2013_22_2234.txt",
+      "similarity": 0.32342785596847534,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-08-20T08:48Z",
-      "source_file": "REV_2016_20_0848.txt",
-      "similarity": 0.35780811309814453,
-      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-10-02T10:15Z",
       "source_file": "REV_2016_02_1015.txt",
-      "similarity": 0.35651785135269165,
+      "similarity": 0.3208872675895691,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-09-16T10:29Z",
       "source_file": "REV_2007_16_1029.txt",
-      "similarity": 0.35093215107917786,
+      "similarity": 0.31924179196357727,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-11-05T10:29Z",
-      "source_file": "REV_2014_05_1029.txt",
-      "similarity": 0.3452814221382141,
+      "datetime_utc": "2005-09-11T21:33Z",
+      "source_file": "REV_2005_11_2133.txt",
+      "similarity": 0.31922388076782227,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-01-22T22:34Z",
-      "source_file": "REV_2013_22_2234.txt",
-      "similarity": 0.3401769697666168,
-      "label": "winter",
+      "datetime_utc": "2009-08-14T16:37Z",
+      "source_file": "REV_2009_14_1637.txt",
+      "similarity": 0.3176266849040985,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-08-29T10:16Z",
-      "source_file": "REV_2004_29_1016.txt",
-      "similarity": 0.33298736810684204,
+      "datetime_utc": "2009-08-14T09:48Z",
+      "source_file": "REV_2009_14_0948.txt",
+      "similarity": 0.3176266849040985,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.3607149600982666,
+    "mean_similarity": 0.3334950178861618,
     "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
-    "product_id": "202610100853-KREV-FXUS65-AFDREV",
-    "afd_time": "2026-10-10T08:53:00Z",
-    "updated": "2026-10-10T15:26:47.439465+00:00"
+    "reason": "top-10 mean similarity 0.33 below confidence floor 0.7",
+    "product_id": "202610102147-KREV-FXUS65-AFDREV",
+    "afd_time": "2026-10-10T21:47:00Z",
+    "updated": "2026-10-10T23:38:09.119200+00:00"
   }
 }

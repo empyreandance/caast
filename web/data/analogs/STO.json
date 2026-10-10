@@ -1,91 +1,91 @@
 {
   "office": "STO",
-  "product_id": "202610091949-KSTO-FXUS66-AFDSTO",
-  "afd_time": "2026-10-09T19:49:00Z",
+  "product_id": "202610102133-KSTO-FXUS66-AFDSTO",
+  "afd_time": "2026-10-10T21:33:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-09T21:44:38.007445+00:00",
-  "query_preview": "..\n\n...Today-Saturday AM... \nMostly sunny skies with a few high clouds being observed today\nacross NorCal. Today is expected to be the last day of above-\nnormal temperatures before we cool down this weekend. \n\nThe upper level pattern changes tonight as a PacNW trough and \nweak closed low form offsho",
+  "updated": "2026-10-10T23:38:09.119200+00:00",
+  "query_preview": "..\n\n...Today... \n\nA weak cold front is traversing Northern California this\nafternoon. Latest Visible satellite depicts a narrow area of mid-\nlevel clouds streaming southeast across the area, while cumulus \nclouds are developing along the Sierra this afternoon. Mostly dry \nweather is expected to prev",
   "analogs": [
     {
       "datetime_utc": "2020-08-16T10:36Z",
       "source_file": "STO_2020_16_1036.txt",
-      "similarity": 0.5009256601333618,
+      "similarity": 0.5211814641952515,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2023-01-24T10:29Z",
       "source_file": "STO_2023_24_1029.txt",
-      "similarity": 0.4789586365222931,
+      "similarity": 0.5097512006759644,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-01-26T04:22Z",
+      "source_file": "STO_2017_26_0422.txt",
+      "similarity": 0.4832867980003357,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-01-25T23:35Z",
       "source_file": "STO_2017_25_2335.txt",
-      "similarity": 0.4638723134994507,
+      "similarity": 0.4832867980003357,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-01-26T04:22Z",
-      "source_file": "STO_2017_26_0422.txt",
-      "similarity": 0.4638723134994507,
-      "label": "winter",
+      "datetime_utc": "2006-09-11T04:40Z",
+      "source_file": "STO_2006_11_0440.txt",
+      "similarity": 0.4802481234073639,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-01-21T22:13Z",
       "source_file": "STO_2023_21_2213.txt",
-      "similarity": 0.4621027410030365,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-08-15T10:30Z",
-      "source_file": "STO_2020_15_1030.txt",
-      "similarity": 0.451843798160553,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-09-17T21:01Z",
-      "source_file": "STO_2022_17_2101.txt",
-      "similarity": 0.4514598846435547,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-09-11T04:40Z",
-      "source_file": "STO_2006_11_0440.txt",
-      "similarity": 0.4495283365249634,
+      "similarity": 0.47650450468063354,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-??-08T05:08Z",
       "source_file": "STO_2014_08_0508.txt",
-      "similarity": 0.448211133480072,
+      "similarity": 0.4741048216819763,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-09-07T22:54Z",
       "source_file": "STO_2014_07_2254.txt",
-      "similarity": 0.448211133480072,
+      "similarity": 0.4741048216819763,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-08-15T10:30Z",
+      "source_file": "STO_2020_15_1030.txt",
+      "similarity": 0.47382038831710815,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-09-17T21:01Z",
+      "source_file": "STO_2022_17_2101.txt",
+      "similarity": 0.4690042734146118,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.4618985950946808,
+    "mean_similarity": 0.4845293194055557,
     "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202610091949-KSTO-FXUS66-AFDSTO",
-    "afd_time": "2026-10-09T19:49:00Z",
-    "updated": "2026-10-09T21:44:38.007445+00:00"
+    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
+    "product_id": "202610102133-KSTO-FXUS66-AFDSTO",
+    "afd_time": "2026-10-10T21:33:00Z",
+    "updated": "2026-10-10T23:38:09.119200+00:00"
   }
 }
