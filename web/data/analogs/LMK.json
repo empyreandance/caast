@@ -1,9 +1,9 @@
 {
   "office": "LMK",
-  "product_id": "202610091901-KLMK-FXUS63-AFDLMK",
-  "afd_time": "2026-10-09T19:01:00Z",
+  "product_id": "202610092349-KLMK-FXUS63-AFDLMK",
+  "afd_time": "2026-10-09T23:49:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-09T21:44:38.007445+00:00",
+  "updated": "2026-10-10T01:48:48.230668+00:00",
   "query_preview": "..\nIssued at 301 PM EDT Fri Oct 9 2026\n\n===== This Afternoon through Tonight ====\n\nWarm and dry conditions will continue this afternoon and evening, \nwith temperatures topping out in the low-to-mid 80s. RH values are \nin the 20s in many areas, and this very dry air mass will take time \nto overcome a",
   "analogs": [
     {
@@ -16,6 +16,13 @@
     {
       "datetime_utc": "2011-10-03T10:39Z",
       "source_file": "LMK_2011_03_1039.txt",
+      "similarity": 0.4168682098388672,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-10-03T17:29Z",
+      "source_file": "LMK_2011_03_1729.txt",
       "similarity": 0.4168682098388672,
       "label": "quiet",
       "is_severe": false
@@ -35,44 +42,37 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-10-03T17:29Z",
-      "source_file": "LMK_2011_03_1729.txt",
-      "similarity": 0.4168682098388672,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2008-08-29T16:59Z",
       "source_file": "LMK_2008_29_1659.txt",
-      "similarity": 0.4148743450641632,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-08-29T15:46Z",
-      "source_file": "LMK_2008_29_1546.txt",
-      "similarity": 0.4148743450641632,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-08-29T06:53Z",
-      "source_file": "LMK_2008_29_0653.txt",
-      "similarity": 0.4148743450641632,
+      "similarity": 0.4148743152618408,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-08-29T10:39Z",
       "source_file": "LMK_2008_29_1039.txt",
-      "similarity": 0.4148743450641632,
+      "similarity": 0.4148743152618408,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-08-29T06:53Z",
+      "source_file": "LMK_2008_29_0653.txt",
+      "similarity": 0.4148743152618408,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-08-29T15:46Z",
+      "source_file": "LMK_2008_29_1546.txt",
+      "similarity": 0.4148743152618408,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-09-13T14:46Z",
       "source_file": "LMK_2011_13_1446.txt",
-      "similarity": 0.41161227226257324,
+      "similarity": 0.41161221265792847,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.4155450701713562,
+    "mean_similarity": 0.41554505228996275,
     "n_severe": 5,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202610091901-KLMK-FXUS63-AFDLMK",
-    "afd_time": "2026-10-09T19:01:00Z",
-    "updated": "2026-10-09T21:44:38.007445+00:00"
+    "product_id": "202610092349-KLMK-FXUS63-AFDLMK",
+    "afd_time": "2026-10-09T23:49:00Z",
+    "updated": "2026-10-10T01:48:48.230668+00:00"
   }
 }
