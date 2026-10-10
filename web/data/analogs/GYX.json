@@ -1,30 +1,23 @@
 {
   "office": "GYX",
-  "product_id": "202610100647-KGYX-FXUS61-AFDGYX",
-  "afd_time": "2026-10-10T06:47:00Z",
+  "product_id": "202610101019-KGYX-FXUS61-AFDGYX",
+  "afd_time": "2026-10-10T10:19:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-10T08:34:47.630781+00:00",
+  "updated": "2026-10-10T15:26:47.439465+00:00",
   "query_preview": "..\nKEY MESSAGE 1 DESCRIPTION...\n\nHigh pressure over the eastern Great Lakes early this morning\nwill drift overhead today into tonight before sliding east\noffshore on Sunday. This will bring fair weather today with\nhighs ranging from the upper 40s north to low 60s south. Clear\nskies and calm winds to",
   "analogs": [
     {
       "datetime_utc": "2021-03-26T10:37Z",
       "source_file": "GYX_2021_26_1037.txt",
-      "similarity": 0.8438903093338013,
+      "similarity": 0.8438904285430908,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-04-11T13:41Z",
       "source_file": "GYX_2007_11_1341.txt",
-      "similarity": 0.8047255873680115,
+      "similarity": 0.8047255277633667,
       "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-04-11T18:41Z",
-      "source_file": "GYX_2009_11_1841.txt",
-      "similarity": 0.6179506778717041,
-      "label": "quiet",
       "is_severe": false
     },
     {
@@ -35,44 +28,51 @@
       "is_severe": false
     },
     {
+      "datetime_utc": "2009-04-11T18:41Z",
+      "source_file": "GYX_2009_11_1841.txt",
+      "similarity": 0.6179506778717041,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2011-03-11T02:45Z",
       "source_file": "GYX_2011_11_0245.txt",
-      "similarity": 0.6011577844619751,
+      "similarity": 0.6011578440666199,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-03-10T20:47Z",
       "source_file": "GYX_2011_10_2047.txt",
-      "similarity": 0.6011577844619751,
+      "similarity": 0.6011578440666199,
       "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-10-16T10:43Z",
-      "source_file": "GYX_2024_16_1043.txt",
-      "similarity": 0.5987977385520935,
-      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2024-10-16T07:57Z",
       "source_file": "GYX_2024_16_0757.txt",
-      "similarity": 0.5987977385520935,
+      "similarity": 0.5987976789474487,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2024-10-16T19:02Z",
       "source_file": "GYX_2024_16_1902.txt",
-      "similarity": 0.5987977385520935,
+      "similarity": 0.5987976789474487,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-10-16T10:43Z",
+      "source_file": "GYX_2024_16_1043.txt",
+      "similarity": 0.5987976789474487,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2024-10-16T12:49Z",
       "source_file": "GYX_2024_16_1249.txt",
-      "similarity": 0.5987977385520935,
+      "similarity": 0.5987976789474487,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.6482023775577546,
+    "mean_similarity": 0.64820237159729,
     "n_severe": 1,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.65 below confidence floor 0.7",
-    "product_id": "202610100647-KGYX-FXUS61-AFDGYX",
-    "afd_time": "2026-10-10T06:47:00Z",
-    "updated": "2026-10-10T08:34:47.630781+00:00"
+    "product_id": "202610101019-KGYX-FXUS61-AFDGYX",
+    "afd_time": "2026-10-10T10:19:00Z",
+    "updated": "2026-10-10T15:26:47.439465+00:00"
   }
 }

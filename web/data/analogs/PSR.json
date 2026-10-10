@@ -1,91 +1,91 @@
 {
   "office": "PSR",
-  "product_id": "202610100540-KPSR-FXUS65-AFDPSR",
-  "afd_time": "2026-10-10T05:40:00Z",
+  "product_id": "202610100837-KPSR-FXUS65-AFDPSR",
+  "afd_time": "2026-10-10T08:37:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-10T08:34:47.630781+00:00",
-  "query_preview": "/SUNDAY THROUGH THURSDAY/...  \nThe more impactful weather is expected on Sunday as the remnants of \nRachel move through. According to the latest official forecast track \nfrom the National Hurricane Center, Rachel is expected to accelerate \nnorth-northeastward along the vicinity of the Lower Colorado",
+  "updated": "2026-10-10T15:26:47.439465+00:00",
+  "query_preview": "/MONDAY THROUGH FRIDAY/... \nUnsettled weather will continue through early next week as the large-\nscale trough that will settle across the west coast over the weekend \nwill gradually migrate eastward. The associated large-scale forcing \nfor ascent combined with ample low-level moisture will support ",
   "analogs": [
     {
       "datetime_utc": "2017-12-07T15:37Z",
       "source_file": "PSR_2017_07_1537.txt",
-      "similarity": 0.5063844919204712,
+      "similarity": 0.5161706209182739,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-03-10T12:18Z",
       "source_file": "PSR_2006_10_1218.txt",
-      "similarity": 0.4984813332557678,
+      "similarity": 0.5139142274856567,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-03-10T18:02Z",
       "source_file": "PSR_2006_10_1802.txt",
-      "similarity": 0.4984813332557678,
+      "similarity": 0.5139142274856567,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2013-09-30T17:08Z",
       "source_file": "PSR_2013_30_1708.txt",
-      "similarity": 0.49844884872436523,
+      "similarity": 0.5109083652496338,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-02-17T12:46Z",
-      "source_file": "PSR_2018_17_1246.txt",
-      "similarity": 0.488910436630249,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-02-17T16:15Z",
-      "source_file": "PSR_2018_17_1615.txt",
-      "similarity": 0.488910436630249,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-02-17T11:27Z",
-      "source_file": "PSR_2018_17_1127.txt",
-      "similarity": 0.488910436630249,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-10-05T09:51Z",
-      "source_file": "PSR_2006_05_0951.txt",
-      "similarity": 0.48855483531951904,
+      "datetime_utc": "2006-10-05T04:10Z",
+      "source_file": "PSR_2006_05_0410.txt",
+      "similarity": 0.5035233497619629,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-10-05T09:47Z",
       "source_file": "PSR_2006_05_0947.txt",
-      "similarity": 0.48855483531951904,
+      "similarity": 0.5035233497619629,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-10-05T18:03Z",
       "source_file": "PSR_2006_05_1803.txt",
-      "similarity": 0.48855483531951904,
+      "similarity": 0.5035233497619629,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-10-05T09:51Z",
+      "source_file": "PSR_2006_05_0951.txt",
+      "similarity": 0.5035233497619629,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-10-04T21:43Z",
+      "source_file": "PSR_2006_04_2143.txt",
+      "similarity": 0.5035233497619629,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-03-23T23:06Z",
+      "source_file": "PSR_2022_23_2306.txt",
+      "similarity": 0.499203085899353,
+      "label": "severe_hail",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.49341918230056764,
-    "n_severe": 5,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.5071727275848389,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
-    "product_id": "202610100540-KPSR-FXUS65-AFDPSR",
-    "afd_time": "2026-10-10T05:40:00Z",
-    "updated": "2026-10-10T08:34:47.630781+00:00"
+    "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
+    "product_id": "202610100837-KPSR-FXUS65-AFDPSR",
+    "afd_time": "2026-10-10T08:37:00Z",
+    "updated": "2026-10-10T15:26:47.439465+00:00"
   }
 }

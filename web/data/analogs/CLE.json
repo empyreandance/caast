@@ -1,14 +1,21 @@
 {
   "office": "CLE",
-  "product_id": "202610100809-KCLE-FXUS61-AFDCLE",
-  "afd_time": "2026-10-10T08:09:00Z",
+  "product_id": "202610101125-KCLE-FXUS61-AFDCLE",
+  "afd_time": "2026-10-10T11:25:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-10T08:34:47.630781+00:00",
+  "updated": "2026-10-10T15:26:47.439465+00:00",
   "query_preview": "..\nKEY MESSAGE 1... \nSkies will be mostly cloudy today with a mix of mid and high \nlevel clouds. Isaias made landfall last evening as a Hurricane \nalong the Florida Coast near Destin and has since continued to \ntrack north while transitioning to a Post-Tropical Cyclone. Rain\nassociated with Isaias w",
   "analogs": [
     {
       "datetime_utc": "2018-08-31T17:51Z",
       "source_file": "CLE_2018_31_1751.txt",
+      "similarity": 0.47181206941604614,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-08-31T08:06Z",
+      "source_file": "CLE_2018_31_0806.txt",
       "similarity": 0.47181206941604614,
       "label": "tornado",
       "is_severe": true
@@ -28,13 +35,6 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2018-08-31T08:06Z",
-      "source_file": "CLE_2018_31_0806.txt",
-      "similarity": 0.47181206941604614,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2018-08-31T13:10Z",
       "source_file": "CLE_2018_31_1310.txt",
       "similarity": 0.47181206941604614,
@@ -42,37 +42,37 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-10-06T06:12Z",
-      "source_file": "CLE_2024_06_0612.txt",
-      "similarity": 0.4645487666130066,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-10-05T19:55Z",
-      "source_file": "CLE_2024_05_1955.txt",
-      "similarity": 0.4645487666130066,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2024-10-06T00:26Z",
       "source_file": "CLE_2024_06_0026.txt",
-      "similarity": 0.4645487666130066,
+      "similarity": 0.4645487368106842,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-10-06T01:29Z",
       "source_file": "CLE_2024_06_0129.txt",
-      "similarity": 0.4645487666130066,
+      "similarity": 0.4645487368106842,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-10-06T06:12Z",
+      "source_file": "CLE_2024_06_0612.txt",
+      "similarity": 0.4645487368106842,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-10-05T19:55Z",
+      "source_file": "CLE_2024_05_1955.txt",
+      "similarity": 0.4645487368106842,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-02-11T11:34Z",
       "source_file": "CLE_2009_11_1134.txt",
-      "similarity": 0.46358469128608704,
+      "similarity": 0.4635847210884094,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 1.0,
-    "mean_similarity": 0.4680840104818344,
+    "mean_similarity": 0.4680840015411377,
     "n_severe": 10,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610100809-KCLE-FXUS61-AFDCLE",
-    "afd_time": "2026-10-10T08:09:00Z",
-    "updated": "2026-10-10T08:34:47.630781+00:00"
+    "product_id": "202610101125-KCLE-FXUS61-AFDCLE",
+    "afd_time": "2026-10-10T11:25:00Z",
+    "updated": "2026-10-10T15:26:47.439465+00:00"
   }
 }

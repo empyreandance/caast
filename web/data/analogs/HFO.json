@@ -1,92 +1,91 @@
 {
   "office": "HFO",
-  "product_id": "202610100130-PHFO-FXHW60-AFDHFO",
-  "afd_time": "2026-10-10T01:30:00Z",
+  "product_id": "202610101323-PHFO-FXHW60-AFDHFO",
+  "afd_time": "2026-10-10T13:23:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-10T01:48:48.230668+00:00",
-  "query_preview": "..\nRadar showed only isolated showers, mainly over the eastern half\nof the state. Skies were partly to mostly cloudy, with the\nexception of southern and central Oahu, where skies were mostly\nsunny.\n\nThe upper level low that helped bring so much rain to the area\nthis week will weaken, fill, and move ",
+  "updated": "2026-10-10T15:26:47.439465+00:00",
+  "query_preview": "..\n\nCurrently at 3 AM HST, satellite and radar imagery showed \nscattered clouds and showers moving along mostly windward and \nmauka locations across the state. \n\nThe upper level low that brought rain to the area this week will \nweaken and move away to the northeast over the next few days. A \nsurface",
   "analogs": [
     {
       "datetime_utc": "2018-06-17T13:59Z",
       "source_file": "HFO_2018_17_1359.txt",
-      "similarity": 0.711900532245636,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-02-11T01:30Z",
-      "source_file": "HFO_2008_11_0130_1.txt",
-      "similarity": 0.7052936553955078,
+      "similarity": 0.7093439102172852,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-03-19T01:40Z",
       "source_file": "HFO_2011_19_0140_1.txt",
-      "similarity": 0.7012540102005005,
+      "similarity": 0.6996790170669556,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-04-27T01:58Z",
       "source_file": "HFO_2017_27_0158.txt",
-      "similarity": 0.7001877427101135,
+      "similarity": 0.698131799697876,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-05-04T06:33Z",
-      "source_file": "HFO_2007_04_0633.txt",
-      "similarity": 0.6988264322280884,
+      "datetime_utc": "2006-11-04T20:34Z",
+      "source_file": "HFO_2006_04_2034.txt",
+      "similarity": 0.69780033826828,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2020-05-21T06:34Z",
-      "source_file": "HFO_2020_21_0634_1.txt",
-      "similarity": 0.6985564231872559,
+      "datetime_utc": "2008-02-11T01:30Z",
+      "source_file": "HFO_2008_11_0130_1.txt",
+      "similarity": 0.6975260376930237,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-09-21T07:36Z",
       "source_file": "HFO_2007_21_0736.txt",
-      "similarity": 0.6975129842758179,
+      "similarity": 0.6964541673660278,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-01-06T01:30Z",
-      "source_file": "HFO_2005_06_0130_4.txt",
-      "similarity": 0.6974331736564636,
+      "datetime_utc": "2007-05-04T06:33Z",
+      "source_file": "HFO_2007_04_0633.txt",
+      "similarity": 0.6961636543273926,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2018-03-19T06:31Z",
       "source_file": "HFO_2018_19_0631_2.txt",
-      "similarity": 0.6971533298492432,
+      "similarity": 0.6959194540977478,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2019-06-15T20:02Z",
       "source_file": "HFO_2019_15_2002.txt",
-      "similarity": 0.6961397528648376,
+      "similarity": 0.6957149505615234,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-05-21T06:34Z",
+      "source_file": "HFO_2020_21_0634_1.txt",
+      "similarity": 0.6956133842468262,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "QUIET",
+    "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.7004258036613464,
-    "base_rate": null,
-    "signal_value": -0.4,
+    "mean_similarity": 0.6982346713542938,
     "n_severe": 1,
     "n_total": 10,
-    "product_id": "202610100130-PHFO-FXHW60-AFDHFO",
-    "afd_time": "2026-10-10T01:30:00Z",
-    "updated": "2026-10-10T01:48:48.230668+00:00"
+    "reason": "top-10 mean similarity 0.70 below confidence floor 0.7",
+    "product_id": "202610101323-PHFO-FXHW60-AFDHFO",
+    "afd_time": "2026-10-10T13:23:00Z",
+    "updated": "2026-10-10T15:26:47.439465+00:00"
   }
 }
