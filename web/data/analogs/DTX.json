@@ -1,91 +1,91 @@
 {
   "office": "DTX",
-  "product_id": "202610110332-KDTX-FXUS63-AFDDTX",
-  "afd_time": "2026-10-11T03:32:00Z",
+  "product_id": "202610110945-KDTX-FXUS63-AFDDTX",
+  "afd_time": "2026-10-11T09:45:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-11T05:54:14.555250+00:00",
-  "query_preview": "..\n\nMain weather story of today is the landfall of Isaias last evening \nand its ongoing extratropical transition. While SE Michigan is \nspared of the bulk of this system, the shield of high cloud outside \nrepresents its northern edge. While moisture quality is expected to \ndegrade as the gulf moistu",
+  "updated": "2026-10-11T12:57:45.868733+00:00",
+  "query_preview": "..\n\nMoisture associated with the remnants of Isaias is lifting northward\ninto southeast Michigan this morning. The high based cloud cover \nwill transition to thicker lower clouds through the morning and carry\nthrough the bulk of the day. While the deeper gulf moisture holds \noff to the south, rain s",
   "analogs": [
+    {
+      "datetime_utc": "2017-07-08T23:08Z",
+      "source_file": "DTX_2017_08_2308.txt",
+      "similarity": 0.4285475015640259,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-07-09T03:57Z",
+      "source_file": "DTX_2017_09_0357.txt",
+      "similarity": 0.4285475015640259,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-07-08T20:00Z",
+      "source_file": "DTX_2017_08_2000.txt",
+      "similarity": 0.4285475015640259,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-03-01T20:57Z",
+      "source_file": "DTX_2018_01_2057.txt",
+      "similarity": 0.42475229501724243,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-03-02T05:04Z",
+      "source_file": "DTX_2018_02_0504.txt",
+      "similarity": 0.42475229501724243,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-03-02T01:17Z",
+      "source_file": "DTX_2018_02_0117.txt",
+      "similarity": 0.42475229501724243,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-03-01T22:50Z",
+      "source_file": "DTX_2018_01_2250_2.txt",
+      "similarity": 0.42475229501724243,
+      "label": "winter",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2009-04-20T23:04Z",
       "source_file": "DTX_2009_20_2304.txt",
-      "similarity": 0.36589664220809937,
+      "similarity": 0.4152451157569885,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-04-21T04:47Z",
       "source_file": "DTX_2009_21_0447.txt",
-      "similarity": 0.36589664220809937,
+      "similarity": 0.4152451157569885,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-04-20T19:29Z",
       "source_file": "DTX_2009_20_1929.txt",
-      "similarity": 0.36589664220809937,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-04-08T10:59Z",
-      "source_file": "DTX_2016_08_1059.txt",
-      "similarity": 0.3616470694541931,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-04-08T07:50Z",
-      "source_file": "DTX_2016_08_0750.txt",
-      "similarity": 0.3616470694541931,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-04-08T18:27Z",
-      "source_file": "DTX_2016_08_1827.txt",
-      "similarity": 0.3616470694541931,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-10-06T05:04Z",
-      "source_file": "DTX_2005_06_0504.txt",
-      "similarity": 0.36107099056243896,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-10-05T23:13Z",
-      "source_file": "DTX_2005_05_2313.txt",
-      "similarity": 0.36107099056243896,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-10-05T19:55Z",
-      "source_file": "DTX_2005_05_1955.txt",
-      "similarity": 0.36107099056243896,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2017-07-08T20:00Z",
-      "source_file": "DTX_2017_08_2000.txt",
-      "similarity": 0.35982397198677063,
+      "similarity": 0.4152451157569885,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.3625668078660965,
-    "n_severe": 4,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.4230387032032013,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
-    "product_id": "202610110332-KDTX-FXUS63-AFDDTX",
-    "afd_time": "2026-10-11T03:32:00Z",
-    "updated": "2026-10-11T05:54:14.555250+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202610110945-KDTX-FXUS63-AFDDTX",
+    "afd_time": "2026-10-11T09:45:00Z",
+    "updated": "2026-10-11T12:57:45.868733+00:00"
   }
 }
