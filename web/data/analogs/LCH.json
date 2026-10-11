@@ -1,91 +1,91 @@
 {
   "office": "LCH",
-  "product_id": "202610102321-KLCH-FXUS64-AFDLCH",
-  "afd_time": "2026-10-10T23:21:00Z",
+  "product_id": "202610110522-KLCH-FXUS64-AFDLCH",
+  "afd_time": "2026-10-11T05:22:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-10T23:38:09.119200+00:00",
-  "query_preview": "..\n(Tonight through next Friday)\nIssued at 1252 PM CDT Sat Oct 10 2026\n\nThe remnants of Isaias are moving into the southern \nAppalachians this afternoon with high pressure extending south \nacross the lower MS Valley and into TX. A dry air mass continues \nto linger over the local area and will remain",
+  "updated": "2026-10-11T05:54:14.555250+00:00",
+  "query_preview": "..\n(Today through Saturday)\nIssued at 1215 AM CDT Sun Oct 11 2026\n\nWx map currently features a modest 1019 mb high pressure cell \noverhead this morning with plenty of dry air advecting from the \nCentral Plains in the mid levels. Strong upper level subtropical \nridging is developing over northern Mex",
   "analogs": [
+    {
+      "datetime_utc": "2007-03-15T12:06Z",
+      "source_file": "LCH_2007_15_1206.txt",
+      "similarity": 0.38789668679237366,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-04-03T01:21Z",
+      "source_file": "LCH_2005_03_0121.txt",
+      "similarity": 0.3866756558418274,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-05-06T20:55Z",
+      "source_file": "LCH_2011_06_2055.txt",
+      "similarity": 0.3857637047767639,
+      "label": "severe_hail",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2006-03-23T03:49Z",
       "source_file": "LCH_2006_23_0349.txt",
-      "similarity": 0.38473188877105713,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-12-04T16:19Z",
-      "source_file": "LCH_2015_04_1619.txt",
-      "similarity": 0.38061898946762085,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-01-14T16:18Z",
-      "source_file": "LCH_2006_14_1618.txt",
-      "similarity": 0.37944820523262024,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-03-21T02:02Z",
-      "source_file": "LCH_2008_21_0202.txt",
-      "similarity": 0.3775794804096222,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-03-20T20:23Z",
-      "source_file": "LCH_2008_20_2023.txt",
-      "similarity": 0.3775794804096222,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-10-13T20:26Z",
-      "source_file": "LCH_2005_13_2026.txt",
-      "similarity": 0.37702202796936035,
+      "similarity": 0.38344064354896545,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-09-11T15:13Z",
       "source_file": "LCH_2006_11_1513.txt",
-      "similarity": 0.37466180324554443,
+      "similarity": 0.382473886013031,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-11-29T02:04Z",
-      "source_file": "LCH_2015_29_0204.txt",
-      "similarity": 0.3744644522666931,
+      "datetime_utc": "2008-03-21T02:02Z",
+      "source_file": "LCH_2008_21_0202.txt",
+      "similarity": 0.38227415084838867,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-11-28T20:51Z",
-      "source_file": "LCH_2015_28_2051.txt",
-      "similarity": 0.3744644522666931,
+      "datetime_utc": "2008-03-20T20:23Z",
+      "source_file": "LCH_2008_20_2023.txt",
+      "similarity": 0.38227415084838867,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-11-29T05:42Z",
-      "source_file": "LCH_2015_29_0542.txt",
-      "similarity": 0.3744644522666931,
+      "datetime_utc": "2009-05-01T15:49Z",
+      "source_file": "LCH_2009_01_1549.txt",
+      "similarity": 0.3812440037727356,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-03-01T11:04Z",
+      "source_file": "LCH_2012_01_1104.txt",
+      "similarity": 0.3800772726535797,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-05-03T02:43Z",
+      "source_file": "LCH_2010_03_0243.txt",
+      "similarity": 0.378495991230011,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.3775035232305527,
-    "n_severe": 0,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.3830616146326065,
+    "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610102321-KLCH-FXUS64-AFDLCH",
-    "afd_time": "2026-10-10T23:21:00Z",
-    "updated": "2026-10-10T23:38:09.119200+00:00"
+    "product_id": "202610110522-KLCH-FXUS64-AFDLCH",
+    "afd_time": "2026-10-11T05:22:00Z",
+    "updated": "2026-10-11T05:54:14.555250+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "BRO",
-  "product_id": "202610101712-KBRO-FXUS64-AFDBRO",
-  "afd_time": "2026-10-10T17:12:00Z",
+  "product_id": "202610110551-KBRO-FXUS64-AFDBRO-AAA",
+  "afd_time": "2026-10-11T05:51:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-10T20:07:43.807947+00:00",
-  "query_preview": "..\nIssued at 1204 PM CDT Sat Oct 10 2026\n\nWhile Isaias made landfall last night in the Florida panhandle, we \nwill still have hazardous beach conditions due to the long period \nswell it created. A Coastal Flood Advisory remains in effect for \narea beaches until Monday morning. There is also a high r",
+  "updated": "2026-10-11T05:54:14.555250+00:00",
+  "query_preview": "..\nIssued at 958 PM CDT Sat Oct 10 2026\n\nHazardous coastal conditions will continue into Monday. Elevated \nsurf and long period swell will maintain a High Risk of rip \ncurrents through Sunday afternoon, and a Coastal Flood Advisory \nthrough Monday morning. Conditions gradually improve tonight into \n",
   "analogs": [
     {
-      "datetime_utc": "2004-10-14T20:52Z",
-      "source_file": "BRO_2004_14_2052.txt",
-      "similarity": 0.4766623377799988,
+      "datetime_utc": "2008-01-22T19:00Z",
+      "source_file": "BRO_2008_22_1900.txt",
+      "similarity": 0.38717442750930786,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2008-01-22T19:00Z",
-      "source_file": "BRO_2008_22_1900.txt",
-      "similarity": 0.47438931465148926,
+      "datetime_utc": "2008-11-06T02:41Z",
+      "source_file": "BRO_2008_06_0241.txt",
+      "similarity": 0.37791305780410767,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-10-21T08:08Z",
+      "source_file": "BRO_2008_21_0808.txt",
+      "similarity": 0.37144219875335693,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-04-30T08:43Z",
+      "source_file": "BRO_2012_30_0843.txt",
+      "similarity": 0.36942780017852783,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-04-29T18:44Z",
+      "source_file": "BRO_2012_29_1844.txt",
+      "similarity": 0.36942780017852783,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-02-28T21:09Z",
       "source_file": "BRO_2004_28_2109.txt",
-      "similarity": 0.4725763201713562,
+      "similarity": 0.36852121353149414,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-02-13T20:39Z",
-      "source_file": "BRO_2016_13_2039.txt",
-      "similarity": 0.4692809581756592,
+      "datetime_utc": "2010-08-17T09:42Z",
+      "source_file": "BRO_2010_17_0942.txt",
+      "similarity": 0.3669587969779968,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-02-15T15:51Z",
-      "source_file": "BRO_2009_15_1551.txt",
-      "similarity": 0.46613430976867676,
+      "datetime_utc": "2004-10-14T20:52Z",
+      "source_file": "BRO_2004_14_2052.txt",
+      "similarity": 0.361544668674469,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2008-08-30T01:13Z",
-      "source_file": "BRO_2008_30_0113.txt",
-      "similarity": 0.4656420648097992,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2010-03-19T01:10Z",
+      "source_file": "BRO_2010_19_0110.txt",
+      "similarity": 0.35923558473587036,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2017-09-09T09:08Z",
-      "source_file": "BRO_2017_09_0908.txt",
-      "similarity": 0.46358343958854675,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-08-29T08:48Z",
-      "source_file": "BRO_2015_29_0848.txt",
-      "similarity": 0.4625365436077118,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-01-12T09:31Z",
-      "source_file": "BRO_2005_12_0931.txt",
-      "similarity": 0.46205615997314453,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-01-12T16:12Z",
-      "source_file": "BRO_2005_12_1612.txt",
-      "similarity": 0.46205615997314453,
+      "datetime_utc": "2004-01-29T09:25Z",
+      "source_file": "BRO_2004_29_0925.txt",
+      "similarity": 0.3576447367668152,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.4674917608499527,
-    "n_severe": 0,
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.36892902851104736,
+    "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610101712-KBRO-FXUS64-AFDBRO",
-    "afd_time": "2026-10-10T17:12:00Z",
-    "updated": "2026-10-10T20:07:43.807947+00:00"
+    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
+    "product_id": "202610110551-KBRO-FXUS64-AFDBRO-AAA",
+    "afd_time": "2026-10-11T05:51:00Z",
+    "updated": "2026-10-11T05:54:14.555250+00:00"
   }
 }
