@@ -1,45 +1,38 @@
 {
   "office": "BOI",
-  "product_id": "202610120008-KBOI-FXUS65-AFDBOI",
-  "afd_time": "2026-10-12T00:08:00Z",
+  "product_id": "202610120541-KBOI-FXUS65-AFDBOI",
+  "afd_time": "2026-10-12T05:41:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-12T01:23:48.094063+00:00",
+  "updated": "2026-10-12T09:19:52.186193+00:00",
   "query_preview": "/Wednesday through Sunday/...\nIssued 246 PM MDT SUN OCT 11 2026\nA warming and drying trend will persist Wednesday through the \nend of the period. As the low that brought all the weather in \nthe short-term departs to our east, a Pacific ridge will build \nin, shifting east to be over the Great Basin b",
   "analogs": [
     {
       "datetime_utc": "2014-11-18T16:45Z",
       "source_file": "BOI_2014_18_1645.txt",
-      "similarity": 0.4622896611690521,
+      "similarity": 0.46228963136672974,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2012-03-04T16:15Z",
       "source_file": "BOI_2012_04_1615.txt",
-      "similarity": 0.4410182237625122,
+      "similarity": 0.441018283367157,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-01-20T04:29Z",
       "source_file": "BOI_2011_20_0429.txt",
-      "similarity": 0.43331485986709595,
+      "similarity": 0.43331488966941833,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-08-06T03:36Z",
       "source_file": "BOI_2006_06_0336.txt",
-      "similarity": 0.4316679835319519,
+      "similarity": 0.4316679537296295,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-10-07T03:50Z",
-      "source_file": "BOI_2006_07_0350.txt",
-      "similarity": 0.43115758895874023,
-      "label": "quiet",
-      "is_severe": false
     },
     {
       "datetime_utc": "2006-10-06T21:14Z",
@@ -49,18 +42,25 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-08-14T03:46Z",
-      "source_file": "BOI_2005_14_0346.txt",
-      "similarity": 0.42824020981788635,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2006-10-07T03:50Z",
+      "source_file": "BOI_2006_07_0350.txt",
+      "similarity": 0.43115758895874023,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2005-08-13T20:34Z",
       "source_file": "BOI_2005_13_2034_1.txt",
-      "similarity": 0.42824020981788635,
+      "similarity": 0.42824026942253113,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-08-14T03:46Z",
+      "source_file": "BOI_2005_14_0346.txt",
+      "similarity": 0.42824026942253113,
+      "label": "tornado",
+      "is_severe": true
     },
     {
       "datetime_utc": "2012-03-04T10:44Z",
@@ -70,22 +70,22 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-07-05T20:00Z",
-      "source_file": "BOI_2024_05_2000.txt",
-      "similarity": 0.424142986536026,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2024-07-06T02:24Z",
+      "source_file": "BOI_2024_06_0224.txt",
+      "similarity": 0.4241429567337036,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.43380297124385836,
-    "n_severe": 4,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.43380298316478727,
+    "n_severe": 5,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610120008-KBOI-FXUS65-AFDBOI",
-    "afd_time": "2026-10-12T00:08:00Z",
-    "updated": "2026-10-12T01:23:48.094063+00:00"
+    "product_id": "202610120541-KBOI-FXUS65-AFDBOI",
+    "afd_time": "2026-10-12T05:41:00Z",
+    "updated": "2026-10-12T09:19:52.186193+00:00"
   }
 }
