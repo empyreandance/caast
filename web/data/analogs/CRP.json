@@ -1,91 +1,91 @@
 {
   "office": "CRP",
-  "product_id": "202610131104-KCRP-FXUS64-AFDCRP",
-  "afd_time": "2026-10-13T11:04:00Z",
+  "product_id": "202610131821-KCRP-FXUS64-AFDCRP",
+  "afd_time": "2026-10-13T18:21:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-13T17:38:48.676023+00:00",
-  "query_preview": "..\nIssued at 1241 AM CDT Tue Oct 13 2026\n\nSouth Texas will remain relatively dry through the week outside of \ndaily seabreeze convection paired with weak shortwaves passing \nthrough that will lead to low chances for activity. Warm \ntemperatures will remain in place until Thursday. Guidance \n(GFS,Can",
+  "updated": "2026-10-13T22:51:17.700315+00:00",
+  "query_preview": "..\nIssued at 119 PM CDT Tue Oct 13 2026\n\nTemperatures will remain warm with low (10-30%) chances for showers \nand thunderstorms through Thursday along the daily seabreeze. The \ngood news is that it looks like our first real cold front will move \nthrough sometime late Friday into early Saturday, lowe",
   "analogs": [
     {
       "datetime_utc": "2008-04-22T09:08Z",
       "source_file": "CRP_2008_22_0908.txt",
-      "similarity": 0.5019493699073792,
+      "similarity": 0.4173242151737213,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-04-22T14:55Z",
       "source_file": "CRP_2008_22_1455.txt",
-      "similarity": 0.5019493699073792,
+      "similarity": 0.4173242151737213,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-09-21T08:59Z",
+      "source_file": "CRP_2014_21_0859.txt",
+      "similarity": 0.41490426659584045,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-09-20T20:03Z",
+      "source_file": "CRP_2014_20_2003.txt",
+      "similarity": 0.41490426659584045,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-09-21T00:46Z",
+      "source_file": "CRP_2014_21_0046.txt",
+      "similarity": 0.41490426659584045,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-05-18T20:00Z",
+      "source_file": "CRP_2010_18_2000.txt",
+      "similarity": 0.4096890985965729,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2019-03-14T21:03Z",
       "source_file": "CRP_2019_14_2103.txt",
-      "similarity": 0.5006721019744873,
+      "similarity": 0.4066958427429199,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-03-15T00:26Z",
       "source_file": "CRP_2019_15_0026.txt",
-      "similarity": 0.5006721019744873,
+      "similarity": 0.4066958427429199,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2021-02-04T21:34Z",
-      "source_file": "CRP_2021_04_2134.txt",
-      "similarity": 0.5006341338157654,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2009-04-21T02:39Z",
+      "source_file": "CRP_2009_21_0239.txt",
+      "similarity": 0.40582117438316345,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2021-02-05T04:41Z",
-      "source_file": "CRP_2021_05_0441.txt",
-      "similarity": 0.5006341338157654,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-02-04T23:22Z",
-      "source_file": "CRP_2021_04_2322.txt",
-      "similarity": 0.5006341338157654,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-11-11T21:55Z",
-      "source_file": "CRP_2018_11_2155.txt",
-      "similarity": 0.49988293647766113,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-11-11T23:56Z",
-      "source_file": "CRP_2018_11_2356.txt",
-      "similarity": 0.49988293647766113,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-11-23T11:54Z",
-      "source_file": "CRP_2009_23_1154.txt",
-      "similarity": 0.49486809968948364,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2017-01-18T23:57Z",
+      "source_file": "CRP_2017_18_2357.txt",
+      "similarity": 0.4055318832397461,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.5001779317855835,
-    "n_severe": 2,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.4113795071840286,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202610131104-KCRP-FXUS64-AFDCRP",
-    "afd_time": "2026-10-13T11:04:00Z",
-    "updated": "2026-10-13T17:38:48.676023+00:00"
+    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
+    "product_id": "202610131821-KCRP-FXUS64-AFDCRP",
+    "afd_time": "2026-10-13T18:21:00Z",
+    "updated": "2026-10-13T22:51:17.700315+00:00"
   }
 }
