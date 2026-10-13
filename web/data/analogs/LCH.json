@@ -1,91 +1,91 @@
 {
   "office": "LCH",
-  "product_id": "202610122354-KLCH-FXUS64-AFDLCH",
-  "afd_time": "2026-10-12T23:54:00Z",
+  "product_id": "202610130550-KLCH-FXUS64-AFDLCH",
+  "afd_time": "2026-10-13T05:50:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-13T02:05:35.517215+00:00",
-  "query_preview": "..\n(This afternoon through next Sunday)\nIssued at 1221 PM CDT Mon Oct 12 2026\n\nHigh pressure is centered over the SE states this afternoon with a\nfrontal boundary stalled across the central gulf. The tail end of\nthe boundary is lifting north across the central TX coast. A few\nshowers are occurring n",
+  "updated": "2026-10-13T09:30:18.136451+00:00",
+  "query_preview": "..\n(Today through Monday)\nIssued at 1247 AM CDT Tue Oct 13 2026\n\nEvening SFC analysis showed high pressure centered over the north \ncentral Gulf coast, w/ southerly flow extending up through about \n825mb per the KLCH 00z RAOB.  GOES blended TPW product showed a \nplume of deep MSTR along the western ",
   "analogs": [
     {
-      "datetime_utc": "2006-03-23T03:49Z",
-      "source_file": "LCH_2006_23_0349.txt",
-      "similarity": 0.43041104078292847,
+      "datetime_utc": "2012-06-08T20:12Z",
+      "source_file": "LCH_2012_08_2012.txt",
+      "similarity": 0.34488487243652344,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-03-07T21:30Z",
+      "source_file": "LCH_2008_07_2130.txt",
+      "similarity": 0.3440157175064087,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-09-03T20:48Z",
+      "source_file": "LCH_2007_03_2048.txt",
+      "similarity": 0.3427553176879883,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-09-22T20:57Z",
+      "source_file": "LCH_2017_22_2057.txt",
+      "similarity": 0.34259846806526184,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-09-07T02:06Z",
+      "source_file": "LCH_2006_07_0206.txt",
+      "similarity": 0.3408537209033966,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-01-14T16:18Z",
+      "source_file": "LCH_2006_14_1618.txt",
+      "similarity": 0.33868318796157837,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-12-04T16:19Z",
       "source_file": "LCH_2015_04_1619.txt",
-      "similarity": 0.4287978410720825,
+      "similarity": 0.33662107586860657,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-09-11T15:13Z",
       "source_file": "LCH_2006_11_1513.txt",
-      "similarity": 0.4286544919013977,
+      "similarity": 0.33549320697784424,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-05-01T15:49Z",
-      "source_file": "LCH_2009_01_1549.txt",
-      "similarity": 0.42569994926452637,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-01-14T16:18Z",
-      "source_file": "LCH_2006_14_1618.txt",
-      "similarity": 0.4252006411552429,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-04-03T01:21Z",
-      "source_file": "LCH_2005_03_0121.txt",
-      "similarity": 0.425032377243042,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-03-15T12:06Z",
-      "source_file": "LCH_2007_15_1206.txt",
-      "similarity": 0.42483437061309814,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-03-01T11:04Z",
-      "source_file": "LCH_2012_01_1104.txt",
-      "similarity": 0.42313051223754883,
+      "datetime_utc": "2006-07-29T14:50Z",
+      "source_file": "LCH_2006_29_1450.txt",
+      "similarity": 0.3352465331554413,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-05-03T02:43Z",
-      "source_file": "LCH_2010_03_0243.txt",
-      "similarity": 0.42298465967178345,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-03-21T02:02Z",
-      "source_file": "LCH_2008_21_0202.txt",
-      "similarity": 0.42294740676879883,
+      "datetime_utc": "2006-03-23T03:49Z",
+      "source_file": "LCH_2006_23_0349.txt",
+      "similarity": 0.3344801366329193,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.4257693290710449,
-    "n_severe": 2,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.33956322371959685,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610122354-KLCH-FXUS64-AFDLCH",
-    "afd_time": "2026-10-12T23:54:00Z",
-    "updated": "2026-10-13T02:05:35.517215+00:00"
+    "reason": "top-10 mean similarity 0.34 below confidence floor 0.7",
+    "product_id": "202610130550-KLCH-FXUS64-AFDLCH",
+    "afd_time": "2026-10-13T05:50:00Z",
+    "updated": "2026-10-13T09:30:18.136451+00:00"
   }
 }

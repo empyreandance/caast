@@ -1,78 +1,78 @@
 {
   "office": "CAR",
-  "product_id": "202610122343-KCAR-FXUS61-AFDCAR",
-  "afd_time": "2026-10-12T23:43:00Z",
+  "product_id": "202610130646-KCAR-FXUS61-AFDCAR",
+  "afd_time": "2026-10-13T06:46:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-13T02:05:35.517215+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Significant precipitation is expected Tuesday \nand Tuesday night, with light wintry precipitation possible over\nMoosehead and North Woods areas early Tuesday. The wintry \nprecipitation is not expected to impact travel, and flooding is \nnot expected.\n\nKEY MESSAGE 1 DESCRIPTION...\nL",
+  "updated": "2026-10-13T09:30:18.136451+00:00",
+  "query_preview": "..\n\nKEY MESSAGE 1...Significant precipitation developing today and \npersisting into Tuesday night, with light wintry precipitation \npossible over Moosehead and North Woods areas today and this \nevening. The wintry precipitation is not expected to impact \ntravel, and flooding is not expected.\n\nKEY ME",
   "analogs": [
+    {
+      "datetime_utc": "2011-03-03T21:04Z",
+      "source_file": "CAR_2011_03_2104.txt",
+      "similarity": 0.43782079219818115,
+      "label": "flood",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2021-05-08T20:52Z",
       "source_file": "CAR_2021_08_2052.txt",
-      "similarity": 0.45303887128829956,
+      "similarity": 0.4331572651863098,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-12-06T20:28Z",
       "source_file": "CAR_2017_06_2028.txt",
-      "similarity": 0.4452306628227234,
+      "similarity": 0.43281805515289307,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-03-03T21:04Z",
-      "source_file": "CAR_2011_03_2104.txt",
-      "similarity": 0.4442671537399292,
-      "label": "flood",
+      "datetime_utc": "2013-01-04T23:53Z",
+      "source_file": "CAR_2013_04_2353.txt",
+      "similarity": 0.4306391477584839,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-01-04T18:50Z",
+      "source_file": "CAR_2013_04_1850.txt",
+      "similarity": 0.4306391477584839,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-01-05T05:28Z",
+      "source_file": "CAR_2013_05_0528_1.txt",
+      "similarity": 0.4306391477584839,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-01-05T02:14Z",
+      "source_file": "CAR_2013_05_0214.txt",
+      "similarity": 0.4306391477584839,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-11-09T00:37Z",
       "source_file": "CAR_2023_09_0037.txt",
-      "similarity": 0.4427519738674164,
+      "similarity": 0.42986035346984863,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-11-08T22:52Z",
       "source_file": "CAR_2023_08_2252.txt",
-      "similarity": 0.4427519738674164,
+      "similarity": 0.42986035346984863,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-11-09T06:04Z",
       "source_file": "CAR_2023_09_0604.txt",
-      "similarity": 0.4427519738674164,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-11-08T20:51Z",
-      "source_file": "CAR_2023_08_2051.txt",
-      "similarity": 0.4427519738674164,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-11-09T03:35Z",
-      "source_file": "CAR_2023_09_0335.txt",
-      "similarity": 0.4427519738674164,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-05-16T09:12Z",
-      "source_file": "CAR_2004_16_0912.txt",
-      "similarity": 0.4386923909187317,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-09-11T07:34Z",
-      "source_file": "CAR_2006_11_0734.txt",
-      "similarity": 0.4373493790626526,
+      "similarity": 0.42986035346984863,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.0,
-    "mean_similarity": 0.44323383271694183,
+    "mean_similarity": 0.43159337639808654,
     "n_severe": 0,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610122343-KCAR-FXUS61-AFDCAR",
-    "afd_time": "2026-10-12T23:43:00Z",
-    "updated": "2026-10-13T02:05:35.517215+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202610130646-KCAR-FXUS61-AFDCAR",
+    "afd_time": "2026-10-13T06:46:00Z",
+    "updated": "2026-10-13T09:30:18.136451+00:00"
   }
 }

@@ -1,30 +1,30 @@
 {
   "office": "MFR",
-  "product_id": "202610122324-KMFR-FXUS66-AFDMFR",
-  "afd_time": "2026-10-12T23:24:00Z",
+  "product_id": "202610130512-KMFR-FXUS66-AFDMFR",
+  "afd_time": "2026-10-13T05:12:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-13T02:05:35.517215+00:00",
+  "updated": "2026-10-13T09:30:18.136451+00:00",
   "query_preview": "..Today will be the last cooler than normal day, then\ntemperatures will warm through the rest of the week as high\npressure builds in overhead. \n\nAnother round of near-freezing temperatures is expected in the \nvalleys west of the Cascades tonight. The Shasta and Scott valleys\nin Siskiyou County dropp",
   "analogs": [
     {
       "datetime_utc": "2011-08-15T03:40Z",
       "source_file": "MFR_2011_15_0340.txt",
-      "similarity": 0.4615135192871094,
+      "similarity": 0.46151357889175415,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-02-01T04:39Z",
-      "source_file": "MFR_2008_01_0439.txt",
-      "similarity": 0.4584406912326813,
-      "label": "flood",
+      "datetime_utc": "2008-02-29T22:02Z",
+      "source_file": "MFR_2008_29_2202.txt",
+      "similarity": 0.45844078063964844,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2008-02-29T22:02Z",
-      "source_file": "MFR_2008_29_2202.txt",
-      "similarity": 0.4584406912326813,
-      "label": "winter",
+      "datetime_utc": "2008-02-01T04:39Z",
+      "source_file": "MFR_2008_01_0439.txt",
+      "similarity": 0.45844078063964844,
+      "label": "flood",
       "is_severe": false
     },
     {
@@ -37,7 +37,7 @@
     {
       "datetime_utc": "2015-08-26T04:03Z",
       "source_file": "MFR_2015_26_0403.txt",
-      "similarity": 0.4512295424938202,
+      "similarity": 0.45122960209846497,
       "label": "quiet",
       "is_severe": false
     },
@@ -51,16 +51,9 @@
     {
       "datetime_utc": "2009-04-17T08:00Z",
       "source_file": "MFR_2009_17_0800.txt",
-      "similarity": 0.44561767578125,
+      "similarity": 0.4456177353858948,
       "label": "winter",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-07-12T16:06Z",
-      "source_file": "MFR_2007_12_1606.txt",
-      "similarity": 0.4436357617378235,
-      "label": "severe_hail",
-      "is_severe": true
     },
     {
       "datetime_utc": "2007-07-12T09:57Z",
@@ -70,9 +63,16 @@
       "is_severe": true
     },
     {
+      "datetime_utc": "2007-07-12T16:06Z",
+      "source_file": "MFR_2007_12_1606.txt",
+      "similarity": 0.4436357617378235,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2006-12-27T21:42Z",
       "source_file": "MFR_2006_27_2142.txt",
-      "similarity": 0.442116379737854,
+      "similarity": 0.4421164393424988,
       "label": "flood",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.4511711150407791,
+    "mean_similarity": 0.45117115676403047,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610122324-KMFR-FXUS66-AFDMFR",
-    "afd_time": "2026-10-12T23:24:00Z",
-    "updated": "2026-10-13T02:05:35.517215+00:00"
+    "product_id": "202610130512-KMFR-FXUS66-AFDMFR",
+    "afd_time": "2026-10-13T05:12:00Z",
+    "updated": "2026-10-13T09:30:18.136451+00:00"
   }
 }
