@@ -1,91 +1,91 @@
 {
   "office": "SEW",
-  "product_id": "202610140310-KSEW-FXUS66-AFDSEW",
-  "afd_time": "2026-10-14T03:10:00Z",
+  "product_id": "202610140920-KSEW-FXUS66-AFDSEW",
+  "afd_time": "2026-10-14T09:20:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-14T07:43:07.606717+00:00",
-  "query_preview": "/FRIDAY THROUGH TUESDAY/...\nThe dry pattern from Thursday will continue into Friday, with\nFriday being the warmest/driest day of the forecast. More areas\nwill also see highs into the mid 70s, and a few Cascade Valley\nlocations may see an isolated instance of an 80. Once again,\nbreezy east winds with",
+  "updated": "2026-10-14T13:48:21.955460+00:00",
+  "query_preview": "/FRIDAY NIGHT THROUGH TUESDAY/...Friday night and\nSaturday will be cooler and wetter as a cold front and trailing\ntrough push into western WA. Showers with a convergence zone are\nlikely Saturday afternoon/evening near the King/Snohomish line. \nHigh will be cooler and in the 50s and 60s Saturday afte",
   "analogs": [
-    {
-      "datetime_utc": "2005-12-12T17:55Z",
-      "source_file": "SEW_2005_12_1755.txt",
-      "similarity": 0.6084756851196289,
-      "label": "winter",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2005-01-21T11:11Z",
       "source_file": "SEW_2005_21_1111.txt",
-      "similarity": 0.6030837297439575,
+      "similarity": 0.49230217933654785,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-12-02T05:14Z",
-      "source_file": "SEW_2015_02_0514.txt",
-      "similarity": 0.5985128879547119,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2017-12-29T18:04Z",
-      "source_file": "SEW_2017_29_1804.txt",
-      "similarity": 0.5947338342666626,
-      "label": "flood",
+      "datetime_utc": "2005-12-12T17:55Z",
+      "source_file": "SEW_2005_12_1755.txt",
+      "similarity": 0.4899022579193115,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-??-02T04:11Z",
       "source_file": "SEW_2005_02_0411.txt",
-      "similarity": 0.5920371413230896,
+      "similarity": 0.48740577697753906,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-09-13T21:57Z",
-      "source_file": "SEW_2018_13_2157.txt",
-      "similarity": 0.5867645740509033,
-      "label": "quiet",
+      "datetime_utc": "2014-07-28T21:39Z",
+      "source_file": "SEW_2014_28_2139.txt",
+      "similarity": 0.4846206307411194,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-01-16T11:29Z",
+      "source_file": "SEW_2016_16_1129.txt",
+      "similarity": 0.4834955632686615,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-09-14T03:50Z",
-      "source_file": "SEW_2018_14_0350.txt",
-      "similarity": 0.5867645740509033,
-      "label": "quiet",
+      "datetime_utc": "2017-12-29T18:04Z",
+      "source_file": "SEW_2017_29_1804.txt",
+      "similarity": 0.4817940592765808,
+      "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-04-21T09:46Z",
-      "source_file": "SEW_2005_21_0946_1.txt",
-      "similarity": 0.5783886909484863,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2015-03-25T04:47Z",
+      "source_file": "SEW_2015_25_0447.txt",
+      "similarity": 0.48168450593948364,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
       "datetime_utc": "2013-09-06T00:05Z",
       "source_file": "SEW_2013_06_0005.txt",
-      "similarity": 0.5745024085044861,
+      "similarity": 0.48053237795829773,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-04-12T03:28Z",
-      "source_file": "SEW_2004_12_0328.txt",
-      "similarity": 0.5705113410949707,
-      "label": "quiet",
+      "datetime_utc": "2014-01-31T05:30Z",
+      "source_file": "SEW_2014_31_0530.txt",
+      "similarity": 0.4789794683456421,
+      "label": "winter",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-03-09T05:13Z",
+      "source_file": "SEW_2016_09_0513.txt",
+      "similarity": 0.47868454456329346,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.58937748670578,
-    "n_severe": 0,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.4839401364326477,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.59 below confidence floor 0.7",
-    "product_id": "202610140310-KSEW-FXUS66-AFDSEW",
-    "afd_time": "2026-10-14T03:10:00Z",
-    "updated": "2026-10-14T07:43:07.606717+00:00"
+    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
+    "product_id": "202610140920-KSEW-FXUS66-AFDSEW",
+    "afd_time": "2026-10-14T09:20:00Z",
+    "updated": "2026-10-14T13:48:21.955460+00:00"
   }
 }
