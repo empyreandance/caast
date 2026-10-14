@@ -1,65 +1,58 @@
 {
   "office": "IWX",
-  "product_id": "202610141014-KIWX-FXUS63-AFDIWX",
-  "afd_time": "2026-10-14T10:14:00Z",
+  "product_id": "202610141642-KIWX-FXUS63-AFDIWX",
+  "afd_time": "2026-10-14T16:42:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-14T13:48:21.955460+00:00",
+  "updated": "2026-10-14T18:42:00.815934+00:00",
   "query_preview": "..\nIssued at 326 AM EDT Wed Oct 14 2026\n\nWith a ridge across SE TX and surface high pressure in the SE CONUS, \nwaves are forecast to ride atop the ridge and then work to break \ndown the ridge during this mid to late week period. As such, the \nshortwave that helped to force the overnight showers and ",
   "analogs": [
     {
-      "datetime_utc": "2005-06-16T07:58Z",
-      "source_file": "IWX_2005_16_0758.txt",
-      "similarity": 0.35742875933647156,
+      "datetime_utc": "2005-06-16T16:01Z",
+      "source_file": "IWX_2005_16_1601.txt",
+      "similarity": 0.35742878913879395,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-06-16T17:27Z",
       "source_file": "IWX_2005_16_1727.txt",
-      "similarity": 0.35742875933647156,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-06-16T16:01Z",
-      "source_file": "IWX_2005_16_1601.txt",
-      "similarity": 0.35742875933647156,
+      "similarity": 0.35742878913879395,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-06-16T11:33Z",
       "source_file": "IWX_2005_16_1133.txt",
-      "similarity": 0.35742875933647156,
+      "similarity": 0.35742878913879395,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-06-16T07:58Z",
+      "source_file": "IWX_2005_16_0758.txt",
+      "similarity": 0.35742878913879395,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2012-09-02T00:05Z",
       "source_file": "IWX_2012_02_0005.txt",
-      "similarity": 0.35423728823661804,
+      "similarity": 0.35423731803894043,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-09-01T19:44Z",
       "source_file": "IWX_2012_01_1944.txt",
-      "similarity": 0.35423728823661804,
+      "similarity": 0.35423731803894043,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-09-02T05:31Z",
       "source_file": "IWX_2012_02_0531.txt",
-      "similarity": 0.35423728823661804,
+      "similarity": 0.35423731803894043,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-04-11T11:07Z",
-      "source_file": "IWX_2006_11_1107.txt",
-      "similarity": 0.35086095333099365,
-      "label": "tornado",
       "is_severe": true
     },
     {
@@ -75,17 +68,24 @@
       "similarity": 0.35086095333099365,
       "label": "tornado",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-04-11T11:07Z",
+      "source_file": "IWX_2006_11_1107.txt",
+      "similarity": 0.35086095333099365,
+      "label": "tornado",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.35450097620487214,
+    "mean_similarity": 0.3545009970664978,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
-    "product_id": "202610141014-KIWX-FXUS63-AFDIWX",
-    "afd_time": "2026-10-14T10:14:00Z",
-    "updated": "2026-10-14T13:48:21.955460+00:00"
+    "product_id": "202610141642-KIWX-FXUS63-AFDIWX",
+    "afd_time": "2026-10-14T16:42:00Z",
+    "updated": "2026-10-14T18:42:00.815934+00:00"
   }
 }

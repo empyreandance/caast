@@ -1,9 +1,9 @@
 {
   "office": "PSR",
-  "product_id": "202610141021-KPSR-FXUS65-AFDPSR",
-  "afd_time": "2026-10-14T10:21:00Z",
+  "product_id": "202610141752-KPSR-FXUS65-AFDPSR",
+  "afd_time": "2026-10-14T17:52:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-14T13:48:21.955460+00:00",
+  "updated": "2026-10-14T18:42:00.815934+00:00",
   "query_preview": "/FRIDAY THROUGH TUESDAY/... \nStrong easterly winds are expected to develop across southern and\ncentral Arizona by Friday morning with guidance showing H8 winds\nof 30-45 kts across southern and much of central Arizona. The best\ncorridor for strong winds looks to be across southeast Arizona\ninto south",
   "analogs": [
     {
@@ -16,36 +16,22 @@
     {
       "datetime_utc": "2017-12-07T15:37Z",
       "source_file": "PSR_2017_07_1537.txt",
-      "similarity": 0.5170939564704895,
+      "similarity": 0.5170940160751343,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-03-10T18:02Z",
-      "source_file": "PSR_2006_10_1802.txt",
-      "similarity": 0.5123312473297119,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2006-03-10T12:18Z",
       "source_file": "PSR_2006_10_1218.txt",
-      "similarity": 0.5123312473297119,
+      "similarity": 0.5123313665390015,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-10-04T21:43Z",
-      "source_file": "PSR_2006_04_2143.txt",
-      "similarity": 0.5095462799072266,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-10-05T09:47Z",
-      "source_file": "PSR_2006_05_0947.txt",
-      "similarity": 0.5095462799072266,
-      "label": "severe_wind",
+      "datetime_utc": "2006-03-10T18:02Z",
+      "source_file": "PSR_2006_10_1802.txt",
+      "similarity": 0.5123313665390015,
+      "label": "tornado",
       "is_severe": true
     },
     {
@@ -56,8 +42,8 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-10-05T18:03Z",
-      "source_file": "PSR_2006_05_1803.txt",
+      "datetime_utc": "2006-10-04T21:43Z",
+      "source_file": "PSR_2006_04_2143.txt",
       "similarity": 0.5095462799072266,
       "label": "severe_wind",
       "is_severe": true
@@ -70,9 +56,23 @@
       "is_severe": true
     },
     {
+      "datetime_utc": "2006-10-05T09:47Z",
+      "source_file": "PSR_2006_05_0947.txt",
+      "similarity": 0.5095462799072266,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-10-05T18:03Z",
+      "source_file": "PSR_2006_05_1803.txt",
+      "similarity": 0.5095462799072266,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2014-02-23T03:41Z",
       "source_file": "PSR_2014_23_0341.txt",
-      "similarity": 0.4971086382865906,
+      "similarity": 0.4971085786819458,
       "label": "tornado",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.5107833206653595,
+    "mean_similarity": 0.5107833445072174,
     "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
-    "product_id": "202610141021-KPSR-FXUS65-AFDPSR",
-    "afd_time": "2026-10-14T10:21:00Z",
-    "updated": "2026-10-14T13:48:21.955460+00:00"
+    "product_id": "202610141752-KPSR-FXUS65-AFDPSR",
+    "afd_time": "2026-10-14T17:52:00Z",
+    "updated": "2026-10-14T18:42:00.815934+00:00"
   }
 }

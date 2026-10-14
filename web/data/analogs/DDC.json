@@ -1,91 +1,91 @@
 {
   "office": "DDC",
-  "product_id": "202610141001-KDDC-FXUS63-AFDDDC",
-  "afd_time": "2026-10-14T10:01:00Z",
+  "product_id": "202610141830-KDDC-FXUS63-AFDDDC",
+  "afd_time": "2026-10-14T18:30:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-14T13:48:21.955460+00:00",
-  "query_preview": "..\nIssued at 147 AM CDT Wed Oct 14 2026\n\nThe system that brought yesterday evening's severe weather\nepisode is continuing to depart the area as the cold front has\nshifted well south of the forecast area. The next system of note\nis right on its heels in the form of a closed mid to upper low\nover the ",
+  "updated": "2026-10-14T18:42:00.815934+00:00",
+  "query_preview": "..\nIssued at 130 PM CDT Wed Oct 14 2026\n\nShowers and thunderstorms are expected tonight as another \ndisturbance is expected to move through the area. Being on the cool \nside of this system, no severe weather is expected. Precipitation \ncomes to an end from west to east after midnight and be confined",
   "analogs": [
     {
       "datetime_utc": "2004-08-29T18:06Z",
       "source_file": "DDC_2004_29_1806.txt",
-      "similarity": 0.4409918189048767,
+      "similarity": 0.43206197023391724,
       "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-04-15T19:45Z",
-      "source_file": "DDC_2006_15_1945.txt",
-      "similarity": 0.4357069730758667,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-06-16T00:01Z",
-      "source_file": "DDC_2012_16_0001.txt",
-      "similarity": 0.43283694982528687,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-08-17T07:48Z",
-      "source_file": "DDC_2005_17_0748.txt",
-      "similarity": 0.42800211906433105,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-07-06T19:13Z",
-      "source_file": "DDC_2007_06_1913.txt",
-      "similarity": 0.4276377558708191,
-      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-01-22T21:22Z",
       "source_file": "DDC_2010_22_2122.txt",
-      "similarity": 0.4271072447299957,
+      "similarity": 0.42924660444259644,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-01-28T08:11Z",
-      "source_file": "DDC_2006_28_0811.txt",
-      "similarity": 0.4246615767478943,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-06-08T20:04Z",
-      "source_file": "DDC_2010_08_2004.txt",
-      "similarity": 0.422629714012146,
+      "datetime_utc": "2012-06-16T00:01Z",
+      "source_file": "DDC_2012_16_0001.txt",
+      "similarity": 0.4219295382499695,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-04-28T07:45Z",
-      "source_file": "DDC_2005_28_0745.txt",
-      "similarity": 0.422372430562973,
+      "datetime_utc": "2006-04-15T19:45Z",
+      "source_file": "DDC_2006_15_1945.txt",
+      "similarity": 0.416342556476593,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-11-15T08:00Z",
-      "source_file": "DDC_2013_15_0800.txt",
-      "similarity": 0.4222036302089691,
-      "label": "winter",
+      "datetime_utc": "2004-01-13T19:47Z",
+      "source_file": "DDC_2004_13_1947.txt",
+      "similarity": 0.41551119089126587,
+      "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-03-25T05:46Z",
+      "source_file": "DDC_2015_25_0546.txt",
+      "similarity": 0.41406384110450745,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-06-19T08:07Z",
+      "source_file": "DDC_2012_19_0807.txt",
+      "similarity": 0.4139431416988373,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-06-19T09:05Z",
+      "source_file": "DDC_2012_19_0905.txt",
+      "similarity": 0.4139431416988373,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-06-19T05:50Z",
+      "source_file": "DDC_2012_19_0550.txt",
+      "similarity": 0.4139431416988373,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-06-19T11:30Z",
+      "source_file": "DDC_2012_19_1130.txt",
+      "similarity": 0.4139431416988373,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.42841502130031583,
-    "n_severe": 5,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.41849282681941985,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610141001-KDDC-FXUS63-AFDDDC",
-    "afd_time": "2026-10-14T10:01:00Z",
-    "updated": "2026-10-14T13:48:21.955460+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202610141830-KDDC-FXUS63-AFDDDC",
+    "afd_time": "2026-10-14T18:30:00Z",
+    "updated": "2026-10-14T18:42:00.815934+00:00"
   }
 }
