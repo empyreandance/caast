@@ -1,14 +1,21 @@
 {
   "office": "RLX",
-  "product_id": "202610131853-KRLX-FXUS61-AFDRLX",
-  "afd_time": "2026-10-13T18:53:00Z",
+  "product_id": "202610140016-KRLX-FXUS61-AFDRLX",
+  "afd_time": "2026-10-14T00:16:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-13T22:51:17.700315+00:00",
+  "updated": "2026-10-14T01:58:28.909977+00:00",
   "query_preview": "..\nKEY MESSAGE 1...\n\nWarm air advection continues tonight, helping to keep overnight\nlows some 10 to 15 degrees above normal. Enough of a puff in \nthe boundary layer should mitigate river valley fog, save for \nperhaps the Tygart Valley. Attention then turns to a cold front \nsagging into the middle a",
   "analogs": [
     {
-      "datetime_utc": "2008-02-07T18:39Z",
-      "source_file": "RLX_2008_07_1839.txt",
+      "datetime_utc": "2008-02-07T10:18Z",
+      "source_file": "RLX_2008_07_1018.txt",
+      "similarity": 0.466016948223114,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-02-07T15:14Z",
+      "source_file": "RLX_2008_07_1514.txt",
       "similarity": 0.466016948223114,
       "label": "winter",
       "is_severe": false
@@ -28,15 +35,8 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2008-02-07T15:14Z",
-      "source_file": "RLX_2008_07_1514.txt",
-      "similarity": 0.466016948223114,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-02-07T10:18Z",
-      "source_file": "RLX_2008_07_1018.txt",
+      "datetime_utc": "2008-02-07T18:39Z",
+      "source_file": "RLX_2008_07_1839.txt",
       "similarity": 0.466016948223114,
       "label": "winter",
       "is_severe": false
@@ -44,35 +44,35 @@
     {
       "datetime_utc": "2005-10-07T18:01Z",
       "source_file": "RLX_2005_07_1801.txt",
-      "similarity": 0.46104878187179565,
+      "similarity": 0.4610487222671509,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-10-08T06:04Z",
       "source_file": "RLX_2005_08_0604.txt",
-      "similarity": 0.46104878187179565,
+      "similarity": 0.4610487222671509,
       "label": "quiet",
       "is_severe": false
     },
     {
+      "datetime_utc": "2013-07-06T19:15Z",
+      "source_file": "RLX_2013_06_1915.txt",
+      "similarity": 0.4609452486038208,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2013-07-06T18:41Z",
       "source_file": "RLX_2013_06_1841.txt",
-      "similarity": 0.4609453082084656,
+      "similarity": 0.4609452486038208,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2013-07-07T10:45Z",
-      "source_file": "RLX_2013_07_1045.txt",
-      "similarity": 0.4609453082084656,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-07-06T18:27Z",
-      "source_file": "RLX_2013_06_1827.txt",
-      "similarity": 0.4609453082084656,
+      "datetime_utc": "2013-07-07T07:12Z",
+      "source_file": "RLX_2013_07_0712.txt",
+      "similarity": 0.4609452486038208,
       "label": "tornado",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.4635018229484558,
+    "mean_similarity": 0.46350179314613343,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202610131853-KRLX-FXUS61-AFDRLX",
-    "afd_time": "2026-10-13T18:53:00Z",
-    "updated": "2026-10-13T22:51:17.700315+00:00"
+    "product_id": "202610140016-KRLX-FXUS61-AFDRLX",
+    "afd_time": "2026-10-14T00:16:00Z",
+    "updated": "2026-10-14T01:58:28.909977+00:00"
   }
 }
