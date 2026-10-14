@@ -1,91 +1,91 @@
 {
   "office": "ABQ",
-  "product_id": "202610141743-KABQ-FXUS65-AFDABQ-AAB",
-  "afd_time": "2026-10-14T17:43:00Z",
+  "product_id": "202610142103-KABQ-FXUS65-AFDABQ-AAA",
+  "afd_time": "2026-10-14T21:03:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-14T18:42:00.815934+00:00",
-  "query_preview": "..\n(Friday through Tuesday) \nIssued at 1219 AM MDT Wed Oct 14 2026\n\nDaytime temperatures will continue well below average Fri/Sat\nbehind the strong backdoor cold front. A Freeze Watch may be\nrequired for Friday night for Union and Harding Counties. The\nretrograding upper low will pull up stationary ",
+  "updated": "2026-10-14T22:21:50.460013+00:00",
+  "query_preview": "..\n(Friday through Tuesday)\nIssued at 152 PM MDT Wed Oct 14 2026\n\nFriday's high temperatures will be 5 to 20 degrees below normal\nareawide following the backdoor front. Winds will slowly decrease\nduring the morning hours, though breezy conditions will persist\nthrough the rest of the day. \n\nA widespr",
   "analogs": [
-    {
-      "datetime_utc": "2004-06-10T21:01Z",
-      "source_file": "ABQ_2004_10_2101.txt",
-      "similarity": 0.4517096281051636,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-02-20T10:53Z",
-      "source_file": "ABQ_2011_20_1053.txt",
-      "similarity": 0.43706709146499634,
-      "label": "winter",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2004-03-11T21:15Z",
       "source_file": "ABQ_2004_11_2115.txt",
-      "similarity": 0.4360716640949249,
+      "similarity": 0.4566757380962372,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-06-10T21:01Z",
+      "source_file": "ABQ_2004_10_2101.txt",
+      "similarity": 0.4565918445587158,
+      "label": "tornado",
+      "is_severe": true
     },
     {
       "datetime_utc": "2006-05-03T08:59Z",
       "source_file": "ABQ_2006_03_0859.txt",
-      "similarity": 0.4357992708683014,
+      "similarity": 0.44811689853668213,
       "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-12-15T10:06Z",
-      "source_file": "ABQ_2006_15_1006.txt",
-      "similarity": 0.4287497401237488,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-12-10T09:59Z",
-      "source_file": "ABQ_2006_10_0959.txt",
-      "similarity": 0.42828240990638733,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-11-03T09:41Z",
-      "source_file": "ABQ_2004_03_0941.txt",
-      "similarity": 0.4276784062385559,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-06-07T09:08Z",
-      "source_file": "ABQ_2008_07_0908.txt",
-      "similarity": 0.4233495891094208,
-      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-11-10T09:32Z",
       "source_file": "ABQ_2024_10_0932.txt",
-      "similarity": 0.422681987285614,
+      "similarity": 0.4461570978164673,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2022-04-13T09:11Z",
-      "source_file": "ABQ_2022_13_0911.txt",
-      "similarity": 0.42223411798477173,
+      "datetime_utc": "2005-12-20T21:46Z",
+      "source_file": "ABQ_2005_20_2146.txt",
+      "similarity": 0.4446929097175598,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-12-10T09:59Z",
+      "source_file": "ABQ_2006_10_0959.txt",
+      "similarity": 0.44393062591552734,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-02-20T10:53Z",
+      "source_file": "ABQ_2011_20_1053.txt",
+      "similarity": 0.443767786026001,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-12-15T10:06Z",
+      "source_file": "ABQ_2006_15_1006.txt",
+      "similarity": 0.44266122579574585,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-06-07T09:08Z",
+      "source_file": "ABQ_2008_07_0908.txt",
+      "similarity": 0.4417237639427185,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-10-07T07:18Z",
+      "source_file": "ABQ_2025_07_0718.txt",
+      "similarity": 0.44095826148986816,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.4313623905181885,
-    "n_severe": 3,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.4465276151895523,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610141743-KABQ-FXUS65-AFDABQ-AAB",
-    "afd_time": "2026-10-14T17:43:00Z",
-    "updated": "2026-10-14T18:42:00.815934+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202610142103-KABQ-FXUS65-AFDABQ-AAA",
+    "afd_time": "2026-10-14T21:03:00Z",
+    "updated": "2026-10-14T22:21:50.460013+00:00"
   }
 }

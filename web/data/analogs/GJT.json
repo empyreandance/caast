@@ -1,91 +1,91 @@
 {
   "office": "GJT",
-  "product_id": "202610141745-KGJT-FXUS65-AFDGJT",
-  "afd_time": "2026-10-14T17:45:00Z",
+  "product_id": "202610141943-KGJT-FXUS65-AFDGJT",
+  "afd_time": "2026-10-14T19:43:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-14T18:42:00.815934+00:00",
-  "query_preview": "..\nIssued at 952 PM MDT Tue Oct 13 2026\n\nVALLEY RAIN AND MOUNTAIN SNOW THROUGH WEDNESDAY NIGHT:\n\nA low pressure system will bring widespread precipitation to \neastern Utah and western Colorado through late Wednesday night, \nincluding valley rain and mountain snow. Water vapor imagery \nshows this low",
+  "updated": "2026-10-14T22:21:50.460013+00:00",
+  "query_preview": "..\nIssued at 112 PM MDT Wed Oct 14 2026\n\nVALLEY RAIN AND MOUNTAIN SNOW THROUGH TONIGHT:\n\nSatellite imagery shows that the low pressure system that is  \nbringing widespread rain and mountain snow is currently centered\nover southwestern Colorado. The low will move across western \nColorado today and wi",
   "analogs": [
-    {
-      "datetime_utc": "2021-04-08T21:32Z",
-      "source_file": "GJT_2021_08_2132.txt",
-      "similarity": 0.4269525408744812,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-04-08T23:38Z",
-      "source_file": "GJT_2021_08_2338.txt",
-      "similarity": 0.4269525408744812,
-      "label": "severe_hail",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2021-04-09T04:44Z",
       "source_file": "GJT_2021_09_0444.txt",
-      "similarity": 0.4269525408744812,
+      "similarity": 0.4183579385280609,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-04-08T21:32Z",
+      "source_file": "GJT_2021_08_2132.txt",
+      "similarity": 0.4183579385280609,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-04-09T03:12Z",
       "source_file": "GJT_2021_09_0312.txt",
-      "similarity": 0.4269525408744812,
+      "similarity": 0.4183579385280609,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-04-08T23:38Z",
+      "source_file": "GJT_2021_08_2338.txt",
+      "similarity": 0.4183579385280609,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-04-04T08:51Z",
       "source_file": "GJT_2008_04_0851.txt",
-      "similarity": 0.4127073287963867,
+      "similarity": 0.4121284484863281,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-08-15T10:04Z",
-      "source_file": "GJT_2009_15_1004.txt",
-      "similarity": 0.4115616977214813,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-05-21T11:15Z",
-      "source_file": "GJT_2009_21_1115_1.txt",
-      "similarity": 0.41009169816970825,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2023-01-24T17:33Z",
-      "source_file": "GJT_2023_24_1733.txt",
-      "similarity": 0.40737560391426086,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-12-17T09:13Z",
-      "source_file": "GJT_2004_17_0913.txt",
-      "similarity": 0.40401244163513184,
+      "datetime_utc": "2008-09-13T09:32Z",
+      "source_file": "GJT_2008_13_0932.txt",
+      "similarity": 0.40394994616508484,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-03-04T10:41Z",
-      "source_file": "GJT_2007_04_1041.txt",
-      "similarity": 0.40361183881759644,
+      "datetime_utc": "2017-12-13T17:51Z",
+      "source_file": "GJT_2017_13_1751.txt",
+      "similarity": 0.40211793780326843,
       "label": "winter",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-12-13T10:34Z",
+      "source_file": "GJT_2017_13_1034.txt",
+      "similarity": 0.40211793780326843,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-08-10T07:45Z",
+      "source_file": "GJT_2021_10_0745.txt",
+      "similarity": 0.3962858319282532,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-08-10T11:24Z",
+      "source_file": "GJT_2021_10_1124.txt",
+      "similarity": 0.3962858319282532,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.41571707725524903,
+    "mean_similarity": 0.40863176882267,
     "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202610141745-KGJT-FXUS65-AFDGJT",
-    "afd_time": "2026-10-14T17:45:00Z",
-    "updated": "2026-10-14T18:42:00.815934+00:00"
+    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
+    "product_id": "202610141943-KGJT-FXUS65-AFDGJT",
+    "afd_time": "2026-10-14T19:43:00Z",
+    "updated": "2026-10-14T22:21:50.460013+00:00"
   }
 }
