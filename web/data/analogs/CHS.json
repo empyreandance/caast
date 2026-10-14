@@ -1,92 +1,91 @@
 {
   "office": "CHS",
-  "product_id": "202610140015-KCHS-FXUS62-AFDCHS",
-  "afd_time": "2026-10-14T00:15:00Z",
+  "product_id": "202610140648-KCHS-FXUS62-AFDCHS",
+  "afd_time": "2026-10-14T06:48:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-14T01:58:28.909977+00:00",
-  "query_preview": "..\nKEY MESSAGE 1: Above normal temperatures and dry conditions will \nprevail through Friday. \n\nUpper level ridging near the Gulf will shift northeastward over the \nregion Thursday, as sfc high pressure lingers overhead. Thus, expect \ndry conditions and above normal temperatures to prevail for the \nr",
+  "updated": "2026-10-14T07:43:07.606717+00:00",
+  "query_preview": "..\nKEY MESSAGE 1: Above normal temperatures and dry conditions \nwill prevail through Friday. \n\nRidging aloft will gradually work to the east across the region\ntoday through Thursday. The ridge will then get pushed offshore\non Friday ahead of a sharpening trough moving across the Upper \nMidwest and t",
   "analogs": [
     {
       "datetime_utc": "2013-05-20T08:13Z",
       "source_file": "CHS_2013_20_0813.txt",
-      "similarity": 0.8250987529754639,
+      "similarity": 0.7233067154884338,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2025-02-12T08:35Z",
       "source_file": "CHS_2025_12_0835.txt",
-      "similarity": 0.8017609715461731,
+      "similarity": 0.7005991339683533,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2025-02-12T05:52Z",
       "source_file": "CHS_2025_12_0552.txt",
-      "similarity": 0.7976492047309875,
+      "similarity": 0.6964720487594604,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-07-21T18:50Z",
       "source_file": "CHS_2006_21_1850.txt",
-      "similarity": 0.7730705738067627,
+      "similarity": 0.6265093088150024,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-06-19T06:31Z",
       "source_file": "CHS_2006_19_0631.txt",
-      "similarity": 0.7469631433486938,
+      "similarity": 0.6078075170516968,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-10-25T15:12Z",
+      "source_file": "CHS_2010_25_1512.txt",
+      "similarity": 0.6040018796920776,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-08-02T21:14Z",
+      "source_file": "CHS_2020_02_2114.txt",
+      "similarity": 0.5888354778289795,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-07-28T19:47Z",
+      "source_file": "CHS_2006_28_1947.txt",
+      "similarity": 0.5712206363677979,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-06-12T17:29Z",
       "source_file": "CHS_2007_12_1729.txt",
-      "similarity": 0.7452188730239868,
+      "similarity": 0.5442688465118408,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-08-02T21:14Z",
-      "source_file": "CHS_2020_02_2114.txt",
-      "similarity": 0.7381044626235962,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-06-12T11:33Z",
-      "source_file": "CHS_2007_12_1133.txt",
-      "similarity": 0.7372776865959167,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-06-12T07:52Z",
-      "source_file": "CHS_2007_12_0752_1.txt",
-      "similarity": 0.7372776865959167,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-06-12T15:01Z",
-      "source_file": "CHS_2007_12_1501.txt",
-      "similarity": 0.7372776865959167,
+      "datetime_utc": "2008-06-03T01:40Z",
+      "source_file": "CHS_2008_03_0140.txt",
+      "similarity": 0.5408481359481812,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "HIGH",
-    "severe_fraction": 1.0,
-    "mean_similarity": 0.7639699041843414,
-    "base_rate": 0.6591567279490003,
-    "signal_value": 0.34084327205099973,
-    "n_severe": 10,
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.6203869700431823,
+    "n_severe": 9,
     "n_total": 10,
-    "product_id": "202610140015-KCHS-FXUS62-AFDCHS",
-    "afd_time": "2026-10-14T00:15:00Z",
-    "updated": "2026-10-14T01:58:28.909977+00:00"
+    "reason": "top-10 mean similarity 0.62 below confidence floor 0.7",
+    "product_id": "202610140648-KCHS-FXUS62-AFDCHS",
+    "afd_time": "2026-10-14T06:48:00Z",
+    "updated": "2026-10-14T07:43:07.606717+00:00"
   }
 }
