@@ -1,91 +1,91 @@
 {
   "office": "SGF",
-  "product_id": "202610150546-KSGF-FXUS63-AFDSGF",
-  "afd_time": "2026-10-15T05:46:00Z",
+  "product_id": "202610151140-KSGF-FXUS63-AFDSGF",
+  "afd_time": "2026-10-15T11:40:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-15T07:31:18.175374+00:00",
-  "query_preview": "/FRIDAY NIGHT THROUGH WEDNESDAY/...\nIssued at 230 PM CDT Wed Oct 14 2026\n\nFriday-Sunday:\nHigh pressure will quickly settle into the region overnight\nThursday into Friday morning, supporting much cooler\ntemperatures. This will be accompanied by brisk north winds on\nFriday, upwards of 25 to 35 mph. Wh",
+  "updated": "2026-10-15T13:29:53.234278+00:00",
+  "query_preview": "/FRIDAY NIGHT THROUGH WEDNESDAY/...\nIssued at 245 AM CDT Thu Oct 15 2026\n\nPatchy frost, and perhaps a freeze, possible this weekend:\n\nAs the cold front dives through the Gulf, a rather abnormal high\npressure system (~99.5th percentile for this time of year) will\nmove through our region over the cour",
   "analogs": [
+    {
+      "datetime_utc": "2021-10-01T18:06Z",
+      "source_file": "SGF_2021_01_1806.txt",
+      "similarity": 0.5217221975326538,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2021-10-01T11:58Z",
       "source_file": "SGF_2021_01_1158.txt",
-      "similarity": 0.49091920256614685,
+      "similarity": 0.5217221975326538,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-10-01T08:42Z",
       "source_file": "SGF_2021_01_0842.txt",
-      "similarity": 0.49091920256614685,
+      "similarity": 0.5217221975326538,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-10-01T18:06Z",
-      "source_file": "SGF_2021_01_1806.txt",
-      "similarity": 0.49091920256614685,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-03-25T11:27Z",
-      "source_file": "SGF_2022_25_1127.txt",
-      "similarity": 0.4842868745326996,
-      "label": "tornado",
-      "is_severe": true
     },
     {
       "datetime_utc": "2022-03-25T08:15Z",
       "source_file": "SGF_2022_25_0815_1.txt",
-      "similarity": 0.4842868745326996,
+      "similarity": 0.506365954875946,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-11-02T23:09Z",
-      "source_file": "SGF_2014_02_2309.txt",
-      "similarity": 0.4774799346923828,
-      "label": "quiet",
+      "datetime_utc": "2022-03-25T11:27Z",
+      "source_file": "SGF_2022_25_1127.txt",
+      "similarity": 0.506365954875946,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-01-10T21:52Z",
+      "source_file": "SGF_2019_10_2152.txt",
+      "similarity": 0.5021779537200928,
+      "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-11-03T05:26Z",
-      "source_file": "SGF_2014_03_0526.txt",
-      "similarity": 0.4774799346923828,
-      "label": "quiet",
+      "datetime_utc": "2019-01-10T23:40Z",
+      "source_file": "SGF_2019_10_2340.txt",
+      "similarity": 0.5021779537200928,
+      "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-11-02T20:51Z",
-      "source_file": "SGF_2014_02_2051.txt",
-      "similarity": 0.4774799346923828,
-      "label": "quiet",
+      "datetime_utc": "2019-01-11T05:19Z",
+      "source_file": "SGF_2019_11_0519.txt",
+      "similarity": 0.5021779537200928,
+      "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-03-18T09:09Z",
-      "source_file": "SGF_2005_18_0909.txt",
-      "similarity": 0.47354376316070557,
-      "label": "quiet",
+      "datetime_utc": "2008-02-22T11:44Z",
+      "source_file": "SGF_2008_22_1144_1.txt",
+      "similarity": 0.49800413846969604,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-03-18T10:37Z",
-      "source_file": "SGF_2005_18_1037.txt",
-      "similarity": 0.47354376316070557,
-      "label": "quiet",
+      "datetime_utc": "2008-02-22T10:05Z",
+      "source_file": "SGF_2008_22_1005.txt",
+      "similarity": 0.49800413846969604,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.48208586871623993,
+    "mean_similarity": 0.5080440640449524,
     "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202610150546-KSGF-FXUS63-AFDSGF",
-    "afd_time": "2026-10-15T05:46:00Z",
-    "updated": "2026-10-15T07:31:18.175374+00:00"
+    "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
+    "product_id": "202610151140-KSGF-FXUS63-AFDSGF",
+    "afd_time": "2026-10-15T11:40:00Z",
+    "updated": "2026-10-15T13:29:53.234278+00:00"
   }
 }

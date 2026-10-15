@@ -1,91 +1,91 @@
 {
   "office": "PQR",
-  "product_id": "202610150610-KPQR-FXUS66-AFDPQR-AAC",
-  "afd_time": "2026-10-15T06:10:00Z",
+  "product_id": "202610151121-KPQR-FXUS66-AFDPQR-AAA",
+  "afd_time": "2026-10-15T11:21:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-15T07:31:18.175374+00:00",
-  "query_preview": "..Saturday through Tuesday Night...There is high \nconfidence among ensemble guidance for cooler temperatures this \nweekend as a weak cold front swings through the region and \nbrings chances for light rain. Light rain begins at the coast \nFriday night, mainly from Lincoln City northward. Rain chances",
+  "updated": "2026-10-15T13:29:53.234278+00:00",
+  "query_preview": "..Saturday through Wednesday...The aforementioned\nfront will quickly swings through on Saturday, returning cooler\ntemperatures and chances for light rain. Bulk of the\nprecipitation is aimed towards British Columbia and far\nnorthwest Washington, so the further south you go in northwest \nOregon such a",
   "analogs": [
     {
       "datetime_utc": "2013-11-30T11:39Z",
       "source_file": "PQR_2013_30_1139.txt",
-      "similarity": 0.6030659079551697,
+      "similarity": 0.6567163467407227,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2013-11-30T22:47Z",
       "source_file": "PQR_2013_30_2247.txt",
-      "similarity": 0.6030659079551697,
+      "similarity": 0.6567163467407227,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2013-11-30T17:17Z",
       "source_file": "PQR_2013_30_1717.txt",
-      "similarity": 0.6030659079551697,
+      "similarity": 0.6567163467407227,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2013-11-30T18:31Z",
       "source_file": "PQR_2013_30_1831.txt",
-      "similarity": 0.6030659079551697,
+      "similarity": 0.6567163467407227,
       "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-01-08T04:40Z",
+      "source_file": "PQR_2007_08_0440.txt",
+      "similarity": 0.6553196907043457,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-01-08T10:47Z",
+      "source_file": "PQR_2007_08_1047.txt",
+      "similarity": 0.6553196907043457,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-07-09T04:04Z",
+      "source_file": "PQR_2005_09_0404.txt",
+      "similarity": 0.6423004865646362,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-07-28T15:35Z",
       "source_file": "PQR_2011_28_1535.txt",
-      "similarity": 0.6017312407493591,
+      "similarity": 0.638858437538147,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-09-20T21:25Z",
-      "source_file": "PQR_2009_20_2125_1.txt",
-      "similarity": 0.5979536771774292,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2009-03-17T09:42Z",
+      "source_file": "PQR_2009_17_0942.txt",
+      "similarity": 0.638267993927002,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2009-09-20T21:25Z",
-      "source_file": "PQR_2009_20_2125.txt",
-      "similarity": 0.5979536771774292,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-10-26T10:15Z",
-      "source_file": "PQR_2008_26_1015.txt",
-      "similarity": 0.5958846211433411,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-07-21T21:16Z",
-      "source_file": "PQR_2011_21_2116.txt",
-      "similarity": 0.58380126953125,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-03-05T04:17Z",
-      "source_file": "PQR_2005_05_0417.txt",
-      "similarity": 0.5819839239120483,
+      "datetime_utc": "2013-07-03T03:23Z",
+      "source_file": "PQR_2013_03_0323.txt",
+      "similarity": 0.6366413831710815,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.5971572041511536,
-    "n_severe": 0,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.6493573069572449,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.60 below confidence floor 0.7",
-    "product_id": "202610150610-KPQR-FXUS66-AFDPQR-AAC",
-    "afd_time": "2026-10-15T06:10:00Z",
-    "updated": "2026-10-15T07:31:18.175374+00:00"
+    "reason": "top-10 mean similarity 0.65 below confidence floor 0.7",
+    "product_id": "202610151121-KPQR-FXUS66-AFDPQR-AAA",
+    "afd_time": "2026-10-15T11:21:00Z",
+    "updated": "2026-10-15T13:29:53.234278+00:00"
   }
 }
