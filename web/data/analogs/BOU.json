@@ -1,91 +1,91 @@
 {
   "office": "BOU",
-  "product_id": "202610142331-KBOU-FXUS65-AFDBOU",
-  "afd_time": "2026-10-14T23:31:00Z",
+  "product_id": "202610150550-KBOU-FXUS65-AFDBOU",
+  "afd_time": "2026-10-15T05:50:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-15T01:32:27.849308+00:00",
-  "query_preview": "/Through Wednesday/...\nIssued at 111 PM MDT Wed Oct 14 2026\n\nWater vapor satellite\u00a0imagery shows the upper level low near the \nFour Corners at this time. It is still forecast to track northeast\nacross Colorado, but models favor a slightly\u00a0more northerly track\nthan earlier advertised. We nudged preci",
+  "updated": "2026-10-15T07:31:18.175374+00:00",
+  "query_preview": "/Through Wednesday/...\nIssued at 1111 PM MDT Wed Oct 14 2026\n\nThe upper level low continues to drift northeastward, with water \nvapor satellite suggesting the center is somewhere near Berthoud\nPass as of 05z. This circulation is also evident on KFTG/KCYS, \nwith bands of rain and snow showers pivotin",
   "analogs": [
     {
-      "datetime_utc": "2004-08-16T08:46Z",
-      "source_file": "BOU_2004_16_0846.txt",
-      "similarity": 0.46507078409194946,
-      "label": "flood",
+      "datetime_utc": "2015-03-02T16:43Z",
+      "source_file": "BOU_2015_02_1643.txt",
+      "similarity": 0.417280375957489,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-03-02T10:47Z",
       "source_file": "BOU_2015_02_1047.txt",
-      "similarity": 0.44851815700531006,
+      "similarity": 0.417280375957489,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-03-02T16:43Z",
-      "source_file": "BOU_2015_02_1643.txt",
-      "similarity": 0.44851815700531006,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-12-31T17:38Z",
-      "source_file": "BOU_2018_31_1738.txt",
-      "similarity": 0.4396546185016632,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-12-31T12:09Z",
-      "source_file": "BOU_2018_31_1209.txt",
-      "similarity": 0.4396546185016632,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-03-04T11:08Z",
-      "source_file": "BOU_2006_04_1108.txt",
-      "similarity": 0.43827953934669495,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-01-20T20:42Z",
-      "source_file": "BOU_2007_20_2042.txt",
-      "similarity": 0.4376490116119385,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-05-10T09:59Z",
-      "source_file": "BOU_2006_10_0959_1.txt",
-      "similarity": 0.4342024326324463,
-      "label": "quiet",
+      "datetime_utc": "2004-08-16T08:46Z",
+      "source_file": "BOU_2004_16_0846.txt",
+      "similarity": 0.4147633910179138,
+      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-03-16T09:19Z",
       "source_file": "BOU_2009_16_0919.txt",
-      "similarity": 0.4317205846309662,
+      "similarity": 0.413649320602417,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-09-01T08:05Z",
-      "source_file": "BOU_2005_01_0805.txt",
-      "similarity": 0.4304172992706299,
-      "label": "severe_wind",
+      "datetime_utc": "2004-12-21T21:27Z",
+      "source_file": "BOU_2004_21_2127.txt",
+      "similarity": 0.4084259271621704,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-05-10T08:48Z",
+      "source_file": "BOU_2005_10_0848.txt",
+      "similarity": 0.4080798029899597,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-03-14T09:02Z",
+      "source_file": "BOU_2009_14_0902.txt",
+      "similarity": 0.40730828046798706,
+      "label": "severe_hail",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-12-20T21:33Z",
+      "source_file": "BOU_2004_20_2133.txt",
+      "similarity": 0.40673261880874634,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-09-28T03:21Z",
+      "source_file": "BOU_2011_28_0321.txt",
+      "similarity": 0.4059087038040161,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-09-27T20:55Z",
+      "source_file": "BOU_2011_27_2055.txt",
+      "similarity": 0.4059087038040161,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.4413685202598572,
+    "mean_similarity": 0.4105337500572205,
     "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610142331-KBOU-FXUS65-AFDBOU",
-    "afd_time": "2026-10-14T23:31:00Z",
-    "updated": "2026-10-15T01:32:27.849308+00:00"
+    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
+    "product_id": "202610150550-KBOU-FXUS65-AFDBOU",
+    "afd_time": "2026-10-15T05:50:00Z",
+    "updated": "2026-10-15T07:31:18.175374+00:00"
   }
 }
