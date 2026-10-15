@@ -1,78 +1,78 @@
 {
   "office": "GRR",
-  "product_id": "202610151046-KGRR-FXUS63-AFDGRR",
-  "afd_time": "2026-10-15T10:46:00Z",
+  "product_id": "202610151717-KGRR-FXUS63-AFDGRR",
+  "afd_time": "2026-10-15T17:17:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-15T13:29:53.234278+00:00",
+  "updated": "2026-10-15T18:22:24.347603+00:00",
   "query_preview": "..\nIssued at 301 AM EDT Thu Oct 15 2026\n\n- Becoming wet, windy, and colder through Friday\n\nEverything remains on track for the evolution of our weather from \ntoday through Friday evening, with no major changes noted at this \ntime.\n\nPlenty of clouds remain from the stratocumulus clouds that moved \nov",
   "analogs": [
     {
+      "datetime_utc": "2011-05-20T19:55Z",
+      "source_file": "GRR_2011_20_1955.txt",
+      "similarity": 0.41640567779541016,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2011-05-20T23:56Z",
       "source_file": "GRR_2011_20_2356.txt",
-      "similarity": 0.41640573740005493,
+      "similarity": 0.41640567779541016,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-05-21T03:33Z",
       "source_file": "GRR_2011_21_0333.txt",
-      "similarity": 0.41640573740005493,
+      "similarity": 0.41640567779541016,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-05-20T19:55Z",
-      "source_file": "GRR_2011_20_1955.txt",
-      "similarity": 0.41640573740005493,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-12-07T23:48Z",
-      "source_file": "GRR_2016_07_2348.txt",
-      "similarity": 0.4151992201805115,
+      "datetime_utc": "2016-12-07T20:25Z",
+      "source_file": "GRR_2016_07_2025.txt",
+      "similarity": 0.4151991307735443,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-12-08T05:51Z",
       "source_file": "GRR_2016_08_0551.txt",
-      "similarity": 0.4151992201805115,
+      "similarity": 0.4151991307735443,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-12-07T23:48Z",
+      "source_file": "GRR_2016_07_2348.txt",
+      "similarity": 0.4151991307735443,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-12-08T02:38Z",
       "source_file": "GRR_2016_08_0238.txt",
-      "similarity": 0.4151992201805115,
+      "similarity": 0.4151991307735443,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-12-07T20:25Z",
-      "source_file": "GRR_2016_07_2025.txt",
-      "similarity": 0.4151992201805115,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-12-03T20:15Z",
-      "source_file": "GRR_2015_03_2015.txt",
-      "similarity": 0.415067195892334,
-      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-12-04T04:33Z",
       "source_file": "GRR_2015_04_0433.txt",
-      "similarity": 0.415067195892334,
+      "similarity": 0.4150671362876892,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-12-03T20:15Z",
+      "source_file": "GRR_2015_03_2015.txt",
+      "similarity": 0.4150671362876892,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-12-03T23:27Z",
       "source_file": "GRR_2015_03_2327.txt",
-      "similarity": 0.415067195892334,
+      "similarity": 0.4150671362876892,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.41552156805992124,
+    "mean_similarity": 0.41552149653434756,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202610151046-KGRR-FXUS63-AFDGRR",
-    "afd_time": "2026-10-15T10:46:00Z",
-    "updated": "2026-10-15T13:29:53.234278+00:00"
+    "product_id": "202610151717-KGRR-FXUS63-AFDGRR",
+    "afd_time": "2026-10-15T17:17:00Z",
+    "updated": "2026-10-15T18:22:24.347603+00:00"
   }
 }
