@@ -1,9 +1,9 @@
 {
   "office": "OAX",
-  "product_id": "202610141902-KOAX-FXUS63-AFDOAX",
-  "afd_time": "2026-10-14T19:02:00Z",
+  "product_id": "202610142327-KOAX-FXUS63-AFDOAX",
+  "afd_time": "2026-10-14T23:27:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-14T22:21:50.460013+00:00",
+  "updated": "2026-10-15T01:32:27.849308+00:00",
   "query_preview": "/FRIDAY THROUGH TUESDAY/...\n\nModel guidance depicts a strong push of cold H8 air sinking \nsouthward in the late evening. Subsidence should help push some of \nthe 40-50 kt LLJ air downward resulting in gusts increasing to 45 to \n50 mph early Friday morning and persisting through most of the \ndaytime.",
   "analogs": [
     {
@@ -23,21 +23,28 @@
     {
       "datetime_utc": "2009-03-02T08:50Z",
       "source_file": "OAX_2009_02_0850.txt",
-      "similarity": 0.5234197974205017,
+      "similarity": 0.5234197378158569,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-11-02T19:48Z",
       "source_file": "OAX_2010_02_1948.txt",
-      "similarity": 0.5226116180419922,
+      "similarity": 0.5226114988327026,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-06-06T19:29Z",
       "source_file": "OAX_2007_06_1929.txt",
-      "similarity": 0.5186198353767395,
+      "similarity": 0.5186197757720947,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-04-01T04:20Z",
+      "source_file": "OAX_2014_01_0420_1.txt",
+      "similarity": 0.517379641532898,
       "label": "severe_wind",
       "is_severe": true
     },
@@ -49,16 +56,9 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-04-01T04:20Z",
-      "source_file": "OAX_2014_01_0420_1.txt",
-      "similarity": 0.517379641532898,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2007-01-18T20:41Z",
       "source_file": "OAX_2007_18_2041.txt",
-      "similarity": 0.513559103012085,
+      "similarity": 0.5135589838027954,
       "label": "winter",
       "is_severe": false
     },
@@ -70,9 +70,9 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-06-24T20:47Z",
-      "source_file": "OAX_2020_24_2047.txt",
-      "similarity": 0.5104026198387146,
+      "datetime_utc": "2020-06-24T23:13Z",
+      "source_file": "OAX_2020_24_2313.txt",
+      "similarity": 0.5104026794433594,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.5197060167789459,
+    "mean_similarity": 0.5197059869766235,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.52 below confidence floor 0.7",
-    "product_id": "202610141902-KOAX-FXUS63-AFDOAX",
-    "afd_time": "2026-10-14T19:02:00Z",
-    "updated": "2026-10-14T22:21:50.460013+00:00"
+    "product_id": "202610142327-KOAX-FXUS63-AFDOAX",
+    "afd_time": "2026-10-14T23:27:00Z",
+    "updated": "2026-10-15T01:32:27.849308+00:00"
   }
 }
