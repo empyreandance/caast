@@ -1,91 +1,91 @@
 {
   "office": "BRO",
-  "product_id": "202610152327-KBRO-FXUS64-AFDBRO",
-  "afd_time": "2026-10-15T23:27:00Z",
+  "product_id": "202610160549-KBRO-FXUS64-AFDBRO-AAA",
+  "afd_time": "2026-10-16T05:49:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-16T01:27:15.891124+00:00",
-  "query_preview": "..\nIssued at 1209 PM CDT Thu Oct 15 2026\n\nA cold front arrives Friday with strong northerly winds, \nespecially by late Friday evening. Expect a brief chance of rain \nwith the frontal passage, then mostly dry conditions into early \nnext week. RH levels behind the front drop to 25-45 percent across\nth",
+  "updated": "2026-10-16T07:16:32.970206+00:00",
+  "query_preview": "..\nIssued at 1049 PM CDT Thu Oct 15 2026\n\nMajor changes to the weather pattern is expected to take place in \nthe next 12-24 hours across Deep South Texas and the Rio Grande \nValley. Multiple weather hazards including a Red Flag Warning, Wind \nAdvisories, Gale Warning, High Rip Current Risk, Coastal ",
   "analogs": [
-    {
-      "datetime_utc": "2004-10-14T20:52Z",
-      "source_file": "BRO_2004_14_2052.txt",
-      "similarity": 0.4557521343231201,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2017-09-09T09:08Z",
       "source_file": "BRO_2017_09_0908.txt",
-      "similarity": 0.4525390863418579,
+      "similarity": 0.4805331826210022,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-04-30T08:43Z",
-      "source_file": "BRO_2012_30_0843.txt",
-      "similarity": 0.4519326090812683,
+      "datetime_utc": "2004-10-14T20:52Z",
+      "source_file": "BRO_2004_14_2052.txt",
+      "similarity": 0.46437811851501465,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-04-29T18:44Z",
-      "source_file": "BRO_2012_29_1844.txt",
-      "similarity": 0.4519326090812683,
+      "datetime_utc": "2010-12-13T14:30Z",
+      "source_file": "BRO_2010_13_1430.txt",
+      "similarity": 0.46257197856903076,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-02-28T21:09Z",
-      "source_file": "BRO_2004_28_2109.txt",
-      "similarity": 0.45070451498031616,
+      "datetime_utc": "2007-03-20T22:10Z",
+      "source_file": "BRO_2007_20_2210.txt",
+      "similarity": 0.4611108899116516,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-02-20T17:45Z",
+      "source_file": "BRO_2015_20_1745.txt",
+      "similarity": 0.46057650446891785,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-08-29T08:48Z",
-      "source_file": "BRO_2015_29_0848.txt",
-      "similarity": 0.44738006591796875,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-01-22T19:00Z",
-      "source_file": "BRO_2008_22_1900.txt",
-      "similarity": 0.4469420313835144,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-08-30T01:13Z",
-      "source_file": "BRO_2008_30_0113.txt",
-      "similarity": 0.4438854455947876,
+      "datetime_utc": "2015-02-20T09:53Z",
+      "source_file": "BRO_2015_20_0953.txt",
+      "similarity": 0.46057650446891785,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-02-15T15:51Z",
       "source_file": "BRO_2009_15_1551.txt",
-      "similarity": 0.4438691735267639,
+      "similarity": 0.4605685770511627,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-02-13T20:39Z",
-      "source_file": "BRO_2016_13_2039.txt",
-      "similarity": 0.4427888095378876,
+      "datetime_utc": "2004-02-28T21:09Z",
+      "source_file": "BRO_2004_28_2109.txt",
+      "similarity": 0.460016667842865,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-09-18T05:44Z",
+      "source_file": "BRO_2024_18_0544.txt",
+      "similarity": 0.4595924913883209,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-09-17T19:39Z",
+      "source_file": "BRO_2024_17_1939.txt",
+      "similarity": 0.4595924913883209,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.4487726479768753,
-    "n_severe": 0,
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.4629517406225204,
+    "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610152327-KBRO-FXUS64-AFDBRO",
-    "afd_time": "2026-10-15T23:27:00Z",
-    "updated": "2026-10-16T01:27:15.891124+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202610160549-KBRO-FXUS64-AFDBRO-AAA",
+    "afd_time": "2026-10-16T05:49:00Z",
+    "updated": "2026-10-16T07:16:32.970206+00:00"
   }
 }
