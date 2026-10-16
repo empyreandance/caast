@@ -1,91 +1,91 @@
 {
   "office": "BOI",
-  "product_id": "202610160555-KBOI-FXUS65-AFDBOI",
-  "afd_time": "2026-10-16T05:55:00Z",
+  "product_id": "202610161120-KBOI-FXUS65-AFDBOI",
+  "afd_time": "2026-10-16T11:20:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-16T07:16:32.970206+00:00",
-  "query_preview": "/Sunday through Thursday/...\nIssued 352 PM MDT THU OCT 15 2026\nSunday and Monday, temperatures remain about 5 to 10 degrees above\nnormal. A weak cold front on Sunday cools temps a few degrees from\nSaturday. Through the rest of the week, a high amplitude trough \nbecomes a cut off low in southern Cali",
+  "updated": "2026-10-16T12:33:56.477916+00:00",
+  "query_preview": "/Monday through Friday/...\nIssued 347 AM MDT FRI OCT 16 2026\nTemperatures will remain about 5 to 10 degrees above normal on \nMonday, however the pattern change will be actively underway. \nThrough the rest of the week, a high amplitude trough will \nbecome a cut off low in southern California and ling",
   "analogs": [
     {
       "datetime_utc": "2012-03-04T16:15Z",
       "source_file": "BOI_2012_04_1615.txt",
-      "similarity": 0.41075000166893005,
+      "similarity": 0.40324312448501587,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2023-09-06T20:32Z",
-      "source_file": "BOI_2023_06_2032.txt",
-      "similarity": 0.40110909938812256,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-09-07T02:57Z",
-      "source_file": "BOI_2023_07_0257.txt",
-      "similarity": 0.40110909938812256,
-      "label": "quiet",
-      "is_severe": false
     },
     {
       "datetime_utc": "2012-03-04T10:44Z",
       "source_file": "BOI_2012_04_1044.txt",
-      "similarity": 0.3996582627296448,
+      "similarity": 0.39217185974121094,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-10-06T21:14Z",
-      "source_file": "BOI_2006_06_2114.txt",
-      "similarity": 0.39117828011512756,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-10-07T03:50Z",
-      "source_file": "BOI_2006_07_0350.txt",
-      "similarity": 0.39117828011512756,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-11-18T16:45Z",
-      "source_file": "BOI_2014_18_1645.txt",
-      "similarity": 0.389900803565979,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2019-04-18T08:41Z",
       "source_file": "BOI_2019_18_0841.txt",
-      "similarity": 0.3895851969718933,
+      "similarity": 0.39019984006881714,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2019-04-18T15:35Z",
       "source_file": "BOI_2019_18_1535_1.txt",
-      "similarity": 0.3895851969718933,
+      "similarity": 0.39019984006881714,
       "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-09-06T20:32Z",
+      "source_file": "BOI_2023_06_2032.txt",
+      "similarity": 0.389775812625885,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-09-07T02:57Z",
+      "source_file": "BOI_2023_07_0257.txt",
+      "similarity": 0.389775812625885,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-11-18T16:45Z",
+      "source_file": "BOI_2014_18_1645.txt",
+      "similarity": 0.38781583309173584,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-08-14T03:46Z",
+      "source_file": "BOI_2005_14_0346.txt",
+      "similarity": 0.3856801390647888,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-08-13T20:34Z",
       "source_file": "BOI_2005_13_2034_1.txt",
-      "similarity": 0.3888023793697357,
+      "similarity": 0.3856801390647888,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-10-07T03:50Z",
+      "source_file": "BOI_2006_07_0350.txt",
+      "similarity": 0.3838934302330017,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.39528566002845766,
-    "n_severe": 4,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.38984358310699463,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202610160555-KBOI-FXUS65-AFDBOI",
-    "afd_time": "2026-10-16T05:55:00Z",
-    "updated": "2026-10-16T07:16:32.970206+00:00"
+    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
+    "product_id": "202610161120-KBOI-FXUS65-AFDBOI",
+    "afd_time": "2026-10-16T11:20:00Z",
+    "updated": "2026-10-16T12:33:56.477916+00:00"
   }
 }
