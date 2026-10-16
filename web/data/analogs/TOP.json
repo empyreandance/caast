@@ -1,91 +1,91 @@
 {
   "office": "TOP",
-  "product_id": "202610161711-KTOP-FXUS63-AFDTOP",
-  "afd_time": "2026-10-16T17:11:00Z",
+  "product_id": "202610161839-KTOP-FXUS63-AFDTOP",
+  "afd_time": "2026-10-16T18:39:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-16T17:29:44.333770+00:00",
-  "query_preview": "..\nIssued at 312 AM CDT Fri Oct 16 2026\n\nThe upper air pattern early this morning shows a trough axis \nextending from Ontario through the Upper Midwest into KS, a ridge \npushing into the PNW, and a weaker low over SoCal and the Baja \nPeninsula of Mexico. At the surface, low pressure has moved into t",
+  "updated": "2026-10-16T21:16:02.557885+00:00",
+  "query_preview": "..\nIssued at 134 PM CDT Fri Oct 16 2026\n\nWindy and cloudy conditions continue in eastern KS this afternoon \nwhile an upper trough axis pushes east of the area and as a large \nsurface ridge builds in from west. The ridge will settle over the \narea tonight, allowing skies to clear and winds to become ",
   "analogs": [
     {
-      "datetime_utc": "2004-02-21T10:36Z",
-      "source_file": "TOP_2004_21_1036.txt",
-      "similarity": 0.42285001277923584,
+      "datetime_utc": "2018-01-20T17:36Z",
+      "source_file": "TOP_2018_20_1736.txt",
+      "similarity": 0.49878010153770447,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-01-20T10:16Z",
+      "source_file": "TOP_2018_20_1016_1.txt",
+      "similarity": 0.49878010153770447,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-01-20T11:31Z",
+      "source_file": "TOP_2018_20_1131.txt",
+      "similarity": 0.49878010153770447,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-10-14T08:34Z",
+      "source_file": "TOP_2011_14_0834.txt",
+      "similarity": 0.49552786350250244,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-01-02T08:21Z",
-      "source_file": "TOP_2007_02_0821.txt",
-      "similarity": 0.4181728661060333,
+      "datetime_utc": "2011-10-14T11:20Z",
+      "source_file": "TOP_2011_14_1120.txt",
+      "similarity": 0.49552786350250244,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-05-26T20:24Z",
-      "source_file": "TOP_2005_26_2024.txt",
-      "similarity": 0.4086524248123169,
+      "datetime_utc": "2005-12-30T21:54Z",
+      "source_file": "TOP_2005_30_2154.txt",
+      "similarity": 0.49094635248184204,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-09-19T04:59Z",
-      "source_file": "TOP_2009_19_0459.txt",
-      "similarity": 0.4083913564682007,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-09-18T23:07Z",
-      "source_file": "TOP_2009_18_2307.txt",
-      "similarity": 0.4083913564682007,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-09-18T20:12Z",
-      "source_file": "TOP_2009_18_2012.txt",
-      "similarity": 0.4083913564682007,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-03-31T09:54Z",
-      "source_file": "TOP_2004_31_0954.txt",
-      "similarity": 0.40806376934051514,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-01-02T10:41Z",
-      "source_file": "TOP_2005_02_1041.txt",
-      "similarity": 0.4031762480735779,
-      "label": "flood",
+      "datetime_utc": "2015-02-20T23:47Z",
+      "source_file": "TOP_2015_20_2347.txt",
+      "similarity": 0.4891303479671478,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-02-20T21:18Z",
-      "source_file": "TOP_2015_20_2118.txt",
-      "similarity": 0.4030994474887848,
+      "datetime_utc": "2015-02-21T04:44Z",
+      "source_file": "TOP_2015_21_0444.txt",
+      "similarity": 0.4891303479671478,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-02-21T06:04Z",
       "source_file": "TOP_2015_21_0604.txt",
-      "similarity": 0.4030994474887848,
+      "similarity": 0.4891303479671478,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-02-20T21:18Z",
+      "source_file": "TOP_2015_20_2118.txt",
+      "similarity": 0.4891303479671478,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.4092288285493851,
-    "n_severe": 4,
+    "severe_fraction": 0.0,
+    "mean_similarity": 0.49348637759685515,
+    "n_severe": 0,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202610161711-KTOP-FXUS63-AFDTOP",
-    "afd_time": "2026-10-16T17:11:00Z",
-    "updated": "2026-10-16T17:29:44.333770+00:00"
+    "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
+    "product_id": "202610161839-KTOP-FXUS63-AFDTOP",
+    "afd_time": "2026-10-16T18:39:00Z",
+    "updated": "2026-10-16T21:16:02.557885+00:00"
   }
 }

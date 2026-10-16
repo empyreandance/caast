@@ -1,91 +1,91 @@
 {
   "office": "MFR",
-  "product_id": "202610161342-KMFR-FXUS66-AFDMFR",
-  "afd_time": "2026-10-16T13:42:00Z",
+  "product_id": "202610161948-KMFR-FXUS66-AFDMFR",
+  "afd_time": "2026-10-16T19:48:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-16T17:29:44.333770+00:00",
-  "query_preview": "..A high pressure ridge remains over the area today.\nThis will bring continued very warm temperatures with highs 15 to\n20 degrees above normal across inland areas. Coastal areas will\ntrend cooler compared to yesterday though with a light\nonshore/marine influence. \n\nOf concern today will be elevated ",
+  "updated": "2026-10-16T21:16:02.557885+00:00",
+  "query_preview": "(Today through Thursday)...\n\nThe upper level pattern is noted by a ridge of high pressure over\nthe region. This ridge is helping maintain the well above normal \ntemperatures we have been experiencing and will continue to see \ntoday. For example, Medford is forecast to reach ~86 for a high \ntoday whi",
   "analogs": [
     {
       "datetime_utc": "2005-04-13T21:36Z",
       "source_file": "MFR_2005_13_2136.txt",
-      "similarity": 0.46180230379104614,
+      "similarity": 0.49255049228668213,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-08-15T03:40Z",
       "source_file": "MFR_2011_15_0340.txt",
-      "similarity": 0.45057857036590576,
+      "similarity": 0.49103206396102905,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-08-18T03:50Z",
-      "source_file": "MFR_2009_18_0350.txt",
-      "similarity": 0.44721540808677673,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-01-10T04:47Z",
-      "source_file": "MFR_2004_10_0447_1.txt",
-      "similarity": 0.4376395344734192,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-08-02T15:59Z",
-      "source_file": "MFR_2008_02_1559.txt",
-      "similarity": 0.43626147508621216,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-02-01T04:39Z",
-      "source_file": "MFR_2008_01_0439.txt",
-      "similarity": 0.4359287619590759,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-02-29T22:02Z",
-      "source_file": "MFR_2008_29_2202.txt",
-      "similarity": 0.4359287619590759,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-05-16T10:23Z",
-      "source_file": "MFR_2005_16_1023.txt",
-      "similarity": 0.4334186315536499,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2007-06-19T09:34Z",
       "source_file": "MFR_2007_19_0934.txt",
-      "similarity": 0.43224167823791504,
+      "similarity": 0.47503823041915894,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-06-19T15:36Z",
       "source_file": "MFR_2007_19_1536_1.txt",
-      "similarity": 0.43224167823791504,
+      "similarity": 0.47503823041915894,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-08-26T04:03Z",
+      "source_file": "MFR_2015_26_0403.txt",
+      "similarity": 0.47271502017974854,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-08-18T03:50Z",
+      "source_file": "MFR_2009_18_0350.txt",
+      "similarity": 0.4723045527935028,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-11-13T10:51Z",
+      "source_file": "MFR_2005_13_1051.txt",
+      "similarity": 0.47022008895874023,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-10-10T21:30Z",
+      "source_file": "MFR_2004_10_2130.txt",
+      "similarity": 0.4696369171142578,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-02-29T22:02Z",
+      "source_file": "MFR_2008_29_2202.txt",
+      "similarity": 0.4684574007987976,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-02-01T04:39Z",
+      "source_file": "MFR_2008_01_0439.txt",
+      "similarity": 0.4684574007987976,
+      "label": "flood",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.44032568037509917,
-    "n_severe": 2,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.47554503977298734,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610161342-KMFR-FXUS66-AFDMFR",
-    "afd_time": "2026-10-16T13:42:00Z",
-    "updated": "2026-10-16T17:29:44.333770+00:00"
+    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
+    "product_id": "202610161948-KMFR-FXUS66-AFDMFR",
+    "afd_time": "2026-10-16T19:48:00Z",
+    "updated": "2026-10-16T21:16:02.557885+00:00"
   }
 }

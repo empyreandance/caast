@@ -1,91 +1,92 @@
 {
   "office": "FFC",
-  "product_id": "202610161024-KFFC-FXUS62-AFDFFC",
-  "afd_time": "2026-10-16T10:24:00Z",
+  "product_id": "202610161849-KFFC-FXUS62-AFDFFC",
+  "afd_time": "2026-10-16T18:49:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-16T12:33:56.477916+00:00",
-  "query_preview": "..\n(Saturday night through Thursday)\nIssued at 310 AM EDT Fri Oct 16 2026\n\nThe long term will bring continued persistent dry weather with \ncooler temperatures moderating through next week. By Sunday, surface \nhigh pressure centered from New England into the Northeast will \nextend southwestward into ",
+  "updated": "2026-10-16T21:16:02.557885+00:00",
+  "query_preview": "..\n(Sunday morning through next Thursday)\nIssued at 245 PM EDT Fri Oct 16 2026\n\nCrisp Start to Sunday:\n\nA dry and relatively cool airmass will remain across the area on \nSunday, courtesy of stout N/NE flow on the backside of a stacked low \nover the Carolina coast. Low temperatures Sunday morning wil",
   "analogs": [
-    {
-      "datetime_utc": "2013-11-25T07:39Z",
-      "source_file": "FFC_2013_25_0739.txt",
-      "similarity": 0.589343786239624,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2013-11-25T00:35Z",
       "source_file": "FFC_2013_25_0035.txt",
-      "similarity": 0.589343786239624,
+      "similarity": 0.8728079795837402,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2025-03-08T06:21Z",
-      "source_file": "FFC_2025_08_0621.txt",
-      "similarity": 0.572721540927887,
+      "datetime_utc": "2013-11-25T07:39Z",
+      "source_file": "FFC_2013_25_0739.txt",
+      "similarity": 0.8728079795837402,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2025-03-07T19:50Z",
       "source_file": "FFC_2025_07_1950.txt",
-      "similarity": 0.572721540927887,
+      "similarity": 0.8405259251594543,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-03-08T06:21Z",
+      "source_file": "FFC_2025_08_0621.txt",
+      "similarity": 0.8405259251594543,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-02-10T19:53Z",
       "source_file": "FFC_2020_10_1953.txt",
-      "similarity": 0.551254153251648,
+      "similarity": 0.8207855820655823,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-04-01T05:39Z",
-      "source_file": "FFC_2019_01_0539.txt",
-      "similarity": 0.5504412651062012,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2015-03-21T11:46Z",
+      "source_file": "FFC_2015_21_1146.txt",
+      "similarity": 0.8077526092529297,
+      "label": "winter",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2019-03-31T19:24Z",
-      "source_file": "FFC_2019_31_1924.txt",
-      "similarity": 0.5504412651062012,
-      "label": "severe_wind",
+      "datetime_utc": "2024-05-09T11:26Z",
+      "source_file": "FFC_2024_09_1126.txt",
+      "similarity": 0.8065520524978638,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-05-09T15:19Z",
       "source_file": "FFC_2024_09_1519.txt",
-      "similarity": 0.5325788855552673,
+      "similarity": 0.8065520524978638,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-05-09T11:26Z",
-      "source_file": "FFC_2024_09_1126.txt",
-      "similarity": 0.5325788855552673,
+      "datetime_utc": "2017-02-04T19:32Z",
+      "source_file": "FFC_2017_04_1932.txt",
+      "similarity": 0.8001662492752075,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-04-13T06:26Z",
-      "source_file": "FFC_2012_13_0626.txt",
-      "similarity": 0.52410489320755,
-      "label": "severe_wind",
+      "datetime_utc": "2017-02-05T05:49Z",
+      "source_file": "FFC_2017_05_0549.txt",
+      "similarity": 0.8001662492752075,
+      "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 1.0,
-    "mean_similarity": 0.5565530002117157,
-    "n_severe": 10,
+    "level": "MODERATE",
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.8268642604351044,
+    "base_rate": 0.7014557769274751,
+    "signal_value": 0.19854422307252495,
+    "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.56 below confidence floor 0.7",
-    "product_id": "202610161024-KFFC-FXUS62-AFDFFC",
-    "afd_time": "2026-10-16T10:24:00Z",
-    "updated": "2026-10-16T12:33:56.477916+00:00"
+    "product_id": "202610161849-KFFC-FXUS62-AFDFFC",
+    "afd_time": "2026-10-16T18:49:00Z",
+    "updated": "2026-10-16T21:16:02.557885+00:00"
   }
 }
