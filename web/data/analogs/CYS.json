@@ -1,92 +1,92 @@
 {
   "office": "CYS",
-  "product_id": "202610171746-KCYS-FXUS65-AFDCYS",
-  "afd_time": "2026-10-17T17:46:00Z",
+  "product_id": "202610172102-KCYS-FXUS65-AFDCYS",
+  "afd_time": "2026-10-17T21:02:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-17T19:32:12.869635+00:00",
-  "query_preview": "/MONDAY THROUGH FRIDAY/...\nIssued at 325 PM MDT Fri Oct 16 2026\n\nMostly benign conditions to start the work week in the long\nterm, but this pattern should begin to be broken up by a deep\nPacific system that will encroach our region by the end of the\nforecast period. Monday starts with high pressure ",
+  "updated": "2026-10-17T22:25:07.320257+00:00",
+  "query_preview": "/MONDAY THROUGH FRIDAY/...\nIssued at 258 PM MDT Sat Oct 17 2026\n\nWarm and dry weather is expected to continue through most of next \nweek, though a transition to a more active pattern is possible by \nthe end of the week into next weekend. The synoptic weather pattern \nfor the weak ahead will features",
   "analogs": [
     {
-      "datetime_utc": "2004-06-17T20:27Z",
-      "source_file": "CYS_2004_17_2027.txt",
-      "similarity": 0.7633309364318848,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2013-01-18T15:56Z",
+      "source_file": "CYS_2013_18_1556.txt",
+      "similarity": 0.7357267141342163,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2010-05-04T21:44Z",
       "source_file": "CYS_2010_04_2144.txt",
-      "similarity": 0.7512650489807129,
+      "similarity": 0.7225974798202515,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-06-17T20:27Z",
+      "source_file": "CYS_2004_17_2027.txt",
+      "similarity": 0.7133359909057617,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-09-14T18:53Z",
       "source_file": "CYS_2007_14_1853.txt",
-      "similarity": 0.7476915717124939,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-29T21:18Z",
-      "source_file": "CYS_2007_29_2118.txt",
-      "similarity": 0.7292238473892212,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-30T01:40Z",
-      "source_file": "CYS_2007_30_0140.txt",
-      "similarity": 0.7292238473892212,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-01-31T04:06Z",
-      "source_file": "CYS_2007_31_0406_1.txt",
-      "similarity": 0.7275090217590332,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-08-11T08:52Z",
-      "source_file": "CYS_2006_11_0852.txt",
-      "similarity": 0.7268003225326538,
+      "similarity": 0.7100744843482971,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-07-09T08:38Z",
       "source_file": "CYS_2004_09_0838.txt",
-      "similarity": 0.7246832847595215,
+      "similarity": 0.702160120010376,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-10-01T23:20Z",
-      "source_file": "CYS_2012_01_2320.txt",
-      "similarity": 0.7177749872207642,
+      "datetime_utc": "2007-09-29T21:18Z",
+      "source_file": "CYS_2007_29_2118.txt",
+      "similarity": 0.7020555734634399,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-09-30T01:40Z",
+      "source_file": "CYS_2007_30_0140.txt",
+      "similarity": 0.7020555734634399,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-10-01T22:33Z",
-      "source_file": "CYS_2012_01_2233.txt",
-      "similarity": 0.7177749872207642,
+      "datetime_utc": "2006-07-07T16:24Z",
+      "source_file": "CYS_2006_07_1624.txt",
+      "similarity": 0.7018893957138062,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-07-07T08:33Z",
+      "source_file": "CYS_2006_07_0833.txt",
+      "similarity": 0.6933685541152954,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-01-31T04:06Z",
+      "source_file": "CYS_2007_31_0406_1.txt",
+      "similarity": 0.6892021894454956,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "LOW",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.733527785539627,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.7072466075420379,
     "base_rate": 0.5068515384080318,
-    "signal_value": 0.09314846159196821,
-    "n_severe": 6,
+    "signal_value": 0.1931484615919682,
+    "n_severe": 7,
     "n_total": 10,
-    "product_id": "202610171746-KCYS-FXUS65-AFDCYS",
-    "afd_time": "2026-10-17T17:46:00Z",
-    "updated": "2026-10-17T19:32:12.869635+00:00"
+    "product_id": "202610172102-KCYS-FXUS65-AFDCYS",
+    "afd_time": "2026-10-17T21:02:00Z",
+    "updated": "2026-10-17T22:25:07.320257+00:00"
   }
 }
