@@ -1,91 +1,92 @@
 {
   "office": "HGX",
-  "product_id": "202610171007-KHGX-FXUS64-AFDHGX",
-  "afd_time": "2026-10-17T10:07:00Z",
+  "product_id": "202610171850-KHGX-FXUS64-AFDHGX",
+  "afd_time": "2026-10-17T18:50:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-17T13:48:33.510492+00:00",
-  "query_preview": "..\nIssued at 1235 AM CDT Sat Oct 17 2026\n\nWinds are still elevated behind the cold front, particularly over \nthe Gulf waters and coast. As high pressure builds in the wake of \nFROPA, the surface pressure gradient loosens and the winds weaken \nthis afternoon. The rest of the weekend is cool and dry, ",
+  "updated": "2026-10-17T19:32:12.869635+00:00",
+  "query_preview": "..\nIssued at 139 PM CDT Sat Oct 17 2026\n\nCool, dry, and windy conditions continue in the wake of yesterday's \ncold front passage as high pressure builds into our CWA, bringing \nwith it colder and drier northerly air. Winds further inland and in \nthe bays will gradually decrease this afternoon and ev",
   "analogs": [
     {
-      "datetime_utc": "2018-10-25T23:38Z",
-      "source_file": "HGX_2018_25_2338.txt",
-      "similarity": 0.7482506036758423,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2017-11-22T02:00Z",
+      "source_file": "HGX_2017_22_0200.txt",
+      "similarity": 0.8622970581054688,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2013-09-30T15:19Z",
       "source_file": "HGX_2013_30_1519.txt",
-      "similarity": 0.6405273079872131,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-02-17T02:59Z",
-      "source_file": "HGX_2006_17_0259.txt",
-      "similarity": 0.6398077011108398,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-05-11T12:19Z",
-      "source_file": "HGX_2009_11_1219.txt",
-      "similarity": 0.6257282495498657,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-01-21T02:13Z",
-      "source_file": "HGX_2011_21_0213.txt",
-      "similarity": 0.6097968220710754,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-11-22T02:00Z",
-      "source_file": "HGX_2017_22_0200.txt",
-      "similarity": 0.6039457321166992,
+      "similarity": 0.860608696937561,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-04-13T20:50Z",
       "source_file": "HGX_2017_13_2050.txt",
-      "similarity": 0.5815954208374023,
+      "similarity": 0.85191810131073,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-12-21T09:46Z",
-      "source_file": "HGX_2010_21_0946.txt",
-      "similarity": 0.573498010635376,
+      "datetime_utc": "2009-05-11T12:19Z",
+      "source_file": "HGX_2009_11_1219.txt",
+      "similarity": 0.8504948019981384,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-02-17T02:59Z",
+      "source_file": "HGX_2006_17_0259.txt",
+      "similarity": 0.841407299041748,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-04-21T19:41Z",
       "source_file": "HGX_2007_21_1941.txt",
-      "similarity": 0.5640352964401245,
+      "similarity": 0.8340654969215393,
       "label": "tornado",
       "is_severe": true
     },
     {
+      "datetime_utc": "2015-03-09T20:39Z",
+      "source_file": "HGX_2015_09_2039_2.txt",
+      "similarity": 0.8298016786575317,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2017-02-17T21:44Z",
       "source_file": "HGX_2017_17_2144.txt",
-      "similarity": 0.5622492432594299,
+      "similarity": 0.8298002481460571,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-06-01T01:53Z",
+      "source_file": "HGX_2005_01_0153.txt",
+      "similarity": 0.8198858499526978,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-04-21T12:50Z",
+      "source_file": "HGX_2006_21_1250.txt",
+      "similarity": 0.8151473999023438,
+      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.6149434387683869,
-    "n_severe": 4,
+    "level": "QUIET",
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.8395426630973816,
+    "base_rate": 0.5639344262295082,
+    "signal_value": -0.2639344262295082,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.61 below confidence floor 0.7",
-    "product_id": "202610171007-KHGX-FXUS64-AFDHGX",
-    "afd_time": "2026-10-17T10:07:00Z",
-    "updated": "2026-10-17T13:48:33.510492+00:00"
+    "product_id": "202610171850-KHGX-FXUS64-AFDHGX",
+    "afd_time": "2026-10-17T18:50:00Z",
+    "updated": "2026-10-17T19:32:12.869635+00:00"
   }
 }

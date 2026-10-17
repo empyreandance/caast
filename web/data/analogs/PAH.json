@@ -1,91 +1,91 @@
 {
   "office": "PAH",
-  "product_id": "202610171646-KPAH-FXUS63-AFDPAH",
-  "afd_time": "2026-10-17T16:46:00Z",
+  "product_id": "202610171807-KPAH-FXUS63-AFDPAH",
+  "afd_time": "2026-10-17T18:07:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-17T17:17:06.074993+00:00",
-  "query_preview": "..\nIssued at 1222 AM CDT Sat Oct 17 2026\n\nAs expected conditions are sharply cooler tonight across the\nquad-state. Moderate northwest winds should continue overnight\nwith temperatures falling into the 40s area-wide. A 1040mb\nsurface ridge sits over the western Plains with plans of sitting\novertop of",
+  "updated": "2026-10-17T19:32:12.869635+00:00",
+  "query_preview": "..\nIssued at 107 PM CDT Sat Oct 17 2026\n\nNortheast winds have gusted to around 15kts over the southeast\nhalf of the region already today, but they will diminish through\nthe afternoon and become light tonight. Guidance indicates that\na light breeze may persist over at least the eastern half of the\nre",
   "analogs": [
+    {
+      "datetime_utc": "2006-04-26T08:20Z",
+      "source_file": "PAH_2006_26_0820.txt",
+      "similarity": 0.3658084273338318,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-01-20T07:02Z",
+      "source_file": "PAH_2004_20_0702.txt",
+      "similarity": 0.3657706081867218,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2006-09-25T20:02Z",
       "source_file": "PAH_2006_25_2002.txt",
-      "similarity": 0.35391780734062195,
+      "similarity": 0.36561843752861023,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-10-01T18:19Z",
-      "source_file": "PAH_2004_01_1819.txt",
-      "similarity": 0.35280266404151917,
-      "label": "quiet",
+      "datetime_utc": "2004-01-23T09:39Z",
+      "source_file": "PAH_2004_23_0939.txt",
+      "similarity": 0.3635745644569397,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-02-13T09:40Z",
-      "source_file": "PAH_2009_13_0940.txt",
-      "similarity": 0.34613579511642456,
-      "label": "severe_hail",
+      "datetime_utc": "2008-09-16T07:38Z",
+      "source_file": "PAH_2008_16_0738.txt",
+      "similarity": 0.36256951093673706,
+      "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-02-13T18:08Z",
-      "source_file": "PAH_2009_13_1808.txt",
-      "similarity": 0.34613579511642456,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-05-10T04:30Z",
-      "source_file": "PAH_2012_10_0430.txt",
-      "similarity": 0.3456565737724304,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-05-09T23:05Z",
-      "source_file": "PAH_2012_09_2305.txt",
-      "similarity": 0.3456565737724304,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-05-09T19:41Z",
-      "source_file": "PAH_2012_09_1941.txt",
-      "similarity": 0.3456565737724304,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-07-24T08:33Z",
-      "source_file": "PAH_2004_24_0833.txt",
-      "similarity": 0.34502947330474854,
-      "label": "quiet",
-      "is_severe": false
     },
     {
       "datetime_utc": "2010-03-10T18:23Z",
       "source_file": "PAH_2010_10_1823.txt",
-      "similarity": 0.34183573722839355,
+      "similarity": 0.3609015941619873,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-03-10T08:26Z",
       "source_file": "PAH_2010_10_0826.txt",
-      "similarity": 0.34183573722839355,
+      "similarity": 0.3609015941619873,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-11-11T20:29Z",
+      "source_file": "PAH_2013_11_2029.txt",
+      "similarity": 0.3561096787452698,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-05-10T07:40Z",
+      "source_file": "PAH_2006_10_0740.txt",
+      "similarity": 0.3559861183166504,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-03-16T06:50Z",
+      "source_file": "PAH_2004_16_0650.txt",
+      "similarity": 0.3510131537914276,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.3464662730693817,
-    "n_severe": 6,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.3608253687620163,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
-    "product_id": "202610171646-KPAH-FXUS63-AFDPAH",
-    "afd_time": "2026-10-17T16:46:00Z",
-    "updated": "2026-10-17T17:17:06.074993+00:00"
+    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
+    "product_id": "202610171807-KPAH-FXUS63-AFDPAH",
+    "afd_time": "2026-10-17T18:07:00Z",
+    "updated": "2026-10-17T19:32:12.869635+00:00"
   }
 }
