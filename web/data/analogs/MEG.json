@@ -1,91 +1,91 @@
 {
   "office": "MEG",
-  "product_id": "202610161118-KMEG-FXUS64-AFDMEG",
-  "afd_time": "2026-10-16T11:18:00Z",
+  "product_id": "202610170341-KMEG-FXUS64-AFDMEG",
+  "afd_time": "2026-10-17T03:41:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-16T12:33:56.477916+00:00",
-  "query_preview": "..\n(Tonight through next Thursday)\nIssued at 1024 PM CDT Thu Oct 15 2026\n\nA muggy October night is present across Mid-South after another\nrecord-breakingly warm day. Friday will be a different story as a\nstrong cold front, currently extending across southeastern\nMissouri and central Arkansas, sweeps",
+  "updated": "2026-10-17T04:34:38.002622+00:00",
+  "query_preview": "..\n(Tonight through next Friday)\nIssued at 1041 PM CDT Fri Oct 16 2026\n\nSurface high pressure will continue to build into the Mid-South\novernight in the wake of today's cold frontal passage, setting\nthe stage for a noticeably cooler and drier weekend across the\nregion. The gusty winds that occurred ",
   "analogs": [
+    {
+      "datetime_utc": "2005-01-29T21:30Z",
+      "source_file": "MEG_2005_29_2130.txt",
+      "similarity": 0.3965967893600464,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-11-21T19:41Z",
+      "source_file": "MEG_2006_21_1941.txt",
+      "similarity": 0.39596062898635864,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-11-19T03:35Z",
+      "source_file": "MEG_2005_19_0335.txt",
+      "similarity": 0.3914271593093872,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2005-09-05T18:55Z",
       "source_file": "MEG_2005_05_1855.txt",
-      "similarity": 0.4164671003818512,
+      "similarity": 0.391021728515625,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-06-13T18:53Z",
       "source_file": "MEG_2006_13_1853.txt",
-      "similarity": 0.4134461283683777,
+      "similarity": 0.3894890546798706,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-10-15T19:14Z",
-      "source_file": "MEG_2006_15_1914.txt",
-      "similarity": 0.41241395473480225,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2007-01-26T16:09Z",
+      "source_file": "MEG_2007_26_1609.txt",
+      "similarity": 0.3854523301124573,
+      "label": "winter",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2006-11-21T19:41Z",
-      "source_file": "MEG_2006_21_1941.txt",
-      "similarity": 0.41129201650619507,
+      "datetime_utc": "2021-01-03T09:52Z",
+      "source_file": "MEG_2021_03_0952.txt",
+      "similarity": 0.38516145944595337,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-12-11T21:41Z",
+      "source_file": "MEG_2005_11_2141.txt",
+      "similarity": 0.38198965787887573,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-08-04T19:49Z",
-      "source_file": "MEG_2006_04_1949.txt",
-      "similarity": 0.4108433127403259,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-08-05T01:35Z",
-      "source_file": "MEG_2006_05_0135.txt",
-      "similarity": 0.4108433127403259,
-      "label": "severe_wind",
+      "datetime_utc": "2008-08-20T20:18Z",
+      "source_file": "MEG_2008_20_2018.txt",
+      "similarity": 0.38119107484817505,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-08-21T02:12Z",
       "source_file": "MEG_2008_21_0212.txt",
-      "similarity": 0.40842604637145996,
+      "similarity": 0.38119107484817505,
       "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-08-20T20:18Z",
-      "source_file": "MEG_2008_20_2018.txt",
-      "similarity": 0.40842604637145996,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-03-27T09:31Z",
-      "source_file": "MEG_2007_27_0931.txt",
-      "similarity": 0.40805017948150635,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-07-31T07:39Z",
-      "source_file": "MEG_2007_31_0739.txt",
-      "similarity": 0.40496283769607544,
-      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.8,
-    "mean_similarity": 0.410517093539238,
-    "n_severe": 8,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.38794809579849243,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202610161118-KMEG-FXUS64-AFDMEG",
-    "afd_time": "2026-10-16T11:18:00Z",
-    "updated": "2026-10-16T12:33:56.477916+00:00"
+    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
+    "product_id": "202610170341-KMEG-FXUS64-AFDMEG",
+    "afd_time": "2026-10-17T03:41:00Z",
+    "updated": "2026-10-17T04:34:38.002622+00:00"
   }
 }
