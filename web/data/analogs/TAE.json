@@ -1,78 +1,78 @@
 {
   "office": "TAE",
-  "product_id": "202610162338-KTAE-FXUS62-AFDTAE",
-  "afd_time": "2026-10-16T23:38:00Z",
+  "product_id": "202610170631-KTAE-FXUS62-AFDTAE",
+  "afd_time": "2026-10-17T06:31:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-16T23:43:00.153380+00:00",
-  "query_preview": "..\n(Saturday night through next Thursday)\nIssued at 240 PM EDT Fri Oct 16 2026\n\nBreezy to windy conditions continue Sunday before relaxing a little \nas the pressure gradient begins to weaken slightly later Sunday into \nearly next week. Temperatures will struggle to get out of the 60s in \nmany locati",
+  "updated": "2026-10-17T09:28:33.119826+00:00",
+  "query_preview": "..\n(Sunday through Friday)\nIssued at 228 AM EDT Sat Oct 17 2026\n\nBreezy conditions remain for the day on Sunday with gusts around \n25- 30 mph. Temperatures remain cool with highs in the upper 60s \nto around 70 degrees. Cold air advection will continue with \nkeeping our humidity values in the 30%s as",
   "analogs": [
+    {
+      "datetime_utc": "2005-11-09T02:23Z",
+      "source_file": "TAE_2005_09_0223.txt",
+      "similarity": 0.71938157081604,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2019-07-08T08:15Z",
       "source_file": "TAE_2019_08_0815.txt",
-      "similarity": 0.6877747774124146,
+      "similarity": 0.7082047462463379,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2019-07-08T10:32Z",
       "source_file": "TAE_2019_08_1032.txt",
-      "similarity": 0.6877747774124146,
+      "similarity": 0.7082047462463379,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-11-09T02:23Z",
-      "source_file": "TAE_2005_09_0223.txt",
-      "similarity": 0.686398983001709,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-06-13T19:26Z",
-      "source_file": "TAE_2008_13_1926_1.txt",
-      "similarity": 0.6573643088340759,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-09-05T18:40Z",
-      "source_file": "TAE_2009_05_1840.txt",
-      "similarity": 0.6501415371894836,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2012-08-14T01:54Z",
       "source_file": "TAE_2012_14_0154.txt",
-      "similarity": 0.6422240734100342,
+      "similarity": 0.6963609457015991,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-08-22T05:19Z",
       "source_file": "TAE_2020_22_0519.txt",
-      "similarity": 0.6391267776489258,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-08-21T22:32Z",
-      "source_file": "TAE_2020_21_2232.txt",
-      "similarity": 0.6391267776489258,
+      "similarity": 0.6894680857658386,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-08-22T03:34Z",
       "source_file": "TAE_2020_22_0334.txt",
-      "similarity": 0.6391267776489258,
+      "similarity": 0.6894680857658386,
       "label": "severe_wind",
       "is_severe": true
     },
     {
+      "datetime_utc": "2020-08-21T22:32Z",
+      "source_file": "TAE_2020_21_2232.txt",
+      "similarity": 0.6894680857658386,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-06-13T19:26Z",
+      "source_file": "TAE_2008_13_1926_1.txt",
+      "similarity": 0.6891379356384277,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-09-05T18:40Z",
+      "source_file": "TAE_2009_05_1840.txt",
+      "similarity": 0.6889779567718506,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2009-08-01T19:23Z",
       "source_file": "TAE_2009_01_1923.txt",
-      "similarity": 0.6111404895782471,
+      "similarity": 0.6422430276870728,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.6540199279785156,
+    "mean_similarity": 0.6920915186405182,
     "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.65 below confidence floor 0.7",
-    "product_id": "202610162338-KTAE-FXUS62-AFDTAE",
-    "afd_time": "2026-10-16T23:38:00Z",
-    "updated": "2026-10-16T23:43:00.153380+00:00"
+    "reason": "top-10 mean similarity 0.69 below confidence floor 0.7",
+    "product_id": "202610170631-KTAE-FXUS62-AFDTAE",
+    "afd_time": "2026-10-17T06:31:00Z",
+    "updated": "2026-10-17T09:28:33.119826+00:00"
   }
 }

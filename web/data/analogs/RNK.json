@@ -1,91 +1,91 @@
 {
   "office": "RNK",
-  "product_id": "202610162353-KRNK-FXUS61-AFDRNK",
-  "afd_time": "2026-10-16T23:53:00Z",
+  "product_id": "202610170706-KRNK-FXUS61-AFDRNK",
+  "afd_time": "2026-10-17T07:06:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-17T04:34:38.002622+00:00",
-  "query_preview": "..\nKEY MESSAGE 1: Scattered showers and a few thunderstorms this\nevening and overnight, showers continue into Saturday early \nafternoon. Gusty winds tonight through Saturday.\n\nA cold front is progressing through the area, currently near a\nline from Hot Springs to Blacksburg to Boone, and is triggeri",
+  "updated": "2026-10-17T09:28:33.119826+00:00",
+  "query_preview": "..\nKEY MESSAGE 1: Rain this morning, with clearing skies and \nbreezy winds from the north this afternoon.\n\nIn the wake of a cold front's recent passage across the lower \nMid-Atlantic, will now turn our attention to the increasing \ncoverage of rain across the Piedmont as an upper level trough \napproa",
   "analogs": [
-    {
-      "datetime_utc": "2005-12-21T16:21Z",
-      "source_file": "RNK_2005_21_1621.txt",
-      "similarity": 0.477115273475647,
-      "label": "severe_hail",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2005-12-21T07:47Z",
       "source_file": "RNK_2005_21_0747.txt",
-      "similarity": 0.477115273475647,
+      "similarity": 0.3695838749408722,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-08-19T06:04Z",
-      "source_file": "RNK_2004_19_0604.txt",
-      "similarity": 0.47382986545562744,
+      "datetime_utc": "2005-12-21T16:21Z",
+      "source_file": "RNK_2005_21_1621.txt",
+      "similarity": 0.3695838749408722,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-04-11T18:47Z",
+      "source_file": "RNK_2004_11_1847.txt",
+      "similarity": 0.36642518639564514,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-05-04T07:01Z",
+      "source_file": "RNK_2004_04_0701.txt",
+      "similarity": 0.36298662424087524,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-04-16T18:58Z",
+      "source_file": "RNK_2010_16_1858.txt",
+      "similarity": 0.36276569962501526,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-08-19T11:00Z",
-      "source_file": "RNK_2004_19_1100.txt",
-      "similarity": 0.47382986545562744,
+      "datetime_utc": "2010-04-17T06:07Z",
+      "source_file": "RNK_2010_17_0607.txt",
+      "similarity": 0.36276569962501526,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-08-19T14:04Z",
-      "source_file": "RNK_2004_19_1404.txt",
-      "similarity": 0.47382986545562744,
+      "datetime_utc": "2010-04-17T02:03Z",
+      "source_file": "RNK_2010_17_0203.txt",
+      "similarity": 0.36276569962501526,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-12-05T17:57Z",
-      "source_file": "RNK_2004_05_1757.txt",
-      "similarity": 0.4723380208015442,
+      "datetime_utc": "2010-04-16T23:35Z",
+      "source_file": "RNK_2010_16_2335.txt",
+      "similarity": 0.36276569962501526,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-12-05T15:56Z",
-      "source_file": "RNK_2004_05_1556.txt",
-      "similarity": 0.4723380208015442,
+      "datetime_utc": "2020-10-15T18:05Z",
+      "source_file": "RNK_2020_15_1805.txt",
+      "similarity": 0.35863804817199707,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-12-05T15:56Z",
-      "source_file": "RNK_2004_05_1556.txt",
-      "similarity": 0.4723380208015442,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-12-05T17:57Z",
-      "source_file": "RNK_2004_05_1757.txt",
-      "similarity": 0.4723380208015442,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-05-23T01:35Z",
-      "source_file": "RNK_2005_23_0135.txt",
-      "similarity": 0.46872904896736145,
-      "label": "quiet",
+      "datetime_utc": "2023-03-09T02:55Z",
+      "source_file": "RNK_2023_09_0255.txt",
+      "similarity": 0.3556665778160095,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.47338012754917147,
-    "n_severe": 2,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.3633946985006332,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610162353-KRNK-FXUS61-AFDRNK",
-    "afd_time": "2026-10-16T23:53:00Z",
-    "updated": "2026-10-17T04:34:38.002622+00:00"
+    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
+    "product_id": "202610170706-KRNK-FXUS61-AFDRNK",
+    "afd_time": "2026-10-17T07:06:00Z",
+    "updated": "2026-10-17T09:28:33.119826+00:00"
   }
 }

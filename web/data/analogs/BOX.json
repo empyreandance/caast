@@ -1,91 +1,91 @@
 {
   "office": "BOX",
-  "product_id": "202610170019-KBOX-FXUS61-AFDBOX",
-  "afd_time": "2026-10-17T00:19:00Z",
+  "product_id": "202610170811-KBOX-FXUS61-AFDBOX",
+  "afd_time": "2026-10-17T08:11:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-17T04:34:38.002622+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Morning showers exit, followed by a brief lull this \nafternoon before a cold front brings additional showers and \nthunderstorms this evening. A few strong to isolated severe \nthunderstorms are possible.\n\nAs anticipated, gloomy conditions to wrap up the workweek. Earlier \nthis morn",
+  "updated": "2026-10-17T09:28:33.119826+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...Lingering showers this morning towards the southern \ncoast, Cape Cod, and the Islands. Otherwise, drier and colder today.\n\nShowers over much of SE MA and RI continue this morning with the \ncold front associated with a low pressure system now over New \nBrunswick, Canada draped over",
   "analogs": [
-    {
-      "datetime_utc": "2019-09-15T09:01Z",
-      "source_file": "BOX_2019_15_0901.txt",
-      "similarity": 0.4667806029319763,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2019-09-15T11:00Z",
       "source_file": "BOX_2019_15_1100.txt",
-      "similarity": 0.4667806029319763,
+      "similarity": 0.4312211275100708,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-06-03T20:17Z",
-      "source_file": "BOX_2009_03_2017.txt",
-      "similarity": 0.4547309875488281,
+      "datetime_utc": "2019-09-15T09:01Z",
+      "source_file": "BOX_2019_15_0901.txt",
+      "similarity": 0.4312211275100708,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-08-06T19:22Z",
-      "source_file": "BOX_2005_06_1922.txt",
-      "similarity": 0.4536632299423218,
+      "datetime_utc": "2013-05-18T17:55Z",
+      "source_file": "BOX_2013_18_1755.txt",
+      "similarity": 0.4226950407028198,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-06-08T22:49Z",
-      "source_file": "BOX_2008_08_2249.txt",
-      "similarity": 0.45252352952957153,
+      "datetime_utc": "2013-05-18T11:31Z",
+      "source_file": "BOX_2013_18_1131.txt",
+      "similarity": 0.4226950407028198,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-06-09T03:26Z",
-      "source_file": "BOX_2008_09_0326.txt",
-      "similarity": 0.45252352952957153,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-06-08T21:44Z",
-      "source_file": "BOX_2008_08_2144.txt",
-      "similarity": 0.44776350259780884,
+      "datetime_utc": "2013-05-18T13:45Z",
+      "source_file": "BOX_2013_18_1345.txt",
+      "similarity": 0.4226950407028198,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-06-08T21:55Z",
-      "source_file": "BOX_2008_08_2155_1.txt",
-      "similarity": 0.44776350259780884,
+      "datetime_utc": "2013-05-18T08:34Z",
+      "source_file": "BOX_2013_18_0834.txt",
+      "similarity": 0.4226950407028198,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-06-08T21:01Z",
-      "source_file": "BOX_2008_08_2101.txt",
-      "similarity": 0.44776350259780884,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2005-05-19T20:01Z",
+      "source_file": "BOX_2005_19_2001.txt",
+      "similarity": 0.42211779952049255,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2016-08-09T19:46Z",
-      "source_file": "BOX_2016_09_1946.txt",
-      "similarity": 0.44355911016464233,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2005-05-20T01:19Z",
+      "source_file": "BOX_2005_20_0119.txt",
+      "similarity": 0.42211779952049255,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-02-24T21:32Z",
+      "source_file": "BOX_2004_24_2132.txt",
+      "similarity": 0.4216248095035553,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-08-21T07:23Z",
+      "source_file": "BOX_2010_21_0723.txt",
+      "similarity": 0.42081689834594727,
+      "label": "flood",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.4533852100372314,
-    "n_severe": 7,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.42398997247219083,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610170019-KBOX-FXUS61-AFDBOX",
-    "afd_time": "2026-10-17T00:19:00Z",
-    "updated": "2026-10-17T04:34:38.002622+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202610170811-KBOX-FXUS61-AFDBOX",
+    "afd_time": "2026-10-17T08:11:00Z",
+    "updated": "2026-10-17T09:28:33.119826+00:00"
   }
 }

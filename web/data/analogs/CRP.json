@@ -1,91 +1,91 @@
 {
   "office": "CRP",
-  "product_id": "202610162325-KCRP-FXUS64-AFDCRP",
-  "afd_time": "2026-10-16T23:25:00Z",
+  "product_id": "202610170654-KCRP-FXUS64-AFDCRP",
+  "afd_time": "2026-10-17T06:54:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-16T23:43:00.153380+00:00",
-  "query_preview": "..\nIssued at 207 PM CDT Fri Oct 16 2026\n\nThe cold front has made its way into the South Texas region this \nmorning, with strong winds coming out of the north from behind the \nfront. Gust's today are expected to be up around 25-35 knots, with \nsome areas possibly getting up to 40 knots closer offshor",
+  "updated": "2026-10-17T09:28:33.119826+00:00",
+  "query_preview": "..\nIssued at 150 AM CDT Sat Oct 17 2026\n\nHigh pressure behind Friday's cold front will continue to usher \ndrier and cooler air across S TX today, which will lead to highs in \nthe lower 70s. Strong gusty north winds this morning along the \ncoastline and the islands, will diminish through this afterno",
   "analogs": [
     {
       "datetime_utc": "2018-11-11T23:56Z",
       "source_file": "CRP_2018_11_2356.txt",
-      "similarity": 0.4789126217365265,
+      "similarity": 0.47455939650535583,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2018-11-11T21:55Z",
       "source_file": "CRP_2018_11_2155.txt",
-      "similarity": 0.4789126217365265,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-11-23T11:54Z",
-      "source_file": "CRP_2009_23_1154.txt",
-      "similarity": 0.47331690788269043,
+      "similarity": 0.47455939650535583,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-11-23T10:08Z",
       "source_file": "CRP_2009_23_1008.txt",
-      "similarity": 0.47331690788269043,
+      "similarity": 0.4717244505882263,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-11-23T11:54Z",
+      "source_file": "CRP_2009_23_1154.txt",
+      "similarity": 0.4717244505882263,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-04-04T05:32Z",
+      "source_file": "CRP_2022_04_0532.txt",
+      "similarity": 0.4648174047470093,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-04-03T20:55Z",
+      "source_file": "CRP_2022_03_2055.txt",
+      "similarity": 0.4648174047470093,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-04-03T23:51Z",
+      "source_file": "CRP_2022_03_2351.txt",
+      "similarity": 0.4648174047470093,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2009-10-30T08:17Z",
       "source_file": "CRP_2009_30_0817.txt",
-      "similarity": 0.4650039076805115,
+      "similarity": 0.4644736647605896,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-01-09T09:51Z",
-      "source_file": "CRP_2015_09_0951.txt",
-      "similarity": 0.46259796619415283,
-      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-01-09T18:04Z",
       "source_file": "CRP_2015_09_1804.txt",
-      "similarity": 0.46259796619415283,
+      "similarity": 0.4611053764820099,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-01-09T12:36Z",
       "source_file": "CRP_2015_09_1236.txt",
-      "similarity": 0.46259796619415283,
+      "similarity": 0.4611053764820099,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-01-20T23:15Z",
-      "source_file": "CRP_2022_20_2315.txt",
-      "similarity": 0.4588336944580078,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-01-21T04:31Z",
-      "source_file": "CRP_2022_21_0431.txt",
-      "similarity": 0.4588336944580078,
-      "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.46749242544174197,
-    "n_severe": 0,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.46737043261528016,
+    "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610162325-KCRP-FXUS64-AFDCRP",
-    "afd_time": "2026-10-16T23:25:00Z",
-    "updated": "2026-10-16T23:43:00.153380+00:00"
+    "product_id": "202610170654-KCRP-FXUS64-AFDCRP",
+    "afd_time": "2026-10-17T06:54:00Z",
+    "updated": "2026-10-17T09:28:33.119826+00:00"
   }
 }

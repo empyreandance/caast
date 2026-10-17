@@ -1,91 +1,91 @@
 {
   "office": "LKN",
-  "product_id": "202610161909-KLKN-FXUS65-AFDLKN",
-  "afd_time": "2026-10-16T19:09:00Z",
+  "product_id": "202610170701-KLKN-FXUS65-AFDLKN-AAA",
+  "afd_time": "2026-10-17T07:01:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-16T21:16:02.557885+00:00",
-  "query_preview": "..\n(This evening through next Thursday)\n\nWEATHER PATTERN OVERVIEW: An upper level ridge exiting the region\nwill leave zonal flow aloft, keeping the weather relatively calm \nthrough early next week. Temperatures through Monday will remain \nabove normal for this time of year, with highs remaining in t",
+  "updated": "2026-10-17T09:28:33.119826+00:00",
+  "query_preview": "..\n(Today through Friday)\n\nWEATHER PATTERN OVERVIEW: An upper level ridge exiting the region\nwill leave zonal flow aloft, keeping the weather relatively calm \nthrough early next week. Temperatures this weekend will remain above \nnormal for this time of year, with highs in the upper 60s/lower 70s. \nM",
   "analogs": [
     {
       "datetime_utc": "2018-06-29T21:24Z",
       "source_file": "LKN_2018_29_2124.txt",
-      "similarity": 0.45156240463256836,
+      "similarity": 0.4607410728931427,
       "label": "quiet",
       "is_severe": false
     },
     {
+      "datetime_utc": "2004-06-29T19:59Z",
+      "source_file": "LKN_2004_29_1959.txt",
+      "similarity": 0.4410012364387512,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2008-11-03T22:36Z",
       "source_file": "LKN_2008_03_2236.txt",
-      "similarity": 0.43388432264328003,
+      "similarity": 0.44002383947372437,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-10-21T10:35Z",
       "source_file": "LKN_2015_21_1035.txt",
-      "similarity": 0.4308655261993408,
+      "similarity": 0.4385470151901245,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-07-05T19:59Z",
+      "source_file": "LKN_2024_05_1959.txt",
+      "similarity": 0.4361204206943512,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-07-26T21:08Z",
       "source_file": "LKN_2005_26_2108.txt",
-      "similarity": 0.43077078461647034,
+      "similarity": 0.43311983346939087,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-07-05T19:59Z",
-      "source_file": "LKN_2024_05_1959.txt",
-      "similarity": 0.4293498992919922,
+      "datetime_utc": "2016-09-19T21:10Z",
+      "source_file": "LKN_2016_19_2110.txt",
+      "similarity": 0.43303266167640686,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-09-15T09:17Z",
+      "source_file": "LKN_2012_15_0917.txt",
+      "similarity": 0.43191850185394287,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-09-19T21:10Z",
-      "source_file": "LKN_2016_19_2110.txt",
-      "similarity": 0.4274292290210724,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2021-11-29T09:32Z",
+      "source_file": "LKN_2021_29_0932.txt",
+      "similarity": 0.4298330843448639,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2004-06-29T19:59Z",
-      "source_file": "LKN_2004_29_1959.txt",
-      "similarity": 0.42616185545921326,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-07-18T19:04Z",
-      "source_file": "LKN_2022_18_1904.txt",
-      "similarity": 0.421891450881958,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-07-19T01:37Z",
-      "source_file": "LKN_2022_19_0137.txt",
-      "similarity": 0.421891450881958,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-07-19T03:35Z",
-      "source_file": "LKN_2022_19_0335.txt",
-      "similarity": 0.421891450881958,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2020-09-03T09:12Z",
+      "source_file": "LKN_2020_03_0912.txt",
+      "similarity": 0.42876288294792175,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.42956983745098115,
-    "n_severe": 6,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.437310054898262,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610161909-KLKN-FXUS65-AFDLKN",
-    "afd_time": "2026-10-16T19:09:00Z",
-    "updated": "2026-10-16T21:16:02.557885+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202610170701-KLKN-FXUS65-AFDLKN-AAA",
+    "afd_time": "2026-10-17T07:01:00Z",
+    "updated": "2026-10-17T09:28:33.119826+00:00"
   }
 }
