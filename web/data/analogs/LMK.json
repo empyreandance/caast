@@ -1,28 +1,28 @@
 {
   "office": "LMK",
-  "product_id": "202610181045-KLMK-FXUS63-AFDLMK",
-  "afd_time": "2026-10-18T10:45:00Z",
+  "product_id": "202610181330-KLMK-FXUS63-AFDLMK",
+  "afd_time": "2026-10-18T13:30:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-18T11:14:55.858070+00:00",
+  "updated": "2026-10-18T14:41:33.883966+00:00",
   "query_preview": "..\nIssued at 252 AM EDT Sun Oct 18 2026\n\nWe have crystal clear sky cover this morning, and with sfc winds \ngoing calm, we are beginning to increase the effective radiational \ncooling this morning. Frost and freeze headlines continue as is for \nthis morning, and plan for them to expire on time at 13z",
   "analogs": [
     {
       "datetime_utc": "2004-08-07T08:07Z",
       "source_file": "LMK_2004_07_0807.txt",
-      "similarity": 0.40024319291114807,
+      "similarity": 0.4002431631088257,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-01-12T09:45Z",
       "source_file": "LMK_2005_12_0945.txt",
-      "similarity": 0.3960515558719635,
+      "similarity": 0.3960515856742859,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-08-11T10:29Z",
-      "source_file": "LMK_2009_11_1029.txt",
+      "datetime_utc": "2009-08-11T14:51Z",
+      "source_file": "LMK_2009_11_1451.txt",
       "similarity": 0.39305198192596436,
       "label": "severe_hail",
       "is_severe": true
@@ -35,13 +35,6 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-08-11T14:51Z",
-      "source_file": "LMK_2009_11_1451.txt",
-      "similarity": 0.39305198192596436,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2009-08-11T07:00Z",
       "source_file": "LMK_2009_11_0700.txt",
       "similarity": 0.39305198192596436,
@@ -49,30 +42,37 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2023-05-18T17:31Z",
-      "source_file": "LMK_2023_18_1731.txt",
-      "similarity": 0.39234888553619385,
-      "label": "flood",
-      "is_severe": false
+      "datetime_utc": "2009-08-11T10:29Z",
+      "source_file": "LMK_2009_11_1029.txt",
+      "similarity": 0.39305198192596436,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
       "datetime_utc": "2023-05-18T19:13Z",
       "source_file": "LMK_2023_18_1913_2.txt",
-      "similarity": 0.39234888553619385,
+      "similarity": 0.3923488259315491,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-10-25T08:23Z",
-      "source_file": "LMK_2004_25_0823_1.txt",
-      "similarity": 0.3905007541179657,
+      "datetime_utc": "2023-05-18T17:31Z",
+      "source_file": "LMK_2023_18_1731.txt",
+      "similarity": 0.3923488259315491,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-10-25T08:22Z",
+      "source_file": "LMK_2004_25_0822.txt",
+      "similarity": 0.39050066471099854,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-10-25T08:22Z",
       "source_file": "LMK_2004_25_0822_1.txt",
-      "similarity": 0.3905007541179657,
+      "similarity": 0.39050066471099854,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.3934201955795288,
+    "mean_similarity": 0.3934201657772064,
     "n_severe": 5,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202610181045-KLMK-FXUS63-AFDLMK",
-    "afd_time": "2026-10-18T10:45:00Z",
-    "updated": "2026-10-18T11:14:55.858070+00:00"
+    "product_id": "202610181330-KLMK-FXUS63-AFDLMK",
+    "afd_time": "2026-10-18T13:30:00Z",
+    "updated": "2026-10-18T14:41:33.883966+00:00"
   }
 }

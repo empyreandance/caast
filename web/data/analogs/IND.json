@@ -1,18 +1,11 @@
 {
   "office": "IND",
-  "product_id": "202610181036-KIND-FXUS63-AFDIND",
-  "afd_time": "2026-10-18T10:36:00Z",
+  "product_id": "202610181412-KIND-FXUS63-AFDIND",
+  "afd_time": "2026-10-18T14:12:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-18T11:14:55.858070+00:00",
+  "updated": "2026-10-18T14:41:33.883966+00:00",
   "query_preview": "(Today through Saturday)...\nIssued at 205 AM EDT Sun Oct 18 2026\n\nCurrent observations show low 30s to mid 30s dew points across \nthe area of which matches up with the ongoing forecast of near to \nbelow freezing temperatures over N/NE portions of central Indiana \nand widespread frost over the remain",
   "analogs": [
-    {
-      "datetime_utc": "2010-04-05T04:01Z",
-      "source_file": "IND_2010_05_0401.txt",
-      "similarity": 0.4486888647079468,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2010-04-04T23:52Z",
       "source_file": "IND_2010_04_2352.txt",
@@ -35,43 +28,50 @@
       "is_severe": true
     },
     {
+      "datetime_utc": "2010-04-05T04:01Z",
+      "source_file": "IND_2010_05_0401.txt",
+      "similarity": 0.4486888647079468,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2017-08-27T14:26Z",
       "source_file": "IND_2017_27_1426.txt",
-      "similarity": 0.4483349025249481,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-08-27T17:31Z",
-      "source_file": "IND_2017_27_1731.txt",
-      "similarity": 0.4483349025249481,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-08-27T08:48Z",
-      "source_file": "IND_2017_27_0848.txt",
-      "similarity": 0.4483349025249481,
+      "similarity": 0.44833487272262573,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-08-27T07:06Z",
       "source_file": "IND_2017_27_0706.txt",
-      "similarity": 0.4483349025249481,
+      "similarity": 0.44833487272262573,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-08-27T17:31Z",
+      "source_file": "IND_2017_27_1731.txt",
+      "similarity": 0.44833487272262573,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-08-27T08:48Z",
+      "source_file": "IND_2017_27_0848.txt",
+      "similarity": 0.44833487272262573,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-08-27T10:34Z",
       "source_file": "IND_2017_27_1034_1.txt",
-      "similarity": 0.4483349025249481,
+      "similarity": 0.44833487272262573,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2017-09-06T14:25Z",
-      "source_file": "IND_2017_06_1425.txt",
+      "datetime_utc": "2017-09-06T17:42Z",
+      "source_file": "IND_2017_06_1742.txt",
       "similarity": 0.4396314024925232,
       "label": "quiet",
       "is_severe": false
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.44760613739490507,
+    "mean_similarity": 0.4476061224937439,
     "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610181036-KIND-FXUS63-AFDIND",
-    "afd_time": "2026-10-18T10:36:00Z",
-    "updated": "2026-10-18T11:14:55.858070+00:00"
+    "product_id": "202610181412-KIND-FXUS63-AFDIND",
+    "afd_time": "2026-10-18T14:12:00Z",
+    "updated": "2026-10-18T14:41:33.883966+00:00"
   }
 }
