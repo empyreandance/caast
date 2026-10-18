@@ -1,78 +1,78 @@
 {
   "office": "ILX",
-  "product_id": "202610181100-KILX-FXUS63-AFDILX",
-  "afd_time": "2026-10-18T11:00:00Z",
+  "product_id": "202610181723-KILX-FXUS63-AFDILX",
+  "afd_time": "2026-10-18T17:23:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-18T11:14:55.858070+00:00",
+  "updated": "2026-10-18T18:12:11.278145+00:00",
   "query_preview": "..\nIssued at 300 AM CDT Sun Oct 18 2026\n\nThe 08Z/3 am surface analysis shows 1035 mb high pressure over\nthe upper Ohio river valley (southeast Ohio, western PA and\nnorthern WV) and ridging sw into the mid MS river valley\nincluding southeast IL. Nearby high pressure ridge providing\nclear skies across",
   "analogs": [
     {
       "datetime_utc": "2004-10-14T02:11Z",
       "source_file": "ILX_2004_14_0211.txt",
-      "similarity": 0.4950401186943054,
+      "similarity": 0.49504005908966064,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-04-25T11:24Z",
       "source_file": "ILX_2008_25_1124.txt",
-      "similarity": 0.4915671944618225,
+      "similarity": 0.49156713485717773,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-01-01T03:00Z",
+      "source_file": "ILX_2006_01_0300.txt",
+      "similarity": 0.4727950394153595,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-01-31T21:19Z",
       "source_file": "ILX_2006_31_2119.txt",
-      "similarity": 0.4727950692176819,
+      "similarity": 0.4727950394153595,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-01-01T03:00Z",
-      "source_file": "ILX_2006_01_0300.txt",
-      "similarity": 0.4727950692176819,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2013-04-14T04:35Z",
       "source_file": "ILX_2013_14_0435_1.txt",
-      "similarity": 0.46799397468566895,
+      "similarity": 0.46799391508102417,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-10-21T08:41Z",
-      "source_file": "ILX_2020_21_0841.txt",
-      "similarity": 0.4644443988800049,
+      "datetime_utc": "2020-10-21T10:47Z",
+      "source_file": "ILX_2020_21_1047.txt",
+      "similarity": 0.4644443392753601,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-10-21T17:59Z",
       "source_file": "ILX_2020_21_1759.txt",
-      "similarity": 0.4644443988800049,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-10-21T10:47Z",
-      "source_file": "ILX_2020_21_1047.txt",
-      "similarity": 0.4644443988800049,
+      "similarity": 0.4644443392753601,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-10-21T15:54Z",
       "source_file": "ILX_2020_21_1554.txt",
-      "similarity": 0.4644443988800049,
+      "similarity": 0.4644443392753601,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-11-05T17:47Z",
-      "source_file": "ILX_2008_05_1747.txt",
-      "similarity": 0.46392303705215454,
+      "datetime_utc": "2020-10-21T08:41Z",
+      "source_file": "ILX_2020_21_0841.txt",
+      "similarity": 0.4644443392753601,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-11-05T09:30Z",
+      "source_file": "ILX_2008_05_0930.txt",
+      "similarity": 0.463922917842865,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.47218920588493346,
+    "mean_similarity": 0.4721891462802887,
     "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610181100-KILX-FXUS63-AFDILX",
-    "afd_time": "2026-10-18T11:00:00Z",
-    "updated": "2026-10-18T11:14:55.858070+00:00"
+    "product_id": "202610181723-KILX-FXUS63-AFDILX",
+    "afd_time": "2026-10-18T17:23:00Z",
+    "updated": "2026-10-18T18:12:11.278145+00:00"
   }
 }
