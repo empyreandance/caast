@@ -1,91 +1,91 @@
 {
   "office": "PHI",
-  "product_id": "202610191020-KPHI-FXUS61-AFDPHI",
-  "afd_time": "2026-10-19T10:20:00Z",
+  "product_id": "202610191341-KPHI-FXUS61-AFDPHI",
+  "afd_time": "2026-10-19T13:41:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-19T10:50:49.331070+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...The Frost Advisory is no longer in effect.\n\nTemperatures are generally in the upper 30s, and winds are\nbeginning to increase. The threat for frost has ended. The Frost\nAdvisory is no longer in effect.\n\nHigh pressure extending from Maine down to Virginia. The \ncombination of clear ",
+  "updated": "2026-10-19T17:32:45.511865+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...A nor'easter well off the coast of the southern\nMid- Atlantic will bring coastal impacts and hazardous marine \nconditions through at least the middle of this week.\n\nAs an upper-trough continues to shift eastward away from the \nEastern Seaboard, a portion of it has become cutoff fr",
   "analogs": [
     {
       "datetime_utc": "2012-10-25T20:24Z",
       "source_file": "PHI_2012_25_2024.txt",
-      "similarity": 0.7012971639633179,
+      "similarity": 0.7028441429138184,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-05-19T02:07Z",
       "source_file": "PHI_2018_19_0207.txt",
-      "similarity": 0.6178181171417236,
+      "similarity": 0.6428209543228149,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-07-23T07:26Z",
+      "source_file": "PHI_2017_23_0726.txt",
+      "similarity": 0.5453526973724365,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-10-31T17:28Z",
       "source_file": "PHI_2011_31_1728.txt",
-      "similarity": 0.5388950705528259,
+      "similarity": 0.5415477752685547,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-10-31T12:57Z",
       "source_file": "PHI_2011_31_1257.txt",
-      "similarity": 0.5356611013412476,
+      "similarity": 0.5411393642425537,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-10-31T07:22Z",
       "source_file": "PHI_2011_31_0722.txt",
-      "similarity": 0.5356611013412476,
+      "similarity": 0.5411393642425537,
       "label": "quiet",
       "is_severe": false
     },
     {
+      "datetime_utc": "2017-05-25T14:04Z",
+      "source_file": "PHI_2017_25_1404.txt",
+      "similarity": 0.5279922485351562,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2017-05-25T16:44Z",
       "source_file": "PHI_2017_25_1644.txt",
-      "similarity": 0.5335443019866943,
+      "similarity": 0.5279922485351562,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-05-25T18:17Z",
       "source_file": "PHI_2017_25_1817.txt",
-      "similarity": 0.5335443019866943,
+      "similarity": 0.5279922485351562,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2017-05-25T14:04Z",
-      "source_file": "PHI_2017_25_1404.txt",
-      "similarity": 0.5335443019866943,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-07-23T07:26Z",
-      "source_file": "PHI_2017_23_0726.txt",
-      "similarity": 0.5320020914077759,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-05-11T01:12Z",
-      "source_file": "PHI_2009_11_0112.txt",
-      "similarity": 0.5117589831352234,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2006-02-18T08:44Z",
+      "source_file": "PHI_2006_18_0844.txt",
+      "similarity": 0.5229877829551697,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.5573726534843445,
-    "n_severe": 7,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.562180882692337,
+    "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.56 below confidence floor 0.7",
-    "product_id": "202610191020-KPHI-FXUS61-AFDPHI",
-    "afd_time": "2026-10-19T10:20:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191341-KPHI-FXUS61-AFDPHI",
+    "afd_time": "2026-10-19T13:41:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   }
 }

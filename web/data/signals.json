@@ -2,14 +2,14 @@
   "AFC": {
     "level": "QUIET",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.9802923142910004,
+    "mean_similarity": 0.9802918493747711,
     "base_rate": null,
     "signal_value": -0.3,
     "n_severe": 2,
     "n_total": 10,
-    "product_id": "202610182340-PAFC-FXAK68-AFDAFC",
-    "afd_time": "2026-10-18T23:40:00Z",
-    "updated": "2026-10-19T04:48:05.366816+00:00"
+    "product_id": "202610191356-PAFC-FXAK68-AFDAFC",
+    "afd_time": "2026-10-19T13:56:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "APX": {
     "level": "LOW",
@@ -26,14 +26,14 @@
   "BIS": {
     "level": "QUIET",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.7460855484008789,
+    "mean_similarity": 0.7460854232311249,
     "base_rate": 0.4123534834716186,
     "signal_value": -0.3123534834716186,
     "n_severe": 1,
     "n_total": 10,
-    "product_id": "202610190948-KBIS-FXUS63-AFDBIS",
-    "afd_time": "2026-10-19T09:48:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191156-KBIS-FXUS63-AFDBIS",
+    "afd_time": "2026-10-19T11:56:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "CHS": {
     "level": "INSUFFICIENT_MATCH",
@@ -61,26 +61,26 @@
   "CYS": {
     "level": "LOW",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.8391412377357483,
+    "mean_similarity": 0.8391412734985352,
     "base_rate": 0.5068515384080318,
     "signal_value": -0.10685153840803174,
     "n_severe": 4,
     "n_total": 10,
-    "product_id": "202610190900-KCYS-FXUS65-AFDCYS",
-    "afd_time": "2026-10-19T09:00:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191131-KCYS-FXUS65-AFDCYS",
+    "afd_time": "2026-10-19T11:31:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "DVN": {
     "level": "LOW",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.749649852514267,
+    "mean_similarity": 0.7464470267295837,
     "base_rate": 0.5891806247170666,
     "signal_value": 0.1108193752829334,
     "n_severe": 7,
     "n_total": 10,
-    "product_id": "202610191001-KDVN-FXUS63-AFDDVN",
-    "afd_time": "2026-10-19T10:01:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191732-KDVN-FXUS63-AFDDVN",
+    "afd_time": "2026-10-19T17:32:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "FFC": {
     "level": "LOW",
@@ -118,16 +118,15 @@
     "updated": "2026-10-19T10:50:49.331070+00:00"
   },
   "HFO": {
-    "level": "QUIET",
+    "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.0,
-    "mean_similarity": 0.7092318594455719,
-    "base_rate": null,
-    "signal_value": -0.5,
+    "mean_similarity": 0.669540411233902,
     "n_severe": 0,
     "n_total": 10,
-    "product_id": "202610190108-PHFO-FXHW60-AFDHFO",
-    "afd_time": "2026-10-19T01:08:00Z",
-    "updated": "2026-10-19T04:48:05.366816+00:00"
+    "reason": "top-10 mean similarity 0.67 below confidence floor 0.7",
+    "product_id": "202610191333-PHFO-FXHW60-AFDHFO",
+    "afd_time": "2026-10-19T13:33:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "HGX": {
     "level": "QUIET",
@@ -156,25 +155,26 @@
   "JAN": {
     "level": "LOW",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.9029724597930908,
+    "mean_similarity": 0.9029722273349762,
     "base_rate": 0.7026448991231197,
     "signal_value": -0.002644899123119715,
     "n_severe": 7,
     "n_total": 10,
-    "product_id": "202610190834-KJAN-FXUS64-AFDJAN",
-    "afd_time": "2026-10-19T08:34:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191724-KJAN-FXUS64-AFDJAN-AAA",
+    "afd_time": "2026-10-19T17:24:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "JAX": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.8,
-    "mean_similarity": 0.6412582337856293,
-    "n_severe": 8,
+    "level": "MODERATE",
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.7509956240653992,
+    "base_rate": 0.6786311634441694,
+    "signal_value": 0.22136883655583062,
+    "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.64 below confidence floor 0.7",
-    "product_id": "202610190638-KJAX-FXUS62-AFDJAX",
-    "afd_time": "2026-10-19T06:38:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191721-KJAX-FXUS62-AFDJAX",
+    "afd_time": "2026-10-19T17:21:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "LIX": {
     "level": "INSUFFICIENT_MATCH",
@@ -189,15 +189,15 @@
   },
   "LWX": {
     "level": "LOW",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.734907066822052,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.7862071096897125,
     "base_rate": 0.5958263093646458,
-    "signal_value": 0.004173690635354221,
-    "n_severe": 6,
+    "signal_value": 0.1041736906353542,
+    "n_severe": 7,
     "n_total": 10,
-    "product_id": "202610190747-KLWX-FXUS61-AFDLWX",
-    "afd_time": "2026-10-19T07:47:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191426-KLWX-FXUS61-AFDLWX",
+    "afd_time": "2026-10-19T14:26:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "MHX": {
     "level": "LOW",
@@ -214,72 +214,73 @@
   "MKX": {
     "level": "LOW",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.8765629708766938,
+    "mean_similarity": 0.87656289935112,
     "base_rate": 0.5278065630397236,
     "signal_value": 0.07219343696027636,
     "n_severe": 6,
     "n_total": 10,
-    "product_id": "202610190529-KMKX-FXUS63-AFDMKX",
-    "afd_time": "2026-10-19T05:29:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191153-KMKX-FXUS63-AFDMKX",
+    "afd_time": "2026-10-19T11:53:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "MPX": {
     "level": "LOW",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.8126773655414581,
+    "mean_similarity": 0.8126772165298461,
     "base_rate": 0.5050053904204528,
     "signal_value": 0.39499460957954724,
     "n_severe": 9,
     "n_total": 10,
-    "product_id": "202610190813-KMPX-FXUS63-AFDMPX",
-    "afd_time": "2026-10-19T08:13:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191724-KMPX-FXUS63-AFDMPX",
+    "afd_time": "2026-10-19T17:24:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "OHX": {
-    "level": "LOW",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.710442042350769,
+    "level": "MODERATE",
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.865077406167984,
     "base_rate": 0.6326029281713668,
-    "signal_value": -0.032602928171366785,
-    "n_severe": 6,
+    "signal_value": 0.16739707182863328,
+    "n_severe": 8,
     "n_total": 10,
-    "product_id": "202610190538-KOHX-FXUS64-AFDOHX",
-    "afd_time": "2026-10-19T05:38:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191714-KOHX-FXUS64-AFDOHX",
+    "afd_time": "2026-10-19T17:14:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "PHI": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.5573726534843445,
-    "n_severe": 7,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.562180882692337,
+    "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.56 below confidence floor 0.7",
-    "product_id": "202610191020-KPHI-FXUS61-AFDPHI",
-    "afd_time": "2026-10-19T10:20:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191341-KPHI-FXUS61-AFDPHI",
+    "afd_time": "2026-10-19T13:41:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "RAH": {
     "level": "QUIET",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.7119314253330231,
+    "mean_similarity": 0.7119310140609741,
     "base_rate": 0.6150294094163362,
     "signal_value": -0.4150294094163362,
     "n_severe": 2,
     "n_total": 10,
-    "product_id": "202610191020-KRAH-FXUS62-AFDRAH",
-    "afd_time": "2026-10-19T10:20:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191640-KRAH-FXUS62-AFDRAH",
+    "afd_time": "2026-10-19T16:40:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "SGX": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.6139971077442169,
-    "n_severe": 3,
+    "level": "LOW",
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.9981220006942749,
+    "base_rate": 0.24531994822742054,
+    "signal_value": -0.045319948227420526,
+    "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.61 below confidence floor 0.7",
-    "product_id": "202610190601-KSGX-FXUS66-AFDSGX",
-    "afd_time": "2026-10-19T06:01:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191145-KSGX-FXUS66-AFDSGX",
+    "afd_time": "2026-10-19T11:45:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "TAE": {
     "level": "MODERATE",
@@ -296,147 +297,147 @@
   "TBW": {
     "level": "MODERATE",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.9032543480396271,
+    "mean_similarity": 0.9032543182373047,
     "base_rate": 0.6272938636552354,
     "signal_value": 0.17270613634476462,
     "n_severe": 8,
     "n_total": 10,
-    "product_id": "202610190657-KTBW-FXUS62-AFDTBW",
-    "afd_time": "2026-10-19T06:57:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191108-KTBW-FXUS62-AFDTBW",
+    "afd_time": "2026-10-19T11:08:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "UNR": {
     "level": "LOW",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.7041641891002655,
+    "mean_similarity": 0.7041641175746918,
     "base_rate": 0.4636352927317705,
     "signal_value": -0.16363529273177052,
     "n_severe": 3,
     "n_total": 10,
-    "product_id": "202610190453-KUNR-FXUS63-AFDUNR",
-    "afd_time": "2026-10-19T04:53:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191712-KUNR-FXUS63-AFDUNR",
+    "afd_time": "2026-10-19T17:12:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "BOX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.38277464509010317,
+    "mean_similarity": 0.38277457356452943,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610190817-KBOX-FXUS61-AFDBOX",
-    "afd_time": "2026-10-19T08:17:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191141-KBOX-FXUS61-AFDBOX",
+    "afd_time": "2026-10-19T11:41:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "LBF": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.4970575451850891,
+    "mean_similarity": 0.49705742597579955,
     "n_severe": 1,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202610190828-KLBF-FXUS63-AFDLBF",
-    "afd_time": "2026-10-19T08:28:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191715-KLBF-FXUS63-AFDLBF",
+    "afd_time": "2026-10-19T17:15:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "GJT": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.4271428406238556,
+    "mean_similarity": 0.42714275121688844,
     "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610190518-KGJT-FXUS65-AFDGJT",
-    "afd_time": "2026-10-19T05:18:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191117-KGJT-FXUS65-AFDGJT",
+    "afd_time": "2026-10-19T11:17:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "JKL": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.3864733844995499,
+    "mean_similarity": 0.38647328317165375,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202610190840-KJKL-FXUS63-AFDJKL",
-    "afd_time": "2026-10-19T08:40:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191730-KJKL-FXUS63-AFDJKL",
+    "afd_time": "2026-10-19T17:30:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "LSX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.3750669836997986,
+    "mean_similarity": 0.3750667691230774,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610190748-KLSX-FXUS63-AFDLSX",
-    "afd_time": "2026-10-19T07:48:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191708-KLSX-FXUS63-AFDLSX",
+    "afd_time": "2026-10-19T17:08:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "AMA": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.5013887882232666,
+    "mean_similarity": 0.5013887047767639,
     "n_severe": 1,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202610190504-KAMA-FXUS64-AFDAMA",
-    "afd_time": "2026-10-19T05:04:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191156-KAMA-FXUS64-AFDAMA",
+    "afd_time": "2026-10-19T11:56:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "BGM": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.3704522609710693,
-    "n_severe": 7,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.3507610738277435,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
-    "product_id": "202610191026-KBGM-FXUS61-AFDBGM",
-    "afd_time": "2026-10-19T10:26:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
+    "product_id": "202610191730-KBGM-FXUS61-AFDBGM",
+    "afd_time": "2026-10-19T17:30:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "LOT": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.34256487488746645,
-    "n_severe": 4,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.3595126658678055,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.34 below confidence floor 0.7",
-    "product_id": "202610190635-KLOT-FXUS63-AFDLOT",
-    "afd_time": "2026-10-19T06:35:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
+    "product_id": "202610191723-KLOT-FXUS63-AFDLOT",
+    "afd_time": "2026-10-19T17:23:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "ABQ": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.43094398975372317,
+    "mean_similarity": 0.4309440106153488,
     "n_severe": 2,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610190800-KABQ-FXUS65-AFDABQ",
-    "afd_time": "2026-10-19T08:00:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191719-KABQ-FXUS65-AFDABQ-AAB",
+    "afd_time": "2026-10-19T17:19:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "ABR": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.497163450717926,
+    "mean_similarity": 0.49716331362724303,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202610190618-KABR-FXUS63-AFDABR",
-    "afd_time": "2026-10-19T06:18:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191716-KABR-FXUS63-AFDABR-AAC",
+    "afd_time": "2026-10-19T17:16:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "AJK": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.0,
-    "mean_similarity": 0.4409550279378891,
+    "mean_similarity": 0.4409549832344055,
     "n_severe": 0,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610190457-PAJK-FXAK67-AFDAJK",
-    "afd_time": "2026-10-19T04:57:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191416-PAJK-FXAK67-AFDAJK",
+    "afd_time": "2026-10-19T14:16:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "AKQ": {
     "level": "INSUFFICIENT_MATCH",
@@ -452,266 +453,266 @@
   "ALY": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.3335270345211029,
+    "mean_similarity": 0.40250965654850007,
     "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.33 below confidence floor 0.7",
-    "product_id": "202610191045-KALY-FXUS61-AFDALY",
-    "afd_time": "2026-10-19T10:45:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202610191727-KALY-FXUS61-AFDALY",
+    "afd_time": "2026-10-19T17:27:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "ARX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.4463178664445877,
+    "mean_similarity": 0.465142148733139,
     "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610190555-KARX-FXUS63-AFDARX",
-    "afd_time": "2026-10-19T05:55:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
+    "product_id": "202610191700-KARX-FXUS63-AFDARX",
+    "afd_time": "2026-10-19T17:00:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "BMX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.3335433006286621,
+    "mean_similarity": 0.33354308009147643,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.33 below confidence floor 0.7",
-    "product_id": "202610190543-KBMX-FXUS64-AFDBMX",
-    "afd_time": "2026-10-19T05:43:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191150-KBMX-FXUS64-AFDBMX",
+    "afd_time": "2026-10-19T11:50:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "BOI": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.46574180424213407,
-    "n_severe": 4,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.4620277345180511,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610190954-KBOI-FXUS65-AFDBOI",
-    "afd_time": "2026-10-19T09:54:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202610191617-KBOI-FXUS65-AFDBOI",
+    "afd_time": "2026-10-19T16:17:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "BOU": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.37522816061973574,
+    "mean_similarity": 0.3752281337976456,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610190547-KBOU-FXUS65-AFDBOU",
-    "afd_time": "2026-10-19T05:47:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191133-KBOU-FXUS65-AFDBOU",
+    "afd_time": "2026-10-19T11:33:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "BRO": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.44530395567417147,
-    "n_severe": 0,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.46918690502643584,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610191049-KBRO-FXUS64-AFDBRO-AAA",
-    "afd_time": "2026-10-19T10:49:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
+    "product_id": "202610191710-KBRO-FXUS64-AFDBRO",
+    "afd_time": "2026-10-19T17:10:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "BTV": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.43417546451091765,
+    "mean_similarity": 0.43417492508888245,
     "n_severe": 5,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610190701-KBTV-FXUS61-AFDBTV",
-    "afd_time": "2026-10-19T07:01:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191104-KBTV-FXUS61-AFDBTV",
+    "afd_time": "2026-10-19T11:04:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "BUF": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.4284841626882553,
-    "n_severe": 5,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.44628307819366453,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610191015-KBUF-FXUS61-AFDBUF",
-    "afd_time": "2026-10-19T10:15:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202610191706-KBUF-FXUS61-AFDBUF",
+    "afd_time": "2026-10-19T17:06:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "BYZ": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.43460380733013154,
+    "mean_similarity": 0.43460378646850584,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610190657-KBYZ-FXUS65-AFDBYZ",
-    "afd_time": "2026-10-19T06:57:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191526-KBYZ-FXUS65-AFDBYZ",
+    "afd_time": "2026-10-19T15:26:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "CAE": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.8,
-    "mean_similarity": 0.4140907943248749,
-    "n_severe": 8,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.4027895450592041,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202610190604-KCAE-FXUS62-AFDCAE",
-    "afd_time": "2026-10-19T06:04:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202610191659-KCAE-FXUS62-AFDCAE",
+    "afd_time": "2026-10-19T16:59:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "CAR": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 1.0,
-    "mean_similarity": 0.5160489797592163,
-    "n_severe": 10,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.4483990252017975,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.52 below confidence floor 0.7",
-    "product_id": "202610190548-KCAR-FXUS61-AFDCAR-CCA",
-    "afd_time": "2026-10-19T05:48:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202610191729-KCAR-FXUS61-AFDCAR",
+    "afd_time": "2026-10-19T17:29:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "CLE": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.43384026288986205,
+    "mean_similarity": 0.43384021818637847,
     "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610190600-KCLE-FXUS61-AFDCLE",
-    "afd_time": "2026-10-19T06:00:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191116-KCLE-FXUS61-AFDCLE",
+    "afd_time": "2026-10-19T11:16:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "CRP": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.5409978687763214,
+    "mean_similarity": 0.5409976601600647,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.54 below confidence floor 0.7",
-    "product_id": "202610190733-KCRP-FXUS64-AFDCRP",
-    "afd_time": "2026-10-19T07:33:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191122-KCRP-FXUS64-AFDCRP",
+    "afd_time": "2026-10-19T11:22:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "DDC": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.45285819470882416,
-    "n_severe": 1,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.47653659582138064,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610190940-KDDC-FXUS63-AFDDDC",
-    "afd_time": "2026-10-19T09:40:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
+    "product_id": "202610191707-KDDC-FXUS63-AFDDDC",
+    "afd_time": "2026-10-19T17:07:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "DLH": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.43115138113498686,
+    "mean_similarity": 0.4311510533094406,
     "n_severe": 2,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610190724-KDLH-FXUS63-AFDDLH",
-    "afd_time": "2026-10-19T07:24:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191717-KDLH-FXUS63-AFDDLH",
+    "afd_time": "2026-10-19T17:17:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "DMX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.5138905823230744,
+    "mean_similarity": 0.5138905942440033,
     "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
-    "product_id": "202610191015-KDMX-FXUS63-AFDDMX",
-    "afd_time": "2026-10-19T10:15:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191721-KDMX-FXUS63-AFDDMX",
+    "afd_time": "2026-10-19T17:21:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "DTX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.4140266329050064,
+    "mean_similarity": 0.4140264481306076,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202610190845-KDTX-FXUS63-AFDDTX",
-    "afd_time": "2026-10-19T08:45:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191718-KDTX-FXUS63-AFDDTX",
+    "afd_time": "2026-10-19T17:18:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "EAX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.4184482038021088,
+    "mean_similarity": 0.4184481561183929,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202610190729-KEAX-FXUS63-AFDEAX",
-    "afd_time": "2026-10-19T07:29:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191715-KEAX-FXUS63-AFDEAX",
+    "afd_time": "2026-10-19T17:15:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "EPZ": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.46840810775756836,
+    "mean_similarity": 0.46840802431106565,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610190419-KEPZ-FXUS64-AFDEPZ",
-    "afd_time": "2026-10-19T04:19:00Z",
-    "updated": "2026-10-19T04:48:05.366816+00:00"
+    "product_id": "202610191155-KEPZ-FXUS64-AFDEPZ",
+    "afd_time": "2026-10-19T11:55:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "EWX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.52601860165596,
+    "mean_similarity": 0.5260184228420257,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.53 below confidence floor 0.7",
-    "product_id": "202610190640-KEWX-FXUS64-AFDEWX",
-    "afd_time": "2026-10-19T06:40:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191705-KEWX-FXUS64-AFDEWX",
+    "afd_time": "2026-10-19T17:05:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "FGF": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.5045135408639908,
+    "mean_similarity": 0.5045131117105484,
     "n_severe": 1,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202610190430-KFGF-FXUS63-AFDFGF",
-    "afd_time": "2026-10-19T04:30:00Z",
-    "updated": "2026-10-19T04:48:05.366816+00:00"
+    "product_id": "202610191711-KFGF-FXUS63-AFDFGF",
+    "afd_time": "2026-10-19T17:11:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "FGZ": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.46717957258224485,
+    "mean_similarity": 0.46587908267974854,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610190955-KFGZ-FXUS65-AFDFGZ",
-    "afd_time": "2026-10-19T09:55:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191721-KFGZ-FXUS65-AFDFGZ",
+    "afd_time": "2026-10-19T17:21:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "FSD": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.51227205991745,
+    "mean_similarity": 0.512271785736084,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
-    "product_id": "202610191045-KFSD-FXUS63-AFDFSD",
-    "afd_time": "2026-10-19T10:45:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191725-KFSD-FXUS63-AFDFSD",
+    "afd_time": "2026-10-19T17:25:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "FWD": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.438850075006485,
+    "mean_similarity": 0.4388500839471817,
     "n_severe": 1,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610190441-KFWD-FXUS64-AFDFWD",
-    "afd_time": "2026-10-19T04:41:00Z",
-    "updated": "2026-10-19T04:48:05.366816+00:00"
+    "product_id": "202610191059-KFWD-FXUS64-AFDFWD",
+    "afd_time": "2026-10-19T10:59:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "GGW": {
     "level": "INSUFFICIENT_MATCH",
@@ -727,46 +728,46 @@
   "GID": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.48240811228752134,
+    "mean_similarity": 0.4824080467224121,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202610190746-KGID-FXUS63-AFDGID",
-    "afd_time": "2026-10-19T07:46:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191729-KGID-FXUS63-AFDGID",
+    "afd_time": "2026-10-19T17:29:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "GLD": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.43967253565788267,
+    "mean_similarity": 0.4396723657846451,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610190826-KGLD-FXUS63-AFDGLD",
-    "afd_time": "2026-10-19T08:26:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191106-KGLD-FXUS63-AFDGLD",
+    "afd_time": "2026-10-19T11:06:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "GRB": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.4382950484752655,
+    "mean_similarity": 0.43829524517059326,
     "n_severe": 2,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610190516-KGRB-FXUS63-AFDGRB",
-    "afd_time": "2026-10-19T05:16:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191103-KGRB-FXUS63-AFDGRB",
+    "afd_time": "2026-10-19T11:03:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "GRR": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.44122845530509947,
+    "mean_similarity": 0.4412283420562744,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610190537-KGRR-FXUS63-AFDGRR",
-    "afd_time": "2026-10-19T05:37:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191723-KGRR-FXUS63-AFDGRR",
+    "afd_time": "2026-10-19T17:23:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "GUM": {
     "level": "INSUFFICIENT_MATCH",
@@ -782,35 +783,35 @@
   "HNX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.0,
-    "mean_similarity": 0.4685777276754379,
+    "mean_similarity": 0.4685775488615036,
     "n_severe": 0,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610190455-KHNX-FXUS66-AFDHNX",
-    "afd_time": "2026-10-19T04:55:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191136-KHNX-FXUS66-AFDHNX",
+    "afd_time": "2026-10-19T11:36:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "HUN": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.2932499051094055,
+    "mean_similarity": 0.29324963688850403,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.29 below confidence floor 0.7",
-    "product_id": "202610191040-KHUN-FXUS64-AFDHUN",
-    "afd_time": "2026-10-19T10:40:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191502-KHUN-FXUS64-AFDHUN",
+    "afd_time": "2026-10-19T15:02:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "ICT": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.4682913303375244,
+    "mean_similarity": 0.4682912856340408,
     "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610190849-KICT-FXUS63-AFDICT",
-    "afd_time": "2026-10-19T08:49:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191730-KICT-FXUS63-AFDICT",
+    "afd_time": "2026-10-19T17:30:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "ILN": {
     "level": "INSUFFICIENT_MATCH",
@@ -826,57 +827,57 @@
   "ILX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.4165858060121536,
+    "mean_similarity": 0.41658576428890226,
     "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202610190841-KILX-FXUS63-AFDILX",
-    "afd_time": "2026-10-19T08:41:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191722-KILX-FXUS63-AFDILX",
+    "afd_time": "2026-10-19T17:22:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "IND": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.45083759129047396,
+    "mean_similarity": 0.45083764791488645,
     "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610190630-KIND-FXUS63-AFDIND",
-    "afd_time": "2026-10-19T06:30:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191433-KIND-FXUS63-AFDIND",
+    "afd_time": "2026-10-19T14:33:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "IWX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.4186752408742905,
+    "mean_similarity": 0.4186750531196594,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202610190927-KIWX-FXUS63-AFDIWX",
-    "afd_time": "2026-10-19T09:27:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191700-KIWX-FXUS63-AFDIWX",
+    "afd_time": "2026-10-19T17:00:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "KEY": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.381130251288414,
-    "n_severe": 2,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.3647530317306519,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610190814-KKEY-FXUS62-AFDKEY",
-    "afd_time": "2026-10-19T08:14:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
+    "product_id": "202610191451-KKEY-FXUS62-AFDKEY",
+    "afd_time": "2026-10-19T14:51:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "LCH": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.0,
-    "mean_similarity": 0.4255096346139908,
+    "mean_similarity": 0.4255092442035675,
     "n_severe": 0,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610190511-KLCH-FXUS64-AFDLCH",
-    "afd_time": "2026-10-19T05:11:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191716-KLCH-FXUS64-AFDLCH",
+    "afd_time": "2026-10-19T17:16:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "LKN": {
     "level": "INSUFFICIENT_MATCH",
@@ -892,134 +893,134 @@
   "LMK": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.0,
-    "mean_similarity": 0.39052661657333376,
+    "mean_similarity": 0.39052665829658506,
     "n_severe": 0,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202610190656-KLMK-FXUS63-AFDLMK",
-    "afd_time": "2026-10-19T06:56:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191052-KLMK-FXUS63-AFDLMK",
+    "afd_time": "2026-10-19T10:52:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "LOX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.5076383948326111,
+    "mean_similarity": 0.5229271590709687,
     "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
-    "product_id": "202610190946-KLOX-FXUS66-AFDLOX",
-    "afd_time": "2026-10-19T09:46:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.52 below confidence floor 0.7",
+    "product_id": "202610191703-KLOX-FXUS66-AFDLOX",
+    "afd_time": "2026-10-19T17:03:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "LUB": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.4512710154056549,
-    "n_severe": 4,
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.4854190409183502,
+    "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610190507-KLUB-FXUS64-AFDLUB",
-    "afd_time": "2026-10-19T05:07:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
+    "product_id": "202610191704-KLUB-FXUS64-AFDLUB",
+    "afd_time": "2026-10-19T17:04:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "LZK": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.3842850625514984,
+    "mean_similarity": 0.3842848718166351,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610190600-KLZK-FXUS64-AFDLZK",
-    "afd_time": "2026-10-19T06:00:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191710-KLZK-FXUS64-AFDLZK",
+    "afd_time": "2026-10-19T17:10:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "MAF": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.3894995659589767,
+    "mean_similarity": 0.38949944376945494,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202610190705-KMAF-FXUS64-AFDMAF",
-    "afd_time": "2026-10-19T07:05:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191658-KMAF-FXUS64-AFDMAF",
+    "afd_time": "2026-10-19T16:58:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "MEG": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.3641791999340057,
-    "n_severe": 5,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.31357508301734927,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
-    "product_id": "202610190407-KMEG-FXUS64-AFDMEG",
-    "afd_time": "2026-10-19T04:07:00Z",
-    "updated": "2026-10-19T04:48:05.366816+00:00"
+    "reason": "top-10 mean similarity 0.31 below confidence floor 0.7",
+    "product_id": "202610191659-KMEG-FXUS64-AFDMEG",
+    "afd_time": "2026-10-19T16:59:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "MFL": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.0,
-    "mean_similarity": 0.4332042157649994,
+    "mean_similarity": 0.43320407569408415,
     "n_severe": 0,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610190539-KMFL-FXUS62-AFDMFL",
-    "afd_time": "2026-10-19T05:39:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191715-KMFL-FXUS62-AFDMFL",
+    "afd_time": "2026-10-19T17:15:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "MFR": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.45436702072620394,
+    "mean_similarity": 0.45436697006225585,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610191035-KMFR-FXUS66-AFDMFR",
-    "afd_time": "2026-10-19T10:35:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191146-KMFR-FXUS66-AFDMFR",
+    "afd_time": "2026-10-19T11:46:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "MLB": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.31738400757312774,
+    "mean_similarity": 0.31738377213478086,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.32 below confidence floor 0.7",
-    "product_id": "202610190630-KMLB-FXUS62-AFDMLB",
-    "afd_time": "2026-10-19T06:30:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191100-KMLB-FXUS62-AFDMLB",
+    "afd_time": "2026-10-19T11:00:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "MOB": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.35851365327835083,
-    "n_severe": 5,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.3013191998004913,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
-    "product_id": "202610190736-KMOB-FXUS64-AFDMOB",
-    "afd_time": "2026-10-19T07:36:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.30 below confidence floor 0.7",
+    "product_id": "202610191614-KMOB-FXUS64-AFDMOB",
+    "afd_time": "2026-10-19T16:14:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "MQT": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.3871257871389389,
+    "mean_similarity": 0.3871253073215485,
     "n_severe": 2,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202610190701-KMQT-FXUS63-AFDMQT",
-    "afd_time": "2026-10-19T07:01:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191055-KMQT-FXUS63-AFDMQT",
+    "afd_time": "2026-10-19T10:55:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "MRX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.35716010332107545,
+    "mean_similarity": 0.3571599870920181,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
-    "product_id": "202610190537-KMRX-FXUS64-AFDMRX",
-    "afd_time": "2026-10-19T05:37:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191124-KMRX-FXUS64-AFDMRX",
+    "afd_time": "2026-10-19T11:24:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "MSO": {
     "level": "INSUFFICIENT_MATCH",
@@ -1035,123 +1036,123 @@
   "MTR": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.0,
-    "mean_similarity": 0.4936474531888962,
+    "mean_similarity": 0.4936474233865738,
     "n_severe": 0,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
-    "product_id": "202610190719-KMTR-FXUS66-AFDMTR",
-    "afd_time": "2026-10-19T07:19:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191610-KMTR-FXUS66-AFDMTR",
+    "afd_time": "2026-10-19T16:10:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "OAX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.5004778504371643,
+    "mean_similarity": 0.5107091546058655,
     "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202610190554-KOAX-FXUS63-AFDOAX",
-    "afd_time": "2026-10-19T05:54:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
+    "product_id": "202610191725-KOAX-FXUS63-AFDOAX",
+    "afd_time": "2026-10-19T17:25:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "OTX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.3717611342668533,
+    "mean_similarity": 0.37176104784011843,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
-    "product_id": "202610190810-KOTX-FXUS66-AFDOTX",
-    "afd_time": "2026-10-19T08:10:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191134-KOTX-FXUS66-AFDOTX",
+    "afd_time": "2026-10-19T11:34:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "OUN": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.36839965283870696,
+    "mean_similarity": 0.3683996707201004,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
-    "product_id": "202610191016-KOUN-FXUS64-AFDOUN",
-    "afd_time": "2026-10-19T10:16:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191702-KOUN-FXUS64-AFDOUN",
+    "afd_time": "2026-10-19T17:02:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "PAH": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.30264782905578613,
+    "mean_similarity": 0.3026478707790375,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.30 below confidence floor 0.7",
-    "product_id": "202610190535-KPAH-FXUS63-AFDPAH",
-    "afd_time": "2026-10-19T05:35:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191054-KPAH-FXUS63-AFDPAH",
+    "afd_time": "2026-10-19T10:54:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "PBZ": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.45305198431015015,
+    "mean_similarity": 0.4293448984622955,
     "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610190500-KPBZ-FXUS61-AFDPBZ",
-    "afd_time": "2026-10-19T05:00:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202610191716-KPBZ-FXUS61-AFDPBZ",
+    "afd_time": "2026-10-19T17:16:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "PDT": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.3820203185081482,
+    "mean_similarity": 0.3812441825866699,
     "n_severe": 5,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610191017-KPDT-FXUS66-AFDPDT",
-    "afd_time": "2026-10-19T10:17:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191725-KPDT-FXUS66-AFDPDT",
+    "afd_time": "2026-10-19T17:25:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "PIH": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.41307606995105745,
+    "mean_similarity": 0.4130761384963989,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202610190705-KPIH-FXUS65-AFDPIH",
-    "afd_time": "2026-10-19T07:05:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191723-KPIH-FXUS65-AFDPIH",
+    "afd_time": "2026-10-19T17:23:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "PQR": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.3560177683830261,
-    "n_severe": 1,
+    "severe_fraction": 0.0,
+    "mean_similarity": 0.44189231991767886,
+    "n_severe": 0,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
-    "product_id": "202610190445-KPQR-FXUS66-AFDPQR",
-    "afd_time": "2026-10-19T04:45:00Z",
-    "updated": "2026-10-19T04:48:05.366816+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202610191221-KPQR-FXUS66-AFDPQR-AAA",
+    "afd_time": "2026-10-19T12:21:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "PSR": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.4421579360961914,
+    "mean_similarity": 0.44215805232524874,
     "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610190906-KPSR-FXUS65-AFDPSR",
-    "afd_time": "2026-10-19T09:06:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191109-KPSR-FXUS65-AFDPSR",
+    "afd_time": "2026-10-19T11:09:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "PUB": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.24851202219724655,
+    "mean_similarity": 0.24851196706295015,
     "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.25 below confidence floor 0.7",
-    "product_id": "202610190716-KPUB-FXUS65-AFDPUB",
-    "afd_time": "2026-10-19T07:16:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191116-KPUB-FXUS65-AFDPUB",
+    "afd_time": "2026-10-19T11:16:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "REV": {
     "level": "INSUFFICIENT_MATCH",
@@ -1167,79 +1168,79 @@
   "RIW": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.4257043361663818,
+    "mean_similarity": 0.4257042855024338,
     "n_severe": 5,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610191036-KRIW-FXUS65-AFDRIW",
-    "afd_time": "2026-10-19T10:36:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191501-KRIW-FXUS65-AFDRIW",
+    "afd_time": "2026-10-19T15:01:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "RLX": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.4129518210887909,
+    "mean_similarity": 0.41295168697834017,
     "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202610190911-KRLX-FXUS61-AFDRLX",
-    "afd_time": "2026-10-19T09:11:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191254-KRLX-FXUS61-AFDRLX",
+    "afd_time": "2026-10-19T12:54:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "RNK": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.3866898238658905,
+    "mean_similarity": 0.324053218960762,
     "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202610191026-KRNK-FXUS61-AFDRNK",
-    "afd_time": "2026-10-19T10:26:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.32 below confidence floor 0.7",
+    "product_id": "202610191723-KRNK-FXUS61-AFDRNK",
+    "afd_time": "2026-10-19T17:23:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "SEW": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.4670127838850021,
+    "mean_similarity": 0.46701269745826723,
     "n_severe": 5,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610191002-KSEW-FXUS66-AFDSEW",
-    "afd_time": "2026-10-19T10:02:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191524-KSEW-FXUS66-AFDSEW-AAC",
+    "afd_time": "2026-10-19T15:24:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "SGF": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.4485962390899658,
+    "mean_similarity": 0.4485964775085449,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610191021-KSGF-FXUS63-AFDSGF",
-    "afd_time": "2026-10-19T10:21:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191646-KSGF-FXUS63-AFDSGF",
+    "afd_time": "2026-10-19T16:46:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "SHV": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.3195933371782303,
+    "mean_similarity": 0.3195934385061264,
     "n_severe": 2,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.32 below confidence floor 0.7",
-    "product_id": "202610190644-KSHV-FXUS64-AFDSHV",
-    "afd_time": "2026-10-19T06:44:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191722-KSHV-FXUS64-AFDSHV",
+    "afd_time": "2026-10-19T17:22:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "SJT": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.4364713728427887,
+    "mean_similarity": 0.4364712476730347,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610190545-KSJT-FXUS64-AFDSJT",
-    "afd_time": "2026-10-19T05:45:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191732-KSJT-FXUS64-AFDSJT",
+    "afd_time": "2026-10-19T17:32:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "SLC": {
     "level": "INSUFFICIENT_MATCH",
@@ -1265,36 +1266,36 @@
   },
   "TFX": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.38023181855678556,
-    "n_severe": 0,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.3771542012691498,
+    "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610190736-KTFX-FXUS65-AFDTFX",
-    "afd_time": "2026-10-19T07:36:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191730-KTFX-FXUS65-AFDTFX",
+    "afd_time": "2026-10-19T17:30:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "TOP": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.44785580039024353,
+    "mean_similarity": 0.44785559773445127,
     "n_severe": 1,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610191039-KTOP-FXUS63-AFDTOP",
-    "afd_time": "2026-10-19T10:39:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191635-KTOP-FXUS63-AFDTOP",
+    "afd_time": "2026-10-19T16:35:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "TSA": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.3994746029376984,
-    "n_severe": 4,
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.3792076945304871,
+    "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202610190510-KTSA-FXUS64-AFDTSA",
-    "afd_time": "2026-10-19T05:10:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
+    "product_id": "202610191630-KTSA-FXUS64-AFDTSA",
+    "afd_time": "2026-10-19T16:30:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "TWC": {
     "level": "INSUFFICIENT_MATCH",
@@ -1310,13 +1311,13 @@
   "VEF": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.4903885453939438,
+    "mean_similarity": 0.49028827250003815,
     "n_severe": 2,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
-    "product_id": "202610190749-KVEF-FXUS65-AFDVEF",
-    "afd_time": "2026-10-19T07:49:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191136-KVEF-FXUS65-AFDVEF",
+    "afd_time": "2026-10-19T11:36:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   },
   "EKA": {
     "level": "INSUFFICIENT_MATCH",

@@ -1,92 +1,92 @@
 {
   "office": "OHX",
-  "product_id": "202610190538-KOHX-FXUS64-AFDOHX",
-  "afd_time": "2026-10-19T05:38:00Z",
+  "product_id": "202610191714-KOHX-FXUS64-AFDOHX",
+  "afd_time": "2026-10-19T17:14:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-19T10:50:49.331070+00:00",
-  "query_preview": "..\n(Wednesday through next Monday)\nIssued at 1026 PM CDT Sun Oct 18 2026\n\nHigh temperatures will creep up well into the 70s late week, and a\nfew spots may top 80. Nights will stay cool. The air will remain\nquite dry and rain-free, so fire danger remains a concern as\ndrought conditions worsen.",
+  "updated": "2026-10-19T17:32:45.511865+00:00",
+  "query_preview": "..\n(Tuesday Night through next Monday)\nIssued at 1027 AM CDT Mon Oct 19 2026\n\nTemperatures will gradually warm throughout the week and this\nweekend, but we don't expect to stray too far above seasonal\nnorms at any point. Rain chances for the next 7 days are \nnegligible. It is unclear when the next w",
   "analogs": [
     {
       "datetime_utc": "2021-11-01T17:25Z",
       "source_file": "OHX_2021_01_1725.txt",
-      "similarity": 0.7369214296340942,
+      "similarity": 0.878685474395752,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-03-06T02:49Z",
-      "source_file": "OHX_2007_06_0249.txt",
-      "similarity": 0.7312966585159302,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-12-04T01:50Z",
-      "source_file": "OHX_2006_04_0150.txt",
-      "similarity": 0.7127889394760132,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-11-29T09:33Z",
-      "source_file": "OHX_2015_29_0933.txt",
-      "similarity": 0.7083334922790527,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-07-23T14:16Z",
-      "source_file": "OHX_2005_23_1416.txt",
-      "similarity": 0.7038533687591553,
+      "datetime_utc": "2014-07-09T02:00Z",
+      "source_file": "OHX_2014_09_0200.txt",
+      "similarity": 0.8677331209182739,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-05-03T07:02Z",
-      "source_file": "OHX_2020_03_0702.txt",
-      "similarity": 0.7027748823165894,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-05-03T11:10Z",
       "source_file": "OHX_2020_03_1110_1.txt",
-      "similarity": 0.7027748823165894,
+      "similarity": 0.8661254644393921,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-07-09T02:00Z",
-      "source_file": "OHX_2014_09_0200.txt",
-      "similarity": 0.7024365663528442,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-07-01T09:56Z",
-      "source_file": "OHX_2017_01_0956.txt",
-      "similarity": 0.7016201019287109,
+      "datetime_utc": "2020-05-03T07:02Z",
+      "source_file": "OHX_2020_03_0702.txt",
+      "similarity": 0.8661254644393921,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-07-01T07:23Z",
       "source_file": "OHX_2017_01_0723.txt",
-      "similarity": 0.7016201019287109,
+      "similarity": 0.8658933639526367,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-07-01T09:56Z",
+      "source_file": "OHX_2017_01_0956.txt",
+      "similarity": 0.8658933639526367,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-07-23T14:16Z",
+      "source_file": "OHX_2005_23_1416.txt",
+      "similarity": 0.8655122518539429,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-11-29T09:33Z",
+      "source_file": "OHX_2015_29_0933.txt",
+      "similarity": 0.8636454343795776,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-09-07T06:24Z",
+      "source_file": "OHX_2008_07_0624.txt",
+      "similarity": 0.8563586473464966,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-05-23T10:00Z",
+      "source_file": "OHX_2019_23_1000.txt",
+      "similarity": 0.8548014760017395,
+      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "LOW",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.710442042350769,
+    "level": "MODERATE",
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.865077406167984,
     "base_rate": 0.6326029281713668,
-    "signal_value": -0.032602928171366785,
-    "n_severe": 6,
+    "signal_value": 0.16739707182863328,
+    "n_severe": 8,
     "n_total": 10,
-    "product_id": "202610190538-KOHX-FXUS64-AFDOHX",
-    "afd_time": "2026-10-19T05:38:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191714-KOHX-FXUS64-AFDOHX",
+    "afd_time": "2026-10-19T17:14:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   }
 }

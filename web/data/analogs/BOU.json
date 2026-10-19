@@ -1,38 +1,31 @@
 {
   "office": "BOU",
-  "product_id": "202610190547-KBOU-FXUS65-AFDBOU",
-  "afd_time": "2026-10-19T05:47:00Z",
+  "product_id": "202610191133-KBOU-FXUS65-AFDBOU",
+  "afd_time": "2026-10-19T11:33:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-19T10:50:49.331070+00:00",
+  "updated": "2026-10-19T17:32:45.511865+00:00",
   "query_preview": "/Through Sunday/...\nIssued at 1143 PM MDT Sun Oct 18 2026\n\nThe above-average temperatures and mostly dry weather looks to roll \non for the next few days for the vast majority of the forecast area. \nHigh temperatures should not approach record territory this week, \nthough we expect high temperatures ",
   "analogs": [
     {
       "datetime_utc": "2006-04-06T20:40Z",
       "source_file": "BOU_2006_06_2040.txt",
-      "similarity": 0.38082820177078247,
+      "similarity": 0.3808281719684601,
       "label": "winter",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-09-11T16:21Z",
-      "source_file": "BOU_2018_11_1621.txt",
-      "similarity": 0.37706947326660156,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2018-09-11T09:44Z",
       "source_file": "BOU_2018_11_0944.txt",
-      "similarity": 0.37706947326660156,
+      "similarity": 0.3770694136619568,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-10-15T08:45Z",
-      "source_file": "BOU_2019_15_0845.txt",
-      "similarity": 0.3744354844093323,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2018-09-11T16:21Z",
+      "source_file": "BOU_2018_11_1621.txt",
+      "similarity": 0.3770694136619568,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2019-10-15T16:12Z",
@@ -42,29 +35,36 @@
       "is_severe": false
     },
     {
+      "datetime_utc": "2019-10-15T08:45Z",
+      "source_file": "BOU_2019_15_0845.txt",
+      "similarity": 0.3744354844093323,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2017-03-17T16:16Z",
       "source_file": "BOU_2017_17_1616.txt",
-      "similarity": 0.37419357895851135,
+      "similarity": 0.3741935193538666,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-03-17T09:44Z",
       "source_file": "BOU_2017_17_0944.txt",
-      "similarity": 0.37419357895851135,
+      "similarity": 0.3741935193538666,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-09-18T02:44Z",
-      "source_file": "BOU_2014_18_0244.txt",
-      "similarity": 0.3733521103858948,
-      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-09-17T20:21Z",
       "source_file": "BOU_2014_17_2021.txt",
+      "similarity": 0.3733521103858948,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-09-18T02:44Z",
+      "source_file": "BOU_2014_18_0244.txt",
       "similarity": 0.3733521103858948,
       "label": "severe_hail",
       "is_severe": true
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.37522816061973574,
+    "mean_similarity": 0.3752281337976456,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610190547-KBOU-FXUS65-AFDBOU",
-    "afd_time": "2026-10-19T05:47:00Z",
-    "updated": "2026-10-19T10:50:49.331070+00:00"
+    "product_id": "202610191133-KBOU-FXUS65-AFDBOU",
+    "afd_time": "2026-10-19T11:33:00Z",
+    "updated": "2026-10-19T17:32:45.511865+00:00"
   }
 }
