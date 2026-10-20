@@ -1,91 +1,91 @@
 {
   "office": "DTX",
-  "product_id": "202610192318-KDTX-FXUS63-AFDDTX",
-  "afd_time": "2026-10-19T23:18:00Z",
+  "product_id": "202610200700-KDTX-FXUS63-AFDDTX",
+  "afd_time": "2026-10-20T07:00:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-20T01:53:38.436504+00:00",
-  "query_preview": "..\n\nBlocking pattern will result in surface high pressure and ridging \nbeing entrenched across the Great Lakes yielding quiet weather \nconditions through the week. \n\nA surface high pressure will move across the northern Great Lakes \ninto Quebec tonight and tomorrow. Light southwesterly winds today \n",
+  "updated": "2026-10-20T07:39:55.695831+00:00",
+  "query_preview": "..\n\nAn elongated sfc to mid level ridge axis extending across the Great \nLakes region today through Wednesday will maintain the persistent \ndry pattern across the forecast area. A northern stream short wave \nforecast to track across northern Ontario Wednesday will drive a \nweakening sfc cold front i",
   "analogs": [
+    {
+      "datetime_utc": "2009-04-20T23:04Z",
+      "source_file": "DTX_2009_20_2304.txt",
+      "similarity": 0.4253369867801666,
+      "label": "severe_wind",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2009-04-20T19:29Z",
       "source_file": "DTX_2009_20_1929.txt",
-      "similarity": 0.35225096344947815,
+      "similarity": 0.4253369867801666,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-04-21T04:47Z",
       "source_file": "DTX_2009_21_0447.txt",
-      "similarity": 0.35225096344947815,
+      "similarity": 0.4253369867801666,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-04-20T23:04Z",
-      "source_file": "DTX_2009_20_2304.txt",
-      "similarity": 0.35225096344947815,
-      "label": "severe_wind",
+      "datetime_utc": "2025-05-19T23:03Z",
+      "source_file": "DTX_2025_19_2303.txt",
+      "similarity": 0.40504977107048035,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2025-05-20T03:53Z",
+      "source_file": "DTX_2025_20_0353.txt",
+      "similarity": 0.40504977107048035,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2025-05-19T19:43Z",
+      "source_file": "DTX_2025_19_1943.txt",
+      "similarity": 0.40504977107048035,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-08-27T03:46Z",
+      "source_file": "DTX_2013_27_0346.txt",
+      "similarity": 0.40466827154159546,
+      "label": "tornado",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-10-06T05:04Z",
-      "source_file": "DTX_2005_06_0504.txt",
-      "similarity": 0.34650442004203796,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-10-05T19:55Z",
-      "source_file": "DTX_2005_05_1955.txt",
-      "similarity": 0.34650442004203796,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-10-05T23:13Z",
-      "source_file": "DTX_2005_05_2313.txt",
-      "similarity": 0.34650442004203796,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-04-09T03:57Z",
-      "source_file": "DTX_2010_09_0357_1.txt",
-      "similarity": 0.34313714504241943,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-04-08T23:14Z",
-      "source_file": "DTX_2010_08_2314.txt",
-      "similarity": 0.34313714504241943,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-04-08T19:46Z",
-      "source_file": "DTX_2010_08_1946.txt",
-      "similarity": 0.34313714504241943,
-      "label": "quiet",
-      "is_severe": false
     },
     {
       "datetime_utc": "2013-08-26T19:57Z",
       "source_file": "DTX_2013_26_1957.txt",
-      "similarity": 0.33983102440834045,
+      "similarity": 0.40466827154159546,
       "label": "tornado",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-08-26T23:09Z",
+      "source_file": "DTX_2013_26_2309.txt",
+      "similarity": 0.40466827154159546,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-10-05T19:55Z",
+      "source_file": "DTX_2005_05_1955.txt",
+      "similarity": 0.4040461778640747,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.34655086100101473,
-    "n_severe": 4,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.4109211266040802,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
-    "product_id": "202610192318-KDTX-FXUS63-AFDDTX",
-    "afd_time": "2026-10-19T23:18:00Z",
-    "updated": "2026-10-20T01:53:38.436504+00:00"
+    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
+    "product_id": "202610200700-KDTX-FXUS63-AFDDTX",
+    "afd_time": "2026-10-20T07:00:00Z",
+    "updated": "2026-10-20T07:39:55.695831+00:00"
   }
 }

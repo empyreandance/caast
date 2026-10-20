@@ -1,91 +1,91 @@
 {
   "office": "GGW",
-  "product_id": "202610191806-KGGW-FXUS65-AFDGGW",
-  "afd_time": "2026-10-19T18:06:00Z",
+  "product_id": "202610200445-KGGW-FXUS65-AFDGGW",
+  "afd_time": "2026-10-20T04:45:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-19T22:26:06.389835+00:00",
-  "query_preview": "..\nToday: Gusty winds today will lead to near lake wind conditions. \nTherefore a lake wind Advisory is out. However, RTMA which is much\nhigher in locations is not very supportive of hourly NBM wind \ngrids for today and they also do not appear to be matching up very\nwell with observations across the ",
+  "updated": "2026-10-20T07:39:55.695831+00:00",
+  "query_preview": "..\n\nGusty southeast winds that had preceded the approaching upper \nridge have diminished across the area allowing the Lake Wind \nAdvisory that had been in effect across Fort Peck Lake to expire \non time. Next, attention focuses on seasonably warm and dry \nweather as the ridge translates east through",
   "analogs": [
     {
       "datetime_utc": "2025-11-26T21:19Z",
       "source_file": "GGW_2025_26_2119.txt",
-      "similarity": 0.37149181962013245,
+      "similarity": 0.47303226590156555,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-06-26T09:27Z",
-      "source_file": "GGW_2006_26_0927.txt",
-      "similarity": 0.3633269667625427,
+      "datetime_utc": "2006-05-13T08:33Z",
+      "source_file": "GGW_2006_13_0833.txt",
+      "similarity": 0.47222113609313965,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-06-26T15:01Z",
-      "source_file": "GGW_2006_26_1501.txt",
-      "similarity": 0.3633269667625427,
+      "datetime_utc": "2006-05-13T15:51Z",
+      "source_file": "GGW_2006_13_1551.txt",
+      "similarity": 0.47222113609313965,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2025-11-25T21:16Z",
-      "source_file": "GGW_2025_25_2116.txt",
-      "similarity": 0.35301560163497925,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2006-07-27T20:39Z",
+      "source_file": "GGW_2006_27_2039.txt",
+      "similarity": 0.4671376347541809,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2025-11-26T10:42Z",
-      "source_file": "GGW_2025_26_1042.txt",
-      "similarity": 0.35301560163497925,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-11-25T10:02Z",
-      "source_file": "GGW_2006_25_1002.txt",
-      "similarity": 0.34710806608200073,
-      "label": "winter",
+      "datetime_utc": "2006-07-03T20:49Z",
+      "source_file": "GGW_2006_03_2049.txt",
+      "similarity": 0.45986539125442505,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-07-04T02:58Z",
       "source_file": "GGW_2006_04_0258.txt",
-      "similarity": 0.3450968265533447,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-07-03T20:49Z",
-      "source_file": "GGW_2006_03_2049.txt",
-      "similarity": 0.3450968265533447,
+      "similarity": 0.45986539125442505,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2025-11-27T10:35Z",
       "source_file": "GGW_2025_27_1035.txt",
-      "similarity": 0.33791449666023254,
+      "similarity": 0.4516666531562805,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-01-21T11:00Z",
-      "source_file": "GGW_2012_21_1100.txt",
-      "similarity": 0.33499401807785034,
-      "label": "winter",
+      "datetime_utc": "2006-06-09T20:34Z",
+      "source_file": "GGW_2006_09_2034_1.txt",
+      "similarity": 0.45150721073150635,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-06-10T02:47Z",
+      "source_file": "GGW_2006_10_0247.txt",
+      "similarity": 0.45150721073150635,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-05-25T20:56Z",
+      "source_file": "GGW_2009_25_2056.txt",
+      "similarity": 0.45083674788475037,
+      "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.35143871903419494,
-    "n_severe": 2,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.46098607778549194,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
-    "product_id": "202610191806-KGGW-FXUS65-AFDGGW",
-    "afd_time": "2026-10-19T18:06:00Z",
-    "updated": "2026-10-19T22:26:06.389835+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202610200445-KGGW-FXUS65-AFDGGW",
+    "afd_time": "2026-10-20T04:45:00Z",
+    "updated": "2026-10-20T07:39:55.695831+00:00"
   }
 }

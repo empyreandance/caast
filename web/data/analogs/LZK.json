@@ -1,91 +1,91 @@
 {
   "office": "LZK",
-  "product_id": "202610192228-KLZK-FXUS64-AFDLZK-AAA",
-  "afd_time": "2026-10-19T22:28:00Z",
+  "product_id": "202610200622-KLZK-FXUS64-AFDLZK",
+  "afd_time": "2026-10-20T06:22:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-20T01:53:38.436504+00:00",
-  "query_preview": "..\nIssued at 100 AM CDT Mon Oct 19 2026\n\nSatellite early this morning shows some high level cloudiness \nstreaming across the state from the southern Plains. These clouds \nare the result of mid level moisture being transported by the \nsubtropical jet. Light and variable winds are currently being \nobs",
+  "updated": "2026-10-20T07:39:55.695831+00:00",
+  "query_preview": "..\nIssued at 122 AM CDT Tue Oct 20 2026\n\nSatellite imagery early this morning shows some high level \ncloudiness streaming over the state from the central and southern \nPLains. Winds across the state early this morning are light and \nvariable with temperatures in the upper 40s and lower 50s. Temperat",
   "analogs": [
-    {
-      "datetime_utc": "2007-11-10T12:26Z",
-      "source_file": "LZK_2007_10_1226.txt",
-      "similarity": 0.39775189757347107,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2007-11-10T15:06Z",
       "source_file": "LZK_2007_10_1506.txt",
-      "similarity": 0.39775189757347107,
+      "similarity": 0.41478055715560913,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-11-10T09:48Z",
-      "source_file": "LZK_2007_10_0948.txt",
-      "similarity": 0.39775189757347107,
+      "datetime_utc": "2007-11-10T12:26Z",
+      "source_file": "LZK_2007_10_1226.txt",
+      "similarity": 0.41478055715560913,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-11-10T11:09Z",
       "source_file": "LZK_2007_10_1109.txt",
-      "similarity": 0.39775189757347107,
+      "similarity": 0.41478055715560913,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-08-02T10:43Z",
-      "source_file": "LZK_2024_02_1043.txt",
-      "similarity": 0.3773878514766693,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2007-11-10T09:48Z",
+      "source_file": "LZK_2007_10_0948.txt",
+      "similarity": 0.41478055715560913,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2024-08-02T08:09Z",
-      "source_file": "LZK_2024_02_0809.txt",
-      "similarity": 0.3773878514766693,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2019-05-11T23:55Z",
+      "source_file": "LZK_2019_11_2355.txt",
+      "similarity": 0.39931073784828186,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2005-03-10T20:53Z",
-      "source_file": "LZK_2005_10_2053.txt",
-      "similarity": 0.37466371059417725,
+      "datetime_utc": "2019-05-11T20:12Z",
+      "source_file": "LZK_2019_11_2012.txt",
+      "similarity": 0.39931073784828186,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-05-12T06:12Z",
+      "source_file": "LZK_2019_12_0612.txt",
+      "similarity": 0.39931073784828186,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-09-21T19:39Z",
+      "source_file": "LZK_2015_21_1939.txt",
+      "similarity": 0.39473021030426025,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-09-20T20:11Z",
       "source_file": "LZK_2005_20_2011.txt",
-      "similarity": 0.3745994567871094,
+      "similarity": 0.39228153228759766,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-01-04T09:38Z",
-      "source_file": "LZK_2006_04_0938.txt",
-      "similarity": 0.3739020824432373,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-01-04T19:29Z",
-      "source_file": "LZK_2006_04_1929.txt",
-      "similarity": 0.3739020824432373,
-      "label": "severe_hail",
+      "datetime_utc": "2014-07-12T19:37Z",
+      "source_file": "LZK_2014_12_1937.txt",
+      "similarity": 0.3886570334434509,
+      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.3842850625514984,
-    "n_severe": 7,
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.40327232182025907,
+    "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610192228-KLZK-FXUS64-AFDLZK-AAA",
-    "afd_time": "2026-10-19T22:28:00Z",
-    "updated": "2026-10-20T01:53:38.436504+00:00"
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202610200622-KLZK-FXUS64-AFDLZK",
+    "afd_time": "2026-10-20T06:22:00Z",
+    "updated": "2026-10-20T07:39:55.695831+00:00"
   }
 }
