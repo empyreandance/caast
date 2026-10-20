@@ -1,91 +1,91 @@
 {
   "office": "FGZ",
-  "product_id": "202610200511-KFGZ-FXUS65-AFDFGZ",
-  "afd_time": "2026-10-20T05:11:00Z",
+  "product_id": "202610201126-KFGZ-FXUS65-AFDFGZ",
+  "afd_time": "2026-10-20T11:26:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-20T07:39:55.695831+00:00",
-  "query_preview": "..Current satellite and upper-air analysis show a \nshortwave trough over northern Arizona. This feature is \ninteracting with modest low-level moisture (surface dew points \nbetween 45 and 55 degrees F) to produce scattered showers, \nalthough a few isolated thunderstorms are possible this afternoon \na",
+  "updated": "2026-10-20T13:37:02.261160+00:00",
+  "query_preview": "..Today...Current mesoanalysis and satellite imagery \nreveals a subtle shortwave and a weak 40kt jet at 500mb over \neastern Arizona. This has combined with marginal instability (100 \nJ/kg of MUCAPE) to allow for very isolated and weakly rotating \nthunderstorms across the White Mountains as of 2 AM M",
   "analogs": [
     {
       "datetime_utc": "2013-09-24T14:58Z",
       "source_file": "FGZ_2013_24_1458.txt",
-      "similarity": 0.5017679929733276,
+      "similarity": 0.47030505537986755,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-09-08T22:42Z",
       "source_file": "FGZ_2017_08_2242.txt",
-      "similarity": 0.4820235073566437,
+      "similarity": 0.46214210987091064,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-03-20T22:18Z",
-      "source_file": "FGZ_2009_20_2218.txt",
-      "similarity": 0.4696536064147949,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2024-03-17T09:28Z",
       "source_file": "FGZ_2024_17_0928.txt",
-      "similarity": 0.4687544107437134,
+      "similarity": 0.4559899568557739,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-03-17T11:47Z",
       "source_file": "FGZ_2024_17_1147.txt",
-      "similarity": 0.4687544107437134,
+      "similarity": 0.4559899568557739,
       "label": "severe_hail",
       "is_severe": true
     },
     {
+      "datetime_utc": "2009-03-20T22:18Z",
+      "source_file": "FGZ_2009_20_2218.txt",
+      "similarity": 0.45210206508636475,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2016-09-12T03:10Z",
       "source_file": "FGZ_2016_12_0310.txt",
-      "similarity": 0.4650128185749054,
+      "similarity": 0.44348984956741333,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2013-04-15T01:25Z",
-      "source_file": "FGZ_2013_15_0125.txt",
-      "similarity": 0.46439921855926514,
-      "label": "winter",
+      "datetime_utc": "2025-10-18T19:39Z",
+      "source_file": "FGZ_2025_18_1939.txt",
+      "similarity": 0.4342966675758362,
+      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2025-10-19T04:45Z",
       "source_file": "FGZ_2025_19_0445.txt",
-      "similarity": 0.46384769678115845,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2025-10-18T19:39Z",
-      "source_file": "FGZ_2025_18_1939.txt",
-      "similarity": 0.46384769678115845,
+      "similarity": 0.4342966675758362,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2025-10-18T22:55Z",
       "source_file": "FGZ_2025_18_2255.txt",
-      "similarity": 0.46384769678115845,
+      "similarity": 0.4342966675758362,
       "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-04-15T01:25Z",
+      "source_file": "FGZ_2013_15_0125.txt",
+      "similarity": 0.430149644613266,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.47119090557098386,
+    "mean_similarity": 0.44730586409568784,
     "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610200511-KFGZ-FXUS65-AFDFGZ",
-    "afd_time": "2026-10-20T05:11:00Z",
-    "updated": "2026-10-20T07:39:55.695831+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202610201126-KFGZ-FXUS65-AFDFGZ",
+    "afd_time": "2026-10-20T11:26:00Z",
+    "updated": "2026-10-20T13:37:02.261160+00:00"
   }
 }

@@ -1,78 +1,78 @@
 {
   "office": "HFO",
-  "product_id": "202610200119-PHFO-FXHW60-AFDHFO",
-  "afd_time": "2026-10-20T01:19:00Z",
+  "product_id": "202610201336-PHFO-FXHW60-AFDHFO",
+  "afd_time": "2026-10-20T13:36:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-20T01:53:38.436504+00:00",
-  "query_preview": "..\nThe forecast for tonight has been updated to increase PoPs and\nassociated fields for the windward sides of the islands,\nparticularly over Maui County and the Big Island with an area of\nshowery low clouds riding in on the trade wind flow. Satellite\nderived precipitable water (PW) shows values 1.3 ",
+  "updated": "2026-10-20T13:37:02.261160+00:00",
+  "query_preview": "..\nThe satellite imagery this morning shows bands of clouds drifting\ntowards the islands on the brisk easterly trade winds, while a\nlarge band of high cirrus clouds are developing aloft near the \nBig Island associated with the subtropical jet stream. Expect\nbrief periods of showers this week, favori",
   "analogs": [
+    {
+      "datetime_utc": "2015-10-02T01:54Z",
+      "source_file": "HFO_2015_02_0154.txt",
+      "similarity": 0.6720196008682251,
+      "label": "flood",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2018-06-17T13:59Z",
       "source_file": "HFO_2018_17_1359.txt",
-      "similarity": 0.6956082582473755,
+      "similarity": 0.6718056201934814,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-12-15T06:39Z",
+      "source_file": "HFO_2006_15_0639.txt",
+      "similarity": 0.6709543466567993,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-01-15T19:58Z",
+      "source_file": "HFO_2009_15_1958_1.txt",
+      "similarity": 0.6597902178764343,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2008-02-11T01:30Z",
       "source_file": "HFO_2008_11_0130_1.txt",
-      "similarity": 0.6922261714935303,
+      "similarity": 0.6574653387069702,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-11-04T20:34Z",
-      "source_file": "HFO_2006_04_2034.txt",
-      "similarity": 0.6905511021614075,
+      "datetime_utc": "2019-12-26T01:55Z",
+      "source_file": "HFO_2019_26_0155.txt",
+      "similarity": 0.6573816537857056,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-04-27T01:58Z",
-      "source_file": "HFO_2017_27_0158.txt",
-      "similarity": 0.6897177696228027,
+      "datetime_utc": "2019-12-26T07:13Z",
+      "source_file": "HFO_2019_26_0713.txt",
+      "similarity": 0.6573816537857056,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-01-06T01:30Z",
-      "source_file": "HFO_2005_06_0130_4.txt",
-      "similarity": 0.6869412064552307,
-      "label": "quiet",
+      "datetime_utc": "2024-01-09T14:22Z",
+      "source_file": "HFO_2024_09_1422.txt",
+      "similarity": 0.6569652557373047,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-01-09T19:52Z",
+      "source_file": "HFO_2024_09_1952.txt",
+      "similarity": 0.6569652557373047,
+      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2020-05-21T06:34Z",
       "source_file": "HFO_2020_21_0634_1.txt",
-      "similarity": 0.6853376626968384,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-09-21T07:36Z",
-      "source_file": "HFO_2007_21_0736.txt",
-      "similarity": 0.6852706074714661,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-09-17T01:45Z",
-      "source_file": "HFO_2009_17_0145.txt",
-      "similarity": 0.6846210956573486,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-03-19T01:40Z",
-      "source_file": "HFO_2011_19_0140_1.txt",
-      "similarity": 0.6835453510284424,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2025-10-16T13:52Z",
-      "source_file": "HFO_2025_16_1352.txt",
-      "similarity": 0.6818392276763916,
+      "similarity": 0.6544408202171326,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.0,
-    "mean_similarity": 0.6875658452510833,
+    "mean_similarity": 0.6615169763565063,
     "n_severe": 0,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.69 below confidence floor 0.7",
-    "product_id": "202610200119-PHFO-FXHW60-AFDHFO",
-    "afd_time": "2026-10-20T01:19:00Z",
-    "updated": "2026-10-20T01:53:38.436504+00:00"
+    "reason": "top-10 mean similarity 0.66 below confidence floor 0.7",
+    "product_id": "202610201336-PHFO-FXHW60-AFDHFO",
+    "afd_time": "2026-10-20T13:36:00Z",
+    "updated": "2026-10-20T13:37:02.261160+00:00"
   }
 }
