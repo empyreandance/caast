@@ -1,91 +1,91 @@
 {
   "office": "JKL",
-  "product_id": "202610201150-KJKL-FXUS63-AFDJKL-AAA",
-  "afd_time": "2026-10-20T11:50:00Z",
+  "product_id": "202610201801-KJKL-FXUS63-AFDJKL",
+  "afd_time": "2026-10-20T18:01:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-20T13:37:02.261160+00:00",
-  "query_preview": "..(Wednesday night through Monday)\nIssued at 340 AM EDT TUE OCT 20 2026\n\nThe forecast remains on track with upper-level ridging keeping\neastern Kentucky under fair skies and dry conditions through the\nweekend. Temperatures will remain near or slightly above average\nin the upper 60s to low 70s, with ",
+  "updated": "2026-10-20T18:30:49.395920+00:00",
+  "query_preview": "..(Thursday through Tuesday)\nIssued at 158 PM EDT TUE OCT 20 2026\n\nTranquil weather looks to continue through the long term period, \nand with a fairly stagnant pattern in place, weather will change \nvery little from day to day. Aloft, a closed low will initially be\nlocated off the coast of the North",
   "analogs": [
+    {
+      "datetime_utc": "2006-05-05T14:31Z",
+      "source_file": "JKL_2006_05_1431.txt",
+      "similarity": 0.3450322151184082,
+      "label": "tornado",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2011-09-24T06:56Z",
       "source_file": "JKL_2011_24_0656.txt",
-      "similarity": 0.389568567276001,
+      "similarity": 0.3425341844558716,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-07-15T07:49Z",
+      "source_file": "JKL_2011_15_0749.txt",
+      "similarity": 0.3417648673057556,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-07-15T18:00Z",
+      "source_file": "JKL_2011_15_1800.txt",
+      "similarity": 0.3417648673057556,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-12-12T19:43Z",
       "source_file": "JKL_2011_12_1943.txt",
-      "similarity": 0.38787445425987244,
+      "similarity": 0.3405517339706421,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-10-19T07:14Z",
       "source_file": "JKL_2011_19_0714.txt",
-      "similarity": 0.38787445425987244,
+      "similarity": 0.3405517339706421,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2012-02-14T09:00Z",
       "source_file": "JKL_2012_14_0900.txt",
-      "similarity": 0.38787445425987244,
+      "similarity": 0.3405517339706421,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-03-01T07:49Z",
       "source_file": "JKL_2011_01_0749.txt",
-      "similarity": 0.3852112591266632,
+      "similarity": 0.33930492401123047,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2012-05-02T18:57Z",
       "source_file": "JKL_2012_02_1857.txt",
-      "similarity": 0.38187286257743835,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-03-09T20:00Z",
-      "source_file": "JKL_2010_09_2000.txt",
-      "similarity": 0.38187286257743835,
+      "similarity": 0.3392472267150879,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-10-29T07:31Z",
       "source_file": "JKL_2010_29_0731.txt",
-      "similarity": 0.38187286257743835,
+      "similarity": 0.3392472267150879,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-12-21T20:49Z",
-      "source_file": "JKL_2010_21_2049.txt",
-      "similarity": 0.38187286257743835,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-09-12T07:19Z",
-      "source_file": "JKL_2010_12_0719.txt",
-      "similarity": 0.38187286257743835,
-      "label": "severe_hail",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.38477675020694735,
-    "n_severe": 4,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.34105507135391233,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610201150-KJKL-FXUS63-AFDJKL-AAA",
-    "afd_time": "2026-10-20T11:50:00Z",
-    "updated": "2026-10-20T13:37:02.261160+00:00"
+    "reason": "top-10 mean similarity 0.34 below confidence floor 0.7",
+    "product_id": "202610201801-KJKL-FXUS63-AFDJKL",
+    "afd_time": "2026-10-20T18:01:00Z",
+    "updated": "2026-10-20T18:30:49.395920+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "ARX",
-  "product_id": "202610201105-KARX-FXUS63-AFDARX",
-  "afd_time": "2026-10-20T11:05:00Z",
+  "product_id": "202610201740-KARX-FXUS63-AFDARX",
+  "afd_time": "2026-10-20T17:40:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-20T13:37:02.261160+00:00",
-  "query_preview": "..\nIssued at 1146 PM CDT Mon Oct 19 2026\n\nToday through Thursday night\n\nAn anomalous 500 mb ridge will remain in control of the area's\nweather through Thursday night. This high will provide dry\nweather and unseasonably warm temperatures. High temperatures \nwill warm from the mid- and upper 60s today",
+  "updated": "2026-10-20T18:30:49.395920+00:00",
+  "query_preview": "..\nIssued at 1236 PM CDT Tue Oct 20 2026\n\nRest of Today - Friday: Dry with Above Normal Temperatures\n\nRather mundane weather continues across the region over the next \nseveral days as tropospheric deep ridging remains the dominant \nsynoptic feature across much of the United States. Rising heights \na",
   "analogs": [
     {
       "datetime_utc": "2004-07-22T07:41Z",
       "source_file": "ARX_2004_22_0741.txt",
-      "similarity": 0.4195449948310852,
+      "similarity": 0.4153342843055725,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-10-02T19:42Z",
-      "source_file": "ARX_2010_02_1942.txt",
-      "similarity": 0.41845157742500305,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-11-16T20:37Z",
-      "source_file": "ARX_2004_16_2037.txt",
-      "similarity": 0.4174429178237915,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-10-23T08:56Z",
-      "source_file": "ARX_2009_23_0856.txt",
-      "similarity": 0.41549694538116455,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-11-04T10:01Z",
-      "source_file": "ARX_2004_04_1001.txt",
-      "similarity": 0.40882188081741333,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-12-30T16:48Z",
-      "source_file": "ARX_2010_30_1648.txt",
-      "similarity": 0.4064962863922119,
-      "label": "severe_hail",
-      "is_severe": true
     },
     {
       "datetime_utc": "2010-12-30T09:29Z",
       "source_file": "ARX_2010_30_0929.txt",
-      "similarity": 0.4064962863922119,
+      "similarity": 0.4112664461135864,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-06-29T09:05Z",
-      "source_file": "ARX_2005_29_0905.txt",
-      "similarity": 0.40590858459472656,
-      "label": "tornado",
+      "datetime_utc": "2010-12-30T16:48Z",
+      "source_file": "ARX_2010_30_1648.txt",
+      "similarity": 0.4112664461135864,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-03-23T09:54Z",
-      "source_file": "ARX_2005_23_0954_1.txt",
-      "similarity": 0.4027833938598633,
+      "datetime_utc": "2004-10-28T07:59Z",
+      "source_file": "ARX_2004_28_0759.txt",
+      "similarity": 0.40377992391586304,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-11-08T09:07Z",
+      "source_file": "ARX_2004_08_0907.txt",
+      "similarity": 0.40255725383758545,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-03-09T09:15Z",
-      "source_file": "ARX_2011_09_0915.txt",
-      "similarity": 0.401985764503479,
+      "datetime_utc": "2011-11-17T21:00Z",
+      "source_file": "ARX_2011_17_2100.txt",
+      "similarity": 0.39572060108184814,
       "label": "winter",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-11-17T23:21Z",
+      "source_file": "ARX_2011_17_2321.txt",
+      "similarity": 0.39572060108184814,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-11-18T05:15Z",
+      "source_file": "ARX_2011_18_0515.txt",
+      "similarity": 0.39572060108184814,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-02-25T16:52Z",
+      "source_file": "ARX_2007_25_1652.txt",
+      "similarity": 0.3942858874797821,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-02-25T09:16Z",
+      "source_file": "ARX_2007_25_0916.txt",
+      "similarity": 0.3942858874797821,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.410342863202095,
-    "n_severe": 3,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.40199379324913026,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202610201105-KARX-FXUS63-AFDARX",
-    "afd_time": "2026-10-20T11:05:00Z",
-    "updated": "2026-10-20T13:37:02.261160+00:00"
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202610201740-KARX-FXUS63-AFDARX",
+    "afd_time": "2026-10-20T17:40:00Z",
+    "updated": "2026-10-20T18:30:49.395920+00:00"
   }
 }

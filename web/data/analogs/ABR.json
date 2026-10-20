@@ -1,91 +1,91 @@
 {
   "office": "ABR",
-  "product_id": "202610201112-KABR-FXUS63-AFDABR-AAA",
-  "afd_time": "2026-10-20T11:12:00Z",
+  "product_id": "202610201751-KABR-FXUS63-AFDABR",
+  "afd_time": "2026-10-20T17:51:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-20T13:37:02.261160+00:00",
-  "query_preview": "..\nIssued at 122 AM CDT Tue Oct 20 2026\n\nAn upper-level ridge has moved over SD and it will stick around over \nthe areas through Thursday. It is helping to support southerly winds \nmoving warm temperatures into central and northeastern SD. \nTemperatures will be between 10-20 degrees warmer than norm",
+  "updated": "2026-10-20T18:30:49.395920+00:00",
+  "query_preview": "..\nIssued at 1250 PM CDT Tue Oct 20 2026\n\nThe region continues to be under a broad upper level ridge, in \nsouthwest flow, as the cutoff closed low continues to spin off the \nCA coast. At the surface, the region sits between a high to our east \nand frontal boundary to our west. This results in ongoin",
   "analogs": [
     {
-      "datetime_utc": "2021-10-29T20:31Z",
-      "source_file": "ABR_2021_29_2031.txt",
-      "similarity": 0.48402202129364014,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-10-29T09:23Z",
-      "source_file": "ABR_2021_29_0923.txt",
-      "similarity": 0.48402202129364014,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-07-29T08:31Z",
-      "source_file": "ABR_2013_29_0831.txt",
-      "similarity": 0.4777282476425171,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-07-28T20:11Z",
-      "source_file": "ABR_2013_28_2011.txt",
-      "similarity": 0.4777282476425171,
-      "label": "tornado",
+      "datetime_utc": "2019-09-01T08:39Z",
+      "source_file": "ABR_2019_01_0839.txt",
+      "similarity": 0.4412238597869873,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-11-09T01:32Z",
       "source_file": "ABR_2009_09_0132.txt",
-      "similarity": 0.47675883769989014,
+      "similarity": 0.44013673067092896,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-11-08T20:30Z",
       "source_file": "ABR_2009_08_2030.txt",
-      "similarity": 0.47675883769989014,
+      "similarity": 0.44013673067092896,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-09-01T08:39Z",
-      "source_file": "ABR_2019_01_0839.txt",
-      "similarity": 0.4733584225177765,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-02-04T21:45Z",
-      "source_file": "ABR_2004_04_2145.txt",
-      "similarity": 0.47164011001586914,
+      "datetime_utc": "2007-03-08T16:10Z",
+      "source_file": "ABR_2007_08_1610.txt",
+      "similarity": 0.43945392966270447,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-10-15T20:04Z",
-      "source_file": "ABR_2012_15_2004.txt",
-      "similarity": 0.46799254417419434,
-      "label": "severe_wind",
+      "datetime_utc": "2010-10-15T01:48Z",
+      "source_file": "ABR_2010_15_0148.txt",
+      "similarity": 0.43656498193740845,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-10-14T20:26Z",
+      "source_file": "ABR_2010_14_2026.txt",
+      "similarity": 0.43656498193740845,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-04-16T02:36Z",
+      "source_file": "ABR_2006_16_0236.txt",
+      "similarity": 0.4340781569480896,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-10-16T09:16Z",
-      "source_file": "ABR_2012_16_0916.txt",
-      "similarity": 0.46799254417419434,
-      "label": "severe_wind",
+      "datetime_utc": "2006-04-15T20:30Z",
+      "source_file": "ABR_2006_15_2030_1.txt",
+      "similarity": 0.4340781569480896,
+      "label": "severe_hail",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-02-06T21:03Z",
+      "source_file": "ABR_2014_06_2103.txt",
+      "similarity": 0.4336724877357483,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-02-25T20:58Z",
+      "source_file": "ABR_2005_25_2058.txt",
+      "similarity": 0.43349772691726685,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.4758001834154129,
-    "n_severe": 5,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.4369407743215561,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202610201112-KABR-FXUS63-AFDABR-AAA",
-    "afd_time": "2026-10-20T11:12:00Z",
-    "updated": "2026-10-20T13:37:02.261160+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202610201751-KABR-FXUS63-AFDABR",
+    "afd_time": "2026-10-20T17:51:00Z",
+    "updated": "2026-10-20T18:30:49.395920+00:00"
   }
 }
