@@ -1,92 +1,92 @@
 {
   "office": "AFC",
-  "product_id": "202610201246-PAFC-FXAK68-AFDAFC",
-  "afd_time": "2026-10-20T12:46:00Z",
+  "product_id": "202610210015-PAFC-FXAK68-AFDAFC",
+  "afd_time": "2026-10-21T00:15:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-20T13:37:02.261160+00:00",
-  "query_preview": "FORECAST (Days 4 through 7: Friday through Monday)...\n\nKey Messages:\n\n* A series of strong storms move across the Bering Sea and into\n  Alaska from Friday through the weekend, bringing strong winds\n  and heavy precipitation.\n\n* Though confidence is low in exact impacts at this time, strong\n  onshore",
+  "updated": "2026-10-21T01:40:40.877570+00:00",
+  "query_preview": "FORECAST (Days 4 through 7: Saturday through Tuesday)...\n\nKey Messages:\n\n* A series of strong storms move across the Bering Sea and into\n  Alaska through the weekend, bringing strong winds and heavy \n  precipitation.\n\n* Confidence is low to medium with regards to impacts, strong \n  onshore winds and",
   "analogs": [
     {
-      "datetime_utc": "2006-04-19T21:30Z",
-      "source_file": "AFC_2006_19_2130.txt",
-      "similarity": 0.9934354424476624,
+      "datetime_utc": "2006-08-18T12:04Z",
+      "source_file": "AFC_2006_18_1204.txt",
+      "similarity": 0.9952183961868286,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-12-12T13:03Z",
+      "source_file": "AFC_2006_12_1303.txt",
+      "similarity": 0.994915246963501,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-04-03T12:42Z",
-      "source_file": "AFC_2017_03_1242.txt",
-      "similarity": 0.9922326803207397,
+      "datetime_utc": "2005-10-28T21:00Z",
+      "source_file": "AFC_2005_28_2100.txt",
+      "similarity": 0.9942349791526794,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-04-03T00:31Z",
-      "source_file": "AFC_2017_03_0031.txt",
-      "similarity": 0.9922326803207397,
-      "label": "quiet",
+      "datetime_utc": "2019-12-28T13:43Z",
+      "source_file": "AFC_2019_28_1343.txt",
+      "similarity": 0.9935526847839355,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-08-27T23:58Z",
-      "source_file": "AFC_2011_27_2358.txt",
-      "similarity": 0.9919721484184265,
-      "label": "quiet",
+      "datetime_utc": "2019-12-28T02:03Z",
+      "source_file": "AFC_2019_28_0203.txt",
+      "similarity": 0.993543267250061,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-08-27T23:55Z",
-      "source_file": "AFC_2011_27_2355.txt",
-      "similarity": 0.9919721484184265,
+      "datetime_utc": "2024-12-09T13:57Z",
+      "source_file": "AFC_2024_09_1357.txt",
+      "similarity": 0.9934162497520447,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-12-09T01:50Z",
+      "source_file": "AFC_2024_09_0150.txt",
+      "similarity": 0.9934162497520447,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-07-05T20:49Z",
+      "source_file": "AFC_2008_05_2049.txt",
+      "similarity": 0.9932185411453247,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-07-25T03:10Z",
       "source_file": "AFC_2017_25_0310.txt",
-      "similarity": 0.9919325709342957,
+      "similarity": 0.993194580078125,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-03-20T13:38Z",
-      "source_file": "AFC_2014_20_1338.txt",
-      "similarity": 0.991861879825592,
+      "datetime_utc": "2017-07-25T12:56Z",
+      "source_file": "AFC_2017_25_1256.txt",
+      "similarity": 0.9931075572967529,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-07-06T13:30Z",
-      "source_file": "AFC_2011_06_1330.txt",
-      "similarity": 0.9918451309204102,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-10-19T12:31Z",
-      "source_file": "AFC_2016_19_1231.txt",
-      "similarity": 0.9917099475860596,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-12-12T13:03Z",
-      "source_file": "AFC_2006_12_1303.txt",
-      "similarity": 0.991690993309021,
-      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "QUIET",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.9920885622501373,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.9937817752361298,
     "base_rate": null,
-    "signal_value": -0.5,
-    "n_severe": 0,
+    "signal_value": -0.4,
+    "n_severe": 1,
     "n_total": 10,
-    "product_id": "202610201246-PAFC-FXAK68-AFDAFC",
-    "afd_time": "2026-10-20T12:46:00Z",
-    "updated": "2026-10-20T13:37:02.261160+00:00"
+    "product_id": "202610210015-PAFC-FXAK68-AFDAFC",
+    "afd_time": "2026-10-21T00:15:00Z",
+    "updated": "2026-10-21T01:40:40.877570+00:00"
   }
 }

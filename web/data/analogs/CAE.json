@@ -1,78 +1,78 @@
 {
   "office": "CAE",
-  "product_id": "202610201737-KCAE-FXUS62-AFDCAE",
-  "afd_time": "2026-10-20T17:37:00Z",
+  "product_id": "202610210018-KCAE-FXUS62-AFDCAE",
+  "afd_time": "2026-10-21T00:18:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-20T18:30:49.395920+00:00",
-  "query_preview": "..\nKey Message 1: Dry weather continues the remainder of this week\nwith temperatures near normal.\n\nTemperatures this afternoon have generally climbed into the\nlower 70s across the forecast area. Expect the temps to rise\ninto the mid to upper 70s before cooling off this evening.\nTonight looks to be a",
+  "updated": "2026-10-21T01:40:40.877570+00:00",
+  "query_preview": "..\nKey Message 1: Dry weather continues the remainder of this week\nwith temperatures near normal.\n\nThere is little change in the forecast for overnight lows\ntonight, as another chilly night is expected with strong\nradiational cooling conditions. Passing cirrus are seen at the\nmoment and may continue",
   "analogs": [
     {
-      "datetime_utc": "2004-03-15T19:57Z",
-      "source_file": "CAE_2004_15_1957.txt",
-      "similarity": 0.38817790150642395,
+      "datetime_utc": "2006-04-08T18:39Z",
+      "source_file": "CAE_2006_08_1839.txt",
+      "similarity": 0.4013718366622925,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-04-09T01:10Z",
+      "source_file": "CAE_2006_09_0110.txt",
+      "similarity": 0.4013718366622925,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-09-06T15:17Z",
-      "source_file": "CAE_2010_06_1517.txt",
-      "similarity": 0.38117796182632446,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2004-03-15T19:57Z",
+      "source_file": "CAE_2004_15_1957.txt",
+      "similarity": 0.40062427520751953,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2010-09-06T11:35Z",
-      "source_file": "CAE_2010_06_1135.txt",
-      "similarity": 0.38117796182632446,
+      "datetime_utc": "2010-09-06T07:12Z",
+      "source_file": "CAE_2010_06_0712.txt",
+      "similarity": 0.4002094268798828,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-09-06T17:44Z",
       "source_file": "CAE_2010_06_1744.txt",
-      "similarity": 0.38117796182632446,
+      "similarity": 0.4002094268798828,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-09-06T07:12Z",
-      "source_file": "CAE_2010_06_0712.txt",
-      "similarity": 0.38117796182632446,
+      "datetime_utc": "2010-09-06T15:17Z",
+      "source_file": "CAE_2010_06_1517.txt",
+      "similarity": 0.4002094268798828,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-04-09T01:10Z",
-      "source_file": "CAE_2006_09_0110.txt",
-      "similarity": 0.37671762704849243,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-04-08T18:39Z",
-      "source_file": "CAE_2006_08_1839.txt",
-      "similarity": 0.37671762704849243,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-04-11T06:02Z",
-      "source_file": "CAE_2020_11_0602.txt",
-      "similarity": 0.3750990033149719,
-      "label": "tornado",
+      "datetime_utc": "2010-09-06T11:35Z",
+      "source_file": "CAE_2010_06_1135.txt",
+      "similarity": 0.4002094268798828,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-04-10T19:02Z",
       "source_file": "CAE_2020_10_1902.txt",
-      "similarity": 0.3750990033149719,
+      "similarity": 0.39066630601882935,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-04-10T23:54Z",
-      "source_file": "CAE_2020_10_2354.txt",
-      "similarity": 0.3750990033149719,
+      "datetime_utc": "2020-04-11T06:02Z",
+      "source_file": "CAE_2020_11_0602.txt",
+      "similarity": 0.39066630601882935,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-04-11T07:38Z",
+      "source_file": "CAE_2020_11_0738.txt",
+      "similarity": 0.39066630601882935,
       "label": "tornado",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.37916220128536227,
+    "mean_similarity": 0.39762045741081237,
     "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610201737-KCAE-FXUS62-AFDCAE",
-    "afd_time": "2026-10-20T17:37:00Z",
-    "updated": "2026-10-20T18:30:49.395920+00:00"
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202610210018-KCAE-FXUS62-AFDCAE",
+    "afd_time": "2026-10-21T00:18:00Z",
+    "updated": "2026-10-21T01:40:40.877570+00:00"
   }
 }
