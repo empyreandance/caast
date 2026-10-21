@@ -1,78 +1,78 @@
 {
   "office": "LBF",
-  "product_id": "202610210526-KLBF-FXUS63-AFDLBF",
-  "afd_time": "2026-10-21T05:26:00Z",
+  "product_id": "202610211110-KLBF-FXUS63-AFDLBF",
+  "afd_time": "2026-10-21T11:10:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-21T07:45:19.173875+00:00",
-  "query_preview": "/THURSDAY NIGHT THROUGH TUESDAY/...\nIssued at 219 PM CDT Tue Oct 20 2026\n\nThursday night through Friday...The upper trough is forecast to move \ninto the Rockies, as a strong upper level ridge axis extends from \nTexas into the Great Lakes. This ridge/trough pattern will bring \nincreasing PWATS over 1",
+  "updated": "2026-10-21T13:53:29.063033+00:00",
+  "query_preview": "/FRIDAY THROUGH TUESDAY/...\nIssued at 330 AM CDT Wed Oct 21 2026\n\nFor Friday, deep upper low pressure will begin to move east towards \nthe Four Corners, with broad southwesterly flow developing aloft \nacross the Plains by Friday morning. At the surface, increasing lee \ncyclogenesis across eastern Co",
   "analogs": [
     {
-      "datetime_utc": "2004-03-24T21:12Z",
-      "source_file": "LBF_2004_24_2112.txt",
-      "similarity": 0.4808165431022644,
-      "label": "severe_hail",
+      "datetime_utc": "2011-09-04T08:47Z",
+      "source_file": "LBF_2011_04_0847.txt",
+      "similarity": 0.5370826721191406,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-09-04T11:51Z",
+      "source_file": "LBF_2011_04_1151.txt",
+      "similarity": 0.5370826721191406,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-07-26T05:45Z",
+      "source_file": "LBF_2012_26_0545.txt",
+      "similarity": 0.529958963394165,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-01-20T17:30Z",
-      "source_file": "LBF_2012_20_1730.txt",
-      "similarity": 0.4691171646118164,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2012-07-25T20:12Z",
+      "source_file": "LBF_2012_25_2012.txt",
+      "similarity": 0.529958963394165,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2012-01-20T09:29Z",
       "source_file": "LBF_2012_20_0929_1.txt",
-      "similarity": 0.4691171646118164,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-01-20T11:42Z",
-      "source_file": "LBF_2012_20_1142.txt",
-      "similarity": 0.4691171646118164,
+      "similarity": 0.527618408203125,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2012-01-20T19:03Z",
       "source_file": "LBF_2012_20_1903.txt",
-      "similarity": 0.4691171646118164,
+      "similarity": 0.527618408203125,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-09-04T11:51Z",
-      "source_file": "LBF_2011_04_1151.txt",
-      "similarity": 0.46902450919151306,
-      "label": "quiet",
+      "datetime_utc": "2012-01-20T17:30Z",
+      "source_file": "LBF_2012_20_1730.txt",
+      "similarity": 0.527618408203125,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-09-04T08:47Z",
-      "source_file": "LBF_2011_04_0847.txt",
-      "similarity": 0.46902450919151306,
-      "label": "quiet",
+      "datetime_utc": "2012-01-20T11:42Z",
+      "source_file": "LBF_2012_20_1142.txt",
+      "similarity": 0.527618408203125,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-01-14T21:02Z",
-      "source_file": "LBF_2004_14_2102.txt",
-      "similarity": 0.4684077501296997,
+      "datetime_utc": "2018-10-17T11:15Z",
+      "source_file": "LBF_2018_17_1115.txt",
+      "similarity": 0.52602219581604,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-09-29T20:04Z",
-      "source_file": "LBF_2004_29_2004.txt",
-      "similarity": 0.46619799733161926,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2018-10-17T18:13Z",
       "source_file": "LBF_2018_17_1813.txt",
-      "similarity": 0.4661216139793396,
+      "similarity": 0.52602219581604,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.4696061581373215,
+    "mean_similarity": 0.5296601295471192,
     "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610210526-KLBF-FXUS63-AFDLBF",
-    "afd_time": "2026-10-21T05:26:00Z",
-    "updated": "2026-10-21T07:45:19.173875+00:00"
+    "reason": "top-10 mean similarity 0.53 below confidence floor 0.7",
+    "product_id": "202610211110-KLBF-FXUS63-AFDLBF",
+    "afd_time": "2026-10-21T11:10:00Z",
+    "updated": "2026-10-21T13:53:29.063033+00:00"
   }
 }
