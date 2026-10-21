@@ -1,91 +1,91 @@
 {
   "office": "MLB",
-  "product_id": "202610202256-KMLB-FXUS62-AFDMLB",
-  "afd_time": "2026-10-20T22:56:00Z",
+  "product_id": "202610210643-KMLB-FXUS62-AFDMLB",
+  "afd_time": "2026-10-21T06:43:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-21T01:40:40.877570+00:00",
-  "query_preview": "..\nIssued at 300 PM EDT Tue Oct 20 2026\n\nThru Thu...High pressure over the eastern US will maintain a north\nto northeast wind flow across our area. The pressure gradient \nwill support 10-15 mph with gusts 20-25 mph with occasional gusts \nup to 30 mph possible Wed. Less gustiness on Thu. A slug of \ns",
+  "updated": "2026-10-21T07:45:19.173875+00:00",
+  "query_preview": "..\nIssued at 243 AM EDT Wed Oct 21 2026\n\nCurrent-Thu...High pressure over the Great Lakes extending into the \nDeep South will allow for a continuation of NERLY winds. A rather \ntight pressure gradient continues across the area supporting 10-15 \nmph winds with gusts to 20-25 mph during the day. Speed",
   "analogs": [
+    {
+      "datetime_utc": "2011-10-05T07:31Z",
+      "source_file": "MLB_2011_05_0731.txt",
+      "similarity": 0.3900905251502991,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-11-03T19:56Z",
+      "source_file": "MLB_2023_03_1956.txt",
+      "similarity": 0.38378381729125977,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-01-18T07:30Z",
+      "source_file": "MLB_2005_18_0730.txt",
+      "similarity": 0.38084298372268677,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2009-11-08T09:43Z",
       "source_file": "MLB_2009_08_0943.txt",
-      "similarity": 0.4298563003540039,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-12-31T09:16Z",
-      "source_file": "MLB_2006_31_0916.txt",
-      "similarity": 0.4257158935070038,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-10-19T18:38Z",
-      "source_file": "MLB_2004_19_1838.txt",
-      "similarity": 0.4253424108028412,
+      "similarity": 0.3790278434753418,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-03-28T18:40Z",
       "source_file": "MLB_2019_28_1840.txt",
-      "similarity": 0.41971975564956665,
+      "similarity": 0.37413597106933594,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2019-03-29T01:53Z",
       "source_file": "MLB_2019_29_0153.txt",
-      "similarity": 0.41971975564956665,
+      "similarity": 0.37413597106933594,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-10-27T19:10Z",
+      "source_file": "MLB_2018_27_1910.txt",
+      "similarity": 0.3718964755535126,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-10-04T19:17Z",
+      "source_file": "MLB_2016_04_1917.txt",
+      "similarity": 0.36998873949050903,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-10-04T08:11Z",
+      "source_file": "MLB_2016_04_0811.txt",
+      "similarity": 0.36998873949050903,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-05-05T19:31Z",
       "source_file": "MLB_2012_05_1931.txt",
-      "similarity": 0.4148564338684082,
+      "similarity": 0.3678243160247803,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-05-05T13:22Z",
-      "source_file": "MLB_2012_05_1322.txt",
-      "similarity": 0.4148564338684082,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2023-11-03T19:56Z",
-      "source_file": "MLB_2023_03_1956.txt",
-      "similarity": 0.41346830129623413,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-11-30T08:17Z",
-      "source_file": "MLB_2015_30_0817.txt",
-      "similarity": 0.410558819770813,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-10-05T07:31Z",
-      "source_file": "MLB_2011_05_0731.txt",
-      "similarity": 0.4096437692642212,
-      "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.4183737874031067,
-    "n_severe": 5,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.37617153823375704,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202610202256-KMLB-FXUS62-AFDMLB",
-    "afd_time": "2026-10-20T22:56:00Z",
-    "updated": "2026-10-21T01:40:40.877570+00:00"
+    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
+    "product_id": "202610210643-KMLB-FXUS62-AFDMLB",
+    "afd_time": "2026-10-21T06:43:00Z",
+    "updated": "2026-10-21T07:45:19.173875+00:00"
   }
 }

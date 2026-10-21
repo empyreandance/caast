@@ -1,91 +1,91 @@
 {
   "office": "SHV",
-  "product_id": "202610202359-KSHV-FXUS64-AFDSHV",
-  "afd_time": "2026-10-20T23:59:00Z",
+  "product_id": "202610210533-KSHV-FXUS64-AFDSHV",
+  "afd_time": "2026-10-21T05:33:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-21T01:40:40.877570+00:00",
-  "query_preview": "..\nIssued at 153 PM CDT Tue Oct 20 2026\n\nAnother day of surface ridging is underway with troughing off of \nthe west coast and east coast of the CONUS. All spatiotemporal \nforecast trends are for ridging to remain as the predominant \nweather influence across the Four State Region through most of the\n",
+  "updated": "2026-10-21T07:45:19.173875+00:00",
+  "query_preview": "..\nIssued at 1125 PM CDT Tue Oct 20 2026\n\nUpper-ridge extending from south Texas into Arkansas to continue \nto build areawide through the remainder of the workweek resulting\nin a gradual warming trend across the ArkLaTex. Subsidence \nassociated with the ridge will maintain mostly clear skies and \naf",
   "analogs": [
     {
       "datetime_utc": "2007-12-01T02:39Z",
       "source_file": "SHV_2008_01_0239.txt",
-      "similarity": 0.3562449812889099,
+      "similarity": 0.3854147791862488,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-02-14T14:01Z",
-      "source_file": "SHV_2012_14_1401.txt",
-      "similarity": 0.3542577028274536,
+      "datetime_utc": "2015-11-01T18:21Z",
+      "source_file": "SHV_2015_01_1821.txt",
+      "similarity": 0.3852776885032654,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-02-22T11:57Z",
+      "source_file": "SHV_2008_22_1157.txt",
+      "similarity": 0.381035715341568,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-11-28T21:06Z",
-      "source_file": "SHV_2004_28_2106.txt",
-      "similarity": 0.35392141342163086,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-09-29T06:14Z",
-      "source_file": "SHV_2022_29_0614.txt",
-      "similarity": 0.35376933217048645,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-09-29T00:47Z",
-      "source_file": "SHV_2022_29_0047.txt",
-      "similarity": 0.35376933217048645,
+      "datetime_utc": "2005-03-03T20:42Z",
+      "source_file": "SHV_2005_03_2042.txt",
+      "similarity": 0.37960582971572876,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2022-09-28T20:13Z",
       "source_file": "SHV_2022_28_2013.txt",
-      "similarity": 0.35376933217048645,
+      "similarity": 0.3793955445289612,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-09-29T00:47Z",
+      "source_file": "SHV_2022_29_0047.txt",
+      "similarity": 0.3793955445289612,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-09-29T06:14Z",
+      "source_file": "SHV_2022_29_0614.txt",
+      "similarity": 0.3793955445289612,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2022-09-29T02:57Z",
       "source_file": "SHV_2022_29_0257.txt",
-      "similarity": 0.35376933217048645,
+      "similarity": 0.3793955445289612,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2008-02-22T11:57Z",
-      "source_file": "SHV_2008_22_1157.txt",
-      "similarity": 0.3533763289451599,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2005-05-22T08:00Z",
+      "source_file": "SHV_2005_22_0800_2.txt",
+      "similarity": 0.3788258731365204,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2005-08-19T20:07Z",
-      "source_file": "SHV_2005_19_2007.txt",
-      "similarity": 0.3526708781719208,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-08-19T19:32Z",
-      "source_file": "SHV_2005_19_1932.txt",
-      "similarity": 0.3526708781719208,
+      "datetime_utc": "2008-02-22T12:03Z",
+      "source_file": "SHV_2008_22_1203.txt",
+      "similarity": 0.3784029483795166,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.35382195115089415,
-    "n_severe": 4,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.3806145012378693,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
-    "product_id": "202610202359-KSHV-FXUS64-AFDSHV",
-    "afd_time": "2026-10-20T23:59:00Z",
-    "updated": "2026-10-21T01:40:40.877570+00:00"
+    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
+    "product_id": "202610210533-KSHV-FXUS64-AFDSHV",
+    "afd_time": "2026-10-21T05:33:00Z",
+    "updated": "2026-10-21T07:45:19.173875+00:00"
   }
 }

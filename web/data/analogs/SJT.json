@@ -1,91 +1,91 @@
 {
   "office": "SJT",
-  "product_id": "202610202230-KSJT-FXUS64-AFDSJT",
-  "afd_time": "2026-10-20T22:30:00Z",
+  "product_id": "202610210600-KSJT-FXUS64-AFDSJT",
+  "afd_time": "2026-10-21T06:00:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-21T01:40:40.877570+00:00",
-  "query_preview": "..\n(Wednesday night through next Tuesday)\nIssued at 245 PM CDT Tue Oct 20 2026\n\nThe upper-level ridge will build to a 500mb height of 590dam and be \nthe predominant feature through Friday.  This should result in high \ntemperatures in the low to mid 80s with low temperatures in the \nupper 50s to arou",
+  "updated": "2026-10-21T07:45:19.173875+00:00",
+  "query_preview": "..\n(Thursday through Tuesday)\nIssued at 1250 AM CDT Wed Oct 21 2026\n\nThe upper ridge will remain centered over the Plain through \nFriday but will begin shifting eastward by Saturday, as an upper \nlevel trough approaches from the west. Warm temperatures will \ncontinue, with highs Thursday and Friday ",
   "analogs": [
-    {
-      "datetime_utc": "2005-09-08T02:11Z",
-      "source_file": "SJT_2005_08_0211.txt",
-      "similarity": 0.42853111028671265,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2005-09-07T19:12Z",
       "source_file": "SJT_2005_07_1912.txt",
-      "similarity": 0.42853111028671265,
+      "similarity": 0.36943548917770386,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-11-14T21:32Z",
-      "source_file": "SJT_2010_14_2132.txt",
-      "similarity": 0.4216856360435486,
+      "datetime_utc": "2005-09-08T02:11Z",
+      "source_file": "SJT_2005_08_0211.txt",
+      "similarity": 0.36943548917770386,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-01-01T11:36Z",
+      "source_file": "SJT_2006_01_1136.txt",
+      "similarity": 0.3635103702545166,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-11-15T05:31Z",
-      "source_file": "SJT_2010_15_0531.txt",
-      "similarity": 0.4216856360435486,
+      "datetime_utc": "2006-01-01T09:11Z",
+      "source_file": "SJT_2006_01_0911.txt",
+      "similarity": 0.3635103702545166,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-11-14T23:24Z",
-      "source_file": "SJT_2010_14_2324.txt",
-      "similarity": 0.4216856360435486,
+      "datetime_utc": "2015-02-28T16:54Z",
+      "source_file": "SJT_2015_28_1654.txt",
+      "similarity": 0.36265912652015686,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-07-23T03:01Z",
+      "source_file": "SJT_2011_23_0301.txt",
+      "similarity": 0.3613307476043701,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-06-20T20:21Z",
-      "source_file": "SJT_2006_20_2021.txt",
-      "similarity": 0.41987258195877075,
+      "datetime_utc": "2006-06-20T10:06Z",
+      "source_file": "SJT_2006_20_1006.txt",
+      "similarity": 0.3600578308105469,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-06-20T09:05Z",
       "source_file": "SJT_2006_20_0905.txt",
-      "similarity": 0.41987258195877075,
+      "similarity": 0.3600578308105469,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-06-20T10:06Z",
-      "source_file": "SJT_2006_20_1006.txt",
-      "similarity": 0.41987258195877075,
+      "datetime_utc": "2006-06-20T20:21Z",
+      "source_file": "SJT_2006_20_2021.txt",
+      "similarity": 0.3600578308105469,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-01-16T09:40Z",
-      "source_file": "SJT_2009_16_0940.txt",
-      "similarity": 0.41937583684921265,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-01-16T11:27Z",
-      "source_file": "SJT_2009_16_1127_1.txt",
-      "similarity": 0.41937583684921265,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2006-08-13T11:27Z",
+      "source_file": "SJT_2006_13_1127.txt",
+      "similarity": 0.3596222400665283,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.42204885482788085,
-    "n_severe": 5,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.3629677325487137,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202610202230-KSJT-FXUS64-AFDSJT",
-    "afd_time": "2026-10-20T22:30:00Z",
-    "updated": "2026-10-21T01:40:40.877570+00:00"
+    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
+    "product_id": "202610210600-KSJT-FXUS64-AFDSJT",
+    "afd_time": "2026-10-21T06:00:00Z",
+    "updated": "2026-10-21T07:45:19.173875+00:00"
   }
 }

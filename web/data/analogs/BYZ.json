@@ -1,91 +1,91 @@
 {
   "office": "BYZ",
-  "product_id": "202610201902-KBYZ-FXUS65-AFDBYZ",
-  "afd_time": "2026-10-20T19:02:00Z",
+  "product_id": "202610210705-KBYZ-FXUS65-AFDBYZ",
+  "afd_time": "2026-10-21T07:05:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-20T22:22:21.194304+00:00",
-  "query_preview": "..\n\nNext 7 days (through Monday)...\n\nA quiet weather pattern for the area through Thursday, with\nridging aloft transitioning to southwesterly flow Thursday\nafternoon. Afternoon temperatures will be in the 60s on Wednesday,\nclimbing into the mid 70s for Thursday afternoon with plenty of\nsunshine each",
+  "updated": "2026-10-21T07:45:19.173875+00:00",
+  "query_preview": "..\n\nNext 7 Days ...\n\nThe next couple of days (Today and Thursday) will feature fairly \nbenign weather. Outside of a widely isolated shower in the high \nterrain, sunny skies and above average temperatures will persist. \nBe sure to get out and enjoy it if you can as big changes are in \nstore come Frid",
   "analogs": [
+    {
+      "datetime_utc": "2004-08-31T14:55Z",
+      "source_file": "BYZ_2004_31_1455.txt",
+      "similarity": 0.41167664527893066,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-12-25T10:51Z",
+      "source_file": "BYZ_2011_25_1051.txt",
+      "similarity": 0.4037882387638092,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-12-25T16:20Z",
+      "source_file": "BYZ_2011_25_1620.txt",
+      "similarity": 0.4037882387638092,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-09-23T03:27Z",
+      "source_file": "BYZ_2009_23_0327.txt",
+      "similarity": 0.4016109108924866,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-09-22T20:14Z",
+      "source_file": "BYZ_2009_22_2014.txt",
+      "similarity": 0.4016109108924866,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2012-03-04T17:06Z",
       "source_file": "BYZ_2012_04_1706.txt",
-      "similarity": 0.3230533003807068,
+      "similarity": 0.4010906517505646,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2012-03-04T10:20Z",
       "source_file": "BYZ_2012_04_1020.txt",
-      "similarity": 0.3230533003807068,
+      "similarity": 0.4010906517505646,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2008-03-12T20:04Z",
-      "source_file": "BYZ_2008_12_2004.txt",
-      "similarity": 0.30707848072052,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-08-31T14:55Z",
-      "source_file": "BYZ_2004_31_1455.txt",
-      "similarity": 0.3037666976451874,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-12-25T16:20Z",
-      "source_file": "BYZ_2011_25_1620.txt",
-      "similarity": 0.2976091206073761,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-12-25T10:51Z",
-      "source_file": "BYZ_2011_25_1051.txt",
-      "similarity": 0.2976091206073761,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-11-18T16:20Z",
-      "source_file": "BYZ_2004_18_1620_1.txt",
-      "similarity": 0.29621371626853943,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2009-05-02T20:55Z",
+      "source_file": "BYZ_2009_02_2055_1.txt",
+      "similarity": 0.3872303366661072,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2012-09-15T02:55Z",
       "source_file": "BYZ_2012_15_0255_1.txt",
-      "similarity": 0.2956610918045044,
+      "similarity": 0.38273489475250244,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2012-09-14T21:27Z",
       "source_file": "BYZ_2012_14_2127.txt",
-      "similarity": 0.2956610918045044,
+      "similarity": 0.38273489475250244,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-12-25T16:20Z",
-      "source_file": "BYZ_2011_25_1620.txt",
-      "similarity": 0.29551970958709717,
-      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.30352256298065183,
-    "n_severe": 0,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.39773563742637635,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.30 below confidence floor 0.7",
-    "product_id": "202610201902-KBYZ-FXUS65-AFDBYZ",
-    "afd_time": "2026-10-20T19:02:00Z",
-    "updated": "2026-10-20T22:22:21.194304+00:00"
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202610210705-KBYZ-FXUS65-AFDBYZ",
+    "afd_time": "2026-10-21T07:05:00Z",
+    "updated": "2026-10-21T07:45:19.173875+00:00"
   }
 }
