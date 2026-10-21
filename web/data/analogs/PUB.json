@@ -1,91 +1,91 @@
 {
   "office": "PUB",
-  "product_id": "202610211753-KPUB-FXUS65-AFDPUB",
-  "afd_time": "2026-10-21T17:53:00Z",
+  "product_id": "202610212129-KPUB-FXUS65-AFDPUB",
+  "afd_time": "2026-10-21T21:29:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-21T18:43:23.920814+00:00",
-  "query_preview": "/THURSDAY THROUGH TUESDAY/...\nIssued at 1232 AM MDT Wed Oct 21 2026\n\nThursday...All indications point to Thursday as seeing the greatest \nimpacts from this Pacific storm. As the low continues moving east \nacross CA and NV through the day, an upper shortwave rotates across \nAZ and into the Four Corne",
+  "updated": "2026-10-21T22:26:20.832590+00:00",
+  "query_preview": "/FRIDAY THROUGH WEDNESDAY/...\nIssued at 321 PM MDT Wed Oct 21 2026\n\nFriday... Rain continues in the San Juans on Friday, but \ndegrading over the course of the day as moisture leaves the area\nand the low pressure center over CA splits. A Flood Watch \nremains in effect for the eastern San Juans throug",
   "analogs": [
     {
       "datetime_utc": "2007-06-03T19:56Z",
       "source_file": "PUB_2007_03_1956.txt",
-      "similarity": 0.24769282341003418,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-04-20T20:42Z",
-      "source_file": "PUB_2006_20_2042.txt",
-      "similarity": 0.24730949103832245,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-07-22T23:33Z",
-      "source_file": "PUB_2024_22_2333.txt",
-      "similarity": 0.24594718217849731,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-07-23T04:59Z",
-      "source_file": "PUB_2024_23_0459.txt",
-      "similarity": 0.24594718217849731,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-07-22T21:08Z",
-      "source_file": "PUB_2024_22_2108.txt",
-      "similarity": 0.24594718217849731,
+      "similarity": 0.3275070786476135,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-06-04T20:45Z",
       "source_file": "PUB_2007_04_2045.txt",
-      "similarity": 0.23929476737976074,
+      "similarity": 0.3216854929924011,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-08-10T20:46Z",
-      "source_file": "PUB_2009_10_2046.txt",
-      "similarity": 0.23404593765735626,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-08-10T20:26Z",
-      "source_file": "PUB_2009_10_2026.txt",
-      "similarity": 0.23350781202316284,
-      "label": "severe_wind",
+      "datetime_utc": "2006-04-20T20:42Z",
+      "source_file": "PUB_2006_20_2042.txt",
+      "similarity": 0.3208407461643219,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-09-25T09:07Z",
       "source_file": "PUB_2006_25_0907.txt",
-      "similarity": 0.2319771945476532,
+      "similarity": 0.31344008445739746,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-06-04T21:34Z",
-      "source_file": "PUB_2009_04_2134.txt",
-      "similarity": 0.231770321726799,
+      "datetime_utc": "2012-04-20T10:33Z",
+      "source_file": "PUB_2012_20_1033.txt",
+      "similarity": 0.31237316131591797,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-06-17T21:12Z",
+      "source_file": "PUB_2012_17_2112.txt",
+      "similarity": 0.30875974893569946,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-06-18T04:36Z",
+      "source_file": "PUB_2012_18_0436.txt",
+      "similarity": 0.30875974893569946,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-06-17T23:13Z",
+      "source_file": "PUB_2012_17_2313.txt",
+      "similarity": 0.30875974893569946,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-11-22T10:31Z",
+      "source_file": "PUB_2005_22_1031_1.txt",
+      "similarity": 0.30457091331481934,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-05-17T05:28Z",
+      "source_file": "PUB_2017_17_0528.txt",
+      "similarity": 0.30308347940444946,
       "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.9,
-    "mean_similarity": 0.24034398943185806,
-    "n_severe": 9,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.3129780203104019,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.24 below confidence floor 0.7",
-    "product_id": "202610211753-KPUB-FXUS65-AFDPUB",
-    "afd_time": "2026-10-21T17:53:00Z",
-    "updated": "2026-10-21T18:43:23.920814+00:00"
+    "reason": "top-10 mean similarity 0.31 below confidence floor 0.7",
+    "product_id": "202610212129-KPUB-FXUS65-AFDPUB",
+    "afd_time": "2026-10-21T21:29:00Z",
+    "updated": "2026-10-21T22:26:20.832590+00:00"
   }
 }

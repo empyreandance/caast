@@ -1,91 +1,91 @@
 {
   "office": "LMK",
-  "product_id": "202610211740-KLMK-FXUS63-AFDLMK",
-  "afd_time": "2026-10-21T17:40:00Z",
+  "product_id": "202610211849-KLMK-FXUS63-AFDLMK",
+  "afd_time": "2026-10-21T18:49:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-21T18:43:23.920814+00:00",
-  "query_preview": "..\nIssued at 330 AM EDT Wed Oct 21 2026\n\n====== Pleasant Weather with Cool Mornings and Warm Afternoons =====\n\nIt is a clear, cool morning with temperatures ranging from the upper \n30s in decoupled valleys to around 50 degrees on ridges. Most places \nwill see temperatures bottom out in the upper 30s",
+  "updated": "2026-10-21T22:26:20.832590+00:00",
+  "query_preview": "..\nIssued at 248 PM EDT Wed Oct 21 2026\n\n===== Pleasant Afternoons with Chilly Mornings and Valley Fog =====\n\nWeather conditions continue to be warm, sunny, and pleasant across \nthe whole area. Temperatures are all in the low 70s with all but \ncalm winds. The center of a ridge axis is parked directl",
   "analogs": [
     {
       "datetime_utc": "2004-10-25T08:23Z",
       "source_file": "LMK_2004_25_0823_1.txt",
-      "similarity": 0.3757648468017578,
+      "similarity": 0.36957287788391113,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-10-25T08:23Z",
       "source_file": "LMK_2004_25_0823.txt",
-      "similarity": 0.3757648468017578,
+      "similarity": 0.36957287788391113,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-10-25T08:22Z",
       "source_file": "LMK_2004_25_0822.txt",
-      "similarity": 0.3757648468017578,
+      "similarity": 0.36957287788391113,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-10-25T08:22Z",
       "source_file": "LMK_2004_25_0822_1.txt",
-      "similarity": 0.3757648468017578,
+      "similarity": 0.36957287788391113,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-08-07T08:07Z",
+      "source_file": "LMK_2004_07_0807.txt",
+      "similarity": 0.3560357689857483,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-10-03T08:45Z",
+      "source_file": "LMK_2011_03_0845.txt",
+      "similarity": 0.35233381390571594,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-10-03T17:29Z",
       "source_file": "LMK_2011_03_1729.txt",
-      "similarity": 0.36988723278045654,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-10-03T10:39Z",
-      "source_file": "LMK_2011_03_1039.txt",
-      "similarity": 0.36988723278045654,
+      "similarity": 0.35233381390571594,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-10-03T15:47Z",
       "source_file": "LMK_2011_03_1547.txt",
-      "similarity": 0.36988723278045654,
+      "similarity": 0.35233381390571594,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-10-03T08:45Z",
-      "source_file": "LMK_2011_03_0845.txt",
-      "similarity": 0.36988723278045654,
+      "datetime_utc": "2011-10-03T10:39Z",
+      "source_file": "LMK_2011_03_1039.txt",
+      "similarity": 0.35233381390571594,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-10-03T13:23Z",
       "source_file": "LMK_2011_03_1323.txt",
-      "similarity": 0.36988723278045654,
+      "similarity": 0.35233381390571594,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-12-23T20:06Z",
-      "source_file": "LMK_2023_23_2006.txt",
-      "similarity": 0.3636589050292969,
-      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.37161544561386106,
-    "n_severe": 0,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.35959963500499725,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
-    "product_id": "202610211740-KLMK-FXUS63-AFDLMK",
-    "afd_time": "2026-10-21T17:40:00Z",
-    "updated": "2026-10-21T18:43:23.920814+00:00"
+    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
+    "product_id": "202610211849-KLMK-FXUS63-AFDLMK",
+    "afd_time": "2026-10-21T18:49:00Z",
+    "updated": "2026-10-21T22:26:20.832590+00:00"
   }
 }
