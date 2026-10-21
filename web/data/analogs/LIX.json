@@ -1,91 +1,91 @@
 {
   "office": "LIX",
-  "product_id": "202610211039-KLIX-FXUS64-AFDLIX",
-  "afd_time": "2026-10-21T10:39:00Z",
+  "product_id": "202610211841-KLIX-FXUS64-AFDLIX",
+  "afd_time": "2026-10-21T18:41:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-21T13:53:29.063033+00:00",
-  "query_preview": "..\n(Saturday night through Tuesday)\nIssued at 212 AM CDT Wed Oct 21 2026\n\nOn Sunday evening, an upper level trough will extend from the \nAtlantic Coast to Florida to the western Caribbean, with another \nover the Intermountain West. A skinny ridge will extend from the \nwestern Gulf and lower Mississi",
+  "updated": "2026-10-21T18:43:23.920814+00:00",
+  "query_preview": "..\n(Sunday through Tuesday night)\nIssued at 141 PM CDT Wed Oct 21 2026\n\nEarly on in the long term see Fire Weather statement below. This\nwill do an effective way of characterizing what to anticipate\nSunday and possibly Monday, but the only difference is Monday\nsurface winds look to decrease across t",
   "analogs": [
-    {
-      "datetime_utc": "2012-09-19T20:07Z",
-      "source_file": "LIX_2012_19_2007.txt",
-      "similarity": 0.7125726342201233,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-02-20T16:44Z",
-      "source_file": "LIX_2005_20_1644.txt",
-      "similarity": 0.6636075973510742,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2011-02-05T02:40Z",
       "source_file": "LIX_2011_05_0240.txt",
-      "similarity": 0.6591963171958923,
+      "similarity": 0.6003085374832153,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-06-16T08:14Z",
-      "source_file": "LIX_2004_16_0814.txt",
-      "similarity": 0.6429294347763062,
+      "datetime_utc": "2016-07-24T01:09Z",
+      "source_file": "LIX_2016_24_0109.txt",
+      "similarity": 0.6001321077346802,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-07-23T21:04Z",
       "source_file": "LIX_2016_23_2104_1.txt",
-      "similarity": 0.6426421999931335,
+      "similarity": 0.6001321077346802,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-07-24T01:09Z",
-      "source_file": "LIX_2016_24_0109.txt",
-      "similarity": 0.6426421999931335,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2006-10-16T09:27Z",
       "source_file": "LIX_2006_16_0927.txt",
-      "similarity": 0.6388405561447144,
+      "similarity": 0.5765963196754456,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2022-02-17T17:26Z",
-      "source_file": "LIX_2022_17_1726.txt",
-      "similarity": 0.6213918924331665,
+      "datetime_utc": "2012-09-19T20:07Z",
+      "source_file": "LIX_2012_19_2007.txt",
+      "similarity": 0.5725824236869812,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-02-20T16:44Z",
+      "source_file": "LIX_2005_20_1644.txt",
+      "similarity": 0.5491788983345032,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-06-16T08:14Z",
+      "source_file": "LIX_2004_16_0814.txt",
+      "similarity": 0.5406379699707031,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2022-02-17T10:43Z",
-      "source_file": "LIX_2022_17_1043.txt",
-      "similarity": 0.6213918924331665,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2022-09-08T09:47Z",
+      "source_file": "LIX_2022_08_0947.txt",
+      "similarity": 0.5067540407180786,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2022-02-17T11:46Z",
-      "source_file": "LIX_2022_17_1146.txt",
-      "similarity": 0.6213918924331665,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2022-09-08T11:15Z",
+      "source_file": "LIX_2022_08_1115.txt",
+      "similarity": 0.5067540407180786,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-05-26T17:16Z",
+      "source_file": "LIX_2021_26_1716.txt",
+      "similarity": 0.5029338598251343,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.6466606616973877,
-    "n_severe": 7,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.55560103058815,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.65 below confidence floor 0.7",
-    "product_id": "202610211039-KLIX-FXUS64-AFDLIX",
-    "afd_time": "2026-10-21T10:39:00Z",
-    "updated": "2026-10-21T13:53:29.063033+00:00"
+    "reason": "top-10 mean similarity 0.56 below confidence floor 0.7",
+    "product_id": "202610211841-KLIX-FXUS64-AFDLIX",
+    "afd_time": "2026-10-21T18:41:00Z",
+    "updated": "2026-10-21T18:43:23.920814+00:00"
   }
 }

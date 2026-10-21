@@ -1,91 +1,91 @@
 {
   "office": "BUF",
-  "product_id": "202610210930-KBUF-FXUS61-AFDBUF",
-  "afd_time": "2026-10-21T09:30:00Z",
+  "product_id": "202610211701-KBUF-FXUS61-AFDBUF",
+  "afd_time": "2026-10-21T17:01:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-21T13:53:29.063033+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Dry and tranquil weather will prevail through\nthis weekend.\n\nHigh pressure at the surface and aloft will remain in place \nacross the Ohio Valley and eastern Great Lakes through Wednesday\nnight, maintaining dry weather and clear to mainly clear sky\nacross Western and Central NY. Ho",
+  "updated": "2026-10-21T18:43:23.920814+00:00",
+  "query_preview": "..\n\nKEY MESSAGE 1...Dry and tranquil weather will prevail through this \nweekend.\n\nClear skies persist across western New York early this afternoon as \na ridge of high pressure across the Midwest into the lower Great \nLakes region slowly drifts eastward. Latest GOES imagery shows a \nstrip of cloud co",
   "analogs": [
     {
-      "datetime_utc": "2019-12-08T00:52Z",
-      "source_file": "BUF_2019_08_0052.txt",
-      "similarity": 0.4070433974266052,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2007-09-27T01:38Z",
+      "source_file": "BUF_2007_27_0138.txt",
+      "similarity": 0.39527010917663574,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2019-12-07T22:14Z",
-      "source_file": "BUF_2019_07_2214.txt",
-      "similarity": 0.4070433974266052,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2016-08-26T18:22Z",
+      "source_file": "BUF_2016_26_1822.txt",
+      "similarity": 0.3918224573135376,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2025-04-21T18:03Z",
-      "source_file": "BUF_2025_21_1803.txt",
-      "similarity": 0.3937881886959076,
-      "label": "flood",
-      "is_severe": false
+      "datetime_utc": "2010-07-30T19:30Z",
+      "source_file": "BUF_2010_30_1930.txt",
+      "similarity": 0.39062654972076416,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-07-31T00:00Z",
+      "source_file": "BUF_2010_31_0000.txt",
+      "similarity": 0.39062654972076416,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-07-31T05:45Z",
+      "source_file": "BUF_2010_31_0545.txt",
+      "similarity": 0.39062654972076416,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-07-31T01:22Z",
+      "source_file": "BUF_2010_31_0122.txt",
+      "similarity": 0.39062654972076416,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-05-13T20:00Z",
+      "source_file": "BUF_2012_13_2000.txt",
+      "similarity": 0.389739990234375,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
       "datetime_utc": "2012-05-14T00:23Z",
       "source_file": "BUF_2012_14_0023.txt",
-      "similarity": 0.3920947313308716,
+      "similarity": 0.389739990234375,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-05-14T05:26Z",
       "source_file": "BUF_2012_14_0526.txt",
-      "similarity": 0.3920947313308716,
+      "similarity": 0.389739990234375,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-05-13T23:37Z",
       "source_file": "BUF_2012_13_2337.txt",
-      "similarity": 0.3920947313308716,
+      "similarity": 0.389739990234375,
       "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-05-13T20:00Z",
-      "source_file": "BUF_2012_13_2000.txt",
-      "similarity": 0.3920947313308716,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2019-03-08T20:26Z",
-      "source_file": "BUF_2019_08_2026.txt",
-      "similarity": 0.3909570872783661,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2019-03-08T20:41Z",
-      "source_file": "BUF_2019_08_2041.txt",
-      "similarity": 0.3909570872783661,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-11-06T20:13Z",
-      "source_file": "BUF_2005_06_2013.txt",
-      "similarity": 0.3894862234592438,
-      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.39476543068885805,
-    "n_severe": 7,
+    "severe_fraction": 1.0,
+    "mean_similarity": 0.390855872631073,
+    "n_severe": 10,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202610210930-KBUF-FXUS61-AFDBUF",
-    "afd_time": "2026-10-21T09:30:00Z",
-    "updated": "2026-10-21T13:53:29.063033+00:00"
+    "product_id": "202610211701-KBUF-FXUS61-AFDBUF",
+    "afd_time": "2026-10-21T17:01:00Z",
+    "updated": "2026-10-21T18:43:23.920814+00:00"
   }
 }
