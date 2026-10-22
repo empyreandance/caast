@@ -1,92 +1,91 @@
 {
   "office": "CTP",
-  "product_id": "202610220811-KCTP-FXUS61-AFDCTP",
-  "afd_time": "2026-10-22T08:11:00Z",
+  "product_id": "202610221814-KCTP-FXUS61-AFDCTP",
+  "afd_time": "2026-10-22T18:14:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-22T13:52:51.908699+00:00",
-  "query_preview": "..\nKEY MESSAGE 1: Seasonably dry weather into the end of October \n\nRepeat pattern of seasonably sunny days and chilly/frosty \nnights rolls on into the end of the month. Frost headlines are \nprobable Friday night/Saturday morning for Lebanon and Lancaster\nCounties.",
+  "updated": "2026-10-22T18:35:59.858040+00:00",
+  "query_preview": "..\nKEY MESSAGE 1: Dry weather continues into the end of October.\n\nA dry cold frontal passage this evening into tonight will barely\nbe noticeable other than an increase in cloud cover along and \nbehind the front. High pressure builds into the region again \nbehind the front for tomorrow as a pronounce",
   "analogs": [
     {
       "datetime_utc": "2004-03-03T09:21Z",
       "source_file": "CTP_2004_03_0921.txt",
-      "similarity": 0.8034892082214355,
+      "similarity": 0.7260632514953613,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-08-14T07:34Z",
       "source_file": "CTP_2014_14_0734.txt",
-      "similarity": 0.7609478831291199,
+      "similarity": 0.6782630681991577,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-04-02T02:57Z",
       "source_file": "CTP_2011_02_0257.txt",
-      "similarity": 0.7365137934684753,
+      "similarity": 0.6679983139038086,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-04-01T19:28Z",
       "source_file": "CTP_2011_01_1928.txt",
-      "similarity": 0.7359254360198975,
+      "similarity": 0.6672191023826599,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-04-01T23:57Z",
       "source_file": "CTP_2011_01_2357.txt",
-      "similarity": 0.7359254360198975,
+      "similarity": 0.6672191023826599,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-07-08T20:09Z",
+      "source_file": "CTP_2013_08_2009.txt",
+      "similarity": 0.6583670377731323,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-07-08T22:02Z",
+      "source_file": "CTP_2013_08_2202.txt",
+      "similarity": 0.6583670377731323,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-07-09T01:40Z",
+      "source_file": "CTP_2013_09_0140.txt",
+      "similarity": 0.6583670377731323,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2013-07-08T23:59Z",
       "source_file": "CTP_2013_08_2359.txt",
-      "similarity": 0.7355097532272339,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-07-09T02:38Z",
-      "source_file": "CTP_2013_09_0238.txt",
-      "similarity": 0.7355097532272339,
+      "similarity": 0.6583670377731323,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2013-07-09T00:20Z",
       "source_file": "CTP_2013_09_0020.txt",
-      "similarity": 0.7355097532272339,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-07-08T20:09Z",
-      "source_file": "CTP_2013_08_2009.txt",
-      "similarity": 0.7355097532272339,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-07-09T06:00Z",
-      "source_file": "CTP_2013_09_0600.txt",
-      "similarity": 0.7355097532272339,
+      "similarity": 0.6583670377731323,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "LOW",
+    "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.7450350522994995,
-    "base_rate": 0.5841577927145483,
-    "signal_value": 0.31584220728545176,
+    "mean_similarity": 0.6698598027229309,
     "n_severe": 9,
     "n_total": 10,
-    "product_id": "202610220811-KCTP-FXUS61-AFDCTP",
-    "afd_time": "2026-10-22T08:11:00Z",
-    "updated": "2026-10-22T13:52:51.908699+00:00"
+    "reason": "top-10 mean similarity 0.67 below confidence floor 0.7",
+    "product_id": "202610221814-KCTP-FXUS61-AFDCTP",
+    "afd_time": "2026-10-22T18:14:00Z",
+    "updated": "2026-10-22T18:35:59.858040+00:00"
   }
 }
