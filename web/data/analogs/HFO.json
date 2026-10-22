@@ -1,92 +1,91 @@
 {
   "office": "HFO",
-  "product_id": "202610212012-PHFO-FXHW60-AFDHFO",
-  "afd_time": "2026-10-21T20:12:00Z",
+  "product_id": "202610220128-PHFO-FXHW60-AFDHFO",
+  "afd_time": "2026-10-22T01:28:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-21T22:26:20.832590+00:00",
+  "updated": "2026-10-22T01:35:28.922399+00:00",
   "query_preview": "..\nThis morning's satellite imagery shows scattered cumulus clouds \nacross the state with some passing showers riding in with moderate\nto locally breezy trades. As the 1028 mb high continues to weaken\nand drift eastward over the next few days, the trades will weaken\nto moderate speeds by Thursday. G",
   "analogs": [
     {
-      "datetime_utc": "2006-11-04T20:34Z",
-      "source_file": "HFO_2006_04_2034.txt",
-      "similarity": 0.8129518032073975,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-09-17T01:45Z",
-      "source_file": "HFO_2009_17_0145.txt",
-      "similarity": 0.7981279492378235,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2018-06-17T13:59Z",
       "source_file": "HFO_2018_17_1359.txt",
-      "similarity": 0.7975225448608398,
+      "similarity": 0.7085884213447571,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-11-04T20:34Z",
+      "source_file": "HFO_2006_04_2034.txt",
+      "similarity": 0.7055889964103699,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-03-19T01:40Z",
       "source_file": "HFO_2011_19_0140_1.txt",
-      "similarity": 0.7964573502540588,
+      "similarity": 0.697617769241333,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-09-21T07:36Z",
       "source_file": "HFO_2007_21_0736.txt",
-      "similarity": 0.7962034344673157,
+      "similarity": 0.697398841381073,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-04-27T01:58Z",
+      "source_file": "HFO_2017_27_0158.txt",
+      "similarity": 0.6969932317733765,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-09-17T01:45Z",
+      "source_file": "HFO_2009_17_0145.txt",
+      "similarity": 0.6965574622154236,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2025-10-16T13:52Z",
       "source_file": "HFO_2025_16_1352.txt",
-      "similarity": 0.7939112186431885,
+      "similarity": 0.6954481601715088,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2025-10-16T01:19Z",
       "source_file": "HFO_2025_16_0119.txt",
-      "similarity": 0.7937952280044556,
+      "similarity": 0.6952939629554749,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-05-04T06:33Z",
-      "source_file": "HFO_2007_04_0633.txt",
-      "similarity": 0.7915876507759094,
+      "datetime_utc": "2020-05-21T06:34Z",
+      "source_file": "HFO_2020_21_0634_1.txt",
+      "similarity": 0.6941354870796204,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-12-26T19:44Z",
-      "source_file": "HFO_2007_26_1944.txt",
-      "similarity": 0.7903329730033875,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-06-01T14:07Z",
-      "source_file": "HFO_2018_01_1407.txt",
-      "similarity": 0.7900854349136353,
+      "datetime_utc": "2005-01-06T01:30Z",
+      "source_file": "HFO_2005_06_0130_4.txt",
+      "similarity": 0.6938130855560303,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "QUIET",
+    "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.0,
-    "mean_similarity": 0.7960975587368011,
-    "base_rate": null,
-    "signal_value": -0.5,
+    "mean_similarity": 0.6981435418128967,
     "n_severe": 0,
     "n_total": 10,
-    "product_id": "202610212012-PHFO-FXHW60-AFDHFO",
-    "afd_time": "2026-10-21T20:12:00Z",
-    "updated": "2026-10-21T22:26:20.832590+00:00"
+    "reason": "top-10 mean similarity 0.70 below confidence floor 0.7",
+    "product_id": "202610220128-PHFO-FXHW60-AFDHFO",
+    "afd_time": "2026-10-22T01:28:00Z",
+    "updated": "2026-10-22T01:35:28.922399+00:00"
   }
 }
