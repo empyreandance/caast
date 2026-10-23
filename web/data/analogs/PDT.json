@@ -1,78 +1,78 @@
 {
   "office": "PDT",
-  "product_id": "202610222050-KPDT-FXUS66-AFDPDT",
-  "afd_time": "2026-10-22T20:50:00Z",
+  "product_id": "202610230544-KPDT-FXUS66-AFDPDT",
+  "afd_time": "2026-10-23T05:44:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-22T22:25:04.582628+00:00",
-  "query_preview": "..\nWater vapor imagery shows a large closed low over central\nCalifornia, and a weak mid-level circulation wrapping north-\nnorthwest around the parent low is evident over southeast \nOregon. Meanwhile, a shortwave trough is approaching the Pacific\nNorthwest from the northeast Pacific Ocean, and is for",
+  "updated": "2026-10-23T07:38:57.979283+00:00",
+  "query_preview": "..\nWater vapor imagery shows a large closed low over\ncentral California, and a weak mid-level circulation wrapping \nnorth- northwest around the parent low is evident over southeast\nOregon. Meanwhile, a shortwave trough is approaching the \nPacific Northwest from the northeast Pacific Ocean, and is \nf",
   "analogs": [
+    {
+      "datetime_utc": "2024-05-23T17:25Z",
+      "source_file": "PDT_2024_23_1725.txt",
+      "similarity": 0.46715158224105835,
+      "label": "severe_wind",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2024-05-23T09:34Z",
       "source_file": "PDT_2024_23_0934.txt",
-      "similarity": 0.46645230054855347,
+      "similarity": 0.46715158224105835,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-05-23T15:58Z",
       "source_file": "PDT_2024_23_1558.txt",
-      "similarity": 0.46645230054855347,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-05-23T17:25Z",
-      "source_file": "PDT_2024_23_1725.txt",
-      "similarity": 0.46645230054855347,
+      "similarity": 0.46715158224105835,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-03-21T21:49Z",
       "source_file": "PDT_2017_21_2149.txt",
-      "similarity": 0.46526816487312317,
+      "similarity": 0.4658856987953186,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-03-21T16:10Z",
       "source_file": "PDT_2017_21_1610.txt",
-      "similarity": 0.46526816487312317,
+      "similarity": 0.4658856987953186,
       "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-08-19T09:29Z",
-      "source_file": "PDT_2006_19_0929.txt",
-      "similarity": 0.4559011459350586,
-      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-08-19T16:20Z",
       "source_file": "PDT_2006_19_1620.txt",
-      "similarity": 0.4559011459350586,
+      "similarity": 0.45650815963745117,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-08-19T09:30Z",
       "source_file": "PDT_2006_19_0930.txt",
-      "similarity": 0.4559011459350586,
+      "similarity": 0.45650815963745117,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-07-10T09:36Z",
-      "source_file": "PDT_2020_10_0936.txt",
-      "similarity": 0.45402488112449646,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2006-08-19T09:29Z",
+      "source_file": "PDT_2006_19_0929.txt",
+      "similarity": 0.45650815963745117,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2020-07-10T17:32Z",
       "source_file": "PDT_2020_10_1732.txt",
-      "similarity": 0.45402488112449646,
+      "similarity": 0.4544258713722229,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-07-10T09:36Z",
+      "source_file": "PDT_2020_10_0936.txt",
+      "similarity": 0.4544258713722229,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.46056464314460754,
+    "mean_similarity": 0.4611602365970612,
     "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202610222050-KPDT-FXUS66-AFDPDT",
-    "afd_time": "2026-10-22T20:50:00Z",
-    "updated": "2026-10-22T22:25:04.582628+00:00"
+    "product_id": "202610230544-KPDT-FXUS66-AFDPDT",
+    "afd_time": "2026-10-23T05:44:00Z",
+    "updated": "2026-10-23T07:38:57.979283+00:00"
   }
 }

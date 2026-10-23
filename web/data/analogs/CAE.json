@@ -1,91 +1,91 @@
 {
   "office": "CAE",
-  "product_id": "202610230018-KCAE-FXUS62-AFDCAE",
-  "afd_time": "2026-10-23T00:18:00Z",
+  "product_id": "202610230500-KCAE-FXUS62-AFDCAE",
+  "afd_time": "2026-10-23T05:00:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-23T01:35:18.837822+00:00",
-  "query_preview": "..\nKey Message 1: Dry weather continues the remainder of this week\nand into this weekend with temperatures near to just below \nnormal.\n\nDry weather will persist through the end of the week and into \nthe weekend as an upper-level blocking pattern remains in place.\nA rinse and repeat forecast is expec",
+  "updated": "2026-10-23T07:38:57.979283+00:00",
+  "query_preview": "..\nKey Message 1: Dry weather continues the remainder of this week \nand into this weekend with near normal daytime temperatures.\n\nNo significant changes are expected to the overall weather\npattern across the region during the next seven days due to a\npersistent upper-level blocking pattern. Dry cond",
   "analogs": [
     {
-      "datetime_utc": "2020-04-10T19:02Z",
-      "source_file": "CAE_2020_10_1902.txt",
-      "similarity": 0.42237597703933716,
+      "datetime_utc": "2004-03-15T19:57Z",
+      "source_file": "CAE_2004_15_1957.txt",
+      "similarity": 0.3459291458129883,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-12-27T21:20Z",
+      "source_file": "CAE_2011_27_2120.txt",
+      "similarity": 0.34365975856781006,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-12-27T05:49Z",
+      "source_file": "CAE_2011_27_0549.txt",
+      "similarity": 0.34365975856781006,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-12-27T18:48Z",
+      "source_file": "CAE_2011_27_1848.txt",
+      "similarity": 0.34365975856781006,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-12-27T06:31Z",
+      "source_file": "CAE_2011_27_0631.txt",
+      "similarity": 0.34365975856781006,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-12-27T23:13Z",
+      "source_file": "CAE_2011_27_2313.txt",
+      "similarity": 0.34365975856781006,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-04-11T07:38Z",
+      "source_file": "CAE_2020_11_0738.txt",
+      "similarity": 0.3423059582710266,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-04-10T23:54Z",
       "source_file": "CAE_2020_10_2354.txt",
-      "similarity": 0.42237597703933716,
+      "similarity": 0.3423059582710266,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-04-10T19:02Z",
+      "source_file": "CAE_2020_10_1902.txt",
+      "similarity": 0.3423059582710266,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-04-11T06:02Z",
       "source_file": "CAE_2020_11_0602.txt",
-      "similarity": 0.42237597703933716,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-04-11T07:38Z",
-      "source_file": "CAE_2020_11_0738.txt",
-      "similarity": 0.42237597703933716,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-07-24T02:43Z",
-      "source_file": "CAE_2011_24_0243.txt",
-      "similarity": 0.4205610454082489,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-07-24T01:58Z",
-      "source_file": "CAE_2011_24_0158.txt",
-      "similarity": 0.4205610454082489,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-07-23T23:53Z",
-      "source_file": "CAE_2011_23_2353.txt",
-      "similarity": 0.4205610454082489,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-03-15T19:57Z",
-      "source_file": "CAE_2004_15_1957.txt",
-      "similarity": 0.41962969303131104,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-09-12T23:04Z",
-      "source_file": "CAE_2018_12_2304.txt",
-      "similarity": 0.4157857596874237,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-09-13T09:47Z",
-      "source_file": "CAE_2018_13_0947.txt",
-      "similarity": 0.4157857596874237,
+      "similarity": 0.3423059582710266,
       "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.9,
-    "mean_similarity": 0.42023882567882537,
-    "n_severe": 9,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.3433451771736145,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202610230018-KCAE-FXUS62-AFDCAE",
-    "afd_time": "2026-10-23T00:18:00Z",
-    "updated": "2026-10-23T01:35:18.837822+00:00"
+    "reason": "top-10 mean similarity 0.34 below confidence floor 0.7",
+    "product_id": "202610230500-KCAE-FXUS62-AFDCAE",
+    "afd_time": "2026-10-23T05:00:00Z",
+    "updated": "2026-10-23T07:38:57.979283+00:00"
   }
 }
