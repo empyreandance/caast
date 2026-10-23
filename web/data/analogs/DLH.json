@@ -1,24 +1,31 @@
 {
   "office": "DLH",
-  "product_id": "202610231130-KDLH-FXUS63-AFDDLH",
-  "afd_time": "2026-10-23T11:30:00Z",
+  "product_id": "202610231732-KDLH-FXUS63-AFDDLH",
+  "afd_time": "2026-10-23T17:32:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-23T13:33:45.001569+00:00",
+  "updated": "2026-10-23T18:30:27.349921+00:00",
   "query_preview": "..\nIssued at 232 AM CDT Fri Oct 23 2026\n\nCurrent conditions/Today:\n\nOnshore flow mixing with low level moisture has manifested a large \nstratus deck that engulfs western Lake Superior this morning. This \ncloud deck continues to emanate from the Lake and has advected \ninland leading to a Dense Fog Ad",
   "analogs": [
     {
-      "datetime_utc": "2023-09-25T23:38Z",
-      "source_file": "DLH_2023_25_2338.txt",
-      "similarity": 0.4800949692726135,
+      "datetime_utc": "2023-09-25T21:00Z",
+      "source_file": "DLH_2023_25_2100.txt",
+      "similarity": 0.4800950288772583,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2023-09-25T21:00Z",
-      "source_file": "DLH_2023_25_2100.txt",
-      "similarity": 0.4800949692726135,
+      "datetime_utc": "2023-09-25T23:38Z",
+      "source_file": "DLH_2023_25_2338.txt",
+      "similarity": 0.4800950288772583,
       "label": "tornado",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-02-09T23:35Z",
+      "source_file": "DLH_2024_09_2335.txt",
+      "similarity": 0.4740098714828491,
+      "label": "winter",
+      "is_severe": false
     },
     {
       "datetime_utc": "2024-02-10T05:29Z",
@@ -35,44 +42,37 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2024-02-09T23:35Z",
-      "source_file": "DLH_2024_09_2335.txt",
-      "similarity": 0.4740098714828491,
+      "datetime_utc": "2023-01-26T11:42Z",
+      "source_file": "DLH_2023_26_1142.txt",
+      "similarity": 0.46384376287460327,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-01-26T17:49Z",
       "source_file": "DLH_2023_26_1749.txt",
-      "similarity": 0.4638437032699585,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-26T11:42Z",
-      "source_file": "DLH_2023_26_1142.txt",
-      "similarity": 0.4638437032699585,
+      "similarity": 0.46384376287460327,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-01-26T10:11Z",
       "source_file": "DLH_2023_26_1011.txt",
-      "similarity": 0.4638437032699585,
+      "similarity": 0.46384376287460327,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2008-08-06T20:04Z",
       "source_file": "DLH_2008_06_2004.txt",
-      "similarity": 0.45697835087776184,
+      "similarity": 0.456978440284729,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-08-07T02:26Z",
       "source_file": "DLH_2008_07_0226.txt",
-      "similarity": 0.45697835087776184,
+      "similarity": 0.456978440284729,
       "label": "severe_hail",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.4687707364559174,
+    "mean_similarity": 0.4687707841396332,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202610231130-KDLH-FXUS63-AFDDLH",
-    "afd_time": "2026-10-23T11:30:00Z",
-    "updated": "2026-10-23T13:33:45.001569+00:00"
+    "product_id": "202610231732-KDLH-FXUS63-AFDDLH",
+    "afd_time": "2026-10-23T17:32:00Z",
+    "updated": "2026-10-23T18:30:27.349921+00:00"
   }
 }
