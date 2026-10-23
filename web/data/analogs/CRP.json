@@ -1,22 +1,29 @@
 {
   "office": "CRP",
-  "product_id": "202610230623-KCRP-FXUS64-AFDCRP",
-  "afd_time": "2026-10-23T06:23:00Z",
+  "product_id": "202610231121-KCRP-FXUS64-AFDCRP",
+  "afd_time": "2026-10-23T11:21:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-23T07:38:57.979283+00:00",
+  "updated": "2026-10-23T13:33:45.001569+00:00",
   "query_preview": "..\nIssued at 121 AM CDT Fri Oct 23 2026\n\nRelatively quiet weather is expected across South Texas through the \nweekend as weak mid-level ridging, limited moisture, and a lack of \nappreciable forcing keep rain chances low. A few isolated to \nscattered remain possible, mainly through much of next week.",
   "analogs": [
     {
-      "datetime_utc": "2018-11-11T21:55Z",
-      "source_file": "CRP_2018_11_2155.txt",
-      "similarity": 0.5164693593978882,
+      "datetime_utc": "2018-11-11T23:56Z",
+      "source_file": "CRP_2018_11_2356.txt",
+      "similarity": 0.5164692401885986,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-11-11T23:56Z",
-      "source_file": "CRP_2018_11_2356.txt",
-      "similarity": 0.5164693593978882,
+      "datetime_utc": "2018-11-11T21:55Z",
+      "source_file": "CRP_2018_11_2155.txt",
+      "similarity": 0.5164692401885986,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-11-23T10:08Z",
+      "source_file": "CRP_2009_23_1008.txt",
+      "similarity": 0.5099937915802002,
       "label": "quiet",
       "is_severe": false
     },
@@ -28,11 +35,11 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-11-23T10:08Z",
-      "source_file": "CRP_2009_23_1008.txt",
-      "similarity": 0.5099937915802002,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2022-04-04T05:32Z",
+      "source_file": "CRP_2022_04_0532.txt",
+      "similarity": 0.503934383392334,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2022-04-03T20:55Z",
@@ -49,29 +56,22 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2022-04-04T05:32Z",
-      "source_file": "CRP_2022_04_0532.txt",
-      "similarity": 0.503934383392334,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2019-03-15T00:26Z",
+      "source_file": "CRP_2019_15_0026.txt",
+      "similarity": 0.5036605596542358,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2019-03-14T21:03Z",
       "source_file": "CRP_2019_14_2103.txt",
-      "similarity": 0.5036606788635254,
+      "similarity": 0.5036605596542358,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-03-15T00:26Z",
-      "source_file": "CRP_2019_15_0026.txt",
-      "similarity": 0.5036606788635254,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-01-09T09:51Z",
-      "source_file": "CRP_2015_09_0951.txt",
+      "datetime_utc": "2015-01-09T18:04Z",
+      "source_file": "CRP_2015_09_1804.txt",
       "similarity": 0.5000275373458862,
       "label": "winter",
       "is_severe": false
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.5072078347206116,
+    "mean_similarity": 0.5072077870368957,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
-    "product_id": "202610230623-KCRP-FXUS64-AFDCRP",
-    "afd_time": "2026-10-23T06:23:00Z",
-    "updated": "2026-10-23T07:38:57.979283+00:00"
+    "product_id": "202610231121-KCRP-FXUS64-AFDCRP",
+    "afd_time": "2026-10-23T11:21:00Z",
+    "updated": "2026-10-23T13:33:45.001569+00:00"
   }
 }

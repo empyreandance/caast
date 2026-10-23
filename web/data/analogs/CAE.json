@@ -1,9 +1,9 @@
 {
   "office": "CAE",
-  "product_id": "202610230500-KCAE-FXUS62-AFDCAE",
-  "afd_time": "2026-10-23T05:00:00Z",
+  "product_id": "202610231034-KCAE-FXUS62-AFDCAE",
+  "afd_time": "2026-10-23T10:34:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-23T07:38:57.979283+00:00",
+  "updated": "2026-10-23T13:33:45.001569+00:00",
   "query_preview": "..\nKey Message 1: Dry weather continues the remainder of this week \nand into this weekend with near normal daytime temperatures.\n\nNo significant changes are expected to the overall weather\npattern across the region during the next seven days due to a\npersistent upper-level blocking pattern. Dry cond",
   "analogs": [
     {
@@ -14,46 +14,39 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-12-27T21:20Z",
-      "source_file": "CAE_2011_27_2120.txt",
-      "similarity": 0.34365975856781006,
+      "datetime_utc": "2011-12-27T23:13Z",
+      "source_file": "CAE_2011_27_2313.txt",
+      "similarity": 0.3436596989631653,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-12-27T05:49Z",
-      "source_file": "CAE_2011_27_0549.txt",
-      "similarity": 0.34365975856781006,
+      "datetime_utc": "2011-12-27T21:20Z",
+      "source_file": "CAE_2011_27_2120.txt",
+      "similarity": 0.3436596989631653,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-12-27T18:48Z",
       "source_file": "CAE_2011_27_1848.txt",
-      "similarity": 0.34365975856781006,
+      "similarity": 0.3436596989631653,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-12-27T05:49Z",
+      "source_file": "CAE_2011_27_0549.txt",
+      "similarity": 0.3436596989631653,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-12-27T06:31Z",
       "source_file": "CAE_2011_27_0631.txt",
-      "similarity": 0.34365975856781006,
+      "similarity": 0.3436596989631653,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-12-27T23:13Z",
-      "source_file": "CAE_2011_27_2313.txt",
-      "similarity": 0.34365975856781006,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-04-11T07:38Z",
-      "source_file": "CAE_2020_11_0738.txt",
-      "similarity": 0.3423059582710266,
-      "label": "tornado",
-      "is_severe": true
     },
     {
       "datetime_utc": "2020-04-10T23:54Z",
@@ -70,6 +63,13 @@
       "is_severe": true
     },
     {
+      "datetime_utc": "2020-04-11T07:38Z",
+      "source_file": "CAE_2020_11_0738.txt",
+      "similarity": 0.3423059582710266,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2020-04-11T06:02Z",
       "source_file": "CAE_2020_11_0602.txt",
       "similarity": 0.3423059582710266,
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.3433451771736145,
+    "mean_similarity": 0.3433451473712921,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.34 below confidence floor 0.7",
-    "product_id": "202610230500-KCAE-FXUS62-AFDCAE",
-    "afd_time": "2026-10-23T05:00:00Z",
-    "updated": "2026-10-23T07:38:57.979283+00:00"
+    "product_id": "202610231034-KCAE-FXUS62-AFDCAE",
+    "afd_time": "2026-10-23T10:34:00Z",
+    "updated": "2026-10-23T13:33:45.001569+00:00"
   }
 }

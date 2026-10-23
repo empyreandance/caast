@@ -1,78 +1,78 @@
 {
   "office": "IWX",
-  "product_id": "202610230533-KIWX-FXUS63-AFDIWX",
-  "afd_time": "2026-10-23T05:33:00Z",
+  "product_id": "202610231027-KIWX-FXUS63-AFDIWX",
+  "afd_time": "2026-10-23T10:27:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-23T07:38:57.979283+00:00",
+  "updated": "2026-10-23T13:33:45.001569+00:00",
   "query_preview": "..\nIssued at 130 AM EDT Fri Oct 23 2026\n\nFog is the main forecast concern again this morning. Light NNE flow \noff Lake Huron supporting widespread dense fog over parts of SE MI \nand continuing to expand SW with time. Models split on exactly how \nfar SW this fog gets but there is a decent chance our ",
   "analogs": [
     {
+      "datetime_utc": "2007-02-28T16:19Z",
+      "source_file": "IWX_2007_28_1619.txt",
+      "similarity": 0.39757615327835083,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2007-02-28T17:34Z",
       "source_file": "IWX_2007_28_1734.txt",
-      "similarity": 0.397576242685318,
+      "similarity": 0.39757615327835083,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-02-28T09:57Z",
       "source_file": "IWX_2007_28_0957.txt",
-      "similarity": 0.397576242685318,
+      "similarity": 0.39757615327835083,
       "label": "severe_hail",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-02-28T16:19Z",
-      "source_file": "IWX_2007_28_1619.txt",
-      "similarity": 0.397576242685318,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-09-07T19:58Z",
-      "source_file": "IWX_2018_07_1958_1.txt",
-      "similarity": 0.391529381275177,
-      "label": "flood",
-      "is_severe": false
     },
     {
       "datetime_utc": "2018-09-08T04:53Z",
       "source_file": "IWX_2018_08_0453.txt",
-      "similarity": 0.391529381275177,
+      "similarity": 0.3915292024612427,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-09-07T19:58Z",
+      "source_file": "IWX_2018_07_1958_1.txt",
+      "similarity": 0.3915292024612427,
+      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2018-09-07T23:02Z",
       "source_file": "IWX_2018_07_2302.txt",
-      "similarity": 0.391529381275177,
+      "similarity": 0.3915292024612427,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-04-11T17:37Z",
-      "source_file": "IWX_2006_11_1737.txt",
-      "similarity": 0.3890794813632965,
+      "datetime_utc": "2006-04-11T11:07Z",
+      "source_file": "IWX_2006_11_1107.txt",
+      "similarity": 0.38907939195632935,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-04-11T11:07Z",
-      "source_file": "IWX_2006_11_1107.txt",
-      "similarity": 0.3890794813632965,
+      "datetime_utc": "2006-04-11T17:37Z",
+      "source_file": "IWX_2006_11_1737.txt",
+      "similarity": 0.38907939195632935,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-04-11T08:39Z",
       "source_file": "IWX_2006_11_0839.txt",
-      "similarity": 0.3890794813632965,
+      "similarity": 0.38907939195632935,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-03-11T09:18Z",
-      "source_file": "IWX_2012_11_0918.txt",
-      "similarity": 0.3857460021972656,
+      "datetime_utc": "2012-03-11T11:50Z",
+      "source_file": "IWX_2012_11_1150.txt",
+      "similarity": 0.3857458233833313,
       "label": "tornado",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.392030131816864,
+    "mean_similarity": 0.39203000664710996,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202610230533-KIWX-FXUS63-AFDIWX",
-    "afd_time": "2026-10-23T05:33:00Z",
-    "updated": "2026-10-23T07:38:57.979283+00:00"
+    "product_id": "202610231027-KIWX-FXUS63-AFDIWX",
+    "afd_time": "2026-10-23T10:27:00Z",
+    "updated": "2026-10-23T13:33:45.001569+00:00"
   }
 }

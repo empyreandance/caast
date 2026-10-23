@@ -1,91 +1,91 @@
 {
   "office": "REV",
-  "product_id": "202610222148-KREV-FXUS65-AFDREV",
-  "afd_time": "2026-10-22T21:48:00Z",
+  "product_id": "202610230940-KREV-FXUS65-AFDREV",
+  "afd_time": "2026-10-23T09:40:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-22T22:25:04.582628+00:00",
-  "query_preview": "..\n\nStorm precipitation so far:\n\n* 36-hour quantitative precipitation estimates ending 11 AM PDT\n  shows 0.25-0.75 inch around Tahoe/Truckee, Alpine County, Carson\n  Valley and Lovelock/Fallon, locally over 1 inch east of Fallon.\n  Estimates are generally under 0.25 inch across eastern\n  Plumas/Lass",
+  "updated": "2026-10-23T13:33:45.001569+00:00",
+  "query_preview": "..\n\nLatest radar loop shows an area of mainly light rain (recent rates \ngenerally less than 0.10\"/hour) near and north of I-80 across \nnortheast CA-western NV. As the upper low centered over north \ncentral NV weakens and drifts into eastern NV later today, this \nrain area will diminish through the m",
   "analogs": [
     {
       "datetime_utc": "2016-08-28T09:39Z",
       "source_file": "REV_2016_28_0939.txt",
-      "similarity": 0.48815953731536865,
+      "similarity": 0.43048736453056335,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-09-16T10:29Z",
-      "source_file": "REV_2007_16_1029.txt",
-      "similarity": 0.41842085123062134,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-02-17T11:59Z",
-      "source_file": "REV_2011_17_1159.txt",
-      "similarity": 0.4043128490447998,
-      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2020-08-16T23:21Z",
       "source_file": "REV_2020_16_2321.txt",
-      "similarity": 0.40257173776626587,
+      "similarity": 0.3726041316986084,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-08-29T10:16Z",
-      "source_file": "REV_2004_29_1016.txt",
-      "similarity": 0.3966795802116394,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-11-05T10:29Z",
-      "source_file": "REV_2014_05_1029.txt",
-      "similarity": 0.3964022397994995,
+      "datetime_utc": "2022-02-03T20:42Z",
+      "source_file": "REV_2022_03_2042.txt",
+      "similarity": 0.36656856536865234,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-10-02T10:15Z",
       "source_file": "REV_2016_02_1015.txt",
-      "similarity": 0.3893110156059265,
+      "similarity": 0.3646507263183594,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2022-02-03T20:42Z",
-      "source_file": "REV_2022_03_2042.txt",
-      "similarity": 0.3789118528366089,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-03-17T22:37Z",
-      "source_file": "REV_2008_17_2237_1.txt",
-      "similarity": 0.3764599561691284,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-09-17T10:20Z",
-      "source_file": "REV_2007_17_1020.txt",
-      "similarity": 0.3649464249610901,
+      "datetime_utc": "2007-09-16T10:29Z",
+      "source_file": "REV_2007_16_1029.txt",
+      "similarity": 0.3617999851703644,
       "label": "severe_hail",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-01-22T22:34Z",
+      "source_file": "REV_2013_22_2234.txt",
+      "similarity": 0.35931846499443054,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-08-20T08:48Z",
+      "source_file": "REV_2016_20_0848.txt",
+      "similarity": 0.35927027463912964,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-11-05T10:29Z",
+      "source_file": "REV_2014_05_1029.txt",
+      "similarity": 0.35646507143974304,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-02-17T11:59Z",
+      "source_file": "REV_2011_17_1159.txt",
+      "similarity": 0.34995096921920776,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-04-27T04:14Z",
+      "source_file": "REV_2012_27_0414.txt",
+      "similarity": 0.3499460220336914,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.40161760449409484,
-    "n_severe": 3,
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.367106157541275,
+    "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202610222148-KREV-FXUS65-AFDREV",
-    "afd_time": "2026-10-22T21:48:00Z",
-    "updated": "2026-10-22T22:25:04.582628+00:00"
+    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
+    "product_id": "202610230940-KREV-FXUS65-AFDREV",
+    "afd_time": "2026-10-23T09:40:00Z",
+    "updated": "2026-10-23T13:33:45.001569+00:00"
   }
 }
