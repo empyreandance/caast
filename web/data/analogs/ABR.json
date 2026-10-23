@@ -1,91 +1,91 @@
 {
   "office": "ABR",
-  "product_id": "202610231725-KABR-FXUS63-AFDABR",
-  "afd_time": "2026-10-23T17:25:00Z",
+  "product_id": "202610231930-KABR-FXUS63-AFDABR",
+  "afd_time": "2026-10-23T19:30:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-23T18:30:27.349921+00:00",
-  "query_preview": "..\nIssued at 349 AM CDT Fri Oct 23 2026\n\nAfter several days of dry conditions and above normal temperatures, \na change in the pattern is nearly upon us in the near term portion \nof the forecast period. However, we will squeeze out one more day of \nmuch above normal temperatures on gusty southerly wi",
+  "updated": "2026-10-23T22:16:08.033272+00:00",
+  "query_preview": "..\nIssued at 220 PM CDT Fri Oct 23 2026\n\nWidespread southerly wind gusts of 30 to 40 miles per hour are in \nplace this afternoon, with the strongest located over parts of \nnortheastern South Dakota and western Minnesota. These winds are \nexpected to persist through the afternoon before slowly dimini",
   "analogs": [
     {
       "datetime_utc": "2021-10-29T20:31Z",
       "source_file": "ABR_2021_29_2031.txt",
-      "similarity": 0.47364601492881775,
+      "similarity": 0.46355053782463074,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-10-29T09:23Z",
       "source_file": "ABR_2021_29_0923.txt",
-      "similarity": 0.47364601492881775,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-10-16T01:27Z",
-      "source_file": "ABR_2012_16_0127.txt",
-      "similarity": 0.4580898880958557,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-10-15T20:04Z",
-      "source_file": "ABR_2012_15_2004.txt",
-      "similarity": 0.4580898880958557,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-10-16T09:16Z",
-      "source_file": "ABR_2012_16_0916.txt",
-      "similarity": 0.4580898880958557,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-03-08T16:10Z",
-      "source_file": "ABR_2007_08_1610.txt",
-      "similarity": 0.4523068368434906,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-02-25T20:58Z",
-      "source_file": "ABR_2005_25_2058.txt",
-      "similarity": 0.45173323154449463,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-11-09T01:32Z",
-      "source_file": "ABR_2009_09_0132.txt",
-      "similarity": 0.45069631934165955,
+      "similarity": 0.46355053782463074,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-11-08T20:30Z",
       "source_file": "ABR_2009_08_2030.txt",
-      "similarity": 0.45069631934165955,
+      "similarity": 0.45416709780693054,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-05-08T08:46Z",
-      "source_file": "ABR_2016_08_0846.txt",
-      "similarity": 0.44844549894332886,
-      "label": "severe_hail",
+      "datetime_utc": "2009-11-09T01:32Z",
+      "source_file": "ABR_2009_09_0132.txt",
+      "similarity": 0.45416709780693054,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-10-15T20:04Z",
+      "source_file": "ABR_2012_15_2004.txt",
+      "similarity": 0.44621822237968445,
+      "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-10-16T01:27Z",
+      "source_file": "ABR_2012_16_0127.txt",
+      "similarity": 0.44621822237968445,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-10-16T09:16Z",
+      "source_file": "ABR_2012_16_0916.txt",
+      "similarity": 0.44621822237968445,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-02-25T20:58Z",
+      "source_file": "ABR_2005_25_2058.txt",
+      "similarity": 0.4455086290836334,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-02-04T21:45Z",
+      "source_file": "ABR_2004_04_2145.txt",
+      "similarity": 0.4441452622413635,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-03-08T16:10Z",
+      "source_file": "ABR_2007_08_1610.txt",
+      "similarity": 0.4437835216522217,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.45754399001598356,
-    "n_severe": 4,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.45075273513793945,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202610231725-KABR-FXUS63-AFDABR",
-    "afd_time": "2026-10-23T17:25:00Z",
-    "updated": "2026-10-23T18:30:27.349921+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202610231930-KABR-FXUS63-AFDABR",
+    "afd_time": "2026-10-23T19:30:00Z",
+    "updated": "2026-10-23T22:16:08.033272+00:00"
   }
 }
