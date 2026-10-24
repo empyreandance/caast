@@ -1,91 +1,91 @@
 {
   "office": "KEY",
-  "product_id": "202610240200-KKEY-FXUS62-AFDKEY",
-  "afd_time": "2026-10-24T02:00:00Z",
+  "product_id": "202610240853-KKEY-FXUS62-AFDKEY",
+  "afd_time": "2026-10-24T08:53:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-24T06:00:14.626101+00:00",
-  "query_preview": "..\nIssued at 942 PM EDT Fri Oct 23 2026\nShower and thunderstorm activity has expanded across the area over \nthe last hour or two. We're situated just downstream of a mid to \nupper-level trough axis which extends north along the Eastern \nSeaboard into the North Atlantic. GOES-E vorticity products sho",
+  "updated": "2026-10-24T11:11:03.098473+00:00",
+  "query_preview": "..\nIssued at 453 AM EDT Sat Oct 24 2026\nCIMSS products shows an interesting pattern across the Lower 48 \nearly this morning. The pattern resembles the Greek letter Omega \nbecause it takes that shape. An upper level trough has been \nanchored across the western United States with a ridge dominating \nm",
   "analogs": [
-    {
-      "datetime_utc": "2024-10-27T19:05Z",
-      "source_file": "KEY_2024_27_1905.txt",
-      "similarity": 0.3475223183631897,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-07-14T18:52Z",
-      "source_file": "KEY_2011_14_1852.txt",
-      "similarity": 0.3466191589832306,
-      "label": "severe_hail",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2009-12-17T08:41Z",
       "source_file": "KEY_2009_17_0841.txt",
-      "similarity": 0.33821362257003784,
+      "similarity": 0.321164071559906,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2017-03-30T07:10Z",
-      "source_file": "KEY_2017_30_0710.txt",
-      "similarity": 0.33557242155075073,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-12-30T07:18Z",
-      "source_file": "KEY_2009_30_0718.txt",
-      "similarity": 0.333513081073761,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-12-31T20:22Z",
-      "source_file": "KEY_2016_31_2022.txt",
-      "similarity": 0.3333355188369751,
-      "label": "severe_wind",
+      "datetime_utc": "2011-07-14T18:52Z",
+      "source_file": "KEY_2011_14_1852.txt",
+      "similarity": 0.3186495304107666,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2021-04-11T20:12Z",
-      "source_file": "KEY_2021_11_2012.txt",
-      "similarity": 0.3333328366279602,
+      "datetime_utc": "2024-10-27T19:05Z",
+      "source_file": "KEY_2024_27_1905.txt",
+      "similarity": 0.31161195039749146,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-12-04T08:39Z",
-      "source_file": "KEY_2010_04_0839.txt",
-      "similarity": 0.3329092860221863,
+      "datetime_utc": "2013-06-20T19:08Z",
+      "source_file": "KEY_2013_20_1908.txt",
+      "similarity": 0.3101941645145416,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-01-18T20:38Z",
+      "source_file": "KEY_2013_18_2038.txt",
+      "similarity": 0.31017976999282837,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-09-23T18:54Z",
       "source_file": "KEY_2009_23_1854.txt",
-      "similarity": 0.3326055109500885,
+      "similarity": 0.3086753487586975,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-12-19T09:33Z",
-      "source_file": "KEY_2015_19_0933.txt",
-      "similarity": 0.3316829800605774,
-      "label": "flood",
+      "datetime_utc": "2016-12-23T08:39Z",
+      "source_file": "KEY_2016_23_0839.txt",
+      "similarity": 0.3080752491950989,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-03-31T08:57Z",
+      "source_file": "KEY_2012_31_0857.txt",
+      "similarity": 0.305386483669281,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-12-31T20:22Z",
+      "source_file": "KEY_2016_31_2022.txt",
+      "similarity": 0.3044862151145935,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-11-29T15:53Z",
+      "source_file": "KEY_2018_29_1553.txt",
+      "similarity": 0.30412235856056213,
+      "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.3365306735038757,
-    "n_severe": 3,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.3102545142173767,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.34 below confidence floor 0.7",
-    "product_id": "202610240200-KKEY-FXUS62-AFDKEY",
-    "afd_time": "2026-10-24T02:00:00Z",
-    "updated": "2026-10-24T06:00:14.626101+00:00"
+    "reason": "top-10 mean similarity 0.31 below confidence floor 0.7",
+    "product_id": "202610240853-KKEY-FXUS62-AFDKEY",
+    "afd_time": "2026-10-24T08:53:00Z",
+    "updated": "2026-10-24T11:11:03.098473+00:00"
   }
 }

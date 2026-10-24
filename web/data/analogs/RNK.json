@@ -1,91 +1,91 @@
 {
   "office": "RNK",
-  "product_id": "202610240020-KRNK-FXUS61-AFDRNK",
-  "afd_time": "2026-10-24T00:20:00Z",
+  "product_id": "202610241039-KRNK-FXUS61-AFDRNK",
+  "afd_time": "2026-10-24T10:39:00Z",
   "section_type": "extended",
-  "updated": "2026-10-24T00:50:31.558008+00:00",
-  "query_preview": "OUTLOOK...\n\nVFR conditions likely to continue into next week. Any fog \nshould be limited to over bodies of water, and not foreseeing \nany issues at the TAF sites.",
+  "updated": "2026-10-24T11:11:03.098473+00:00",
+  "query_preview": "OUTLOOK...\n\nVFR conditions will persist into next week. Could see some morning \nfog, but likely will be confined to rivers and lakes, given the dry \nairmass overhead.",
   "analogs": [
-    {
-      "datetime_utc": "2006-11-10T20:55Z",
-      "source_file": "RNK_2006_10_2055.txt",
-      "similarity": 0.5142374038696289,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2006-11-10T23:27Z",
       "source_file": "RNK_2006_10_2327.txt",
-      "similarity": 0.5142374038696289,
+      "similarity": 0.5152060985565186,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-10-13T11:15Z",
-      "source_file": "RNK_2004_13_1115.txt",
-      "similarity": 0.5121647119522095,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-10-13T15:24Z",
-      "source_file": "RNK_2004_13_1524.txt",
-      "similarity": 0.5121647119522095,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-10-13T17:54Z",
-      "source_file": "RNK_2004_13_1754.txt",
-      "similarity": 0.5121647119522095,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-10-13T08:16Z",
-      "source_file": "RNK_2004_13_0816.txt",
-      "similarity": 0.5121647119522095,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-06-23T08:09Z",
-      "source_file": "RNK_2007_23_0809.txt",
-      "similarity": 0.5089473128318787,
+      "datetime_utc": "2006-11-10T20:55Z",
+      "source_file": "RNK_2006_10_2055.txt",
+      "similarity": 0.5152060985565186,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-06-23T17:09Z",
-      "source_file": "RNK_2007_23_1709.txt",
-      "similarity": 0.5089473128318787,
+      "datetime_utc": "2007-06-22T18:47Z",
+      "source_file": "RNK_2007_22_1847.txt",
+      "similarity": 0.5109919309616089,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-06-23T14:13Z",
-      "source_file": "RNK_2007_23_1413.txt",
-      "similarity": 0.5089473128318787,
+      "datetime_utc": "2007-06-22T23:34Z",
+      "source_file": "RNK_2007_22_2334_1.txt",
+      "similarity": 0.5109919309616089,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-06-22T17:07Z",
       "source_file": "RNK_2007_22_1707_1.txt",
-      "similarity": 0.5089473128318787,
+      "similarity": 0.5109919309616089,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-06-23T17:09Z",
+      "source_file": "RNK_2007_23_1709.txt",
+      "similarity": 0.5109919309616089,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-06-23T14:13Z",
+      "source_file": "RNK_2007_23_1413.txt",
+      "similarity": 0.5109919309616089,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-06-22T18:30Z",
+      "source_file": "RNK_2007_22_1830.txt",
+      "similarity": 0.5109919309616089,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-06-23T05:40Z",
+      "source_file": "RNK_2007_23_0540.txt",
+      "similarity": 0.5109919309616089,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-06-22T16:16Z",
+      "source_file": "RNK_2007_22_1616.txt",
+      "similarity": 0.5109919309616089,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.511292290687561,
-    "n_severe": 6,
+    "severe_fraction": 1.0,
+    "mean_similarity": 0.5118347644805908,
+    "n_severe": 10,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
-    "product_id": "202610240020-KRNK-FXUS61-AFDRNK",
-    "afd_time": "2026-10-24T00:20:00Z",
-    "updated": "2026-10-24T00:50:31.558008+00:00"
+    "product_id": "202610241039-KRNK-FXUS61-AFDRNK",
+    "afd_time": "2026-10-24T10:39:00Z",
+    "updated": "2026-10-24T11:11:03.098473+00:00"
   }
 }
