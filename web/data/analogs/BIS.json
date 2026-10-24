@@ -1,91 +1,92 @@
 {
   "office": "BIS",
-  "product_id": "202610241717-KBIS-FXUS63-AFDBIS",
-  "afd_time": "2026-10-24T17:17:00Z",
+  "product_id": "202610241923-KBIS-FXUS63-AFDBIS",
+  "afd_time": "2026-10-24T19:23:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-24T18:15:24.702600+00:00",
-  "query_preview": "..\nIssued at 345 AM CDT Sat Oct 24 2026\n\nA cold front has pushed through western and most of central ND\nas of just before 4AM CDT. Behind the cold front, winds have\nbeen gusting to 35 to 45 mph, with an occasional gust to 45-50 \nmph. The fall-rise couplet has passed but pressure rises, strong\ngradie",
+  "updated": "2026-10-24T20:56:55.424136+00:00",
+  "query_preview": "..\nIssued at 223 PM CDT Sat Oct 24 2026\n\nHigh pressure will continue filtering into the forecast area today \ninto tonight. As a result, winds will continue to diminish this\nafternoon while skies have become mostly sunny. Highs should \nreach the mid 40s to mid 50s. For tonight, clear skies with \nligh",
   "analogs": [
     {
       "datetime_utc": "2013-02-23T00:10Z",
       "source_file": "BIS_2013_23_0010.txt",
-      "similarity": 0.7771059274673462,
+      "similarity": 0.8870655298233032,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-10-07T17:57Z",
+      "source_file": "BIS_2012_07_1757.txt",
+      "similarity": 0.8667865991592407,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2013-03-07T01:06Z",
       "source_file": "BIS_2013_07_0106.txt",
-      "similarity": 0.7430469989776611,
+      "similarity": 0.8664034008979797,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-10-07T17:57Z",
-      "source_file": "BIS_2012_07_1757.txt",
-      "similarity": 0.7351540327072144,
-      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-09-02T18:43Z",
       "source_file": "BIS_2011_02_1843.txt",
-      "similarity": 0.7299342155456543,
+      "similarity": 0.8590633869171143,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-08-21T17:27Z",
       "source_file": "BIS_2011_21_1727.txt",
-      "similarity": 0.719257116317749,
+      "similarity": 0.8248324394226074,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-02-06T16:27Z",
       "source_file": "BIS_2011_06_1627.txt",
-      "similarity": 0.676732063293457,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-01-23T15:57Z",
-      "source_file": "BIS_2013_23_1557.txt",
-      "similarity": 0.663330614566803,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-01-22T17:15Z",
-      "source_file": "BIS_2012_22_1715.txt",
-      "similarity": 0.6427097916603088,
+      "similarity": 0.8173772692680359,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-06-06T15:32Z",
       "source_file": "BIS_2011_06_1532.txt",
-      "similarity": 0.6398663520812988,
+      "similarity": 0.757043182849884,
       "label": "tornado",
       "is_severe": true
     },
     {
+      "datetime_utc": "2012-01-22T17:15Z",
+      "source_file": "BIS_2012_22_1715.txt",
+      "similarity": 0.7537522912025452,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-01-23T15:57Z",
+      "source_file": "BIS_2013_23_1557.txt",
+      "similarity": 0.7495055794715881,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2011-03-13T23:48Z",
       "source_file": "BIS_2011_13_2348.txt",
-      "similarity": 0.6336355805397034,
+      "similarity": 0.7491297721862793,
       "label": "flood",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
+    "level": "LOW",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.6960772693157196,
+    "mean_similarity": 0.8130959451198578,
+    "base_rate": 0.4123534834716186,
+    "signal_value": -0.2123534834716186,
     "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.70 below confidence floor 0.7",
-    "product_id": "202610241717-KBIS-FXUS63-AFDBIS",
-    "afd_time": "2026-10-24T17:17:00Z",
-    "updated": "2026-10-24T18:15:24.702600+00:00"
+    "product_id": "202610241923-KBIS-FXUS63-AFDBIS",
+    "afd_time": "2026-10-24T19:23:00Z",
+    "updated": "2026-10-24T20:56:55.424136+00:00"
   }
 }
