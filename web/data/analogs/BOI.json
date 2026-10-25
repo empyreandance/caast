@@ -1,91 +1,91 @@
 {
   "office": "BOI",
-  "product_id": "202610242004-KBOI-FXUS65-AFDBOI",
-  "afd_time": "2026-10-24T20:04:00Z",
+  "product_id": "202610242337-KBOI-FXUS65-AFDBOI",
+  "afd_time": "2026-10-24T23:37:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-24T20:56:55.424136+00:00",
-  "query_preview": "/Tuesday through Saturday/...\nStrong agreement among ensemble members that an unsettled and \nactive weather pattern will set up over the region during most \nof next week. While exact details remain to be seen, there is \nstrong agreement that a period of seasonably cool and moist \nconditions will acc",
+  "updated": "2026-10-25T04:52:30.934790+00:00",
+  "query_preview": "/Tuesday through Saturday/...\nIssued 204 PM MDT SAT OCT 24 2026\nStrong agreement among ensemble members that an unsettled and \nactive weather pattern will set up over the region during most \nof next week. While exact details remain to be seen, there is \nstrong agreement that a period of seasonably c",
   "analogs": [
-    {
-      "datetime_utc": "2014-11-18T16:45Z",
-      "source_file": "BOI_2014_18_1645.txt",
-      "similarity": 0.5082370042800903,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-10-07T03:50Z",
-      "source_file": "BOI_2006_07_0350.txt",
-      "similarity": 0.4932006299495697,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-10-06T21:14Z",
-      "source_file": "BOI_2006_06_2114.txt",
-      "similarity": 0.4932006299495697,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2012-03-04T16:15Z",
       "source_file": "BOI_2012_04_1615.txt",
-      "similarity": 0.4883257746696472,
+      "similarity": 0.4204210042953491,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2023-09-06T20:32Z",
-      "source_file": "BOI_2023_06_2032.txt",
-      "similarity": 0.4880954623222351,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-09-07T02:57Z",
-      "source_file": "BOI_2023_07_0257.txt",
-      "similarity": 0.4880954623222351,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-01-20T04:29Z",
-      "source_file": "BOI_2011_20_0429.txt",
-      "similarity": 0.47147345542907715,
+      "datetime_utc": "2014-11-18T16:45Z",
+      "source_file": "BOI_2014_18_1645.txt",
+      "similarity": 0.4195100665092468,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2012-03-04T10:44Z",
       "source_file": "BOI_2012_04_1044.txt",
-      "similarity": 0.4699963629245758,
+      "similarity": 0.4087848365306854,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-02-24T10:17Z",
-      "source_file": "BOI_2007_24_1017.txt",
-      "similarity": 0.46465328335762024,
-      "label": "winter",
+      "datetime_utc": "2023-09-07T02:57Z",
+      "source_file": "BOI_2023_07_0257.txt",
+      "similarity": 0.4031260013580322,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-11-26T03:48Z",
-      "source_file": "BOI_2015_26_0348.txt",
-      "similarity": 0.46303457021713257,
-      "label": "winter",
+      "datetime_utc": "2023-09-06T20:32Z",
+      "source_file": "BOI_2023_06_2032.txt",
+      "similarity": 0.4031260013580322,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-10-06T21:14Z",
+      "source_file": "BOI_2006_06_2114.txt",
+      "similarity": 0.40056008100509644,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-10-07T03:50Z",
+      "source_file": "BOI_2006_07_0350.txt",
+      "similarity": 0.40056008100509644,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-08-14T03:46Z",
+      "source_file": "BOI_2005_14_0346.txt",
+      "similarity": 0.3984300196170807,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-08-13T20:34Z",
+      "source_file": "BOI_2005_13_2034_1.txt",
+      "similarity": 0.3984300196170807,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-07-05T20:00Z",
+      "source_file": "BOI_2024_05_2000.txt",
+      "similarity": 0.39276471734046936,
+      "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.4828312635421753,
-    "n_severe": 2,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.40457128286361693,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202610242004-KBOI-FXUS65-AFDBOI",
-    "afd_time": "2026-10-24T20:04:00Z",
-    "updated": "2026-10-24T20:56:55.424136+00:00"
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202610242337-KBOI-FXUS65-AFDBOI",
+    "afd_time": "2026-10-24T23:37:00Z",
+    "updated": "2026-10-25T04:52:30.934790+00:00"
   }
 }

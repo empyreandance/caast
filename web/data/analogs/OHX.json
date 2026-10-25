@@ -1,91 +1,92 @@
 {
   "office": "OHX",
-  "product_id": "202610242320-KOHX-FXUS64-AFDOHX",
-  "afd_time": "2026-10-24T23:20:00Z",
+  "product_id": "202610250326-KOHX-FXUS64-AFDOHX",
+  "afd_time": "2026-10-25T03:26:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-24T23:21:15.112747+00:00",
-  "query_preview": "..\n(Sunday Night through next Saturday)\nIssued at 1055 AM CDT Sat Oct 24 2026\n\nThe majority of the week is expected to feature broad ridging over\nthe eastern CONUS, which will keep temperatures 5-10 degrees \nabove normal. Despite this abnormally warm regime, it will still \nfeel quite pleasant to the",
+  "updated": "2026-10-25T04:52:30.934790+00:00",
+  "query_preview": "..\n(Tuesday through next Sunday)\nIssued at 1015 PM CDT Sat Oct 24 2026\n\nTemperatures throughout the upcoming week will warm very\ngradually. We'll still enjoy relatively cool nights and warm\nafternoons for most of the week, with larger-than-normal diurnal\nspreads. However, the persistent high pressur",
   "analogs": [
-    {
-      "datetime_utc": "2021-11-01T17:25Z",
-      "source_file": "OHX_2021_01_1725.txt",
-      "similarity": 0.6686908006668091,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-03-06T02:49Z",
-      "source_file": "OHX_2007_06_0249.txt",
-      "similarity": 0.6505035161972046,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2015-11-29T09:33Z",
       "source_file": "OHX_2015_29_0933.txt",
-      "similarity": 0.6481554508209229,
+      "similarity": 0.8380436897277832,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2020-05-03T11:10Z",
-      "source_file": "OHX_2020_03_1110_1.txt",
-      "similarity": 0.6452397108078003,
-      "label": "tornado",
+      "datetime_utc": "2005-07-23T14:16Z",
+      "source_file": "OHX_2005_23_1416.txt",
+      "similarity": 0.8358073830604553,
+      "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-11-01T17:25Z",
+      "source_file": "OHX_2021_01_1725.txt",
+      "similarity": 0.8356429934501648,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2020-05-03T07:02Z",
       "source_file": "OHX_2020_03_0702.txt",
-      "similarity": 0.6452397108078003,
+      "similarity": 0.8349835872650146,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-05-03T11:10Z",
+      "source_file": "OHX_2020_03_1110_1.txt",
+      "similarity": 0.8349835872650146,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-07-01T09:56Z",
       "source_file": "OHX_2017_01_0956.txt",
-      "similarity": 0.6312364339828491,
+      "similarity": 0.8275600671768188,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-07-01T07:23Z",
       "source_file": "OHX_2017_01_0723.txt",
-      "similarity": 0.6312364339828491,
+      "similarity": 0.8275600671768188,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-07-09T02:00Z",
       "source_file": "OHX_2014_09_0200.txt",
-      "similarity": 0.6291598081588745,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-07-23T14:16Z",
-      "source_file": "OHX_2005_23_1416.txt",
-      "similarity": 0.6239638328552246,
+      "similarity": 0.8228693008422852,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-10-08T15:28Z",
       "source_file": "OHX_2018_08_1528.txt",
-      "similarity": 0.6237345933914185,
+      "similarity": 0.8205863237380981,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-10-08T16:48Z",
+      "source_file": "OHX_2018_08_1648.txt",
+      "similarity": 0.8205863237380981,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
+    "level": "LOW",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.6397160291671753,
+    "mean_similarity": 0.8298623323440552,
+    "base_rate": 0.6326029281713668,
+    "signal_value": -0.032602928171366785,
     "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.64 below confidence floor 0.7",
-    "product_id": "202610242320-KOHX-FXUS64-AFDOHX",
-    "afd_time": "2026-10-24T23:20:00Z",
-    "updated": "2026-10-24T23:21:15.112747+00:00"
+    "product_id": "202610250326-KOHX-FXUS64-AFDOHX",
+    "afd_time": "2026-10-25T03:26:00Z",
+    "updated": "2026-10-25T04:52:30.934790+00:00"
   }
 }
