@@ -1,91 +1,91 @@
 {
   "office": "ABQ",
-  "product_id": "202610250003-KABQ-FXUS65-AFDABQ-AAA",
-  "afd_time": "2026-10-25T00:03:00Z",
+  "product_id": "202610250825-KABQ-FXUS65-AFDABQ",
+  "afd_time": "2026-10-25T08:25:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-25T04:52:30.934790+00:00",
-  "query_preview": "..\n(Monday through Friday)\nIssued at 132 PM MDT Sat Oct 24 2026\n\nShowers and storms may linger across the east-southeast on Monday\ndue to residual moisture and a passing disturbance. However PWATs\nwill be gradually declining, reducing the overall flash flooding\nthreat. Drier air, increasing subsiden",
+  "updated": "2026-10-25T09:52:35.747119+00:00",
+  "query_preview": "..\n(Monday through Saturday) \nIssued at 1223 AM MDT Sun Oct 25 2026\n\nOn Monday, scattered to numerous showers and thunderstorms will\ncontinue over east central and southeast areas, where moist \nsoutheast low-level return flow will continue as a weak trailing \ndisturbance crosses aloft. PWATs are for",
   "analogs": [
-    {
-      "datetime_utc": "2006-11-29T22:00Z",
-      "source_file": "ABQ_2006_29_2200.txt",
-      "similarity": 0.42493700981140137,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-07-14T09:21Z",
-      "source_file": "ABQ_2010_14_0921.txt",
-      "similarity": 0.42149364948272705,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2004-06-10T21:01Z",
       "source_file": "ABQ_2004_10_2101.txt",
-      "similarity": 0.4178450107574463,
+      "similarity": 0.4187936782836914,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-03-11T09:51Z",
-      "source_file": "ABQ_2012_11_0951.txt",
-      "similarity": 0.4159907102584839,
+      "datetime_utc": "2004-03-11T21:15Z",
+      "source_file": "ABQ_2004_11_2115.txt",
+      "similarity": 0.4139615297317505,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-05-20T21:21Z",
-      "source_file": "ABQ_2005_20_2121.txt",
-      "similarity": 0.4142438769340515,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-07-27T20:56Z",
-      "source_file": "ABQ_2005_27_2056_1.txt",
-      "similarity": 0.4060606360435486,
-      "label": "severe_hail",
+      "datetime_utc": "2006-05-03T08:59Z",
+      "source_file": "ABQ_2006_03_0859.txt",
+      "similarity": 0.4127456545829773,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-02-20T10:53Z",
-      "source_file": "ABQ_2011_20_1053.txt",
-      "similarity": 0.4022395610809326,
+      "datetime_utc": "2024-11-10T09:32Z",
+      "source_file": "ABQ_2024_10_0932.txt",
+      "similarity": 0.410575807094574,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-05-16T08:46Z",
-      "source_file": "ABQ_2007_16_0846.txt",
-      "similarity": 0.4018646478652954,
+      "datetime_utc": "2006-12-10T09:59Z",
+      "source_file": "ABQ_2006_10_0959.txt",
+      "similarity": 0.40882501006126404,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-12-15T10:06Z",
+      "source_file": "ABQ_2006_15_1006.txt",
+      "similarity": 0.40621161460876465,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-06-07T09:08Z",
+      "source_file": "ABQ_2008_07_0908.txt",
+      "similarity": 0.4050869643688202,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2016-02-28T22:33Z",
-      "source_file": "ABQ_2016_28_2233.txt",
-      "similarity": 0.4012596607208252,
+      "datetime_utc": "2025-10-07T07:18Z",
+      "source_file": "ABQ_2025_07_0718.txt",
+      "similarity": 0.4022093713283539,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-04-13T09:11Z",
+      "source_file": "ABQ_2022_13_0911.txt",
+      "similarity": 0.4012814164161682,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-10-24T09:33Z",
-      "source_file": "ABQ_2011_24_0933.txt",
-      "similarity": 0.4006657004356384,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2004-12-12T10:42Z",
+      "source_file": "ABQ_2004_12_1042.txt",
+      "similarity": 0.4007954001426697,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.410660046339035,
-    "n_severe": 5,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.4080486446619034,
+    "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202610250003-KABQ-FXUS65-AFDABQ-AAA",
-    "afd_time": "2026-10-25T00:03:00Z",
-    "updated": "2026-10-25T04:52:30.934790+00:00"
+    "product_id": "202610250825-KABQ-FXUS65-AFDABQ",
+    "afd_time": "2026-10-25T08:25:00Z",
+    "updated": "2026-10-25T09:52:35.747119+00:00"
   }
 }

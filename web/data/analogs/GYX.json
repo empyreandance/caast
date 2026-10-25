@@ -1,91 +1,92 @@
 {
   "office": "GYX",
-  "product_id": "202610241826-KGYX-FXUS61-AFDGYX",
-  "afd_time": "2026-10-24T18:26:00Z",
+  "product_id": "202610250641-KGYX-FXUS61-AFDGYX",
+  "afd_time": "2026-10-25T06:41:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-24T20:56:55.424136+00:00",
-  "query_preview": "..\nKEY MESSAGE 1 DESCRIPTION...\n\nHigh pressure centered over New England slides south through\nSunday with a dry cold front crossing late Monday.Return flow\naround the high will allow high temperatures to trend upwards\ntomorrow into Monday with areas south of the mountains seeing\nmid to upper 60s.\n\nT",
+  "updated": "2026-10-25T09:52:35.747119+00:00",
+  "query_preview": "..\nKEY MESSAGE 1 DESCRIPTION...\n\nHigh pressure has settled south of New England, and will slowly\ndrift off the Eastern Seaboard today. This brings a moderating \ntrend on southwesterly flow, with highs warming into the mid 60s\nin many spots today. Temps warm further on Monday, with highs \npushing int",
   "analogs": [
     {
       "datetime_utc": "2021-03-26T10:37Z",
       "source_file": "GYX_2021_26_1037.txt",
-      "similarity": 0.6620887517929077,
+      "similarity": 0.8078711032867432,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-04-11T13:41Z",
       "source_file": "GYX_2007_11_1341.txt",
-      "similarity": 0.6128253936767578,
+      "similarity": 0.8013853430747986,
       "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-03-05T11:55Z",
-      "source_file": "GYX_2021_05_1155.txt",
-      "similarity": 0.4970439374446869,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-03-05T15:31Z",
-      "source_file": "GYX_2021_05_1531.txt",
-      "similarity": 0.4970439374446869,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-03-05T08:29Z",
-      "source_file": "GYX_2021_05_0829.txt",
-      "similarity": 0.4970439374446869,
-      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-03-25T06:56Z",
       "source_file": "GYX_2004_25_0656.txt",
-      "similarity": 0.4835909605026245,
+      "similarity": 0.6984566450119019,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-03-11T02:45Z",
-      "source_file": "GYX_2011_11_0245.txt",
-      "similarity": 0.48126447200775146,
-      "label": "flood",
+      "datetime_utc": "2015-02-14T00:25Z",
+      "source_file": "GYX_2015_14_0025.txt",
+      "similarity": 0.685413658618927,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-03-10T20:47Z",
-      "source_file": "GYX_2011_10_2047.txt",
-      "similarity": 0.48126447200775146,
-      "label": "flood",
+      "datetime_utc": "2015-02-14T03:33Z",
+      "source_file": "GYX_2015_14_0333.txt",
+      "similarity": 0.685413658618927,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-04-12T13:23Z",
-      "source_file": "GYX_2004_12_1323.txt",
-      "similarity": 0.47562965750694275,
+      "datetime_utc": "2018-11-19T01:25Z",
+      "source_file": "GYX_2018_19_0125.txt",
+      "similarity": 0.6751000881195068,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-03-11T01:44Z",
+      "source_file": "GYX_2006_11_0144.txt",
+      "similarity": 0.6734309792518616,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-10-22T16:26Z",
-      "source_file": "GYX_2023_22_1626.txt",
-      "similarity": 0.46526187658309937,
+      "datetime_utc": "2006-03-10T19:18Z",
+      "source_file": "GYX_2006_10_1918.txt",
+      "similarity": 0.6734309792518616,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2025-08-30T15:12Z",
+      "source_file": "GYX_2025_30_1512.txt",
+      "similarity": 0.6619584560394287,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-08-30T10:30Z",
+      "source_file": "GYX_2025_30_1030.txt",
+      "similarity": 0.6619584560394287,
+      "label": "tornado",
+      "is_severe": true
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.5153057396411895,
-    "n_severe": 1,
+    "level": "LOW",
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.7024419367313385,
+    "base_rate": 0.3880771607663106,
+    "signal_value": -0.08807716076631061,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.52 below confidence floor 0.7",
-    "product_id": "202610241826-KGYX-FXUS61-AFDGYX",
-    "afd_time": "2026-10-24T18:26:00Z",
-    "updated": "2026-10-24T20:56:55.424136+00:00"
+    "product_id": "202610250641-KGYX-FXUS61-AFDGYX",
+    "afd_time": "2026-10-25T06:41:00Z",
+    "updated": "2026-10-25T09:52:35.747119+00:00"
   }
 }

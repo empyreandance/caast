@@ -1,91 +1,91 @@
 {
   "office": "LCH",
-  "product_id": "202610241844-KLCH-FXUS64-AFDLCH",
-  "afd_time": "2026-10-24T18:44:00Z",
-  "section_type": "discussion",
-  "updated": "2026-10-24T20:56:55.424136+00:00",
-  "query_preview": "..\n(This evening through next Friday)\nIssued at 142 PM CDT Sat Oct 24 2026\n\nUpper level ridging is now centered overhead per the latest water \nvapor satellite imagery. This ridge is quite strong with 500 mb \nheights around 591 dam, exceeding 95th percentile. At the surface, \nbroad high pressure cent",
+  "product_id": "202610250540-KLCH-FXUS64-AFDLCH",
+  "afd_time": "2026-10-25T05:40:00Z",
+  "section_type": "extended",
+  "updated": "2026-10-25T09:52:35.747119+00:00",
+  "query_preview": "later into Monday, but thereafter winds should generally \nweaken as the pressure gradient relaxes.",
   "analogs": [
     {
-      "datetime_utc": "2006-09-11T15:13Z",
-      "source_file": "LCH_2006_11_1513.txt",
-      "similarity": 0.3882277309894562,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2008-05-13T11:48Z",
+      "source_file": "LCH_2008_13_1148.txt",
+      "similarity": 0.47852396965026855,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2015-12-04T16:19Z",
-      "source_file": "LCH_2015_04_1619.txt",
-      "similarity": 0.3867257237434387,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2008-05-13T15:20Z",
+      "source_file": "LCH_2008_13_1520.txt",
+      "similarity": 0.47852396965026855,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2016-04-10T02:47Z",
-      "source_file": "LCH_2016_10_0247.txt",
-      "similarity": 0.379879891872406,
+      "datetime_utc": "2008-05-13T09:40Z",
+      "source_file": "LCH_2008_13_0940.txt",
+      "similarity": 0.47852396965026855,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-05-27T20:42Z",
+      "source_file": "LCH_2008_27_2042.txt",
+      "similarity": 0.46830081939697266,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-03-23T03:49Z",
-      "source_file": "LCH_2006_23_0349.txt",
-      "similarity": 0.3785879909992218,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-12-14T22:18Z",
-      "source_file": "LCH_2007_14_2218.txt",
-      "similarity": 0.37851396203041077,
-      "label": "severe_wind",
+      "datetime_utc": "2018-02-01T12:49Z",
+      "source_file": "LCH_2018_01_1249.txt",
+      "similarity": 0.4664584696292877,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-01-14T16:18Z",
-      "source_file": "LCH_2006_14_1618.txt",
-      "similarity": 0.3766298294067383,
+      "datetime_utc": "2010-03-29T04:14Z",
+      "source_file": "LCH_2010_29_0414.txt",
+      "similarity": 0.45974212884902954,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-11-12T10:32Z",
-      "source_file": "LCH_2018_12_1032.txt",
-      "similarity": 0.37441062927246094,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2013-05-09T03:30Z",
+      "source_file": "LCH_2013_09_0330.txt",
+      "similarity": 0.45600366592407227,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2020-02-21T12:26Z",
-      "source_file": "LCH_2020_21_1226.txt",
-      "similarity": 0.37387096881866455,
+      "datetime_utc": "2004-02-12T15:28Z",
+      "source_file": "LCH_2004_12_1528.txt",
+      "similarity": 0.45537662506103516,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-12-23T22:02Z",
-      "source_file": "LCH_2013_23_2202.txt",
-      "similarity": 0.3721827268600464,
+      "datetime_utc": "2004-02-12T08:26Z",
+      "source_file": "LCH_2004_12_0826.txt",
+      "similarity": 0.45537662506103516,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-10-13T20:26Z",
-      "source_file": "LCH_2005_13_2026.txt",
-      "similarity": 0.37215790152549744,
+      "datetime_utc": "2004-01-07T20:35Z",
+      "source_file": "LCH_2004_07_2035.txt",
+      "similarity": 0.4527720510959625,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.3781187355518341,
-    "n_severe": 2,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.4649602293968201,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610241844-KLCH-FXUS64-AFDLCH",
-    "afd_time": "2026-10-24T18:44:00Z",
-    "updated": "2026-10-24T20:56:55.424136+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202610250540-KLCH-FXUS64-AFDLCH",
+    "afd_time": "2026-10-25T05:40:00Z",
+    "updated": "2026-10-25T09:52:35.747119+00:00"
   }
 }
