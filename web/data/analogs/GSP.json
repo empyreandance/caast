@@ -1,91 +1,92 @@
 {
   "office": "GSP",
-  "product_id": "202610260520-KGSP-FXUS62-AFDGSP",
-  "afd_time": "2026-10-26T05:20:00Z",
+  "product_id": "202610261206-KGSP-FXUS62-AFDGSP",
+  "afd_time": "2026-10-26T12:06:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-26T06:20:18.544133+00:00",
-  "query_preview": "..\nKey message 1: Patchy frost is expected to develop by dawn across\nportions of the NC mountains and foothills. A Frost Advisory is\nin effect for those mountain zones that were not turned off during\nthe most recent freeze.\n\nA stout upper ridge remains centered just to our west and extends\nall the w",
+  "updated": "2026-10-26T14:22:11.743835+00:00",
+  "query_preview": "..\nKey message 1: Dry high pressure is expected to persist over our \nregion through at least Friday with temperatures climbing back above \nnormal.  Rain chances increase this weekend.\n\nThe dry weather is expected to continue through the work week across \nour area. A stout upper ridge remains nearly ",
   "analogs": [
     {
-      "datetime_utc": "2008-01-31T17:41Z",
-      "source_file": "GSP_2008_31_1741.txt",
-      "similarity": 0.5612634420394897,
+      "datetime_utc": "2005-12-30T15:00Z",
+      "source_file": "GSP_2005_30_1500.txt",
+      "similarity": 0.7625216245651245,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-12-30T11:23Z",
+      "source_file": "GSP_2005_30_1123.txt",
+      "similarity": 0.7570516467094421,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-01-31T18:36Z",
       "source_file": "GSP_2008_31_1836.txt",
-      "similarity": 0.5612634420394897,
+      "similarity": 0.7564516663551331,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-01-31T16:41Z",
       "source_file": "GSP_2008_31_1641.txt",
-      "similarity": 0.5612634420394897,
+      "similarity": 0.7564516663551331,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-04-25T14:45Z",
-      "source_file": "GSP_2006_25_1445.txt",
-      "similarity": 0.52593594789505,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-04-25T07:44Z",
-      "source_file": "GSP_2006_25_0744.txt",
-      "similarity": 0.52593594789505,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-08-03T02:04Z",
-      "source_file": "GSP_2004_03_0204.txt",
-      "similarity": 0.5245611667633057,
+      "datetime_utc": "2008-01-31T17:41Z",
+      "source_file": "GSP_2008_31_1741.txt",
+      "similarity": 0.7564516663551331,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-04-12T18:02Z",
-      "source_file": "GSP_2004_12_1802.txt",
-      "similarity": 0.520708441734314,
-      "label": "severe_hail",
+      "datetime_utc": "2017-12-01T06:43Z",
+      "source_file": "GSP_2017_01_0643.txt",
+      "similarity": 0.7533044815063477,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-07-02T14:55Z",
+      "source_file": "GSP_2005_02_1455.txt",
+      "similarity": 0.7459616661071777,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-10-15T07:42Z",
-      "source_file": "GSP_2004_15_0742.txt",
-      "similarity": 0.5176504254341125,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2005-07-02T07:27Z",
+      "source_file": "GSP_2005_02_0727.txt",
+      "similarity": 0.7459616661071777,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2004-10-15T10:59Z",
-      "source_file": "GSP_2004_15_1059.txt",
-      "similarity": 0.5176504254341125,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2007-05-20T05:22Z",
+      "source_file": "GSP_2007_20_0522.txt",
+      "similarity": 0.7377608418464661,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2006-02-06T16:23Z",
-      "source_file": "GSP_2006_06_1623.txt",
-      "similarity": 0.5149211883544922,
+      "datetime_utc": "2022-11-14T02:15Z",
+      "source_file": "GSP_2022_14_0215.txt",
+      "similarity": 0.7371326684951782,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.5331153869628906,
-    "n_severe": 7,
+    "level": "LOW",
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.7509049594402313,
+    "base_rate": 0.6472505215709565,
+    "signal_value": 0.15274947842904352,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.53 below confidence floor 0.7",
-    "product_id": "202610260520-KGSP-FXUS62-AFDGSP",
-    "afd_time": "2026-10-26T05:20:00Z",
-    "updated": "2026-10-26T06:20:18.544133+00:00"
+    "product_id": "202610261206-KGSP-FXUS62-AFDGSP",
+    "afd_time": "2026-10-26T12:06:00Z",
+    "updated": "2026-10-26T14:22:11.743835+00:00"
   }
 }
