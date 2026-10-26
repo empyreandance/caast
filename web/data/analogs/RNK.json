@@ -1,9 +1,9 @@
 {
   "office": "RNK",
-  "product_id": "202610250932-KRNK-FXUS61-AFDRNK",
-  "afd_time": "2026-10-25T09:32:00Z",
+  "product_id": "202610260002-KRNK-FXUS61-AFDRNK",
+  "afd_time": "2026-10-26T00:02:00Z",
   "section_type": "extended",
-  "updated": "2026-10-25T09:52:35.747119+00:00",
+  "updated": "2026-10-26T00:28:13.657370+00:00",
   "query_preview": "OUTLOOK...\n\nVFR conditions will likely continue into next week as higher \npressure dominates the region. The next best chance of any \nprecipitation may not be until the start of November. Early \nmorning river fog may still be possible with impacts mainly to\nKLWB for a few hours each morning.",
   "analogs": [
     {
@@ -21,13 +21,6 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-10-13T08:16Z",
-      "source_file": "RNK_2004_13_0816.txt",
-      "similarity": 0.5034836530685425,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2004-10-13T11:15Z",
       "source_file": "RNK_2004_13_1115.txt",
       "similarity": 0.5034836530685425,
@@ -35,11 +28,11 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-05-31T19:05Z",
-      "source_file": "RNK_2014_31_1905.txt",
-      "similarity": 0.5009350776672363,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2004-10-13T08:16Z",
+      "source_file": "RNK_2004_13_0816.txt",
+      "similarity": 0.5034836530685425,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2014-05-31T17:37Z",
@@ -49,30 +42,37 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-08-16T06:03Z",
-      "source_file": "RNK_2024_16_0603.txt",
-      "similarity": 0.5001409649848938,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-08-16T10:39Z",
-      "source_file": "RNK_2024_16_1039.txt",
-      "similarity": 0.5001409649848938,
+      "datetime_utc": "2014-05-31T19:05Z",
+      "source_file": "RNK_2014_31_1905.txt",
+      "similarity": 0.5009350776672363,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-08-16T17:34Z",
       "source_file": "RNK_2024_16_1734.txt",
-      "similarity": 0.5001409649848938,
+      "similarity": 0.5001410245895386,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-08-16T10:39Z",
+      "source_file": "RNK_2024_16_1039.txt",
+      "similarity": 0.5001410245895386,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-08-16T06:03Z",
+      "source_file": "RNK_2024_16_0603.txt",
+      "similarity": 0.5001410245895386,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-08-16T14:04Z",
       "source_file": "RNK_2024_16_1404.txt",
-      "similarity": 0.5001409649848938,
+      "similarity": 0.5001410245895386,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.5016368627548218,
+    "mean_similarity": 0.5016368865966797,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202610250932-KRNK-FXUS61-AFDRNK",
-    "afd_time": "2026-10-25T09:32:00Z",
-    "updated": "2026-10-25T09:52:35.747119+00:00"
+    "product_id": "202610260002-KRNK-FXUS61-AFDRNK",
+    "afd_time": "2026-10-26T00:02:00Z",
+    "updated": "2026-10-26T00:28:13.657370+00:00"
   }
 }
