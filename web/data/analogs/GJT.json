@@ -1,91 +1,91 @@
 {
   "office": "GJT",
-  "product_id": "202610261135-KGJT-FXUS65-AFDGJT",
-  "afd_time": "2026-10-26T11:35:00Z",
+  "product_id": "202610261952-KGJT-FXUS65-AFDGJT",
+  "afd_time": "2026-10-26T19:52:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-26T14:22:11.743835+00:00",
-  "query_preview": "..\nIssued at 1020 PM MDT Sun Oct 25 2026\n\nShowers have become more isolated this evening as the low \npressure system lifts northeast across northwest Colorado and\nexits to the northeast. Hi-res CAMs indicate most activity \nwinding down by midnight and moving onto the Front Range east of\nthe Divide b",
+  "updated": "2026-10-26T20:33:35.863278+00:00",
+  "query_preview": "..\nIssued at 109 PM MDT Mon Oct 26 2026\n\nWarmer and drier conditions have begun to develop across the\nWest Slope today, as weak higher pressure invades. Temperatures\nwill inch up toward average values by week's end. The dry\nconditions will help with flood waters that have begun to recede\nacross sout",
   "analogs": [
     {
-      "datetime_utc": "2007-09-01T09:41Z",
-      "source_file": "GJT_2007_01_0941.txt",
-      "similarity": 0.3676512837409973,
+      "datetime_utc": "2009-05-21T11:15Z",
+      "source_file": "GJT_2009_21_1115_1.txt",
+      "similarity": 0.43787866830825806,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-04-08T23:38Z",
+      "source_file": "GJT_2021_08_2338.txt",
+      "similarity": 0.43583792448043823,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-04-08T21:32Z",
+      "source_file": "GJT_2021_08_2132.txt",
+      "similarity": 0.43583792448043823,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-04-09T04:44Z",
+      "source_file": "GJT_2021_09_0444.txt",
+      "similarity": 0.43583792448043823,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-04-09T03:12Z",
+      "source_file": "GJT_2021_09_0312.txt",
+      "similarity": 0.43583792448043823,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-06-15T10:09Z",
       "source_file": "GJT_2005_15_1009.txt",
-      "similarity": 0.3655299246311188,
+      "similarity": 0.42767849564552307,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-05-21T11:15Z",
-      "source_file": "GJT_2009_21_1115_1.txt",
-      "similarity": 0.3651144802570343,
+      "datetime_utc": "2007-09-01T09:41Z",
+      "source_file": "GJT_2007_01_0941.txt",
+      "similarity": 0.42689216136932373,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2018-10-26T08:26Z",
-      "source_file": "GJT_2018_26_0826.txt",
-      "similarity": 0.3645811378955841,
-      "label": "winter",
+      "datetime_utc": "2008-09-13T09:32Z",
+      "source_file": "GJT_2008_13_0932.txt",
+      "similarity": 0.4263288974761963,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-10-26T17:41Z",
-      "source_file": "GJT_2018_26_1741.txt",
-      "similarity": 0.3645811378955841,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2017-10-31T17:35Z",
-      "source_file": "GJT_2017_31_1735.txt",
-      "similarity": 0.35904330015182495,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2017-10-31T10:00Z",
-      "source_file": "GJT_2017_31_1000.txt",
-      "similarity": 0.35904330015182495,
+      "datetime_utc": "2007-03-04T10:41Z",
+      "source_file": "GJT_2007_04_1041.txt",
+      "similarity": 0.4254797101020813,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-10-07T20:05Z",
       "source_file": "GJT_2004_07_2005.txt",
-      "similarity": 0.3553873896598816,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-04-14T21:53Z",
-      "source_file": "GJT_2009_14_2153.txt",
-      "similarity": 0.3510116934776306,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-03-04T10:41Z",
-      "source_file": "GJT_2007_04_1041.txt",
-      "similarity": 0.3494671583175659,
+      "similarity": 0.4243714213371277,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.3601410806179047,
-    "n_severe": 3,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.4311981052160263,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
-    "product_id": "202610261135-KGJT-FXUS65-AFDGJT",
-    "afd_time": "2026-10-26T11:35:00Z",
-    "updated": "2026-10-26T14:22:11.743835+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202610261952-KGJT-FXUS65-AFDGJT",
+    "afd_time": "2026-10-26T19:52:00Z",
+    "updated": "2026-10-26T20:33:35.863278+00:00"
   }
 }
