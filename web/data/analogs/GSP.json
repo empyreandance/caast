@@ -1,91 +1,91 @@
 {
   "office": "GSP",
-  "product_id": "202610271054-KGSP-FXUS62-AFDGSP",
-  "afd_time": "2026-10-27T10:54:00Z",
+  "product_id": "202610271804-KGSP-FXUS62-AFDGSP",
+  "afd_time": "2026-10-27T18:04:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-27T13:19:04.319935+00:00",
-  "query_preview": "..\nKey message 1: Dry conditions will persist over our region through \nat least Friday with temperatures warming above normal. Rain \nchances increase this weekend.\n\nDry weather should continue thru the work week as upper ridging \nremains over the Southeast. At the surface, broad high pressure \nconti",
+  "updated": "2026-10-27T19:29:51.273975+00:00",
+  "query_preview": "..\nKey message 1: Dry through Saturday before rain chances return late \nthis weekend into early next week. Temperatures remain mostly above \nnormal, with the exception of Sunday.   \n\nRidging dominates the upper pattern while surface high pressure \nremains in control at the surface over the eastern U",
   "analogs": [
     {
-      "datetime_utc": "2008-01-31T17:41Z",
-      "source_file": "GSP_2008_31_1741.txt",
-      "similarity": 0.6236652135848999,
+      "datetime_utc": "2008-01-31T16:41Z",
+      "source_file": "GSP_2008_31_1641.txt",
+      "similarity": 0.5784247517585754,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-01-31T16:41Z",
-      "source_file": "GSP_2008_31_1641.txt",
-      "similarity": 0.6236652135848999,
+      "datetime_utc": "2008-01-31T17:41Z",
+      "source_file": "GSP_2008_31_1741.txt",
+      "similarity": 0.5784247517585754,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-01-31T18:36Z",
       "source_file": "GSP_2008_31_1836.txt",
-      "similarity": 0.6236652135848999,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-11-27T14:58Z",
-      "source_file": "GSP_2020_27_1458.txt",
-      "similarity": 0.6179239749908447,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-07-28T07:22Z",
-      "source_file": "GSP_2024_28_0722_1.txt",
-      "similarity": 0.611774206161499,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-07-28T16:01Z",
-      "source_file": "GSP_2024_28_1601.txt",
-      "similarity": 0.611774206161499,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-07-28T13:43Z",
-      "source_file": "GSP_2024_28_1343.txt",
-      "similarity": 0.611774206161499,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-07-28T11:02Z",
-      "source_file": "GSP_2024_28_1102.txt",
-      "similarity": 0.611774206161499,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-07-28T18:30Z",
-      "source_file": "GSP_2024_28_1830.txt",
-      "similarity": 0.611774206161499,
+      "similarity": 0.5784247517585754,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-02-18T15:43Z",
       "source_file": "GSP_2007_18_1543.txt",
-      "similarity": 0.6037464141845703,
+      "similarity": 0.5661564469337463,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-02-18T07:35Z",
+      "source_file": "GSP_2007_18_0735.txt",
+      "similarity": 0.5661564469337463,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-07-28T13:43Z",
+      "source_file": "GSP_2024_28_1343.txt",
+      "similarity": 0.5535136461257935,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-07-28T16:01Z",
+      "source_file": "GSP_2024_28_1601.txt",
+      "similarity": 0.5535136461257935,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-07-28T11:02Z",
+      "source_file": "GSP_2024_28_1102.txt",
+      "similarity": 0.5535136461257935,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-07-28T07:22Z",
+      "source_file": "GSP_2024_28_0722_1.txt",
+      "similarity": 0.5535136461257935,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-07-28T18:30Z",
+      "source_file": "GSP_2024_28_1830.txt",
+      "similarity": 0.5535136461257935,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.9,
-    "mean_similarity": 0.615153706073761,
-    "n_severe": 9,
+    "severe_fraction": 1.0,
+    "mean_similarity": 0.5635155379772187,
+    "n_severe": 10,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.62 below confidence floor 0.7",
-    "product_id": "202610271054-KGSP-FXUS62-AFDGSP",
-    "afd_time": "2026-10-27T10:54:00Z",
-    "updated": "2026-10-27T13:19:04.319935+00:00"
+    "reason": "top-10 mean similarity 0.56 below confidence floor 0.7",
+    "product_id": "202610271804-KGSP-FXUS62-AFDGSP",
+    "afd_time": "2026-10-27T18:04:00Z",
+    "updated": "2026-10-27T19:29:51.273975+00:00"
   }
 }
