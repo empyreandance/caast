@@ -1,91 +1,91 @@
 {
   "office": "BUF",
-  "product_id": "202610262342-KBUF-FXUS61-AFDBUF",
-  "afd_time": "2026-10-26T23:42:00Z",
+  "product_id": "202610270554-KBUF-FXUS61-AFDBUF",
+  "afd_time": "2026-10-27T05:54:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-27T00:31:11.405837+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Mostly dry weather pattern continues, with \nsmall chances for rain Thursday night and late this weekend.\nNear record warmth Thursday.\n\nA surface ridge will continue to affect our region this week as\nembedded high pressure center moves from northern ON toward \nnorthern New England,",
+  "updated": "2026-10-27T06:21:39.405075+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...Primarily dry weather is expected through this Sunday, \nbut periodic rain showers are possible this Thursday evening \nthrough Thursday night and again this Sunday. Near-record warmth\nis forecast this Thursday.\n\nA surface ridge continues to affect our region today through\ntonight a",
   "analogs": [
-    {
-      "datetime_utc": "2019-12-07T22:14Z",
-      "source_file": "BUF_2019_07_2214.txt",
-      "similarity": 0.4553437829017639,
-      "label": "winter",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2019-12-08T00:52Z",
       "source_file": "BUF_2019_08_0052.txt",
-      "similarity": 0.4553437829017639,
+      "similarity": 0.44189363718032837,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-05-13T23:37Z",
-      "source_file": "BUF_2012_13_2337.txt",
-      "similarity": 0.45381712913513184,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2019-12-07T22:14Z",
+      "source_file": "BUF_2019_07_2214.txt",
+      "similarity": 0.44189363718032837,
+      "label": "winter",
+      "is_severe": false
     },
     {
       "datetime_utc": "2012-05-14T00:23Z",
       "source_file": "BUF_2012_14_0023.txt",
-      "similarity": 0.45381712913513184,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-05-13T20:00Z",
-      "source_file": "BUF_2012_13_2000.txt",
-      "similarity": 0.45381712913513184,
+      "similarity": 0.4242832660675049,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-05-14T05:26Z",
       "source_file": "BUF_2012_14_0526.txt",
-      "similarity": 0.45381712913513184,
+      "similarity": 0.4242832660675049,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-07-26T18:52Z",
-      "source_file": "BUF_2005_26_1852.txt",
-      "similarity": 0.45275622606277466,
+      "datetime_utc": "2012-05-13T23:37Z",
+      "source_file": "BUF_2012_13_2337.txt",
+      "similarity": 0.4242832660675049,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-05-13T20:00Z",
+      "source_file": "BUF_2012_13_2000.txt",
+      "similarity": 0.4242832660675049,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-07-31T06:53Z",
+      "source_file": "BUF_2005_31_0653.txt",
+      "similarity": 0.4208608567714691,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-06-07T06:24Z",
-      "source_file": "BUF_2006_07_0624.txt",
-      "similarity": 0.44780445098876953,
-      "label": "severe_wind",
+      "datetime_utc": "2005-07-30T18:22Z",
+      "source_file": "BUF_2005_30_1822.txt",
+      "similarity": 0.4208608567714691,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2025-09-30T17:09Z",
-      "source_file": "BUF_2025_30_1709.txt",
-      "similarity": 0.4456043839454651,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2005-07-31T13:23Z",
+      "source_file": "BUF_2005_31_1323.txt",
+      "similarity": 0.4208608567714691,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2025-09-30T06:31Z",
-      "source_file": "BUF_2025_30_0631.txt",
-      "similarity": 0.4456043839454651,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2008-04-19T05:37Z",
+      "source_file": "BUF_2008_19_0537_1.txt",
+      "similarity": 0.4187629818916321,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.45177255272865297,
-    "n_severe": 6,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.42622658908367156,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610262342-KBUF-FXUS61-AFDBUF",
-    "afd_time": "2026-10-26T23:42:00Z",
-    "updated": "2026-10-27T00:31:11.405837+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202610270554-KBUF-FXUS61-AFDBUF",
+    "afd_time": "2026-10-27T05:54:00Z",
+    "updated": "2026-10-27T06:21:39.405075+00:00"
   }
 }
