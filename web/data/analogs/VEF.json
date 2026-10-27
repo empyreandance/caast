@@ -1,91 +1,91 @@
 {
   "office": "VEF",
-  "product_id": "202610270520-KVEF-FXUS65-AFDVEF",
-  "afd_time": "2026-10-27T05:20:00Z",
+  "product_id": "202610271121-KVEF-FXUS65-AFDVEF",
+  "afd_time": "2026-10-27T11:21:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-27T06:21:39.405075+00:00",
-  "query_preview": "..Today through Sunday.\n\nRelatively zonal flow aloft will allow dry conditions and seasonable \ntemperatures to continue through the middle of the week. A few \nshortwaves will move through the Pacific Northwest today and \ntomorrow, resulting in southerly breezes across the southern Great \nBasin this ",
+  "updated": "2026-10-27T13:19:04.319935+00:00",
+  "query_preview": "..through Monday.\n\nZonal flow maintains mostly quiet weather conditions and mild \ntemperatures for the next couple of days. A weak shortwave moving \nalong this pattern will prompt breezy southerly winds across much of \nthe area this afternoon, with peak gusts between 15 and 25 mph. \nTemperatures wil",
   "analogs": [
     {
       "datetime_utc": "2005-01-17T22:27Z",
       "source_file": "VEF_2005_17_2227.txt",
-      "similarity": 0.47279250621795654,
+      "similarity": 0.4695163667201996,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-06-22T10:05Z",
+      "source_file": "VEF_2006_22_1005.txt",
+      "similarity": 0.4600781798362732,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-09-23T10:00Z",
+      "source_file": "VEF_2008_23_1000.txt",
+      "similarity": 0.4584125876426697,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-09-23T15:38Z",
+      "source_file": "VEF_2008_23_1538.txt",
+      "similarity": 0.4584125876426697,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2024-07-16T03:19Z",
       "source_file": "VEF_2024_16_0319.txt",
-      "similarity": 0.46605318784713745,
+      "similarity": 0.45349836349487305,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-02-26T05:03Z",
-      "source_file": "VEF_2007_26_0503.txt",
-      "similarity": 0.46506333351135254,
+      "datetime_utc": "2009-01-02T05:23Z",
+      "source_file": "VEF_2009_02_0523.txt",
+      "similarity": 0.45225438475608826,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-02-25T22:53Z",
-      "source_file": "VEF_2007_25_2253.txt",
-      "similarity": 0.46506333351135254,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-11-23T10:57Z",
-      "source_file": "VEF_2005_23_1057.txt",
-      "similarity": 0.46334078907966614,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-11-23T17:50Z",
-      "source_file": "VEF_2005_23_1750.txt",
-      "similarity": 0.46334078907966614,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-09-23T15:38Z",
-      "source_file": "VEF_2008_23_1538.txt",
-      "similarity": 0.4610583186149597,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-09-23T10:00Z",
-      "source_file": "VEF_2008_23_1000.txt",
-      "similarity": 0.4610583186149597,
-      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-01-01T23:09Z",
       "source_file": "VEF_2009_01_2309.txt",
-      "similarity": 0.45876461267471313,
+      "similarity": 0.45225438475608826,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-01-02T05:23Z",
-      "source_file": "VEF_2009_02_0523.txt",
-      "similarity": 0.45876461267471313,
-      "label": "winter",
+      "datetime_utc": "2005-03-02T10:19Z",
+      "source_file": "VEF_2005_02_1019.txt",
+      "similarity": 0.4481823146343231,
+      "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-03-02T18:12Z",
+      "source_file": "VEF_2005_02_1812.txt",
+      "similarity": 0.4481823146343231,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-02-16T17:10Z",
+      "source_file": "VEF_2008_16_1710.txt",
+      "similarity": 0.4472730755805969,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.4635299801826477,
-    "n_severe": 1,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.4548064559698105,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202610270520-KVEF-FXUS65-AFDVEF",
-    "afd_time": "2026-10-27T05:20:00Z",
-    "updated": "2026-10-27T06:21:39.405075+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202610271121-KVEF-FXUS65-AFDVEF",
+    "afd_time": "2026-10-27T11:21:00Z",
+    "updated": "2026-10-27T13:19:04.319935+00:00"
   }
 }
