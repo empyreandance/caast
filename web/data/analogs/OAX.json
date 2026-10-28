@@ -1,91 +1,91 @@
 {
   "office": "OAX",
-  "product_id": "202610272334-KOAX-FXUS63-AFDOAX",
-  "afd_time": "2026-10-27T23:34:00Z",
-  "section_type": "extended",
-  "updated": "2026-10-27T23:50:16.547344+00:00",
-  "query_preview": "the coverage of MVFR ceilings for a few hours from the\nprevious forecast, with VFR conditions returning to those\nterminals by 06z this tonight. KOFK is set to see restrictions\nthrough much of the TAF period, falling to LIFR conditions\novernight for a brief period while spending a healthy amount of\nt",
+  "product_id": "202610280534-KOAX-FXUS63-AFDOAX",
+  "afd_time": "2026-10-28T05:34:00Z",
+  "section_type": "discussion",
+  "updated": "2026-10-28T05:50:22.912331+00:00",
+  "query_preview": "..\nIssued at 1110 PM CDT Tue Oct 27 2026\n\nTonight into Wednesday:\n\nWater vapor imagery this evening shows broad troughing in place over \nthe western CONUS as a few mid/upper vorticity maxima pivot through \nthe flow. To the east, much of the central into eastern CONUS \ncontinues somewhat languid sout",
   "analogs": [
-    {
-      "datetime_utc": "2007-01-18T20:41Z",
-      "source_file": "OAX_2007_18_2041.txt",
-      "similarity": 0.5754114389419556,
-      "label": "winter",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2009-03-02T08:50Z",
       "source_file": "OAX_2009_02_0850.txt",
-      "similarity": 0.572975754737854,
+      "similarity": 0.4648438096046448,
       "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-06-06T19:29Z",
+      "source_file": "OAX_2007_06_1929.txt",
+      "similarity": 0.4543145000934601,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-11-02T19:48Z",
       "source_file": "OAX_2010_02_1948.txt",
-      "similarity": 0.571104884147644,
+      "similarity": 0.45165205001831055,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-03-11T19:40Z",
-      "source_file": "OAX_2009_11_1940.txt",
-      "similarity": 0.5662670135498047,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-11-17T09:16Z",
-      "source_file": "OAX_2010_17_0916.txt",
-      "similarity": 0.5641146898269653,
-      "label": "severe_hail",
+      "datetime_utc": "2004-07-21T07:41Z",
+      "source_file": "OAX_2004_21_0741.txt",
+      "similarity": 0.4506329894065857,
+      "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-01-15T09:39Z",
-      "source_file": "OAX_2011_15_0939.txt",
-      "similarity": 0.5635888576507568,
-      "label": "winter",
-      "is_severe": false
     },
     {
       "datetime_utc": "2013-05-18T18:50Z",
       "source_file": "OAX_2013_18_1850.txt",
-      "similarity": 0.5634326934814453,
+      "similarity": 0.4476073384284973,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-10-09T11:17Z",
-      "source_file": "OAX_2012_09_1117.txt",
-      "similarity": 0.5574870109558105,
-      "label": "severe_wind",
+      "datetime_utc": "2018-02-28T21:08Z",
+      "source_file": "OAX_2018_28_2108.txt",
+      "similarity": 0.4462902247905731,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-10-09T07:48Z",
-      "source_file": "OAX_2012_09_0748.txt",
-      "similarity": 0.5574870109558105,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-12-05T20:31Z",
-      "source_file": "OAX_2010_05_2031.txt",
-      "similarity": 0.5573674440383911,
+      "datetime_utc": "2018-02-01T05:20Z",
+      "source_file": "OAX_2018_01_0520_1.txt",
+      "similarity": 0.4462902247905731,
       "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-01-18T20:41Z",
+      "source_file": "OAX_2007_18_2041.txt",
+      "similarity": 0.4454973340034485,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-01-15T09:39Z",
+      "source_file": "OAX_2011_15_0939.txt",
+      "similarity": 0.4425651431083679,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-10-08T07:48Z",
+      "source_file": "OAX_2008_08_0748.txt",
+      "similarity": 0.4420618414878845,
+      "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.5649236798286438,
+    "mean_similarity": 0.4491755455732346,
     "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.56 below confidence floor 0.7",
-    "product_id": "202610272334-KOAX-FXUS63-AFDOAX",
-    "afd_time": "2026-10-27T23:34:00Z",
-    "updated": "2026-10-27T23:50:16.547344+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202610280534-KOAX-FXUS63-AFDOAX",
+    "afd_time": "2026-10-28T05:34:00Z",
+    "updated": "2026-10-28T05:50:22.912331+00:00"
   }
 }

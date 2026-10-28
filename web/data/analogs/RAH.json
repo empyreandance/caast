@@ -1,92 +1,91 @@
 {
   "office": "RAH",
-  "product_id": "202610272335-KRAH-FXUS62-AFDRAH",
-  "afd_time": "2026-10-27T23:35:00Z",
+  "product_id": "202610280550-KRAH-FXUS62-AFDRAH",
+  "afd_time": "2026-10-28T05:50:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-27T23:50:16.547344+00:00",
-  "query_preview": "..\nAs of 218 PM Tuesday... \n\nKEY MESSAGE 1... Patchy fog and low stratus will build over the \nregion early Wednesday, slowly lifting during the afternoon hours \ntomorrow.\n\nA backdoor cold front is presently located to our north in the \nDelmarva area and off the northern Mid-Atlantic coast. This fron",
+  "updated": "2026-10-28T05:50:22.912331+00:00",
+  "query_preview": "..\nAs of 150 AM Wednesday... \n\nKEY MESSAGE 1... While overcast skies are forecast today and \nThursday morning, conditions will remain dry.\n\nAn area of low clouds has developed across eastern North Carolina \nand the clouds will spread west overnight, reaching the Triad around \nsunrise. There could al",
   "analogs": [
     {
       "datetime_utc": "2006-02-09T09:58Z",
       "source_file": "RAH_2006_09_0958.txt",
-      "similarity": 0.8197143077850342,
+      "similarity": 0.7996841669082642,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-05-19T01:06Z",
       "source_file": "RAH_2004_19_0106.txt",
-      "similarity": 0.788996696472168,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-03-04T06:22Z",
-      "source_file": "RAH_2004_04_0622.txt",
-      "similarity": 0.7723580598831177,
+      "similarity": 0.7361649870872498,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-03-04T06:53Z",
       "source_file": "RAH_2004_04_0653.txt",
-      "similarity": 0.7723580598831177,
+      "similarity": 0.709148645401001,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-06-21T02:23Z",
-      "source_file": "RAH_2007_21_0223.txt",
-      "similarity": 0.7078830003738403,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2004-03-04T06:22Z",
+      "source_file": "RAH_2004_04_0622.txt",
+      "similarity": 0.709148645401001,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2007-06-20T19:07Z",
       "source_file": "RAH_2007_20_1907.txt",
-      "similarity": 0.7078830003738403,
+      "similarity": 0.6856414079666138,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-02-09T08:23Z",
-      "source_file": "RAH_2006_09_0823.txt",
-      "similarity": 0.6901862025260925,
+      "datetime_utc": "2007-06-21T02:23Z",
+      "source_file": "RAH_2007_21_0223.txt",
+      "similarity": 0.6856414079666138,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-03-12T17:47Z",
+      "source_file": "RAH_2004_12_1747.txt",
+      "similarity": 0.632439374923706,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2010-11-22T13:27Z",
       "source_file": "RAH_2010_22_1327.txt",
-      "similarity": 0.6889101266860962,
+      "similarity": 0.6263353824615479,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-03-12T17:47Z",
-      "source_file": "RAH_2004_12_1747.txt",
-      "similarity": 0.678138792514801,
+      "datetime_utc": "2006-02-09T08:23Z",
+      "source_file": "RAH_2006_09_0823.txt",
+      "similarity": 0.6119483709335327,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-03-12T18:41Z",
-      "source_file": "RAH_2014_12_1841.txt",
-      "similarity": 0.676973283290863,
-      "label": "winter",
+      "datetime_utc": "2004-05-08T05:28Z",
+      "source_file": "RAH_2004_08_0528.txt",
+      "similarity": 0.6039987206459045,
+      "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "QUIET",
+    "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.7303401529788971,
-    "base_rate": 0.6150294094163362,
-    "signal_value": -0.4150294094163362,
+    "mean_similarity": 0.6800151109695435,
     "n_severe": 2,
     "n_total": 10,
-    "product_id": "202610272335-KRAH-FXUS62-AFDRAH",
-    "afd_time": "2026-10-27T23:35:00Z",
-    "updated": "2026-10-27T23:50:16.547344+00:00"
+    "reason": "top-10 mean similarity 0.68 below confidence floor 0.7",
+    "product_id": "202610280550-KRAH-FXUS62-AFDRAH",
+    "afd_time": "2026-10-28T05:50:00Z",
+    "updated": "2026-10-28T05:50:22.912331+00:00"
   }
 }

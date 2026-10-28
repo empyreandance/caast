@@ -1,78 +1,78 @@
 {
   "office": "GJT",
-  "product_id": "202610272321-KGJT-FXUS65-AFDGJT",
-  "afd_time": "2026-10-27T23:21:00Z",
+  "product_id": "202610280526-KGJT-FXUS65-AFDGJT",
+  "afd_time": "2026-10-28T05:26:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-27T23:50:16.547344+00:00",
-  "query_preview": "..\nIssued at 1208 PM MDT Tue Oct 27 2026\n\nCHILLY AND DRY WEEK:\n\nNear-zonal flow is established across the Intermountain West \ntoday, maintaining relatively dry conditions for our CWA. This \nkeeps precipitation chances near-zero for most locations with \nlittle more than scattered cloud cover expected",
+  "updated": "2026-10-28T05:50:22.912331+00:00",
+  "query_preview": "..\nIssued at 937 PM MDT Tue Oct 27 2026\n\nCHILLY AND DRY WEEK:\n\nNear-zonal flow is established across the Intermountain West, \nmaintaining relatively dry conditions for our CWA. This keeps \nprecipitation chances near-zero for most locations with little \nmore than scattered cloud cover expected. We're",
   "analogs": [
     {
       "datetime_utc": "2009-05-21T11:15Z",
       "source_file": "GJT_2009_21_1115_1.txt",
-      "similarity": 0.4454152584075928,
+      "similarity": 0.44771093130111694,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-04-09T03:12Z",
+      "source_file": "GJT_2021_09_0312.txt",
+      "similarity": 0.44125592708587646,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-04-08T21:32Z",
       "source_file": "GJT_2021_08_2132.txt",
-      "similarity": 0.44316601753234863,
+      "similarity": 0.44125592708587646,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-04-09T04:44Z",
       "source_file": "GJT_2021_09_0444.txt",
-      "similarity": 0.44316601753234863,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-04-09T03:12Z",
-      "source_file": "GJT_2021_09_0312.txt",
-      "similarity": 0.44316601753234863,
+      "similarity": 0.44125592708587646,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-04-08T23:38Z",
       "source_file": "GJT_2021_08_2338.txt",
-      "similarity": 0.44316601753234863,
+      "similarity": 0.44125592708587646,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-06-15T10:09Z",
       "source_file": "GJT_2005_15_1009.txt",
-      "similarity": 0.43690434098243713,
+      "similarity": 0.43933284282684326,
       "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-08-15T10:04Z",
-      "source_file": "GJT_2009_15_1004.txt",
-      "similarity": 0.43405991792678833,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-09-01T09:41Z",
       "source_file": "GJT_2007_01_0941.txt",
-      "similarity": 0.4324658513069153,
+      "similarity": 0.4357163906097412,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2018-10-26T08:26Z",
-      "source_file": "GJT_2018_26_0826.txt",
-      "similarity": 0.4313323497772217,
-      "label": "winter",
+      "datetime_utc": "2009-08-15T10:04Z",
+      "source_file": "GJT_2009_15_1004.txt",
+      "similarity": 0.43384385108947754,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-05-31T20:57Z",
+      "source_file": "GJT_2011_31_2057.txt",
+      "similarity": 0.43189796805381775,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2018-10-26T17:41Z",
       "source_file": "GJT_2018_26_1741.txt",
-      "similarity": 0.4313323497772217,
+      "similarity": 0.43025481700897217,
       "label": "winter",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.43841741383075716,
+    "mean_similarity": 0.4383780509233475,
     "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610272321-KGJT-FXUS65-AFDGJT",
-    "afd_time": "2026-10-27T23:21:00Z",
-    "updated": "2026-10-27T23:50:16.547344+00:00"
+    "product_id": "202610280526-KGJT-FXUS65-AFDGJT",
+    "afd_time": "2026-10-28T05:26:00Z",
+    "updated": "2026-10-28T05:50:22.912331+00:00"
   }
 }
