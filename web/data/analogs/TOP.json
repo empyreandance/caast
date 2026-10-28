@@ -1,91 +1,91 @@
 {
   "office": "TOP",
-  "product_id": "202610281732-KTOP-FXUS63-AFDTOP",
-  "afd_time": "2026-10-28T17:32:00Z",
+  "product_id": "202610282315-KTOP-FXUS63-AFDTOP",
+  "afd_time": "2026-10-28T23:15:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-28T18:55:14.976849+00:00",
-  "query_preview": "..\nIssued at 244 AM CDT Wed Oct 28 2026\n\nEarly this morning water vapor satellite imagery along with upper \nair analysis showed an upper level trough lifting northeast across \nthe northern Plains into south central Canada. A second upper level \ntrough was digging southeast along the Pacific Northwes",
+  "updated": "2026-10-28T23:17:14.096842+00:00",
+  "query_preview": "..\nIssued at 250 PM CDT Wed Oct 28 2026\n\nWater vapor imagery early this afternoon shows broad cyclonic flow \nover northern and western portions of the CONUS, with one shortwave \nimpacting the Upper Midwest and another in the Pacific Northwest. \nThis leaves southwest flow aloft into the local area wi",
   "analogs": [
     {
       "datetime_utc": "2004-02-21T10:36Z",
       "source_file": "TOP_2004_21_1036.txt",
-      "similarity": 0.4585740268230438,
+      "similarity": 0.4365166425704956,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-02-20T23:47Z",
+      "source_file": "TOP_2015_20_2347.txt",
+      "similarity": 0.42952293157577515,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-02-20T21:18Z",
       "source_file": "TOP_2015_20_2118.txt",
-      "similarity": 0.4512515664100647,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-02-21T04:44Z",
-      "source_file": "TOP_2015_21_0444.txt",
-      "similarity": 0.4512515664100647,
+      "similarity": 0.42952293157577515,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-02-21T06:04Z",
       "source_file": "TOP_2015_21_0604.txt",
-      "similarity": 0.4512515664100647,
+      "similarity": 0.42952293157577515,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-02-20T23:47Z",
-      "source_file": "TOP_2015_20_2347.txt",
-      "similarity": 0.4512515664100647,
+      "datetime_utc": "2015-02-21T04:44Z",
+      "source_file": "TOP_2015_21_0444.txt",
+      "similarity": 0.42952293157577515,
       "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-05-26T20:24Z",
+      "source_file": "TOP_2005_26_2024.txt",
+      "similarity": 0.4265022277832031,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-06-07T21:14Z",
       "source_file": "TOP_2006_07_2114.txt",
-      "similarity": 0.44864094257354736,
+      "similarity": 0.4237728416919708,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-05-26T20:24Z",
-      "source_file": "TOP_2005_26_2024.txt",
-      "similarity": 0.4437319040298462,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-04-14T20:10Z",
-      "source_file": "TOP_2007_14_2010.txt",
-      "similarity": 0.4398224949836731,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2005-01-08T09:46Z",
       "source_file": "TOP_2005_08_0946_1.txt",
-      "similarity": 0.43757498264312744,
+      "similarity": 0.4130846858024597,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-01-02T08:21Z",
-      "source_file": "TOP_2007_02_0821.txt",
-      "similarity": 0.43399563431739807,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2023-09-29T16:53Z",
+      "source_file": "TOP_2023_29_1653.txt",
+      "similarity": 0.4128926992416382,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-09-29T09:03Z",
+      "source_file": "TOP_2023_29_0903.txt",
+      "similarity": 0.4128926992416382,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.44673462510108947,
-    "n_severe": 1,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.42437535226345063,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610281732-KTOP-FXUS63-AFDTOP",
-    "afd_time": "2026-10-28T17:32:00Z",
-    "updated": "2026-10-28T18:55:14.976849+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202610282315-KTOP-FXUS63-AFDTOP",
+    "afd_time": "2026-10-28T23:15:00Z",
+    "updated": "2026-10-28T23:17:14.096842+00:00"
   }
 }

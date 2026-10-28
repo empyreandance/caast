@@ -1,91 +1,91 @@
 {
   "office": "STO",
-  "product_id": "202610271733-KSTO-FXUS66-AFDSTO",
-  "afd_time": "2026-10-27T17:33:00Z",
+  "product_id": "202610282013-KSTO-FXUS66-AFDSTO",
+  "afd_time": "2026-10-28T20:13:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-27T19:29:51.273975+00:00",
-  "query_preview": "(with some sarcasm)! Latest visible satellite imagery \ndepicts low clouds over portions of the Sacramento Valley this \nmorning, while high clouds stream southeast across the region. A \nweak shortwave trough will traverse the area today, bringing a \nslight chance of water falling from the sky over Sh",
+  "updated": "2026-10-28T23:17:14.096842+00:00",
+  "query_preview": "..\n\n...Today through Friday... \n\nCool and mostly dry weather pattern with light winds is expected \nto persist across northern interior California through Friday. \nAlthough, a weak surface high pressure is promoting a modest \nwarming today. Afternoon highs in the mid 60s into low 70s for the\nValleys,",
   "analogs": [
     {
-      "datetime_utc": "2010-03-13T11:10Z",
-      "source_file": "STO_2010_13_1110.txt",
-      "similarity": 0.4271666407585144,
+      "datetime_utc": "2020-08-16T10:36Z",
+      "source_file": "STO_2020_16_1036.txt",
+      "similarity": 0.49922624230384827,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-01-24T10:29Z",
+      "source_file": "STO_2023_24_1029.txt",
+      "similarity": 0.47991734743118286,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-01-25T23:35Z",
+      "source_file": "STO_2017_25_2335.txt",
+      "similarity": 0.46377867460250854,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-08-03T03:50Z",
-      "source_file": "STO_2011_03_0350.txt",
-      "similarity": 0.42270907759666443,
-      "label": "severe_wind",
+      "datetime_utc": "2017-01-26T04:22Z",
+      "source_file": "STO_2017_26_0422.txt",
+      "similarity": 0.46377867460250854,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-01-21T22:13Z",
+      "source_file": "STO_2023_21_2213.txt",
+      "similarity": 0.46207302808761597,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-09-17T21:01Z",
+      "source_file": "STO_2022_17_2101.txt",
+      "similarity": 0.4590022563934326,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-08-02T22:48Z",
-      "source_file": "STO_2011_02_2248.txt",
-      "similarity": 0.42270907759666443,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2021-11-26T19:27Z",
+      "source_file": "STO_2021_26_1927.txt",
+      "similarity": 0.4547901153564453,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2006-09-11T04:40Z",
       "source_file": "STO_2006_11_0440.txt",
-      "similarity": 0.41503268480300903,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-06-22T10:26Z",
-      "source_file": "STO_2018_22_1026_1.txt",
-      "similarity": 0.4118776321411133,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-07-20T22:55Z",
-      "source_file": "STO_2011_20_2255.txt",
-      "similarity": 0.4099164307117462,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-10-27T10:16Z",
-      "source_file": "STO_2019_27_1016.txt",
-      "similarity": 0.40908533334732056,
+      "similarity": 0.45353060960769653,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2022-08-29T22:15Z",
       "source_file": "STO_2022_29_2215.txt",
-      "similarity": 0.4078344702720642,
+      "similarity": 0.4526502788066864,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-05-18T11:27Z",
-      "source_file": "STO_2014_18_1127.txt",
-      "similarity": 0.4073576331138611,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-05-18T15:37Z",
-      "source_file": "STO_2014_18_1537.txt",
-      "similarity": 0.4073576331138611,
-      "label": "severe_hail",
+      "datetime_utc": "2020-08-15T10:30Z",
+      "source_file": "STO_2020_15_1030.txt",
+      "similarity": 0.4513653516769409,
+      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.41410466134548185,
-    "n_severe": 4,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.4640112578868866,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202610271733-KSTO-FXUS66-AFDSTO",
-    "afd_time": "2026-10-27T17:33:00Z",
-    "updated": "2026-10-27T19:29:51.273975+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202610282013-KSTO-FXUS66-AFDSTO",
+    "afd_time": "2026-10-28T20:13:00Z",
+    "updated": "2026-10-28T23:17:14.096842+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "VEF",
-  "product_id": "202610281733-KVEF-FXUS65-AFDVEF",
-  "afd_time": "2026-10-28T17:33:00Z",
+  "product_id": "202610282100-KVEF-FXUS65-AFDVEF",
+  "afd_time": "2026-10-28T21:00:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-28T18:55:14.976849+00:00",
-  "query_preview": "..Today through Tuesday.\n\nExpect a couple more days of pleasant weather before the next system \nmoves in towards the end of the week. Zonal flow aloft continues to \nmaintain partly to mostly cloudy skies and temperatures within a few \ndegrees of normal for late October. This means highs in the upper",
+  "updated": "2026-10-28T23:17:14.096842+00:00",
+  "query_preview": "..Through Tuesday.\n\nZonal flow aloft continues across the region, though water vapor \nimagery indicates a fetch of mid-level moisture translating \neastward, yielding an increase in cloud cover. Skies will become \nmostly cloudy overnight tonight, with additional influence from \nmoisture advecting nor",
   "analogs": [
     {
       "datetime_utc": "2007-02-25T22:53Z",
       "source_file": "VEF_2007_25_2253.txt",
-      "similarity": 0.4548495411872864,
+      "similarity": 0.4442811608314514,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-02-26T05:03Z",
       "source_file": "VEF_2007_26_0503.txt",
-      "similarity": 0.4548495411872864,
+      "similarity": 0.4442811608314514,
       "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-01-17T22:27Z",
+      "source_file": "VEF_2005_17_2227.txt",
+      "similarity": 0.44283634424209595,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-01-02T05:23Z",
       "source_file": "VEF_2009_02_0523.txt",
-      "similarity": 0.453008234500885,
+      "similarity": 0.442408949136734,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-01-01T23:09Z",
       "source_file": "VEF_2009_01_2309.txt",
-      "similarity": 0.453008234500885,
+      "similarity": 0.442408949136734,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-09-23T15:38Z",
-      "source_file": "VEF_2008_23_1538.txt",
-      "similarity": 0.4524293839931488,
-      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2008-09-23T10:00Z",
       "source_file": "VEF_2008_23_1000.txt",
-      "similarity": 0.4524293839931488,
+      "similarity": 0.4397820234298706,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-01-17T22:27Z",
-      "source_file": "VEF_2005_17_2227.txt",
-      "similarity": 0.4517343044281006,
+      "datetime_utc": "2008-09-23T15:38Z",
+      "source_file": "VEF_2008_23_1538.txt",
+      "similarity": 0.4397820234298706,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-06-13T10:53Z",
+      "source_file": "VEF_2004_13_1053.txt",
+      "similarity": 0.43293866515159607,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-06-30T09:00Z",
       "source_file": "VEF_2004_30_0900.txt",
-      "similarity": 0.446147620677948,
+      "similarity": 0.43228858709335327,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-01-28T17:42Z",
-      "source_file": "VEF_2010_28_1742.txt",
-      "similarity": 0.4410656690597534,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-01-28T10:31Z",
-      "source_file": "VEF_2010_28_1031_1.txt",
-      "similarity": 0.4410656690597534,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2006-06-22T10:05Z",
+      "source_file": "VEF_2006_22_1005.txt",
+      "similarity": 0.4307935833930969,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.4500587582588196,
-    "n_severe": 0,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.43918014466762545,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202610281733-KVEF-FXUS65-AFDVEF",
-    "afd_time": "2026-10-28T17:33:00Z",
-    "updated": "2026-10-28T18:55:14.976849+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202610282100-KVEF-FXUS65-AFDVEF",
+    "afd_time": "2026-10-28T21:00:00Z",
+    "updated": "2026-10-28T23:17:14.096842+00:00"
   }
 }
