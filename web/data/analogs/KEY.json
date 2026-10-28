@@ -1,91 +1,91 @@
 {
   "office": "KEY",
-  "product_id": "202610280202-KKEY-FXUS62-AFDKEY",
-  "afd_time": "2026-10-28T02:02:00Z",
+  "product_id": "202610280833-KKEY-FXUS62-AFDKEY",
+  "afd_time": "2026-10-28T08:33:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-28T05:50:22.912331+00:00",
-  "query_preview": "..\nIssued at 957 PM EDT Tue Oct 27 2026\nTaking a look at IR satellite imagery this evening, we can see a \nclear region of cyclonic circulation southwest of Andros Island \nassociated with the center of a remnant surface low. Scattered \nshowers are being generated on the northwestern side of the low, ",
+  "updated": "2026-10-28T13:03:47.513825+00:00",
+  "query_preview": "..\nIssued at 430 AM EDT Wed Oct 28 2026\nCIMSS products shows the blocky pattern continuing this morning. \nHowever, the block has transitioned from a omega block to a Rex \nblock. A Rex block means high over low pressure. When we look at \nthe upper level fields on CIMSS products, we see a high located",
   "analogs": [
-    {
-      "datetime_utc": "2024-10-27T19:05Z",
-      "source_file": "KEY_2024_27_1905.txt",
-      "similarity": 0.3923801779747009,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-12-17T08:41Z",
-      "source_file": "KEY_2009_17_0841.txt",
-      "similarity": 0.38918665051460266,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-04-05T19:01Z",
-      "source_file": "KEY_2016_05_1901.txt",
-      "similarity": 0.3813599646091461,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2011-07-14T18:52Z",
       "source_file": "KEY_2011_14_1852.txt",
-      "similarity": 0.3794131875038147,
+      "similarity": 0.34661877155303955,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-09-23T18:54Z",
-      "source_file": "KEY_2009_23_1854.txt",
-      "similarity": 0.3771864175796509,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2009-12-17T08:41Z",
+      "source_file": "KEY_2009_17_0841.txt",
+      "similarity": 0.3453986644744873,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2010-12-04T08:39Z",
-      "source_file": "KEY_2010_04_0839.txt",
-      "similarity": 0.3768339157104492,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-12-07T15:55Z",
-      "source_file": "KEY_2019_07_1555.txt",
-      "similarity": 0.37364357709884644,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-12-23T08:39Z",
-      "source_file": "KEY_2016_23_0839.txt",
-      "similarity": 0.3723519444465637,
+      "datetime_utc": "2024-10-27T19:05Z",
+      "source_file": "KEY_2024_27_1905.txt",
+      "similarity": 0.33931964635849,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-12-31T20:22Z",
       "source_file": "KEY_2016_31_2022.txt",
-      "similarity": 0.3706932067871094,
+      "similarity": 0.3335656523704529,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2015-01-22T09:40Z",
-      "source_file": "KEY_2015_22_0940.txt",
-      "similarity": 0.36800336837768555,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2019-12-07T15:55Z",
+      "source_file": "KEY_2019_07_1555.txt",
+      "similarity": 0.3333388566970825,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-09-23T18:54Z",
+      "source_file": "KEY_2009_23_1854.txt",
+      "similarity": 0.33263716101646423,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-12-04T08:39Z",
+      "source_file": "KEY_2010_04_0839.txt",
+      "similarity": 0.3291892111301422,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-04-05T19:01Z",
+      "source_file": "KEY_2016_05_1901.txt",
+      "similarity": 0.3290834426879883,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-12-23T08:39Z",
+      "source_file": "KEY_2016_23_0839.txt",
+      "similarity": 0.3268100619316101,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-03-30T07:10Z",
+      "source_file": "KEY_2017_30_0710.txt",
+      "similarity": 0.3257097601890564,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.37810524106025695,
-    "n_severe": 4,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.33416712284088135,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202610280202-KKEY-FXUS62-AFDKEY",
-    "afd_time": "2026-10-28T02:02:00Z",
-    "updated": "2026-10-28T05:50:22.912331+00:00"
+    "reason": "top-10 mean similarity 0.33 below confidence floor 0.7",
+    "product_id": "202610280833-KKEY-FXUS62-AFDKEY",
+    "afd_time": "2026-10-28T08:33:00Z",
+    "updated": "2026-10-28T13:03:47.513825+00:00"
   }
 }
