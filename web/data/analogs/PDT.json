@@ -1,21 +1,14 @@
 {
   "office": "PDT",
-  "product_id": "202610281135-KPDT-FXUS66-AFDPDT",
-  "afd_time": "2026-10-28T11:35:00Z",
+  "product_id": "202610281736-KPDT-FXUS66-AFDPDT",
+  "afd_time": "2026-10-28T17:36:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-28T13:03:47.513825+00:00",
+  "updated": "2026-10-28T18:55:14.976849+00:00",
   "query_preview": "..\nWater vapor satellite imagery tonight shows an\nupper closed low over Vancouver Island and southwest BC, while\nthe PacNW sits under a broad upper trough. Radar and nighttime\nsatellite imagery show rain/snow showers rounding the southern \nflank of the upper closed low into the WA Cascades. Elsewher",
   "analogs": [
     {
       "datetime_utc": "2024-05-23T17:25Z",
       "source_file": "PDT_2024_23_1725.txt",
-      "similarity": 0.466827392578125,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-05-23T09:34Z",
-      "source_file": "PDT_2024_23_0934.txt",
       "similarity": 0.466827392578125,
       "label": "severe_wind",
       "is_severe": true
@@ -28,37 +21,44 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-08-30T03:34Z",
-      "source_file": "PDT_2011_30_0334.txt",
-      "similarity": 0.46470460295677185,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2024-05-23T09:34Z",
+      "source_file": "PDT_2024_23_0934.txt",
+      "similarity": 0.466827392578125,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2011-08-29T21:50Z",
       "source_file": "PDT_2011_29_2150.txt",
-      "similarity": 0.46470460295677185,
+      "similarity": 0.4647046625614166,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-08-30T03:34Z",
+      "source_file": "PDT_2011_30_0334.txt",
+      "similarity": 0.4647046625614166,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-08-15T09:48Z",
       "source_file": "PDT_2004_15_0948.txt",
-      "similarity": 0.46078068017959595,
+      "similarity": 0.46078070998191833,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-03-21T21:49Z",
       "source_file": "PDT_2017_21_2149.txt",
-      "similarity": 0.45933645963668823,
+      "similarity": 0.4593364894390106,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-03-21T16:10Z",
       "source_file": "PDT_2017_21_1610.txt",
-      "similarity": 0.45933645963668823,
+      "similarity": 0.4593364894390106,
       "label": "tornado",
       "is_severe": true
     },
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.4608656883239746,
+    "mean_similarity": 0.46086570918560027,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202610281135-KPDT-FXUS66-AFDPDT",
-    "afd_time": "2026-10-28T11:35:00Z",
-    "updated": "2026-10-28T13:03:47.513825+00:00"
+    "product_id": "202610281736-KPDT-FXUS66-AFDPDT",
+    "afd_time": "2026-10-28T17:36:00Z",
+    "updated": "2026-10-28T18:55:14.976849+00:00"
   }
 }

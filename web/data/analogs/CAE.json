@@ -1,91 +1,91 @@
 {
   "office": "CAE",
-  "product_id": "202610281045-KCAE-FXUS62-AFDCAE",
-  "afd_time": "2026-10-28T10:45:00Z",
+  "product_id": "202610281814-KCAE-FXUS62-AFDCAE",
+  "afd_time": "2026-10-28T18:14:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-28T13:03:47.513825+00:00",
+  "updated": "2026-10-28T18:55:14.976849+00:00",
   "query_preview": "..\nKey Message 1: Beautiful weather expected to continue through \nthe end of this week. \n \nThe persistently beautiful weather we have been experiencing for\na week and a half now is forecast to continue into the end of\nthis work week. Strong high pressure remains anchored at the\nsurface to our northe",
   "analogs": [
     {
-      "datetime_utc": "2022-06-10T10:51Z",
-      "source_file": "CAE_2022_10_1051.txt",
-      "similarity": 0.3270859122276306,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2022-06-10T15:37Z",
       "source_file": "CAE_2022_10_1537.txt",
-      "similarity": 0.3270859122276306,
+      "similarity": 0.28383249044418335,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2022-06-10T07:47Z",
       "source_file": "CAE_2022_10_0747.txt",
-      "similarity": 0.3270859122276306,
+      "similarity": 0.28383249044418335,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-06-10T10:51Z",
+      "source_file": "CAE_2022_10_1051.txt",
+      "similarity": 0.28383249044418335,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-01-04T15:11Z",
       "source_file": "CAE_2006_04_1511.txt",
-      "similarity": 0.32562699913978577,
+      "similarity": 0.27932968735694885,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-01-04T08:00Z",
       "source_file": "CAE_2006_04_0800.txt",
-      "similarity": 0.32562699913978577,
+      "similarity": 0.27932968735694885,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-04-10T23:54Z",
-      "source_file": "CAE_2020_10_2354.txt",
-      "similarity": 0.32478785514831543,
-      "label": "tornado",
+      "datetime_utc": "2004-03-15T19:57Z",
+      "source_file": "CAE_2004_15_1957.txt",
+      "similarity": 0.27901849150657654,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-06-15T07:26Z",
+      "source_file": "CAE_2023_15_0726.txt",
+      "similarity": 0.27673038840293884,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-06-15T11:00Z",
+      "source_file": "CAE_2023_15_1100.txt",
+      "similarity": 0.27673038840293884,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-04-10T19:02Z",
       "source_file": "CAE_2020_10_1902.txt",
-      "similarity": 0.32478785514831543,
+      "similarity": 0.2743644416332245,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-04-11T07:38Z",
-      "source_file": "CAE_2020_11_0738.txt",
-      "similarity": 0.32478785514831543,
+      "datetime_utc": "2020-04-10T23:54Z",
+      "source_file": "CAE_2020_10_2354.txt",
+      "similarity": 0.2743644416332245,
       "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-04-11T06:02Z",
-      "source_file": "CAE_2020_11_0602.txt",
-      "similarity": 0.32478785514831543,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-05-19T10:43Z",
-      "source_file": "CAE_2024_19_1043.txt",
-      "similarity": 0.32394421100616455,
-      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 1.0,
-    "mean_similarity": 0.32556073665618895,
-    "n_severe": 10,
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.2791364997625351,
+    "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.33 below confidence floor 0.7",
-    "product_id": "202610281045-KCAE-FXUS62-AFDCAE",
-    "afd_time": "2026-10-28T10:45:00Z",
-    "updated": "2026-10-28T13:03:47.513825+00:00"
+    "reason": "top-10 mean similarity 0.28 below confidence floor 0.7",
+    "product_id": "202610281814-KCAE-FXUS62-AFDCAE",
+    "afd_time": "2026-10-28T18:14:00Z",
+    "updated": "2026-10-28T18:55:14.976849+00:00"
   }
 }

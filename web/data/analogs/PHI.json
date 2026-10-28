@@ -1,91 +1,91 @@
 {
   "office": "PHI",
-  "product_id": "202610280713-KPHI-FXUS61-AFDPHI",
-  "afd_time": "2026-10-28T07:13:00Z",
+  "product_id": "202610281728-KPHI-FXUS61-AFDPHI",
+  "afd_time": "2026-10-28T17:28:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-28T13:03:47.513825+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...No significant weather concerns this week.\n\nHigh pressure centered over New England will build east and then move\noffshore tonight. A weak cold front passes through the region Friday,\nand then high pressure returns for the weekend. Low pressure may\napproach the region for the star",
+  "updated": "2026-10-28T18:55:14.976849+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...Spotty minor tidal flooding expected with \nThursday morning's high tide. \n\nElevated astro tides from the recent full moon and weak onshore\nflow resulted in some spotty minor tidal flooding across \nportions of the southern NJ and Delaware coastline and areas \nwithin Delaware Bay ea",
   "analogs": [
     {
       "datetime_utc": "2012-10-25T20:24Z",
       "source_file": "PHI_2012_25_2024.txt",
-      "similarity": 0.6795372366905212,
+      "similarity": 0.7010334730148315,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-05-19T02:07Z",
       "source_file": "PHI_2018_19_0207.txt",
-      "similarity": 0.6331606507301331,
+      "similarity": 0.6194717288017273,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-11-13T08:07Z",
-      "source_file": "PHI_2004_13_0807.txt",
-      "similarity": 0.5574602484703064,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-12-03T06:00Z",
-      "source_file": "PHI_2014_03_0600.txt",
-      "similarity": 0.5503070950508118,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-12-02T21:05Z",
-      "source_file": "PHI_2014_02_2105.txt",
-      "similarity": 0.5503070950508118,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-12-03T02:22Z",
-      "source_file": "PHI_2014_03_0222.txt",
-      "similarity": 0.5503070950508118,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-12-03T03:03Z",
-      "source_file": "PHI_2014_03_0303.txt",
-      "similarity": 0.5503070950508118,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-09-24T19:01Z",
-      "source_file": "PHI_2007_24_1901.txt",
-      "similarity": 0.5496042966842651,
-      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-07-23T07:26Z",
       "source_file": "PHI_2017_23_0726.txt",
-      "similarity": 0.5387609601020813,
+      "similarity": 0.5609269142150879,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-02-01T12:49Z",
-      "source_file": "PHI_2011_01_1249.txt",
-      "similarity": 0.5382272005081177,
-      "label": "flood",
+      "datetime_utc": "2017-05-25T18:17Z",
+      "source_file": "PHI_2017_25_1817.txt",
+      "similarity": 0.5465232133865356,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-05-25T16:44Z",
+      "source_file": "PHI_2017_25_1644.txt",
+      "similarity": 0.5465232133865356,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-05-25T14:04Z",
+      "source_file": "PHI_2017_25_1404.txt",
+      "similarity": 0.5465232133865356,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-02-18T08:44Z",
+      "source_file": "PHI_2006_18_0844.txt",
+      "similarity": 0.5152112245559692,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-02-17T20:38Z",
+      "source_file": "PHI_2006_17_2038.txt",
+      "similarity": 0.5152112245559692,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-10-31T17:28Z",
+      "source_file": "PHI_2011_31_1728.txt",
+      "similarity": 0.5125086307525635,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-10-31T12:57Z",
+      "source_file": "PHI_2011_31_1257.txt",
+      "similarity": 0.5120842456817627,
+      "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.5697978973388672,
-    "n_severe": 4,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.5576017081737519,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.57 below confidence floor 0.7",
-    "product_id": "202610280713-KPHI-FXUS61-AFDPHI",
-    "afd_time": "2026-10-28T07:13:00Z",
-    "updated": "2026-10-28T13:03:47.513825+00:00"
+    "reason": "top-10 mean similarity 0.56 below confidence floor 0.7",
+    "product_id": "202610281728-KPHI-FXUS61-AFDPHI",
+    "afd_time": "2026-10-28T17:28:00Z",
+    "updated": "2026-10-28T18:55:14.976849+00:00"
   }
 }
