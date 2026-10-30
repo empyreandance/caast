@@ -1,38 +1,45 @@
 {
   "office": "MQT",
-  "product_id": "202610291735-KMQT-FXUS63-AFDMQT",
-  "afd_time": "2026-10-29T17:35:00Z",
+  "product_id": "202610292313-KMQT-FXUS63-AFDMQT",
+  "afd_time": "2026-10-29T23:13:00Z",
   "section_type": "extended",
-  "updated": "2026-10-29T21:52:49.559982+00:00",
+  "updated": "2026-10-30T02:01:02.981101+00:00",
   "query_preview": "period of light southerly winds, less than 15kt, expected \nfor the weekend into early next week.",
   "analogs": [
     {
-      "datetime_utc": "2017-04-27T19:58Z",
-      "source_file": "MQT_2017_27_1958.txt",
-      "similarity": 0.4448370039463043,
+      "datetime_utc": "2017-04-27T23:59Z",
+      "source_file": "MQT_2017_27_2359.txt",
+      "similarity": 0.4448370635509491,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-04-27T23:59Z",
-      "source_file": "MQT_2017_27_2359.txt",
-      "similarity": 0.4448370039463043,
+      "datetime_utc": "2017-04-27T19:58Z",
+      "source_file": "MQT_2017_27_1958.txt",
+      "similarity": 0.4448370635509491,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-02-19T17:31Z",
       "source_file": "MQT_2014_19_1731_1.txt",
-      "similarity": 0.4398544132709503,
+      "similarity": 0.4398544430732727,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-02-19T22:19Z",
       "source_file": "MQT_2014_19_2219.txt",
-      "similarity": 0.4398544132709503,
+      "similarity": 0.4398544430732727,
       "label": "winter",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-09-03T11:49Z",
+      "source_file": "MQT_2016_03_1149.txt",
+      "similarity": 0.4206518530845642,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2016-09-03T17:10Z",
@@ -42,11 +49,11 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2016-09-03T11:49Z",
-      "source_file": "MQT_2016_03_1149.txt",
-      "similarity": 0.4206518530845642,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2013-03-13T08:49Z",
+      "source_file": "MQT_2013_13_0849.txt",
+      "similarity": 0.4108330011367798,
+      "label": "winter",
+      "is_severe": false
     },
     {
       "datetime_utc": "2013-03-13T17:27Z",
@@ -63,13 +70,6 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-03-13T08:49Z",
-      "source_file": "MQT_2013_13_0849.txt",
-      "similarity": 0.4108330011367798,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2004-04-25T20:09Z",
       "source_file": "MQT_2004_25_2009.txt",
       "similarity": 0.4050951600074768,
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.4248280704021454,
+    "mean_similarity": 0.4248280882835388,
     "n_severe": 2,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202610291735-KMQT-FXUS63-AFDMQT",
-    "afd_time": "2026-10-29T17:35:00Z",
-    "updated": "2026-10-29T21:52:49.559982+00:00"
+    "product_id": "202610292313-KMQT-FXUS63-AFDMQT",
+    "afd_time": "2026-10-29T23:13:00Z",
+    "updated": "2026-10-30T02:01:02.981101+00:00"
   }
 }

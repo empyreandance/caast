@@ -1,78 +1,78 @@
 {
   "office": "PUB",
-  "product_id": "202610292029-KPUB-FXUS65-AFDPUB",
-  "afd_time": "2026-10-29T20:29:00Z",
+  "product_id": "202610292323-KPUB-FXUS65-AFDPUB",
+  "afd_time": "2026-10-29T23:23:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-29T21:52:49.559982+00:00",
-  "query_preview": "/SATURDAY THROUGH WEDNESDAY/...\nIssued at 223 PM MDT Thu Oct 29 2026\n\nThere is good agreement through much of the extended period, with a \nheavy rainfall event and very high elevation snowfall along the \nContinental Divide. Mountain flooding and windy conditions on the \nPlains are likely.\n\nSaturday.",
+  "updated": "2026-10-30T02:01:02.981101+00:00",
+  "query_preview": "/SATURDAY THROUGH THURSDAY/...\nIssued at 223 PM MDT Thu Oct 29 2026\n\nThere is good agreement through much of the extended period, with a \nheavy rainfall event and very high elevation snowfall along the \nContinental Divide. Mountain flooding and windy conditions on the \nPlains are likely.\n\nSaturday..",
   "analogs": [
-    {
-      "datetime_utc": "2007-06-03T19:56Z",
-      "source_file": "PUB_2007_03_1956.txt",
-      "similarity": 0.300552636384964,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2006-04-20T20:42Z",
       "source_file": "PUB_2006_20_2042.txt",
-      "similarity": 0.2999017834663391,
+      "similarity": 0.2699703574180603,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-06-04T20:45Z",
-      "source_file": "PUB_2007_04_2045.txt",
-      "similarity": 0.2916548252105713,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-09-25T09:07Z",
-      "source_file": "PUB_2006_25_0907.txt",
-      "similarity": 0.2846868336200714,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-07-22T23:33Z",
-      "source_file": "PUB_2024_22_2333.txt",
-      "similarity": 0.2823837101459503,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-07-23T04:59Z",
-      "source_file": "PUB_2024_23_0459.txt",
-      "similarity": 0.2823837101459503,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-07-22T21:08Z",
-      "source_file": "PUB_2024_22_2108.txt",
-      "similarity": 0.2823837101459503,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-09-07T16:56Z",
-      "source_file": "PUB_2021_07_1656.txt",
-      "similarity": 0.2799920439720154,
+      "datetime_utc": "2007-06-03T19:56Z",
+      "source_file": "PUB_2007_03_1956.txt",
+      "similarity": 0.2611675262451172,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-09-07T10:08Z",
       "source_file": "PUB_2021_07_1008.txt",
-      "similarity": 0.2799920439720154,
+      "similarity": 0.25537359714508057,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-09-07T16:56Z",
+      "source_file": "PUB_2021_07_1656.txt",
+      "similarity": 0.25537359714508057,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-06-04T20:45Z",
+      "source_file": "PUB_2007_04_2045.txt",
+      "similarity": 0.2522333562374115,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-09-25T09:07Z",
+      "source_file": "PUB_2006_25_0907.txt",
+      "similarity": 0.2504143714904785,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-07-22T21:08Z",
+      "source_file": "PUB_2024_22_2108.txt",
+      "similarity": 0.2492653727531433,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-07-22T23:33Z",
+      "source_file": "PUB_2024_22_2333.txt",
+      "similarity": 0.2492653727531433,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-07-23T04:59Z",
+      "source_file": "PUB_2024_23_0459.txt",
+      "similarity": 0.2492653727531433,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-05-17T05:28Z",
       "source_file": "PUB_2017_17_0528.txt",
-      "similarity": 0.27927470207214355,
+      "similarity": 0.24823367595672607,
       "label": "tornado",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.2863205999135971,
+    "mean_similarity": 0.25405625998973846,
     "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.29 below confidence floor 0.7",
-    "product_id": "202610292029-KPUB-FXUS65-AFDPUB",
-    "afd_time": "2026-10-29T20:29:00Z",
-    "updated": "2026-10-29T21:52:49.559982+00:00"
+    "reason": "top-10 mean similarity 0.25 below confidence floor 0.7",
+    "product_id": "202610292323-KPUB-FXUS65-AFDPUB",
+    "afd_time": "2026-10-29T23:23:00Z",
+    "updated": "2026-10-30T02:01:02.981101+00:00"
   }
 }
