@@ -1,91 +1,91 @@
 {
   "office": "MEG",
-  "product_id": "202610292302-KMEG-FXUS64-AFDMEG",
-  "afd_time": "2026-10-29T23:02:00Z",
+  "product_id": "202610300439-KMEG-FXUS64-AFDMEG",
+  "afd_time": "2026-10-30T04:39:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-30T02:01:02.981101+00:00",
-  "query_preview": "..\n(This evening through next Wednesday)\nIssued at 100 PM CDT Thu Oct 29 2026\n\nAnother dry and mild October day across the Mid-South as high\npressure dominates the region. Temperatures are once again running\n7 to 10 degrees above normal with relative humidity values in the\nlow to mid 30s. Elevated f",
+  "updated": "2026-10-30T08:44:19.430561+00:00",
+  "query_preview": "..\n(Tonight through next Thursday)\nIssued at 1139 PM CDT Thu Oct 29 2026\n\nDry conditions look to come to an end in the Mid-South right on\nschedule as we wrap up our climatologically driest month of the\nyear. Unfortunately, the arrival of rain coincides with Halloween. \n\nSurface high pressure over th",
   "analogs": [
     {
-      "datetime_utc": "2006-06-13T18:53Z",
-      "source_file": "MEG_2006_13_1853.txt",
-      "similarity": 0.4383377432823181,
+      "datetime_utc": "2005-08-03T14:51Z",
+      "source_file": "MEG_2005_03_1451.txt",
+      "similarity": 0.40261954069137573,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-03-27T09:31Z",
+      "source_file": "MEG_2007_27_0931.txt",
+      "similarity": 0.40016239881515503,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-09-05T18:55Z",
       "source_file": "MEG_2005_05_1855.txt",
-      "similarity": 0.43464726209640503,
+      "similarity": 0.4001411199569702,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-03-27T09:31Z",
-      "source_file": "MEG_2007_27_0931.txt",
-      "similarity": 0.4302171468734741,
+      "datetime_utc": "2006-06-13T18:53Z",
+      "source_file": "MEG_2006_13_1853.txt",
+      "similarity": 0.4000590145587921,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-11-21T19:41Z",
-      "source_file": "MEG_2006_21_1941.txt",
-      "similarity": 0.4300152063369751,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-08-03T14:51Z",
-      "source_file": "MEG_2005_03_1451.txt",
-      "similarity": 0.4295349717140198,
+      "datetime_utc": "2006-08-04T19:49Z",
+      "source_file": "MEG_2006_04_1949.txt",
+      "similarity": 0.3943161964416504,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-01-26T17:34Z",
-      "source_file": "MEG_2024_26_1734.txt",
-      "similarity": 0.42836838960647583,
+      "datetime_utc": "2006-08-05T01:35Z",
+      "source_file": "MEG_2006_05_0135.txt",
+      "similarity": 0.3943161964416504,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-02-14T04:16Z",
+      "source_file": "MEG_2021_14_0416.txt",
+      "similarity": 0.39019763469696045,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-09-04T05:26Z",
+      "source_file": "MEG_2021_04_0526.txt",
+      "similarity": 0.38998448848724365,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-12-11T21:41Z",
+      "source_file": "MEG_2005_11_2141.txt",
+      "similarity": 0.3890167474746704,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2024-01-26T11:23Z",
-      "source_file": "MEG_2024_26_1123.txt",
-      "similarity": 0.42836838960647583,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-01-26T09:30Z",
-      "source_file": "MEG_2024_26_0930.txt",
-      "similarity": 0.42836838960647583,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-01-26T16:05Z",
-      "source_file": "MEG_2024_26_1605.txt",
-      "similarity": 0.42836838960647583,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-07-31T07:39Z",
-      "source_file": "MEG_2007_31_0739.txt",
-      "similarity": 0.4256921410560608,
+      "datetime_utc": "2004-08-08T20:22Z",
+      "source_file": "MEG_2004_08_2022.txt",
+      "similarity": 0.38850462436676025,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.4301918029785156,
-    "n_severe": 4,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.39493179619312285,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610292302-KMEG-FXUS64-AFDMEG",
-    "afd_time": "2026-10-29T23:02:00Z",
-    "updated": "2026-10-30T02:01:02.981101+00:00"
+    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
+    "product_id": "202610300439-KMEG-FXUS64-AFDMEG",
+    "afd_time": "2026-10-30T04:39:00Z",
+    "updated": "2026-10-30T08:44:19.430561+00:00"
   }
 }

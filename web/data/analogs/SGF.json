@@ -1,91 +1,91 @@
 {
   "office": "SGF",
-  "product_id": "202610292203-KSGF-FXUS63-AFDSGF",
-  "afd_time": "2026-10-29T22:03:00Z",
+  "product_id": "202610300534-KSGF-FXUS63-AFDSGF",
+  "afd_time": "2026-10-30T05:34:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-30T02:01:02.981101+00:00",
-  "query_preview": "/FRIDAY NIGHT THROUGH THURSDAY/...\nIssued at 1124 AM CDT Thu Oct 29 2026\n\nBetter rain chances move in on Saturday into Saturday night as\nstronger shortwave energy moves in, along with greater moisture.\nThere is a 50-70% chance for showers and storms, but coverage\nlooks to be scattered and all day wa",
+  "updated": "2026-10-30T08:44:19.430561+00:00",
+  "query_preview": "/SATURDAY NIGHT THROUGH THURSDAY/...\nIssued at 1124 AM CDT Thu Oct 29 2026\n\nBetter rain chances move in on Saturday into Saturday night as\nstronger shortwave energy moves in, along with greater moisture.\nThere is a 50-70% chance for showers and storms, but coverage\nlooks to be scattered and all day ",
   "analogs": [
     {
       "datetime_utc": "2010-08-08T08:24Z",
       "source_file": "SGF_2010_08_0824.txt",
-      "similarity": 0.44314318895339966,
+      "similarity": 0.4433428645133972,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-06-20T20:28Z",
+      "source_file": "SGF_2022_20_2028.txt",
+      "similarity": 0.4410994052886963,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-06-21T08:13Z",
+      "source_file": "SGF_2022_21_0813_1.txt",
+      "similarity": 0.4410994052886963,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-11-03T05:26Z",
       "source_file": "SGF_2014_03_0526.txt",
-      "similarity": 0.4396348297595978,
+      "similarity": 0.4399991035461426,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-11-02T20:51Z",
       "source_file": "SGF_2014_02_2051.txt",
-      "similarity": 0.4396348297595978,
+      "similarity": 0.4399991035461426,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-11-02T23:09Z",
       "source_file": "SGF_2014_02_2309.txt",
-      "similarity": 0.4396348297595978,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-12-20T20:38Z",
-      "source_file": "SGF_2021_20_2038.txt",
-      "similarity": 0.4388723075389862,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-12-20T23:59Z",
-      "source_file": "SGF_2021_20_2359.txt",
-      "similarity": 0.4388723075389862,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-12-21T05:43Z",
-      "source_file": "SGF_2021_21_0543.txt",
-      "similarity": 0.4388723075389862,
+      "similarity": 0.4399991035461426,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2022-07-08T11:27Z",
       "source_file": "SGF_2022_08_1127.txt",
-      "similarity": 0.438334584236145,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-07-08T08:18Z",
-      "source_file": "SGF_2022_08_0818_1.txt",
-      "similarity": 0.438334584236145,
+      "similarity": 0.43990591168403625,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2022-07-08T18:00Z",
       "source_file": "SGF_2022_08_1800.txt",
-      "similarity": 0.438334584236145,
+      "similarity": 0.43990591168403625,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-07-08T08:18Z",
+      "source_file": "SGF_2022_08_0818_1.txt",
+      "similarity": 0.43990591168403625,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-07-08T17:07Z",
+      "source_file": "SGF_2022_08_1707.txt",
+      "similarity": 0.43990591168403625,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.43936683535575866,
-    "n_severe": 1,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.44051626324653625,
+    "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610292203-KSGF-FXUS63-AFDSGF",
-    "afd_time": "2026-10-29T22:03:00Z",
-    "updated": "2026-10-30T02:01:02.981101+00:00"
+    "product_id": "202610300534-KSGF-FXUS63-AFDSGF",
+    "afd_time": "2026-10-30T05:34:00Z",
+    "updated": "2026-10-30T08:44:19.430561+00:00"
   }
 }

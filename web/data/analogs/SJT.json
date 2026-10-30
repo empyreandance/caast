@@ -1,91 +1,91 @@
 {
   "office": "SJT",
-  "product_id": "202610292327-KSJT-FXUS64-AFDSJT",
-  "afd_time": "2026-10-29T23:27:00Z",
+  "product_id": "202610300603-KSJT-FXUS64-AFDSJT",
+  "afd_time": "2026-10-30T06:03:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-30T02:01:02.981101+00:00",
-  "query_preview": "..\n(Friday night through next Thursday)\nIssued at 1249 PM CDT Thu Oct 29 2026\n\nSystem today and tomorrow will be exiting the area, but models\ncontinue to show a weaker shortwave moving quickly into the area\nFriday night into early Saturday. This will keep some showers\npossible across the area for a ",
+  "updated": "2026-10-30T08:44:19.430561+00:00",
+  "query_preview": "..\n(Saturday through Thursday)\nIssued at 1224 AM CDT Fri Oct 30 2026\n\nIsolated or widely scattered showers are possible on Saturday, \nmainly in the morning, as a minor impulse aloft moves east-northeast \ninto Texas and the southern Plains. Temperatures will be warmer \nSaturday (highs in the lower to",
   "analogs": [
+    {
+      "datetime_utc": "2005-09-08T02:11Z",
+      "source_file": "SJT_2005_08_0211.txt",
+      "similarity": 0.46561112999916077,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-09-07T19:12Z",
+      "source_file": "SJT_2005_07_1912.txt",
+      "similarity": 0.46561112999916077,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-11-15T05:31Z",
+      "source_file": "SJT_2010_15_0531.txt",
+      "similarity": 0.4653598368167877,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2010-11-14T21:32Z",
       "source_file": "SJT_2010_14_2132.txt",
-      "similarity": 0.5019863247871399,
+      "similarity": 0.4653598368167877,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2010-11-14T23:24Z",
       "source_file": "SJT_2010_14_2324.txt",
-      "similarity": 0.5019863247871399,
+      "similarity": 0.4653598368167877,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-11-15T05:31Z",
-      "source_file": "SJT_2010_15_0531.txt",
-      "similarity": 0.5019863247871399,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2007-09-25T18:42Z",
+      "source_file": "SJT_2007_25_1842.txt",
+      "similarity": 0.46355170011520386,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2006-03-20T21:05Z",
-      "source_file": "SJT_2006_20_2105.txt",
-      "similarity": 0.48927122354507446,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2007-09-26T05:27Z",
+      "source_file": "SJT_2007_26_0527.txt",
+      "similarity": 0.46355170011520386,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2006-03-20T23:30Z",
-      "source_file": "SJT_2006_20_2330_1.txt",
-      "similarity": 0.48927122354507446,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2007-09-26T05:27Z",
+      "source_file": "SJT_2007_26_0527_1.txt",
+      "similarity": 0.46355170011520386,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2008-02-23T11:12Z",
-      "source_file": "SJT_2008_23_1112.txt",
-      "similarity": 0.48908883333206177,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-02-23T11:12Z",
-      "source_file": "SJT_2008_23_1112_1.txt",
-      "similarity": 0.48908883333206177,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-02-23T09:30Z",
-      "source_file": "SJT_2008_23_0930.txt",
-      "similarity": 0.48908883333206177,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-02-23T09:30Z",
-      "source_file": "SJT_2008_23_0930_1.txt",
-      "similarity": 0.48908883333206177,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2007-09-25T18:42Z",
+      "source_file": "SJT_2007_25_1842_1.txt",
+      "similarity": 0.46355170011520386,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2014-10-12T20:35Z",
       "source_file": "SJT_2014_12_2035.txt",
-      "similarity": 0.48876380920410156,
+      "similarity": 0.46172112226486206,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.49296205639839175,
-    "n_severe": 1,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.4643229693174362,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
-    "product_id": "202610292327-KSJT-FXUS64-AFDSJT",
-    "afd_time": "2026-10-29T23:27:00Z",
-    "updated": "2026-10-30T02:01:02.981101+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202610300603-KSJT-FXUS64-AFDSJT",
+    "afd_time": "2026-10-30T06:03:00Z",
+    "updated": "2026-10-30T08:44:19.430561+00:00"
   }
 }
