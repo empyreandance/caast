@@ -1,91 +1,91 @@
 {
   "office": "CRP",
-  "product_id": "202610301128-KCRP-FXUS64-AFDCRP",
-  "afd_time": "2026-10-30T11:28:00Z",
+  "product_id": "202610301905-KCRP-FXUS64-AFDCRP",
+  "afd_time": "2026-10-30T19:05:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-30T16:00:18.955106+00:00",
-  "query_preview": "..\nIssued at 122 AM CDT Fri Oct 30 2026\n\nShowers and isolated thunderstorms will continue, mainly over the \nBrush Country, tonight. As moisture from Post Tropical Depression \nVance moves to the northeast, rain chances will once again shift \nover the Victoria Crossroads, where a Marginal (Level 1 of ",
+  "updated": "2026-10-30T20:52:52.811319+00:00",
+  "query_preview": "..\nIssued at 157 PM CDT Fri Oct 30 2026\n\nShower and storm activity will continue into the early with the \nremnants of Post Tropical Storm Vance from the Pacific bringing deep \nmoisture and left over vorticity into the region. Activity will wane \nfrom west to east through early afternoon hours as the",
   "analogs": [
-    {
-      "datetime_utc": "2018-11-11T21:55Z",
-      "source_file": "CRP_2018_11_2155.txt",
-      "similarity": 0.444713830947876,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-11-11T23:56Z",
-      "source_file": "CRP_2018_11_2356.txt",
-      "similarity": 0.444713830947876,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2008-04-22T09:08Z",
       "source_file": "CRP_2008_22_0908.txt",
-      "similarity": 0.44125041365623474,
+      "similarity": 0.4597247242927551,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-04-22T14:55Z",
       "source_file": "CRP_2008_22_1455.txt",
-      "similarity": 0.44125041365623474,
+      "similarity": 0.4597247242927551,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-11-23T11:54Z",
-      "source_file": "CRP_2009_23_1154.txt",
-      "similarity": 0.43971312046051025,
+      "datetime_utc": "2010-04-16T11:45Z",
+      "source_file": "CRP_2010_16_1145.txt",
+      "similarity": 0.4549698233604431,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-03-14T21:03Z",
+      "source_file": "CRP_2019_14_2103.txt",
+      "similarity": 0.45488178730010986,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-11-23T10:08Z",
-      "source_file": "CRP_2009_23_1008.txt",
-      "similarity": 0.43971312046051025,
+      "datetime_utc": "2019-03-15T00:26Z",
+      "source_file": "CRP_2019_15_0026.txt",
+      "similarity": 0.45488178730010986,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-07-08T08:28Z",
-      "source_file": "CRP_2017_08_0828.txt",
-      "similarity": 0.4390283226966858,
-      "label": "severe_wind",
+      "datetime_utc": "2021-02-05T04:41Z",
+      "source_file": "CRP_2021_05_0441.txt",
+      "similarity": 0.45371580123901367,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-02-04T21:34Z",
+      "source_file": "CRP_2021_04_2134.txt",
+      "similarity": 0.45371580123901367,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-02-04T23:22Z",
+      "source_file": "CRP_2021_04_2322.txt",
+      "similarity": 0.45371580123901367,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-05-18T20:00Z",
+      "source_file": "CRP_2010_18_2000.txt",
+      "similarity": 0.4526079595088959,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2017-07-08T17:47Z",
-      "source_file": "CRP_2017_08_1747.txt",
-      "similarity": 0.4390283226966858,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-04-03T23:51Z",
-      "source_file": "CRP_2022_03_2351.txt",
-      "similarity": 0.43850836157798767,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-04-03T20:55Z",
-      "source_file": "CRP_2022_03_2055.txt",
-      "similarity": 0.43850836157798767,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2018-11-11T23:56Z",
+      "source_file": "CRP_2018_11_2356.txt",
+      "similarity": 0.4525142312049866,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.44064280986785886,
-    "n_severe": 6,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.45504524409770963,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202610301128-KCRP-FXUS64-AFDCRP",
-    "afd_time": "2026-10-30T11:28:00Z",
-    "updated": "2026-10-30T16:00:18.955106+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202610301905-KCRP-FXUS64-AFDCRP",
+    "afd_time": "2026-10-30T19:05:00Z",
+    "updated": "2026-10-30T20:52:52.811319+00:00"
   }
 }

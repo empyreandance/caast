@@ -1,91 +1,91 @@
 {
   "office": "CAR",
-  "product_id": "202610301254-KCAR-FXUS61-AFDCAR",
-  "afd_time": "2026-10-30T12:54:00Z",
+  "product_id": "202610301753-KCAR-FXUS61-AFDCAR",
+  "afd_time": "2026-10-30T17:53:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-30T16:00:18.955106+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Generally dry weather through early next week. \nDrought conditions will worsen.\n\nKEY MESSAGE 1 DESCRIPTION...\nA cold front will cross the forecast area this morning, and \nwill be mostly moisture starved but there is some light showers.\nA prefrontal trof is exiting the Downeast coa",
+  "updated": "2026-10-30T20:52:52.811319+00:00",
+  "query_preview": "..\n\nKEY MESSAGE 1...Generally dry weather through early next week. \nDrought conditions will worsen.\n\nKEY MESSAGE 1 DESCRIPTION...\nThis evening cold air advection from the exiting cold front \nwill rapidly increase. With gradually clearing skies and NW\nflow, any rain showers leftover will likely switc",
   "analogs": [
     {
-      "datetime_utc": "2023-11-08T22:52Z",
-      "source_file": "CAR_2023_08_2252.txt",
-      "similarity": 0.5472569465637207,
+      "datetime_utc": "2018-06-27T19:36Z",
+      "source_file": "CAR_2018_27_1936.txt",
+      "similarity": 0.5066834688186646,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-06-27T19:36Z",
+      "source_file": "CAR_2018_27_1936_1.txt",
+      "similarity": 0.5066834688186646,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-07-13T18:25Z",
+      "source_file": "CAR_2018_13_1825.txt",
+      "similarity": 0.5040484666824341,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-11-09T03:35Z",
-      "source_file": "CAR_2023_09_0335.txt",
-      "similarity": 0.5472569465637207,
+      "datetime_utc": "2018-07-14T03:58Z",
+      "source_file": "CAR_2018_14_0358.txt",
+      "similarity": 0.5040484666824341,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-11-09T06:04Z",
-      "source_file": "CAR_2023_09_0604.txt",
-      "similarity": 0.5472569465637207,
+      "datetime_utc": "2004-05-16T09:12Z",
+      "source_file": "CAR_2004_16_0912.txt",
+      "similarity": 0.5001204609870911,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-11-09T00:37Z",
-      "source_file": "CAR_2023_09_0037.txt",
-      "similarity": 0.5472569465637207,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-11-08T20:51Z",
-      "source_file": "CAR_2023_08_2051.txt",
-      "similarity": 0.5472569465637207,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-08-29T13:39Z",
-      "source_file": "CAR_2011_29_1339.txt",
-      "similarity": 0.5433062314987183,
+      "datetime_utc": "2011-08-29T15:23Z",
+      "source_file": "CAR_2011_29_1523.txt",
+      "similarity": 0.4993963837623596,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-08-29T07:41Z",
       "source_file": "CAR_2011_29_0741.txt",
-      "similarity": 0.5433062314987183,
+      "similarity": 0.4993963837623596,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-08-29T13:39Z",
+      "source_file": "CAR_2011_29_1339.txt",
+      "similarity": 0.4993963837623596,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-08-29T09:04Z",
       "source_file": "CAR_2011_29_0904.txt",
-      "similarity": 0.5433062314987183,
+      "similarity": 0.4993963837623596,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-08-29T15:23Z",
-      "source_file": "CAR_2011_29_1523.txt",
-      "similarity": 0.5433062314987183,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-06-15T10:29Z",
-      "source_file": "CAR_2021_15_1029.txt",
-      "similarity": 0.5397830009460449,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2012-10-18T06:56Z",
+      "source_file": "CAR_2012_18_0656.txt",
+      "similarity": 0.4967159926891327,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.5449292659759521,
-    "n_severe": 5,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.501588585972786,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.54 below confidence floor 0.7",
-    "product_id": "202610301254-KCAR-FXUS61-AFDCAR",
-    "afd_time": "2026-10-30T12:54:00Z",
-    "updated": "2026-10-30T16:00:18.955106+00:00"
+    "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
+    "product_id": "202610301753-KCAR-FXUS61-AFDCAR",
+    "afd_time": "2026-10-30T17:53:00Z",
+    "updated": "2026-10-30T20:52:52.811319+00:00"
   }
 }
