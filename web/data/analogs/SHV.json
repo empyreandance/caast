@@ -1,91 +1,91 @@
 {
   "office": "SHV",
-  "product_id": "202610311131-KSHV-FXUS64-AFDSHV",
-  "afd_time": "2026-10-31T11:31:00Z",
+  "product_id": "202610311754-KSHV-FXUS64-AFDSHV",
+  "afd_time": "2026-10-31T17:54:00Z",
   "section_type": "discussion",
-  "updated": "2026-10-31T13:42:26.831845+00:00",
-  "query_preview": "..\nIssued at 112 AM CDT Sat Oct 31 2026\n\nAir mass moistening is underway early this morning as scattered\nareas of -RA continues to spread ENE across E TX/Wrn LA, along a\nNW to SE shortwave trough that extends from WCntrl OK into ECntrl\nTX. Sfc obs have depicted lowering cigs earlier this evening\nacr",
+  "updated": "2026-10-31T18:37:51.881138+00:00",
+  "query_preview": "..\nIssued at 1253 PM CDT Sat Oct 31 2026\n\nScattered showers continue to trek from southwest to northeast \nacross the ArkLaTex this afternoon. Rain rates have been light to \nmoderate with limited accumulations of up to a few tenths of an inch \nso far. As the grey, cloudy daytime fades to twilight on ",
   "analogs": [
+    {
+      "datetime_utc": "2015-11-01T18:21Z",
+      "source_file": "SHV_2015_01_1821.txt",
+      "similarity": 0.33089780807495117,
+      "label": "tornado",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2008-01-30T16:05Z",
       "source_file": "SHV_2008_30_1605_1.txt",
-      "similarity": 0.40875744819641113,
+      "similarity": 0.3288115859031677,
       "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-12-02T03:00Z",
-      "source_file": "SHV_2006_02_0300.txt",
-      "similarity": 0.3927575349807739,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-03-05T21:23Z",
-      "source_file": "SHV_2008_05_2123.txt",
-      "similarity": 0.3886653184890747,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-03-06T05:55Z",
-      "source_file": "SHV_2008_06_0555.txt",
-      "similarity": 0.3886653184890747,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-10-03T01:20Z",
-      "source_file": "SHV_2014_03_0120.txt",
-      "similarity": 0.38801342248916626,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-05-28T08:39Z",
-      "source_file": "SHV_2008_28_0839.txt",
-      "similarity": 0.3864693343639374,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-04-29T03:28Z",
-      "source_file": "SHV_2006_29_0328.txt",
-      "similarity": 0.38592398166656494,
-      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-02-15T11:04Z",
       "source_file": "SHV_2012_15_1104.txt",
-      "similarity": 0.3857851028442383,
+      "similarity": 0.3235659897327423,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-12-06T03:00Z",
-      "source_file": "SHV_2006_06_0300.txt",
-      "similarity": 0.3847416937351227,
+      "datetime_utc": "2006-12-02T03:00Z",
+      "source_file": "SHV_2006_02_0300.txt",
+      "similarity": 0.31753671169281006,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-03-28T16:18Z",
+      "source_file": "SHV_2005_28_1618.txt",
+      "similarity": 0.3165719509124756,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-03-03T20:42Z",
       "source_file": "SHV_2005_03_2042.txt",
-      "similarity": 0.38425296545028687,
+      "similarity": 0.31499630212783813,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-02-14T14:01Z",
+      "source_file": "SHV_2012_14_1401.txt",
+      "similarity": 0.31471195816993713,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-12-01T02:39Z",
+      "source_file": "SHV_2008_01_0239.txt",
+      "similarity": 0.31404781341552734,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-10-03T01:20Z",
+      "source_file": "SHV_2014_03_0120.txt",
+      "similarity": 0.31380853056907654,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-04-29T03:28Z",
+      "source_file": "SHV_2006_29_0328.txt",
+      "similarity": 0.31281551718711853,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.3894032120704651,
+    "mean_similarity": 0.31877641677856444,
     "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202610311131-KSHV-FXUS64-AFDSHV",
-    "afd_time": "2026-10-31T11:31:00Z",
-    "updated": "2026-10-31T13:42:26.831845+00:00"
+    "reason": "top-10 mean similarity 0.32 below confidence floor 0.7",
+    "product_id": "202610311754-KSHV-FXUS64-AFDSHV",
+    "afd_time": "2026-10-31T17:54:00Z",
+    "updated": "2026-10-31T18:37:51.881138+00:00"
   }
 }
