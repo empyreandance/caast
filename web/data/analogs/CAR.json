@@ -1,91 +1,91 @@
 {
   "office": "CAR",
-  "product_id": "202610312327-KCAR-FXUS61-AFDCAR",
-  "afd_time": "2026-10-31T23:27:00Z",
+  "product_id": "202611011012-KCAR-FXUS61-AFDCAR",
+  "afd_time": "2026-11-01T10:12:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-01T02:17:56.394791+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Dry through Monday with worsening drought \nconditions.\n\nKEY MESSAGE 1 DESCRIPTION...\nDry conditions a virtual certainty today, Sunday, and Monday. \nHigh pressure will be centered to our south, bringing breezy \ndaytime winds across the region. The high pressure will continue\nto pip",
+  "updated": "2026-11-01T10:34:23.714365+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...Dry through Monday with worsening drought \nconditions.\n\nKEY MESSAGE 1 DESCRIPTION...\nDry conditions continue, with no precipitation forecast today\nand Monday. High pressure remains centered to our south, \nbringing breezy daytime winds across the region on both days. \nThe high pres",
   "analogs": [
     {
       "datetime_utc": "2004-05-16T09:12Z",
       "source_file": "CAR_2004_16_0912.txt",
-      "similarity": 0.41885459423065186,
+      "similarity": 0.46847736835479736,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-03-03T21:04Z",
-      "source_file": "CAR_2011_03_2104.txt",
-      "similarity": 0.4183477461338043,
-      "label": "flood",
-      "is_severe": false
+      "datetime_utc": "2018-06-27T19:36Z",
+      "source_file": "CAR_2018_27_1936.txt",
+      "similarity": 0.46738022565841675,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-06-27T19:36Z",
+      "source_file": "CAR_2018_27_1936_1.txt",
+      "similarity": 0.46738022565841675,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2021-05-08T20:52Z",
       "source_file": "CAR_2021_08_2052.txt",
-      "similarity": 0.41543516516685486,
+      "similarity": 0.4671284854412079,
       "label": "quiet",
       "is_severe": false
     },
     {
+      "datetime_utc": "2010-11-11T08:14Z",
+      "source_file": "CAR_2010_11_0814.txt",
+      "similarity": 0.46383732557296753,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2023-09-24T18:40Z",
       "source_file": "CAR_2023_24_1840.txt",
-      "similarity": 0.41135871410369873,
+      "similarity": 0.4628499746322632,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-09-25T04:15Z",
       "source_file": "CAR_2023_25_0415.txt",
-      "similarity": 0.41135871410369873,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-09-25T01:22Z",
-      "source_file": "CAR_2023_25_0122.txt",
-      "similarity": 0.41135871410369873,
+      "similarity": 0.4628499746322632,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-09-24T22:15Z",
       "source_file": "CAR_2023_24_2215.txt",
-      "similarity": 0.41135871410369873,
+      "similarity": 0.4628499746322632,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-06-27T19:36Z",
-      "source_file": "CAR_2018_27_1936_1.txt",
-      "similarity": 0.4106968641281128,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2023-09-25T01:22Z",
+      "source_file": "CAR_2023_25_0122.txt",
+      "similarity": 0.4628499746322632,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2018-06-27T19:36Z",
-      "source_file": "CAR_2018_27_1936.txt",
-      "similarity": 0.4106968641281128,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2025-06-28T01:14Z",
-      "source_file": "CAR_2025_28_0114.txt",
-      "similarity": 0.40973222255706787,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2011-03-03T21:04Z",
+      "source_file": "CAR_2011_03_2104.txt",
+      "similarity": 0.4617226719856262,
+      "label": "flood",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.41291983127593995,
+    "mean_similarity": 0.4647326201200485,
     "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202610312327-KCAR-FXUS61-AFDCAR",
-    "afd_time": "2026-10-31T23:27:00Z",
-    "updated": "2026-11-01T02:17:56.394791+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202611011012-KCAR-FXUS61-AFDCAR",
+    "afd_time": "2026-11-01T10:12:00Z",
+    "updated": "2026-11-01T10:34:23.714365+00:00"
   }
 }
