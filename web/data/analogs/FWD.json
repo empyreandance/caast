@@ -1,9 +1,9 @@
 {
   "office": "FWD",
-  "product_id": "202610311850-KFWD-FXUS64-AFDFWD",
-  "afd_time": "2026-10-31T18:50:00Z",
+  "product_id": "202611010004-KFWD-FXUS64-AFDFWD",
+  "afd_time": "2026-11-01T00:04:00Z",
   "section_type": "long_term",
-  "updated": "2026-10-31T22:33:30.738597+00:00",
+  "updated": "2026-11-01T02:17:56.394791+00:00",
   "query_preview": "..\n(Monday through next Friday)\nIssued at 130 PM CDT Sat Oct 31 2026\n\nThe main story of the long-term forecast continues to be the \nstrong upper level system expected to travel across the central \nU.S early this week bringing our next chance for showers and \nthunderstorms. Large scale troughing will",
   "analogs": [
     {
@@ -14,15 +14,15 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-11-12T10:17Z",
-      "source_file": "FWD_2007_12_1017.txt",
+      "datetime_utc": "2007-11-12T21:06Z",
+      "source_file": "FWD_2007_12_2106.txt",
       "similarity": 0.43868643045425415,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-11-12T21:06Z",
-      "source_file": "FWD_2007_12_2106.txt",
+      "datetime_utc": "2007-11-12T10:17Z",
+      "source_file": "FWD_2007_12_1017.txt",
       "similarity": 0.43868643045425415,
       "label": "flood",
       "is_severe": false
@@ -35,13 +35,6 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-09-24T19:51Z",
-      "source_file": "FWD_2005_24_1951.txt",
-      "similarity": 0.43466538190841675,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2005-09-25T09:37Z",
       "source_file": "FWD_2005_25_0937.txt",
       "similarity": 0.43466538190841675,
@@ -49,23 +42,23 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-10-01T19:48Z",
-      "source_file": "FWD_2004_01_1948.txt",
-      "similarity": 0.4336767792701721,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2005-09-24T19:51Z",
+      "source_file": "FWD_2005_24_1951.txt",
+      "similarity": 0.43466538190841675,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2004-10-02T09:40Z",
       "source_file": "FWD_2004_02_0940.txt",
-      "similarity": 0.4336767792701721,
+      "similarity": 0.4336768686771393,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-03-02T20:31Z",
-      "source_file": "FWD_2007_02_2031.txt",
-      "similarity": 0.42484837770462036,
+      "datetime_utc": "2004-10-01T19:48Z",
+      "source_file": "FWD_2004_01_1948.txt",
+      "similarity": 0.4336768686771393,
       "label": "quiet",
       "is_severe": false
     },
@@ -75,17 +68,24 @@
       "similarity": 0.42484837770462036,
       "label": "severe_hail",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-03-02T20:31Z",
+      "source_file": "FWD_2007_02_2031.txt",
+      "similarity": 0.42484837770462036,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.4343172788619995,
+    "mean_similarity": 0.4343172967433929,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202610311850-KFWD-FXUS64-AFDFWD",
-    "afd_time": "2026-10-31T18:50:00Z",
-    "updated": "2026-10-31T22:33:30.738597+00:00"
+    "product_id": "202611010004-KFWD-FXUS64-AFDFWD",
+    "afd_time": "2026-11-01T00:04:00Z",
+    "updated": "2026-11-01T02:17:56.394791+00:00"
   }
 }
