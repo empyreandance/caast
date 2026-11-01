@@ -1,91 +1,91 @@
 {
   "office": "CRP",
-  "product_id": "202611011130-KCRP-FXUS64-AFDCRP",
-  "afd_time": "2026-11-01T11:30:00Z",
+  "product_id": "202611011828-KCRP-FXUS64-AFDCRP",
+  "afd_time": "2026-11-01T18:28:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-01T17:11:07.749550+00:00",
-  "query_preview": "..\nIssued at 123 AM CDT Sun Nov 1 2026\n\nWarm and generally dry conditions are expected through Monday before \nour next cold front approaches the area. Guidance has gotten into \nbetter agreement that the cold front will move into the area late \nMonday night/early Tuesday morning, bringing with it a m",
+  "updated": "2026-11-01T21:15:33.545092+00:00",
+  "query_preview": "..\nIssued at 1221 PM CST Sun Nov 1 2026\n\nWarm and dry conditions will continue today and tomorrow before our \nnext cold front moves across the region Tuesday afternoon to the \novernight hours. Cooler temperatures and drier weather are \nexpected in the wake of the front with PWAT values peaking aroun",
   "analogs": [
-    {
-      "datetime_utc": "2021-02-04T21:34Z",
-      "source_file": "CRP_2021_04_2134.txt",
-      "similarity": 0.4656592905521393,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-02-05T04:41Z",
-      "source_file": "CRP_2021_05_0441.txt",
-      "similarity": 0.4656592905521393,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-02-04T23:22Z",
-      "source_file": "CRP_2021_04_2322.txt",
-      "similarity": 0.4656592905521393,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2008-04-22T14:55Z",
       "source_file": "CRP_2008_22_1455.txt",
-      "similarity": 0.4628235697746277,
+      "similarity": 0.5001491904258728,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-04-22T09:08Z",
       "source_file": "CRP_2008_22_0908.txt",
-      "similarity": 0.4628235697746277,
+      "similarity": 0.5001491904258728,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2018-11-11T21:55Z",
-      "source_file": "CRP_2018_11_2155.txt",
-      "similarity": 0.4619895815849304,
+      "datetime_utc": "2021-02-05T04:41Z",
+      "source_file": "CRP_2021_05_0441.txt",
+      "similarity": 0.4926329255104065,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-11-11T23:56Z",
-      "source_file": "CRP_2018_11_2356.txt",
-      "similarity": 0.4619895815849304,
+      "datetime_utc": "2021-02-04T23:22Z",
+      "source_file": "CRP_2021_04_2322.txt",
+      "similarity": 0.4926329255104065,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-03-15T00:26Z",
-      "source_file": "CRP_2019_15_0026.txt",
-      "similarity": 0.46191713213920593,
+      "datetime_utc": "2021-02-04T21:34Z",
+      "source_file": "CRP_2021_04_2134.txt",
+      "similarity": 0.4926329255104065,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-03-14T21:03Z",
       "source_file": "CRP_2019_14_2103.txt",
-      "similarity": 0.46191713213920593,
+      "similarity": 0.4922873377799988,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-12-26T17:39Z",
-      "source_file": "CRP_2011_26_1739.txt",
-      "similarity": 0.4602532982826233,
+      "datetime_utc": "2019-03-15T00:26Z",
+      "source_file": "CRP_2019_15_0026.txt",
+      "similarity": 0.4922873377799988,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-05-18T20:00Z",
+      "source_file": "CRP_2010_18_2000.txt",
+      "similarity": 0.4883570671081543,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-09-21T00:46Z",
+      "source_file": "CRP_2014_21_0046.txt",
+      "similarity": 0.48816215991973877,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-09-20T20:03Z",
+      "source_file": "CRP_2014_20_2003.txt",
+      "similarity": 0.48816215991973877,
+      "label": "flood",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.4630691736936569,
-    "n_severe": 2,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.49274532198905946,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202611011130-KCRP-FXUS64-AFDCRP",
-    "afd_time": "2026-11-01T11:30:00Z",
-    "updated": "2026-11-01T17:11:07.749550+00:00"
+    "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
+    "product_id": "202611011828-KCRP-FXUS64-AFDCRP",
+    "afd_time": "2026-11-01T18:28:00Z",
+    "updated": "2026-11-01T21:15:33.545092+00:00"
   }
 }

@@ -1,92 +1,91 @@
 {
   "office": "LWX",
-  "product_id": "202611011440-KLWX-FXUS61-AFDLWX",
-  "afd_time": "2026-11-01T14:40:00Z",
+  "product_id": "202611011835-KLWX-FXUS61-AFDLWX",
+  "afd_time": "2026-11-01T18:35:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-01T17:11:07.749550+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Dry conditions and seasonable temperatures continue \nthrough at least Tuesday with much needed rain chances mid to late \nweek.\n\nBroad 1032-1035 mb high pressure will remain anchored northeast of \nthe area today while continuing it's influence across the Mid-\nAtlantic region. The h",
+  "updated": "2026-11-01T21:15:33.545092+00:00",
+  "query_preview": "..\n\nKEY MESSAGE 1...Dry conditions continue through mid week, then \ncloudy & rainy towards the end of the week with an incoming cold\nfront.\n\nThe stretch of benign weather conditions is expected to continue \nthrough the middle of the work week. Surface high pressure centered \nover the Northeast today",
   "analogs": [
     {
       "datetime_utc": "2008-06-17T18:20Z",
       "source_file": "LWX_2008_17_1820.txt",
-      "similarity": 0.8625022768974304,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-07-04T02:04Z",
-      "source_file": "LWX_2018_04_0204.txt",
-      "similarity": 0.818035900592804,
+      "similarity": 0.7305477857589722,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-07-03T19:11Z",
       "source_file": "LWX_2018_03_1911.txt",
-      "similarity": 0.818035900592804,
+      "similarity": 0.7075732946395874,
       "label": "severe_wind",
       "is_severe": true
     },
     {
+      "datetime_utc": "2018-07-04T02:04Z",
+      "source_file": "LWX_2018_04_0204.txt",
+      "similarity": 0.7075732946395874,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-10-23T08:04Z",
+      "source_file": "LWX_2013_23_0804.txt",
+      "similarity": 0.693342387676239,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2005-09-28T19:05Z",
       "source_file": "LWX_2005_28_1905.txt",
-      "similarity": 0.8039636611938477,
+      "similarity": 0.6881300806999207,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-04-16T01:47Z",
       "source_file": "LWX_2007_16_0147.txt",
-      "similarity": 0.7855187058448792,
+      "similarity": 0.6544629335403442,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-10-23T08:04Z",
-      "source_file": "LWX_2013_23_0804.txt",
-      "similarity": 0.748600959777832,
-      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-01-16T09:00Z",
       "source_file": "LWX_2014_16_0900_1.txt",
-      "similarity": 0.7413747310638428,
+      "similarity": 0.6254808902740479,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-01-16T15:03Z",
       "source_file": "LWX_2014_16_1503.txt",
-      "similarity": 0.7413747310638428,
+      "similarity": 0.6254808902740479,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2022-06-13T19:34Z",
-      "source_file": "LWX_2022_13_1934.txt",
-      "similarity": 0.719176709651947,
+      "datetime_utc": "2009-07-11T19:35Z",
+      "source_file": "LWX_2009_11_1935.txt",
+      "similarity": 0.6163535714149475,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-04-17T15:40Z",
-      "source_file": "LWX_2006_17_1540.txt",
-      "similarity": 0.6905430555343628,
-      "label": "severe_wind",
+      "datetime_utc": "2009-07-12T06:41Z",
+      "source_file": "LWX_2009_12_0641.txt",
+      "similarity": 0.6163535714149475,
+      "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "LOW",
+    "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.7729126632213592,
-    "base_rate": 0.5958263093646458,
-    "signal_value": 0.004173690635354221,
+    "mean_similarity": 0.6665298700332641,
     "n_severe": 6,
     "n_total": 10,
-    "product_id": "202611011440-KLWX-FXUS61-AFDLWX",
-    "afd_time": "2026-11-01T14:40:00Z",
-    "updated": "2026-11-01T17:11:07.749550+00:00"
+    "reason": "top-10 mean similarity 0.67 below confidence floor 0.7",
+    "product_id": "202611011835-KLWX-FXUS61-AFDLWX",
+    "afd_time": "2026-11-01T18:35:00Z",
+    "updated": "2026-11-01T21:15:33.545092+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "SGF",
-  "product_id": "202611011205-KSGF-FXUS63-AFDSGF",
-  "afd_time": "2026-11-01T12:05:00Z",
+  "product_id": "202611012000-KSGF-FXUS63-AFDSGF",
+  "afd_time": "2026-11-01T20:00:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-01T17:11:07.749550+00:00",
-  "query_preview": "/MONDAY NIGHT THROUGH SATURDAY/...\nIssued at 301 AM CST Sun Nov 1 2026\n\nWe'll start to feel the impacts of the incoming trough on Monday\nas southeasterly winds become gusty near 30-35 mph by late\nmorning with the strongest gusts along and west of Highway 65.\nRain chances begin to increase overnight ",
+  "updated": "2026-11-01T21:15:33.545092+00:00",
+  "query_preview": "/MONDAY THROUGH SATURDAY/...\nIssued at 1255 PM CST Sun Nov 1 2026\n\nA strong mid level system will impact the region Monday into\nTuesday, featuring a deep 500mb trough with potent shortwave\nenergy interjecting into the trough. This results in some\nuncertainty in finer details of synoptic evolution, b",
   "analogs": [
-    {
-      "datetime_utc": "2012-03-05T17:12Z",
-      "source_file": "SGF_2012_05_1712.txt",
-      "similarity": 0.4283413290977478,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-03-05T09:02Z",
-      "source_file": "SGF_2012_05_0902.txt",
-      "similarity": 0.4283413290977478,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-03-05T11:37Z",
-      "source_file": "SGF_2012_05_1137.txt",
-      "similarity": 0.4283413290977478,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-07-18T04:55Z",
-      "source_file": "SGF_2016_18_0455.txt",
-      "similarity": 0.42577752470970154,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-07-17T19:45Z",
-      "source_file": "SGF_2016_17_1945.txt",
-      "similarity": 0.42577752470970154,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-07-17T23:38Z",
-      "source_file": "SGF_2016_17_2338.txt",
-      "similarity": 0.42577752470970154,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2022-06-21T08:13Z",
       "source_file": "SGF_2022_21_0813_1.txt",
-      "similarity": 0.42509961128234863,
+      "similarity": 0.4305368661880493,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2022-06-20T20:28Z",
       "source_file": "SGF_2022_20_2028.txt",
-      "similarity": 0.42509961128234863,
+      "similarity": 0.4305368661880493,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-08-08T08:24Z",
       "source_file": "SGF_2010_08_0824.txt",
-      "similarity": 0.41879603266716003,
+      "similarity": 0.42990005016326904,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2022-07-08T08:18Z",
-      "source_file": "SGF_2022_08_0818_1.txt",
-      "similarity": 0.41223466396331787,
+      "datetime_utc": "2014-11-02T20:51Z",
+      "source_file": "SGF_2014_02_2051.txt",
+      "similarity": 0.4282926321029663,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-11-03T05:26Z",
+      "source_file": "SGF_2014_03_0526.txt",
+      "similarity": 0.4282926321029663,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-11-02T23:09Z",
+      "source_file": "SGF_2014_02_2309.txt",
+      "similarity": 0.4282926321029663,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-12-20T23:59Z",
+      "source_file": "SGF_2021_20_2359.txt",
+      "similarity": 0.42785534262657166,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-12-20T20:38Z",
+      "source_file": "SGF_2021_20_2038.txt",
+      "similarity": 0.42785534262657166,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-12-21T05:43Z",
+      "source_file": "SGF_2021_21_0543.txt",
+      "similarity": 0.42785534262657166,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-07-08T11:27Z",
+      "source_file": "SGF_2022_08_1127.txt",
+      "similarity": 0.42688238620758057,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.9,
-    "mean_similarity": 0.42435864806175233,
-    "n_severe": 9,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.4286300092935562,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202611011205-KSGF-FXUS63-AFDSGF",
-    "afd_time": "2026-11-01T12:05:00Z",
-    "updated": "2026-11-01T17:11:07.749550+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202611012000-KSGF-FXUS63-AFDSGF",
+    "afd_time": "2026-11-01T20:00:00Z",
+    "updated": "2026-11-01T21:15:33.545092+00:00"
   }
 }

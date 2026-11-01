@@ -1,91 +1,91 @@
 {
   "office": "ICT",
-  "product_id": "202611011123-KICT-FXUS63-AFDICT",
-  "afd_time": "2026-11-01T11:23:00Z",
+  "product_id": "202611011903-KICT-FXUS63-AFDICT",
+  "afd_time": "2026-11-01T19:03:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-01T17:11:07.749550+00:00",
-  "query_preview": "..\nIssued at 158 AM CST Sun Nov 1 2026\n\nDry and quiet weather conditions will be on tap for today with \ndaytime highs slightly above normal. Meanwhile current water vapor \nsatellite imagery shows a lead short wave over southern California \nwith the main upper-level wave over northern California. The",
+  "updated": "2026-11-01T21:15:33.545092+00:00",
+  "query_preview": "..\nIssued at 1258 PM CST Sun Nov 1 2026\n\nShortwave ridging was impacting the Central and Southern Plains \nearly today under mostly cloudy conditions. This ridge axis will \ncontinue to translate eastward as we move through the day while a \nvigorous mid/upper trough was moving into the Central Great B",
   "analogs": [
+    {
+      "datetime_utc": "2004-03-04T09:11Z",
+      "source_file": "ICT_2004_04_0911.txt",
+      "similarity": 0.45899567008018494,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2005-10-09T18:31Z",
       "source_file": "ICT_2005_09_1831.txt",
-      "similarity": 0.45726269483566284,
+      "similarity": 0.45353031158447266,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-07-22T03:23Z",
       "source_file": "ICT_2017_22_0323.txt",
-      "similarity": 0.45388758182525635,
+      "similarity": 0.45019984245300293,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-07-21T19:11Z",
       "source_file": "ICT_2017_21_1911.txt",
-      "similarity": 0.45388758182525635,
+      "similarity": 0.45019984245300293,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-07-21T23:26Z",
       "source_file": "ICT_2017_21_2326.txt",
-      "similarity": 0.45388758182525635,
+      "similarity": 0.45019984245300293,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-03-04T09:11Z",
-      "source_file": "ICT_2004_04_0911.txt",
-      "similarity": 0.45180177688598633,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-08-11T20:11Z",
-      "source_file": "ICT_2005_11_2011.txt",
-      "similarity": 0.43947628140449524,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-08-12T01:49Z",
       "source_file": "ICT_2005_12_0149.txt",
-      "similarity": 0.43947628140449524,
+      "similarity": 0.4431757926940918,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-01-04T20:42Z",
-      "source_file": "ICT_2004_04_2042.txt",
-      "similarity": 0.43141937255859375,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2005-08-11T20:11Z",
+      "source_file": "ICT_2005_11_2011.txt",
+      "similarity": 0.4431757926940918,
+      "label": "tornado",
+      "is_severe": true
     },
     {
       "datetime_utc": "2023-08-05T11:47Z",
       "source_file": "ICT_2023_05_1147.txt",
-      "similarity": 0.43066301941871643,
+      "similarity": 0.4348624348640442,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-08-05T17:57Z",
+      "source_file": "ICT_2023_05_1757.txt",
+      "similarity": 0.4348624348640442,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2023-08-05T07:22Z",
       "source_file": "ICT_2023_05_0722.txt",
-      "similarity": 0.43066301941871643,
+      "similarity": 0.4348624348640442,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.44424251914024354,
-    "n_severe": 7,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.44540643990039824,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202611011123-KICT-FXUS63-AFDICT",
-    "afd_time": "2026-11-01T11:23:00Z",
-    "updated": "2026-11-01T17:11:07.749550+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202611011903-KICT-FXUS63-AFDICT",
+    "afd_time": "2026-11-01T19:03:00Z",
+    "updated": "2026-11-01T21:15:33.545092+00:00"
   }
 }
