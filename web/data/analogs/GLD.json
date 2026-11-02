@@ -1,91 +1,91 @@
 {
   "office": "GLD",
-  "product_id": "202611020519-KGLD-FXUS63-AFDGLD",
-  "afd_time": "2026-11-02T05:19:00Z",
+  "product_id": "202611021721-KGLD-FXUS63-AFDGLD",
+  "afd_time": "2026-11-02T17:21:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-02T07:44:20.472176+00:00",
-  "query_preview": "/WEDNESDAY THROUGH SUNDAY/...\nIssued at 300 AM MST Sun Nov 1 2026\n\nOn Wednesday and Thursday, the upper-level pattern starts to\ntransition into zonal flow as the system from Tuesday finally\nexits out of the area as a trough to the west begins to move\neast and pass over the area midday Thursday. Then",
+  "updated": "2026-11-02T18:28:25.672018+00:00",
+  "query_preview": "/THURSDAY THROUGH SUNDAY/...\nIssued at 158 AM MST Mon Nov 2 2026\n\nOn Thursday and Friday, the upper-level pattern swings from a\nzonal flow to mostly northwesterly as the trough starts\nsliding eastward before a weakening ridge over northern \nNebraska moves to the southeast. This should allow a slight",
   "analogs": [
     {
       "datetime_utc": "2005-12-25T09:30Z",
       "source_file": "GLD_2005_25_0930.txt",
-      "similarity": 0.45744481682777405,
+      "similarity": 0.497688353061676,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-02-14T09:05Z",
+      "source_file": "GLD_2005_14_0905.txt",
+      "similarity": 0.4972243309020996,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-11-24T21:26Z",
+      "source_file": "GLD_2008_24_2126.txt",
+      "similarity": 0.4954950511455536,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-07-13T19:56Z",
       "source_file": "GLD_2004_13_1956.txt",
-      "similarity": 0.4530556797981262,
+      "similarity": 0.4917668402194977,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-07-13T19:56Z",
       "source_file": "GLD_2004_13_1956.txt",
-      "similarity": 0.4530556797981262,
+      "similarity": 0.4917668402194977,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-09-21T20:33Z",
-      "source_file": "GLD_2005_21_2033.txt",
-      "similarity": 0.45072227716445923,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-09-21T20:33Z",
-      "source_file": "GLD_2005_21_2033.txt",
-      "similarity": 0.45072227716445923,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-05-01T13:43Z",
-      "source_file": "GLD_2005_01_1343.txt",
-      "similarity": 0.44883275032043457,
-      "label": "quiet",
+      "datetime_utc": "2019-02-15T09:25Z",
+      "source_file": "GLD_2019_15_0925.txt",
+      "similarity": 0.4860769510269165,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-02-14T22:05Z",
       "source_file": "GLD_2019_14_2205.txt",
-      "similarity": 0.448119580745697,
+      "similarity": 0.4860769510269165,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-02-15T02:01Z",
-      "source_file": "GLD_2019_15_0201.txt",
-      "similarity": 0.448119580745697,
+      "datetime_utc": "2019-02-14T21:21Z",
+      "source_file": "GLD_2019_14_2121.txt",
+      "similarity": 0.4860769510269165,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-02-15T04:32Z",
       "source_file": "GLD_2019_15_0432.txt",
-      "similarity": 0.448119580745697,
+      "similarity": 0.4860769510269165,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-02-15T09:25Z",
-      "source_file": "GLD_2019_15_0925.txt",
-      "similarity": 0.448119580745697,
+      "datetime_utc": "2019-02-15T02:01Z",
+      "source_file": "GLD_2019_15_0201.txt",
+      "similarity": 0.4860769510269165,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.4506311804056168,
-    "n_severe": 4,
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.4904326170682907,
+    "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202611020519-KGLD-FXUS63-AFDGLD",
-    "afd_time": "2026-11-02T05:19:00Z",
-    "updated": "2026-11-02T07:44:20.472176+00:00"
+    "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
+    "product_id": "202611021721-KGLD-FXUS63-AFDGLD",
+    "afd_time": "2026-11-02T17:21:00Z",
+    "updated": "2026-11-02T18:28:25.672018+00:00"
   }
 }

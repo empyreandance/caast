@@ -1,91 +1,91 @@
 {
   "office": "DLH",
-  "product_id": "202611020452-KDLH-FXUS63-AFDDLH",
-  "afd_time": "2026-11-02T04:52:00Z",
+  "product_id": "202611021803-KDLH-FXUS63-AFDDLH",
+  "afd_time": "2026-11-02T18:03:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-02T07:44:20.472176+00:00",
-  "query_preview": "..\nIssued at 225 PM CST Sun Nov 1 2026\n\nFog has finally cleared earlier this morning as warm air is \nadvected into the region along a warm front. For the afternoon,\nthe blob of rain over northeast Minnesota this morning will\ncontinue its trek northeast through the Arrowhead this afternoon,\nthough an",
+  "updated": "2026-11-02T18:28:25.672018+00:00",
+  "query_preview": "..\nIssued at 307 AM CST Mon Nov 2 2026\n\nOvercast skies are occurring early this morning ahead of approaching \nlow pressure. A deep trough is currently moving through the \nIntermountain West early this morning, which will be propagating a \nsfc low into the central CONUS and Upper Midwest early this w",
   "analogs": [
-    {
-      "datetime_utc": "2023-09-25T23:38Z",
-      "source_file": "DLH_2023_25_2338.txt",
-      "similarity": 0.4357492923736572,
-      "label": "tornado",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2023-09-25T21:00Z",
       "source_file": "DLH_2023_25_2100.txt",
-      "similarity": 0.4357492923736572,
+      "similarity": 0.4498228430747986,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-08-07T02:26Z",
-      "source_file": "DLH_2008_07_0226.txt",
-      "similarity": 0.4335644245147705,
-      "label": "severe_hail",
+      "datetime_utc": "2023-09-25T23:38Z",
+      "source_file": "DLH_2023_25_2338.txt",
+      "similarity": 0.4498228430747986,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-08-06T20:04Z",
-      "source_file": "DLH_2008_06_2004.txt",
-      "similarity": 0.4335644245147705,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2015-09-12T05:59Z",
-      "source_file": "DLH_2015_12_0559.txt",
-      "similarity": 0.43257689476013184,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2015-09-11T20:00Z",
-      "source_file": "DLH_2015_11_2000.txt",
-      "similarity": 0.43257689476013184,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-02-09T23:35Z",
-      "source_file": "DLH_2024_09_2335.txt",
-      "similarity": 0.4302994906902313,
+      "datetime_utc": "2024-02-09T21:59Z",
+      "source_file": "DLH_2024_09_2159.txt",
+      "similarity": 0.4448246359825134,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2024-02-10T05:29Z",
       "source_file": "DLH_2024_10_0529_1.txt",
-      "similarity": 0.4302994906902313,
+      "similarity": 0.4448246359825134,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2024-02-09T21:59Z",
-      "source_file": "DLH_2024_09_2159.txt",
-      "similarity": 0.4302994906902313,
+      "datetime_utc": "2024-02-09T23:35Z",
+      "source_file": "DLH_2024_09_2335.txt",
+      "similarity": 0.4448246359825134,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-01-26T11:42Z",
+      "source_file": "DLH_2023_26_1142.txt",
+      "similarity": 0.43466854095458984,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-01-26T17:49Z",
       "source_file": "DLH_2023_26_1749.txt",
-      "similarity": 0.42882266640663147,
+      "similarity": 0.43466854095458984,
       "label": "winter",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-01-26T10:11Z",
+      "source_file": "DLH_2023_26_1011.txt",
+      "similarity": 0.43466854095458984,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-08-06T20:04Z",
+      "source_file": "DLH_2008_06_2004.txt",
+      "similarity": 0.4331473708152771,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-08-07T02:26Z",
+      "source_file": "DLH_2008_07_0226.txt",
+      "similarity": 0.4331473708152771,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.43235023617744445,
-    "n_severe": 6,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.4404419958591461,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202611020452-KDLH-FXUS63-AFDDLH",
-    "afd_time": "2026-11-02T04:52:00Z",
-    "updated": "2026-11-02T07:44:20.472176+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202611021803-KDLH-FXUS63-AFDDLH",
+    "afd_time": "2026-11-02T18:03:00Z",
+    "updated": "2026-11-02T18:28:25.672018+00:00"
   }
 }
