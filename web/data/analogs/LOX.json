@@ -1,91 +1,91 @@
 {
   "office": "LOX",
-  "product_id": "202611011859-KLOX-FXUS66-AFDLOX",
-  "afd_time": "2026-11-01T18:59:00Z",
+  "product_id": "202611012351-KLOX-FXUS66-AFDLOX",
+  "afd_time": "2026-11-01T23:51:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-01T21:15:33.545092+00:00",
-  "query_preview": "(WED-SAT)...01/335 AM.\n\nThe slow warming trend will continue through the week and even\ninto the weekend and likely even into the following week. Offshore\ngradients are expected to increase late in the week which would \nlead to warmer temperatures and some gusty Santa Ana winds at \ntimes. These would",
+  "updated": "2026-11-02T00:53:09.500589+00:00",
+  "query_preview": "(THU-SUN)...01/147 PM.\n\nThe offshore wind and gradual warming trend will continue in the\nlong term from Thursday into the weekend. Offshore gradients are \nexpected to increase late in the week and peak on Saturday at \nabout a minus 4, which would lead to warmer temperatures and some \ngusty offshore ",
   "analogs": [
+    {
+      "datetime_utc": "2004-08-14T16:10Z",
+      "source_file": "LOX_2004_14_1610.txt",
+      "similarity": 0.4947887063026428,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-08-15T04:01Z",
+      "source_file": "LOX_2004_15_0401.txt",
+      "similarity": 0.4947887063026428,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-08-14T20:25Z",
+      "source_file": "LOX_2004_14_2025.txt",
+      "similarity": 0.4947887063026428,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2016-02-01T11:22Z",
       "source_file": "LOX_2016_01_1122.txt",
-      "similarity": 0.4538607597351074,
+      "similarity": 0.49397706985473633,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-01-31T22:14Z",
       "source_file": "LOX_2016_31_2214.txt",
-      "similarity": 0.4538607597351074,
+      "similarity": 0.49397706985473633,
       "label": "severe_hail",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-19T14:16Z",
-      "source_file": "LOX_2007_19_1416.txt",
-      "similarity": 0.4497314989566803,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-19T11:44Z",
-      "source_file": "LOX_2007_19_1144.txt",
-      "similarity": 0.4497314989566803,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-19T16:58Z",
-      "source_file": "LOX_2007_19_1658.txt",
-      "similarity": 0.4497314989566803,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-19T11:40Z",
-      "source_file": "LOX_2007_19_1140.txt",
-      "similarity": 0.4497314989566803,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-19T16:10Z",
-      "source_file": "LOX_2007_19_1610.txt",
-      "similarity": 0.4497314989566803,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-10-31T21:01Z",
-      "source_file": "LOX_2017_31_2101.txt",
-      "similarity": 0.4477834701538086,
-      "label": "quiet",
-      "is_severe": false
     },
     {
       "datetime_utc": "2017-10-01T03:22Z",
       "source_file": "LOX_2017_01_0322.txt",
-      "similarity": 0.4477834701538086,
+      "similarity": 0.49165043234825134,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-10-31T21:01Z",
+      "source_file": "LOX_2017_31_2101.txt",
+      "similarity": 0.49165043234825134,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-10-01T05:55Z",
       "source_file": "LOX_2017_01_0555.txt",
-      "similarity": 0.4477834701538086,
+      "similarity": 0.49165043234825134,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-09-19T16:58Z",
+      "source_file": "LOX_2007_19_1658.txt",
+      "similarity": 0.4914183020591736,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-09-19T16:10Z",
+      "source_file": "LOX_2007_19_1610.txt",
+      "similarity": 0.4914183020591736,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.4499729424715042,
-    "n_severe": 6,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.49301081597805024,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202611011859-KLOX-FXUS66-AFDLOX",
-    "afd_time": "2026-11-01T18:59:00Z",
-    "updated": "2026-11-01T21:15:33.545092+00:00"
+    "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
+    "product_id": "202611012351-KLOX-FXUS66-AFDLOX",
+    "afd_time": "2026-11-01T23:51:00Z",
+    "updated": "2026-11-02T00:53:09.500589+00:00"
   }
 }
