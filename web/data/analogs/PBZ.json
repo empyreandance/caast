@@ -1,91 +1,91 @@
 {
   "office": "PBZ",
-  "product_id": "202611012333-KPBZ-FXUS61-AFDPBZ",
-  "afd_time": "2026-11-01T23:33:00Z",
+  "product_id": "202611020530-KPBZ-FXUS61-AFDPBZ",
+  "afd_time": "2026-11-02T05:30:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-02T00:53:09.500589+00:00",
-  "query_preview": "..\nKEY MESSAGE 1... \nAn embedded shortwave containing increased moisture currently\nresides around the Tennessee River Valley has trended more\nfavorable to lift northward in conjunction with trough deepening\nout west and ridge building east Monday. The northward lift of\nthis wave acts as a weak warm ",
+  "updated": "2026-11-02T07:44:20.472176+00:00",
+  "query_preview": "..\nKEY MESSAGE 1... \nMainly mid and high clouds will continue to stream across the \nregion today ahead of an approaching shortwave trough. This\ntrough is progged to weaken through the day, with decreasing\nascent as it moves eastward. Expect some chance for light rain\nor sprinkles this morning mainly",
   "analogs": [
+    {
+      "datetime_utc": "2017-08-23T09:08Z",
+      "source_file": "PBZ_2017_23_0908.txt",
+      "similarity": 0.4743797183036804,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-08-23T06:38Z",
+      "source_file": "PBZ_2017_23_0638.txt",
+      "similarity": 0.4743797183036804,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-08-23T11:54Z",
+      "source_file": "PBZ_2017_23_1154.txt",
+      "similarity": 0.4743797183036804,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2008-03-16T05:34Z",
       "source_file": "PBZ_2008_16_0534.txt",
-      "similarity": 0.43888670206069946,
+      "similarity": 0.45989811420440674,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-03-16T11:38Z",
       "source_file": "PBZ_2008_16_1138.txt",
-      "similarity": 0.43888670206069946,
+      "similarity": 0.45989811420440674,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-02-25T12:27Z",
-      "source_file": "PBZ_2014_25_1227.txt",
-      "similarity": 0.4344637393951416,
+      "datetime_utc": "2006-06-06T07:21Z",
+      "source_file": "PBZ_2006_06_0721.txt",
+      "similarity": 0.4591270685195923,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-06-11T17:33Z",
+      "source_file": "PBZ_2021_11_1733_1.txt",
+      "similarity": 0.45598703622817993,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-05-25T06:31Z",
+      "source_file": "PBZ_2009_25_0631.txt",
+      "similarity": 0.4556998610496521,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-01-27T06:33Z",
+      "source_file": "PBZ_2011_27_0633.txt",
+      "similarity": 0.45532381534576416,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-02-25T19:35Z",
-      "source_file": "PBZ_2014_25_1935.txt",
-      "similarity": 0.4344637393951416,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-02-25T22:56Z",
-      "source_file": "PBZ_2014_25_2256.txt",
-      "similarity": 0.4344637393951416,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-02-26T02:42Z",
-      "source_file": "PBZ_2014_26_0242.txt",
-      "similarity": 0.4344637393951416,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-02-25T23:30Z",
-      "source_file": "PBZ_2014_25_2330.txt",
-      "similarity": 0.4344637393951416,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-02-25T20:37Z",
-      "source_file": "PBZ_2014_25_2037.txt",
-      "similarity": 0.4344637393951416,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-02-26T05:31Z",
-      "source_file": "PBZ_2014_26_0531.txt",
-      "similarity": 0.4344637393951416,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-02-25T17:46Z",
-      "source_file": "PBZ_2014_25_1746.txt",
-      "similarity": 0.4344637393951416,
+      "datetime_utc": "2011-01-27T14:32Z",
+      "source_file": "PBZ_2011_27_1432.txt",
+      "similarity": 0.45532381534576416,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.4353483319282532,
-    "n_severe": 2,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.46243969798088075,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202611012333-KPBZ-FXUS61-AFDPBZ",
-    "afd_time": "2026-11-01T23:33:00Z",
-    "updated": "2026-11-02T00:53:09.500589+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202611020530-KPBZ-FXUS61-AFDPBZ",
+    "afd_time": "2026-11-02T05:30:00Z",
+    "updated": "2026-11-02T07:44:20.472176+00:00"
   }
 }

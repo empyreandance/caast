@@ -1,91 +1,91 @@
 {
   "office": "HNX",
-  "product_id": "202611012355-KHNX-FXUS66-AFDHNX",
-  "afd_time": "2026-11-01T23:55:00Z",
-  "section_type": "long_term",
-  "updated": "2026-11-02T00:53:09.500589+00:00",
-  "query_preview": "analysis is showing a weak disturbance making its \npassage through the Pacific Northwest around the mid-week \nperiod. Current timing has the disturbance over the area on \nTuesday/Wednesday before a strong ridge shifts in later in the \nweek. Uncertainty does exist on the deepness of the disturbance \n",
+  "product_id": "202611020436-KHNX-FXUS66-AFDHNX",
+  "afd_time": "2026-11-02T04:36:00Z",
+  "section_type": "discussion",
+  "updated": "2026-11-02T07:44:20.472176+00:00",
+  "query_preview": "..\nAs a time warp happened last night sending us back one hour,\nour weather have been sent back to cooler conditions this week.\nOvernight tonight skies will clear out as a ridge of high\npressure briefly moves in. This ridge will help provide enough\nof an inversion for a Dense Fog Advisory for most o",
   "analogs": [
     {
-      "datetime_utc": "2007-02-16T22:50Z",
-      "source_file": "HNX_2007_16_2250.txt",
-      "similarity": 0.4700975716114044,
+      "datetime_utc": "2008-06-08T03:40Z",
+      "source_file": "HNX_2008_08_0340.txt",
+      "similarity": 0.42075425386428833,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-04-11T05:06Z",
+      "source_file": "HNX_2010_11_0506.txt",
+      "similarity": 0.41509515047073364,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-02-17T04:35Z",
-      "source_file": "HNX_2007_17_0435.txt",
-      "similarity": 0.4700975716114044,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2011-01-17T05:28Z",
+      "source_file": "HNX_2011_17_0528.txt",
+      "similarity": 0.4023914337158203,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-09-12T20:47Z",
+      "source_file": "HNX_2018_12_2047.txt",
+      "similarity": 0.4001759886741638,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-09-12T21:07Z",
+      "source_file": "HNX_2018_12_2107.txt",
+      "similarity": 0.4001759886741638,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2007-02-07T05:47Z",
       "source_file": "HNX_2007_07_0547.txt",
-      "similarity": 0.43788737058639526,
+      "similarity": 0.3954642415046692,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-02-06T22:01Z",
       "source_file": "HNX_2007_06_2201.txt",
-      "similarity": 0.43788737058639526,
+      "similarity": 0.3954642415046692,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-12-20T05:12Z",
-      "source_file": "HNX_2005_20_0512.txt",
-      "similarity": 0.42515265941619873,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-12-19T22:52Z",
-      "source_file": "HNX_2005_19_2252.txt",
-      "similarity": 0.42515265941619873,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-11-23T04:56Z",
-      "source_file": "HNX_2012_23_0456.txt",
-      "similarity": 0.42086589336395264,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-06-27T21:38Z",
-      "source_file": "HNX_2004_27_2138.txt",
-      "similarity": 0.42065322399139404,
+      "datetime_utc": "2007-03-28T08:47Z",
+      "source_file": "HNX_2007_28_0847.txt",
+      "similarity": 0.3942636251449585,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-08-17T16:53Z",
-      "source_file": "HNX_2009_17_1653.txt",
-      "similarity": 0.4205324947834015,
+      "datetime_utc": "2005-03-09T04:18Z",
+      "source_file": "HNX_2005_09_0418.txt",
+      "similarity": 0.39160966873168945,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-11-16T05:24Z",
-      "source_file": "HNX_2009_16_0524_1.txt",
-      "similarity": 0.41961926221847534,
+      "datetime_utc": "2010-11-05T04:25Z",
+      "source_file": "HNX_2010_05_0425.txt",
+      "similarity": 0.3909076750278473,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.434794607758522,
-    "n_severe": 3,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.40063022673130033,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202611012355-KHNX-FXUS66-AFDHNX",
-    "afd_time": "2026-11-01T23:55:00Z",
-    "updated": "2026-11-02T00:53:09.500589+00:00"
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202611020436-KHNX-FXUS66-AFDHNX",
+    "afd_time": "2026-11-02T04:36:00Z",
+    "updated": "2026-11-02T07:44:20.472176+00:00"
   }
 }

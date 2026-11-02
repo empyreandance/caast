@@ -1,15 +1,15 @@
 {
   "office": "TAE",
-  "product_id": "202611012318-KTAE-FXUS62-AFDTAE",
-  "afd_time": "2026-11-01T23:18:00Z",
+  "product_id": "202611020606-KTAE-FXUS62-AFDTAE",
+  "afd_time": "2026-11-02T06:06:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-02T00:53:09.500589+00:00",
+  "updated": "2026-11-02T07:44:20.472176+00:00",
   "query_preview": "..\n(Monday night through next Saturday)\nIssued at 240 PM EST Sun Nov 1 2026\n\nEasterly winds are forecast to continue Tuesday before gradually\nbecoming southeasterly on Wednesday ahead of the next cold front.\nRain chances increase Wednesday as a very moist air mass remains\noverhead but begin to taper",
   "analogs": [
     {
       "datetime_utc": "2009-09-05T18:40Z",
       "source_file": "TAE_2009_05_1840.txt",
-      "similarity": 0.9177950024604797,
+      "similarity": 0.9177950620651245,
       "label": "quiet",
       "is_severe": false
     },
@@ -18,6 +18,13 @@
       "source_file": "TAE_2008_13_1926_1.txt",
       "similarity": 0.915379524230957,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-08-21T22:32Z",
+      "source_file": "TAE_2020_21_2232.txt",
+      "similarity": 0.8871026039123535,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
@@ -35,44 +42,37 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-08-21T22:32Z",
-      "source_file": "TAE_2020_21_2232.txt",
-      "similarity": 0.8871026039123535,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2012-08-14T01:54Z",
       "source_file": "TAE_2012_14_0154.txt",
-      "similarity": 0.8771730661392212,
+      "similarity": 0.877173125743866,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-11-09T02:23Z",
       "source_file": "TAE_2005_09_0223.txt",
-      "similarity": 0.8641704320907593,
+      "similarity": 0.8641705513000488,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-09-06T19:22Z",
       "source_file": "TAE_2009_06_1922.txt",
-      "similarity": 0.8528339862823486,
+      "similarity": 0.8528341054916382,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-07-08T08:15Z",
-      "source_file": "TAE_2019_08_0815.txt",
-      "similarity": 0.8344930410385132,
+      "datetime_utc": "2019-07-08T10:32Z",
+      "source_file": "TAE_2019_08_1032.txt",
+      "similarity": 0.8344931602478027,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-07-08T10:32Z",
-      "source_file": "TAE_2019_08_1032.txt",
-      "similarity": 0.8344930410385132,
+      "datetime_utc": "2019-07-08T08:15Z",
+      "source_file": "TAE_2019_08_0815.txt",
+      "similarity": 0.8344931602478027,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,13 +80,13 @@
   "signal": {
     "level": "LOW",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.8757645905017852,
+    "mean_similarity": 0.87576465010643,
     "base_rate": 0.6643054388281907,
     "signal_value": 0.03569456117180925,
     "n_severe": 7,
     "n_total": 10,
-    "product_id": "202611012318-KTAE-FXUS62-AFDTAE",
-    "afd_time": "2026-11-01T23:18:00Z",
-    "updated": "2026-11-02T00:53:09.500589+00:00"
+    "product_id": "202611020606-KTAE-FXUS62-AFDTAE",
+    "afd_time": "2026-11-02T06:06:00Z",
+    "updated": "2026-11-02T07:44:20.472176+00:00"
   }
 }

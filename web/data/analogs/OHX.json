@@ -1,92 +1,92 @@
 {
   "office": "OHX",
-  "product_id": "202611020020-KOHX-FXUS64-AFDOHX",
-  "afd_time": "2026-11-02T00:20:00Z",
+  "product_id": "202611020626-KOHX-FXUS64-AFDOHX",
+  "afd_time": "2026-11-02T06:26:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-02T00:53:09.500589+00:00",
-  "query_preview": "..\n(Monday Night through next Sunday)\nIssued at 1131 AM CST Sun Nov 1 2026\n\nA strong cold front and upper trough will begin to impact Middle\nTennessee Tuesday night and especially Wednesday as another\nsoaking rain spreads across the region. Temperatures will peak in\nthe mid and upper 70s most areas ",
+  "updated": "2026-11-02T07:44:20.472176+00:00",
+  "query_preview": "..\n(Wednesday through next Monday)\nIssued at 1121 PM CST Sun Nov 1 2026\n\nIn the early morning hours on Wednesday, a line of showers\nand thunderstorms associated with the aforementioned cold front\nwill move through Middle TN. The diurnal minimum of instability\nduring FROPA bodes well for our mitigate",
   "analogs": [
-    {
-      "datetime_utc": "2021-11-01T17:25Z",
-      "source_file": "OHX_2021_01_1725.txt",
-      "similarity": 0.915644109249115,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2014-07-09T02:00Z",
       "source_file": "OHX_2014_09_0200.txt",
-      "similarity": 0.906536877155304,
+      "similarity": 0.9573981165885925,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-07-01T07:23Z",
       "source_file": "OHX_2017_01_0723.txt",
-      "similarity": 0.906283438205719,
+      "similarity": 0.9551125764846802,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-07-01T09:56Z",
       "source_file": "OHX_2017_01_0956.txt",
-      "similarity": 0.906283438205719,
+      "similarity": 0.9551125764846802,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2015-11-29T09:33Z",
-      "source_file": "OHX_2015_29_0933.txt",
-      "similarity": 0.9045770168304443,
-      "label": "flood",
+      "datetime_utc": "2019-05-23T18:06Z",
+      "source_file": "OHX_2019_23_1806.txt",
+      "similarity": 0.954857587814331,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-05-23T07:51Z",
+      "source_file": "OHX_2019_23_0751.txt",
+      "similarity": 0.954857587814331,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-05-23T10:00Z",
+      "source_file": "OHX_2019_23_1000.txt",
+      "similarity": 0.954857587814331,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-08-27T08:30Z",
+      "source_file": "OHX_2019_27_0830.txt",
+      "similarity": 0.9477231502532959,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-08-27T11:38Z",
+      "source_file": "OHX_2019_27_1138.txt",
+      "similarity": 0.9477231502532959,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-07-23T14:16Z",
       "source_file": "OHX_2005_23_1416.txt",
-      "similarity": 0.9035414457321167,
+      "similarity": 0.9466646313667297,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-05-03T11:10Z",
-      "source_file": "OHX_2020_03_1110_1.txt",
-      "similarity": 0.9025472402572632,
+      "datetime_utc": "2020-03-12T23:58Z",
+      "source_file": "OHX_2020_12_2358.txt",
+      "similarity": 0.9451298117637634,
       "label": "tornado",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-05-03T07:02Z",
-      "source_file": "OHX_2020_03_0702.txt",
-      "similarity": 0.9025472402572632,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-10-08T16:48Z",
-      "source_file": "OHX_2018_08_1648.txt",
-      "similarity": 0.8993651866912842,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-10-08T15:28Z",
-      "source_file": "OHX_2018_08_1528.txt",
-      "similarity": 0.8993651866912842,
-      "label": "quiet",
-      "is_severe": false
     }
   ],
   "signal": {
-    "level": "LOW",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.9046691179275512,
+    "level": "MODERATE",
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.9519436776638031,
     "base_rate": 0.6326029281713668,
-    "signal_value": -0.032602928171366785,
-    "n_severe": 6,
+    "signal_value": 0.16739707182863328,
+    "n_severe": 8,
     "n_total": 10,
-    "product_id": "202611020020-KOHX-FXUS64-AFDOHX",
-    "afd_time": "2026-11-02T00:20:00Z",
-    "updated": "2026-11-02T00:53:09.500589+00:00"
+    "product_id": "202611020626-KOHX-FXUS64-AFDOHX",
+    "afd_time": "2026-11-02T06:26:00Z",
+    "updated": "2026-11-02T07:44:20.472176+00:00"
   }
 }
