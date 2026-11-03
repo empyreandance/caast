@@ -1,91 +1,91 @@
 {
   "office": "IWX",
-  "product_id": "202611022301-KIWX-FXUS63-AFDIWX",
-  "afd_time": "2026-11-02T23:01:00Z",
+  "product_id": "202611030749-KIWX-FXUS63-AFDIWX",
+  "afd_time": "2026-11-03T07:49:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-03T01:39:18.878093+00:00",
-  "query_preview": "..\nIssued at 225 PM EST Mon Nov 2 2026\n\nBroad advective forcing continues across the region with water vapor \nimagery and near term hi-res guidance initializations depicting\nnext weak short wave across the Mid MS Valley. THis should \nallow for a few more waves of drizzle and possibly a few light \nra",
+  "updated": "2026-11-03T09:38:39.952947+00:00",
+  "query_preview": "..\nIssued at 249 AM EST Tue Nov 3 2026\n\nA well defined upper-level trough is lifting north-northeast through \nKansas early this morning. Closer to home, low stratus and patchy \ndrizzle continues to lift north through Michigan in response to this \nlifting cyclone. Stout warm air advection has brought",
   "analogs": [
     {
-      "datetime_utc": "2007-02-05T20:58Z",
-      "source_file": "IWX_2007_05_2058.txt",
-      "similarity": 0.42759841680526733,
+      "datetime_utc": "2006-04-11T11:07Z",
+      "source_file": "IWX_2006_11_1107.txt",
+      "similarity": 0.39473310112953186,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-04-11T17:37Z",
+      "source_file": "IWX_2006_11_1737.txt",
+      "similarity": 0.39473310112953186,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-04-11T08:39Z",
+      "source_file": "IWX_2006_11_0839.txt",
+      "similarity": 0.39473310112953186,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-02-11T21:01Z",
+      "source_file": "IWX_2019_11_2101.txt",
+      "similarity": 0.37750980257987976,
       "label": "winter",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-03-11T11:50Z",
-      "source_file": "IWX_2012_11_1150.txt",
-      "similarity": 0.4251789152622223,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-03-11T17:27Z",
-      "source_file": "IWX_2012_11_1727.txt",
-      "similarity": 0.4251789152622223,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-03-11T09:18Z",
-      "source_file": "IWX_2012_11_0918.txt",
-      "similarity": 0.4251789152622223,
-      "label": "tornado",
-      "is_severe": true
     },
     {
       "datetime_utc": "2019-02-12T02:19Z",
       "source_file": "IWX_2019_12_0219.txt",
-      "similarity": 0.4151248335838318,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-02-11T23:29Z",
-      "source_file": "IWX_2019_11_2329_1.txt",
-      "similarity": 0.4151248335838318,
+      "similarity": 0.37750980257987976,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-02-12T06:40Z",
       "source_file": "IWX_2019_12_0640.txt",
-      "similarity": 0.4151248335838318,
+      "similarity": 0.37750980257987976,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-02-11T23:29Z",
+      "source_file": "IWX_2019_11_2329_1.txt",
+      "similarity": 0.3775097727775574,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-02-12T05:00Z",
       "source_file": "IWX_2019_12_0500.txt",
-      "similarity": 0.4151248335838318,
+      "similarity": 0.3775097727775574,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-02-11T21:01Z",
-      "source_file": "IWX_2019_11_2101.txt",
-      "similarity": 0.4151248335838318,
-      "label": "winter",
+      "datetime_utc": "2005-06-16T16:01Z",
+      "source_file": "IWX_2005_16_1601.txt",
+      "similarity": 0.37732550501823425,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-09-06T17:01Z",
-      "source_file": "IWX_2017_06_1701.txt",
-      "similarity": 0.41459769010543823,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2005-06-16T07:58Z",
+      "source_file": "IWX_2005_16_0758.txt",
+      "similarity": 0.37732550501823425,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.41933570206165316,
-    "n_severe": 4,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.3826399266719818,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202611022301-KIWX-FXUS63-AFDIWX",
-    "afd_time": "2026-11-02T23:01:00Z",
-    "updated": "2026-11-03T01:39:18.878093+00:00"
+    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
+    "product_id": "202611030749-KIWX-FXUS63-AFDIWX",
+    "afd_time": "2026-11-03T07:49:00Z",
+    "updated": "2026-11-03T09:38:39.952947+00:00"
   }
 }

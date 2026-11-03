@@ -1,91 +1,91 @@
 {
   "office": "ABR",
-  "product_id": "202611022341-KABR-FXUS63-AFDABR",
-  "afd_time": "2026-11-02T23:41:00Z",
+  "product_id": "202611030709-KABR-FXUS63-AFDABR-CCA",
+  "afd_time": "2026-11-03T07:09:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-03T01:39:18.878093+00:00",
-  "query_preview": "..\nIssued at 1238 PM CST Mon Nov 2 2026\n\nAs of 12pm, the center of the ~994mb low is hovering right over the \nJames River Valley with its cold front extending southward into NE. \nEast of the James River is still within the warm sector in south to \nslight southeasterly flow where west of the James Ri",
+  "updated": "2026-11-03T09:38:39.952947+00:00",
+  "query_preview": "..\nIssued at 1226 AM CST Tue Nov 3 2026\n\nAs of 12:30 AM CST, temperatures across the area are in the upper \n40s to low 50s with winds out of the north at 15 to 20 mph, gusting \nbetween 25 and 35 mph with some locally higher wind gusts noted\naround Pierre. These gusts are expected to last through the",
   "analogs": [
-    {
-      "datetime_utc": "2021-10-29T09:23Z",
-      "source_file": "ABR_2021_29_0923.txt",
-      "similarity": 0.465567409992218,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-10-29T20:31Z",
-      "source_file": "ABR_2021_29_2031.txt",
-      "similarity": 0.465567409992218,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-11-08T20:30Z",
-      "source_file": "ABR_2009_08_2030.txt",
-      "similarity": 0.4551936388015747,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-11-09T01:32Z",
-      "source_file": "ABR_2009_09_0132.txt",
-      "similarity": 0.4551936388015747,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2005-02-25T20:58Z",
       "source_file": "ABR_2005_25_2058.txt",
-      "similarity": 0.4534167945384979,
+      "similarity": 0.48838120698928833,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-03-08T16:10Z",
-      "source_file": "ABR_2007_08_1610.txt",
-      "similarity": 0.4506564140319824,
-      "label": "quiet",
+      "datetime_utc": "2017-10-25T20:28Z",
+      "source_file": "ABR_2017_25_2028.txt",
+      "similarity": 0.48301514983177185,
+      "label": "winter",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-10-16T09:16Z",
+      "source_file": "ABR_2012_16_0916.txt",
+      "similarity": 0.4825534224510193,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2012-10-16T01:27Z",
       "source_file": "ABR_2012_16_0127.txt",
-      "similarity": 0.44793927669525146,
+      "similarity": 0.4825534224510193,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-10-15T20:04Z",
       "source_file": "ABR_2012_15_2004.txt",
-      "similarity": 0.44793927669525146,
+      "similarity": 0.4825534224510193,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-10-16T09:16Z",
-      "source_file": "ABR_2012_16_0916.txt",
-      "similarity": 0.44793927669525146,
-      "label": "severe_wind",
+      "datetime_utc": "2016-05-08T08:46Z",
+      "source_file": "ABR_2016_08_0846.txt",
+      "similarity": 0.4795692265033722,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-09-01T08:39Z",
-      "source_file": "ABR_2019_01_0839.txt",
-      "similarity": 0.4458776116371155,
-      "label": "severe_wind",
+      "datetime_utc": "2016-05-07T20:38Z",
+      "source_file": "ABR_2016_07_2038.txt",
+      "similarity": 0.4795692265033722,
+      "label": "severe_hail",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-11-09T01:32Z",
+      "source_file": "ABR_2009_09_0132.txt",
+      "similarity": 0.47732025384902954,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-11-08T20:30Z",
+      "source_file": "ABR_2009_08_2030.txt",
+      "similarity": 0.47732025384902954,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-10-29T09:23Z",
+      "source_file": "ABR_2021_29_0923.txt",
+      "similarity": 0.47532933950424194,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.45352907478809357,
-    "n_severe": 4,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.48081649243831637,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202611022341-KABR-FXUS63-AFDABR",
-    "afd_time": "2026-11-02T23:41:00Z",
-    "updated": "2026-11-03T01:39:18.878093+00:00"
+    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
+    "product_id": "202611030709-KABR-FXUS63-AFDABR-CCA",
+    "afd_time": "2026-11-03T07:09:00Z",
+    "updated": "2026-11-03T09:38:39.952947+00:00"
   }
 }

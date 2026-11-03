@@ -1,78 +1,78 @@
 {
   "office": "BUF",
-  "product_id": "202611022339-KBUF-FXUS61-AFDBUF",
-  "afd_time": "2026-11-02T23:39:00Z",
+  "product_id": "202611030546-KBUF-FXUS61-AFDBUF",
+  "afd_time": "2026-11-03T05:46:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-03T01:39:18.878093+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Unusually warm weather is expected Tuesday and \nWednesday, with forecast temperatures potentially reaching record \nhighs for early November.\n\nA strong upper level ridge will build across the eastern CONUS \nthrough mid-week...while surface high pressure persists just off the \neaste",
+  "updated": "2026-11-03T09:38:39.952947+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...Unusually warm weather is expected Today and \nWednesday, with forecast temperatures potentially reaching record \nhighs for early November.\n\nA mid-level ridge will continue to build east across the Atlantic \nseaboard through mid-week, supporting surface high pressure to \npersist of",
   "analogs": [
+    {
+      "datetime_utc": "2019-12-07T22:14Z",
+      "source_file": "BUF_2019_07_2214.txt",
+      "similarity": 0.44222331047058105,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-12-08T00:52Z",
+      "source_file": "BUF_2019_08_0052.txt",
+      "similarity": 0.44222331047058105,
+      "label": "winter",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2005-07-30T18:22Z",
       "source_file": "BUF_2005_30_1822.txt",
-      "similarity": 0.4382336139678955,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-07-31T13:23Z",
-      "source_file": "BUF_2005_31_1323.txt",
-      "similarity": 0.4382336139678955,
+      "similarity": 0.4367314577102661,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-07-31T06:53Z",
       "source_file": "BUF_2005_31_0653.txt",
-      "similarity": 0.4382336139678955,
+      "similarity": 0.4367314577102661,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-06-07T06:24Z",
-      "source_file": "BUF_2006_07_0624.txt",
-      "similarity": 0.43593108654022217,
-      "label": "severe_wind",
+      "datetime_utc": "2005-07-31T13:23Z",
+      "source_file": "BUF_2005_31_1323.txt",
+      "similarity": 0.4367314577102661,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-12-08T00:52Z",
-      "source_file": "BUF_2019_08_0052.txt",
-      "similarity": 0.4353424906730652,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-12-07T22:14Z",
-      "source_file": "BUF_2019_07_2214.txt",
-      "similarity": 0.4353424906730652,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-05-14T05:26Z",
-      "source_file": "BUF_2012_14_0526.txt",
-      "similarity": 0.4343578815460205,
+      "datetime_utc": "2022-05-08T10:45Z",
+      "source_file": "BUF_2022_08_1045.txt",
+      "similarity": 0.4280330240726471,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-05-13T20:00Z",
-      "source_file": "BUF_2012_13_2000.txt",
-      "similarity": 0.4343578815460205,
+      "datetime_utc": "2022-05-08T14:13Z",
+      "source_file": "BUF_2022_08_1413.txt",
+      "similarity": 0.4280330240726471,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-05-08T07:22Z",
+      "source_file": "BUF_2022_08_0722.txt",
+      "similarity": 0.4280330240726471,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-05-08T07:11Z",
+      "source_file": "BUF_2022_08_0711.txt",
+      "similarity": 0.4280330240726471,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-05-14T00:23Z",
       "source_file": "BUF_2012_14_0023.txt",
-      "similarity": 0.4343578815460205,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-05-13T23:37Z",
-      "source_file": "BUF_2012_13_2337.txt",
-      "similarity": 0.4343578815460205,
+      "similarity": 0.42764008045196533,
       "label": "severe_hail",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.43587484359741213,
+    "mean_similarity": 0.4334413170814514,
     "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202611022339-KBUF-FXUS61-AFDBUF",
-    "afd_time": "2026-11-02T23:39:00Z",
-    "updated": "2026-11-03T01:39:18.878093+00:00"
+    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
+    "product_id": "202611030546-KBUF-FXUS61-AFDBUF",
+    "afd_time": "2026-11-03T05:46:00Z",
+    "updated": "2026-11-03T09:38:39.952947+00:00"
   }
 }
