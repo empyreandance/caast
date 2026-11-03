@@ -1,92 +1,91 @@
 {
   "office": "UNR",
-  "product_id": "202611031723-KUNR-FXUS63-AFDUNR",
-  "afd_time": "2026-11-03T17:23:00Z",
+  "product_id": "202611031938-KUNR-FXUS63-AFDUNR",
+  "afd_time": "2026-11-03T19:38:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-03T17:55:14.945663+00:00",
-  "query_preview": "..(This Evening Through Monday)\nIssued at 1245 PM MST Mon Nov 2 2026\n\nWater vapor imagery shows shortwave lifting north of the forecast\narea along with another stout shortwave trough ejecting into the \ncentral and southern Plains. Surface low is centered over ND/SD/MN\nborder with cold front stretchi",
+  "updated": "2026-11-03T23:29:54.163293+00:00",
+  "query_preview": "..(This Evening Through Tuesday)\nIssued at 1235 PM MST Tue Nov 3 2026\n\nUpper level analysis shows upper trough axis centered from the \nUpper Midwest through the Southern Plains. Further upstream, water\nvapor imagery shows closed upper low moving onshore across northern\nCA and OR/WA. Diffuse surface ",
   "analogs": [
+    {
+      "datetime_utc": "2009-03-21T16:13Z",
+      "source_file": "UNR_2009_21_1613_1.txt",
+      "similarity": 0.6665866374969482,
+      "label": "tornado",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2009-07-22T02:44Z",
       "source_file": "UNR_2009_22_0244.txt",
-      "similarity": 0.868470311164856,
+      "similarity": 0.6505180597305298,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-11-06T03:46Z",
       "source_file": "UNR_2009_06_0346.txt",
-      "similarity": 0.8364482522010803,
+      "similarity": 0.643945574760437,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-08-14T01:42Z",
       "source_file": "UNR_2006_14_0142.txt",
-      "similarity": 0.8319131135940552,
+      "similarity": 0.6112920641899109,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-03-21T16:13Z",
-      "source_file": "UNR_2009_21_1613_1.txt",
-      "similarity": 0.8265154361724854,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-12-08T05:17Z",
-      "source_file": "UNR_2017_08_0517.txt",
-      "similarity": 0.8011653423309326,
+      "datetime_utc": "2017-12-08T04:37Z",
+      "source_file": "UNR_2017_08_0437.txt",
+      "similarity": 0.6028332710266113,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-12-08T04:37Z",
-      "source_file": "UNR_2017_08_0437.txt",
-      "similarity": 0.8011653423309326,
+      "datetime_utc": "2017-12-08T05:17Z",
+      "source_file": "UNR_2017_08_0517.txt",
+      "similarity": 0.6028332710266113,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-11-25T16:20Z",
       "source_file": "UNR_2005_25_1620.txt",
-      "similarity": 0.6737629771232605,
+      "similarity": 0.4928373694419861,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-06-13T16:02Z",
       "source_file": "UNR_2006_13_1602.txt",
-      "similarity": 0.6041086316108704,
+      "similarity": 0.49231022596359253,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-03-09T16:32Z",
-      "source_file": "UNR_2007_09_1632.txt",
-      "similarity": 0.5856833457946777,
+      "datetime_utc": "2004-12-10T10:25Z",
+      "source_file": "UNR_2004_10_1025.txt",
+      "similarity": 0.4766737222671509,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-12-10T10:25Z",
-      "source_file": "UNR_2004_10_1025.txt",
-      "similarity": 0.5801527500152588,
-      "label": "quiet",
+      "datetime_utc": "2009-10-05T08:49Z",
+      "source_file": "UNR_2009_05_0849.txt",
+      "similarity": 0.45670926570892334,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "LOW",
+    "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.7409385502338409,
-    "base_rate": 0.4636352927317705,
-    "signal_value": -0.06363529273177049,
+    "mean_similarity": 0.5696539461612702,
     "n_severe": 4,
     "n_total": 10,
-    "product_id": "202611031723-KUNR-FXUS63-AFDUNR",
-    "afd_time": "2026-11-03T17:23:00Z",
-    "updated": "2026-11-03T17:55:14.945663+00:00"
+    "reason": "top-10 mean similarity 0.57 below confidence floor 0.7",
+    "product_id": "202611031938-KUNR-FXUS63-AFDUNR",
+    "afd_time": "2026-11-03T19:38:00Z",
+    "updated": "2026-11-03T23:29:54.163293+00:00"
   }
 }

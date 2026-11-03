@@ -1,91 +1,91 @@
 {
   "office": "PIH",
-  "product_id": "202611031112-KPIH-FXUS65-AFDPIH",
-  "afd_time": "2026-11-03T11:12:00Z",
+  "product_id": "202611032209-KPIH-FXUS65-AFDPIH",
+  "afd_time": "2026-11-03T22:09:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-03T17:55:14.945663+00:00",
-  "query_preview": "..\nIssued at 123 AM MST Tue Nov 3 2026\n\nToday through Thu night...Closed upper level low at the \nnorthern CA coast moves onshore this afternoon and breaks down \nthe upper level ridge that will dominate Idaho weather today. \nDuring the day Wed, this low will move quickly through northern \nUT and give",
+  "updated": "2026-11-03T23:29:54.163293+00:00",
+  "query_preview": "..\nIssued at 1231 PM MST Tue Nov 3 2026\n\nCurrently there is weak high pressure over our area with clouds\nstarting to move over our area in southwest flow from an upper \nlevel low located currently over northern California.\n\nModels show the low over northern California weakening and\nmoving over centr",
   "analogs": [
     {
-      "datetime_utc": "2020-08-09T08:34Z",
-      "source_file": "PIH_2020_09_0834.txt",
-      "similarity": 0.25601208209991455,
+      "datetime_utc": "2008-04-27T09:12Z",
+      "source_file": "PIH_2008_27_0912.txt",
+      "similarity": 0.37281692028045654,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-07-28T02:28Z",
+      "source_file": "PIH_2010_28_0228.txt",
+      "similarity": 0.367500901222229,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-07-27T19:45Z",
+      "source_file": "PIH_2010_27_1945.txt",
+      "similarity": 0.367500901222229,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-09-24T09:14Z",
+      "source_file": "PIH_2005_24_0914.txt",
+      "similarity": 0.3592578172683716,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-09-13T01:34Z",
-      "source_file": "PIH_2006_13_0134.txt",
-      "similarity": 0.2453860491514206,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-01-16T22:18Z",
-      "source_file": "PIH_2006_16_2218.txt",
-      "similarity": 0.2398090660572052,
-      "label": "winter",
+      "datetime_utc": "2005-09-24T16:17Z",
+      "source_file": "PIH_2005_24_1617.txt",
+      "similarity": 0.3592578172683716,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2010-07-01T08:46Z",
       "source_file": "PIH_2010_01_0846.txt",
-      "similarity": 0.239755779504776,
+      "similarity": 0.35660913586616516,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-06-30T19:47Z",
-      "source_file": "PIH_2009_30_1947.txt",
-      "similarity": 0.23936408758163452,
+      "datetime_utc": "2006-05-17T01:41Z",
+      "source_file": "PIH_2006_17_0141.txt",
+      "similarity": 0.3524186611175537,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-05-15T19:29Z",
-      "source_file": "PIH_2009_15_1929.txt",
-      "similarity": 0.23908543586730957,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2025-06-20T20:35Z",
-      "source_file": "PIH_2025_20_2035.txt",
-      "similarity": 0.23633016645908356,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2025-06-21T04:25Z",
-      "source_file": "PIH_2025_21_0425.txt",
-      "similarity": 0.23633016645908356,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-11-02T14:29Z",
-      "source_file": "PIH_2010_02_1429.txt",
-      "similarity": 0.23631387948989868,
+      "datetime_utc": "2010-02-13T10:17Z",
+      "source_file": "PIH_2010_13_1017.txt",
+      "similarity": 0.35069596767425537,
       "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-04-18T09:33Z",
+      "source_file": "PIH_2004_18_0933.txt",
+      "similarity": 0.34588879346847534,
+      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2010-11-02T07:42Z",
       "source_file": "PIH_2010_02_0742.txt",
-      "similarity": 0.23631387948989868,
+      "similarity": 0.3453601598739624,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.2404700592160225,
-    "n_severe": 4,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.35773070752620695,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.24 below confidence floor 0.7",
-    "product_id": "202611031112-KPIH-FXUS65-AFDPIH",
-    "afd_time": "2026-11-03T11:12:00Z",
-    "updated": "2026-11-03T17:55:14.945663+00:00"
+    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
+    "product_id": "202611032209-KPIH-FXUS65-AFDPIH",
+    "afd_time": "2026-11-03T22:09:00Z",
+    "updated": "2026-11-03T23:29:54.163293+00:00"
   }
 }
