@@ -1,22 +1,36 @@
 {
   "office": "MQT",
-  "product_id": "202611030910-KMQT-FXUS63-AFDMQT",
-  "afd_time": "2026-11-03T09:10:00Z",
+  "product_id": "202611031721-KMQT-FXUS63-AFDMQT",
+  "afd_time": "2026-11-03T17:21:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-03T09:38:39.952947+00:00",
+  "updated": "2026-11-03T17:55:14.945663+00:00",
   "query_preview": "..\nIssued at 409 AM EST Tue Nov 3 2026\n\nThe pattern progression in the short term is a complex transition of \ndeep, split-stream troughing over the Plains with embedded shortwaves \nwhich becomes a closed low centered over southern MN by Wednesday. \nAt the sfc, a low pressure over MN lifts northeast ",
   "analogs": [
     {
       "datetime_utc": "2011-10-11T20:14Z",
       "source_file": "MQT_2011_11_2014.txt",
-      "similarity": 0.4362269341945648,
+      "similarity": 0.4362269639968872,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-10-12T05:24Z",
       "source_file": "MQT_2011_12_0524.txt",
-      "similarity": 0.4362269341945648,
+      "similarity": 0.4362269639968872,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-09-14T11:55Z",
+      "source_file": "MQT_2021_14_1155.txt",
+      "similarity": 0.4298592805862427,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-09-14T17:47Z",
+      "source_file": "MQT_2021_14_1747.txt",
+      "similarity": 0.4298592805862427,
       "label": "severe_wind",
       "is_severe": true
     },
@@ -35,13 +49,6 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2021-09-14T17:47Z",
-      "source_file": "MQT_2021_14_1747.txt",
-      "similarity": 0.4298592805862427,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2021-09-14T08:22Z",
       "source_file": "MQT_2021_14_0822.txt",
       "similarity": 0.4298592805862427,
@@ -49,29 +56,22 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2021-09-14T11:55Z",
-      "source_file": "MQT_2021_14_1155.txt",
-      "similarity": 0.4298592805862427,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2023-09-13T07:06Z",
+      "source_file": "MQT_2023_13_0706.txt",
+      "similarity": 0.4295937418937683,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2023-09-13T11:30Z",
       "source_file": "MQT_2023_13_1130.txt",
-      "similarity": 0.4295937120914459,
+      "similarity": 0.4295937418937683,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-09-13T07:06Z",
-      "source_file": "MQT_2023_13_0706.txt",
-      "similarity": 0.4295937120914459,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-08-16T19:40Z",
-      "source_file": "MQT_2018_16_1940.txt",
+      "datetime_utc": "2018-08-16T22:31Z",
+      "source_file": "MQT_2018_16_2231.txt",
       "similarity": 0.42799800634384155,
       "label": "severe_hail",
       "is_severe": true
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.43089357018470764,
+    "mean_similarity": 0.4308935821056366,
     "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202611030910-KMQT-FXUS63-AFDMQT",
-    "afd_time": "2026-11-03T09:10:00Z",
-    "updated": "2026-11-03T09:38:39.952947+00:00"
+    "product_id": "202611031721-KMQT-FXUS63-AFDMQT",
+    "afd_time": "2026-11-03T17:21:00Z",
+    "updated": "2026-11-03T17:55:14.945663+00:00"
   }
 }
