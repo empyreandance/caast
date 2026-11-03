@@ -1,92 +1,91 @@
 {
   "office": "LIX",
-  "product_id": "202611021124-KLIX-FXUS64-AFDLIX-AAB",
-  "afd_time": "2026-11-02T11:24:00Z",
+  "product_id": "202611022356-KLIX-FXUS64-AFDLIX",
+  "afd_time": "2026-11-02T23:56:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-02T18:28:25.672018+00:00",
-  "query_preview": "..\n(Friday night through Sunday night)\nIssued at 1153 PM CST Sun Nov 1 2026\n\nThe weakening upper-level trough and associated frontal boundary \nwill continue progressing south and east through the region \nWednesday. Scattered showers and perhaps a few thunderstorms will \nremain possible, particularly",
+  "updated": "2026-11-03T01:39:18.878093+00:00",
+  "query_preview": "..\n(Friday through Sunday night)\nIssued at 1202 PM CST Mon Nov 2 2026\n\nLooking up stream a positively tilted H5 trough will be sliding \nacross the central plains generally toward our region. At the \nsurface a weak frontal boundary will drop southward toward our area. \nGlobals show just enough upper ",
   "analogs": [
     {
       "datetime_utc": "2016-07-23T21:04Z",
       "source_file": "LIX_2016_23_2104_1.txt",
-      "similarity": 0.8528779745101929,
+      "similarity": 0.565324604511261,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-07-24T01:09Z",
       "source_file": "LIX_2016_24_0109.txt",
-      "similarity": 0.8528779745101929,
+      "similarity": 0.565324604511261,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-02-05T02:40Z",
       "source_file": "LIX_2011_05_0240.txt",
-      "similarity": 0.8467360734939575,
+      "similarity": 0.5611293911933899,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-10-16T09:27Z",
       "source_file": "LIX_2006_16_0927.txt",
-      "similarity": 0.8204995393753052,
+      "similarity": 0.5273855924606323,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-09-19T20:07Z",
       "source_file": "LIX_2012_19_2007.txt",
-      "similarity": 0.7679334878921509,
+      "similarity": 0.5072792768478394,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-06-16T08:14Z",
       "source_file": "LIX_2004_16_0814.txt",
-      "similarity": 0.7508687973022461,
+      "similarity": 0.49968868494033813,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-02-20T16:44Z",
       "source_file": "LIX_2005_20_1644.txt",
-      "similarity": 0.7424253225326538,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-09-08T11:15Z",
-      "source_file": "LIX_2022_08_1115.txt",
-      "similarity": 0.7180262207984924,
+      "similarity": 0.49705690145492554,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2022-09-08T09:47Z",
       "source_file": "LIX_2022_08_0947.txt",
-      "similarity": 0.7180262207984924,
+      "similarity": 0.4698543846607208,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-09-08T11:15Z",
+      "source_file": "LIX_2022_08_1115.txt",
+      "similarity": 0.4698543846607208,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-05-26T17:16Z",
       "source_file": "LIX_2021_26_1716.txt",
-      "similarity": 0.7172232866287231,
+      "similarity": 0.46141302585601807,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "QUIET",
+    "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.7787494897842407,
-    "base_rate": 0.6297014764522039,
-    "signal_value": -0.22970147645220385,
+    "mean_similarity": 0.5124310851097107,
     "n_severe": 4,
     "n_total": 10,
-    "product_id": "202611021124-KLIX-FXUS64-AFDLIX-AAB",
-    "afd_time": "2026-11-02T11:24:00Z",
-    "updated": "2026-11-02T18:28:25.672018+00:00"
+    "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
+    "product_id": "202611022356-KLIX-FXUS64-AFDLIX",
+    "afd_time": "2026-11-02T23:56:00Z",
+    "updated": "2026-11-03T01:39:18.878093+00:00"
   }
 }
