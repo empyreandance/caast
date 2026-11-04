@@ -1,28 +1,21 @@
 {
   "office": "DTX",
-  "product_id": "202611032030-KDTX-FXUS63-AFDDTX",
-  "afd_time": "2026-11-03T20:30:00Z",
+  "product_id": "202611040447-KDTX-FXUS63-AFDDTX",
+  "afd_time": "2026-11-04T04:47:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-03T23:29:54.163293+00:00",
+  "updated": "2026-11-04T06:33:35.964547+00:00",
   "query_preview": "..\n\nAnomalously warm air mass with 850 mb temperatures around 12C holds \nover the Great Lakes, and coupled with clear skies, have allowed \ntemperatures to push towards or into record values. Upstream, water \nvapor imagery highlights a strong mid-level wave progressing over \nnorthern Missouri stacked",
   "analogs": [
     {
-      "datetime_utc": "2018-03-02T05:04Z",
-      "source_file": "DTX_2018_02_0504.txt",
-      "similarity": 0.4467081129550934,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-03-01T22:50Z",
-      "source_file": "DTX_2018_01_2250_2.txt",
-      "similarity": 0.4467081129550934,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2018-03-01T20:57Z",
       "source_file": "DTX_2018_01_2057.txt",
+      "similarity": 0.4467081129550934,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-03-02T05:04Z",
+      "source_file": "DTX_2018_02_0504.txt",
       "similarity": 0.4467081129550934,
       "label": "winter",
       "is_severe": false
@@ -35,15 +28,15 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-07-08T20:00Z",
-      "source_file": "DTX_2017_08_2000.txt",
-      "similarity": 0.4407219886779785,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2018-03-01T22:50Z",
+      "source_file": "DTX_2018_01_2250_2.txt",
+      "similarity": 0.4467081129550934,
+      "label": "winter",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2017-07-09T03:57Z",
-      "source_file": "DTX_2017_09_0357.txt",
+      "datetime_utc": "2017-07-08T20:00Z",
+      "source_file": "DTX_2017_08_2000.txt",
       "similarity": 0.4407219886779785,
       "label": "severe_wind",
       "is_severe": true
@@ -56,23 +49,30 @@
       "is_severe": true
     },
     {
+      "datetime_utc": "2017-07-09T03:57Z",
+      "source_file": "DTX_2017_09_0357.txt",
+      "similarity": 0.4407219886779785,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-04-08T18:27Z",
+      "source_file": "DTX_2016_08_1827.txt",
+      "similarity": 0.42800822854042053,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2016-04-08T07:50Z",
       "source_file": "DTX_2016_08_0750.txt",
-      "similarity": 0.4280082881450653,
+      "similarity": 0.42800822854042053,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-04-08T10:59Z",
       "source_file": "DTX_2016_08_1059.txt",
-      "similarity": 0.4280082881450653,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-04-08T18:27Z",
-      "source_file": "DTX_2016_08_1827.txt",
-      "similarity": 0.4280082881450653,
+      "similarity": 0.42800822854042053,
       "label": "winter",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.4393023282289505,
+    "mean_similarity": 0.43930231034755707,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202611032030-KDTX-FXUS63-AFDDTX",
-    "afd_time": "2026-11-03T20:30:00Z",
-    "updated": "2026-11-03T23:29:54.163293+00:00"
+    "product_id": "202611040447-KDTX-FXUS63-AFDDTX",
+    "afd_time": "2026-11-04T04:47:00Z",
+    "updated": "2026-11-04T06:33:35.964547+00:00"
   }
 }

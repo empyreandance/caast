@@ -1,91 +1,91 @@
 {
   "office": "IND",
-  "product_id": "202611031858-KIND-FXUS63-AFDIND",
-  "afd_time": "2026-11-03T18:58:00Z",
+  "product_id": "202611040542-KIND-FXUS63-AFDIND",
+  "afd_time": "2026-11-04T05:42:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-03T23:29:54.163293+00:00",
-  "query_preview": "(This evening through Tuesday)...\nIssued at 158 PM EST Tue Nov 3 2026\n\nRest of This Afternoon through Wednesday...\n\nWarm and breezy conditions will continue for the rest of the \nafternoon ahead of an approaching system. \n\nThis evening will be quiet for most areas. Overnight into Wednesday \nmorning, ",
+  "updated": "2026-11-04T06:33:35.964547+00:00",
+  "query_preview": "(Today through Tuesday)...\nIssued at 1241 AM EST Wed Nov 4 2026\n\nA positively-tilted trough located over the Great Plains is slowly \ntilting more negatively this evening. At the surface, low pressure \ncentered over Minnesota is lifting northward with a trailing cold \nfront extending well southward t",
   "analogs": [
     {
       "datetime_utc": "2007-06-26T07:20Z",
       "source_file": "IND_2007_26_0720_1.txt",
-      "similarity": 0.47587814927101135,
+      "similarity": 0.48687440156936646,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-06-26T10:23Z",
       "source_file": "IND_2007_26_1023.txt",
-      "similarity": 0.47587814927101135,
+      "similarity": 0.48687440156936646,
       "label": "severe_wind",
       "is_severe": true
     },
     {
+      "datetime_utc": "2020-02-12T23:59Z",
+      "source_file": "IND_2020_12_2359.txt",
+      "similarity": 0.46380943059921265,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2020-02-12T22:41Z",
       "source_file": "IND_2020_12_2241.txt",
-      "similarity": 0.43934983015060425,
+      "similarity": 0.46380943059921265,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-02-13T03:01Z",
+      "source_file": "IND_2020_13_0301.txt",
+      "similarity": 0.46380943059921265,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-02-12T21:38Z",
+      "source_file": "IND_2020_12_2138.txt",
+      "similarity": 0.46380943059921265,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2020-02-13T04:26Z",
       "source_file": "IND_2020_13_0426.txt",
-      "similarity": 0.43934983015060425,
+      "similarity": 0.46380943059921265,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-02-13T03:01Z",
-      "source_file": "IND_2020_13_0301.txt",
-      "similarity": 0.43934983015060425,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-02-12T23:59Z",
-      "source_file": "IND_2020_12_2359.txt",
-      "similarity": 0.43934983015060425,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-02-12T21:38Z",
-      "source_file": "IND_2020_12_2138.txt",
-      "similarity": 0.43934983015060425,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-09-09T07:41Z",
-      "source_file": "IND_2008_09_0741.txt",
-      "similarity": 0.437656968832016,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2006-05-24T19:42Z",
       "source_file": "IND_2006_24_1942.txt",
-      "similarity": 0.4325127601623535,
+      "similarity": 0.45365238189697266,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-05-25T05:16Z",
       "source_file": "IND_2006_25_0516_1.txt",
-      "similarity": 0.4325127601623535,
+      "similarity": 0.45365238189697266,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-09-09T07:41Z",
+      "source_file": "IND_2008_09_0741.txt",
+      "similarity": 0.4524945020675659,
+      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.4451187938451767,
+    "mean_similarity": 0.46525952219963074,
     "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202611031858-KIND-FXUS63-AFDIND",
-    "afd_time": "2026-11-03T18:58:00Z",
-    "updated": "2026-11-03T23:29:54.163293+00:00"
+    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
+    "product_id": "202611040542-KIND-FXUS63-AFDIND",
+    "afd_time": "2026-11-04T05:42:00Z",
+    "updated": "2026-11-04T06:33:35.964547+00:00"
   }
 }
