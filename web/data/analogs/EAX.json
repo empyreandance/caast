@@ -1,91 +1,91 @@
 {
   "office": "EAX",
-  "product_id": "202611040532-KEAX-FXUS63-AFDEAX",
-  "afd_time": "2026-11-04T05:32:00Z",
+  "product_id": "202611041059-KEAX-FXUS63-AFDEAX",
+  "afd_time": "2026-11-04T10:59:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-04T06:33:35.964547+00:00",
-  "query_preview": "..\nIssued at 113 PM CST Tue Nov 3 2026\n\nCurrent H5 and water vapor analysis shows the center of the\nmid/upper low over SE Nebraska, moving to the northeast.\nMeanwhile, the surface cyclone is currently centered over\nsouthern Iowa, with the attendant cold front draped north to \nsouth across Missouri. ",
+  "updated": "2026-11-04T15:31:12.702247+00:00",
+  "query_preview": "..\nIssued at 247 AM CST Wed Nov 4 2026\n\nCurrent 500 mb analysis shows the center of the mid/upper level low \nover NW Iowa and SW Minnesota. The surface cyclone is currently \ncentered over SE Minnesota and the associated cold front has now \nmoved through most of Missouri, taking the showers with it. ",
   "analogs": [
+    {
+      "datetime_utc": "2016-03-29T18:05Z",
+      "source_file": "EAX_2016_29_1805.txt",
+      "similarity": 0.43686264753341675,
+      "label": "severe_wind",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2016-03-29T09:00Z",
       "source_file": "EAX_2016_29_0900_2.txt",
-      "similarity": 0.4155486226081848,
+      "similarity": 0.43686264753341675,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-03-29T10:59Z",
       "source_file": "EAX_2016_29_1059.txt",
-      "similarity": 0.4155486226081848,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-03-29T18:05Z",
-      "source_file": "EAX_2016_29_1805.txt",
-      "similarity": 0.4155486226081848,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-03-30T10:54Z",
-      "source_file": "EAX_2014_30_1054.txt",
-      "similarity": 0.4104272127151489,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-03-30T17:40Z",
-      "source_file": "EAX_2014_30_1740_1.txt",
-      "similarity": 0.4104272127151489,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-03-30T09:03Z",
-      "source_file": "EAX_2014_30_0903.txt",
-      "similarity": 0.4104272127151489,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-08-05T08:04Z",
-      "source_file": "EAX_2022_05_0804.txt",
-      "similarity": 0.40777409076690674,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-08-05T17:25Z",
-      "source_file": "EAX_2022_05_1725.txt",
-      "similarity": 0.40777409076690674,
+      "similarity": 0.43686264753341675,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2022-08-05T11:08Z",
       "source_file": "EAX_2022_05_1108.txt",
-      "similarity": 0.40777409076690674,
+      "similarity": 0.4359976649284363,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-08-03T17:37Z",
-      "source_file": "EAX_2014_03_1737.txt",
-      "similarity": 0.40585511922836304,
+      "datetime_utc": "2022-08-05T08:04Z",
+      "source_file": "EAX_2022_05_0804.txt",
+      "similarity": 0.4359976649284363,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-08-05T17:25Z",
+      "source_file": "EAX_2022_05_1725.txt",
+      "similarity": 0.4359976649284363,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-03-30T10:54Z",
+      "source_file": "EAX_2014_30_1054.txt",
+      "similarity": 0.4345770478248596,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-03-30T17:40Z",
+      "source_file": "EAX_2014_30_1740_1.txt",
+      "similarity": 0.4345770478248596,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-03-30T09:03Z",
+      "source_file": "EAX_2014_30_0903.txt",
+      "similarity": 0.4345770478248596,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-12-05T05:50Z",
+      "source_file": "EAX_2023_05_0550.txt",
+      "similarity": 0.4317862391471863,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 1.0,
-    "mean_similarity": 0.4107104897499084,
-    "n_severe": 10,
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.4354098320007324,
+    "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202611040532-KEAX-FXUS63-AFDEAX",
-    "afd_time": "2026-11-04T05:32:00Z",
-    "updated": "2026-11-04T06:33:35.964547+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202611041059-KEAX-FXUS63-AFDEAX",
+    "afd_time": "2026-11-04T10:59:00Z",
+    "updated": "2026-11-04T15:31:12.702247+00:00"
   }
 }

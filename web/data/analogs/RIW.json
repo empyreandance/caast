@@ -1,91 +1,91 @@
 {
   "office": "RIW",
-  "product_id": "202611040433-KRIW-FXUS65-AFDRIW",
-  "afd_time": "2026-11-04T04:33:00Z",
+  "product_id": "202611041115-KRIW-FXUS65-AFDRIW",
+  "afd_time": "2026-11-04T11:15:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-04T06:33:35.964547+00:00",
-  "query_preview": "..\nIssued at 1248 AM MST Tue Nov 3 2026\n\nPrecipitation has ended across the area, with winds finally \nsubsiding over northern Johnson County. Skies remain overcast over \nmuch of the CWA early this morning, with clear skies over \nsouthwestern portions of the state. Low clouds/fog will be possible \nat",
+  "updated": "2026-11-04T15:31:12.702247+00:00",
+  "query_preview": "..\nIssued at 121 AM MST Wed Nov 4 2026\n\nConditions remain quiet this morning, as high clouds have moved over \nareas west of the Divide in the last several hours since Tuesday \nevening. These are due to a closed low pressure system that is \nmoving over northern UT currently and will continue to track",
   "analogs": [
     {
       "datetime_utc": "2017-11-24T20:38Z",
       "source_file": "RIW_2017_24_2038.txt",
-      "similarity": 0.35728588700294495,
+      "similarity": 0.353066086769104,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-11-25T05:05Z",
       "source_file": "RIW_2017_25_0505.txt",
-      "similarity": 0.35728588700294495,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-04-16T04:16Z",
-      "source_file": "RIW_2018_16_0416.txt",
-      "similarity": 0.3538288474082947,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-04-16T04:52Z",
-      "source_file": "RIW_2018_16_0452.txt",
-      "similarity": 0.3538288474082947,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-04-15T19:16Z",
-      "source_file": "RIW_2018_15_1916.txt",
-      "similarity": 0.3538288474082947,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-06-16T17:42Z",
-      "source_file": "RIW_2018_16_1742.txt",
-      "similarity": 0.35093504190444946,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-06-16T08:59Z",
-      "source_file": "RIW_2018_16_0859.txt",
-      "similarity": 0.35093504190444946,
+      "similarity": 0.353066086769104,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2022-09-01T11:18Z",
       "source_file": "RIW_2022_01_1118.txt",
-      "similarity": 0.3446195125579834,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-09-01T09:08Z",
-      "source_file": "RIW_2022_01_0908.txt",
-      "similarity": 0.3446195125579834,
+      "similarity": 0.3419918417930603,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2022-09-01T17:07Z",
       "source_file": "RIW_2022_01_1707.txt",
-      "similarity": 0.3446195125579834,
+      "similarity": 0.3419918417930603,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-09-01T09:08Z",
+      "source_file": "RIW_2022_01_0908.txt",
+      "similarity": 0.3419918417930603,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-12-09T09:34Z",
+      "source_file": "RIW_2020_09_0934.txt",
+      "similarity": 0.33756065368652344,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-04-15T19:16Z",
+      "source_file": "RIW_2018_15_1916.txt",
+      "similarity": 0.3370959162712097,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-04-16T04:52Z",
+      "source_file": "RIW_2018_16_0452.txt",
+      "similarity": 0.3370959162712097,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-04-16T04:16Z",
+      "source_file": "RIW_2018_16_0416.txt",
+      "similarity": 0.3370959162712097,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-12-09T17:23Z",
+      "source_file": "RIW_2020_09_1723.txt",
+      "similarity": 0.3369078040122986,
+      "label": "winter",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.3511786937713623,
-    "n_severe": 7,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.341786390542984,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
-    "product_id": "202611040433-KRIW-FXUS65-AFDRIW",
-    "afd_time": "2026-11-04T04:33:00Z",
-    "updated": "2026-11-04T06:33:35.964547+00:00"
+    "reason": "top-10 mean similarity 0.34 below confidence floor 0.7",
+    "product_id": "202611041115-KRIW-FXUS65-AFDRIW",
+    "afd_time": "2026-11-04T11:15:00Z",
+    "updated": "2026-11-04T15:31:12.702247+00:00"
   }
 }

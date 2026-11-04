@@ -1,91 +1,91 @@
 {
   "office": "IWX",
-  "product_id": "202611040553-KIWX-FXUS63-AFDIWX",
-  "afd_time": "2026-11-04T05:53:00Z",
+  "product_id": "202611041125-KIWX-FXUS63-AFDIWX",
+  "afd_time": "2026-11-04T11:25:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-04T06:33:35.964547+00:00",
-  "query_preview": "..\nIssued at 150 PM EST Tue Nov 3 2026\n\n- Gusty conditions this afternoon with winds 25-35 mph.\n\nWarm air advection driven by southerly flow has led to quite the \nwarm day across the Michiana region and northwestern Ohio this \nafternoon with highs already in the low to mid 70s. Mostly clear \nskies c",
+  "updated": "2026-11-04T15:31:12.702247+00:00",
+  "query_preview": "..\nIssued at 214 AM EST Wed Nov 4 2026\n\nA 1002mb low swirls over far southwest WI early this morning \nwhile a lagging cold front bulges into western IL. An area of \nrain is lifting through the Ohio River Valley beneath 75-knot \n500mb flow and a 50-knot 850-mb jet. Rain today will generally \namount t",
   "analogs": [
     {
-      "datetime_utc": "2006-04-11T17:37Z",
-      "source_file": "IWX_2006_11_1737.txt",
-      "similarity": 0.42529767751693726,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-04-11T11:07Z",
-      "source_file": "IWX_2006_11_1107.txt",
-      "similarity": 0.42529767751693726,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-04-11T08:39Z",
-      "source_file": "IWX_2006_11_0839.txt",
-      "similarity": 0.42529767751693726,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2019-02-11T23:29Z",
-      "source_file": "IWX_2019_11_2329_1.txt",
-      "similarity": 0.41996222734451294,
-      "label": "winter",
+      "datetime_utc": "2018-09-07T23:02Z",
+      "source_file": "IWX_2018_07_2302.txt",
+      "similarity": 0.4002501666545868,
+      "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-02-12T05:00Z",
-      "source_file": "IWX_2019_12_0500.txt",
-      "similarity": 0.41996222734451294,
+      "datetime_utc": "2018-09-08T04:53Z",
+      "source_file": "IWX_2018_08_0453.txt",
+      "similarity": 0.4002501666545868,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-09-07T19:58Z",
+      "source_file": "IWX_2018_07_1958_1.txt",
+      "similarity": 0.4002501666545868,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-02-05T20:58Z",
+      "source_file": "IWX_2007_05_2058.txt",
+      "similarity": 0.3968905806541443,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-02-12T06:40Z",
       "source_file": "IWX_2019_12_0640.txt",
-      "similarity": 0.41996219754219055,
+      "similarity": 0.3941023349761963,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-02-12T02:19Z",
-      "source_file": "IWX_2019_12_0219.txt",
-      "similarity": 0.41996219754219055,
+      "datetime_utc": "2019-02-11T23:29Z",
+      "source_file": "IWX_2019_11_2329_1.txt",
+      "similarity": 0.3941023349761963,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-02-11T21:01Z",
       "source_file": "IWX_2019_11_2101.txt",
-      "similarity": 0.41996219754219055,
+      "similarity": 0.3941023349761963,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-09-08T04:53Z",
-      "source_file": "IWX_2018_08_0453.txt",
-      "similarity": 0.41371503472328186,
-      "label": "quiet",
+      "datetime_utc": "2019-02-12T05:00Z",
+      "source_file": "IWX_2019_12_0500.txt",
+      "similarity": 0.3941023349761963,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-09-07T23:02Z",
-      "source_file": "IWX_2018_07_2302.txt",
-      "similarity": 0.41371503472328186,
-      "label": "flood",
+      "datetime_utc": "2019-02-12T02:19Z",
+      "source_file": "IWX_2019_12_0219.txt",
+      "similarity": 0.3941023349761963,
+      "label": "winter",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-03-11T11:50Z",
+      "source_file": "IWX_2012_11_1150.txt",
+      "similarity": 0.3915926218032837,
+      "label": "tornado",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.4203134149312973,
-    "n_severe": 3,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.39597453773021696,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202611040553-KIWX-FXUS63-AFDIWX",
-    "afd_time": "2026-11-04T05:53:00Z",
-    "updated": "2026-11-04T06:33:35.964547+00:00"
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202611041125-KIWX-FXUS63-AFDIWX",
+    "afd_time": "2026-11-04T11:25:00Z",
+    "updated": "2026-11-04T15:31:12.702247+00:00"
   }
 }
