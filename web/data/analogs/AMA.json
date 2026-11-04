@@ -1,78 +1,78 @@
 {
   "office": "AMA",
-  "product_id": "202611041044-KAMA-FXUS64-AFDAMA",
-  "afd_time": "2026-11-04T10:44:00Z",
+  "product_id": "202611041757-KAMA-FXUS64-AFDAMA",
+  "afd_time": "2026-11-04T17:57:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-04T15:31:12.702247+00:00",
-  "query_preview": "..\n(Friday through next Tuesday)\nIssued at 1142 PM CST Tue Nov 3 2026\n\nFall weather will continue with mostly dry conditions expected. \nTemperatures should rebound into the lower to middle 60s by early\nnext week.",
+  "updated": "2026-11-04T21:57:04.976100+00:00",
+  "query_preview": "..\n(Friday through next Tuesday)\nIssued at 1113 AM CST Wed Nov 4 2026\n\nFri through Tue is looking fairly quiet and benign. Afternoon \nhighs in the 50s expected to persist into Sat with widespread \nhighs in the 60s returning Sun. Surface winds look to remain \nlight, less than 15 mph with periods wher",
   "analogs": [
+    {
+      "datetime_utc": "2004-10-26T21:10Z",
+      "source_file": "AMA_2004_26_2110.txt",
+      "similarity": 0.4613191783428192,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-10-27T08:55Z",
+      "source_file": "AMA_2004_27_0855_1.txt",
+      "similarity": 0.4613191783428192,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2008-05-29T08:41Z",
       "source_file": "AMA_2008_29_0841.txt",
-      "similarity": 0.3528798222541809,
+      "similarity": 0.4569300711154938,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-05-28T20:14Z",
       "source_file": "AMA_2008_28_2014.txt",
-      "similarity": 0.3528798222541809,
+      "similarity": 0.4569300711154938,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-11-27T10:32Z",
-      "source_file": "AMA_2005_27_1032.txt",
-      "similarity": 0.34501349925994873,
+      "datetime_utc": "2016-02-14T09:57Z",
+      "source_file": "AMA_2016_14_0957.txt",
+      "similarity": 0.4557633399963379,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-07-08T21:13Z",
-      "source_file": "AMA_2004_08_2113.txt",
-      "similarity": 0.34109947085380554,
+      "datetime_utc": "2004-07-02T08:46Z",
+      "source_file": "AMA_2004_02_0846.txt",
+      "similarity": 0.4544529318809509,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-10-27T08:55Z",
-      "source_file": "AMA_2004_27_0855_1.txt",
-      "similarity": 0.34093332290649414,
+      "datetime_utc": "2007-10-17T10:50Z",
+      "source_file": "AMA_2007_17_1050.txt",
+      "similarity": 0.45148274302482605,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-10-26T21:10Z",
-      "source_file": "AMA_2004_26_2110.txt",
-      "similarity": 0.34093332290649414,
+      "datetime_utc": "2007-10-17T20:51Z",
+      "source_file": "AMA_2007_17_2051.txt",
+      "similarity": 0.45148274302482605,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2025-10-04T18:44Z",
-      "source_file": "AMA_2025_04_1844.txt",
-      "similarity": 0.3396541178226471,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2025-10-04T23:23Z",
-      "source_file": "AMA_2025_04_2323.txt",
-      "similarity": 0.3396541178226471,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-01-24T22:00Z",
-      "source_file": "AMA_2010_24_2200.txt",
-      "similarity": 0.3395058512687683,
+      "datetime_utc": "2011-04-27T08:28Z",
+      "source_file": "AMA_2011_27_0828.txt",
+      "similarity": 0.4464161992073059,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-01-27T09:00Z",
-      "source_file": "AMA_2004_27_0900_1.txt",
-      "similarity": 0.33932730555534363,
+      "datetime_utc": "2005-11-27T10:32Z",
+      "source_file": "AMA_2005_27_1032.txt",
+      "similarity": 0.44528865814208984,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.34318806529045104,
+    "mean_similarity": 0.4541385114192963,
     "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.34 below confidence floor 0.7",
-    "product_id": "202611041044-KAMA-FXUS64-AFDAMA",
-    "afd_time": "2026-11-04T10:44:00Z",
-    "updated": "2026-11-04T15:31:12.702247+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202611041757-KAMA-FXUS64-AFDAMA",
+    "afd_time": "2026-11-04T17:57:00Z",
+    "updated": "2026-11-04T21:57:04.976100+00:00"
   }
 }

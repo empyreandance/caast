@@ -1,91 +1,91 @@
 {
   "office": "MSO",
-  "product_id": "202611040959-KMSO-FXUS65-AFDMSO",
-  "afd_time": "2026-11-04T09:59:00Z",
+  "product_id": "202611041958-KMSO-FXUS65-AFDMSO",
+  "afd_time": "2026-11-04T19:58:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-04T15:31:12.702247+00:00",
-  "query_preview": "..\n\nKEY MESSAGES:\n\n-  Areas of fog or low clouds again possible tonight.\n\n-  Light precipitation is possible Thursday onward.\n\nNear-Term (Today):\nStrong temperature inversions and moisture from regional \nwaterways (like the 50-degree Flathead Lake) have locked in \nfog and low clouds across northwest",
+  "updated": "2026-11-04T21:57:04.976100+00:00",
+  "query_preview": "..\n\nKEY MESSAGES:\n\n-  Areas of fog or low clouds again possible tonight.\n\n-  Light precipitation is possible Thursday onward.\n\nLooking at satellite you can clearly define mountains to valleys,\nalmost all valleys lower than 6000 feet show up white or filled\nwith low clouds. The mountains are complete",
   "analogs": [
     {
-      "datetime_utc": "2006-01-05T21:34Z",
-      "source_file": "MSO_2006_05_2134.txt",
-      "similarity": 0.43546563386917114,
-      "label": "flood",
+      "datetime_utc": "2021-01-05T21:45Z",
+      "source_file": "MSO_2021_05_2145.txt",
+      "similarity": 0.4127371907234192,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-01-06T04:26Z",
-      "source_file": "MSO_2006_06_0426.txt",
-      "similarity": 0.43546563386917114,
-      "label": "severe_wind",
+      "datetime_utc": "2012-03-31T17:50Z",
+      "source_file": "MSO_2012_31_1750.txt",
+      "similarity": 0.41028451919555664,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-12-16T03:58Z",
-      "source_file": "MSO_2019_16_0358.txt",
-      "similarity": 0.4322720170021057,
+      "datetime_utc": "2018-06-20T09:44Z",
+      "source_file": "MSO_2018_20_0944.txt",
+      "similarity": 0.4086414575576782,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-12-19T17:00Z",
+      "source_file": "MSO_2009_19_1700.txt",
+      "similarity": 0.4059144854545593,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-10-24T23:35Z",
       "source_file": "MSO_2005_24_2335.txt",
-      "similarity": 0.42641791701316833,
+      "similarity": 0.4031744599342346,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2021-01-05T21:45Z",
-      "source_file": "MSO_2021_05_2145.txt",
-      "similarity": 0.42066600918769836,
+      "datetime_utc": "2008-12-14T03:10Z",
+      "source_file": "MSO_2008_14_0310.txt",
+      "similarity": 0.4008905291557312,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-11-18T14:51Z",
-      "source_file": "MSO_2013_18_1451.txt",
-      "similarity": 0.4195236563682556,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-01-26T10:39Z",
-      "source_file": "MSO_2020_26_1039.txt",
-      "similarity": 0.4194720983505249,
+      "datetime_utc": "2024-07-30T19:44Z",
+      "source_file": "MSO_2024_30_1944.txt",
+      "similarity": 0.3973250985145569,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-07-31T08:20Z",
       "source_file": "MSO_2024_31_0820.txt",
-      "similarity": 0.41938960552215576,
+      "similarity": 0.3973250985145569,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-07-30T19:44Z",
-      "source_file": "MSO_2024_30_1944.txt",
-      "similarity": 0.41938960552215576,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2006-01-05T21:34Z",
+      "source_file": "MSO_2006_05_2134.txt",
+      "similarity": 0.39475834369659424,
+      "label": "flood",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2012-03-31T17:50Z",
-      "source_file": "MSO_2012_31_1750.txt",
-      "similarity": 0.4153807759284973,
-      "label": "severe_hail",
+      "datetime_utc": "2006-01-06T04:26Z",
+      "source_file": "MSO_2006_06_0426.txt",
+      "similarity": 0.39475834369659424,
+      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.4243442952632904,
+    "mean_similarity": 0.4025809526443481,
     "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202611040959-KMSO-FXUS65-AFDMSO",
-    "afd_time": "2026-11-04T09:59:00Z",
-    "updated": "2026-11-04T15:31:12.702247+00:00"
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202611041958-KMSO-FXUS65-AFDMSO",
+    "afd_time": "2026-11-04T19:58:00Z",
+    "updated": "2026-11-04T21:57:04.976100+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "LOT",
-  "product_id": "202611041204-KLOT-FXUS63-AFDLOT",
-  "afd_time": "2026-11-04T12:04:00Z",
+  "product_id": "202611041758-KLOT-FXUS63-AFDLOT",
+  "afd_time": "2026-11-04T17:58:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-04T15:31:12.702247+00:00",
-  "query_preview": "..\nIssued at 256 AM CST Wed Nov 4 2026\n\nSurface low pressure was analyzed just southeast of KMSP as of \n1 AM CST, with a trailing cold front extending to its south, \njust west of the Mississippi River over far eastern IA/MO. \nAloft, GOES water vapor imagery depicted a strong negative-tilt \nshort wav",
+  "updated": "2026-11-04T21:57:04.976100+00:00",
+  "query_preview": "..\nIssued at 1140 AM CST Wed Nov 4 2026\n\nA cutoff low pressure system continues lumbering northeastawrd\nand interacts with another vigorous southward-moving area of\nvorticity from central Canada today through Friday. As a cold\nfront and associated dry slot swings through this afternoon, 850\nmb tempe",
   "analogs": [
+    {
+      "datetime_utc": "2005-??-11T09:40Z",
+      "source_file": "LOT_2005_11_0940.txt",
+      "similarity": 0.39880478382110596,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-06-08T19:41Z",
+      "source_file": "LOT_2016_08_1941.txt",
+      "similarity": 0.39841562509536743,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-06-16T20:49Z",
+      "source_file": "LOT_2006_16_2049.txt",
+      "similarity": 0.3926728367805481,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-09-04T08:40Z",
+      "source_file": "LOT_2015_04_0840.txt",
+      "similarity": 0.3854078948497772,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-02-21T20:20Z",
+      "source_file": "LOT_2006_21_2020_1.txt",
+      "similarity": 0.3804177939891815,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-02-21T23:58Z",
+      "source_file": "LOT_2006_21_2358_1.txt",
+      "similarity": 0.3804177939891815,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2008-10-14T15:46Z",
       "source_file": "LOT_2008_14_1546.txt",
-      "similarity": 0.40741589665412903,
+      "similarity": 0.38031721115112305,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-10-14T17:42Z",
       "source_file": "LOT_2008_14_1742.txt",
-      "similarity": 0.40741589665412903,
+      "similarity": 0.38031721115112305,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-10-14T09:30Z",
       "source_file": "LOT_2008_14_0930.txt",
-      "similarity": 0.40741589665412903,
+      "similarity": 0.38031721115112305,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-10-14T11:43Z",
       "source_file": "LOT_2008_14_1143.txt",
-      "similarity": 0.40741589665412903,
+      "similarity": 0.38031721115112305,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-06-16T20:49Z",
-      "source_file": "LOT_2006_16_2049.txt",
-      "similarity": 0.39549392461776733,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-06-08T19:41Z",
-      "source_file": "LOT_2016_08_1941.txt",
-      "similarity": 0.38913315534591675,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-??-11T09:40Z",
-      "source_file": "LOT_2005_11_0940.txt",
-      "similarity": 0.3864608407020569,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-11-02T18:01Z",
-      "source_file": "LOT_2004_02_1801.txt",
-      "similarity": 0.3777368664741516,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-11-02T09:05Z",
-      "source_file": "LOT_2004_02_0905.txt",
-      "similarity": 0.3777368664741516,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-11-02T11:59Z",
-      "source_file": "LOT_2004_02_1159.txt",
-      "similarity": 0.3777368664741516,
-      "label": "quiet",
-      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.3933962106704712,
-    "n_severe": 6,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.3857405573129654,
+    "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202611041204-KLOT-FXUS63-AFDLOT",
-    "afd_time": "2026-11-04T12:04:00Z",
-    "updated": "2026-11-04T15:31:12.702247+00:00"
+    "product_id": "202611041758-KLOT-FXUS63-AFDLOT",
+    "afd_time": "2026-11-04T17:58:00Z",
+    "updated": "2026-11-04T21:57:04.976100+00:00"
   }
 }
