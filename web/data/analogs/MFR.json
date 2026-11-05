@@ -1,91 +1,91 @@
 {
   "office": "MFR",
-  "product_id": "202611050557-KMFR-FXUS66-AFDMFR",
-  "afd_time": "2026-11-05T05:57:00Z",
+  "product_id": "202611051752-KMFR-FXUS66-AFDMFR",
+  "afd_time": "2026-11-05T17:52:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-05T11:02:53.774134+00:00",
-  "query_preview": "..Westerly flow aloft will keep a progressive, though \nnot terribly impactful, pattern in place for much of the forecast \nperiod. A weak cold front is reaching the coast this afternoon, \nwhich will bring 15-30% chances for rain showers to coos and Douglas \ncounties with forecast amounts in the hundr",
+  "updated": "2026-11-05T18:49:17.310846+00:00",
+  "query_preview": "..\n\nNot a lot going on this morning other than the freezing fog east\nof the Cascades and some fog and low stratus closer to the coast.\nThe freezing fog is the bigger issue as KLMT visibility is \ndropping below 1/4 a mile at times. Last night some wind seemed to\npush visibilities higher. We're not un",
   "analogs": [
     {
       "datetime_utc": "2011-08-15T03:40Z",
       "source_file": "MFR_2011_15_0340.txt",
-      "similarity": 0.463590145111084,
+      "similarity": 0.408794105052948,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-04-13T21:36Z",
       "source_file": "MFR_2005_13_2136.txt",
-      "similarity": 0.45364493131637573,
+      "similarity": 0.4047613739967346,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-07-12T09:57Z",
+      "source_file": "MFR_2007_12_0957.txt",
+      "similarity": 0.39341193437576294,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-07-12T16:06Z",
+      "source_file": "MFR_2007_12_1606.txt",
+      "similarity": 0.39341193437576294,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-08-18T03:50Z",
+      "source_file": "MFR_2009_18_0350.txt",
+      "similarity": 0.39240849018096924,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-06-19T15:36Z",
       "source_file": "MFR_2007_19_1536_1.txt",
-      "similarity": 0.4454191327095032,
+      "similarity": 0.39041727781295776,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-06-19T09:34Z",
       "source_file": "MFR_2007_19_0934.txt",
-      "similarity": 0.4454191327095032,
+      "similarity": 0.39041727781295776,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-05-16T10:23Z",
       "source_file": "MFR_2005_16_1023.txt",
-      "similarity": 0.4437256455421448,
+      "similarity": 0.390025794506073,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-08-18T03:50Z",
-      "source_file": "MFR_2009_18_0350.txt",
-      "similarity": 0.44172412157058716,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-02-01T04:39Z",
-      "source_file": "MFR_2008_01_0439.txt",
-      "similarity": 0.4409738779067993,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-02-29T22:02Z",
-      "source_file": "MFR_2008_29_2202.txt",
-      "similarity": 0.4409738779067993,
-      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2008-08-02T15:59Z",
       "source_file": "MFR_2008_02_1559.txt",
-      "similarity": 0.4376590847969055,
+      "similarity": 0.389536589384079,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-12-27T21:42Z",
-      "source_file": "MFR_2006_27_2142.txt",
-      "similarity": 0.4369962215423584,
-      "label": "flood",
+      "datetime_utc": "2008-02-29T22:02Z",
+      "source_file": "MFR_2008_29_2202.txt",
+      "similarity": 0.3885800242424011,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.44501261711120604,
-    "n_severe": 2,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.39417648017406465,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202611050557-KMFR-FXUS66-AFDMFR",
-    "afd_time": "2026-11-05T05:57:00Z",
-    "updated": "2026-11-05T11:02:53.774134+00:00"
+    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
+    "product_id": "202611051752-KMFR-FXUS66-AFDMFR",
+    "afd_time": "2026-11-05T17:52:00Z",
+    "updated": "2026-11-05T18:49:17.310846+00:00"
   }
 }

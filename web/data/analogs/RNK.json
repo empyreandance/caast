@@ -1,65 +1,58 @@
 {
   "office": "RNK",
-  "product_id": "202611050639-KRNK-FXUS61-AFDRNK",
-  "afd_time": "2026-11-05T06:39:00Z",
+  "product_id": "202611051752-KRNK-FXUS61-AFDRNK",
+  "afd_time": "2026-11-05T17:52:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-05T11:02:53.774134+00:00",
+  "updated": "2026-11-05T18:49:17.310846+00:00",
   "query_preview": "..\nKEY MESSAGE 1: Showers will be more scattered nature into Friday, with best\nchance east of the Blue Ridge.\n\nA frontal boundary pushes slowly east today, reaching the\nPiedmont tonight. Low pressure will form along the Florida\nPanhandle this evening and lift northeast along the front late\ntonight. ",
   "analogs": [
     {
+      "datetime_utc": "2004-08-19T06:04Z",
+      "source_file": "RNK_2004_19_0604.txt",
+      "similarity": 0.47871896624565125,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2004-08-19T11:00Z",
       "source_file": "RNK_2004_19_1100.txt",
-      "similarity": 0.47871899604797363,
+      "similarity": 0.47871896624565125,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-08-19T14:04Z",
       "source_file": "RNK_2004_19_1404.txt",
-      "similarity": 0.47871899604797363,
+      "similarity": 0.47871896624565125,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-08-19T06:04Z",
-      "source_file": "RNK_2004_19_0604.txt",
-      "similarity": 0.47871899604797363,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2025-11-10T12:00Z",
-      "source_file": "RNK_2025_10_1200.txt",
-      "similarity": 0.4583847224712372,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2025-11-10T19:23Z",
       "source_file": "RNK_2025_10_1923.txt",
-      "similarity": 0.4583847224712372,
+      "similarity": 0.4583846926689148,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-11-10T12:00Z",
+      "source_file": "RNK_2025_10_1200.txt",
+      "similarity": 0.4583846926689148,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2025-11-10T08:15Z",
       "source_file": "RNK_2025_10_0815.txt",
-      "similarity": 0.4583847224712372,
+      "similarity": 0.4583846926689148,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2023-04-06T21:04Z",
       "source_file": "RNK_2023_06_2104.txt",
-      "similarity": 0.4510802626609802,
+      "similarity": 0.451080322265625,
       "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-11-05T05:45Z",
-      "source_file": "RNK_2010_05_0545.txt",
-      "similarity": 0.45043742656707764,
-      "label": "quiet",
       "is_severe": false
     },
     {
@@ -75,17 +68,24 @@
       "similarity": 0.45043742656707764,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-11-05T01:46Z",
+      "source_file": "RNK_2010_05_0146.txt",
+      "similarity": 0.45043742656707764,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.46137036979198454,
+    "mean_similarity": 0.4613703578710556,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202611050639-KRNK-FXUS61-AFDRNK",
-    "afd_time": "2026-11-05T06:39:00Z",
-    "updated": "2026-11-05T11:02:53.774134+00:00"
+    "product_id": "202611051752-KRNK-FXUS61-AFDRNK",
+    "afd_time": "2026-11-05T17:52:00Z",
+    "updated": "2026-11-05T18:49:17.310846+00:00"
   }
 }
