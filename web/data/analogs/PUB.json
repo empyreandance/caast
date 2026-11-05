@@ -1,91 +1,91 @@
 {
   "office": "PUB",
-  "product_id": "202611041938-KPUB-FXUS65-AFDPUB",
-  "afd_time": "2026-11-04T19:38:00Z",
+  "product_id": "202611050143-KPUB-FXUS65-AFDPUB",
+  "afd_time": "2026-11-05T01:43:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-04T21:57:04.976100+00:00",
-  "query_preview": "/FRIDAY THROUGH TUESDAY/...\nIssued at 110 AM MST Wed Nov 4 2026\n\nFriday - Saturday: For the end of the week and into the start of the \nweekend, some active weather may persist for south central and \nsoutheastern Colorado. Another wave is expected to push across the \nregion through this timeframe, bu",
+  "updated": "2026-11-05T02:32:49.206817+00:00",
+  "query_preview": "/FRIDAY THROUGH WEDNESDAY/...\nIssued at 302 PM MST Wed Nov 4 2026\n\nBy Friday, the band of elevated 500mb vorticity, should have \nfiltered out of the area, leaving us with ridging aloft. It may\nbe possible for westerly flow, combined with modest humidity, \nto produce orographic precipitation on the w",
   "analogs": [
     {
       "datetime_utc": "2007-06-03T19:56Z",
       "source_file": "PUB_2007_03_1956.txt",
-      "similarity": 0.3760695457458496,
+      "similarity": 0.42981815338134766,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-06-04T20:45Z",
       "source_file": "PUB_2007_04_2045.txt",
-      "similarity": 0.36794543266296387,
+      "similarity": 0.4281080961227417,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-06-27T02:46Z",
+      "source_file": "PUB_2021_27_0246.txt",
+      "similarity": 0.41373854875564575,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-09-25T09:07Z",
       "source_file": "PUB_2006_25_0907.txt",
-      "similarity": 0.36349594593048096,
+      "similarity": 0.4132841229438782,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-04-20T20:42Z",
-      "source_file": "PUB_2006_20_2042.txt",
-      "similarity": 0.36186498403549194,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-04-20T10:33Z",
-      "source_file": "PUB_2012_20_1033.txt",
-      "similarity": 0.3612479269504547,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2024-07-22T21:08Z",
       "source_file": "PUB_2024_22_2108.txt",
-      "similarity": 0.35972535610198975,
+      "similarity": 0.4075751006603241,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-07-23T04:59Z",
       "source_file": "PUB_2024_23_0459.txt",
-      "similarity": 0.35972535610198975,
+      "similarity": 0.4075751006603241,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-07-22T23:33Z",
       "source_file": "PUB_2024_22_2333.txt",
-      "similarity": 0.35972535610198975,
+      "similarity": 0.4075751006603241,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-11-22T10:31Z",
       "source_file": "PUB_2005_22_1031_1.txt",
-      "similarity": 0.3571469783782959,
+      "similarity": 0.39706432819366455,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-06-17T21:12Z",
-      "source_file": "PUB_2012_17_2112.txt",
-      "similarity": 0.35379520058631897,
-      "label": "severe_hail",
+      "datetime_utc": "2016-05-12T06:38Z",
+      "source_file": "PUB_2016_12_0638.txt",
+      "similarity": 0.3926597833633423,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-04-20T10:33Z",
+      "source_file": "PUB_2012_20_1033.txt",
+      "similarity": 0.39136064052581787,
+      "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.36207420825958253,
+    "mean_similarity": 0.40887589752674103,
     "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
-    "product_id": "202611041938-KPUB-FXUS65-AFDPUB",
-    "afd_time": "2026-11-04T19:38:00Z",
-    "updated": "2026-11-04T21:57:04.976100+00:00"
+    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
+    "product_id": "202611050143-KPUB-FXUS65-AFDPUB",
+    "afd_time": "2026-11-05T01:43:00Z",
+    "updated": "2026-11-05T02:32:49.206817+00:00"
   }
 }
