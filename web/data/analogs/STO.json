@@ -1,91 +1,91 @@
 {
   "office": "STO",
-  "product_id": "202611060827-KSTO-FXUS66-AFDSTO",
-  "afd_time": "2026-11-06T08:27:00Z",
+  "product_id": "202611062050-KSTO-FXUS66-AFDSTO",
+  "afd_time": "2026-11-06T20:50:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-06T16:00:13.784724+00:00",
-  "query_preview": "..\n\nToday-Saturday:\n\nThe upper level pattern begins shifting toward ridging aloft \ntoday into the weekend alongside rising heights aloft. The \nresulting appreciable weather at the surface will remain \nseasonable to warm with periodically breezy north to east winds \nToday into Saturday AM. Downslope ",
+  "updated": "2026-11-06T21:34:22.081498+00:00",
+  "query_preview": "..\n\nToday-Mid Week:\n\nWarm and dry weather continues under upper level ridging, with\nperiodically breezy winds expected into Saturday AM. Downslope \nnortheast to east winds will remain strongest along the Sierra \nduring the overnight and early morning hours, with gusts 25 to 35 \nmph look to develop t",
   "analogs": [
     {
       "datetime_utc": "2020-08-16T10:36Z",
       "source_file": "STO_2020_16_1036.txt",
-      "similarity": 0.38189560174942017,
+      "similarity": 0.41943758726119995,
       "label": "severe_wind",
       "is_severe": true
     },
     {
+      "datetime_utc": "2023-01-24T10:29Z",
+      "source_file": "STO_2023_24_1029.txt",
+      "similarity": 0.40992382168769836,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2023-01-21T22:13Z",
       "source_file": "STO_2023_21_2213.txt",
-      "similarity": 0.3761931359767914,
+      "similarity": 0.38929519057273865,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2022-09-17T21:01Z",
-      "source_file": "STO_2022_17_2101.txt",
-      "similarity": 0.3722381889820099,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2022-08-29T22:15Z",
+      "source_file": "STO_2022_29_2215.txt",
+      "similarity": 0.3866450786590576,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2017-01-25T23:35Z",
-      "source_file": "STO_2017_25_2335.txt",
-      "similarity": 0.36848580837249756,
+      "datetime_utc": "2021-11-26T19:27Z",
+      "source_file": "STO_2021_26_1927.txt",
+      "similarity": 0.38362210988998413,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-??-08T05:08Z",
+      "source_file": "STO_2014_08_0508.txt",
+      "similarity": 0.37987202405929565,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-09-07T22:54Z",
+      "source_file": "STO_2014_07_2254.txt",
+      "similarity": 0.37987202405929565,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-01-26T04:22Z",
       "source_file": "STO_2017_26_0422.txt",
-      "similarity": 0.36848580837249756,
+      "similarity": 0.37930232286453247,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-01-24T10:29Z",
-      "source_file": "STO_2023_24_1029.txt",
-      "similarity": 0.36065053939819336,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-07-24T10:10Z",
-      "source_file": "STO_2015_24_1010.txt",
-      "similarity": 0.3576177954673767,
+      "datetime_utc": "2017-01-25T23:35Z",
+      "source_file": "STO_2017_25_2335.txt",
+      "similarity": 0.37930232286453247,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-11-08T05:50Z",
-      "source_file": "STO_2006_08_0550.txt",
-      "similarity": 0.353327214717865,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-12-29T10:33Z",
-      "source_file": "STO_2020_29_1033.txt",
-      "similarity": 0.35250669717788696,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-12-29T11:23Z",
-      "source_file": "STO_2020_29_1123.txt",
-      "similarity": 0.35250669717788696,
-      "label": "tornado",
+      "datetime_utc": "2022-09-17T21:01Z",
+      "source_file": "STO_2022_17_2101.txt",
+      "similarity": 0.37761083245277405,
+      "label": "severe_hail",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.36439074873924254,
-    "n_severe": 5,
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.3884883314371109,
+    "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
-    "product_id": "202611060827-KSTO-FXUS66-AFDSTO",
-    "afd_time": "2026-11-06T08:27:00Z",
-    "updated": "2026-11-06T16:00:13.784724+00:00"
+    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
+    "product_id": "202611062050-KSTO-FXUS66-AFDSTO",
+    "afd_time": "2026-11-06T20:50:00Z",
+    "updated": "2026-11-06T21:34:22.081498+00:00"
   }
 }

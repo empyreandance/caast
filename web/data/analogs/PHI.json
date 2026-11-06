@@ -1,92 +1,91 @@
 {
   "office": "PHI",
-  "product_id": "202611061518-KPHI-FXUS61-AFDPHI",
-  "afd_time": "2026-11-06T15:18:00Z",
+  "product_id": "202611061946-KPHI-FXUS61-AFDPHI",
+  "afd_time": "2026-11-06T19:46:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-06T16:00:13.784724+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...A slow moving cold front will cross the area through \ntoday bringing several rounds of rain, heavy at times.  \n\nAs of 7 AM this morning, a diffuse cold front was located over NW NJ \nextending south and westward through SE PA into Delmarva. There has \nbeen an initial round of heavy",
+  "updated": "2026-11-06T21:34:22.081498+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...A weak, slow moving cold front will continue to push \nacross the area this afternoon bringing some additional rounds of \nshowers. The rain is not expected to be as heavy as what occurred \nearlier this morning and will taper off west to east through the \nlate afternoon into this ev",
   "analogs": [
     {
       "datetime_utc": "2012-10-25T20:24Z",
       "source_file": "PHI_2012_25_2024.txt",
-      "similarity": 0.8600502014160156,
+      "similarity": 0.815861701965332,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-05-19T02:07Z",
       "source_file": "PHI_2018_19_0207.txt",
-      "similarity": 0.7694000601768494,
+      "similarity": 0.7306845188140869,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-07-23T07:26Z",
       "source_file": "PHI_2017_23_0726.txt",
-      "similarity": 0.7051435708999634,
+      "similarity": 0.6655601859092712,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-05-25T14:04Z",
       "source_file": "PHI_2017_25_1404.txt",
-      "similarity": 0.6885617971420288,
+      "similarity": 0.644530713558197,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-05-25T18:17Z",
       "source_file": "PHI_2017_25_1817.txt",
-      "similarity": 0.6885617971420288,
+      "similarity": 0.644530713558197,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-05-25T16:44Z",
       "source_file": "PHI_2017_25_1644.txt",
-      "similarity": 0.6885617971420288,
+      "similarity": 0.644530713558197,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-02-18T08:44Z",
-      "source_file": "PHI_2006_18_0844.txt",
-      "similarity": 0.6626757383346558,
+      "datetime_utc": "2006-02-17T20:38Z",
+      "source_file": "PHI_2006_17_2038.txt",
+      "similarity": 0.6232013702392578,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-02-17T20:38Z",
-      "source_file": "PHI_2006_17_2038.txt",
-      "similarity": 0.6626757383346558,
+      "datetime_utc": "2006-02-18T08:44Z",
+      "source_file": "PHI_2006_18_0844.txt",
+      "similarity": 0.6232013702392578,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-10-31T17:28Z",
       "source_file": "PHI_2011_31_1728.txt",
-      "similarity": 0.6523330211639404,
+      "similarity": 0.6159708499908447,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-10-31T12:57Z",
-      "source_file": "PHI_2011_31_1257.txt",
-      "similarity": 0.6521575450897217,
+      "datetime_utc": "2011-10-31T07:22Z",
+      "source_file": "PHI_2011_31_0722.txt",
+      "similarity": 0.6153614521026611,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "LOW",
+    "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.7030121266841889,
-    "base_rate": 0.5448406070728342,
-    "signal_value": 0.05515939292716576,
+    "mean_similarity": 0.6623433589935303,
     "n_severe": 6,
     "n_total": 10,
-    "product_id": "202611061518-KPHI-FXUS61-AFDPHI",
-    "afd_time": "2026-11-06T15:18:00Z",
-    "updated": "2026-11-06T16:00:13.784724+00:00"
+    "reason": "top-10 mean similarity 0.66 below confidence floor 0.7",
+    "product_id": "202611061946-KPHI-FXUS61-AFDPHI",
+    "afd_time": "2026-11-06T19:46:00Z",
+    "updated": "2026-11-06T21:34:22.081498+00:00"
   }
 }

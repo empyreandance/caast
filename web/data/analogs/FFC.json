@@ -1,92 +1,91 @@
 {
   "office": "FFC",
-  "product_id": "202611061139-KFFC-FXUS62-AFDFFC",
-  "afd_time": "2026-11-06T11:39:00Z",
+  "product_id": "202611061847-KFFC-FXUS62-AFDFFC",
+  "afd_time": "2026-11-06T18:47:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-06T16:00:13.784724+00:00",
-  "query_preview": "..\n(Saturday night through Thursday)\nIssued at 218 AM EST Fri Nov 6 2026\n\nBy Sunday afternoon and evening the low pressure system will have \npushed into the northeast with our area under a more zonal flow with \nan area of low pressure over Mexico into the SW and Texas. This \npattern will generally b",
+  "updated": "2026-11-06T21:34:22.081498+00:00",
+  "query_preview": "..\n(Sunday morning through next Thursday)\nIssued at 145 PM EST Fri Nov 6 2026\n\nAn upper level low will move along the northeast coast at the \nbeginning of the long term. As it does, it will continue to funnel a \nsignificant amount of mid to upper level dry air southeastward over \nour area through Mo",
   "analogs": [
-    {
-      "datetime_utc": "2025-03-08T06:21Z",
-      "source_file": "FFC_2025_08_0621.txt",
-      "similarity": 0.809218168258667,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2025-03-07T19:50Z",
-      "source_file": "FFC_2025_07_1950.txt",
-      "similarity": 0.809218168258667,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2013-11-25T00:35Z",
       "source_file": "FFC_2013_25_0035.txt",
-      "similarity": 0.8006214499473572,
+      "similarity": 0.7204629182815552,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2013-11-25T07:39Z",
       "source_file": "FFC_2013_25_0739.txt",
-      "similarity": 0.8006214499473572,
+      "similarity": 0.7204629182815552,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-03-07T19:50Z",
+      "source_file": "FFC_2025_07_1950.txt",
+      "similarity": 0.7046647071838379,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-03-08T06:21Z",
+      "source_file": "FFC_2025_08_0621.txt",
+      "similarity": 0.7046647071838379,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-02-10T19:53Z",
       "source_file": "FFC_2020_10_1953.txt",
-      "similarity": 0.7673956155776978,
+      "similarity": 0.688062310218811,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-04-13T06:26Z",
       "source_file": "FFC_2012_13_0626.txt",
-      "similarity": 0.737886905670166,
+      "similarity": 0.675369143486023,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-05-09T15:19Z",
-      "source_file": "FFC_2024_09_1519.txt",
-      "similarity": 0.7233070135116577,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-05-09T11:26Z",
       "source_file": "FFC_2024_09_1126.txt",
-      "similarity": 0.7233070135116577,
+      "similarity": 0.6585291028022766,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-05-09T15:19Z",
+      "source_file": "FFC_2024_09_1519.txt",
+      "similarity": 0.6585291028022766,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2015-03-21T11:46Z",
       "source_file": "FFC_2015_21_1146.txt",
-      "similarity": 0.687273383140564,
+      "similarity": 0.6528416872024536,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2008-11-30T02:30Z",
-      "source_file": "FFC_2008_30_0230.txt",
-      "similarity": 0.6724284291267395,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2014-09-08T18:43Z",
+      "source_file": "FFC_2014_08_1843.txt",
+      "similarity": 0.6486392021179199,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
-    "level": "LOW",
-    "severe_fraction": 0.8,
-    "mean_similarity": 0.7531277596950531,
-    "base_rate": 0.7014557769274751,
-    "signal_value": 0.09854422307252497,
-    "n_severe": 8,
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.6832225799560547,
+    "n_severe": 9,
     "n_total": 10,
-    "product_id": "202611061139-KFFC-FXUS62-AFDFFC",
-    "afd_time": "2026-11-06T11:39:00Z",
-    "updated": "2026-11-06T16:00:13.784724+00:00"
+    "reason": "top-10 mean similarity 0.68 below confidence floor 0.7",
+    "product_id": "202611061847-KFFC-FXUS62-AFDFFC",
+    "afd_time": "2026-11-06T18:47:00Z",
+    "updated": "2026-11-06T21:34:22.081498+00:00"
   }
 }

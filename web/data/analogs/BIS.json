@@ -1,91 +1,92 @@
 {
   "office": "BIS",
-  "product_id": "202611061531-KBIS-FXUS63-AFDBIS",
-  "afd_time": "2026-11-06T15:31:00Z",
+  "product_id": "202611062047-KBIS-FXUS63-AFDBIS",
+  "afd_time": "2026-11-06T20:47:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-06T16:00:13.784724+00:00",
-  "query_preview": "..\nIssued at 340 AM CST Fri Nov 6 2026\n\nWeak and dry clipper system will push across southern Canada\ntoday. Ahead of this front will be moist southerly flow, which\nwill then switch to a warm and dry westerly flow. Areas of dense\nfog will be found in this southerly flow this morning, mainly \nin south",
+  "updated": "2026-11-06T21:34:22.081498+00:00",
+  "query_preview": "..\nIssued at 240 PM CST Fri Nov 6 2026\n\nCurrently, embedded S/WV moving east across far south central\nCanada and the Northern Plains, with a weak sfc boundary across\nthe Dakotas. Lingering clouds associated with the wave have kept\nafternoon temperatures on the cooler side south central and \neast in ",
   "analogs": [
     {
-      "datetime_utc": "2011-08-21T17:27Z",
-      "source_file": "BIS_2011_21_1727.txt",
-      "similarity": 0.674446702003479,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2013-02-23T00:10Z",
+      "source_file": "BIS_2013_23_0010.txt",
+      "similarity": 0.7950906753540039,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2013-03-07T01:06Z",
       "source_file": "BIS_2013_07_0106.txt",
-      "similarity": 0.6628621816635132,
+      "similarity": 0.7650044560432434,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-02-23T00:10Z",
-      "source_file": "BIS_2013_23_0010.txt",
-      "similarity": 0.6541597843170166,
-      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2012-10-07T17:57Z",
       "source_file": "BIS_2012_07_1757.txt",
-      "similarity": 0.6365757584571838,
+      "similarity": 0.7498416900634766,
       "label": "quiet",
       "is_severe": false
     },
     {
+      "datetime_utc": "2011-08-21T17:27Z",
+      "source_file": "BIS_2011_21_1727.txt",
+      "similarity": 0.749026894569397,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2011-09-02T18:43Z",
       "source_file": "BIS_2011_02_1843.txt",
-      "similarity": 0.6345462799072266,
+      "similarity": 0.7460449934005737,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-02-06T16:27Z",
       "source_file": "BIS_2011_06_1627.txt",
-      "similarity": 0.5796682834625244,
+      "similarity": 0.7130320072174072,
       "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-03-13T23:48Z",
+      "source_file": "BIS_2011_13_2348.txt",
+      "similarity": 0.6924591064453125,
+      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-06-06T15:32Z",
       "source_file": "BIS_2011_06_1532.txt",
-      "similarity": 0.5753881335258484,
+      "similarity": 0.6685833930969238,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-03-13T23:48Z",
-      "source_file": "BIS_2011_13_2348.txt",
-      "similarity": 0.5547534227371216,
-      "label": "flood",
+      "datetime_utc": "2011-11-11T19:03Z",
+      "source_file": "BIS_2011_11_1903.txt",
+      "similarity": 0.6667991280555725,
+      "label": "winter",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-08-30T05:03Z",
-      "source_file": "BIS_2012_30_0503.txt",
-      "similarity": 0.5229694843292236,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2012-08-17T02:41Z",
       "source_file": "BIS_2012_17_0241_1.txt",
-      "similarity": 0.5225605964660645,
+      "similarity": 0.6428060531616211,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.6017930626869201,
-    "n_severe": 4,
+    "level": "LOW",
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.7188688397407532,
+    "base_rate": 0.4123534834716186,
+    "signal_value": -0.11235348347161861,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.60 below confidence floor 0.7",
-    "product_id": "202611061531-KBIS-FXUS63-AFDBIS",
-    "afd_time": "2026-11-06T15:31:00Z",
-    "updated": "2026-11-06T16:00:13.784724+00:00"
+    "product_id": "202611062047-KBIS-FXUS63-AFDBIS",
+    "afd_time": "2026-11-06T20:47:00Z",
+    "updated": "2026-11-06T21:34:22.081498+00:00"
   }
 }

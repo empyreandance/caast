@@ -1,91 +1,92 @@
 {
   "office": "MKX",
-  "product_id": "202611061235-KMKX-FXUS63-AFDMKX",
-  "afd_time": "2026-11-06T12:35:00Z",
+  "product_id": "202611061926-KMKX-FXUS63-AFDMKX",
+  "afd_time": "2026-11-06T19:26:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-06T16:00:13.784724+00:00",
-  "query_preview": "..\nIssued 1150 PM CST Thu Nov 5 2026\n\nSunday through Wednesday:\n\nNorthwesterly steering flow aloft this upcoming week and\nlingering high pressure at the surface are expected to keep the\nweather dry through the extended period.\n\nA brief warming trend Sunday into Monday will see highs reach\nthe low 60",
+  "updated": "2026-11-06T21:34:22.081498+00:00",
+  "query_preview": "..\nIssued 126 PM CST Fri Nov 6 2026\n\nMonday through Friday\n\nSoutherly winds will return quickly Monday ahead of another\napproaching low pressure trough. This should result in even\nmilder conditions, with high temps likely cracking at least 60\nmost places. Dry weather should persist, with the surface",
   "analogs": [
     {
-      "datetime_utc": "2012-04-09T19:36Z",
-      "source_file": "MKX_2012_09_1936.txt",
-      "similarity": 0.6859665513038635,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2005-01-27T08:41Z",
+      "source_file": "MKX_2005_27_0841.txt",
+      "similarity": 0.8499107956886292,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2005-09-25T08:33Z",
-      "source_file": "MKX_2005_25_0833.txt",
-      "similarity": 0.6713541746139526,
+      "datetime_utc": "2006-11-02T10:05Z",
+      "source_file": "MKX_2006_02_1005.txt",
+      "similarity": 0.8231074213981628,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-03-01T08:54Z",
+      "source_file": "MKX_2006_01_0854.txt",
+      "similarity": 0.8124984502792358,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-03-20T08:48Z",
+      "source_file": "MKX_2007_20_0848.txt",
+      "similarity": 0.8073958158493042,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-04-23T04:28Z",
       "source_file": "MKX_2017_23_0428.txt",
-      "similarity": 0.6709613800048828,
+      "similarity": 0.8061889410018921,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-04-23T02:31Z",
       "source_file": "MKX_2017_23_0231.txt",
-      "similarity": 0.6709613800048828,
+      "similarity": 0.8061889410018921,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-04-22T23:52Z",
       "source_file": "MKX_2017_22_2352.txt",
-      "similarity": 0.6709613800048828,
+      "similarity": 0.8061889410018921,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-07-07T20:01Z",
-      "source_file": "MKX_2007_07_2001.txt",
-      "similarity": 0.6676163673400879,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-07-19T08:12Z",
-      "source_file": "MKX_2006_19_0812.txt",
-      "similarity": 0.661780059337616,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-03-20T08:48Z",
-      "source_file": "MKX_2007_20_0848.txt",
-      "similarity": 0.6599574685096741,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-03-21T09:04Z",
-      "source_file": "MKX_2007_21_0904.txt",
-      "similarity": 0.6579757928848267,
+      "datetime_utc": "2012-04-09T19:36Z",
+      "source_file": "MKX_2012_09_1936.txt",
+      "similarity": 0.8061376810073853,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-03-21T09:07Z",
-      "source_file": "MKX_2007_21_0907.txt",
-      "similarity": 0.6579757928848267,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2006-04-30T19:11Z",
+      "source_file": "MKX_2006_30_1911.txt",
+      "similarity": 0.8057907819747925,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-01-17T21:13Z",
+      "source_file": "MKX_2011_17_2113.txt",
+      "similarity": 0.8054218292236328,
+      "label": "winter",
+      "is_severe": false
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.6675510346889496,
-    "n_severe": 7,
+    "level": "QUIET",
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.8128829598426819,
+    "base_rate": 0.5278065630397236,
+    "signal_value": -0.3278065630397236,
+    "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.67 below confidence floor 0.7",
-    "product_id": "202611061235-KMKX-FXUS63-AFDMKX",
-    "afd_time": "2026-11-06T12:35:00Z",
-    "updated": "2026-11-06T16:00:13.784724+00:00"
+    "product_id": "202611061926-KMKX-FXUS63-AFDMKX",
+    "afd_time": "2026-11-06T19:26:00Z",
+    "updated": "2026-11-06T21:34:22.081498+00:00"
   }
 }
