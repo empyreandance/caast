@@ -1,91 +1,92 @@
 {
   "office": "MPX",
-  "product_id": "202611051124-KMPX-FXUS63-AFDMPX",
-  "afd_time": "2026-11-05T11:24:00Z",
+  "product_id": "202611052342-KMPX-FXUS63-AFDMPX",
+  "afd_time": "2026-11-05T23:42:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-05T18:49:17.310846+00:00",
-  "query_preview": "..\nIssued at 237 AM CST Thu Nov 5 2026\n\nSome lingering showers/drizzle continue across portions of \neastern/southern Minnesota and western Wisconsin early this morning. \nThis precip is being pushed to the south-southeast as a Canadian \nsurface high builds in to the northwest. This has led to an upti",
+  "updated": "2026-11-06T00:22:49.165991+00:00",
+  "query_preview": "..\nIssued at 223 PM CST Thu Nov 5 2026\n\nWith the large stacked low responsible for all the rainfall now\nspread from the eastern Great Lakes into eastern Canada, cooler\nand drier central Canadian high pressure is making inroads into\nthe north-central CONUS. Low clouds are still lingering around \nthe ",
   "analogs": [
     {
       "datetime_utc": "2006-04-16T08:35Z",
       "source_file": "MPX_2006_16_0835.txt",
-      "similarity": 0.7229493856430054,
+      "similarity": 0.8002685308456421,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-06-11T08:22Z",
-      "source_file": "MPX_2010_11_0822.txt",
-      "similarity": 0.6994799375534058,
+      "datetime_utc": "2005-06-04T08:37Z",
+      "source_file": "MPX_2005_04_0837.txt",
+      "similarity": 0.7606302499771118,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-06-11T17:47Z",
       "source_file": "MPX_2010_11_1747.txt",
-      "similarity": 0.6994799375534058,
+      "similarity": 0.7581943869590759,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-06-04T08:37Z",
-      "source_file": "MPX_2005_04_0837.txt",
-      "similarity": 0.6916142702102661,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-06-25T20:37Z",
-      "source_file": "MPX_2010_25_2037.txt",
-      "similarity": 0.6799147129058838,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-07-13T20:20Z",
-      "source_file": "MPX_2010_13_2020.txt",
-      "similarity": 0.6718549728393555,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-07-14T00:01Z",
-      "source_file": "MPX_2010_14_0001.txt",
-      "similarity": 0.6718549728393555,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-08-01T20:00Z",
-      "source_file": "MPX_2010_01_2000.txt",
-      "similarity": 0.6558213829994202,
+      "datetime_utc": "2010-06-11T08:22Z",
+      "source_file": "MPX_2010_11_0822.txt",
+      "similarity": 0.7581943869590759,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-11-17T09:29Z",
       "source_file": "MPX_2005_17_0929.txt",
-      "similarity": 0.6556511521339417,
+      "similarity": 0.734485387802124,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2008-07-09T18:04Z",
-      "source_file": "MPX_2008_09_1804.txt",
-      "similarity": 0.6534687280654907,
+      "datetime_utc": "2010-06-25T20:37Z",
+      "source_file": "MPX_2010_25_2037.txt",
+      "similarity": 0.733906090259552,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-07-13T20:20Z",
+      "source_file": "MPX_2010_13_2020.txt",
+      "similarity": 0.7291182279586792,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-07-14T00:01Z",
+      "source_file": "MPX_2010_14_0001.txt",
+      "similarity": 0.7291182279586792,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-08-01T20:00Z",
+      "source_file": "MPX_2010_01_2000.txt",
+      "similarity": 0.7212972640991211,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-07-09T11:18Z",
+      "source_file": "MPX_2008_09_1118.txt",
+      "similarity": 0.7186908721923828,
       "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
+    "level": "LOW",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.680208945274353,
+    "mean_similarity": 0.7443903625011444,
+    "base_rate": 0.5050053904204528,
+    "signal_value": 0.39499460957954724,
     "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.68 below confidence floor 0.7",
-    "product_id": "202611051124-KMPX-FXUS63-AFDMPX",
-    "afd_time": "2026-11-05T11:24:00Z",
-    "updated": "2026-11-05T18:49:17.310846+00:00"
+    "product_id": "202611052342-KMPX-FXUS63-AFDMPX",
+    "afd_time": "2026-11-05T23:42:00Z",
+    "updated": "2026-11-06T00:22:49.165991+00:00"
   }
 }
