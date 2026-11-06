@@ -1,91 +1,91 @@
 {
   "office": "OAX",
-  "product_id": "202611052337-KOAX-FXUS63-AFDOAX",
-  "afd_time": "2026-11-05T23:37:00Z",
+  "product_id": "202611060506-KOAX-FXUS63-AFDOAX",
+  "afd_time": "2026-11-06T05:06:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-06T00:22:49.165991+00:00",
-  "query_preview": "..\nIssued at 1223 PM CST Thu Nov 5 2026\n\nAs of noon, stratus persists for areas east of a line from\nNorfolk to Lincoln. For the rest of the day, this will be pretty\n\"steady state\", but is expected to expand this evening into\ntonight. \n\nThe increasing cloud cover will keep most areas (except for \nnor",
+  "updated": "2026-11-06T07:59:48.096756+00:00",
+  "query_preview": "..\nIssued at 916 PM CST Thu Nov 5 2026\n\nToday and Tomorrow:\n\nA broad look at satellite imagery this evening shows the diminishing \ninfluence of the mid/upper trough to the east with northerly flow \nset up ahead of increasing riding building in from the west. A bank \nof stratus has set up with a cold",
   "analogs": [
     {
-      "datetime_utc": "2020-06-24T20:47Z",
-      "source_file": "OAX_2020_24_2047.txt",
-      "similarity": 0.4847748279571533,
+      "datetime_utc": "2009-03-02T08:50Z",
+      "source_file": "OAX_2009_02_0850.txt",
+      "similarity": 0.42610621452331543,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-06-25T04:46Z",
+      "source_file": "OAX_2020_25_0446.txt",
+      "similarity": 0.4222203493118286,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-06-24T23:13Z",
       "source_file": "OAX_2020_24_2313.txt",
-      "similarity": 0.4847748279571533,
+      "similarity": 0.4222203493118286,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-06-25T04:46Z",
-      "source_file": "OAX_2020_25_0446.txt",
-      "similarity": 0.4847748279571533,
+      "datetime_utc": "2020-06-24T20:47Z",
+      "source_file": "OAX_2020_24_2047.txt",
+      "similarity": 0.4222203493118286,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-03-02T08:50Z",
-      "source_file": "OAX_2009_02_0850.txt",
-      "similarity": 0.48363614082336426,
-      "label": "severe_hail",
+      "datetime_utc": "2011-03-03T09:00Z",
+      "source_file": "OAX_2011_03_0900.txt",
+      "similarity": 0.42155981063842773,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-04-27T19:58Z",
+      "source_file": "OAX_2010_27_1958.txt",
+      "similarity": 0.419233113527298,
+      "label": "tornado",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-11-07T17:24Z",
+      "source_file": "OAX_2016_07_1724.txt",
+      "similarity": 0.4179036021232605,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2016-11-07T12:46Z",
       "source_file": "OAX_2016_07_1246.txt",
-      "similarity": 0.4816933572292328,
+      "similarity": 0.4179036021232605,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-11-07T09:01Z",
       "source_file": "OAX_2016_07_0901.txt",
-      "similarity": 0.4816933572292328,
+      "similarity": 0.4179036021232605,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-11-07T17:24Z",
-      "source_file": "OAX_2016_07_1724.txt",
-      "similarity": 0.4816933572292328,
+      "datetime_utc": "2008-10-08T07:48Z",
+      "source_file": "OAX_2008_08_0748.txt",
+      "similarity": 0.41749176383018494,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-10-21T20:18Z",
-      "source_file": "OAX_2004_21_2018.txt",
-      "similarity": 0.47606968879699707,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-04-27T19:58Z",
-      "source_file": "OAX_2010_27_1958.txt",
-      "similarity": 0.47449737787246704,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-10-09T07:48Z",
-      "source_file": "OAX_2012_09_0748.txt",
-      "similarity": 0.47394150495529175,
-      "label": "severe_wind",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.48075492680072784,
-    "n_severe": 6,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.42047627568244933,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202611052337-KOAX-FXUS63-AFDOAX",
-    "afd_time": "2026-11-05T23:37:00Z",
-    "updated": "2026-11-06T00:22:49.165991+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202611060506-KOAX-FXUS63-AFDOAX",
+    "afd_time": "2026-11-06T05:06:00Z",
+    "updated": "2026-11-06T07:59:48.096756+00:00"
   }
 }

@@ -1,30 +1,23 @@
 {
   "office": "VEF",
-  "product_id": "202611052333-KVEF-FXUS65-AFDVEF",
-  "afd_time": "2026-11-05T23:33:00Z",
+  "product_id": "202611060548-KVEF-FXUS65-AFDVEF",
+  "afd_time": "2026-11-06T05:48:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-06T00:22:49.165991+00:00",
+  "updated": "2026-11-06T07:59:48.096756+00:00",
   "query_preview": "..Today through Wednesday.\nA weak shortwave will drop into the region today through tonight, \ndeveloping into a cutoff low over western Arizona on Friday. In \nresponse, tightening surface pressure gradients will generate breezy \nnorth winds across the region. Most areas can expect sustained winds \no",
   "analogs": [
     {
       "datetime_utc": "2005-09-12T17:09Z",
       "source_file": "VEF_2005_12_1709.txt",
-      "similarity": 0.44961801171302795,
+      "similarity": 0.4496179223060608,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-09-12T09:26Z",
       "source_file": "VEF_2005_12_0926.txt",
-      "similarity": 0.44961801171302795,
+      "similarity": 0.4496179223060608,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-03-08T18:08Z",
-      "source_file": "VEF_2013_08_1808.txt",
-      "similarity": 0.4453588128089905,
-      "label": "winter",
       "is_severe": false
     },
     {
@@ -35,10 +28,10 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-12-05T22:41Z",
-      "source_file": "VEF_2004_05_2241.txt",
-      "similarity": 0.44389933347702026,
-      "label": "quiet",
+      "datetime_utc": "2013-03-08T18:08Z",
+      "source_file": "VEF_2013_08_1808.txt",
+      "similarity": 0.4453588128089905,
+      "label": "winter",
       "is_severe": false
     },
     {
@@ -49,30 +42,37 @@
       "is_severe": false
     },
     {
+      "datetime_utc": "2004-12-05T22:41Z",
+      "source_file": "VEF_2004_05_2241.txt",
+      "similarity": 0.44389933347702026,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-10-20T09:32Z",
+      "source_file": "VEF_2015_20_0932.txt",
+      "similarity": 0.44355884194374084,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2015-10-20T15:00Z",
       "source_file": "VEF_2015_20_1500.txt",
-      "similarity": 0.44355887174606323,
+      "similarity": 0.44355884194374084,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2015-10-20T18:24Z",
       "source_file": "VEF_2015_20_1824.txt",
-      "similarity": 0.44355887174606323,
+      "similarity": 0.44355884194374084,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2015-10-20T16:39Z",
       "source_file": "VEF_2015_20_1639.txt",
-      "similarity": 0.44355887174606323,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2015-10-20T09:32Z",
-      "source_file": "VEF_2015_20_0932.txt",
-      "similarity": 0.44355887174606323,
+      "similarity": 0.44355884194374084,
       "label": "severe_hail",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.445198780298233,
+    "mean_similarity": 0.4451987504959106,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202611052333-KVEF-FXUS65-AFDVEF",
-    "afd_time": "2026-11-05T23:33:00Z",
-    "updated": "2026-11-06T00:22:49.165991+00:00"
+    "product_id": "202611060548-KVEF-FXUS65-AFDVEF",
+    "afd_time": "2026-11-06T05:48:00Z",
+    "updated": "2026-11-06T07:59:48.096756+00:00"
   }
 }
