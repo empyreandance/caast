@@ -1,78 +1,78 @@
 {
   "office": "LIX",
-  "product_id": "202611061757-KLIX-FXUS64-AFDLIX",
-  "afd_time": "2026-11-06T17:57:00Z",
+  "product_id": "202611062327-KLIX-FXUS64-AFDLIX",
+  "afd_time": "2026-11-06T23:27:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-06T21:34:22.081498+00:00",
+  "updated": "2026-11-07T02:00:05.898572+00:00",
   "query_preview": "..\n(Monday night through Thursday)\nIssued at 1126 AM CST Fri Nov 6 2026\n\nA shortwave trough following the subtropical jet stream is\ncurrently situated over the southwest CONUS and is expected to \ndig through northern Mexico and into Texas over this weekend. The \nlift associated and mid-level moistur",
   "analogs": [
     {
       "datetime_utc": "2011-02-05T02:40Z",
       "source_file": "LIX_2011_05_0240.txt",
-      "similarity": 0.7042595148086548,
+      "similarity": 0.7042598724365234,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-07-24T01:09Z",
+      "source_file": "LIX_2016_24_0109.txt",
+      "similarity": 0.6852685809135437,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-07-23T21:04Z",
       "source_file": "LIX_2016_23_2104_1.txt",
-      "similarity": 0.6852681636810303,
+      "similarity": 0.6852685809135437,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-07-24T01:09Z",
-      "source_file": "LIX_2016_24_0109.txt",
-      "similarity": 0.6852681636810303,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2006-10-16T09:27Z",
       "source_file": "LIX_2006_16_0927.txt",
-      "similarity": 0.6715875267982483,
+      "similarity": 0.6715878248214722,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-06-16T08:14Z",
       "source_file": "LIX_2004_16_0814.txt",
-      "similarity": 0.6641973257064819,
+      "similarity": 0.6641979217529297,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-02-20T16:44Z",
       "source_file": "LIX_2005_20_1644.txt",
-      "similarity": 0.6616027355194092,
+      "similarity": 0.6616032719612122,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2012-09-19T20:07Z",
       "source_file": "LIX_2012_19_2007.txt",
-      "similarity": 0.6557997465133667,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-05-26T17:16Z",
-      "source_file": "LIX_2021_26_1716.txt",
-      "similarity": 0.5977073311805725,
+      "similarity": 0.655800461769104,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-05-26T16:04Z",
       "source_file": "LIX_2021_26_1604.txt",
-      "similarity": 0.5977073311805725,
+      "similarity": 0.5977076888084412,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-05-26T08:51Z",
       "source_file": "LIX_2021_26_0851.txt",
-      "similarity": 0.5977073311805725,
+      "similarity": 0.5977076888084412,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-05-26T17:16Z",
+      "source_file": "LIX_2021_26_1716.txt",
+      "similarity": 0.5977076888084412,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.6521105170249939,
+    "mean_similarity": 0.6521109580993653,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.65 below confidence floor 0.7",
-    "product_id": "202611061757-KLIX-FXUS64-AFDLIX",
-    "afd_time": "2026-11-06T17:57:00Z",
-    "updated": "2026-11-06T21:34:22.081498+00:00"
+    "product_id": "202611062327-KLIX-FXUS64-AFDLIX",
+    "afd_time": "2026-11-06T23:27:00Z",
+    "updated": "2026-11-07T02:00:05.898572+00:00"
   }
 }
