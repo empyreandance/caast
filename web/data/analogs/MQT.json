@@ -1,91 +1,91 @@
 {
   "office": "MQT",
-  "product_id": "202611062314-KMQT-FXUS63-AFDMQT",
-  "afd_time": "2026-11-06T23:14:00Z",
+  "product_id": "202611070817-KMQT-FXUS63-AFDMQT",
+  "afd_time": "2026-11-07T08:17:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-07T02:00:05.898572+00:00",
-  "query_preview": "..\nIssued at 311 PM EST Fri Nov 6 2026\n\nGOES-East Day Cloud Phase imagery shows only shallow bands of clouds \nstreaming off the Great Lakes now besides some high cirrus. KMQT \nradar returns continue to trend weaker and with less coverage, but \nrain showers (and a few snow showers above 1000 ft MSL) ",
+  "updated": "2026-11-07T08:52:38.451785+00:00",
+  "query_preview": "..\nIssued at 316 AM EST Sat Nov 7 2026\n\nEarly morning GOES WV imagery place the UP in the middle of a closed \nlow over the Lower Great Lakes and a shortwave over northwestern \nOntario. Beneath these features is high pressure extending from \nQuebec across Upper MI and down to the Mid-Mississippi Rive",
   "analogs": [
     {
       "datetime_utc": "2004-06-30T19:53Z",
       "source_file": "MQT_2004_30_1953.txt",
-      "similarity": 0.27382877469062805,
+      "similarity": 0.3539108633995056,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-05T19:59Z",
-      "source_file": "MQT_2023_05_1959.txt",
-      "similarity": 0.27340754866600037,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-06T00:05Z",
-      "source_file": "MQT_2023_06_0005_1.txt",
-      "similarity": 0.27340754866600037,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-06T07:10Z",
-      "source_file": "MQT_2023_06_0710.txt",
-      "similarity": 0.27340754866600037,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-06T05:26Z",
-      "source_file": "MQT_2023_06_0526.txt",
-      "similarity": 0.27340754866600037,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-05T20:26Z",
-      "source_file": "MQT_2023_05_2026.txt",
-      "similarity": 0.27340754866600037,
-      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-07-12T20:28Z",
       "source_file": "MQT_2004_12_2028.txt",
-      "similarity": 0.2661024332046509,
+      "similarity": 0.3505568206310272,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-09-14T09:02Z",
+      "source_file": "MQT_2021_14_0902.txt",
+      "similarity": 0.34931403398513794,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-09-14T11:55Z",
+      "source_file": "MQT_2021_14_1155.txt",
+      "similarity": 0.34931403398513794,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-09-14T17:47Z",
       "source_file": "MQT_2021_14_1747.txt",
-      "similarity": 0.26558083295822144,
+      "similarity": 0.34931403398513794,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-09-14T15:13Z",
       "source_file": "MQT_2021_14_1513.txt",
-      "similarity": 0.26558083295822144,
+      "similarity": 0.34931403398513794,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-09-14T08:22Z",
       "source_file": "MQT_2021_14_0822.txt",
-      "similarity": 0.26558083295822144,
+      "similarity": 0.34931403398513794,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-08-19T17:40Z",
+      "source_file": "MQT_2016_19_1740.txt",
+      "similarity": 0.344171404838562,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-01-06T05:26Z",
+      "source_file": "MQT_2023_06_0526.txt",
+      "similarity": 0.34370240569114685,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-01-05T20:26Z",
+      "source_file": "MQT_2023_05_2026.txt",
+      "similarity": 0.34370240569114685,
+      "label": "winter",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.2703711450099945,
-    "n_severe": 4,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.3482614070177078,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.27 below confidence floor 0.7",
-    "product_id": "202611062314-KMQT-FXUS63-AFDMQT",
-    "afd_time": "2026-11-06T23:14:00Z",
-    "updated": "2026-11-07T02:00:05.898572+00:00"
+    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
+    "product_id": "202611070817-KMQT-FXUS63-AFDMQT",
+    "afd_time": "2026-11-07T08:17:00Z",
+    "updated": "2026-11-07T08:52:38.451785+00:00"
   }
 }
