@@ -1,91 +1,91 @@
 {
   "office": "OAX",
-  "product_id": "202611081045-KOAX-FXUS63-AFDOAX",
-  "afd_time": "2026-11-08T10:45:00Z",
+  "product_id": "202611081756-KOAX-FXUS63-AFDOAX",
+  "afd_time": "2026-11-08T17:56:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-08T15:18:46.804165+00:00",
-  "query_preview": "..\nIssued at 1007 PM CST Sat Nov 7 2026\n\nA rather benign weather pattern holds through the forecast\nperiod. Currently, a shortwave trough is swinging across the\nGreat Lakes region. This shortwave is sending a weak cold front\nsouth through the area. Other than broken high clouds and winds\nshifting to",
+  "updated": "2026-11-08T20:32:36.139885+00:00",
+  "query_preview": "..\nIssued at 1148 AM CST Sun Nov 8 2026\n\nToday through Monday...\n\nHigh pressure settled into the region today, allowing for sunny \nskies and warm temperatures rising from the 30s and 40s close \nto 60 by noon today. High temperatures are expected to continue \nrising into the mid and upper 60s by late",
   "analogs": [
     {
-      "datetime_utc": "2011-03-03T09:00Z",
-      "source_file": "OAX_2011_03_0900.txt",
-      "similarity": 0.5055040121078491,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2020-06-24T23:13Z",
+      "source_file": "OAX_2020_24_2313.txt",
+      "similarity": 0.4987320303916931,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2020-06-25T04:46Z",
       "source_file": "OAX_2020_25_0446.txt",
-      "similarity": 0.49792179465293884,
+      "similarity": 0.4987320303916931,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-06-24T20:47Z",
       "source_file": "OAX_2020_24_2047.txt",
-      "similarity": 0.49792179465293884,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-06-24T23:13Z",
-      "source_file": "OAX_2020_24_2313.txt",
-      "similarity": 0.49792179465293884,
+      "similarity": 0.4987320303916931,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-04-27T19:58Z",
       "source_file": "OAX_2010_27_1958.txt",
-      "similarity": 0.4921475648880005,
+      "similarity": 0.4934562146663666,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2016-11-07T17:24Z",
-      "source_file": "OAX_2016_07_1724.txt",
-      "similarity": 0.491288423538208,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-11-07T12:46Z",
-      "source_file": "OAX_2016_07_1246.txt",
-      "similarity": 0.491288423538208,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-11-07T09:01Z",
-      "source_file": "OAX_2016_07_0901.txt",
-      "similarity": 0.491288423538208,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-01-18T20:41Z",
-      "source_file": "OAX_2007_18_2041.txt",
-      "similarity": 0.49037596583366394,
+      "datetime_utc": "2011-03-03T09:00Z",
+      "source_file": "OAX_2011_03_0900.txt",
+      "similarity": 0.49328309297561646,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-03-02T08:50Z",
-      "source_file": "OAX_2009_02_0850.txt",
-      "similarity": 0.48897844552993774,
-      "label": "severe_hail",
+      "datetime_utc": "2006-05-06T08:35Z",
+      "source_file": "OAX_2006_06_0835.txt",
+      "similarity": 0.48394691944122314,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-10-09T11:17Z",
+      "source_file": "OAX_2012_09_1117.txt",
+      "similarity": 0.4830213189125061,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-10-09T07:48Z",
+      "source_file": "OAX_2012_09_0748.txt",
+      "similarity": 0.4830213189125061,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-04-30T20:19Z",
+      "source_file": "OAX_2014_30_2019.txt",
+      "similarity": 0.47872817516326904,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-04-01T04:20Z",
+      "source_file": "OAX_2014_01_0420_1.txt",
+      "similarity": 0.47872817516326904,
+      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.4944636642932892,
-    "n_severe": 5,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.48903813064098356,
+    "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
-    "product_id": "202611081045-KOAX-FXUS63-AFDOAX",
-    "afd_time": "2026-11-08T10:45:00Z",
-    "updated": "2026-11-08T15:18:46.804165+00:00"
+    "product_id": "202611081756-KOAX-FXUS63-AFDOAX",
+    "afd_time": "2026-11-08T17:56:00Z",
+    "updated": "2026-11-08T20:32:36.139885+00:00"
   }
 }
