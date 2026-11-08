@@ -1,91 +1,91 @@
 {
   "office": "JKL",
-  "product_id": "202611080450-KJKL-FXUS63-AFDJKL-AAA",
-  "afd_time": "2026-11-08T04:50:00Z",
+  "product_id": "202611081118-KJKL-FXUS63-AFDJKL",
+  "afd_time": "2026-11-08T11:18:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-08T07:28:52.074587+00:00",
-  "query_preview": "..(Monday through Saturday)\nIssued at 350 PM EST Sat Nov 7 2026\n\nA benign split flow pattern will be in place across most of the \nCONUS at the start of the period, with the polar jet stream \ngenerally near the Canadian border and the subtropical jet stream \nacross northern Mexico and the Gulf Coast.",
+  "updated": "2026-11-08T15:18:46.804165+00:00",
+  "query_preview": "..(Monday night through Saturday)\nIssued at 437 AM EST SUN NOV 8 2026\n\nThe extended period opens Monday night with dry weather, conditions \nthat will last through the better part of Wednesday. Synoptically, \nsplit flow exists to open the period, with the northern jet stream \nnear the US-Canada borde",
   "analogs": [
     {
       "datetime_utc": "2004-11-02T12:56Z",
       "source_file": "JKL_2004_02_1256.txt",
-      "similarity": 0.37363138794898987,
+      "similarity": 0.3778389096260071,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-07-17T17:47Z",
-      "source_file": "JKL_2011_17_1747.txt",
-      "similarity": 0.3575744330883026,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-07-17T07:01Z",
-      "source_file": "JKL_2011_17_0701.txt",
-      "similarity": 0.3575744330883026,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-07-17T13:15Z",
-      "source_file": "JKL_2011_17_1315.txt",
-      "similarity": 0.3575744330883026,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-07-17T12:01Z",
-      "source_file": "JKL_2011_17_1201.txt",
-      "similarity": 0.3575744330883026,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-07-17T15:09Z",
-      "source_file": "JKL_2011_17_1509.txt",
-      "similarity": 0.3575744330883026,
-      "label": "severe_wind",
+      "datetime_utc": "2004-08-09T09:27Z",
+      "source_file": "JKL_2004_09_0927.txt",
+      "similarity": 0.3769301176071167,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-08-08T21:13Z",
       "source_file": "JKL_2004_08_2113.txt",
-      "similarity": 0.35524851083755493,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-08-09T09:27Z",
-      "source_file": "JKL_2004_09_0927.txt",
-      "similarity": 0.35524851083755493,
+      "similarity": 0.3769301176071167,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-08-09T02:17Z",
       "source_file": "JKL_2004_09_0217.txt",
-      "similarity": 0.35524851083755493,
+      "similarity": 0.3769301176071167,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-11-10T11:10Z",
-      "source_file": "JKL_2011_10_1110.txt",
-      "similarity": 0.35273078083992004,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2004-10-20T16:02Z",
+      "source_file": "JKL_2004_20_1602.txt",
+      "similarity": 0.3675541281700134,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-10-20T21:24Z",
+      "source_file": "JKL_2004_20_2124.txt",
+      "similarity": 0.3675541281700134,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-10-21T01:38Z",
+      "source_file": "JKL_2004_21_0138.txt",
+      "similarity": 0.3675541281700134,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-10-20T09:35Z",
+      "source_file": "JKL_2004_20_0935.txt",
+      "similarity": 0.3675541281700134,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-12-12T19:43Z",
+      "source_file": "JKL_2011_12_1943.txt",
+      "similarity": 0.36581534147262573,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-10-19T07:14Z",
+      "source_file": "JKL_2011_19_0714.txt",
+      "similarity": 0.36581534147262573,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.9,
-    "mean_similarity": 0.35799798667430877,
-    "n_severe": 9,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.37104764580726624,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
-    "product_id": "202611080450-KJKL-FXUS63-AFDJKL-AAA",
-    "afd_time": "2026-11-08T04:50:00Z",
-    "updated": "2026-11-08T07:28:52.074587+00:00"
+    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
+    "product_id": "202611081118-KJKL-FXUS63-AFDJKL",
+    "afd_time": "2026-11-08T11:18:00Z",
+    "updated": "2026-11-08T15:18:46.804165+00:00"
   }
 }

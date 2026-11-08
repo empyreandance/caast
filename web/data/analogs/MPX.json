@@ -1,91 +1,92 @@
 {
   "office": "MPX",
-  "product_id": "202611080530-KMPX-FXUS63-AFDMPX",
-  "afd_time": "2026-11-08T05:30:00Z",
+  "product_id": "202611081138-KMPX-FXUS63-AFDMPX",
+  "afd_time": "2026-11-08T11:38:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-08T07:28:52.074587+00:00",
-  "query_preview": "..\nIssued at 119 PM CST Sat Nov 7 2026\n\nOver the next week, we will keep the same general weather pattern in \nplace, which consists of troughs in the eastern Pac and eastern \nNorth America, with ridging across the center of the continent. \nThere will be some minor buckles to this pattern over the ne",
+  "updated": "2026-11-08T15:18:46.804165+00:00",
+  "query_preview": "..\nIssued at 252 AM CST Sun Nov 8 2026\n\nAn exceptionally quiet morning is ongoing across the area as a weak \ncold front pushed through, with winds turning westerly to \nnorthwesterly with clearing skies due to weak subsidence via CAA. \nThere is a bit of patchy fog within central MN, however it is not",
   "analogs": [
     {
       "datetime_utc": "2006-04-16T08:35Z",
       "source_file": "MPX_2006_16_0835.txt",
-      "similarity": 0.5367792844772339,
+      "similarity": 0.74969482421875,
       "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-06-11T08:22Z",
-      "source_file": "MPX_2010_11_0822.txt",
-      "similarity": 0.5337661504745483,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-06-11T17:47Z",
       "source_file": "MPX_2010_11_1747.txt",
-      "similarity": 0.5337661504745483,
+      "similarity": 0.7159416079521179,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-06-11T08:22Z",
+      "source_file": "MPX_2010_11_0822.txt",
+      "similarity": 0.7159416079521179,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-06-04T08:37Z",
       "source_file": "MPX_2005_04_0837.txt",
-      "similarity": 0.5229086875915527,
+      "similarity": 0.7095071077346802,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-06-25T20:37Z",
       "source_file": "MPX_2010_25_2037.txt",
-      "similarity": 0.518215537071228,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-07-13T20:20Z",
-      "source_file": "MPX_2010_13_2020.txt",
-      "similarity": 0.5133181810379028,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-07-14T00:01Z",
-      "source_file": "MPX_2010_14_0001.txt",
-      "similarity": 0.5133181810379028,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-08-01T20:00Z",
-      "source_file": "MPX_2010_01_2000.txt",
-      "similarity": 0.509173572063446,
+      "similarity": 0.701249361038208,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-11-17T09:29Z",
       "source_file": "MPX_2005_17_0929.txt",
-      "similarity": 0.5046086311340332,
+      "similarity": 0.6919683814048767,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-08-02T05:44Z",
-      "source_file": "MPX_2010_02_0544.txt",
-      "similarity": 0.5041595697402954,
+      "datetime_utc": "2010-07-14T00:01Z",
+      "source_file": "MPX_2010_14_0001.txt",
+      "similarity": 0.6900550723075867,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-07-13T20:20Z",
+      "source_file": "MPX_2010_13_2020.txt",
+      "similarity": 0.6900550723075867,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-09-22T20:10Z",
+      "source_file": "MPX_2006_22_2010.txt",
+      "similarity": 0.676146388053894,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-08-01T20:00Z",
+      "source_file": "MPX_2010_01_2000.txt",
+      "similarity": 0.6727172136306763,
       "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
+    "level": "LOW",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.5190013945102692,
+    "mean_similarity": 0.7013276636600494,
+    "base_rate": 0.5050053904204528,
+    "signal_value": 0.39499460957954724,
     "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.52 below confidence floor 0.7",
-    "product_id": "202611080530-KMPX-FXUS63-AFDMPX",
-    "afd_time": "2026-11-08T05:30:00Z",
-    "updated": "2026-11-08T07:28:52.074587+00:00"
+    "product_id": "202611081138-KMPX-FXUS63-AFDMPX",
+    "afd_time": "2026-11-08T11:38:00Z",
+    "updated": "2026-11-08T15:18:46.804165+00:00"
   }
 }

@@ -1,92 +1,92 @@
 {
   "office": "CYS",
-  "product_id": "202611080545-KCYS-FXUS65-AFDCYS",
-  "afd_time": "2026-11-08T05:45:00Z",
+  "product_id": "202611081124-KCYS-FXUS65-AFDCYS",
+  "afd_time": "2026-11-08T11:24:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-08T07:28:52.074587+00:00",
-  "query_preview": "/MONDAY THROUGH FRIDAY/...\nIssued at 117 PM MST Sat Nov 7 2026\n\nWarm and dry weather looks to continue for the forseeable future. On \nMonday, we will have a broad and fairly flat ridge positioned over \nthe region. A weak surface front will creep into the High Plains and \npush up against the Laramie ",
+  "updated": "2026-11-08T15:18:46.804165+00:00",
+  "query_preview": "/TUESDAY THROUGH SATURDAY/...\nIssued at 115 PM MST Sat Nov 7 2026\n\nWarm and dry weather looks to continue for the forseeable future.\nA weak and moisture starved clipper system will traverse near \nthe area on Tuesday into Wednesday. A few sprinkles or flurries \nwill be possible, but only a small mino",
   "analogs": [
+    {
+      "datetime_utc": "2018-07-12T20:46Z",
+      "source_file": "CYS_2018_12_2046.txt",
+      "similarity": 0.9414289593696594,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-10-10T20:03Z",
+      "source_file": "CYS_2010_10_2003.txt",
+      "similarity": 0.9348852038383484,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-10-11T02:26Z",
+      "source_file": "CYS_2010_11_0226.txt",
+      "similarity": 0.9348852038383484,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-02-27T11:43Z",
+      "source_file": "CYS_2004_27_1143.txt",
+      "similarity": 0.9324851036071777,
+      "label": "severe_wind",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2021-03-12T17:48Z",
       "source_file": "CYS_2021_12_1748.txt",
-      "similarity": 0.9682475924491882,
+      "similarity": 0.931701123714447,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-03-12T12:17Z",
       "source_file": "CYS_2021_12_1217.txt",
-      "similarity": 0.9682475924491882,
+      "similarity": 0.931701123714447,
       "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-05-24T03:01Z",
+      "source_file": "CYS_2005_24_0301.txt",
+      "similarity": 0.9313997030258179,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-04-02T23:01Z",
+      "source_file": "CYS_2020_02_2301.txt",
+      "similarity": 0.9302637577056885,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-04-02T20:27Z",
+      "source_file": "CYS_2020_02_2027.txt",
+      "similarity": 0.9302637577056885,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-04-22T21:49Z",
       "source_file": "CYS_2005_22_2149.txt",
-      "similarity": 0.9675843119621277,
+      "similarity": 0.9281095862388611,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-03-26T05:41Z",
-      "source_file": "CYS_2019_26_0541.txt",
-      "similarity": 0.96712327003479,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-03-25T23:37Z",
-      "source_file": "CYS_2019_25_2337.txt",
-      "similarity": 0.96712327003479,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-03-25T21:27Z",
-      "source_file": "CYS_2019_25_2127_1.txt",
-      "similarity": 0.96712327003479,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-07-12T20:46Z",
-      "source_file": "CYS_2018_12_2046.txt",
-      "similarity": 0.9648116827011108,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-02-27T11:43Z",
-      "source_file": "CYS_2004_27_1143.txt",
-      "similarity": 0.9629582762718201,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-11-25T22:00Z",
-      "source_file": "CYS_2004_25_2200.txt",
-      "similarity": 0.9607484340667725,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-01-19T23:50Z",
-      "source_file": "CYS_2012_19_2350_2.txt",
-      "similarity": 0.9606826305389404,
-      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "LOW",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.9654650330543518,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.9327123522758484,
     "base_rate": 0.5068515384080318,
-    "signal_value": -0.10685153840803174,
-    "n_severe": 4,
+    "signal_value": 0.09314846159196821,
+    "n_severe": 6,
     "n_total": 10,
-    "product_id": "202611080545-KCYS-FXUS65-AFDCYS",
-    "afd_time": "2026-11-08T05:45:00Z",
-    "updated": "2026-11-08T07:28:52.074587+00:00"
+    "product_id": "202611081124-KCYS-FXUS65-AFDCYS",
+    "afd_time": "2026-11-08T11:24:00Z",
+    "updated": "2026-11-08T15:18:46.804165+00:00"
   }
 }
