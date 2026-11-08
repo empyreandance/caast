@@ -1,21 +1,21 @@
 {
   "office": "BOX",
-  "product_id": "202611071816-KBOX-FXUS61-AFDBOX",
-  "afd_time": "2026-11-07T18:16:00Z",
+  "product_id": "202611072352-KBOX-FXUS61-AFDBOX",
+  "afd_time": "2026-11-07T23:52:00Z",
   "section_type": "extended",
-  "updated": "2026-11-07T20:18:09.547684+00:00",
+  "updated": "2026-11-08T00:43:41.982516+00:00",
   "query_preview": "the time of the Small Craft Advisory to Monday evening. \nOtherwise, no significant changes to the forecast.",
   "analogs": [
     {
-      "datetime_utc": "2005-07-10T02:33Z",
-      "source_file": "BOX_2005_10_0233.txt",
+      "datetime_utc": "2005-07-09T20:10Z",
+      "source_file": "BOX_2005_09_2010_1.txt",
       "similarity": 0.5294419527053833,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-07-09T20:10Z",
-      "source_file": "BOX_2005_09_2010_1.txt",
+      "datetime_utc": "2005-07-10T02:33Z",
+      "source_file": "BOX_2005_10_0233.txt",
       "similarity": 0.5294419527053833,
       "label": "severe_wind",
       "is_severe": true
@@ -49,30 +49,30 @@
       "is_severe": false
     },
     {
+      "datetime_utc": "2006-03-28T20:50Z",
+      "source_file": "BOX_2006_28_2050.txt",
+      "similarity": 0.5154556632041931,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2006-03-29T01:35Z",
       "source_file": "BOX_2006_29_0135.txt",
-      "similarity": 0.5154557228088379,
+      "similarity": 0.5154556632041931,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-03-28T21:06Z",
       "source_file": "BOX_2006_28_2106.txt",
-      "similarity": 0.5154557228088379,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-03-28T20:50Z",
-      "source_file": "BOX_2006_28_2050.txt",
-      "similarity": 0.5154557228088379,
+      "similarity": 0.5154556632041931,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-08-12T06:44Z",
       "source_file": "BOX_2004_12_0644.txt",
-      "similarity": 0.5131494998931885,
+      "similarity": 0.5131495594978333,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.522944164276123,
+    "mean_similarity": 0.5229441523551941,
     "n_severe": 5,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.52 below confidence floor 0.7",
-    "product_id": "202611071816-KBOX-FXUS61-AFDBOX",
-    "afd_time": "2026-11-07T18:16:00Z",
-    "updated": "2026-11-07T20:18:09.547684+00:00"
+    "product_id": "202611072352-KBOX-FXUS61-AFDBOX",
+    "afd_time": "2026-11-07T23:52:00Z",
+    "updated": "2026-11-08T00:43:41.982516+00:00"
   }
 }
