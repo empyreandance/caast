@@ -1,91 +1,91 @@
 {
   "office": "MQT",
-  "product_id": "202611090527-KMQT-FXUS63-AFDMQT",
-  "afd_time": "2026-11-09T05:27:00Z",
+  "product_id": "202611091727-KMQT-FXUS63-AFDMQT",
+  "afd_time": "2026-11-09T17:27:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-09T08:03:02.158909+00:00",
-  "query_preview": "..\nIssued at 302 PM EST Sun Nov 8 2026\n\nAfternoon GOES water vapor imagery reveals a sharp shortwave trough \ndigging across northern Ontario with the attendant surface low \npressure reflection further north towards James Bay. A cold front \nhas passed SE of the UP this morning, ushering in modest col",
+  "updated": "2026-11-09T18:53:44.494141+00:00",
+  "query_preview": "..\nIssued at 315 AM EST Mon Nov 9 2026\n\nHigh pressure ridging at the sfc and upper level ridging is moving \nover Upper MI this morning, continuing to taper off winds and clear \nlingering lake effect clouds out. Temps have fallen into the upper \n20s to low 30s where the low cigs cleared out quicker. ",
   "analogs": [
     {
       "datetime_utc": "2011-10-11T20:14Z",
       "source_file": "MQT_2011_11_2014.txt",
-      "similarity": 0.31634601950645447,
+      "similarity": 0.37758541107177734,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-10-12T05:24Z",
       "source_file": "MQT_2011_12_0524.txt",
-      "similarity": 0.31634601950645447,
+      "similarity": 0.37758541107177734,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2023-01-05T19:59Z",
-      "source_file": "MQT_2023_05_1959.txt",
-      "similarity": 0.29846715927124023,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-06T00:05Z",
-      "source_file": "MQT_2023_06_0005_1.txt",
-      "similarity": 0.29846715927124023,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-06T05:26Z",
-      "source_file": "MQT_2023_06_0526.txt",
-      "similarity": 0.29846715927124023,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-05T20:26Z",
-      "source_file": "MQT_2023_05_2026.txt",
-      "similarity": 0.29846715927124023,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-01-06T07:10Z",
-      "source_file": "MQT_2023_06_0710.txt",
-      "similarity": 0.29846715927124023,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-08-05T20:18Z",
-      "source_file": "MQT_2009_05_2018.txt",
-      "similarity": 0.2921959161758423,
-      "label": "severe_wind",
+      "datetime_utc": "2018-08-16T19:40Z",
+      "source_file": "MQT_2018_16_1940.txt",
+      "similarity": 0.3771320879459381,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-08-06T09:17Z",
-      "source_file": "MQT_2009_06_0917.txt",
-      "similarity": 0.2921959161758423,
-      "label": "severe_wind",
+      "datetime_utc": "2018-08-17T05:01Z",
+      "source_file": "MQT_2018_17_0501.txt",
+      "similarity": 0.3771320879459381,
+      "label": "severe_hail",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-08-16T20:21Z",
+      "source_file": "MQT_2018_16_2021.txt",
+      "similarity": 0.3771320879459381,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-08-16T22:31Z",
+      "source_file": "MQT_2018_16_2231.txt",
+      "similarity": 0.3771320879459381,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-04-27T19:58Z",
+      "source_file": "MQT_2017_27_1958.txt",
+      "similarity": 0.3731328547000885,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-04-27T23:59Z",
+      "source_file": "MQT_2017_27_2359.txt",
+      "similarity": 0.3731328547000885,
+      "label": "winter",
+      "is_severe": false
     },
     {
       "datetime_utc": "2004-06-30T19:53Z",
       "source_file": "MQT_2004_30_1953.txt",
-      "similarity": 0.2919483482837677,
+      "similarity": 0.3701893389225006,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-08-19T17:40Z",
+      "source_file": "MQT_2016_19_1740.txt",
+      "similarity": 0.36783111095428467,
+      "label": "tornado",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.30013680160045625,
-    "n_severe": 4,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.37479853332042695,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.30 below confidence floor 0.7",
-    "product_id": "202611090527-KMQT-FXUS63-AFDMQT",
-    "afd_time": "2026-11-09T05:27:00Z",
-    "updated": "2026-11-09T08:03:02.158909+00:00"
+    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
+    "product_id": "202611091727-KMQT-FXUS63-AFDMQT",
+    "afd_time": "2026-11-09T17:27:00Z",
+    "updated": "2026-11-09T18:53:44.494141+00:00"
   }
 }

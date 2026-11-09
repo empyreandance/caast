@@ -1,91 +1,91 @@
 {
   "office": "MRX",
-  "product_id": "202611090530-KMRX-FXUS64-AFDMRX",
-  "afd_time": "2026-11-09T05:30:00Z",
+  "product_id": "202611091847-KMRX-FXUS64-AFDMRX",
+  "afd_time": "2026-11-09T18:47:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-09T08:03:02.158909+00:00",
-  "query_preview": "..\nIssued at 1214 AM EST Mon Nov 9 2026\n\nPleasant fall weather will continue over the next few days as a \nlarge area of surface high pressure remains over the region under \nWNW flow aloft. After chilly early mornings, we will see mild \nafternoons with high temperatures in the 60s for most valley \nlo",
+  "updated": "2026-11-09T18:53:44.494141+00:00",
+  "query_preview": "..\nIssued at 146 PM EST Mon Nov 9 2026\n\nCurrently, troughing is centered to our northeast with ridging \nbuilding to our west. Surface high pressure remains in place across \nthe region, centered near the southern Mississippi River Valley. \nThis will continue to produce dry conditions during peak heat",
   "analogs": [
     {
       "datetime_utc": "2004-06-02T22:34Z",
       "source_file": "MRX_2004_02_2234.txt",
-      "similarity": 0.42345571517944336,
+      "similarity": 0.3418343961238861,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-01-13T20:56Z",
-      "source_file": "MRX_2006_13_2056.txt",
-      "similarity": 0.4182124435901642,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2009-11-14T07:40Z",
+      "source_file": "MRX_2009_14_0740.txt",
+      "similarity": 0.33833253383636475,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2008-07-29T19:11Z",
-      "source_file": "MRX_2008_29_1911.txt",
-      "similarity": 0.4166722893714905,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-10-26T19:22Z",
-      "source_file": "MRX_2011_26_1922.txt",
-      "similarity": 0.41096675395965576,
+      "datetime_utc": "2009-01-10T09:30Z",
+      "source_file": "MRX_2009_10_0930.txt",
+      "similarity": 0.33423975110054016,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-11-29T15:00Z",
-      "source_file": "MRX_2010_29_1500.txt",
-      "similarity": 0.404945433139801,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2011-10-26T19:22Z",
+      "source_file": "MRX_2011_26_1922.txt",
+      "similarity": 0.3311575651168823,
+      "label": "winter",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2018-09-07T19:09Z",
-      "source_file": "MRX_2018_07_1909.txt",
-      "similarity": 0.4036312997341156,
+      "datetime_utc": "2008-09-24T19:23Z",
+      "source_file": "MRX_2008_24_1923.txt",
+      "similarity": 0.3308747112751007,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-08-02T19:26Z",
-      "source_file": "MRX_2010_02_1926.txt",
-      "similarity": 0.40339478850364685,
+      "datetime_utc": "2004-09-29T07:33Z",
+      "source_file": "MRX_2004_29_0733.txt",
+      "similarity": 0.32983776926994324,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-05-16T19:33Z",
+      "source_file": "MRX_2018_16_1933_1.txt",
+      "similarity": 0.32931289076805115,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-11-21T02:20Z",
-      "source_file": "MRX_2006_21_0220.txt",
-      "similarity": 0.4008687138557434,
-      "label": "quiet",
+      "datetime_utc": "2018-05-16T19:33Z",
+      "source_file": "MRX_2018_16_1933.txt",
+      "similarity": 0.32931289076805115,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-12-31T20:19Z",
+      "source_file": "MRX_2015_31_2019.txt",
+      "similarity": 0.3292120099067688,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-10-18T08:30Z",
-      "source_file": "MRX_2014_18_0830.txt",
-      "similarity": 0.40079236030578613,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-08-12T08:10Z",
-      "source_file": "MRX_2007_12_0810.txt",
-      "similarity": 0.4004727900028229,
+      "datetime_utc": "2008-07-29T19:11Z",
+      "source_file": "MRX_2008_29_1911.txt",
+      "similarity": 0.3286772668361664,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.40834125876426697,
-    "n_severe": 7,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.33227917850017546,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202611090530-KMRX-FXUS64-AFDMRX",
-    "afd_time": "2026-11-09T05:30:00Z",
-    "updated": "2026-11-09T08:03:02.158909+00:00"
+    "reason": "top-10 mean similarity 0.33 below confidence floor 0.7",
+    "product_id": "202611091847-KMRX-FXUS64-AFDMRX",
+    "afd_time": "2026-11-09T18:47:00Z",
+    "updated": "2026-11-09T18:53:44.494141+00:00"
   }
 }
