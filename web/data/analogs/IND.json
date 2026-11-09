@@ -1,56 +1,49 @@
 {
   "office": "IND",
-  "product_id": "202611081920-KIND-FXUS63-AFDIND",
-  "afd_time": "2026-11-08T19:20:00Z",
+  "product_id": "202611082329-KIND-FXUS63-AFDIND",
+  "afd_time": "2026-11-08T23:29:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-08T20:32:36.139885+00:00",
+  "updated": "2026-11-09T00:59:53.249485+00:00",
   "query_preview": "(This evening through Sunday)...\nIssued at 220 PM EST Sun Nov 8 2026\n\nSurface analysis this afternoon shows low pressure over Ontario with \na trailing cold front across the Great Lakes to IL and MO. This was \na dry front as no precip or cloud cover was found near the front. A \nridge of high pressure",
   "analogs": [
     {
-      "datetime_utc": "2010-03-22T05:10Z",
-      "source_file": "IND_2010_22_0510.txt",
-      "similarity": 0.3738555312156677,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2010-03-21T19:38Z",
       "source_file": "IND_2010_21_1938.txt",
-      "similarity": 0.3738555312156677,
+      "similarity": 0.3738556504249573,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-03-21T22:49Z",
       "source_file": "IND_2010_21_2249.txt",
-      "similarity": 0.3738555312156677,
+      "similarity": 0.3738556504249573,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-03-22T05:10Z",
+      "source_file": "IND_2010_22_0510.txt",
+      "similarity": 0.3738556504249573,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-03-22T02:02Z",
       "source_file": "IND_2010_22_0202.txt",
-      "similarity": 0.3738555312156677,
+      "similarity": 0.3738556504249573,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2018-01-06T20:25Z",
-      "source_file": "IND_2018_06_2025.txt",
-      "similarity": 0.37309253215789795,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-01-06T18:36Z",
-      "source_file": "IND_2018_06_1836.txt",
-      "similarity": 0.37309253215789795,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2018-01-06T14:30Z",
       "source_file": "IND_2018_06_1430_1.txt",
+      "similarity": 0.37309253215789795,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-01-06T20:25Z",
+      "source_file": "IND_2018_06_2025.txt",
       "similarity": 0.37309253215789795,
       "label": "winter",
       "is_severe": false
@@ -70,6 +63,13 @@
       "is_severe": false
     },
     {
+      "datetime_utc": "2018-01-06T18:36Z",
+      "source_file": "IND_2018_06_1836.txt",
+      "similarity": 0.37309253215789795,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2018-01-06T16:42Z",
       "source_file": "IND_2018_06_1642.txt",
       "similarity": 0.37309253215789795,
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.3733977317810059,
+    "mean_similarity": 0.3733977794647217,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
-    "product_id": "202611081920-KIND-FXUS63-AFDIND",
-    "afd_time": "2026-11-08T19:20:00Z",
-    "updated": "2026-11-08T20:32:36.139885+00:00"
+    "product_id": "202611082329-KIND-FXUS63-AFDIND",
+    "afd_time": "2026-11-08T23:29:00Z",
+    "updated": "2026-11-09T00:59:53.249485+00:00"
   }
 }
