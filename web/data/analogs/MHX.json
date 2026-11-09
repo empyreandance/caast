@@ -1,91 +1,92 @@
 {
   "office": "MHX",
-  "product_id": "202611090005-KMHX-FXUS62-AFDMHX",
-  "afd_time": "2026-11-09T00:05:00Z",
+  "product_id": "202611090629-KMHX-FXUS62-AFDMHX",
+  "afd_time": "2026-11-09T06:29:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-09T00:59:53.249485+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Cooler airmass continues to build into the area\nbehind yesterday's cold front as high pressure expands in from \nthe west. Today will be the coolest day of the week until next \nweekend (see the next key message) with highs in the low to mid \n60s. With a second cold front moving thr",
+  "updated": "2026-11-09T08:03:02.158909+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...Latest surface analysis depicts a weak surface\ntrough transiting central and eastern NC this hour with\nsprawling high pressure centered over the southern plains\nextending in behind it. The trough will do little more than keep\nup winds just enough to hamper more robust radiational ",
   "analogs": [
     {
       "datetime_utc": "2011-08-26T11:00Z",
       "source_file": "MHX_2011_26_1100.txt",
-      "similarity": 0.7646638751029968,
+      "similarity": 0.861587643623352,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-08-26T09:00Z",
       "source_file": "MHX_2011_26_0900.txt",
-      "similarity": 0.7646638751029968,
+      "similarity": 0.861587643623352,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-06-25T08:16Z",
       "source_file": "MHX_2011_25_0816.txt",
-      "similarity": 0.7359613180160522,
+      "similarity": 0.842974066734314,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-06-25T11:33Z",
       "source_file": "MHX_2011_25_1133.txt",
-      "similarity": 0.7104915380477905,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-06-25T17:13Z",
-      "source_file": "MHX_2011_25_1713.txt",
-      "similarity": 0.7104915380477905,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-06-25T17:20Z",
-      "source_file": "MHX_2011_25_1720.txt",
-      "similarity": 0.7104915380477905,
+      "similarity": 0.8291675448417664,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-06-25T16:23Z",
       "source_file": "MHX_2011_25_1623.txt",
-      "similarity": 0.7104915380477905,
+      "similarity": 0.8291675448417664,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-06-25T17:13Z",
+      "source_file": "MHX_2011_25_1713.txt",
+      "similarity": 0.8291675448417664,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-06-25T17:20Z",
+      "source_file": "MHX_2011_25_1720.txt",
+      "similarity": 0.8291675448417664,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-03-15T00:43Z",
       "source_file": "MHX_2006_15_0043.txt",
-      "similarity": 0.6511354446411133,
+      "similarity": 0.7195061445236206,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-04-22T20:19Z",
       "source_file": "MHX_2011_22_2019.txt",
-      "similarity": 0.5676264762878418,
+      "similarity": 0.7166570425033569,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-06-18T14:21Z",
-      "source_file": "MHX_2004_18_1421_1.txt",
-      "similarity": 0.5554250478744507,
-      "label": "quiet",
+      "datetime_utc": "2014-01-19T08:29Z",
+      "source_file": "MHX_2014_19_0829.txt",
+      "similarity": 0.6683574914932251,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
+    "level": "MODERATE",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.6881442189216613,
+    "mean_similarity": 0.7987340211868286,
+    "base_rate": 0.5206861191386222,
+    "signal_value": 0.2793138808613779,
     "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.69 below confidence floor 0.7",
-    "product_id": "202611090005-KMHX-FXUS62-AFDMHX",
-    "afd_time": "2026-11-09T00:05:00Z",
-    "updated": "2026-11-09T00:59:53.249485+00:00"
+    "product_id": "202611090629-KMHX-FXUS62-AFDMHX",
+    "afd_time": "2026-11-09T06:29:00Z",
+    "updated": "2026-11-09T08:03:02.158909+00:00"
   }
 }
