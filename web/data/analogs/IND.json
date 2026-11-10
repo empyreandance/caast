@@ -1,91 +1,91 @@
 {
   "office": "IND",
-  "product_id": "202611092235-KIND-FXUS63-AFDIND",
-  "afd_time": "2026-11-09T22:35:00Z",
+  "product_id": "202611100736-KIND-FXUS63-AFDIND",
+  "afd_time": "2026-11-10T07:36:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-10T02:13:02.967452+00:00",
-  "query_preview": "(This evening through Monday)...\nIssued at 127 PM EST Mon Nov 9 2026\n\nSurface analysis this afternoon shows high pressure over Arkansas \nand TN, with a ridge axis extending north across IL and IN. Aloft, \nwater vapor shows a Pacific stream of moisture flowing across ID and \nMT to the upper midwest, ",
+  "updated": "2026-11-10T09:58:56.869162+00:00",
+  "query_preview": "(Today through Monday)...\nIssued at 236 AM EST Tue Nov 10 2026\n\nDry and mild weather will continue through the first part of \nWednesday. Low pressure will track quickly across the Ohio Valley \nlate Wednesday with showers and a few thunderstorms accompanying a \ncold front. In its wake...a cold contin",
   "analogs": [
-    {
-      "datetime_utc": "2007-06-26T10:23Z",
-      "source_file": "IND_2007_26_1023.txt",
-      "similarity": 0.38645657896995544,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-06-26T07:20Z",
-      "source_file": "IND_2007_26_0720_1.txt",
-      "similarity": 0.38645657896995544,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2006-05-25T05:16Z",
       "source_file": "IND_2006_25_0516_1.txt",
-      "similarity": 0.3753592371940613,
+      "similarity": 0.4421347677707672,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-05-24T19:42Z",
       "source_file": "IND_2006_24_1942.txt",
-      "similarity": 0.3753592371940613,
+      "similarity": 0.4421347677707672,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2016-05-02T07:53Z",
-      "source_file": "IND_2016_02_0753_1.txt",
-      "similarity": 0.37457337975502014,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2010-01-02T02:14Z",
+      "source_file": "IND_2010_02_0214_1.txt",
+      "similarity": 0.44099199771881104,
+      "label": "flood",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2016-05-02T08:31Z",
-      "source_file": "IND_2016_02_0831.txt",
-      "similarity": 0.3738201856613159,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2010-01-02T04:30Z",
+      "source_file": "IND_2010_02_0430_1.txt",
+      "similarity": 0.44099199771881104,
+      "label": "flood",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2016-05-02T14:17Z",
-      "source_file": "IND_2016_02_1417.txt",
-      "similarity": 0.3738201856613159,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2015-10-14T14:32Z",
+      "source_file": "IND_2015_14_1432.txt",
+      "similarity": 0.4396989941596985,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2016-05-02T14:12Z",
-      "source_file": "IND_2016_02_1412.txt",
-      "similarity": 0.3738201856613159,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2015-10-14T10:35Z",
+      "source_file": "IND_2015_14_1035.txt",
+      "similarity": 0.4396989941596985,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2016-05-02T16:46Z",
-      "source_file": "IND_2016_02_1646.txt",
-      "similarity": 0.3738201856613159,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2015-10-14T16:55Z",
+      "source_file": "IND_2015_14_1655.txt",
+      "similarity": 0.4396989941596985,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2016-05-02T11:38Z",
-      "source_file": "IND_2016_02_1138.txt",
-      "similarity": 0.3738201856613159,
-      "label": "severe_wind",
+      "datetime_utc": "2015-10-14T08:24Z",
+      "source_file": "IND_2015_14_0824.txt",
+      "similarity": 0.4396989941596985,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-10-14T07:22Z",
+      "source_file": "IND_2015_14_0722.txt",
+      "similarity": 0.4396989941596985,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-06-09T13:53Z",
+      "source_file": "IND_2010_09_1353.txt",
+      "similarity": 0.43966564536094666,
+      "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 1.0,
-    "mean_similarity": 0.3767305940389633,
-    "n_severe": 10,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.44044141471385956,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202611092235-KIND-FXUS63-AFDIND",
-    "afd_time": "2026-11-09T22:35:00Z",
-    "updated": "2026-11-10T02:13:02.967452+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202611100736-KIND-FXUS63-AFDIND",
+    "afd_time": "2026-11-10T07:36:00Z",
+    "updated": "2026-11-10T09:58:56.869162+00:00"
   }
 }

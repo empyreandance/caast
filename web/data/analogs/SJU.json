@@ -1,91 +1,91 @@
 {
   "office": "SJU",
-  "product_id": "202611071836-TJSJ-FXCA62-AFDSJU-CCA",
-  "afd_time": "2026-11-07T18:36:00Z",
-  "section_type": "long_term",
-  "updated": "2026-11-07T20:18:09.547684+00:00",
-  "query_preview": "...RVM/MNG\nKEY MESSAGES/AVIATION/MARINE/BEACH FORECAST...CAM",
+  "product_id": "202611100833-TJSJ-FXCA62-AFDSJU",
+  "afd_time": "2026-11-10T08:33:00Z",
+  "section_type": "extended",
+  "updated": "2026-11-10T09:58:56.869162+00:00",
+  "query_preview": "through at least early Wednesday morning for the affected \nbeaches. A moderate risk of rip currents will continue along the \nbeaches of Vieques and the U.S. Virgin Islands. Continue to monitor \nthe forecast for additional updates.\n\nThunderstorms will remain an additional beach hazard, particularly \n",
   "analogs": [
     {
-      "datetime_utc": "2011-12-30T13:57Z",
-      "source_file": "SJU_2011_30_1357.txt",
-      "similarity": 0.4495311975479126,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-05-18T16:28Z",
-      "source_file": "SJU_2013_18_1628.txt",
-      "similarity": 0.44371750950813293,
+      "datetime_utc": "2006-07-09T19:32Z",
+      "source_file": "SJU_2006_09_1932.txt",
+      "similarity": 0.2714729905128479,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-04-16T01:22Z",
-      "source_file": "SJU_2023_16_0122.txt",
-      "similarity": 0.4436678886413574,
-      "label": "flood",
-      "is_severe": false
+      "datetime_utc": "2013-07-19T00:24Z",
+      "source_file": "SJU_2013_19_0024.txt",
+      "similarity": 0.26535922288894653,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2009-03-28T17:44Z",
-      "source_file": "SJU_2009_28_1744.txt",
-      "similarity": 0.4419217109680176,
+      "datetime_utc": "2014-07-24T13:45Z",
+      "source_file": "SJU_2014_24_1345.txt",
+      "similarity": 0.26417526602745056,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-07-04T22:44Z",
+      "source_file": "SJU_2011_04_2244.txt",
+      "similarity": 0.2641153335571289,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-01-03T09:32Z",
-      "source_file": "SJU_2023_03_0932.txt",
-      "similarity": 0.4414251744747162,
+      "datetime_utc": "2007-03-06T21:00Z",
+      "source_file": "SJU_2007_06_2100.txt",
+      "similarity": 0.2633301317691803,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-01-03T15:06Z",
-      "source_file": "SJU_2023_03_1506.txt",
-      "similarity": 0.4414251744747162,
+      "datetime_utc": "2005-05-02T09:47Z",
+      "source_file": "SJU_2005_02_0947.txt",
+      "similarity": 0.25999218225479126,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-11-14T09:47Z",
-      "source_file": "SJU_2007_14_0947.txt",
-      "similarity": 0.42680254578590393,
+      "datetime_utc": "2010-07-27T14:29Z",
+      "source_file": "SJU_2010_27_1429.txt",
+      "similarity": 0.25957340002059937,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-09-26T23:31Z",
-      "source_file": "SJU_2017_26_2331.txt",
-      "similarity": 0.42631831765174866,
+      "datetime_utc": "2015-03-08T19:10Z",
+      "source_file": "SJU_2015_08_1910_1.txt",
+      "similarity": 0.25923341512680054,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-09-26T19:59Z",
-      "source_file": "SJU_2017_26_1959.txt",
-      "similarity": 0.42631831765174866,
+      "datetime_utc": "2015-04-28T19:13Z",
+      "source_file": "SJU_2015_28_1913.txt",
+      "similarity": 0.25895458459854126,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-09-26T09:04Z",
-      "source_file": "SJU_2017_26_0904.txt",
-      "similarity": 0.42312732338905334,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2015-05-22T13:24Z",
+      "source_file": "SJU_2015_22_1324.txt",
+      "similarity": 0.25868886709213257,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.43642551600933077,
-    "n_severe": 0,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.26248953938484193,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202611071836-TJSJ-FXCA62-AFDSJU-CCA",
-    "afd_time": "2026-11-07T18:36:00Z",
-    "updated": "2026-11-07T20:18:09.547684+00:00"
+    "reason": "top-10 mean similarity 0.26 below confidence floor 0.7",
+    "product_id": "202611100833-TJSJ-FXCA62-AFDSJU",
+    "afd_time": "2026-11-10T08:33:00Z",
+    "updated": "2026-11-10T09:58:56.869162+00:00"
   }
 }
