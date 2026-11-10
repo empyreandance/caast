@@ -1,21 +1,28 @@
 {
   "office": "TSA",
-  "product_id": "202611091800-KTSA-FXUS64-AFDTSA",
-  "afd_time": "2026-11-09T18:00:00Z",
+  "product_id": "202611092330-KTSA-FXUS64-AFDTSA",
+  "afd_time": "2026-11-09T23:30:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-09T18:53:44.494141+00:00",
+  "updated": "2026-11-10T02:13:02.967452+00:00",
   "query_preview": "..\n(Tomorrow through Monday)\nIssued at 1103 AM CST Mon Nov 9 2026\n\nThe aforementioned upper low will navigate eastward along the Red\nRiver on Tuesday. This may lead to a few light showers across SE \nOK Tuesday morning-afternoon, but any meaningful rains are likely \nto remain south of the FA. Moist s",
   "analogs": [
     {
       "datetime_utc": "2008-12-16T15:40Z",
       "source_file": "TSA_2008_16_1540.txt",
-      "similarity": 0.5284164547920227,
+      "similarity": 0.5284165143966675,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2014-08-22T08:57Z",
       "source_file": "TSA_2014_22_0857.txt",
+      "similarity": 0.5270434617996216,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-08-22T17:24Z",
+      "source_file": "TSA_2014_22_1724.txt",
       "similarity": 0.5270434617996216,
       "label": "severe_wind",
       "is_severe": true
@@ -35,13 +42,6 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-08-22T17:24Z",
-      "source_file": "TSA_2014_22_1724.txt",
-      "similarity": 0.5270434617996216,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2012-07-03T11:37Z",
       "source_file": "TSA_2012_03_1137.txt",
       "similarity": 0.5263153910636902,
@@ -56,15 +56,15 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-12-03T05:47Z",
-      "source_file": "TSA_2011_03_0547.txt",
+      "datetime_utc": "2011-12-03T03:06Z",
+      "source_file": "TSA_2011_03_0306.txt",
       "similarity": 0.523162305355072,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-12-03T03:06Z",
-      "source_file": "TSA_2011_03_0306.txt",
+      "datetime_utc": "2011-12-03T05:47Z",
+      "source_file": "TSA_2011_03_0547.txt",
       "similarity": 0.523162305355072,
       "label": "winter",
       "is_severe": false
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.5252122998237609,
+    "mean_similarity": 0.5252123057842255,
     "n_severe": 6,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.53 below confidence floor 0.7",
-    "product_id": "202611091800-KTSA-FXUS64-AFDTSA",
-    "afd_time": "2026-11-09T18:00:00Z",
-    "updated": "2026-11-09T18:53:44.494141+00:00"
+    "product_id": "202611092330-KTSA-FXUS64-AFDTSA",
+    "afd_time": "2026-11-09T23:30:00Z",
+    "updated": "2026-11-10T02:13:02.967452+00:00"
   }
 }
