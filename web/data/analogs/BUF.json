@@ -1,91 +1,91 @@
 {
   "office": "BUF",
-  "product_id": "202611102318-KBUF-FXUS61-AFDBUF",
-  "afd_time": "2026-11-10T23:18:00Z",
+  "product_id": "202611111119-KBUF-FXUS61-AFDBUF",
+  "afd_time": "2026-11-11T11:19:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-10T23:28:52.573016+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Warmest day of the week today, with dry weather \npersisting through Wednesday.\n\nHeading into this afternoon, partly cloudy to mostly sunny skies are \nsupporting temperatures to climb into the mid to upper 50s, whereas \na blanket of cloud cover is passing south across the Watertown",
+  "updated": "2026-11-11T15:19:14.856610+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...Rain will develop tonight and continue Thursday, \nwith colder air then allowing for the rain to mix with and change to \nwet snow Thursday night through Saturday.\n\nLatest ensemble means including the NBM have trended a little colder \nand a little higher on QPF, especially for Thurs",
   "analogs": [
     {
       "datetime_utc": "2019-12-08T00:52Z",
       "source_file": "BUF_2019_08_0052.txt",
-      "similarity": 0.46644383668899536,
+      "similarity": 0.45787331461906433,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-12-07T22:14Z",
       "source_file": "BUF_2019_07_2214.txt",
-      "similarity": 0.46644383668899536,
+      "similarity": 0.45787331461906433,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-07-31T13:23Z",
-      "source_file": "BUF_2005_31_1323.txt",
-      "similarity": 0.4596046507358551,
-      "label": "tornado",
+      "datetime_utc": "2012-05-14T00:23Z",
+      "source_file": "BUF_2012_14_0023.txt",
+      "similarity": 0.4435235261917114,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-07-31T06:53Z",
-      "source_file": "BUF_2005_31_0653.txt",
-      "similarity": 0.4596046507358551,
-      "label": "tornado",
+      "datetime_utc": "2012-05-13T23:37Z",
+      "source_file": "BUF_2012_13_2337.txt",
+      "similarity": 0.4435235261917114,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-07-30T18:22Z",
-      "source_file": "BUF_2005_30_1822.txt",
-      "similarity": 0.4596046507358551,
-      "label": "tornado",
+      "datetime_utc": "2012-05-14T05:26Z",
+      "source_file": "BUF_2012_14_0526.txt",
+      "similarity": 0.4435235261917114,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2022-11-19T06:23Z",
-      "source_file": "BUF_2022_19_0623.txt",
-      "similarity": 0.45330649614334106,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2012-05-13T20:00Z",
+      "source_file": "BUF_2012_13_2000.txt",
+      "similarity": 0.4435235261917114,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2022-11-18T20:10Z",
-      "source_file": "BUF_2022_18_2010.txt",
-      "similarity": 0.45330649614334106,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-11-19T00:39Z",
-      "source_file": "BUF_2022_19_0039.txt",
-      "similarity": 0.45330649614334106,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-09-12T18:53Z",
-      "source_file": "BUF_2018_12_1853.txt",
-      "similarity": 0.450604647397995,
-      "label": "flood",
-      "is_severe": false
+      "datetime_utc": "2022-05-08T14:13Z",
+      "source_file": "BUF_2022_08_1413.txt",
+      "similarity": 0.44048625230789185,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
       "datetime_utc": "2022-05-08T07:22Z",
       "source_file": "BUF_2022_08_0722.txt",
-      "similarity": 0.44932717084884644,
+      "similarity": 0.44048625230789185,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-05-08T10:45Z",
+      "source_file": "BUF_2022_08_1045.txt",
+      "similarity": 0.44048625230789185,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-05-08T07:11Z",
+      "source_file": "BUF_2022_08_0711.txt",
+      "similarity": 0.44048625230789185,
       "label": "severe_hail",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.45715529322624204,
-    "n_severe": 4,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.44517857432365415,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202611102318-KBUF-FXUS61-AFDBUF",
-    "afd_time": "2026-11-10T23:18:00Z",
-    "updated": "2026-11-10T23:28:52.573016+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202611111119-KBUF-FXUS61-AFDBUF",
+    "afd_time": "2026-11-11T11:19:00Z",
+    "updated": "2026-11-11T15:19:14.856610+00:00"
   }
 }

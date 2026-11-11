@@ -1,91 +1,92 @@
 {
   "office": "GYX",
-  "product_id": "202611102341-KGYX-FXUS61-AFDGYX",
-  "afd_time": "2026-11-10T23:41:00Z",
+  "product_id": "202611111135-KGYX-FXUS61-AFDGYX",
+  "afd_time": "2026-11-11T11:35:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-11T06:33:55.917151+00:00",
-  "query_preview": "..\nKEY MESSAGE 1 DESCRIPTION...\nUpslope rain/snow showers will continue through tonight and \npotentially linger through tomorrow morning as a cold front \nsinks into the area. Weak low pressure riding along that front \nis going to clip our area which will allow for shower activity \nto expand outside ",
+  "updated": "2026-11-11T15:19:14.856610+00:00",
+  "query_preview": "..\nKEY MESSAGE 1 DESCRIPTION...\n\nA positively tilted H5 trof will move across the Great Lakes on\nWednesday night into Thursday as a sfc low develops near the OH\nValley and then swings offshore of the Mid-Atlantic coast \nThursday night. This low is then progged to move northeastward \ntowards Cape Cod",
   "analogs": [
-    {
-      "datetime_utc": "2021-03-26T10:37Z",
-      "source_file": "GYX_2021_26_1037.txt",
-      "similarity": 0.8222514390945435,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2007-04-11T13:41Z",
       "source_file": "GYX_2007_11_1341.txt",
-      "similarity": 0.7976020574569702,
+      "similarity": 0.9335096478462219,
       "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-04-11T18:41Z",
-      "source_file": "GYX_2009_11_1841.txt",
-      "similarity": 0.6138022541999817,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-04-12T01:34Z",
-      "source_file": "GYX_2009_12_0134.txt",
-      "similarity": 0.6138022541999817,
-      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-03-25T06:56Z",
       "source_file": "GYX_2004_25_0656.txt",
-      "similarity": 0.5826700925827026,
+      "similarity": 0.8699153661727905,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-03-11T02:45Z",
-      "source_file": "GYX_2011_11_0245.txt",
-      "similarity": 0.5744065642356873,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-03-10T20:47Z",
-      "source_file": "GYX_2011_10_2047.txt",
-      "similarity": 0.5744065642356873,
-      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-02-14T00:25Z",
       "source_file": "GYX_2015_14_0025.txt",
-      "similarity": 0.5708357095718384,
+      "similarity": 0.8687018156051636,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-02-14T03:33Z",
       "source_file": "GYX_2015_14_0333.txt",
-      "similarity": 0.5708357095718384,
+      "similarity": 0.8687018156051636,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-12-09T21:31Z",
-      "source_file": "GYX_2023_09_2131.txt",
-      "similarity": 0.5674538612365723,
+      "datetime_utc": "2021-03-26T10:37Z",
+      "source_file": "GYX_2021_26_1037.txt",
+      "similarity": 0.8686908483505249,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-04-13T09:26Z",
+      "source_file": "GYX_2007_13_0926.txt",
+      "similarity": 0.8415318727493286,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-11-19T01:25Z",
+      "source_file": "GYX_2018_19_0125.txt",
+      "similarity": 0.8404680490493774,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-03-17T15:08Z",
+      "source_file": "GYX_2005_17_1508.txt",
+      "similarity": 0.8387078046798706,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-04-05T22:10Z",
+      "source_file": "GYX_2009_05_2210.txt",
+      "similarity": 0.8229109048843384,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-04-05T20:06Z",
+      "source_file": "GYX_2009_05_2006.txt",
+      "similarity": 0.8229109048843384,
       "label": "flood",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
+    "level": "QUIET",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.6288066506385803,
+    "mean_similarity": 0.8576049029827117,
+    "base_rate": 0.3880771607663106,
+    "signal_value": -0.2880771607663106,
     "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.63 below confidence floor 0.7",
-    "product_id": "202611102341-KGYX-FXUS61-AFDGYX",
-    "afd_time": "2026-11-10T23:41:00Z",
-    "updated": "2026-11-11T06:33:55.917151+00:00"
+    "product_id": "202611111135-KGYX-FXUS61-AFDGYX",
+    "afd_time": "2026-11-11T11:35:00Z",
+    "updated": "2026-11-11T15:19:14.856610+00:00"
   }
 }
