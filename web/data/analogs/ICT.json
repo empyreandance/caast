@@ -1,91 +1,91 @@
 {
   "office": "ICT",
-  "product_id": "202611111110-KICT-FXUS63-AFDICT",
-  "afd_time": "2026-11-11T11:10:00Z",
+  "product_id": "202611112023-KICT-FXUS63-AFDICT",
+  "afd_time": "2026-11-11T20:23:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-11T15:19:14.856610+00:00",
-  "query_preview": "..\nIssued at 335 AM CST Wed Nov 11 2026\n\nEarly this morning, water vapor satellite and upper air analysis \nshow a sharp deep layer trough quickly progressing eastward over the \nUpper Midwest, and a broad mid/upper ridge out over the southwestern \nCONUS. At the surface, an area of low pressure is mov",
+  "updated": "2026-11-11T22:46:28.333338+00:00",
+  "query_preview": "..\nIssued at 220 PM CST Wed Nov 11 2026\n\nAs of 215 PM Wednesday afternoon, midlevel troughing was present \nacross the eastern CONUS with ridging across the west. A shortwave \ntrough, responsible for the frontal passage earlier today, is \nadvancing through the mid-MS valley. A modest pressure gradien",
   "analogs": [
+    {
+      "datetime_utc": "2004-03-04T09:11Z",
+      "source_file": "ICT_2004_04_0911.txt",
+      "similarity": 0.4680972099304199,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2004-02-12T20:37Z",
       "source_file": "ICT_2004_12_2037.txt",
-      "similarity": 0.4222574830055237,
+      "similarity": 0.45462989807128906,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-01-07T20:50Z",
       "source_file": "ICT_2004_07_2050.txt",
-      "similarity": 0.4153949022293091,
+      "similarity": 0.45045891404151917,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2022-02-05T23:26Z",
-      "source_file": "ICT_2022_05_2326.txt",
-      "similarity": 0.41047510504722595,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2019-05-10T04:43Z",
+      "source_file": "ICT_2019_10_0443.txt",
+      "similarity": 0.44732043147087097,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-05-09T23:52Z",
+      "source_file": "ICT_2019_09_2352.txt",
+      "similarity": 0.44732043147087097,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-05-09T20:52Z",
+      "source_file": "ICT_2019_09_2052.txt",
+      "similarity": 0.44732043147087097,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-08-12T01:49Z",
+      "source_file": "ICT_2005_12_0149.txt",
+      "similarity": 0.4439544081687927,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-08-11T20:11Z",
+      "source_file": "ICT_2005_11_2011.txt",
+      "similarity": 0.4439544081687927,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-10-05T20:00Z",
+      "source_file": "ICT_2011_05_2000.txt",
+      "similarity": 0.4432222843170166,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2022-02-05T21:19Z",
       "source_file": "ICT_2022_05_2119.txt",
-      "similarity": 0.41047510504722595,
+      "similarity": 0.4425572454929352,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-02-06T05:20Z",
-      "source_file": "ICT_2022_06_0520.txt",
-      "similarity": 0.41047510504722595,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-10-26T03:53Z",
-      "source_file": "ICT_2022_26_0353.txt",
-      "similarity": 0.4074188768863678,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-10-25T23:25Z",
-      "source_file": "ICT_2022_25_2325.txt",
-      "similarity": 0.4074188768863678,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-10-25T19:05Z",
-      "source_file": "ICT_2022_25_1905.txt",
-      "similarity": 0.4074188768863678,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-08-18T04:00Z",
-      "source_file": "ICT_2005_18_0400.txt",
-      "similarity": 0.405866414308548,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-08-17T20:38Z",
-      "source_file": "ICT_2005_17_2038.txt",
-      "similarity": 0.405866414308548,
-      "label": "tornado",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.410306715965271,
-    "n_severe": 2,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.4488835662603378,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202611111110-KICT-FXUS63-AFDICT",
-    "afd_time": "2026-11-11T11:10:00Z",
-    "updated": "2026-11-11T15:19:14.856610+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202611112023-KICT-FXUS63-AFDICT",
+    "afd_time": "2026-11-11T20:23:00Z",
+    "updated": "2026-11-11T22:46:28.333338+00:00"
   }
 }

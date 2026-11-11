@@ -1,91 +1,91 @@
 {
   "office": "MEG",
-  "product_id": "202611111205-KMEG-FXUS64-AFDMEG",
-  "afd_time": "2026-11-11T12:05:00Z",
+  "product_id": "202611111855-KMEG-FXUS64-AFDMEG",
+  "afd_time": "2026-11-11T18:55:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-11T15:19:14.856610+00:00",
-  "query_preview": "..\n(Tonight through next Tuesday)\nIssued at 1110 PM CST Tue Nov 10 2026\n\nEvening GOES Water Vapor satellite trends and 00Z upper air\nanalysis placed a weak southern stream upper-level trough over\nnortheast Texas this evening. Regional WSR-88D radar trends show\na few light returns over east Arkansas.",
+  "updated": "2026-11-11T22:46:28.333338+00:00",
+  "query_preview": "..\n(This evening through next Tuesday)\nIssued at 1255 PM CST Wed Nov 11 2026\n\nCurrent satellite imagery shows extensive cloud cover over north\nMississippi and far southwest Tennessee with mainly clear skies\nover the remainder of Tennessee, east Arkansas and the Missouri\nBootheel.  Temperatures are i",
   "analogs": [
-    {
-      "datetime_utc": "2005-09-05T18:55Z",
-      "source_file": "MEG_2005_05_1855.txt",
-      "similarity": 0.43868932127952576,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2007-03-27T09:31Z",
       "source_file": "MEG_2007_27_0931.txt",
-      "similarity": 0.43235209584236145,
+      "similarity": 0.4139777421951294,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-06-13T18:53Z",
       "source_file": "MEG_2006_13_1853.txt",
-      "similarity": 0.43194258213043213,
+      "similarity": 0.41332948207855225,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-08-04T19:49Z",
+      "source_file": "MEG_2006_04_1949.txt",
+      "similarity": 0.4093242883682251,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-08-05T01:35Z",
+      "source_file": "MEG_2006_05_0135.txt",
+      "similarity": 0.4093242883682251,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-09-05T18:55Z",
+      "source_file": "MEG_2005_05_1855.txt",
+      "similarity": 0.4086741805076599,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-08-03T14:51Z",
+      "source_file": "MEG_2005_03_1451.txt",
+      "similarity": 0.4081640839576721,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-01-26T17:34Z",
       "source_file": "MEG_2024_26_1734.txt",
-      "similarity": 0.4312211871147156,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-01-26T09:30Z",
-      "source_file": "MEG_2024_26_0930.txt",
-      "similarity": 0.4312211871147156,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-01-26T11:23Z",
-      "source_file": "MEG_2024_26_1123.txt",
-      "similarity": 0.4312211871147156,
+      "similarity": 0.4043108820915222,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2024-01-26T16:05Z",
       "source_file": "MEG_2024_26_1605.txt",
-      "similarity": 0.4312211871147156,
+      "similarity": 0.4043108820915222,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2021-10-30T20:49Z",
-      "source_file": "MEG_2021_30_2049.txt",
-      "similarity": 0.43111753463745117,
+      "datetime_utc": "2024-01-26T11:23Z",
+      "source_file": "MEG_2024_26_1123.txt",
+      "similarity": 0.4043108820915222,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-12-12T21:40Z",
-      "source_file": "MEG_2012_12_2140.txt",
-      "similarity": 0.42348775267601013,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-12-12T23:08Z",
-      "source_file": "MEG_2012_12_2308.txt",
-      "similarity": 0.42348775267601013,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2024-01-26T09:30Z",
+      "source_file": "MEG_2024_26_0930.txt",
+      "similarity": 0.4043108820915222,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.4305961787700653,
-    "n_severe": 4,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.4080037593841553,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202611111205-KMEG-FXUS64-AFDMEG",
-    "afd_time": "2026-11-11T12:05:00Z",
-    "updated": "2026-11-11T15:19:14.856610+00:00"
+    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
+    "product_id": "202611111855-KMEG-FXUS64-AFDMEG",
+    "afd_time": "2026-11-11T18:55:00Z",
+    "updated": "2026-11-11T22:46:28.333338+00:00"
   }
 }

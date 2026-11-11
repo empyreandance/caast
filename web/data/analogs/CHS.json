@@ -1,92 +1,92 @@
 {
   "office": "CHS",
-  "product_id": "202611111146-KCHS-FXUS62-AFDCHS",
-  "afd_time": "2026-11-11T11:46:00Z",
+  "product_id": "202611111900-KCHS-FXUS62-AFDCHS",
+  "afd_time": "2026-11-11T19:00:00Z",
   "section_type": "extended",
-  "updated": "2026-11-11T15:19:14.856610+00:00",
-  "query_preview": "Aviation Outlook: Breezy southwesterly winds will be \nstrengthening throughout the day on Thursday, producing gusts up to \nnear 25 knots. A cold front moves through overnight into Friday, \nswinging winds around to become out of the west-northwest.",
+  "updated": "2026-11-11T22:46:28.333338+00:00",
+  "query_preview": "Aviation Outlook: Southwesterly winds will be \nstrengthening throughout the day on Thursday, producing gusts up\nto near 25 knots. A cold front will move through Thursday\nevening, shifting winds out of the west-northwest.",
   "analogs": [
     {
-      "datetime_utc": "2019-02-07T02:53Z",
-      "source_file": "CHS_2019_07_0253.txt",
-      "similarity": 0.9561135768890381,
+      "datetime_utc": "2025-09-12T11:49Z",
+      "source_file": "CHS_2025_12_1149.txt",
+      "similarity": 0.954475998878479,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-09-12T17:27Z",
+      "source_file": "CHS_2025_12_1727.txt",
+      "similarity": 0.954475998878479,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-09-12T05:36Z",
+      "source_file": "CHS_2025_12_0536.txt",
+      "similarity": 0.954475998878479,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-09-26T05:01Z",
+      "source_file": "CHS_2012_26_0501.txt",
+      "similarity": 0.9541876316070557,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-02-07T00:08Z",
-      "source_file": "CHS_2019_07_0008.txt",
-      "similarity": 0.9561135768890381,
+      "datetime_utc": "2012-09-25T19:03Z",
+      "source_file": "CHS_2012_25_1903.txt",
+      "similarity": 0.9541876316070557,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-02-07T05:13Z",
-      "source_file": "CHS_2019_07_0513.txt",
-      "similarity": 0.9561135768890381,
+      "datetime_utc": "2012-09-25T23:25Z",
+      "source_file": "CHS_2012_25_2325.txt",
+      "similarity": 0.9541876316070557,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-02-06T20:46Z",
-      "source_file": "CHS_2019_06_2046.txt",
-      "similarity": 0.9561135768890381,
+      "datetime_utc": "2012-09-26T01:32Z",
+      "source_file": "CHS_2012_26_0132.txt",
+      "similarity": 0.9541876316070557,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-06-01T20:05Z",
-      "source_file": "CHS_2010_01_2005.txt",
-      "similarity": 0.9428808093070984,
+      "datetime_utc": "2011-11-02T23:43Z",
+      "source_file": "CHS_2011_02_2343.txt",
+      "similarity": 0.9495899677276611,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-04-30T16:43Z",
+      "source_file": "CHS_2016_30_1643.txt",
+      "similarity": 0.9451919794082642,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-06-01T23:34Z",
-      "source_file": "CHS_2010_01_2334.txt",
-      "similarity": 0.9428808093070984,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-06-02T05:46Z",
-      "source_file": "CHS_2010_02_0546.txt",
-      "similarity": 0.9428808093070984,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-06-02T01:11Z",
-      "source_file": "CHS_2010_02_0111.txt",
-      "similarity": 0.9428808093070984,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-02-01T10:44Z",
-      "source_file": "CHS_2024_01_1044.txt",
-      "similarity": 0.9397062063217163,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-02-01T08:16Z",
-      "source_file": "CHS_2024_01_0816_1.txt",
-      "similarity": 0.9397062063217163,
+      "datetime_utc": "2016-04-30T15:34Z",
+      "source_file": "CHS_2016_30_1534.txt",
+      "similarity": 0.9451919794082642,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "HIGH",
-    "severe_fraction": 1.0,
-    "mean_similarity": 0.9475389957427979,
+    "level": "LOW",
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.9520152449607849,
     "base_rate": 0.6591567279490003,
-    "signal_value": 0.34084327205099973,
-    "n_severe": 10,
+    "signal_value": 0.24084327205099976,
+    "n_severe": 9,
     "n_total": 10,
-    "product_id": "202611111146-KCHS-FXUS62-AFDCHS",
-    "afd_time": "2026-11-11T11:46:00Z",
-    "updated": "2026-11-11T15:19:14.856610+00:00"
+    "product_id": "202611111900-KCHS-FXUS62-AFDCHS",
+    "afd_time": "2026-11-11T19:00:00Z",
+    "updated": "2026-11-11T22:46:28.333338+00:00"
   }
 }
