@@ -1,91 +1,91 @@
 {
   "office": "MSO",
-  "product_id": "202611120827-KMSO-FXUS65-AFDMSO",
-  "afd_time": "2026-11-12T08:27:00Z",
+  "product_id": "202611121956-KMSO-FXUS65-AFDMSO",
+  "afd_time": "2026-11-12T19:56:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-12T12:50:24.639272+00:00",
-  "query_preview": "..\n\nKEY MESSAGES:\n\n- Stable conditions cause valley fog and low clouds through\n  Friday. \n\n- A pattern shift on Saturday will bring some atmospheric river\n  remnants to northwest Montana with higher snow levels and\n  minimal impacts expected. \n\n- Cooling early next week with lowering snow levels.\n\nC",
+  "updated": "2026-11-12T20:54:18.816733+00:00",
+  "query_preview": "..\n\nKEY MESSAGES:\n\n- Stable conditions cause valley fog and low clouds through\n  Friday. \n\n- A pattern shift on Saturday will bring some atmospheric river\n  remnants to the northern Rockies with higher snow levels and \n  minimal impacts expected. \n\n- Cooling early next week with lowering snow levels",
   "analogs": [
     {
-      "datetime_utc": "2006-01-05T21:34Z",
-      "source_file": "MSO_2006_05_2134.txt",
-      "similarity": 0.47987306118011475,
-      "label": "flood",
+      "datetime_utc": "2021-01-05T21:45Z",
+      "source_file": "MSO_2021_05_2145.txt",
+      "similarity": 0.3867458403110504,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-01-06T04:26Z",
-      "source_file": "MSO_2006_06_0426.txt",
-      "similarity": 0.47987306118011475,
+      "datetime_utc": "2009-12-19T17:00Z",
+      "source_file": "MSO_2009_19_1700.txt",
+      "similarity": 0.386736124753952,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-07-31T08:20Z",
+      "source_file": "MSO_2024_31_0820.txt",
+      "similarity": 0.38564959168434143,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-07-30T19:44Z",
+      "source_file": "MSO_2024_30_1944.txt",
+      "similarity": 0.38564959168434143,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-10-24T23:35Z",
       "source_file": "MSO_2005_24_2335.txt",
-      "similarity": 0.4658513367176056,
+      "similarity": 0.38299795985221863,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-07-30T19:44Z",
-      "source_file": "MSO_2024_30_1944.txt",
-      "similarity": 0.4544343650341034,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-07-31T08:20Z",
-      "source_file": "MSO_2024_31_0820.txt",
-      "similarity": 0.4544343650341034,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2019-12-16T03:58Z",
-      "source_file": "MSO_2019_16_0358.txt",
-      "similarity": 0.4525596499443054,
-      "label": "winter",
+      "datetime_utc": "2008-07-07T04:21Z",
+      "source_file": "MSO_2008_07_0421.txt",
+      "similarity": 0.38247939944267273,
+      "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-06-28T20:53Z",
-      "source_file": "MSO_2004_28_2053_1.txt",
-      "similarity": 0.45205944776535034,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-03-24T16:48Z",
-      "source_file": "MSO_2007_24_1648.txt",
-      "similarity": 0.44423094391822815,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-10-24T20:29Z",
-      "source_file": "MSO_2005_24_2029.txt",
-      "similarity": 0.44272446632385254,
-      "label": "severe_hail",
-      "is_severe": true
     },
     {
       "datetime_utc": "2020-01-26T10:39Z",
       "source_file": "MSO_2020_26_1039.txt",
-      "similarity": 0.44241371750831604,
+      "similarity": 0.3768765926361084,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-01-06T04:26Z",
+      "source_file": "MSO_2006_06_0426.txt",
+      "similarity": 0.37650567293167114,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-01-05T21:34Z",
+      "source_file": "MSO_2006_05_2134.txt",
+      "similarity": 0.37650567293167114,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-12-14T03:10Z",
+      "source_file": "MSO_2008_14_0310.txt",
+      "similarity": 0.37565547227859497,
+      "label": "winter",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.45684544146060946,
-    "n_severe": 7,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.3815801918506622,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202611120827-KMSO-FXUS65-AFDMSO",
-    "afd_time": "2026-11-12T08:27:00Z",
-    "updated": "2026-11-12T12:50:24.639272+00:00"
+    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
+    "product_id": "202611121956-KMSO-FXUS65-AFDMSO",
+    "afd_time": "2026-11-12T19:56:00Z",
+    "updated": "2026-11-12T20:54:18.816733+00:00"
   }
 }
