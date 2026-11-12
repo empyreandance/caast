@@ -1,15 +1,15 @@
 {
   "office": "OAX",
-  "product_id": "202611111917-KOAX-FXUS63-AFDOAX",
-  "afd_time": "2026-11-11T19:17:00Z",
+  "product_id": "202611112334-KOAX-FXUS63-AFDOAX",
+  "afd_time": "2026-11-11T23:34:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-11T22:46:28.333338+00:00",
+  "updated": "2026-11-12T03:52:22.936743+00:00",
   "query_preview": "..\nIssued at 113 PM CST Wed Nov 11 2026\n\nThe forecast period begins with northwest flow and a fairly tight \npressure gradient over the Central High Plains, High Plains, and \nGreat Plains. An amplifying ridge is in place over the western CONUS \nand a trough continues to dig southeast toward the Gulf ",
   "analogs": [
     {
       "datetime_utc": "2011-03-03T09:00Z",
       "source_file": "OAX_2011_03_0900.txt",
-      "similarity": 0.42534592747688293,
+      "similarity": 0.42534589767456055,
       "label": "winter",
       "is_severe": false
     },
@@ -21,32 +21,25 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-06-24T20:47Z",
-      "source_file": "OAX_2020_24_2047.txt",
-      "similarity": 0.4195132255554199,
+      "datetime_utc": "2020-06-25T04:46Z",
+      "source_file": "OAX_2020_25_0446.txt",
+      "similarity": 0.4195132851600647,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-06-24T23:13Z",
       "source_file": "OAX_2020_24_2313.txt",
-      "similarity": 0.4195132255554199,
+      "similarity": 0.4195132851600647,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2020-06-25T04:46Z",
-      "source_file": "OAX_2020_25_0446.txt",
-      "similarity": 0.4195132255554199,
+      "datetime_utc": "2020-06-24T20:47Z",
+      "source_file": "OAX_2020_24_2047.txt",
+      "similarity": 0.4195132851600647,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-01-03T08:46Z",
-      "source_file": "OAX_2016_03_0846.txt",
-      "similarity": 0.4170713424682617,
-      "label": "winter",
-      "is_severe": false
     },
     {
       "datetime_utc": "2016-01-03T11:28Z",
@@ -63,16 +56,23 @@
       "is_severe": false
     },
     {
+      "datetime_utc": "2016-01-03T08:46Z",
+      "source_file": "OAX_2016_03_0846.txt",
+      "similarity": 0.4170713424682617,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2010-11-02T19:48Z",
       "source_file": "OAX_2010_02_1948.txt",
-      "similarity": 0.41465479135513306,
+      "similarity": 0.4146548807621002,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-01-18T20:41Z",
       "source_file": "OAX_2007_18_2041.txt",
-      "similarity": 0.4126754403114319,
+      "similarity": 0.4126754105091095,
       "label": "winter",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.4186098426580429,
+    "mean_similarity": 0.41860986351966856,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202611111917-KOAX-FXUS63-AFDOAX",
-    "afd_time": "2026-11-11T19:17:00Z",
-    "updated": "2026-11-11T22:46:28.333338+00:00"
+    "product_id": "202611112334-KOAX-FXUS63-AFDOAX",
+    "afd_time": "2026-11-11T23:34:00Z",
+    "updated": "2026-11-12T03:52:22.936743+00:00"
   }
 }

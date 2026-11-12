@@ -1,91 +1,92 @@
 {
   "office": "JAX",
-  "product_id": "202611111813-KJAX-FXUS62-AFDJAX",
-  "afd_time": "2026-11-11T18:13:00Z",
+  "product_id": "202611112325-KJAX-FXUS62-AFDJAX",
+  "afd_time": "2026-11-11T23:25:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-11T22:46:28.333338+00:00",
-  "query_preview": "/SATURDAY THROUGH TUESDAY/...\nMain Highlights This Period:\n\n- Seasonably Cool and Dry Weather this Weekend. \n- Inland Frost Potential for Southeast GA and the Suwannee Valley \nEarly on Sunday Morning.\n- Increasing Coastal and Marine Hazards Forecast Next Week.\n\nDeep troughing will remain in place ov",
+  "updated": "2026-11-12T03:52:22.936743+00:00",
+  "query_preview": "/SATURDAY THROUGH WEDNESDAY/...\nMain Highlights This Period:\n\n- Seasonably Cool and Dry Weather this Weekend. \n- Inland Frost Potential for Southeast GA and the Suwannee Valley \nEarly on Sunday Morning.\n- Increasing Coastal and Marine Hazards Forecast Next Week.\n\nDeep troughing will remain in place ",
   "analogs": [
     {
       "datetime_utc": "2014-12-22T09:35Z",
       "source_file": "JAX_2014_22_0935.txt",
-      "similarity": 0.7819746136665344,
+      "similarity": 0.8858052492141724,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2015-09-25T08:24Z",
       "source_file": "JAX_2015_25_0824.txt",
-      "similarity": 0.7548828125,
+      "similarity": 0.8738532662391663,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-02-13T17:59Z",
-      "source_file": "JAX_2021_13_1759.txt",
-      "similarity": 0.7330053448677063,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-02-13T14:23Z",
       "source_file": "JAX_2021_13_1423.txt",
-      "similarity": 0.7330053448677063,
+      "similarity": 0.8571285605430603,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-02-13T10:58Z",
       "source_file": "JAX_2021_13_1058.txt",
-      "similarity": 0.7330053448677063,
+      "similarity": 0.8571285605430603,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-02-13T17:59Z",
+      "source_file": "JAX_2021_13_1759.txt",
+      "similarity": 0.8571285605430603,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-02-13T07:51Z",
       "source_file": "JAX_2021_13_0751.txt",
-      "similarity": 0.7330053448677063,
+      "similarity": 0.8571285605430603,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2019-08-16T08:09Z",
       "source_file": "JAX_2019_16_0809.txt",
-      "similarity": 0.6520827412605286,
+      "similarity": 0.7863324880599976,
       "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-01-28T07:45Z",
-      "source_file": "JAX_2007_28_0745.txt",
-      "similarity": 0.581206202507019,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-09-10T07:03Z",
-      "source_file": "JAX_2006_10_0703.txt",
-      "similarity": 0.5698348879814148,
-      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-04-14T06:44Z",
       "source_file": "JAX_2006_14_0644.txt",
-      "similarity": 0.5669865608215332,
+      "similarity": 0.7251489758491516,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-01-28T07:45Z",
+      "source_file": "JAX_2007_28_0745.txt",
+      "similarity": 0.7131563425064087,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-03-14T09:34Z",
+      "source_file": "JAX_2004_14_0934.txt",
+      "similarity": 0.7118415832519531,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
+    "level": "LOW",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.6838989198207855,
+    "mean_similarity": 0.8124652147293091,
+    "base_rate": 0.6786311634441694,
+    "signal_value": 0.12136883655583064,
     "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.68 below confidence floor 0.7",
-    "product_id": "202611111813-KJAX-FXUS62-AFDJAX",
-    "afd_time": "2026-11-11T18:13:00Z",
-    "updated": "2026-11-11T22:46:28.333338+00:00"
+    "product_id": "202611112325-KJAX-FXUS62-AFDJAX",
+    "afd_time": "2026-11-11T23:25:00Z",
+    "updated": "2026-11-12T03:52:22.936743+00:00"
   }
 }
