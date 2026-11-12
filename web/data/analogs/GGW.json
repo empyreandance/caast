@@ -1,91 +1,91 @@
 {
   "office": "GGW",
-  "product_id": "202611111830-KGGW-FXUS65-AFDGGW",
-  "afd_time": "2026-11-11T18:30:00Z",
+  "product_id": "202611120622-KGGW-FXUS65-AFDGGW",
+  "afd_time": "2026-11-12T06:22:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-11T22:46:28.333338+00:00",
-  "query_preview": "..\n\nToday through tonight: Early morning fog across Sheridan county \nhas burnt off as of 10AM. For tonight, most models pull the \nsurface trough back southwest as a back door front. Behind this \nfront will be lingering low stratus clouds and fog. What little \nis left of the CAMs after losing the NAM",
+  "updated": "2026-11-12T12:50:24.639272+00:00",
+  "query_preview": "..\n\nA retrograding surface trough will produce areas of fog across\nnortheast Montana through this morning. The fog will originate\nnear Plentywood and spread across regions north of the Missouri \nRiver as the morning progresses. Additional fog may be present in \nregions surrounding the Yellowstone Va",
   "analogs": [
     {
       "datetime_utc": "2025-11-26T21:19Z",
       "source_file": "GGW_2025_26_2119.txt",
-      "similarity": 0.39540499448776245,
+      "similarity": 0.4217238426208496,
       "label": "winter",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-05-25T23:02Z",
+      "source_file": "GGW_2009_25_2302.txt",
+      "similarity": 0.4205094873905182,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-05-25T20:56Z",
+      "source_file": "GGW_2009_25_2056.txt",
+      "similarity": 0.4205094873905182,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-05-26T03:31Z",
+      "source_file": "GGW_2009_26_0331.txt",
+      "similarity": 0.4205094873905182,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-09-25T21:07Z",
+      "source_file": "GGW_2010_25_2107.txt",
+      "similarity": 0.4100036025047302,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-06-26T09:27Z",
+      "source_file": "GGW_2006_26_0927.txt",
+      "similarity": 0.4090180993080139,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-06-26T15:01Z",
+      "source_file": "GGW_2006_26_1501.txt",
+      "similarity": 0.4090180993080139,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2025-11-27T10:35Z",
       "source_file": "GGW_2025_27_1035.txt",
-      "similarity": 0.3791218400001526,
+      "similarity": 0.40682223439216614,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-03-07T03:23Z",
-      "source_file": "GGW_2004_07_0323.txt",
-      "similarity": 0.3754573464393616,
-      "label": "quiet",
+      "datetime_utc": "2020-11-29T10:27Z",
+      "source_file": "GGW_2020_29_1027.txt",
+      "similarity": 0.406406968832016,
+      "label": "winter",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-03-06T21:19Z",
-      "source_file": "GGW_2004_06_2119.txt",
-      "similarity": 0.3754573464393616,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-12-13T09:15Z",
-      "source_file": "GGW_2007_13_0915.txt",
-      "similarity": 0.36883068084716797,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-12-13T21:50Z",
-      "source_file": "GGW_2007_13_2150.txt",
-      "similarity": 0.36883068084716797,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-08-14T09:00Z",
-      "source_file": "GGW_2006_14_0900.txt",
-      "similarity": 0.36788079142570496,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-07-27T20:39Z",
-      "source_file": "GGW_2006_27_2039.txt",
-      "similarity": 0.3674007058143616,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-05-13T15:51Z",
-      "source_file": "GGW_2006_13_1551.txt",
-      "similarity": 0.3660939335823059,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2006-05-13T08:33Z",
       "source_file": "GGW_2006_13_0833.txt",
-      "similarity": 0.3660939335823059,
+      "similarity": 0.4063563942909241,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.37305722534656527,
-    "n_severe": 4,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.41308777034282684,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
-    "product_id": "202611111830-KGGW-FXUS65-AFDGGW",
-    "afd_time": "2026-11-11T18:30:00Z",
-    "updated": "2026-11-11T22:46:28.333338+00:00"
+    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
+    "product_id": "202611120622-KGGW-FXUS65-AFDGGW",
+    "afd_time": "2026-11-12T06:22:00Z",
+    "updated": "2026-11-12T12:50:24.639272+00:00"
   }
 }

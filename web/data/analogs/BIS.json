@@ -1,91 +1,91 @@
 {
   "office": "BIS",
-  "product_id": "202611120008-KBIS-FXUS63-AFDBIS",
-  "afd_time": "2026-11-12T00:08:00Z",
+  "product_id": "202611121133-KBIS-FXUS63-AFDBIS",
+  "afd_time": "2026-11-12T11:33:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-12T03:52:22.936743+00:00",
-  "query_preview": "..\nIssued at 224 PM CST Wed Nov 11 2026\n\nCurrent surface analysis places high over Manitoba stretching\nsouthward into the Dakotas, while low remains over the lower\nMidwest. Upper level analysis places ridge over the Great Basin\ninto the Northern Rockies, with north-northwest flow over the\nnorthern p",
+  "updated": "2026-11-12T12:50:24.639272+00:00",
+  "query_preview": "..\nIssued at 259 AM CST Thu Nov 12 2026\n\nLow-level stratus is present over most of the state, except the\nfar southwest. So far, dense fog generally hasn't materialized \nin the west with most visibility remaining in excess of a mile, \nthough occasional dips below have been observed. Winds over \nweste",
   "analogs": [
     {
       "datetime_utc": "2013-02-23T00:10Z",
       "source_file": "BIS_2013_23_0010.txt",
-      "similarity": 0.7328630089759827,
+      "similarity": 0.5926711559295654,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-10-07T17:57Z",
-      "source_file": "BIS_2012_07_1757.txt",
-      "similarity": 0.6882190704345703,
-      "label": "quiet",
+      "datetime_utc": "2013-03-07T01:06Z",
+      "source_file": "BIS_2013_07_0106.txt",
+      "similarity": 0.5401837229728699,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-09-02T18:43Z",
       "source_file": "BIS_2011_02_1843.txt",
-      "similarity": 0.6499854922294617,
+      "similarity": 0.522904634475708,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-08-21T17:27Z",
+      "source_file": "BIS_2011_21_1727.txt",
+      "similarity": 0.5223467350006104,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-10-07T17:57Z",
+      "source_file": "BIS_2012_07_1757.txt",
+      "similarity": 0.5218744277954102,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-02-06T16:27Z",
+      "source_file": "BIS_2011_06_1627.txt",
+      "similarity": 0.5093923807144165,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2013-01-23T15:57Z",
       "source_file": "BIS_2013_23_1557.txt",
-      "similarity": 0.649273157119751,
+      "similarity": 0.5046082735061646,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-03-13T23:48Z",
       "source_file": "BIS_2011_13_2348.txt",
-      "similarity": 0.6347041130065918,
+      "similarity": 0.48426806926727295,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-02-06T16:27Z",
-      "source_file": "BIS_2011_06_1627.txt",
-      "similarity": 0.6325253248214722,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-03-07T01:06Z",
-      "source_file": "BIS_2013_07_0106.txt",
-      "similarity": 0.6322422623634338,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-08-21T17:27Z",
-      "source_file": "BIS_2011_21_1727.txt",
-      "similarity": 0.6304152011871338,
-      "label": "severe_wind",
+      "datetime_utc": "2011-06-06T15:32Z",
+      "source_file": "BIS_2011_06_1532.txt",
+      "similarity": 0.4676017761230469,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-12-04T18:05Z",
       "source_file": "BIS_2011_04_1805.txt",
-      "similarity": 0.6294274926185608,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-12-04T18:11Z",
-      "source_file": "BIS_2011_04_1811.txt",
-      "similarity": 0.6294274926185608,
+      "similarity": 0.46589046716690063,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.6509082615375519,
-    "n_severe": 1,
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.5131741642951966,
+    "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.65 below confidence floor 0.7",
-    "product_id": "202611120008-KBIS-FXUS63-AFDBIS",
-    "afd_time": "2026-11-12T00:08:00Z",
-    "updated": "2026-11-12T03:52:22.936743+00:00"
+    "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
+    "product_id": "202611121133-KBIS-FXUS63-AFDBIS",
+    "afd_time": "2026-11-12T11:33:00Z",
+    "updated": "2026-11-12T12:50:24.639272+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "CAR",
-  "product_id": "202611112323-KCAR-FXUS61-AFDCAR",
-  "afd_time": "2026-11-11T23:23:00Z",
+  "product_id": "202611120702-KCAR-FXUS61-AFDCAR",
+  "afd_time": "2026-11-12T07:02:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-12T03:52:22.936743+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Intermittent light rain mixed with snow, mainly\nnorth of Bangor, through today. Snow accumulations will be \nzero except across the higher terrain.\n\nA weak low to the north will move east of the region bringing\npotential for light rain/snow showers this afternoon and early\nevening.",
+  "updated": "2026-11-12T12:50:24.639272+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...Confidence for impacts from the coastal storm \ntonight into Friday are still decreasing. However, uncertainty \nstill exists.\n\nKEY MESSAGE 1 DESCRIPTION...\nModels are in better agreement regarding a more southerly track\nfor the coastal low, which will diminish potential impacts\nacr",
   "analogs": [
     {
-      "datetime_utc": "2018-09-09T09:15Z",
-      "source_file": "CAR_2018_09_0915.txt",
-      "similarity": 0.4989434480667114,
+      "datetime_utc": "2023-11-08T22:52Z",
+      "source_file": "CAR_2023_08_2252.txt",
+      "similarity": 0.47279247641563416,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-09-09T10:14Z",
-      "source_file": "CAR_2018_09_1014.txt",
-      "similarity": 0.4989434480667114,
+      "datetime_utc": "2023-11-08T20:51Z",
+      "source_file": "CAR_2023_08_2051.txt",
+      "similarity": 0.47279247641563416,
       "label": "quiet",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-09-09T13:08Z",
-      "source_file": "CAR_2018_09_1308.txt",
-      "similarity": 0.4989434480667114,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-09-09T15:25Z",
-      "source_file": "CAR_2018_09_1525.txt",
-      "similarity": 0.4989434480667114,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-08-29T07:41Z",
-      "source_file": "CAR_2011_29_0741.txt",
-      "similarity": 0.4986802637577057,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-08-29T13:39Z",
-      "source_file": "CAR_2011_29_1339.txt",
-      "similarity": 0.4986802637577057,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-08-29T15:23Z",
-      "source_file": "CAR_2011_29_1523.txt",
-      "similarity": 0.4986802637577057,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-08-29T09:04Z",
-      "source_file": "CAR_2011_29_0904.txt",
-      "similarity": 0.4986802637577057,
-      "label": "severe_wind",
-      "is_severe": true
     },
     {
       "datetime_utc": "2023-11-09T03:35Z",
       "source_file": "CAR_2023_09_0335.txt",
-      "similarity": 0.4979238212108612,
+      "similarity": 0.47279247641563416,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2023-11-09T06:04Z",
       "source_file": "CAR_2023_09_0604.txt",
-      "similarity": 0.4979238212108612,
+      "similarity": 0.47279247641563416,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-11-09T00:37Z",
+      "source_file": "CAR_2023_09_0037.txt",
+      "similarity": 0.47279247641563416,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-09-09T09:15Z",
+      "source_file": "CAR_2018_09_0915.txt",
+      "similarity": 0.4701675772666931,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-09-09T13:08Z",
+      "source_file": "CAR_2018_09_1308.txt",
+      "similarity": 0.4701675772666931,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-09-09T10:14Z",
+      "source_file": "CAR_2018_09_1014.txt",
+      "similarity": 0.4701675772666931,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-09-09T15:25Z",
+      "source_file": "CAR_2018_09_1525.txt",
+      "similarity": 0.4701675772666931,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2023-04-04T19:22Z",
+      "source_file": "CAR_2023_04_1922.txt",
+      "similarity": 0.46876031160354614,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.4986342489719391,
-    "n_severe": 4,
+    "severe_fraction": 0.0,
+    "mean_similarity": 0.47133930027484894,
+    "n_severe": 0,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202611112323-KCAR-FXUS61-AFDCAR",
-    "afd_time": "2026-11-11T23:23:00Z",
-    "updated": "2026-11-12T03:52:22.936743+00:00"
+    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
+    "product_id": "202611120702-KCAR-FXUS61-AFDCAR",
+    "afd_time": "2026-11-12T07:02:00Z",
+    "updated": "2026-11-12T12:50:24.639272+00:00"
   }
 }
