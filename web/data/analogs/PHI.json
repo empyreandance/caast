@@ -1,92 +1,91 @@
 {
   "office": "PHI",
-  "product_id": "202611131122-KPHI-FXUS61-AFDPHI",
-  "afd_time": "2026-11-13T11:22:00Z",
+  "product_id": "202611132007-KPHI-FXUS61-AFDPHI",
+  "afd_time": "2026-11-13T20:07:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-13T17:49:40.250182+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Low pressure slowly pulls away today, resulting\nin lingering unsettled weather. \n\nA vigorous upper-level trough continues to evolve across the \nEastern U.S. today. This supported the surface low deepening \nnear our CWA, which will head NE across the waters off New \nEngland today. ",
+  "updated": "2026-11-13T23:40:30.177457+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...Low pressure continues to withdraw and improving\nconditions expected overnight.  \n\nA vigorous upper-level trough continues to swing across the\nNortheast U.S. tonight and into Saturday. The main surface low \nis now well offshore and will continue to move away across the \nNorth Atla",
   "analogs": [
     {
       "datetime_utc": "2012-10-25T20:24Z",
       "source_file": "PHI_2012_25_2024.txt",
-      "similarity": 0.8454293012619019,
+      "similarity": 0.7714354991912842,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-05-19T02:07Z",
       "source_file": "PHI_2018_19_0207.txt",
-      "similarity": 0.7892450094223022,
+      "similarity": 0.716522216796875,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-07-23T07:26Z",
       "source_file": "PHI_2017_23_0726.txt",
-      "similarity": 0.7290254831314087,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-05-25T18:17Z",
-      "source_file": "PHI_2017_25_1817.txt",
-      "similarity": 0.717165470123291,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-05-25T14:04Z",
-      "source_file": "PHI_2017_25_1404.txt",
-      "similarity": 0.717165470123291,
+      "similarity": 0.6414600610733032,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-05-25T16:44Z",
       "source_file": "PHI_2017_25_1644.txt",
-      "similarity": 0.717165470123291,
+      "similarity": 0.6288449764251709,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-02-18T08:44Z",
-      "source_file": "PHI_2006_18_0844.txt",
-      "similarity": 0.6986950039863586,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2017-05-25T14:04Z",
+      "source_file": "PHI_2017_25_1404.txt",
+      "similarity": 0.6288449764251709,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2006-02-17T20:38Z",
-      "source_file": "PHI_2006_17_2038.txt",
-      "similarity": 0.6986950039863586,
+      "datetime_utc": "2017-05-25T18:17Z",
+      "source_file": "PHI_2017_25_1817.txt",
+      "similarity": 0.6288449764251709,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-10-31T17:28Z",
+      "source_file": "PHI_2011_31_1728.txt",
+      "similarity": 0.6245242953300476,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-10-31T12:57Z",
       "source_file": "PHI_2011_31_1257.txt",
-      "similarity": 0.6718865633010864,
+      "similarity": 0.6228454113006592,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-10-31T07:22Z",
       "source_file": "PHI_2011_31_0722.txt",
-      "similarity": 0.6718865633010864,
+      "similarity": 0.6228454113006592,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-02-18T08:44Z",
+      "source_file": "PHI_2006_18_0844.txt",
+      "similarity": 0.6186479926109314,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "LOW",
+    "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.7256359338760376,
-    "base_rate": 0.5448406070728342,
-    "signal_value": 0.05515939292716576,
+    "mean_similarity": 0.6504815816879272,
     "n_severe": 6,
     "n_total": 10,
-    "product_id": "202611131122-KPHI-FXUS61-AFDPHI",
-    "afd_time": "2026-11-13T11:22:00Z",
-    "updated": "2026-11-13T17:49:40.250182+00:00"
+    "reason": "top-10 mean similarity 0.65 below confidence floor 0.7",
+    "product_id": "202611132007-KPHI-FXUS61-AFDPHI",
+    "afd_time": "2026-11-13T20:07:00Z",
+    "updated": "2026-11-13T23:40:30.177457+00:00"
   }
 }

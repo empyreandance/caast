@@ -1,91 +1,91 @@
 {
   "office": "ABQ",
-  "product_id": "202611131733-KABQ-FXUS65-AFDABQ-AAB",
-  "afd_time": "2026-11-13T17:33:00Z",
+  "product_id": "202611131909-KABQ-FXUS65-AFDABQ",
+  "afd_time": "2026-11-13T19:09:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-13T17:49:40.250182+00:00",
-  "query_preview": "..\n(Sunday night through Thursday) \nIssued at 1233 AM MST Fri Nov 13 2026\n\nMostly calm and tranquil conditions return by Sunday afternoon, \nlasting through Monday night. Morning fog over portions of eastern \nNM may interrupt this each morning however. Attention then points to \nthe next Pacific storm",
+  "updated": "2026-11-13T23:40:30.177457+00:00",
+  "query_preview": "..\n(Sunday through Thursday)\nIssued at 1209 PM MST Fri Nov 13 2026\n\nCool and tranquil conditions return Sunday as an upper level \nshortwave ridge moves across the desert SW Sunday into Monday. The \nbackdoor front moving south across eastern Sunday will result in low \nclouds across far eastern NM Sun",
   "analogs": [
     {
       "datetime_utc": "2004-03-11T21:15Z",
       "source_file": "ABQ_2004_11_2115.txt",
-      "similarity": 0.4328940212726593,
+      "similarity": 0.4014032483100891,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2020-12-27T09:31Z",
       "source_file": "ABQ_2020_27_0931.txt",
-      "similarity": 0.4254109263420105,
+      "similarity": 0.38931339979171753,
       "label": "winter",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-05-03T08:59Z",
+      "source_file": "ABQ_2006_03_0859.txt",
+      "similarity": 0.38905954360961914,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-11-03T09:41Z",
+      "source_file": "ABQ_2004_03_0941.txt",
+      "similarity": 0.38843488693237305,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-09-03T09:44Z",
+      "source_file": "ABQ_2016_03_0944.txt",
+      "similarity": 0.38718557357788086,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2024-11-10T09:32Z",
       "source_file": "ABQ_2024_10_0932.txt",
-      "similarity": 0.42369240522384644,
+      "similarity": 0.386104941368103,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-12-11T10:19Z",
-      "source_file": "ABQ_2004_11_1019.txt",
-      "similarity": 0.4192105531692505,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-12-12T10:42Z",
-      "source_file": "ABQ_2004_12_1042.txt",
-      "similarity": 0.418806254863739,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2025-08-19T19:25Z",
-      "source_file": "ABQ_2025_19_1925.txt",
-      "similarity": 0.41859927773475647,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2025-08-19T18:30Z",
-      "source_file": "ABQ_2025_19_1830.txt",
-      "similarity": 0.41859927773475647,
-      "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2025-10-07T07:18Z",
       "source_file": "ABQ_2025_07_0718.txt",
-      "similarity": 0.41827982664108276,
+      "similarity": 0.38497453927993774,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2007-11-24T05:10Z",
-      "source_file": "ABQ_2007_24_0510.txt",
-      "similarity": 0.4154658913612366,
-      "label": "flood",
+      "datetime_utc": "2006-12-10T09:59Z",
+      "source_file": "ABQ_2006_10_0959.txt",
+      "similarity": 0.3841453194618225,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-11-24T00:48Z",
-      "source_file": "ABQ_2007_24_0048.txt",
-      "similarity": 0.4154658913612366,
-      "label": "flood",
+      "datetime_utc": "2008-06-07T09:08Z",
+      "source_file": "ABQ_2008_07_0908.txt",
+      "similarity": 0.3839162290096283,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-12-20T21:46Z",
+      "source_file": "ABQ_2005_20_2146.txt",
+      "similarity": 0.38295048475265503,
+      "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.42064243257045747,
-    "n_severe": 1,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.38774881660938265,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202611131733-KABQ-FXUS65-AFDABQ-AAB",
-    "afd_time": "2026-11-13T17:33:00Z",
-    "updated": "2026-11-13T17:49:40.250182+00:00"
+    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
+    "product_id": "202611131909-KABQ-FXUS65-AFDABQ",
+    "afd_time": "2026-11-13T19:09:00Z",
+    "updated": "2026-11-13T23:40:30.177457+00:00"
   }
 }

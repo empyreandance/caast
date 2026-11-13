@@ -1,91 +1,91 @@
 {
   "office": "LMK",
-  "product_id": "202611131730-KLMK-FXUS63-AFDLMK",
-  "afd_time": "2026-11-13T17:30:00Z",
+  "product_id": "202611131946-KLMK-FXUS63-AFDLMK",
+  "afd_time": "2026-11-13T19:46:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-13T17:49:40.250182+00:00",
-  "query_preview": "..\nIssued at 303 AM EST Fri Nov 13 2026\n\nToday and Tonight...\n\nA cold front passed through the region last night and brought a \nreinforcing shot of cold air advection. Overcast clouds are moving \nsouth at this hour and are expected to blanket the region this \nmorning. Deep troughing will remain over",
+  "updated": "2026-11-13T23:40:30.177457+00:00",
+  "query_preview": "..\nIssued at 246 PM EST Fri Nov 13 2026\n\nThis Afternoon through Tomorrow Night...\n\nSatellite shows an expansive stratus field over the area this \nafternoon, with a few embedded cumulus where showers have developed. \nIt's a fairly typical setup given the upper trough which extends \nfrom the Mississip",
   "analogs": [
     {
-      "datetime_utc": "2004-10-25T08:22Z",
-      "source_file": "LMK_2004_25_0822.txt",
-      "similarity": 0.3575668931007385,
+      "datetime_utc": "2025-01-30T17:44Z",
+      "source_file": "LMK_2025_30_1744_1.txt",
+      "similarity": 0.41802453994750977,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-01-30T20:09Z",
+      "source_file": "LMK_2025_30_2009.txt",
+      "similarity": 0.41802453994750977,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-10-03T08:45Z",
+      "source_file": "LMK_2011_03_0845.txt",
+      "similarity": 0.4159184694290161,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-10-03T13:23Z",
+      "source_file": "LMK_2011_03_1323.txt",
+      "similarity": 0.4159184694290161,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-10-03T15:47Z",
+      "source_file": "LMK_2011_03_1547.txt",
+      "similarity": 0.4159184694290161,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-10-03T17:29Z",
+      "source_file": "LMK_2011_03_1729.txt",
+      "similarity": 0.4159184694290161,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-10-03T10:39Z",
+      "source_file": "LMK_2011_03_1039.txt",
+      "similarity": 0.4159184694290161,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-10-25T08:22Z",
-      "source_file": "LMK_2004_25_0822_1.txt",
-      "similarity": 0.3575668931007385,
+      "source_file": "LMK_2004_25_0822.txt",
+      "similarity": 0.4148489832878113,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-10-25T08:23Z",
       "source_file": "LMK_2004_25_0823_1.txt",
-      "similarity": 0.3575668931007385,
+      "similarity": 0.4148489832878113,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-10-25T08:23Z",
       "source_file": "LMK_2004_25_0823.txt",
-      "similarity": 0.3575668931007385,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-12-23T23:28Z",
-      "source_file": "LMK_2023_23_2328.txt",
-      "similarity": 0.35721564292907715,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-12-24T05:48Z",
-      "source_file": "LMK_2023_24_0548.txt",
-      "similarity": 0.35721564292907715,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-12-23T20:06Z",
-      "source_file": "LMK_2023_23_2006.txt",
-      "similarity": 0.35721564292907715,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2023-12-24T02:57Z",
-      "source_file": "LMK_2023_24_0257.txt",
-      "similarity": 0.35721564292907715,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-10-03T15:47Z",
-      "source_file": "LMK_2011_03_1547.txt",
-      "similarity": 0.3539898097515106,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-10-03T08:45Z",
-      "source_file": "LMK_2011_03_0845.txt",
-      "similarity": 0.3539898097515106,
+      "similarity": 0.4148489832878113,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.35671097636222837,
-    "n_severe": 0,
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.4160188376903534,
+    "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
-    "product_id": "202611131730-KLMK-FXUS63-AFDLMK",
-    "afd_time": "2026-11-13T17:30:00Z",
-    "updated": "2026-11-13T17:49:40.250182+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202611131946-KLMK-FXUS63-AFDLMK",
+    "afd_time": "2026-11-13T19:46:00Z",
+    "updated": "2026-11-13T23:40:30.177457+00:00"
   }
 }
