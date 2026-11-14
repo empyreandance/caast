@@ -1,91 +1,91 @@
 {
   "office": "KEY",
-  "product_id": "202611140159-KKEY-FXUS62-AFDKEY",
-  "afd_time": "2026-11-14T01:59:00Z",
+  "product_id": "202611141851-KKEY-FXUS62-AFDKEY",
+  "afd_time": "2026-11-14T18:51:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-14T06:33:20.479767+00:00",
-  "query_preview": "..\nIssued at 217 PM EST Fri Nov 13 2026\nA cold front is currently pushing through the forecast area as\nnoted on both automated surface observations and radar imagery. A\nbroken line of showers oriented southwest to Northwest has been \ntracking to the southeast all day, and has reached the Lower Keys ",
+  "updated": "2026-11-14T19:16:38.948011+00:00",
+  "query_preview": "..\nIssued at 151 PM EST Sat Nov 14 2026\nA lovely Saturday continues for the Florida Keys with temperatures\nin the lower 70s and dew points barely above 60F. Winds have \ncontinued to be northeasterly but have slightly slackened to 10 to\n15 knots along the Reef. A relatively dry and stable airmass wil",
   "analogs": [
     {
-      "datetime_utc": "2024-10-27T19:05Z",
-      "source_file": "KEY_2024_27_1905.txt",
-      "similarity": 0.41615718603134155,
+      "datetime_utc": "2018-11-24T10:12Z",
+      "source_file": "KEY_2018_24_1012.txt",
+      "similarity": 0.2914077639579773,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-12-30T07:18Z",
-      "source_file": "KEY_2009_30_0718.txt",
-      "similarity": 0.4136958718299866,
+      "datetime_utc": "2013-04-28T07:52Z",
+      "source_file": "KEY_2013_28_0752.txt",
+      "similarity": 0.29099732637405396,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-08-02T19:07Z",
+      "source_file": "KEY_2022_02_1907.txt",
+      "similarity": 0.2877499461174011,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-03-30T07:10Z",
-      "source_file": "KEY_2017_30_0710.txt",
-      "similarity": 0.41350120306015015,
+      "datetime_utc": "2015-07-14T02:19Z",
+      "source_file": "KEY_2015_14_0219.txt",
+      "similarity": 0.287264347076416,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-12-19T09:33Z",
-      "source_file": "KEY_2015_19_0933.txt",
-      "similarity": 0.40168094635009766,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-12-04T08:39Z",
-      "source_file": "KEY_2010_04_0839.txt",
-      "similarity": 0.4003116488456726,
+      "datetime_utc": "2019-01-06T20:26Z",
+      "source_file": "KEY_2019_06_2026.txt",
+      "similarity": 0.28657910227775574,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2019-12-07T15:55Z",
-      "source_file": "KEY_2019_07_1555.txt",
-      "similarity": 0.3988734483718872,
+      "datetime_utc": "2012-06-15T07:49Z",
+      "source_file": "KEY_2012_15_0749.txt",
+      "similarity": 0.2860243320465088,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-12-15T08:45Z",
+      "source_file": "KEY_2013_15_0845.txt",
+      "similarity": 0.2854454219341278,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-04-05T19:01Z",
-      "source_file": "KEY_2016_05_1901.txt",
-      "similarity": 0.3986901640892029,
+      "datetime_utc": "2019-09-05T18:55Z",
+      "source_file": "KEY_2019_05_1855.txt",
+      "similarity": 0.2814455032348633,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-08-05T01:04Z",
+      "source_file": "KEY_2022_05_0104.txt",
+      "similarity": 0.2810201048851013,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2021-04-11T20:12Z",
-      "source_file": "KEY_2021_11_2012.txt",
-      "similarity": 0.394096314907074,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-11-25T19:34Z",
-      "source_file": "KEY_2011_25_1934.txt",
-      "similarity": 0.39379429817199707,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-09-27T18:41Z",
-      "source_file": "KEY_2016_27_1841.txt",
-      "similarity": 0.3908050060272217,
-      "label": "severe_hail",
+      "datetime_utc": "2020-09-09T19:35Z",
+      "source_file": "KEY_2020_09_1935_1.txt",
+      "similarity": 0.2807151675224304,
+      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.40216060876846316,
-    "n_severe": 1,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.2858649015426636,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202611140159-KKEY-FXUS62-AFDKEY",
-    "afd_time": "2026-11-14T01:59:00Z",
-    "updated": "2026-11-14T06:33:20.479767+00:00"
+    "reason": "top-10 mean similarity 0.29 below confidence floor 0.7",
+    "product_id": "202611141851-KKEY-FXUS62-AFDKEY",
+    "afd_time": "2026-11-14T18:51:00Z",
+    "updated": "2026-11-14T19:16:38.948011+00:00"
   }
 }

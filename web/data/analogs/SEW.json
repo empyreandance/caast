@@ -1,78 +1,78 @@
 {
   "office": "SEW",
-  "product_id": "202611141002-KSEW-FXUS66-AFDSEW",
-  "afd_time": "2026-11-14T10:02:00Z",
+  "product_id": "202611141727-KSEW-FXUS66-AFDSEW",
+  "afd_time": "2026-11-14T17:27:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-14T14:13:50.285318+00:00",
-  "query_preview": "/MONDAY NIGHT THROUGH FRIDAY/...\nDrier conditions return to the area Monday night into Tuesday as\nthe upper trough shifts eastward. Model solutions are falling\ninto better agreement regarding the midweek system taking a\nfurther southward track and just brushing the southern portion\nof the CWA with s",
+  "updated": "2026-11-14T19:16:38.948011+00:00",
+  "query_preview": "/MONDAY NIGHT THROUGH FRIDAY/...Drier conditions \nreturn to the area Monday night into Tuesday as the upper trough\nshifts eastward. Model solutions are falling into better \nagreement regarding the midweek system taking a further \nsouthward track and just brushing the southern portion of the \nCWA wit",
   "analogs": [
     {
       "datetime_utc": "2013-04-01T21:48Z",
       "source_file": "SEW_2013_01_2148.txt",
-      "similarity": 0.4512215256690979,
+      "similarity": 0.4554505944252014,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2015-03-25T04:47Z",
       "source_file": "SEW_2015_25_0447.txt",
-      "similarity": 0.4441899061203003,
+      "similarity": 0.4509391784667969,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-10-07T21:36Z",
       "source_file": "SEW_2016_07_2136.txt",
-      "similarity": 0.43755650520324707,
+      "similarity": 0.4443987011909485,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-09-12T03:25Z",
+      "source_file": "SEW_2017_12_0325.txt",
+      "similarity": 0.4431247413158417,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-10-08T04:06Z",
+      "source_file": "SEW_2016_08_0406.txt",
+      "similarity": 0.4400332272052765,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-10-20T23:14Z",
       "source_file": "SEW_2018_20_2314.txt",
-      "similarity": 0.43347710371017456,
+      "similarity": 0.43916818499565125,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-10-08T04:06Z",
-      "source_file": "SEW_2016_08_0406.txt",
-      "similarity": 0.4331003725528717,
-      "label": "tornado",
+      "datetime_utc": "2016-03-09T05:13Z",
+      "source_file": "SEW_2016_09_0513.txt",
+      "similarity": 0.4389508366584778,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-01-31T05:30Z",
       "source_file": "SEW_2014_31_0530.txt",
-      "similarity": 0.432025283575058,
+      "similarity": 0.43887215852737427,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-09-12T03:25Z",
-      "source_file": "SEW_2017_12_0325.txt",
-      "similarity": 0.43175315856933594,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-03-09T05:13Z",
-      "source_file": "SEW_2016_09_0513.txt",
-      "similarity": 0.430099219083786,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2019-10-05T09:50Z",
       "source_file": "SEW_2019_05_0950.txt",
-      "similarity": 0.4265703558921814,
+      "similarity": 0.43329447507858276,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-01-21T11:11Z",
-      "source_file": "SEW_2005_21_1111.txt",
-      "similarity": 0.424538791179657,
+      "datetime_utc": "2015-10-08T16:09Z",
+      "source_file": "SEW_2015_08_1609.txt",
+      "similarity": 0.43318313360214233,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.434453222155571,
+    "mean_similarity": 0.44174152314662934,
     "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202611141002-KSEW-FXUS66-AFDSEW",
-    "afd_time": "2026-11-14T10:02:00Z",
-    "updated": "2026-11-14T14:13:50.285318+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202611141727-KSEW-FXUS66-AFDSEW",
+    "afd_time": "2026-11-14T17:27:00Z",
+    "updated": "2026-11-14T19:16:38.948011+00:00"
   }
 }
