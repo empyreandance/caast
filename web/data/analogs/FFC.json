@@ -1,92 +1,91 @@
 {
   "office": "FFC",
-  "product_id": "202611141743-KFFC-FXUS62-AFDFFC",
-  "afd_time": "2026-11-14T17:43:00Z",
+  "product_id": "202611141920-KFFC-FXUS62-AFDFFC",
+  "afd_time": "2026-11-14T19:20:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-14T19:16:38.948011+00:00",
-  "query_preview": "..\n(Sunday night through Friday)\nIssued at 329 AM EST Sat Nov 14 2026\n\nAll in all, the long term period (Sunday Night through the end of \nthe work week) should be largely uneventful for North and Central \nGeorgia. A trough situated over New England down the Mid-Atlantic \nwill continue eastward and a",
+  "updated": "2026-11-14T23:06:09.316580+00:00",
+  "query_preview": "..\n(Monday morning through next Friday)\nIssued at 218 PM EST Sat Nov 14 2026\n\nDry and Warming Up Into Next Weekend:\n\nFrom the early to middle portions of the upcoming week, the longwave \ntrough that provided a chilly weekend will finally get kicked off to \nthe northeast as a shortwave slides from th",
   "analogs": [
     {
-      "datetime_utc": "2014-09-08T18:43Z",
-      "source_file": "FFC_2014_08_1843.txt",
-      "similarity": 0.8532924652099609,
+      "datetime_utc": "2013-11-25T07:39Z",
+      "source_file": "FFC_2013_25_0739.txt",
+      "similarity": 0.7396296262741089,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-11-25T00:35Z",
+      "source_file": "FFC_2013_25_0035.txt",
+      "similarity": 0.7396296262741089,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-03-07T19:50Z",
+      "source_file": "FFC_2025_07_1950.txt",
+      "similarity": 0.702150821685791,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-03-08T06:21Z",
+      "source_file": "FFC_2025_08_0621.txt",
+      "similarity": 0.702150821685791,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-02-10T19:53Z",
+      "source_file": "FFC_2020_10_1953.txt",
+      "similarity": 0.6904000639915466,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-04-13T06:26Z",
       "source_file": "FFC_2012_13_0626.txt",
-      "similarity": 0.8309575915336609,
+      "similarity": 0.6749863624572754,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2013-05-25T07:27Z",
-      "source_file": "FFC_2013_25_0727.txt",
-      "similarity": 0.815253734588623,
+      "datetime_utc": "2015-03-21T11:46Z",
+      "source_file": "FFC_2015_21_1146.txt",
+      "similarity": 0.6718314290046692,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-09-08T18:43Z",
+      "source_file": "FFC_2014_08_1843.txt",
+      "similarity": 0.6656666994094849,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2017-02-04T19:32Z",
-      "source_file": "FFC_2017_04_1932.txt",
-      "similarity": 0.8123884797096252,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-02-05T05:49Z",
-      "source_file": "FFC_2017_05_0549.txt",
-      "similarity": 0.8123884797096252,
+      "datetime_utc": "2017-02-05T01:03Z",
+      "source_file": "FFC_2017_05_0103.txt",
+      "similarity": 0.6624597907066345,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-02-04T23:58Z",
       "source_file": "FFC_2017_04_2358.txt",
-      "similarity": 0.8123884797096252,
+      "similarity": 0.6624597907066345,
       "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-02-05T01:03Z",
-      "source_file": "FFC_2017_05_0103.txt",
-      "similarity": 0.8123884797096252,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-06-03T19:54Z",
-      "source_file": "FFC_2021_03_1954.txt",
-      "similarity": 0.8111289739608765,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-06-04T07:35Z",
-      "source_file": "FFC_2021_04_0735.txt",
-      "similarity": 0.8111289739608765,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-06-04T02:29Z",
-      "source_file": "FFC_2021_04_0229.txt",
-      "similarity": 0.8111289739608765,
-      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "HIGH",
-    "severe_fraction": 1.0,
-    "mean_similarity": 0.8182444632053375,
-    "base_rate": 0.7014557769274751,
-    "signal_value": 0.29854422307252493,
-    "n_severe": 10,
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.6911365032196045,
+    "n_severe": 9,
     "n_total": 10,
-    "product_id": "202611141743-KFFC-FXUS62-AFDFFC",
-    "afd_time": "2026-11-14T17:43:00Z",
-    "updated": "2026-11-14T19:16:38.948011+00:00"
+    "reason": "top-10 mean similarity 0.69 below confidence floor 0.7",
+    "product_id": "202611141920-KFFC-FXUS62-AFDFFC",
+    "afd_time": "2026-11-14T19:20:00Z",
+    "updated": "2026-11-14T23:06:09.316580+00:00"
   }
 }

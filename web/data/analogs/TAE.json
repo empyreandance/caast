@@ -1,92 +1,92 @@
 {
   "office": "TAE",
-  "product_id": "202611141721-KTAE-FXUS62-AFDTAE",
-  "afd_time": "2026-11-14T17:21:00Z",
+  "product_id": "202611141921-KTAE-FXUS62-AFDTAE",
+  "afd_time": "2026-11-14T19:21:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-14T19:16:38.948011+00:00",
-  "query_preview": "..\n(Sunday through Friday)\nIssued at 215 AM EST Sat Nov 14 2026\n\nSunday will remain dry and cool. A shortwave will move through the  \nregion in the Monday-Tuesday time frame. Moisture return will be \nlimited, and the best chance of rain currently appears to remain \noffshore. Monday's high temperatur",
+  "updated": "2026-11-14T23:06:09.316580+00:00",
+  "query_preview": "..\n(Sunday night through next Friday) Issued at 219 PM EST Sat Nov \n14 2026\n\nA gradual warming trend gets underway starting Tuesday when well-\ndefined upper ridging builds over the region. Prior to ridge's \narrival, a tight pressure gradient develops between strong high \npressure over the OH/TN Vall",
   "analogs": [
     {
       "datetime_utc": "2009-09-05T18:40Z",
       "source_file": "TAE_2009_05_1840.txt",
-      "similarity": 0.8539737462997437,
+      "similarity": 0.8292957544326782,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2008-06-13T19:26Z",
       "source_file": "TAE_2008_13_1926_1.txt",
-      "similarity": 0.8527984619140625,
+      "similarity": 0.8277354836463928,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-11-09T02:23Z",
+      "source_file": "TAE_2005_09_0223.txt",
+      "similarity": 0.7995675802230835,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-07-08T08:15Z",
+      "source_file": "TAE_2019_08_0815.txt",
+      "similarity": 0.7921894788742065,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-07-08T10:32Z",
+      "source_file": "TAE_2019_08_1032.txt",
+      "similarity": 0.7921894788742065,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-09-06T19:22Z",
       "source_file": "TAE_2009_06_1922.txt",
-      "similarity": 0.8356873989105225,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-11-09T02:23Z",
-      "source_file": "TAE_2005_09_0223.txt",
-      "similarity": 0.8172436952590942,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-08-21T22:32Z",
-      "source_file": "TAE_2020_21_2232.txt",
-      "similarity": 0.8077587485313416,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-08-22T05:19Z",
-      "source_file": "TAE_2020_22_0519.txt",
-      "similarity": 0.8077587485313416,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-08-22T03:34Z",
-      "source_file": "TAE_2020_22_0334.txt",
-      "similarity": 0.8077587485313416,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-10-28T19:38Z",
-      "source_file": "TAE_2008_28_1938.txt",
-      "similarity": 0.8026601076126099,
+      "similarity": 0.7888026833534241,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2012-08-14T01:54Z",
       "source_file": "TAE_2012_14_0154.txt",
-      "similarity": 0.7991916537284851,
+      "similarity": 0.7863139510154724,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-05-25T01:01Z",
-      "source_file": "TAE_2012_25_0101.txt",
-      "similarity": 0.7904617786407471,
-      "label": "tornado",
+      "datetime_utc": "2020-08-22T03:34Z",
+      "source_file": "TAE_2020_22_0334.txt",
+      "similarity": 0.7853237986564636,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-08-22T05:19Z",
+      "source_file": "TAE_2020_22_0519.txt",
+      "similarity": 0.7853237986564636,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-08-21T22:32Z",
+      "source_file": "TAE_2020_21_2232.txt",
+      "similarity": 0.7853237986564636,
+      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "LOW",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.817529308795929,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.7972065806388855,
     "base_rate": 0.6643054388281907,
-    "signal_value": -0.06430543882819073,
-    "n_severe": 6,
+    "signal_value": 0.03569456117180925,
+    "n_severe": 7,
     "n_total": 10,
-    "product_id": "202611141721-KTAE-FXUS62-AFDTAE",
-    "afd_time": "2026-11-14T17:21:00Z",
-    "updated": "2026-11-14T19:16:38.948011+00:00"
+    "product_id": "202611141921-KTAE-FXUS62-AFDTAE",
+    "afd_time": "2026-11-14T19:21:00Z",
+    "updated": "2026-11-14T23:06:09.316580+00:00"
   }
 }
