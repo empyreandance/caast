@@ -1,91 +1,91 @@
 {
   "office": "ILX",
-  "product_id": "202611140440-KILX-FXUS63-AFDILX",
-  "afd_time": "2026-11-14T04:40:00Z",
+  "product_id": "202611141112-KILX-FXUS63-AFDILX",
+  "afd_time": "2026-11-14T11:12:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-14T06:33:20.479767+00:00",
-  "query_preview": "..\nIssued at 240 PM CST Fri Nov 13 2026\n\nA large slow moving upper level low over the upper Ohio river \nvalley (535 decameter 500 mb low nw PA), has a strong short \nwave trof extending westward into southern WI and northern IL.\nThis short wave trof was still producing isolated south bound \nlight rai",
+  "updated": "2026-11-14T14:13:50.285318+00:00",
+  "query_preview": "..\nIssued at 212 AM CST Sat Nov 14 2026\n\nA slow moving large scale upper low over the northeast states will \ngradually migrate eastward over the weekend, becoming less of an \ninfluence on central IL, as low level northerly flow acquires more \nof a westerly component and deflects lake effect cloud co",
   "analogs": [
     {
       "datetime_utc": "2004-10-14T02:11Z",
       "source_file": "ILX_2004_14_0211.txt",
-      "similarity": 0.4114218056201935,
+      "similarity": 0.38492733240127563,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-04-23T04:24Z",
+      "source_file": "ILX_2013_23_0424.txt",
+      "similarity": 0.37379562854766846,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-04-23T01:45Z",
+      "source_file": "ILX_2013_23_0145.txt",
+      "similarity": 0.37379562854766846,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-04-22T23:40Z",
+      "source_file": "ILX_2013_22_2340.txt",
+      "similarity": 0.37379562854766846,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-09-24T20:03Z",
+      "source_file": "ILX_2011_24_2003.txt",
+      "similarity": 0.3724192976951599,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-09-24T23:15Z",
       "source_file": "ILX_2011_24_2315.txt",
-      "similarity": 0.3935924172401428,
+      "similarity": 0.3724192976951599,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-09-24T20:03Z",
-      "source_file": "ILX_2011_24_2003.txt",
-      "similarity": 0.3935924172401428,
-      "label": "severe_hail",
+      "datetime_utc": "2013-03-31T11:21Z",
+      "source_file": "ILX_2013_31_1121.txt",
+      "similarity": 0.3697056174278259,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-01-01T03:00Z",
       "source_file": "ILX_2006_01_0300.txt",
-      "similarity": 0.38831669092178345,
+      "similarity": 0.3692750930786133,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-01-31T21:19Z",
       "source_file": "ILX_2006_31_2119.txt",
-      "similarity": 0.38831669092178345,
+      "similarity": 0.3692750930786133,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-12-17T20:20Z",
-      "source_file": "ILX_2005_17_2020.txt",
-      "similarity": 0.3873264193534851,
-      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-12-18T03:44Z",
       "source_file": "ILX_2005_18_0344.txt",
-      "similarity": 0.3873264193534851,
+      "similarity": 0.365714430809021,
       "label": "winter",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-04-25T11:24Z",
-      "source_file": "ILX_2008_25_1124.txt",
-      "similarity": 0.3872133195400238,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-05-24T19:59Z",
-      "source_file": "ILX_2006_24_1959.txt",
-      "similarity": 0.38700205087661743,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-05-25T02:01Z",
-      "source_file": "ILX_2006_25_0201.txt",
-      "similarity": 0.38700205087661743,
-      "label": "tornado",
-      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.3911110281944275,
-    "n_severe": 7,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.37251230478286745,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202611140440-KILX-FXUS63-AFDILX",
-    "afd_time": "2026-11-14T04:40:00Z",
-    "updated": "2026-11-14T06:33:20.479767+00:00"
+    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
+    "product_id": "202611141112-KILX-FXUS63-AFDILX",
+    "afd_time": "2026-11-14T11:12:00Z",
+    "updated": "2026-11-14T14:13:50.285318+00:00"
   }
 }
