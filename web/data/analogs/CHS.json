@@ -1,91 +1,92 @@
 {
   "office": "CHS",
-  "product_id": "202611141842-KCHS-FXUS62-AFDCHS",
-  "afd_time": "2026-11-14T18:42:00Z",
+  "product_id": "202611150010-KCHS-FXUS62-AFDCHS",
+  "afd_time": "2026-11-15T00:10:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-14T19:16:38.948011+00:00",
-  "query_preview": "..\nKEY MESSAGE 1: Frost/freeze conditions tonight through Sunday \nnight.\n\nThe center of a large 1030 mb will settle just north of the Ohio \nRiver Valley by 12Z Sunday. As dry high pressure builds over the \nforecast area, the pressure gradient across SE GA/SC will decrease \ntonight. Winds could compl",
+  "updated": "2026-11-15T02:46:16.589911+00:00",
+  "query_preview": "..\nKEY MESSAGE 1: Frost/freeze conditions tonight through Sunday \nnight.\n\nThe boundary layer is quickly decoupling this evening with calm\nto light/variable winds already being reported at a number of\nlocations. Clear skies and calm/light winds will persist for \nmuch of the night, helping to maximize",
   "analogs": [
     {
       "datetime_utc": "2013-05-20T08:13Z",
       "source_file": "CHS_2013_20_0813.txt",
-      "similarity": 0.8092508316040039,
+      "similarity": 0.8248926401138306,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2025-02-12T08:35Z",
       "source_file": "CHS_2025_12_0835.txt",
-      "similarity": 0.7895128130912781,
+      "similarity": 0.7950276136398315,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2025-02-12T05:52Z",
       "source_file": "CHS_2025_12_0552.txt",
-      "similarity": 0.7867804765701294,
+      "similarity": 0.7869659662246704,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-07-21T18:50Z",
       "source_file": "CHS_2006_21_1850.txt",
-      "similarity": 0.7078352570533752,
+      "similarity": 0.7262647151947021,
       "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-10-25T15:12Z",
-      "source_file": "CHS_2010_25_1512.txt",
-      "similarity": 0.6854753494262695,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-08-02T21:14Z",
-      "source_file": "CHS_2020_02_2114.txt",
-      "similarity": 0.6802999377250671,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-06-19T06:31Z",
       "source_file": "CHS_2006_19_0631.txt",
-      "similarity": 0.6742203235626221,
+      "similarity": 0.7193447947502136,
       "label": "tornado",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-10-25T15:12Z",
+      "source_file": "CHS_2010_25_1512.txt",
+      "similarity": 0.7055138349533081,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2006-07-28T19:47Z",
       "source_file": "CHS_2006_28_1947.txt",
-      "similarity": 0.633920431137085,
+      "similarity": 0.654940128326416,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2015-09-24T23:37Z",
-      "source_file": "CHS_2015_24_2337.txt",
-      "similarity": 0.61760413646698,
-      "label": "tornado",
+      "datetime_utc": "2012-03-19T09:57Z",
+      "source_file": "CHS_2012_19_0957.txt",
+      "similarity": 0.6472951769828796,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2025-07-09T05:40Z",
-      "source_file": "CHS_2025_09_0540.txt",
-      "similarity": 0.6137996912002563,
-      "label": "tornado",
+      "datetime_utc": "2012-03-19T14:56Z",
+      "source_file": "CHS_2012_19_1456.txt",
+      "similarity": 0.6472951769828796,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-03-19T17:50Z",
+      "source_file": "CHS_2012_19_1750.txt",
+      "similarity": 0.6472951769828796,
+      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
+    "level": "LOW",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.6998699247837067,
+    "mean_similarity": 0.7154835224151611,
+    "base_rate": 0.6591567279490003,
+    "signal_value": 0.24084327205099976,
     "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.70 below confidence floor 0.7",
-    "product_id": "202611141842-KCHS-FXUS62-AFDCHS",
-    "afd_time": "2026-11-14T18:42:00Z",
-    "updated": "2026-11-14T19:16:38.948011+00:00"
+    "product_id": "202611150010-KCHS-FXUS62-AFDCHS",
+    "afd_time": "2026-11-15T00:10:00Z",
+    "updated": "2026-11-15T02:46:16.589911+00:00"
   }
 }
