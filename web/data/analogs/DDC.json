@@ -1,78 +1,78 @@
 {
   "office": "DDC",
-  "product_id": "202611142300-KDDC-FXUS63-AFDDDC",
-  "afd_time": "2026-11-14T23:00:00Z",
+  "product_id": "202611151024-KDDC-FXUS63-AFDDDC",
+  "afd_time": "2026-11-15T10:24:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-14T23:06:09.316580+00:00",
-  "query_preview": "..\nIssued at 1112 AM CST Sat Nov 14 2026\n\nAn upper level trough located near the Four Corners area will \napproach the Central/Southern Rockies over the next 24 hours. As\nthis upper level system approaches an area of low pressure will\ndevelop along a surface boundary that will be located across \nSout",
+  "updated": "2026-11-15T11:03:58.873224+00:00",
+  "query_preview": "..\nIssued at 1116 PM CST Sat Nov 14 2026\n\nLow level upslope flow could result in areas of fog Sunday\nmorning across extreme western Kansas. A dense fog advisory may\nbe needed if this pans out.\n\nThe current system bringing the light rain will move eastward\nSunday, leaving southwest Kansas in a cool a",
   "analogs": [
     {
-      "datetime_utc": "2006-01-28T08:11Z",
-      "source_file": "DDC_2006_28_0811.txt",
-      "similarity": 0.4373559057712555,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2007-06-11T08:18Z",
+      "source_file": "DDC_2007_11_0818.txt",
+      "similarity": 0.47018617391586304,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-03-25T05:46Z",
+      "source_file": "DDC_2015_25_0546.txt",
+      "similarity": 0.46809810400009155,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
       "datetime_utc": "2004-08-29T18:06Z",
       "source_file": "DDC_2004_29_1806.txt",
-      "similarity": 0.4339051842689514,
+      "similarity": 0.4644578695297241,
       "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-01-28T08:11Z",
+      "source_file": "DDC_2006_28_0811.txt",
+      "similarity": 0.4633461534976959,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-04-28T07:45Z",
+      "source_file": "DDC_2005_28_0745.txt",
+      "similarity": 0.4613285958766937,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-04-27T20:07Z",
+      "source_file": "DDC_2006_27_2007.txt",
+      "similarity": 0.4598204493522644,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-01-13T19:47Z",
       "source_file": "DDC_2004_13_1947.txt",
-      "similarity": 0.4338976740837097,
+      "similarity": 0.45757168531417847,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-03-25T05:46Z",
-      "source_file": "DDC_2015_25_0546.txt",
-      "similarity": 0.4329087436199188,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-01-22T21:22Z",
-      "source_file": "DDC_2010_22_2122.txt",
-      "similarity": 0.4320410490036011,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-06-11T08:18Z",
-      "source_file": "DDC_2007_11_0818.txt",
-      "similarity": 0.43106186389923096,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-04-27T20:07Z",
-      "source_file": "DDC_2006_27_2007.txt",
-      "similarity": 0.42999476194381714,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-06-19T05:50Z",
-      "source_file": "DDC_2012_19_0550.txt",
-      "similarity": 0.42642420530319214,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-06-19T09:05Z",
-      "source_file": "DDC_2012_19_0905.txt",
-      "similarity": 0.42642420530319214,
+      "datetime_utc": "2012-06-19T08:07Z",
+      "source_file": "DDC_2012_19_0807.txt",
+      "similarity": 0.4553791284561157,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-06-19T11:30Z",
       "source_file": "DDC_2012_19_1130.txt",
-      "similarity": 0.42642420530319214,
+      "similarity": 0.4553791284561157,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-06-19T09:05Z",
+      "source_file": "DDC_2012_19_0905.txt",
+      "similarity": 0.4553791284561157,
       "label": "severe_hail",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.4310437798500061,
+    "mean_similarity": 0.46109464168548586,
     "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202611142300-KDDC-FXUS63-AFDDDC",
-    "afd_time": "2026-11-14T23:00:00Z",
-    "updated": "2026-11-14T23:06:09.316580+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202611151024-KDDC-FXUS63-AFDDDC",
+    "afd_time": "2026-11-15T10:24:00Z",
+    "updated": "2026-11-15T11:03:58.873224+00:00"
   }
 }
