@@ -1,78 +1,78 @@
 {
   "office": "LIX",
-  "product_id": "202611150553-KLIX-FXUS64-AFDLIX",
-  "afd_time": "2026-11-15T05:53:00Z",
+  "product_id": "202611151717-KLIX-FXUS64-AFDLIX-AAB",
+  "afd_time": "2026-11-15T17:17:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-15T11:03:58.873224+00:00",
+  "updated": "2026-11-15T17:47:58.625706+00:00",
   "query_preview": "..\n(Tuesday through Saturday night)\nIssued at 1151 PM CST Sat Nov 14 2026\n\nMedium range models from earlier today were in very good agreement \nthrough the week however that is not what we would like to hear \nbecause that will keep the dry weather pattern in place. It looks \nlike the next best chance",
   "analogs": [
     {
       "datetime_utc": "2012-09-19T20:07Z",
       "source_file": "LIX_2012_19_2007.txt",
-      "similarity": 0.49296140670776367,
+      "similarity": 0.49296170473098755,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-02-05T02:40Z",
       "source_file": "LIX_2011_05_0240.txt",
-      "similarity": 0.4856293797492981,
+      "similarity": 0.48562952876091003,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-07-24T01:09Z",
+      "source_file": "LIX_2016_24_0109.txt",
+      "similarity": 0.46654653549194336,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-07-23T21:04Z",
       "source_file": "LIX_2016_23_2104_1.txt",
-      "similarity": 0.4665464162826538,
+      "similarity": 0.46654653549194336,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-07-24T01:09Z",
-      "source_file": "LIX_2016_24_0109.txt",
-      "similarity": 0.4665464162826538,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2006-10-16T09:27Z",
       "source_file": "LIX_2006_16_0927.txt",
-      "similarity": 0.4597742557525635,
+      "similarity": 0.4597744345664978,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-02-20T16:44Z",
       "source_file": "LIX_2005_20_1644.txt",
-      "similarity": 0.4569316506385803,
+      "similarity": 0.45693182945251465,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-03-20T08:57Z",
       "source_file": "LIX_2006_20_0857.txt",
-      "similarity": 0.43422290682792664,
+      "similarity": 0.4342232048511505,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-06-16T08:14Z",
       "source_file": "LIX_2004_16_0814.txt",
-      "similarity": 0.433899462223053,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-02-17T17:26Z",
-      "source_file": "LIX_2022_17_1726.txt",
-      "similarity": 0.42912593483924866,
+      "similarity": 0.43389958143234253,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2022-02-17T10:43Z",
       "source_file": "LIX_2022_17_1043.txt",
-      "similarity": 0.42912593483924866,
+      "similarity": 0.4291262626647949,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-02-17T11:46Z",
+      "source_file": "LIX_2022_17_1146.txt",
+      "similarity": 0.4291262626647949,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.455476376414299,
+    "mean_similarity": 0.45547658801078794,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202611150553-KLIX-FXUS64-AFDLIX",
-    "afd_time": "2026-11-15T05:53:00Z",
-    "updated": "2026-11-15T11:03:58.873224+00:00"
+    "product_id": "202611151717-KLIX-FXUS64-AFDLIX-AAB",
+    "afd_time": "2026-11-15T17:17:00Z",
+    "updated": "2026-11-15T17:47:58.625706+00:00"
   }
 }

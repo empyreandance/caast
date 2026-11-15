@@ -1,18 +1,11 @@
 {
   "office": "DMX",
-  "product_id": "202611150806-KDMX-FXUS63-AFDDMX",
-  "afd_time": "2026-11-15T08:06:00Z",
+  "product_id": "202611151718-KDMX-FXUS63-AFDDMX",
+  "afd_time": "2026-11-15T17:18:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-15T11:03:58.873224+00:00",
+  "updated": "2026-11-15T17:47:58.625706+00:00",
   "query_preview": "/TUESDAY THROUGH SATURDAY/...\nIssued at 126 PM CST Sat Nov 14 2026\n\nUpper level ridging will arrive over Iowa on Tuesday as a large \ntrough develops over the Western CONUS. The ridge will transition \nto southwest flow Tuesday night into Wednesday. A short wave will \nlift through the southwest flow a",
   "analogs": [
-    {
-      "datetime_utc": "2011-10-09T08:23Z",
-      "source_file": "DMX_2011_09_0823.txt",
-      "similarity": 0.5210318565368652,
-      "label": "severe_hail",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2011-10-08T20:28Z",
       "source_file": "DMX_2011_08_2028.txt",
@@ -21,58 +14,65 @@
       "is_severe": true
     },
     {
+      "datetime_utc": "2011-10-09T08:23Z",
+      "source_file": "DMX_2011_09_0823.txt",
+      "similarity": 0.5210318565368652,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-04-17T11:34Z",
+      "source_file": "DMX_2010_17_1134.txt",
+      "similarity": 0.5190300941467285,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2010-04-17T08:35Z",
       "source_file": "DMX_2010_17_0835.txt",
-      "similarity": 0.5190301537513733,
+      "similarity": 0.5190300941467285,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-04-17T20:09Z",
       "source_file": "DMX_2010_17_2009.txt",
-      "similarity": 0.5190301537513733,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-04-17T11:34Z",
-      "source_file": "DMX_2010_17_1134.txt",
-      "similarity": 0.5190301537513733,
+      "similarity": 0.5190300941467285,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-11-06T10:00Z",
       "source_file": "DMX_2012_06_1000.txt",
-      "similarity": 0.5156359076499939,
+      "similarity": 0.5156357884407043,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-01-12T09:28Z",
       "source_file": "DMX_2007_12_0928.txt",
-      "similarity": 0.514712393283844,
+      "similarity": 0.5147122740745544,
       "label": "winter",
       "is_severe": false
     },
     {
+      "datetime_utc": "2014-08-17T23:41Z",
+      "source_file": "DMX_2014_17_2341.txt",
+      "similarity": 0.5114158987998962,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2014-08-18T04:57Z",
       "source_file": "DMX_2014_18_0457.txt",
-      "similarity": 0.5114160180091858,
+      "similarity": 0.5114158987998962,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-08-17T20:41Z",
       "source_file": "DMX_2014_17_2041.txt",
-      "similarity": 0.5114160180091858,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-08-17T23:41Z",
-      "source_file": "DMX_2014_17_2341.txt",
-      "similarity": 0.5114160180091858,
+      "similarity": 0.5114158987998962,
       "label": "tornado",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.5163750529289246,
+    "mean_similarity": 0.5163749754428864,
     "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.52 below confidence floor 0.7",
-    "product_id": "202611150806-KDMX-FXUS63-AFDDMX",
-    "afd_time": "2026-11-15T08:06:00Z",
-    "updated": "2026-11-15T11:03:58.873224+00:00"
+    "product_id": "202611151718-KDMX-FXUS63-AFDDMX",
+    "afd_time": "2026-11-15T17:18:00Z",
+    "updated": "2026-11-15T17:47:58.625706+00:00"
   }
 }
