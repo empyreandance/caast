@@ -1,91 +1,91 @@
 {
   "office": "FSD",
-  "product_id": "202611151709-KFSD-FXUS63-AFDFSD",
-  "afd_time": "2026-11-15T17:09:00Z",
+  "product_id": "202611151852-KFSD-FXUS63-AFDFSD",
+  "afd_time": "2026-11-15T18:52:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-15T17:47:58.625706+00:00",
-  "query_preview": "..\nIssued at 1226 PM CST Sat Nov 14 2026\n\nTonight through Tuesday will see a battle of low pressure across \nthe Rockies and a stubborn, slow to exit high pressure over the \nmidwest and Great Lakes area. What this means for the local area is \na tightening surface pressure gradient through Tuesday and",
+  "updated": "2026-11-15T22:55:09.829148+00:00",
+  "query_preview": "..\nIssued at 1251 PM CST Sun Nov 15 2026\n\nThe main story through Tuesday will be strong southerly winds and \ndry conditions. Slow moving surface high pressure to the east and a \ndeepening low pressure over the Northern Rockies will bring a strong \nsurface pressure gradient to the Northern and Centra",
   "analogs": [
+    {
+      "datetime_utc": "2017-05-11T03:25Z",
+      "source_file": "FSD_2017_11_0325.txt",
+      "similarity": 0.4664631485939026,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-05-10T20:51Z",
+      "source_file": "FSD_2017_10_2051.txt",
+      "similarity": 0.4664631485939026,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-05-10T23:08Z",
+      "source_file": "FSD_2017_10_2308_1.txt",
+      "similarity": 0.4664631485939026,
+      "label": "tornado",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2005-10-05T16:07Z",
       "source_file": "FSD_2005_05_1607.txt",
-      "similarity": 0.44021978974342346,
+      "similarity": 0.4623977541923523,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-05-08T01:55Z",
-      "source_file": "FSD_2011_08_0155.txt",
-      "similarity": 0.43391647934913635,
+      "datetime_utc": "2006-03-28T21:36Z",
+      "source_file": "FSD_2006_28_2136.txt",
+      "similarity": 0.4622483551502228,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-05-08T01:55Z",
-      "source_file": "FSD_2011_08_0155_1.txt",
-      "similarity": 0.43391647934913635,
+      "datetime_utc": "2006-03-29T10:43Z",
+      "source_file": "FSD_2006_29_1043.txt",
+      "similarity": 0.4622483551502228,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-05-07T20:14Z",
-      "source_file": "FSD_2011_07_2014.txt",
-      "similarity": 0.43391647934913635,
+      "datetime_utc": "2006-03-29T11:44Z",
+      "source_file": "FSD_2006_29_1144.txt",
+      "similarity": 0.4622483551502228,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-01-23T16:25Z",
-      "source_file": "FSD_2005_23_1625.txt",
-      "similarity": 0.43177855014801025,
+      "datetime_utc": "2006-03-29T16:37Z",
+      "source_file": "FSD_2006_29_1637.txt",
+      "similarity": 0.4622483551502228,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-03-06T21:05Z",
+      "source_file": "FSD_2015_06_2105.txt",
+      "similarity": 0.45974040031433105,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-10-31T02:54Z",
-      "source_file": "FSD_2009_31_0254.txt",
-      "similarity": 0.4289449155330658,
+      "datetime_utc": "2015-03-07T03:52Z",
+      "source_file": "FSD_2015_07_0352.txt",
+      "similarity": 0.45974040031433105,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-10-30T08:29Z",
-      "source_file": "FSD_2009_30_0829.txt",
-      "similarity": 0.4289449155330658,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-03-16T20:22Z",
-      "source_file": "FSD_2019_16_2022.txt",
-      "similarity": 0.4267772138118744,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-03-17T03:57Z",
-      "source_file": "FSD_2019_17_0357.txt",
-      "similarity": 0.4267772138118744,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-03-16T23:33Z",
-      "source_file": "FSD_2019_16_2333.txt",
-      "similarity": 0.4267772138118744,
-      "label": "flood",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.43119692504405976,
-    "n_severe": 3,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.4630261421203613,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202611151709-KFSD-FXUS63-AFDFSD",
-    "afd_time": "2026-11-15T17:09:00Z",
-    "updated": "2026-11-15T17:47:58.625706+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202611151852-KFSD-FXUS63-AFDFSD",
+    "afd_time": "2026-11-15T18:52:00Z",
+    "updated": "2026-11-15T22:55:09.829148+00:00"
   }
 }
