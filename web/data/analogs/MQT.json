@@ -1,78 +1,78 @@
 {
   "office": "MQT",
-  "product_id": "202611152032-KMQT-FXUS63-AFDMQT",
-  "afd_time": "2026-11-15T20:32:00Z",
+  "product_id": "202611152316-KMQT-FXUS63-AFDMQT",
+  "afd_time": "2026-11-15T23:16:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-15T22:55:09.829148+00:00",
+  "updated": "2026-11-16T02:49:00.359467+00:00",
   "query_preview": "..\nIssued at 331 PM EST Sun Nov 15 2026\n\nVis satellite imagery this afternoon is mainly clear as high \npressure encompasses much of the central CONUS in the upper levels \nand surface high pressure remains centered over the Lower Midwest. \nThis has resulted in a pleasant day across Upper Michigan wit",
   "analogs": [
     {
       "datetime_utc": "2004-06-30T19:53Z",
       "source_file": "MQT_2004_30_1953.txt",
-      "similarity": 0.35836923122406006,
+      "similarity": 0.35836952924728394,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-08-19T17:40Z",
       "source_file": "MQT_2016_19_1740.txt",
-      "similarity": 0.35179445147514343,
+      "similarity": 0.35179460048675537,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-08-16T19:40Z",
+      "source_file": "MQT_2018_16_1940.txt",
+      "similarity": 0.35101568698883057,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-08-16T20:21Z",
       "source_file": "MQT_2018_16_2021.txt",
-      "similarity": 0.3510153889656067,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-08-16T22:31Z",
-      "source_file": "MQT_2018_16_2231.txt",
-      "similarity": 0.3510153889656067,
+      "similarity": 0.35101568698883057,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-08-17T05:01Z",
       "source_file": "MQT_2018_17_0501.txt",
-      "similarity": 0.3510153889656067,
+      "similarity": 0.35101568698883057,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2018-08-16T19:40Z",
-      "source_file": "MQT_2018_16_1940.txt",
-      "similarity": 0.3510153889656067,
+      "datetime_utc": "2018-08-16T22:31Z",
+      "source_file": "MQT_2018_16_2231.txt",
+      "similarity": 0.35101568698883057,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-10-01T09:13Z",
       "source_file": "MQT_2017_01_0913.txt",
-      "similarity": 0.3474026918411255,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-09-30T19:24Z",
-      "source_file": "MQT_2017_30_1924.txt",
-      "similarity": 0.3474026918411255,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-09-30T18:21Z",
-      "source_file": "MQT_2017_30_1821.txt",
-      "similarity": 0.3474026918411255,
+      "similarity": 0.3474029302597046,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-09-30T23:13Z",
       "source_file": "MQT_2017_30_2313.txt",
-      "similarity": 0.3474026918411255,
+      "similarity": 0.3474029302597046,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-09-30T18:21Z",
+      "source_file": "MQT_2017_30_1821.txt",
+      "similarity": 0.3474029302597046,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-09-30T19:24Z",
+      "source_file": "MQT_2017_30_1924.txt",
+      "similarity": 0.3474029302597046,
       "label": "severe_hail",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.3503836005926132,
+    "mean_similarity": 0.350383859872818,
     "n_severe": 9,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
-    "product_id": "202611152032-KMQT-FXUS63-AFDMQT",
-    "afd_time": "2026-11-15T20:32:00Z",
-    "updated": "2026-11-15T22:55:09.829148+00:00"
+    "product_id": "202611152316-KMQT-FXUS63-AFDMQT",
+    "afd_time": "2026-11-15T23:16:00Z",
+    "updated": "2026-11-16T02:49:00.359467+00:00"
   }
 }
