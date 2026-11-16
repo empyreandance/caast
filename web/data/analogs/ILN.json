@@ -1,78 +1,78 @@
 {
   "office": "ILN",
-  "product_id": "202611161118-KILN-FXUS61-AFDILN",
-  "afd_time": "2026-11-16T11:18:00Z",
+  "product_id": "202611161903-KILN-FXUS61-AFDILN",
+  "afd_time": "2026-11-16T19:03:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-16T11:32:16.577439+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...\n\nHigh pressure will build into the Ohio Valley today. As it does,\nlow-level moisture will slowly mix out. Cloudy areas across the \nMiami Valley and central Ohio will see some sunshine by the day's \nend.\n\nClear skies and light winds will produce a favorable setup for fog\ntonight. ",
+  "updated": "2026-11-16T22:12:28.533334+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...\n\nWhile slow to completely clear the area, high pressure and dry air \nare working together to scatter the remaining clouds across the \nScioto Valley and west-central Ohio this afternoon. Some high clouds \nare possible overnight, but conditions will primarily be clear. This \nprovid",
   "analogs": [
-    {
-      "datetime_utc": "2017-04-20T10:49Z",
-      "source_file": "ILN_2017_20_1049.txt",
-      "similarity": 0.3882896900177002,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-04-20T17:49Z",
-      "source_file": "ILN_2017_20_1749.txt",
-      "similarity": 0.3882896900177002,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2017-04-20T08:31Z",
       "source_file": "ILN_2017_20_0831.txt",
-      "similarity": 0.3882896900177002,
+      "similarity": 0.503348708152771,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-04-20T10:49Z",
+      "source_file": "ILN_2017_20_1049.txt",
+      "similarity": 0.503348708152771,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-04-20T13:27Z",
       "source_file": "ILN_2017_20_1327.txt",
-      "similarity": 0.3882896900177002,
+      "similarity": 0.503348708152771,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2015-12-01T09:33Z",
-      "source_file": "ILN_2015_01_0933.txt",
-      "similarity": 0.3871649503707886,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2017-04-20T17:49Z",
+      "source_file": "ILN_2017_20_1749.txt",
+      "similarity": 0.503348708152771,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2015-12-01T11:56Z",
-      "source_file": "ILN_2015_01_1156.txt",
-      "similarity": 0.3871649503707886,
+      "datetime_utc": "2015-12-01T18:03Z",
+      "source_file": "ILN_2015_01_1803.txt",
+      "similarity": 0.49706029891967773,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-12-01T14:57Z",
       "source_file": "ILN_2015_01_1457.txt",
-      "similarity": 0.3871649503707886,
+      "similarity": 0.49706029891967773,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-12-01T18:03Z",
-      "source_file": "ILN_2015_01_1803.txt",
-      "similarity": 0.3871649503707886,
+      "datetime_utc": "2015-12-01T11:56Z",
+      "source_file": "ILN_2015_01_1156.txt",
+      "similarity": 0.49706029891967773,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2014-04-02T00:07Z",
-      "source_file": "ILN_2014_02_0007.txt",
-      "similarity": 0.38350576162338257,
+      "datetime_utc": "2015-12-01T09:33Z",
+      "source_file": "ILN_2015_01_0933.txt",
+      "similarity": 0.49706029891967773,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-06-03T05:50Z",
+      "source_file": "ILN_2005_03_0550.txt",
+      "similarity": 0.4863542318344116,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-04-02T01:47Z",
-      "source_file": "ILN_2014_02_0147.txt",
-      "similarity": 0.38350576162338257,
+      "datetime_utc": "2005-06-03T00:00Z",
+      "source_file": "ILN_2005_03_0000_1.txt",
+      "similarity": 0.4863542318344116,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.386883008480072,
+    "mean_similarity": 0.4974344491958618,
     "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202611161118-KILN-FXUS61-AFDILN",
-    "afd_time": "2026-11-16T11:18:00Z",
-    "updated": "2026-11-16T11:32:16.577439+00:00"
+    "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
+    "product_id": "202611161903-KILN-FXUS61-AFDILN",
+    "afd_time": "2026-11-16T19:03:00Z",
+    "updated": "2026-11-16T22:12:28.533334+00:00"
   }
 }

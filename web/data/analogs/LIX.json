@@ -1,78 +1,78 @@
 {
   "office": "LIX",
-  "product_id": "202611160540-KLIX-FXUS64-AFDLIX",
-  "afd_time": "2026-11-16T05:40:00Z",
+  "product_id": "202611161707-KLIX-FXUS64-AFDLIX",
+  "afd_time": "2026-11-16T17:07:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-16T11:32:16.577439+00:00",
-  "query_preview": "..\n(Thursday night through Sunday) \nIssued at 1132 PM CST Sun Nov 15 2026\n\nThe upper low/trough over Florida and the eastern Gulf on Thursday \nis forecast to open up and lift off to the northeast over the \nweekend, and be off the Carolina coast on Sunday. The upper flow \nlocally will gradually becom",
+  "updated": "2026-11-16T22:12:28.533334+00:00",
+  "query_preview": "..\n(Thursday night through Sunday)\nIssued at 1026 AM CST Mon Nov 16 2026\n\nThe remainder of the week will feature a gradual warm up in \ntemperatures with larger temperature variation with stronger \nradiational fluxes from clearer skies. Winds will remain easterly to \nnortheasterly.\n\nThe prevailing pa",
   "analogs": [
     {
       "datetime_utc": "2011-02-05T02:40Z",
       "source_file": "LIX_2011_05_0240.txt",
-      "similarity": 0.6759211421012878,
+      "similarity": 0.5533466339111328,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-07-24T01:09Z",
+      "source_file": "LIX_2016_24_0109.txt",
+      "similarity": 0.5518803000450134,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-07-23T21:04Z",
       "source_file": "LIX_2016_23_2104_1.txt",
-      "similarity": 0.669937014579773,
+      "similarity": 0.5518803000450134,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-07-24T01:09Z",
-      "source_file": "LIX_2016_24_0109.txt",
-      "similarity": 0.669937014579773,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2006-10-16T09:27Z",
       "source_file": "LIX_2006_16_0927.txt",
-      "similarity": 0.6576700210571289,
+      "similarity": 0.5300770401954651,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-09-19T20:07Z",
       "source_file": "LIX_2012_19_2007.txt",
-      "similarity": 0.6435009241104126,
+      "similarity": 0.4997826814651489,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-06-16T08:14Z",
       "source_file": "LIX_2004_16_0814.txt",
-      "similarity": 0.6115077137947083,
+      "similarity": 0.48355555534362793,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-02-20T16:44Z",
       "source_file": "LIX_2005_20_1644.txt",
-      "similarity": 0.6039878726005554,
+      "similarity": 0.47988176345825195,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2022-09-08T09:47Z",
       "source_file": "LIX_2022_08_0947.txt",
-      "similarity": 0.5977439880371094,
+      "similarity": 0.4572322964668274,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2022-09-08T11:15Z",
       "source_file": "LIX_2022_08_1115.txt",
-      "similarity": 0.5977439880371094,
+      "similarity": 0.4572322964668274,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2021-05-26T16:04Z",
-      "source_file": "LIX_2021_26_1604.txt",
-      "similarity": 0.5942384004592896,
+      "datetime_utc": "2021-05-26T17:16Z",
+      "source_file": "LIX_2021_26_1716.txt",
+      "similarity": 0.45536255836486816,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.6322188079357147,
+    "mean_similarity": 0.5020231425762176,
     "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.63 below confidence floor 0.7",
-    "product_id": "202611160540-KLIX-FXUS64-AFDLIX",
-    "afd_time": "2026-11-16T05:40:00Z",
-    "updated": "2026-11-16T11:32:16.577439+00:00"
+    "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
+    "product_id": "202611161707-KLIX-FXUS64-AFDLIX",
+    "afd_time": "2026-11-16T17:07:00Z",
+    "updated": "2026-11-16T22:12:28.533334+00:00"
   }
 }

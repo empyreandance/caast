@@ -1,91 +1,92 @@
 {
   "office": "GYX",
-  "product_id": "202611160711-KGYX-FXUS61-AFDGYX",
-  "afd_time": "2026-11-16T07:11:00Z",
+  "product_id": "202611161857-KGYX-FXUS61-AFDGYX",
+  "afd_time": "2026-11-16T18:57:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-16T11:32:16.577439+00:00",
-  "query_preview": "..\nKEY MESSAGE 1 DESCRIPTION...\n\nUpper level low pressure will continue to exit the region\ntoday and be replaced by ridging and therefore quiet and warmer\nweather for the foreseeable future.\n\nThere remains strong agreement in latest global and ensemble\nguidance that ridging will keep our area free f",
+  "updated": "2026-11-16T22:12:28.533334+00:00",
+  "query_preview": "..\nKEY MESSAGE 1 DESCRIPTION...\n\nAnomalous ridging across the Upper Great Lakes into Ontario and\nQuebec remains in place this week. With the ridge sitting atop \na broad area of high pressure across the TN Valley, ensemble low\ntracks are steered away from the Northeast and northern New \nEngland throu",
   "analogs": [
-    {
-      "datetime_utc": "2021-03-26T10:37Z",
-      "source_file": "GYX_2021_26_1037.txt",
-      "similarity": 0.6907985210418701,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2007-04-11T13:41Z",
       "source_file": "GYX_2007_11_1341.txt",
-      "similarity": 0.6794347763061523,
+      "similarity": 0.8483155965805054,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2021-03-05T15:31Z",
-      "source_file": "GYX_2021_05_1531.txt",
-      "similarity": 0.5866891145706177,
+      "datetime_utc": "2021-03-26T10:37Z",
+      "source_file": "GYX_2021_26_1037.txt",
+      "similarity": 0.8351784944534302,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-11-19T01:25Z",
+      "source_file": "GYX_2018_19_0125.txt",
+      "similarity": 0.7476056218147278,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-02-14T03:33Z",
+      "source_file": "GYX_2015_14_0333.txt",
+      "similarity": 0.745636522769928,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-02-14T00:25Z",
+      "source_file": "GYX_2015_14_0025.txt",
+      "similarity": 0.745636522769928,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-03-25T06:56Z",
+      "source_file": "GYX_2004_25_0656.txt",
+      "similarity": 0.7299261093139648,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2021-03-05T08:29Z",
-      "source_file": "GYX_2021_05_0829.txt",
-      "similarity": 0.5866891145706177,
-      "label": "quiet",
+      "datetime_utc": "2020-09-09T12:33Z",
+      "source_file": "GYX_2020_09_1233.txt",
+      "similarity": 0.7172389626502991,
+      "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2021-03-05T11:55Z",
-      "source_file": "GYX_2021_05_1155.txt",
-      "similarity": 0.5866891145706177,
-      "label": "quiet",
+      "datetime_utc": "2020-09-09T11:09Z",
+      "source_file": "GYX_2020_09_1109.txt",
+      "similarity": 0.7172389626502991,
+      "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-04-14T06:20Z",
-      "source_file": "GYX_2005_14_0620.txt",
-      "similarity": 0.5793920755386353,
-      "label": "quiet",
+      "datetime_utc": "2020-09-09T17:09Z",
+      "source_file": "GYX_2020_09_1709.txt",
+      "similarity": 0.7172389626502991,
+      "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-04-14T13:23Z",
-      "source_file": "GYX_2005_14_1323.txt",
-      "similarity": 0.5793920755386353,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-10-16T19:02Z",
-      "source_file": "GYX_2024_16_1902.txt",
-      "similarity": 0.5793098211288452,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-10-16T10:43Z",
-      "source_file": "GYX_2024_16_1043.txt",
-      "similarity": 0.5793098211288452,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-10-16T12:49Z",
-      "source_file": "GYX_2024_16_1249.txt",
-      "similarity": 0.5793098211288452,
-      "label": "quiet",
+      "datetime_utc": "2020-09-09T12:59Z",
+      "source_file": "GYX_2020_09_1259.txt",
+      "similarity": 0.7172389626502991,
+      "label": "flood",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
+    "level": "QUIET",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.6027014255523682,
+    "mean_similarity": 0.752125471830368,
+    "base_rate": 0.3880771607663106,
+    "signal_value": -0.2880771607663106,
     "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.60 below confidence floor 0.7",
-    "product_id": "202611160711-KGYX-FXUS61-AFDGYX",
-    "afd_time": "2026-11-16T07:11:00Z",
-    "updated": "2026-11-16T11:32:16.577439+00:00"
+    "product_id": "202611161857-KGYX-FXUS61-AFDGYX",
+    "afd_time": "2026-11-16T18:57:00Z",
+    "updated": "2026-11-16T22:12:28.533334+00:00"
   }
 }
