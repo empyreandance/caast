@@ -1,91 +1,91 @@
 {
   "office": "RIW",
-  "product_id": "202611160006-KRIW-FXUS65-AFDRIW",
-  "afd_time": "2026-11-16T00:06:00Z",
+  "product_id": "202611161108-KRIW-FXUS65-AFDRIW",
+  "afd_time": "2026-11-16T11:08:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-16T02:49:00.359467+00:00",
-  "query_preview": "..\nIssued at 341 AM MST Sun Nov 15 2026\n\nWarm and dry conditions are expected over the next 48 hours as \nridging returns to Wyoming. While not quite as warm as \nyesterday, temperatures will peak 6 to 10 degrees above normal \ntoday. This will make for a fairly pleasant Sunday, albeit with \na gusty so",
+  "updated": "2026-11-16T11:32:16.577439+00:00",
+  "query_preview": "..\nIssued at 404 AM MST Mon Nov 16 2026\n\nMidlevel flow becomes more southwesterly today ahead of an advancing \ntrough along the West Coast. This will lead to another warm and dry \nday, even warmer than yesterday for most with highs peaking near 10 \ndegrees above normal. The Wind Corridor from easter",
   "analogs": [
     {
-      "datetime_utc": "2017-11-25T05:05Z",
-      "source_file": "RIW_2017_25_0505.txt",
-      "similarity": 0.3951330780982971,
+      "datetime_utc": "2018-06-16T08:59Z",
+      "source_file": "RIW_2018_16_0859.txt",
+      "similarity": 0.39723271131515503,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-06-16T17:42Z",
+      "source_file": "RIW_2018_16_1742.txt",
+      "similarity": 0.39723271131515503,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-11-24T20:38Z",
       "source_file": "RIW_2017_24_2038.txt",
-      "similarity": 0.3951330780982971,
+      "similarity": 0.38594719767570496,
       "label": "severe_wind",
       "is_severe": true
     },
     {
+      "datetime_utc": "2017-11-25T05:05Z",
+      "source_file": "RIW_2017_25_0505.txt",
+      "similarity": 0.38594719767570496,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-04-16T04:52Z",
+      "source_file": "RIW_2018_16_0452.txt",
+      "similarity": 0.38008588552474976,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2018-04-16T04:16Z",
       "source_file": "RIW_2018_16_0416.txt",
-      "similarity": 0.3895723223686218,
+      "similarity": 0.38008588552474976,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2018-04-15T19:16Z",
       "source_file": "RIW_2018_15_1916.txt",
-      "similarity": 0.3895723223686218,
+      "similarity": 0.38008588552474976,
       "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-04-16T04:52Z",
-      "source_file": "RIW_2018_16_0452.txt",
-      "similarity": 0.3895723223686218,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-12-09T09:34Z",
-      "source_file": "RIW_2020_09_0934.txt",
-      "similarity": 0.3831157982349396,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-12-09T17:23Z",
-      "source_file": "RIW_2020_09_1723.txt",
-      "similarity": 0.3823404908180237,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-01-13T17:54Z",
-      "source_file": "RIW_2022_13_1754.txt",
-      "similarity": 0.3768053352832794,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-01-13T11:14Z",
-      "source_file": "RIW_2022_13_1114.txt",
-      "similarity": 0.3768053352832794,
-      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-08-18T08:45Z",
       "source_file": "RIW_2011_18_0845.txt",
-      "similarity": 0.3766636550426483,
+      "similarity": 0.37353038787841797,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-09-01T11:18Z",
+      "source_file": "RIW_2022_01_1118.txt",
+      "similarity": 0.3725106120109558,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2022-09-01T09:08Z",
+      "source_file": "RIW_2022_01_0908.txt",
+      "similarity": 0.3725106120109558,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.385471373796463,
-    "n_severe": 3,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.38251690864562987,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202611160006-KRIW-FXUS65-AFDRIW",
-    "afd_time": "2026-11-16T00:06:00Z",
-    "updated": "2026-11-16T02:49:00.359467+00:00"
+    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
+    "product_id": "202611161108-KRIW-FXUS65-AFDRIW",
+    "afd_time": "2026-11-16T11:08:00Z",
+    "updated": "2026-11-16T11:32:16.577439+00:00"
   }
 }

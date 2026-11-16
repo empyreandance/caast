@@ -1,91 +1,91 @@
 {
   "office": "EWX",
-  "product_id": "202611152319-KEWX-FXUS64-AFDEWX",
-  "afd_time": "2026-11-15T23:19:00Z",
+  "product_id": "202611161112-KEWX-FXUS64-AFDEWX",
+  "afd_time": "2026-11-16T11:12:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-16T02:49:00.359467+00:00",
-  "query_preview": "..\n(Tuesday through next Sunday)\nIssued at 215 PM CST Sun Nov 15 2026\n\nCool and dry days are in store for Tuesday and Wednesday while\nshortwave upper ridging passes west to east across TX. The stable\nperiod will be short-lived and broader the zonal flow pattern over\nthe southern CONUS only allows fo",
+  "updated": "2026-11-16T11:32:16.577439+00:00",
+  "query_preview": "..\n(Tuesday night through Sunday)\nIssued at 1203 AM CST Mon Nov 16 2026\n\nAfter a few days of northeasterly to east-northeasterly winds, the \nflow is expected to shift back to the southeast as upper troughing \npropagates over the Rockies and Central US. This brings a return of \ncloudiness to South Ce",
   "analogs": [
     {
       "datetime_utc": "2025-08-31T06:34Z",
       "source_file": "EWX_2025_31_0634.txt",
-      "similarity": 0.5475846529006958,
+      "similarity": 0.4756697118282318,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2025-08-31T11:28Z",
       "source_file": "EWX_2025_31_1128.txt",
-      "similarity": 0.5475846529006958,
+      "similarity": 0.4756697118282318,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-12-26T18:29Z",
-      "source_file": "EWX_2024_26_1829.txt",
-      "similarity": 0.5318012833595276,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-12-26T08:20Z",
-      "source_file": "EWX_2024_26_0820.txt",
-      "similarity": 0.5318012833595276,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-12-26T11:58Z",
-      "source_file": "EWX_2024_26_1158.txt",
-      "similarity": 0.5318012833595276,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2018-01-12T04:55Z",
-      "source_file": "EWX_2018_12_0455.txt",
-      "similarity": 0.5294760465621948,
-      "label": "winter",
+      "datetime_utc": "2017-04-02T19:32Z",
+      "source_file": "EWX_2017_02_1932.txt",
+      "similarity": 0.46482980251312256,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-01-12T04:01Z",
-      "source_file": "EWX_2018_12_0401.txt",
-      "similarity": 0.5294760465621948,
-      "label": "winter",
+      "datetime_utc": "2017-04-03T05:32Z",
+      "source_file": "EWX_2017_03_0532.txt",
+      "similarity": 0.46482980251312256,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-04-02T23:56Z",
+      "source_file": "EWX_2017_02_2356.txt",
+      "similarity": 0.46482980251312256,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-01-12T06:12Z",
-      "source_file": "EWX_2018_12_0612_1.txt",
-      "similarity": 0.5294760465621948,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2017-04-03T02:28Z",
+      "source_file": "EWX_2017_03_0228.txt",
+      "similarity": 0.46482980251312256,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2018-01-11T23:53Z",
       "source_file": "EWX_2018_11_2353.txt",
-      "similarity": 0.5294760465621948,
+      "similarity": 0.4637763202190399,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-01-11T20:35Z",
+      "source_file": "EWX_2018_11_2035.txt",
+      "similarity": 0.4637763202190399,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-01-12T04:55Z",
+      "source_file": "EWX_2018_12_0455.txt",
+      "similarity": 0.4637763202190399,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2018-01-12T02:27Z",
       "source_file": "EWX_2018_12_0227.txt",
-      "similarity": 0.5294760465621948,
+      "similarity": 0.4637763202190399,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.5337953388690948,
-    "n_severe": 5,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.4665763914585114,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.53 below confidence floor 0.7",
-    "product_id": "202611152319-KEWX-FXUS64-AFDEWX",
-    "afd_time": "2026-11-15T23:19:00Z",
-    "updated": "2026-11-16T02:49:00.359467+00:00"
+    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
+    "product_id": "202611161112-KEWX-FXUS64-AFDEWX",
+    "afd_time": "2026-11-16T11:12:00Z",
+    "updated": "2026-11-16T11:32:16.577439+00:00"
   }
 }

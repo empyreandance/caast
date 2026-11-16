@@ -1,91 +1,92 @@
 {
   "office": "MPX",
-  "product_id": "202611152346-KMPX-FXUS63-AFDMPX",
-  "afd_time": "2026-11-15T23:46:00Z",
+  "product_id": "202611161112-KMPX-FXUS63-AFDMPX",
+  "afd_time": "2026-11-16T11:12:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-16T02:49:00.359467+00:00",
-  "query_preview": "..\nIssued at 147 PM CST Sun Nov 15 2026\n\nTurning out to be another beautiful Sunday afternoon across the \nnorthern plains today. Current temperatures reaching the low 50s \nacross western MN and upper 40s in western WI with only sparse \npockets of high clouds on satellite. Winds near 20 mph have been",
+  "updated": "2026-11-16T11:32:16.577439+00:00",
+  "query_preview": "..\nIssued at 159 AM CST Mon Nov 16 2026\n\nToday through Wednesday... Ridging will be the main force to\nstart this week. This will favor continued above normal\ntemperatures with highs in the 50s. This will be supported by\nsoutherly flow not just at the surface but aloft as well\nproviding for WAA. Thes",
   "analogs": [
     {
       "datetime_utc": "2006-04-16T08:35Z",
       "source_file": "MPX_2006_16_0835.txt",
-      "similarity": 0.71861732006073,
+      "similarity": 0.8725249171257019,
       "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-06-11T08:22Z",
-      "source_file": "MPX_2010_11_0822.txt",
-      "similarity": 0.7119209170341492,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-06-11T17:47Z",
-      "source_file": "MPX_2010_11_1747.txt",
-      "similarity": 0.7119209170341492,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-06-25T20:37Z",
-      "source_file": "MPX_2010_25_2037.txt",
-      "similarity": 0.7049643993377686,
-      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-06-04T08:37Z",
       "source_file": "MPX_2005_04_0837.txt",
-      "similarity": 0.7042126655578613,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-07-13T20:20Z",
-      "source_file": "MPX_2010_13_2020.txt",
-      "similarity": 0.682152509689331,
+      "similarity": 0.8415032625198364,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-07-14T00:01Z",
       "source_file": "MPX_2010_14_0001.txt",
-      "similarity": 0.682152509689331,
+      "similarity": 0.8390902280807495,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-07-13T20:20Z",
+      "source_file": "MPX_2010_13_2020.txt",
+      "similarity": 0.8390902280807495,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-06-11T17:47Z",
+      "source_file": "MPX_2010_11_1747.txt",
+      "similarity": 0.834589421749115,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-06-11T08:22Z",
+      "source_file": "MPX_2010_11_0822.txt",
+      "similarity": 0.834589421749115,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-07-09T18:04Z",
+      "source_file": "MPX_2008_09_1804.txt",
+      "similarity": 0.8319257497787476,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-07-09T08:59Z",
+      "source_file": "MPX_2008_09_0859.txt",
+      "similarity": 0.8319257497787476,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-07-09T11:18Z",
+      "source_file": "MPX_2008_09_1118.txt",
+      "similarity": 0.8319257497787476,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-08-01T20:00Z",
       "source_file": "MPX_2010_01_2000.txt",
-      "similarity": 0.6653890013694763,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-11-17T09:29Z",
-      "source_file": "MPX_2005_17_0929.txt",
-      "similarity": 0.6597857475280762,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-08-01T23:05Z",
-      "source_file": "MPX_2010_01_2305.txt",
-      "similarity": 0.6578174233436584,
+      "similarity": 0.8291835188865662,
       "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.9,
-    "mean_similarity": 0.6898933410644531,
-    "n_severe": 9,
+    "level": "HIGH",
+    "severe_fraction": 1.0,
+    "mean_similarity": 0.8386348247528076,
+    "base_rate": 0.5050053904204528,
+    "signal_value": 0.4949946095795472,
+    "n_severe": 10,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.69 below confidence floor 0.7",
-    "product_id": "202611152346-KMPX-FXUS63-AFDMPX",
-    "afd_time": "2026-11-15T23:46:00Z",
-    "updated": "2026-11-16T02:49:00.359467+00:00"
+    "product_id": "202611161112-KMPX-FXUS63-AFDMPX",
+    "afd_time": "2026-11-16T11:12:00Z",
+    "updated": "2026-11-16T11:32:16.577439+00:00"
   }
 }
