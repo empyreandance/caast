@@ -1,91 +1,91 @@
 {
   "office": "ILN",
-  "product_id": "202611171115-KILN-FXUS61-AFDILN",
-  "afd_time": "2026-11-17T11:15:00Z",
+  "product_id": "202611172240-KILN-FXUS61-AFDILN",
+  "afd_time": "2026-11-17T22:40:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-17T14:32:06.942112+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...\n\nClear skies and light winds will provide a favorable opportunity for\nfog development early this morning... mainly in river valleys and \nrural areas. Otherwise, surface high pressure will continue to\nprovide sunny and mild weather during the day and cool conditions at\nnight. Temp",
+  "updated": "2026-11-17T22:58:07.741869+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...\n\nSurface high pressure will remain centered off to our southeast \nthrough Thursday. This will result in dry and mostly clear \nconditions. \n\nWith good radiational cooling, will likely see some river valley fog\ndevelopment again tonight. Will also nudge temperatures down a bit \nthe",
   "analogs": [
-    {
-      "datetime_utc": "2015-12-01T14:57Z",
-      "source_file": "ILN_2015_01_1457.txt",
-      "similarity": 0.40066760778427124,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-12-01T18:03Z",
-      "source_file": "ILN_2015_01_1803.txt",
-      "similarity": 0.40066760778427124,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-12-01T09:33Z",
-      "source_file": "ILN_2015_01_0933.txt",
-      "similarity": 0.40066760778427124,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-12-01T11:56Z",
-      "source_file": "ILN_2015_01_1156.txt",
-      "similarity": 0.40066760778427124,
-      "label": "winter",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2008-06-08T23:40Z",
       "source_file": "ILN_2008_08_2340.txt",
-      "similarity": 0.39679160714149475,
+      "similarity": 0.36211442947387695,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-06-09T16:31Z",
+      "source_file": "ILN_2008_09_1631.txt",
+      "similarity": 0.36211442947387695,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-06-08T20:21Z",
       "source_file": "ILN_2008_08_2021.txt",
-      "similarity": 0.39679160714149475,
+      "similarity": 0.36211442947387695,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-06-09T06:07Z",
       "source_file": "ILN_2008_09_0607_1.txt",
-      "similarity": 0.39679160714149475,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-06-09T10:53Z",
-      "source_file": "ILN_2008_09_1053.txt",
-      "similarity": 0.39679160714149475,
+      "similarity": 0.36211442947387695,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-06-09T07:49Z",
       "source_file": "ILN_2008_09_0749.txt",
-      "similarity": 0.39679160714149475,
+      "similarity": 0.36211442947387695,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-06-09T16:31Z",
-      "source_file": "ILN_2008_09_1631.txt",
-      "similarity": 0.39679160714149475,
+      "datetime_utc": "2008-06-09T10:53Z",
+      "source_file": "ILN_2008_09_1053.txt",
+      "similarity": 0.36211442947387695,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-11-27T08:56Z",
+      "source_file": "ILN_2005_27_0856.txt",
+      "similarity": 0.36194494366645813,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-09-06T23:18Z",
+      "source_file": "ILN_2025_06_2318.txt",
+      "similarity": 0.3594200611114502,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2025-09-06T18:00Z",
+      "source_file": "ILN_2025_06_1800.txt",
+      "similarity": 0.3594200611114502,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-07-07T10:45Z",
+      "source_file": "ILN_2012_07_1045.txt",
+      "similarity": 0.35666486620903015,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.39834200739860537,
-    "n_severe": 6,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.36101365089416504,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202611171115-KILN-FXUS61-AFDILN",
-    "afd_time": "2026-11-17T11:15:00Z",
-    "updated": "2026-11-17T14:32:06.942112+00:00"
+    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
+    "product_id": "202611172240-KILN-FXUS61-AFDILN",
+    "afd_time": "2026-11-17T22:40:00Z",
+    "updated": "2026-11-17T22:58:07.741869+00:00"
   }
 }

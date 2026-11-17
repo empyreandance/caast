@@ -1,91 +1,91 @@
 {
   "office": "ILX",
-  "product_id": "202611171044-KILX-FXUS63-AFDILX",
-  "afd_time": "2026-11-17T10:44:00Z",
+  "product_id": "202611172251-KILX-FXUS63-AFDILX",
+  "afd_time": "2026-11-17T22:51:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-17T14:32:06.942112+00:00",
-  "query_preview": "..\nIssued at 213 AM CST Tue Nov 17 2026\n\nA large scale high pressure ridge continues to amplify over the \nmiddle of the country, while surface high pressure has migrated \ntoward the mid-Atlantic region. Southerly flow will thus increase a \nbit today, continuing the warming trend, while the ridge kee",
+  "updated": "2026-11-17T22:58:07.741869+00:00",
+  "query_preview": "..\nIssued at 304 PM CST Tue Nov 17 2026\n\nCurrent H5 analysis shows high amplitude troughing across the\nwestern CONUS, with relatively high amplitude mid/upper ridging\ndownstream across the central CONUS. At the surface, the region\nremains on the western edge of a ~1035 mb surface high currently\ncent",
   "analogs": [
     {
       "datetime_utc": "2004-10-14T02:11Z",
       "source_file": "ILX_2004_14_0211.txt",
-      "similarity": 0.471706748008728,
+      "similarity": 0.44120824337005615,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-04-25T11:24Z",
-      "source_file": "ILX_2008_25_1124.txt",
-      "similarity": 0.45895424485206604,
-      "label": "severe_wind",
+      "datetime_utc": "2006-01-01T03:00Z",
+      "source_file": "ILX_2006_01_0300.txt",
+      "similarity": 0.4232598543167114,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-01-31T21:19Z",
       "source_file": "ILX_2006_31_2119.txt",
-      "similarity": 0.4473833739757538,
+      "similarity": 0.4232598543167114,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-01-01T03:00Z",
-      "source_file": "ILX_2006_01_0300.txt",
-      "similarity": 0.4473833739757538,
-      "label": "tornado",
+      "datetime_utc": "2013-03-31T11:21Z",
+      "source_file": "ILX_2013_31_1121.txt",
+      "similarity": 0.4122377634048462,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-09-24T23:15Z",
-      "source_file": "ILX_2011_24_2315.txt",
-      "similarity": 0.4460294842720032,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-09-24T20:03Z",
-      "source_file": "ILX_2011_24_2003.txt",
-      "similarity": 0.4460294842720032,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-05-24T19:59Z",
-      "source_file": "ILX_2006_24_1959.txt",
-      "similarity": 0.4451802372932434,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-05-25T02:01Z",
-      "source_file": "ILX_2006_25_0201.txt",
-      "similarity": 0.4451802372932434,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-11-19T23:20Z",
-      "source_file": "ILX_2013_19_2320.txt",
-      "similarity": 0.44238510727882385,
+      "datetime_utc": "2009-01-12T17:48Z",
+      "source_file": "ILX_2009_12_1748.txt",
+      "similarity": 0.41110020875930786,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-11-19T20:56Z",
-      "source_file": "ILX_2013_19_2056.txt",
-      "similarity": 0.44238510727882385,
+      "datetime_utc": "2009-01-12T11:36Z",
+      "source_file": "ILX_2009_12_1136.txt",
+      "similarity": 0.41110020875930786,
       "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-01-12T16:38Z",
+      "source_file": "ILX_2009_12_1638_1.txt",
+      "similarity": 0.41110020875930786,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-04-25T11:24Z",
+      "source_file": "ILX_2008_25_1124.txt",
+      "similarity": 0.4079631268978119,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-12-18T03:44Z",
+      "source_file": "ILX_2005_18_0344.txt",
+      "similarity": 0.4049426317214966,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-12-17T20:20Z",
+      "source_file": "ILX_2005_17_2020.txt",
+      "similarity": 0.4049426317214966,
+      "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.44926173985004425,
-    "n_severe": 7,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.41511147320270536,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202611171044-KILX-FXUS63-AFDILX",
-    "afd_time": "2026-11-17T10:44:00Z",
-    "updated": "2026-11-17T14:32:06.942112+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202611172251-KILX-FXUS63-AFDILX",
+    "afd_time": "2026-11-17T22:51:00Z",
+    "updated": "2026-11-17T22:58:07.741869+00:00"
   }
 }

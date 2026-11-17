@@ -1,91 +1,91 @@
 {
   "office": "BOU",
-  "product_id": "202611171141-KBOU-FXUS65-AFDBOU",
-  "afd_time": "2026-11-17T11:41:00Z",
+  "product_id": "202611172145-KBOU-FXUS65-AFDBOU",
+  "afd_time": "2026-11-17T21:45:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-17T14:32:06.942112+00:00",
-  "query_preview": "/Through Monday/...\nIssued at 1134 PM MST Mon Nov 16 2026\n\nWe're starting to see stratus and fog increase again across\nportions of the northeast plains tonight, with some patchy dense\nfog noted near the edge of the stratus deck in Weld county.\nGuidance again favors fog across the Poudre/South Platte",
+  "updated": "2026-11-17T22:58:07.741869+00:00",
+  "query_preview": "/Through Tuesday/...\nIssued at 234 PM MST Tue Nov 17 2026\n\nToday has been a pleasant day with high temperatures topping out in \nthe upper 50s for the majority of the plains. A trough currently \nlocated over Nevada will approach Colorado tonight and move through \non Wednesday. This will bring some sn",
   "analogs": [
+    {
+      "datetime_utc": "2005-09-01T08:05Z",
+      "source_file": "BOU_2005_01_0805.txt",
+      "similarity": 0.4280487298965454,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-08-16T08:46Z",
+      "source_file": "BOU_2004_16_0846.txt",
+      "similarity": 0.42479878664016724,
+      "label": "flood",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2015-03-02T10:47Z",
       "source_file": "BOU_2015_02_1047.txt",
-      "similarity": 0.37838655710220337,
+      "similarity": 0.42153820395469666,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-03-02T16:43Z",
       "source_file": "BOU_2015_02_1643.txt",
-      "similarity": 0.37838655710220337,
+      "similarity": 0.42153820395469666,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-03-16T09:19Z",
-      "source_file": "BOU_2009_16_0919.txt",
-      "similarity": 0.37756359577178955,
-      "label": "severe_wind",
+      "datetime_utc": "2004-09-30T21:32Z",
+      "source_file": "BOU_2004_30_2132.txt",
+      "similarity": 0.42115718126296997,
+      "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2025-01-26T18:20Z",
-      "source_file": "BOU_2025_26_1820.txt",
-      "similarity": 0.37619727849960327,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2025-01-26T12:03Z",
-      "source_file": "BOU_2025_26_1203.txt",
-      "similarity": 0.37619727849960327,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-12-18T11:48Z",
-      "source_file": "BOU_2004_18_1148.txt",
-      "similarity": 0.3759605288505554,
+      "datetime_utc": "2011-09-27T20:55Z",
+      "source_file": "BOU_2011_27_2055.txt",
+      "similarity": 0.4210757911205292,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-09-15T20:43Z",
-      "source_file": "BOU_2013_15_2043.txt",
-      "similarity": 0.3742356598377228,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2011-09-28T03:21Z",
+      "source_file": "BOU_2011_28_0321.txt",
+      "similarity": 0.4210757911205292,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2013-09-16T02:52Z",
-      "source_file": "BOU_2013_16_0252.txt",
-      "similarity": 0.3742356598377228,
-      "label": "severe_wind",
+      "datetime_utc": "2009-06-30T21:18Z",
+      "source_file": "BOU_2009_30_2118.txt",
+      "similarity": 0.419706255197525,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-06-30T21:18Z",
       "source_file": "BOU_2009_30_2118_1.txt",
-      "similarity": 0.3741457164287567,
+      "similarity": 0.419706255197525,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-06-30T21:18Z",
-      "source_file": "BOU_2009_30_2118.txt",
-      "similarity": 0.3741457164287567,
-      "label": "tornado",
+      "datetime_utc": "2009-03-16T09:19Z",
+      "source_file": "BOU_2009_16_0919.txt",
+      "similarity": 0.41917726397514343,
+      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.3759454548358917,
-    "n_severe": 7,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.42178224623203275,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202611171141-KBOU-FXUS65-AFDBOU",
-    "afd_time": "2026-11-17T11:41:00Z",
-    "updated": "2026-11-17T14:32:06.942112+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202611172145-KBOU-FXUS65-AFDBOU",
+    "afd_time": "2026-11-17T21:45:00Z",
+    "updated": "2026-11-17T22:58:07.741869+00:00"
   }
 }
