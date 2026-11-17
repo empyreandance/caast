@@ -1,91 +1,91 @@
 {
   "office": "HUN",
-  "product_id": "202611161903-KHUN-FXUS64-AFDHUN",
-  "afd_time": "2026-11-16T19:03:00Z",
+  "product_id": "202611170341-KHUN-FXUS64-AFDHUN",
+  "afd_time": "2026-11-17T03:41:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-16T22:12:28.533334+00:00",
-  "query_preview": "..\n(Thursday through Sunday) \nIssued at 806 PM CST Sun Nov 15 2026\n\nA continued warming trend is expected during the long term forecast\nperiod as the upper level pattern shows a trough over the West Coast\nwith ridging over the Central and Eastern US. On Thursday, sfc high\npressure over the Carolinas",
+  "updated": "2026-11-17T04:34:23.976984+00:00",
+  "query_preview": "..\n(Thursday night through Monday)\nIssued at 923 PM CST Mon Nov 16 2026\n\nThe main talking point in the long term forecast will be monitoring\nan upper level trough and subsequent sfc low pushing into the\nTennessee Valley from the southwest on Friday. Current model guidance\nindicates strong disagreeme",
   "analogs": [
     {
-      "datetime_utc": "2011-09-01T02:40Z",
-      "source_file": "HUN_2011_01_0240.txt",
-      "similarity": 0.26787418127059937,
+      "datetime_utc": "2008-07-24T16:10Z",
+      "source_file": "HUN_2008_24_1610.txt",
+      "similarity": 0.3075410723686218,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-11-24T20:11Z",
+      "source_file": "HUN_2005_24_2011.txt",
+      "similarity": 0.30709272623062134,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-11-18T10:01Z",
-      "source_file": "HUN_2012_18_1001.txt",
-      "similarity": 0.26766660809516907,
+      "datetime_utc": "2010-08-24T18:57Z",
+      "source_file": "HUN_2010_24_1857.txt",
+      "similarity": 0.30563804507255554,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-03-29T08:43Z",
+      "source_file": "HUN_2005_29_0843.txt",
+      "similarity": 0.30109548568725586,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-03-29T13:31Z",
       "source_file": "HUN_2005_29_1331.txt",
-      "similarity": 0.26650214195251465,
+      "similarity": 0.30109548568725586,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-03-29T08:43Z",
-      "source_file": "HUN_2005_29_0843.txt",
-      "similarity": 0.26650214195251465,
+      "datetime_utc": "2007-04-26T19:32Z",
+      "source_file": "HUN_2007_26_1932.txt",
+      "similarity": 0.29878318309783936,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-12-10T08:53Z",
+      "source_file": "HUN_2007_10_0853.txt",
+      "similarity": 0.2975907325744629,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-12-01T21:13Z",
-      "source_file": "HUN_2010_01_2113.txt",
-      "similarity": 0.2647702097892761,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-10-28T08:50Z",
-      "source_file": "HUN_2009_28_0850.txt",
-      "similarity": 0.264413058757782,
+      "datetime_utc": "2008-03-12T19:20Z",
+      "source_file": "HUN_2008_12_1920.txt",
+      "similarity": 0.29738855361938477,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-11-24T20:11Z",
-      "source_file": "HUN_2005_24_2011.txt",
-      "similarity": 0.26361918449401855,
+      "datetime_utc": "2008-03-13T02:06Z",
+      "source_file": "HUN_2008_13_0206.txt",
+      "similarity": 0.29738855361938477,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-09-03T07:07Z",
-      "source_file": "HUN_2010_03_0707.txt",
-      "similarity": 0.2626439929008484,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-09-02T20:20Z",
-      "source_file": "HUN_2010_02_2020.txt",
-      "similarity": 0.2626439929008484,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-06-30T08:06Z",
-      "source_file": "HUN_2005_30_0806.txt",
-      "similarity": 0.26179254055023193,
-      "label": "severe_wind",
+      "datetime_utc": "2009-04-02T19:48Z",
+      "source_file": "HUN_2009_02_1948.txt",
+      "similarity": 0.29684939980506897,
+      "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.2648428052663803,
-    "n_severe": 4,
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.30104632377624513,
+    "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.26 below confidence floor 0.7",
-    "product_id": "202611161903-KHUN-FXUS64-AFDHUN",
-    "afd_time": "2026-11-16T19:03:00Z",
-    "updated": "2026-11-16T22:12:28.533334+00:00"
+    "reason": "top-10 mean similarity 0.30 below confidence floor 0.7",
+    "product_id": "202611170341-KHUN-FXUS64-AFDHUN",
+    "afd_time": "2026-11-17T03:41:00Z",
+    "updated": "2026-11-17T04:34:23.976984+00:00"
   }
 }
