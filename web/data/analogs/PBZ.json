@@ -1,91 +1,91 @@
 {
   "office": "PBZ",
-  "product_id": "202611162352-KPBZ-FXUS61-AFDPBZ",
-  "afd_time": "2026-11-16T23:52:00Z",
+  "product_id": "202611171119-KPBZ-FXUS61-AFDPBZ",
+  "afd_time": "2026-11-17T11:19:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-17T04:34:23.976984+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...\nSkies remained cloudy much of the day, limiting mixing and\ndrying at the surface. Clouds will continue to clear this\nevening, with radiational cooling. This could result in patchy\nfog developing across the area, with some pockets of freezing\nfog also possible as surface temperatu",
+  "updated": "2026-11-17T14:32:06.942112+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...\nMostly clear skies and light to calm wind will allow for favorable \nconditions for fog overnight Monday night which the REFS is quite \ninterested in. With surface temperatures hanging just above freezing \nbut dew points around or just below freezing, some of this \ncould be freezi",
   "analogs": [
     {
       "datetime_utc": "2011-01-27T06:33Z",
       "source_file": "PBZ_2011_27_0633.txt",
-      "similarity": 0.38357019424438477,
+      "similarity": 0.3850672245025635,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-01-27T14:32Z",
       "source_file": "PBZ_2011_27_1432.txt",
-      "similarity": 0.38357019424438477,
+      "similarity": 0.3850672245025635,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-08-23T06:38Z",
-      "source_file": "PBZ_2017_23_0638.txt",
-      "similarity": 0.35914385318756104,
-      "label": "quiet",
+      "datetime_utc": "2007-09-01T05:19Z",
+      "source_file": "PBZ_2007_01_0519.txt",
+      "similarity": 0.37672048807144165,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-09-01T17:59Z",
+      "source_file": "PBZ_2007_01_1759.txt",
+      "similarity": 0.37672048807144165,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-09-01T15:07Z",
+      "source_file": "PBZ_2007_01_1507.txt",
+      "similarity": 0.37672048807144165,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-12-29T16:55Z",
+      "source_file": "PBZ_2013_29_1655.txt",
+      "similarity": 0.3690167963504791,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-08-23T11:54Z",
-      "source_file": "PBZ_2017_23_1154.txt",
-      "similarity": 0.35914385318756104,
-      "label": "quiet",
+      "datetime_utc": "2013-12-29T09:34Z",
+      "source_file": "PBZ_2013_29_0934.txt",
+      "similarity": 0.3690167963504791,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-08-23T09:08Z",
-      "source_file": "PBZ_2017_23_0908.txt",
-      "similarity": 0.35914385318756104,
-      "label": "quiet",
+      "datetime_utc": "2013-12-29T19:24Z",
+      "source_file": "PBZ_2013_29_1924.txt",
+      "similarity": 0.3690167963504791,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-03-23T01:23Z",
-      "source_file": "PBZ_2018_23_0123.txt",
-      "similarity": 0.35784026980400085,
-      "label": "flood",
+      "datetime_utc": "2013-12-29T13:44Z",
+      "source_file": "PBZ_2013_29_1344.txt",
+      "similarity": 0.3690167963504791,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-03-23T15:04Z",
-      "source_file": "PBZ_2018_23_1504.txt",
-      "similarity": 0.35784026980400085,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-03-23T17:38Z",
-      "source_file": "PBZ_2018_23_1738.txt",
-      "similarity": 0.35784026980400085,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-03-23T16:37Z",
-      "source_file": "PBZ_2018_23_1637.txt",
-      "similarity": 0.35784026980400085,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2018-03-22T21:49Z",
-      "source_file": "PBZ_2018_22_2149.txt",
-      "similarity": 0.35784026980400085,
-      "label": "flood",
-      "is_severe": false
+      "datetime_utc": "2014-07-16T01:43Z",
+      "source_file": "PBZ_2014_16_0143.txt",
+      "similarity": 0.3685108423233032,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.3633773297071457,
-    "n_severe": 0,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.3744873940944672,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
-    "product_id": "202611162352-KPBZ-FXUS61-AFDPBZ",
-    "afd_time": "2026-11-16T23:52:00Z",
-    "updated": "2026-11-17T04:34:23.976984+00:00"
+    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
+    "product_id": "202611171119-KPBZ-FXUS61-AFDPBZ",
+    "afd_time": "2026-11-17T11:19:00Z",
+    "updated": "2026-11-17T14:32:06.942112+00:00"
   }
 }

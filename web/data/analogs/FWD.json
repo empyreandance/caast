@@ -1,78 +1,78 @@
 {
   "office": "FWD",
-  "product_id": "202611170017-KFWD-FXUS64-AFDFWD",
-  "afd_time": "2026-11-17T00:17:00Z",
+  "product_id": "202611171145-KFWD-FXUS64-AFDFWD",
+  "afd_time": "2026-11-17T11:45:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-17T04:34:23.976984+00:00",
-  "query_preview": "..\n(Tuesday night through next Sunday)\nIssued at 1220 PM CST Mon Nov 16 2026\n\nThe upper trough over the western CONUS will eject into the\nNorthern Plains on Wednesday, well removed from our area.\nPersistent southerly flow though will pull moisture northward\nahead of a stronger trough during the late",
+  "updated": "2026-11-17T14:32:06.942112+00:00",
+  "query_preview": "..\n(Wednesday Night through Monday)\nIssued at 1232 AM CST Tue Nov 17 2026\n\nPersistent south-southeasterly low-level flow will continue to\ndraw greater quality moisture northward into North and Central\nTexas the second half of the week. Expect afternoon highs to climb\ninto the 70s areawide by Thursda",
   "analogs": [
     {
-      "datetime_utc": "2004-10-02T09:40Z",
-      "source_file": "FWD_2004_02_0940.txt",
-      "similarity": 0.38458478450775146,
+      "datetime_utc": "2005-12-08T09:38Z",
+      "source_file": "FWD_2005_08_0938.txt",
+      "similarity": 0.4694844186306,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2025-11-02T23:19Z",
+      "source_file": "FWD_2025_02_2319.txt",
+      "similarity": 0.4676542282104492,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-10-01T19:48Z",
-      "source_file": "FWD_2004_01_1948.txt",
-      "similarity": 0.38458478450775146,
+      "datetime_utc": "2025-11-02T18:37Z",
+      "source_file": "FWD_2025_02_1837.txt",
+      "similarity": 0.4676542282104492,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-11-12T08:51Z",
-      "source_file": "FWD_2007_12_0851.txt",
-      "similarity": 0.37646108865737915,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-02-15T03:37Z",
-      "source_file": "FWD_2006_15_0337.txt",
-      "similarity": 0.3638303279876709,
-      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-02-14T21:51Z",
       "source_file": "FWD_2006_14_2151.txt",
-      "similarity": 0.3638303279876709,
+      "similarity": 0.46760284900665283,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-02-14T23:17Z",
       "source_file": "FWD_2006_14_2317.txt",
-      "similarity": 0.3638303279876709,
+      "similarity": 0.46760284900665283,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-11-12T21:06Z",
-      "source_file": "FWD_2007_12_2106.txt",
-      "similarity": 0.3621799945831299,
-      "label": "flood",
+      "datetime_utc": "2006-02-15T03:37Z",
+      "source_file": "FWD_2006_15_0337.txt",
+      "similarity": 0.46760284900665283,
+      "label": "winter",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-11-12T10:17Z",
-      "source_file": "FWD_2007_12_1017.txt",
-      "similarity": 0.3621799945831299,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-12-08T09:38Z",
-      "source_file": "FWD_2005_08_0938.txt",
-      "similarity": 0.36132726073265076,
-      "label": "severe_hail",
-      "is_severe": true
     },
     {
       "datetime_utc": "2005-01-29T22:02Z",
       "source_file": "FWD_2005_29_2202.txt",
-      "similarity": 0.3594146966934204,
+      "similarity": 0.46557390689849854,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-01-29T08:59Z",
+      "source_file": "FWD_2005_29_0859.txt",
+      "similarity": 0.46557390689849854,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-11-12T08:51Z",
+      "source_file": "FWD_2007_12_0851.txt",
+      "similarity": 0.46450987458229065,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2025-12-16T19:37Z",
+      "source_file": "FWD_2025_16_1937.txt",
+      "similarity": 0.4590511918067932,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.36822235882282256,
+    "mean_similarity": 0.4662310302257538,
     "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
-    "product_id": "202611170017-KFWD-FXUS64-AFDFWD",
-    "afd_time": "2026-11-17T00:17:00Z",
-    "updated": "2026-11-17T04:34:23.976984+00:00"
+    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
+    "product_id": "202611171145-KFWD-FXUS64-AFDFWD",
+    "afd_time": "2026-11-17T11:45:00Z",
+    "updated": "2026-11-17T14:32:06.942112+00:00"
   }
 }
