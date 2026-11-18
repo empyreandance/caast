@@ -1,91 +1,92 @@
 {
   "office": "MHX",
-  "product_id": "202611172345-KMHX-FXUS62-AFDMHX",
-  "afd_time": "2026-11-17T23:45:00Z",
+  "product_id": "202611181038-KMHX-FXUS62-AFDMHX",
+  "afd_time": "2026-11-18T10:38:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-18T04:29:33.231552+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...Another frosty morning tomorrow, but slightly\nwarmer than this morning with potential for winds to remain\nlight opposed to dead-calm. MinTs again AoB freezing across the\nCoastal Plain where there is a greater chance of being decoupled\nlonger. Inner Banks, temps near sunrise will b",
+  "updated": "2026-11-18T14:08:18.454695+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...Another frosty morning, especially inland but\nmilder mornings are just around the corner. Low-level \nthicknesses increasing supports steady warming mid to late week,\nand even though high pressure will remain in place, temps will \nwarm to above climo with 70s inland. For the OBX, h",
   "analogs": [
     {
-      "datetime_utc": "2011-08-26T09:00Z",
-      "source_file": "MHX_2011_26_0900.txt",
-      "similarity": 0.672133207321167,
+      "datetime_utc": "2011-08-26T11:00Z",
+      "source_file": "MHX_2011_26_1100.txt",
+      "similarity": 0.7877051830291748,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-08-26T11:00Z",
-      "source_file": "MHX_2011_26_1100.txt",
-      "similarity": 0.672133207321167,
+      "datetime_utc": "2011-08-26T09:00Z",
+      "source_file": "MHX_2011_26_0900.txt",
+      "similarity": 0.7877051830291748,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-06-25T08:16Z",
       "source_file": "MHX_2011_25_0816.txt",
-      "similarity": 0.6605324745178223,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-06-25T17:20Z",
-      "source_file": "MHX_2011_25_1720.txt",
-      "similarity": 0.6548793315887451,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-06-25T17:13Z",
-      "source_file": "MHX_2011_25_1713.txt",
-      "similarity": 0.6548793315887451,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-06-25T16:23Z",
-      "source_file": "MHX_2011_25_1623.txt",
-      "similarity": 0.6548793315887451,
+      "similarity": 0.7823406457901001,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-06-25T11:33Z",
       "source_file": "MHX_2011_25_1133.txt",
-      "similarity": 0.6548793315887451,
+      "similarity": 0.772386908531189,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-06-25T17:13Z",
+      "source_file": "MHX_2011_25_1713.txt",
+      "similarity": 0.772386908531189,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-06-25T17:20Z",
+      "source_file": "MHX_2011_25_1720.txt",
+      "similarity": 0.772386908531189,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-06-25T16:23Z",
+      "source_file": "MHX_2011_25_1623.txt",
+      "similarity": 0.772386908531189,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-04-22T20:19Z",
       "source_file": "MHX_2011_22_2019.txt",
-      "similarity": 0.6044026613235474,
+      "similarity": 0.6906920671463013,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-01-19T08:29Z",
-      "source_file": "MHX_2014_19_0829.txt",
-      "similarity": 0.5578687191009521,
-      "label": "winter",
+      "datetime_utc": "2006-03-15T00:43Z",
+      "source_file": "MHX_2006_15_0043.txt",
+      "similarity": 0.6575391888618469,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-03-15T00:43Z",
-      "source_file": "MHX_2006_15_0043.txt",
-      "similarity": 0.5568724870681763,
+      "datetime_utc": "2023-09-28T17:42Z",
+      "source_file": "MHX_2023_28_1742.txt",
+      "similarity": 0.6368709802627563,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
+    "level": "MODERATE",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.6343460083007812,
+    "mean_similarity": 0.743240088224411,
+    "base_rate": 0.5206861191386222,
+    "signal_value": 0.2793138808613779,
     "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.63 below confidence floor 0.7",
-    "product_id": "202611172345-KMHX-FXUS62-AFDMHX",
-    "afd_time": "2026-11-17T23:45:00Z",
-    "updated": "2026-11-18T04:29:33.231552+00:00"
+    "product_id": "202611181038-KMHX-FXUS62-AFDMHX",
+    "afd_time": "2026-11-18T10:38:00Z",
+    "updated": "2026-11-18T14:08:18.454695+00:00"
   }
 }
