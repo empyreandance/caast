@@ -1,91 +1,91 @@
 {
   "office": "CLE",
-  "product_id": "202611181128-KCLE-FXUS61-AFDCLE",
-  "afd_time": "2026-11-18T11:28:00Z",
+  "product_id": "202611182024-KCLE-FXUS61-AFDCLE",
+  "afd_time": "2026-11-18T20:24:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-18T14:08:18.454695+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...\nPatchy fog is possible again this morning, though unlikely to\nnecessitate a special weather statement or dense fog advisory \nas temperatures are a touch warmer than last night, with less \ncoverage of patchy fog.\n\nKEY MESSAGE 2... \nA 1036 mb high is centered over the mid-Atlantic ",
+  "updated": "2026-11-18T22:02:18.478683+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...\nThe pattern over the next few days will be very typical of a\nstrong El Nino during the late Fall, characterized by\nunseasonably warm and dry conditions across the Great Lakes and\nOhio Valley. Infrared satellite and water vapor loops this \nafternoon show a parade of strong storm s",
   "analogs": [
     {
       "datetime_utc": "2019-10-24T20:08Z",
       "source_file": "CLE_2019_24_2008.txt",
-      "similarity": 0.4139922261238098,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-10-24T23:56Z",
-      "source_file": "CLE_2019_24_2356.txt",
-      "similarity": 0.4139922261238098,
+      "similarity": 0.35112714767456055,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-10-25T02:42Z",
       "source_file": "CLE_2019_25_0242.txt",
-      "similarity": 0.4139922261238098,
+      "similarity": 0.35112714767456055,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-10-25T05:54Z",
       "source_file": "CLE_2019_25_0554.txt",
-      "similarity": 0.4139922261238098,
+      "similarity": 0.35112714767456055,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-04-07T18:13Z",
-      "source_file": "CLE_2005_07_1813.txt",
-      "similarity": 0.4123694598674774,
-      "label": "quiet",
+      "datetime_utc": "2019-10-24T23:56Z",
+      "source_file": "CLE_2019_24_2356.txt",
+      "similarity": 0.35112714767456055,
+      "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-04-07T08:07Z",
-      "source_file": "CLE_2005_07_0807.txt",
-      "similarity": 0.4123694598674774,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-04-07T14:29Z",
-      "source_file": "CLE_2005_07_1429.txt",
-      "similarity": 0.4123694598674774,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-04-07T11:35Z",
-      "source_file": "CLE_2005_07_1135.txt",
-      "similarity": 0.4123694598674774,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-04-02T19:35Z",
-      "source_file": "CLE_2024_02_1935.txt",
-      "similarity": 0.41046708822250366,
-      "label": "tornado",
+      "datetime_utc": "2009-02-11T16:07Z",
+      "source_file": "CLE_2009_11_1607.txt",
+      "similarity": 0.34784308075904846,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2024-04-03T06:03Z",
-      "source_file": "CLE_2024_03_0603_1.txt",
-      "similarity": 0.41046708822250366,
-      "label": "severe_hail",
+      "datetime_utc": "2009-02-11T08:07Z",
+      "source_file": "CLE_2009_11_0807.txt",
+      "similarity": 0.34784308075904846,
+      "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-02-11T11:34Z",
+      "source_file": "CLE_2009_11_1134.txt",
+      "similarity": 0.34784308075904846,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2009-02-11T17:46Z",
+      "source_file": "CLE_2009_11_1746.txt",
+      "similarity": 0.34784308075904846,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-09-17T10:21Z",
+      "source_file": "CLE_2013_17_1021.txt",
+      "similarity": 0.34284093976020813,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-09-17T13:50Z",
+      "source_file": "CLE_2013_17_1350.txt",
+      "similarity": 0.34284093976020813,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.41263809204101565,
-    "n_severe": 2,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.3481562793254852,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202611181128-KCLE-FXUS61-AFDCLE",
-    "afd_time": "2026-11-18T11:28:00Z",
-    "updated": "2026-11-18T14:08:18.454695+00:00"
+    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
+    "product_id": "202611182024-KCLE-FXUS61-AFDCLE",
+    "afd_time": "2026-11-18T20:24:00Z",
+    "updated": "2026-11-18T22:02:18.478683+00:00"
   }
 }

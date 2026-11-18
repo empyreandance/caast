@@ -1,92 +1,91 @@
 {
   "office": "JAN",
-  "product_id": "202611181142-KJAN-FXUS64-AFDJAN",
-  "afd_time": "2026-11-18T11:42:00Z",
+  "product_id": "202611182040-KJAN-FXUS64-AFDJAN",
+  "afd_time": "2026-11-18T20:40:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-18T14:08:18.454695+00:00",
-  "query_preview": "..\nIssued at 330 AM CST Wed Nov 18 2026\n\nEasterly flow between a high centered to our north and a low\npressure center to our south is helping to expanding low-level \nhumidity into our region, but actual conditions will remain dry. \nWe can't rule out a few light showers in southeast portions of our\na",
+  "updated": "2026-11-18T22:02:18.478683+00:00",
+  "query_preview": "..\nIssued at 209 PM CST Wed Nov 18 2026\n\nCurrent water vapor satellite imagery and analyzed synoptic \npattern indicate a strong low pressure system moving ashore in the\nPacific Northwest, an upper-level low centered over the MS/AL \nGulf coast. An upper-level high has closed over the Ohio River\nvalle",
   "analogs": [
+    {
+      "datetime_utc": "2013-11-16T21:09Z",
+      "source_file": "JAN_2013_16_2109.txt",
+      "similarity": 0.715424656867981,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-09-24T02:13Z",
+      "source_file": "JAN_2006_24_0213.txt",
+      "similarity": 0.7109941244125366,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-12-27T10:10Z",
+      "source_file": "JAN_2007_27_1010.txt",
+      "similarity": 0.7032448053359985,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-12-28T10:57Z",
+      "source_file": "JAN_2007_28_1057.txt",
+      "similarity": 0.7019056081771851,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-02-21T20:58Z",
+      "source_file": "JAN_2012_21_2058.txt",
+      "similarity": 0.695006251335144,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-04-19T09:59Z",
+      "source_file": "JAN_2015_19_0959.txt",
+      "similarity": 0.6928176283836365,
+      "label": "tornado",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2006-09-07T09:15Z",
       "source_file": "JAN_2006_07_0915.txt",
-      "similarity": 0.8393954634666443,
+      "similarity": 0.6886574029922485,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2013-11-17T10:47Z",
       "source_file": "JAN_2013_17_1047.txt",
-      "similarity": 0.8384865522384644,
+      "similarity": 0.6885688304901123,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-11-16T21:09Z",
-      "source_file": "JAN_2013_16_2109.txt",
-      "similarity": 0.8364636898040771,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-12-28T10:57Z",
-      "source_file": "JAN_2007_28_1057.txt",
-      "similarity": 0.8342995643615723,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-09-24T02:13Z",
-      "source_file": "JAN_2006_24_0213.txt",
-      "similarity": 0.8341617584228516,
+      "datetime_utc": "2008-01-27T03:14Z",
+      "source_file": "JAN_2008_27_0314.txt",
+      "similarity": 0.6879850625991821,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-02-21T20:58Z",
-      "source_file": "JAN_2012_21_2058.txt",
-      "similarity": 0.8298274278640747,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-10-26T08:42Z",
-      "source_file": "JAN_2012_26_0842.txt",
-      "similarity": 0.827489972114563,
-      "label": "quiet",
-      "is_severe": false
     },
     {
       "datetime_utc": "2019-12-29T18:15Z",
       "source_file": "JAN_2019_29_1815.txt",
-      "similarity": 0.8255144357681274,
+      "similarity": 0.6858514547348022,
       "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2015-04-19T09:59Z",
-      "source_file": "JAN_2015_19_0959.txt",
-      "similarity": 0.8255083560943604,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-07-05T09:55Z",
-      "source_file": "JAN_2022_05_0955.txt",
-      "similarity": 0.8224642276763916,
-      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "LOW",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.8313611447811127,
-    "base_rate": 0.7026448991231197,
-    "signal_value": -0.002644899123119715,
-    "n_severe": 7,
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.6970455825328827,
+    "n_severe": 8,
     "n_total": 10,
-    "product_id": "202611181142-KJAN-FXUS64-AFDJAN",
-    "afd_time": "2026-11-18T11:42:00Z",
-    "updated": "2026-11-18T14:08:18.454695+00:00"
+    "reason": "top-10 mean similarity 0.70 below confidence floor 0.7",
+    "product_id": "202611182040-KJAN-FXUS64-AFDJAN",
+    "afd_time": "2026-11-18T20:40:00Z",
+    "updated": "2026-11-18T22:02:18.478683+00:00"
   }
 }
