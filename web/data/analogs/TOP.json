@@ -1,91 +1,91 @@
 {
   "office": "TOP",
-  "product_id": "202611182317-KTOP-FXUS63-AFDTOP",
-  "afd_time": "2026-11-18T23:17:00Z",
-  "section_type": "extended",
-  "updated": "2026-11-19T03:36:58.006522+00:00",
-  "query_preview": "solutions remain dry so overall confidence in impacts are \nlow at this point.",
+  "product_id": "202611191037-KTOP-FXUS63-AFDTOP",
+  "afd_time": "2026-11-19T10:37:00Z",
+  "section_type": "discussion",
+  "updated": "2026-11-19T13:20:21.479248+00:00",
+  "query_preview": "..\nIssued at 148 AM CST Thu Nov 19 2026\n\nToday through Friday, surface high pressure departs toward the \neastern CONUS and leeward pressure falls across the High Plains will \nmaintain a steady southerly low-level return flow across the forecast\narea. Under mostly clear skies today, warm air advectio",
   "analogs": [
     {
-      "datetime_utc": "2012-12-18T05:32Z",
-      "source_file": "TOP_2012_18_0532.txt",
-      "similarity": 0.5063851475715637,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2015-02-21T04:44Z",
+      "source_file": "TOP_2015_21_0444.txt",
+      "similarity": 0.5144928693771362,
+      "label": "winter",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2012-12-17T21:47Z",
-      "source_file": "TOP_2012_17_2147.txt",
-      "similarity": 0.5063851475715637,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2015-02-21T06:04Z",
+      "source_file": "TOP_2015_21_0604.txt",
+      "similarity": 0.5144928693771362,
+      "label": "winter",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2012-12-17T23:42Z",
-      "source_file": "TOP_2012_17_2342.txt",
-      "similarity": 0.5063851475715637,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2015-02-20T23:47Z",
+      "source_file": "TOP_2015_20_2347.txt",
+      "similarity": 0.5144928693771362,
+      "label": "winter",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2005-01-08T09:46Z",
-      "source_file": "TOP_2005_08_0946_1.txt",
-      "similarity": 0.4721056818962097,
+      "datetime_utc": "2015-02-20T21:18Z",
+      "source_file": "TOP_2015_20_2118.txt",
+      "similarity": 0.5144928693771362,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-03-21T08:19Z",
+      "source_file": "TOP_2008_21_0819.txt",
+      "similarity": 0.5131235122680664,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-08-27T20:04Z",
-      "source_file": "TOP_2013_27_2004.txt",
-      "similarity": 0.4644750952720642,
+      "datetime_utc": "2006-06-07T21:14Z",
+      "source_file": "TOP_2006_07_2114.txt",
+      "similarity": 0.5117020010948181,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2013-08-27T11:05Z",
-      "source_file": "TOP_2013_27_1105.txt",
-      "similarity": 0.4644750952720642,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-08-27T09:04Z",
-      "source_file": "TOP_2013_27_0904.txt",
-      "similarity": 0.4644750952720642,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-04-14T20:10Z",
-      "source_file": "TOP_2007_14_2010.txt",
-      "similarity": 0.4507569670677185,
+      "datetime_utc": "2007-04-14T09:31Z",
+      "source_file": "TOP_2007_14_0931.txt",
+      "similarity": 0.5081869959831238,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-02-21T10:36Z",
-      "source_file": "TOP_2004_21_1036.txt",
-      "similarity": 0.44102978706359863,
-      "label": "quiet",
+      "datetime_utc": "2018-01-20T10:16Z",
+      "source_file": "TOP_2018_20_1016_1.txt",
+      "similarity": 0.5075461268424988,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2022-05-20T17:47Z",
-      "source_file": "TOP_2022_20_1747.txt",
-      "similarity": 0.43282002210617065,
-      "label": "flood",
+      "datetime_utc": "2018-01-20T11:31Z",
+      "source_file": "TOP_2018_20_1131.txt",
+      "similarity": 0.5075461268424988,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-01-20T17:36Z",
+      "source_file": "TOP_2018_20_1736.txt",
+      "similarity": 0.5075461268424988,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.47092931866645815,
-    "n_severe": 6,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.5113622367382049,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
-    "product_id": "202611182317-KTOP-FXUS63-AFDTOP",
-    "afd_time": "2026-11-18T23:17:00Z",
-    "updated": "2026-11-19T03:36:58.006522+00:00"
+    "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
+    "product_id": "202611191037-KTOP-FXUS63-AFDTOP",
+    "afd_time": "2026-11-19T10:37:00Z",
+    "updated": "2026-11-19T13:20:21.479248+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "BOU",
-  "product_id": "202611190002-KBOU-FXUS65-AFDBOU",
-  "afd_time": "2026-11-19T00:02:00Z",
+  "product_id": "202611191133-KBOU-FXUS65-AFDBOU",
+  "afd_time": "2026-11-19T11:33:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-19T03:36:58.006522+00:00",
-  "query_preview": "/Through Wednesday/...\nIssued at 1239 PM MST Wed Nov 18 2026\n\nLooking at Water Vapor, the upper level shortwave is moving\nthrough the area to the east, taking the strongest upper level \nwinds with it. Winds will gradually decrease into the evening, \ndropping off significantly a little after sunset. ",
+  "updated": "2026-11-19T13:20:21.479248+00:00",
+  "query_preview": "/Through Wednesday/...\nIssued at 1115 PM MST Wed Nov 18 2026\n\nThe flow aloft will increase on Friday ahead of another trough\naxis. This also looks to be the last warm day before a cooler\npattern takes over for the weekend into next week, with highs\nreaching the upper 50s to low 60s. 700mb flow reach",
   "analogs": [
+    {
+      "datetime_utc": "2004-08-16T08:46Z",
+      "source_file": "BOU_2004_16_0846.txt",
+      "similarity": 0.47244665026664734,
+      "label": "flood",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2015-03-02T16:43Z",
       "source_file": "BOU_2015_02_1643.txt",
-      "similarity": 0.45354628562927246,
+      "similarity": 0.46173015236854553,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-03-02T10:47Z",
       "source_file": "BOU_2015_02_1047.txt",
-      "similarity": 0.45354628562927246,
+      "similarity": 0.46173015236854553,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-08-12T08:29Z",
-      "source_file": "BOU_2004_12_0829.txt",
-      "similarity": 0.4511508047580719,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-03-14T09:02Z",
-      "source_file": "BOU_2009_14_0902.txt",
-      "similarity": 0.44848671555519104,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-05-10T08:48Z",
-      "source_file": "BOU_2005_10_0848.txt",
-      "similarity": 0.4483657479286194,
-      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-09-01T08:05Z",
       "source_file": "BOU_2005_01_0805.txt",
-      "similarity": 0.4472949504852295,
+      "similarity": 0.46139445900917053,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-08-16T08:46Z",
-      "source_file": "BOU_2004_16_0846.txt",
-      "similarity": 0.4472878575325012,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-09-18T01:52Z",
-      "source_file": "BOU_2011_18_0152.txt",
-      "similarity": 0.4462597370147705,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-09-17T21:26Z",
-      "source_file": "BOU_2011_17_2126.txt",
-      "similarity": 0.4462597370147705,
-      "label": "severe_hail",
+      "datetime_utc": "2009-03-16T09:19Z",
+      "source_file": "BOU_2009_16_0919.txt",
+      "similarity": 0.46015697717666626,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-09-18T08:51Z",
-      "source_file": "BOU_2011_18_0851.txt",
-      "similarity": 0.4462597370147705,
+      "datetime_utc": "2011-09-27T20:55Z",
+      "source_file": "BOU_2011_27_2055.txt",
+      "similarity": 0.4570309519767761,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-09-28T03:21Z",
+      "source_file": "BOU_2011_28_0321.txt",
+      "similarity": 0.4570309519767761,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-12-25T10:29Z",
+      "source_file": "BOU_2005_25_1029.txt",
+      "similarity": 0.4516175389289856,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-01-20T20:42Z",
+      "source_file": "BOU_2007_20_2042.txt",
+      "similarity": 0.45060086250305176,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-12-12T17:57Z",
+      "source_file": "BOU_2014_12_1757.txt",
+      "similarity": 0.44904738664627075,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.44884578585624696,
-    "n_severe": 4,
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.45827860832214357,
+    "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202611190002-KBOU-FXUS65-AFDBOU",
-    "afd_time": "2026-11-19T00:02:00Z",
-    "updated": "2026-11-19T03:36:58.006522+00:00"
+    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
+    "product_id": "202611191133-KBOU-FXUS65-AFDBOU",
+    "afd_time": "2026-11-19T11:33:00Z",
+    "updated": "2026-11-19T13:20:21.479248+00:00"
   }
 }
