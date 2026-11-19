@@ -1,9 +1,9 @@
 {
   "office": "LMK",
-  "product_id": "202611182036-KLMK-FXUS63-AFDLMK",
-  "afd_time": "2026-11-18T20:36:00Z",
+  "product_id": "202611182321-KLMK-FXUS63-AFDLMK",
+  "afd_time": "2026-11-18T23:21:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-18T22:02:18.478683+00:00",
+  "updated": "2026-11-19T03:36:58.006522+00:00",
   "query_preview": "..\nIssued at 336 PM EST Wed Nov 18 2026\n\nRest of Today through Saturday...\n\nSurface high pressure in place over the Ohio Valley is continuing \nour stretch of dry weather across the region, with mostly sunny \nskies, light winds, and temperatures in the mid to upper 60s this \nafternoon. This stretch o",
   "analogs": [
     {
@@ -21,13 +21,6 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-11-16T14:58Z",
-      "source_file": "LMK_2011_16_1458.txt",
-      "similarity": 0.26873522996902466,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2011-11-16T17:19Z",
       "source_file": "LMK_2011_16_1719.txt",
       "similarity": 0.26873522996902466,
@@ -35,44 +28,51 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-10-02T16:35Z",
-      "source_file": "LMK_2008_02_1635.txt",
-      "similarity": 0.2630653381347656,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2011-11-16T14:58Z",
+      "source_file": "LMK_2011_16_1458.txt",
+      "similarity": 0.26873522996902466,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
       "datetime_utc": "2008-10-02T09:52Z",
       "source_file": "LMK_2008_02_0952.txt",
-      "similarity": 0.2630653381347656,
+      "similarity": 0.26306527853012085,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2008-10-02T06:52Z",
       "source_file": "LMK_2008_02_0652.txt",
-      "similarity": 0.2630653381347656,
+      "similarity": 0.26306527853012085,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-10-02T16:35Z",
+      "source_file": "LMK_2008_02_1635.txt",
+      "similarity": 0.26306527853012085,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2010-06-17T05:04Z",
       "source_file": "LMK_2010_17_0504.txt",
-      "similarity": 0.2616184651851654,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-06-16T23:18Z",
-      "source_file": "LMK_2010_16_2318_2.txt",
-      "similarity": 0.2616184651851654,
+      "similarity": 0.26161831617355347,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-06-16T23:07Z",
       "source_file": "LMK_2010_16_2307.txt",
-      "similarity": 0.2616184651851654,
+      "similarity": 0.26161831617355347,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-06-16T23:18Z",
+      "source_file": "LMK_2010_16_2318_2.txt",
+      "similarity": 0.26161831617355347,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.2648992329835892,
+    "mean_similarity": 0.26489917039871214,
     "n_severe": 7,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.26 below confidence floor 0.7",
-    "product_id": "202611182036-KLMK-FXUS63-AFDLMK",
-    "afd_time": "2026-11-18T20:36:00Z",
-    "updated": "2026-11-18T22:02:18.478683+00:00"
+    "product_id": "202611182321-KLMK-FXUS63-AFDLMK",
+    "afd_time": "2026-11-18T23:21:00Z",
+    "updated": "2026-11-19T03:36:58.006522+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "PDT",
-  "product_id": "202611181755-KPDT-FXUS66-AFDPDT",
-  "afd_time": "2026-11-18T17:55:00Z",
+  "product_id": "202611182342-KPDT-FXUS66-AFDPDT",
+  "afd_time": "2026-11-18T23:42:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-18T22:02:18.478683+00:00",
-  "query_preview": "..\nPeriods of active weather are forecast for the next week as a\nseries of low-pressure systems move into the Pacific Northwest.\n\nGOES-18 satellite imagery shows a deep upper-level closed low \noffshore in the Pacific, centered in the vicinity of 44N, 134W. \nMeanwhile, a band of precipitation associa",
+  "updated": "2026-11-19T03:36:58.006522+00:00",
+  "query_preview": "..\nA large 538 dm 500 mb low pressure was centered near 43N and \n129W, digging southeastward toward southern OR/nrn CA, \ndisplacing a shortwave ridge eastward into Idaho and Montana. \nThis has placed an area of lift near a front left exit region of\nthe mid level jet with precipitation bands last Nig",
   "analogs": [
     {
       "datetime_utc": "2024-05-23T17:25Z",
       "source_file": "PDT_2024_23_1725.txt",
-      "similarity": 0.4648510813713074,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2024-05-23T09:34Z",
-      "source_file": "PDT_2024_23_0934.txt",
-      "similarity": 0.4648510813713074,
+      "similarity": 0.4617953300476074,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2024-05-23T15:58Z",
       "source_file": "PDT_2024_23_1558.txt",
-      "similarity": 0.4648510813713074,
+      "similarity": 0.4617953300476074,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-08-19T09:29Z",
-      "source_file": "PDT_2006_19_0929.txt",
-      "similarity": 0.45950236916542053,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-08-19T16:20Z",
-      "source_file": "PDT_2006_19_1620.txt",
-      "similarity": 0.45950236916542053,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-08-19T09:30Z",
-      "source_file": "PDT_2006_19_0930.txt",
-      "similarity": 0.45950236916542053,
+      "datetime_utc": "2024-05-23T09:34Z",
+      "source_file": "PDT_2024_23_0934.txt",
+      "similarity": 0.4617953300476074,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-01-01T10:25Z",
       "source_file": "PDT_2005_01_1025.txt",
-      "similarity": 0.4543197453022003,
+      "similarity": 0.4602001905441284,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2020-07-10T17:32Z",
-      "source_file": "PDT_2020_10_1732.txt",
-      "similarity": 0.45085370540618896,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2017-03-21T16:10Z",
+      "source_file": "PDT_2017_21_1610.txt",
+      "similarity": 0.45435476303100586,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2020-07-10T16:42Z",
-      "source_file": "PDT_2020_10_1642.txt",
-      "similarity": 0.45085370540618896,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2017-03-21T21:49Z",
+      "source_file": "PDT_2017_21_2149.txt",
+      "similarity": 0.45435476303100586,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2020-07-10T09:36Z",
-      "source_file": "PDT_2020_10_0936.txt",
-      "similarity": 0.45085370540618896,
+      "datetime_utc": "2006-08-19T09:29Z",
+      "source_file": "PDT_2006_19_0929.txt",
+      "similarity": 0.44952306151390076,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-08-19T09:30Z",
+      "source_file": "PDT_2006_19_0930.txt",
+      "similarity": 0.44952306151390076,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-08-19T16:20Z",
+      "source_file": "PDT_2006_19_1620.txt",
+      "similarity": 0.44952306151390076,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-08-29T21:50Z",
+      "source_file": "PDT_2011_29_2150.txt",
+      "similarity": 0.44796305894851685,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.4579941213130951,
-    "n_severe": 6,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.45508279502391813,
+    "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202611181755-KPDT-FXUS66-AFDPDT",
-    "afd_time": "2026-11-18T17:55:00Z",
-    "updated": "2026-11-18T22:02:18.478683+00:00"
+    "product_id": "202611182342-KPDT-FXUS66-AFDPDT",
+    "afd_time": "2026-11-18T23:42:00Z",
+    "updated": "2026-11-19T03:36:58.006522+00:00"
   }
 }
