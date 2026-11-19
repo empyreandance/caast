@@ -1,91 +1,92 @@
 {
   "office": "HGX",
-  "product_id": "202611191108-KHGX-FXUS64-AFDHGX",
-  "afd_time": "2026-11-19T11:08:00Z",
+  "product_id": "202611191733-KHGX-FXUS64-AFDHGX",
+  "afd_time": "2026-11-19T17:33:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-19T13:20:21.479248+00:00",
-  "query_preview": "..\nIssued at 1152 PM CST Wed Nov 18 2026\n\nA mix of fog and low clouds is expected to continue over the next few \nhours, with the best probabilities for locations along and north of \nthe I-10 corridor. Fog may become dense at times, especially near \nsunrise. Any fog should gradually dissipate by earl",
+  "updated": "2026-11-19T22:13:36.229993+00:00",
+  "query_preview": "..\nIssued at 1126 AM CST Thu Nov 19 2026\n\nUpper level ridging continues to dominate the weather pattern \nthrough the next several days. High pressure remains situated over \nthe Eastern Conus with a sfc trough over the Gulf, with elevated \ngradient winds over the waters bringing hazardous marine cond",
   "analogs": [
-    {
-      "datetime_utc": "2018-10-25T23:38Z",
-      "source_file": "HGX_2018_25_2338.txt",
-      "similarity": 0.6851691007614136,
-      "label": "tornado",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2013-09-30T15:19Z",
       "source_file": "HGX_2013_30_1519.txt",
-      "similarity": 0.6472700834274292,
+      "similarity": 0.8054802417755127,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-04-13T20:50Z",
+      "source_file": "HGX_2017_13_2050.txt",
+      "similarity": 0.7946799993515015,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-11-22T02:00Z",
+      "source_file": "HGX_2017_22_0200.txt",
+      "similarity": 0.7920899391174316,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-05-11T12:19Z",
       "source_file": "HGX_2009_11_1219.txt",
-      "similarity": 0.6368860006332397,
+      "similarity": 0.7884758710861206,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-02-17T02:59Z",
       "source_file": "HGX_2006_17_0259.txt",
-      "similarity": 0.630122184753418,
+      "similarity": 0.7749070525169373,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2017-11-22T02:00Z",
-      "source_file": "HGX_2017_22_0200.txt",
-      "similarity": 0.6229217648506165,
-      "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-04-21T19:41Z",
       "source_file": "HGX_2007_21_1941.txt",
-      "similarity": 0.590579092502594,
+      "similarity": 0.7663394212722778,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2018-10-25T23:38Z",
+      "source_file": "HGX_2018_25_2338.txt",
+      "similarity": 0.7585963606834412,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-02-17T21:44Z",
       "source_file": "HGX_2017_17_2144.txt",
-      "similarity": 0.5836672782897949,
+      "similarity": 0.7554232478141785,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2017-04-13T20:50Z",
-      "source_file": "HGX_2017_13_2050.txt",
-      "similarity": 0.5836409330368042,
+      "datetime_utc": "2015-03-09T20:39Z",
+      "source_file": "HGX_2015_09_2039_2.txt",
+      "similarity": 0.7523509860038757,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-01-21T02:13Z",
-      "source_file": "HGX_2011_21_0213.txt",
-      "similarity": 0.572368323802948,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2005-06-01T01:53Z",
       "source_file": "HGX_2005_01_0153.txt",
-      "similarity": 0.565436601638794,
+      "similarity": 0.7388347387313843,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.6118061363697052,
-    "n_severe": 4,
+    "level": "QUIET",
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.7727177858352661,
+    "base_rate": 0.5639344262295082,
+    "signal_value": -0.2639344262295082,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.61 below confidence floor 0.7",
-    "product_id": "202611191108-KHGX-FXUS64-AFDHGX",
-    "afd_time": "2026-11-19T11:08:00Z",
-    "updated": "2026-11-19T13:20:21.479248+00:00"
+    "product_id": "202611191733-KHGX-FXUS64-AFDHGX",
+    "afd_time": "2026-11-19T17:33:00Z",
+    "updated": "2026-11-19T22:13:36.229993+00:00"
   }
 }

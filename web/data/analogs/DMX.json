@@ -1,91 +1,91 @@
 {
   "office": "DMX",
-  "product_id": "202611191145-KDMX-FXUS63-AFDDMX",
-  "afd_time": "2026-11-19T11:45:00Z",
+  "product_id": "202611192027-KDMX-FXUS63-AFDDMX",
+  "afd_time": "2026-11-19T20:27:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-19T13:20:21.479248+00:00",
-  "query_preview": "/FRIDAY NIGHT THROUGH WEDNESDAY/...\nIssued at 157 PM CST Wed Nov 18 2026\n\nWinds will increase again on Friday ahead of a low pressure\nsystem making its way across the Central Plains. The associated\ncold front will bring rain showers across the state,\nparticularly Saturday afternoon and into the over",
+  "updated": "2026-11-19T22:13:36.229993+00:00",
+  "query_preview": "/SUNDAY THROUGH WEDNESDAY/...\nIssued at 227 PM CST Thu Nov 19 2026\n\nRain tapers off in southeast Iowa before pushing east on Sunday\nmorning. Breezy northwest winds gusting to 20-25 mph will usher\nmuch colder air into the state with highs on Sunday in the 40s.\nBy Monday highs will range from the mid ",
   "analogs": [
     {
-      "datetime_utc": "2012-03-27T20:32Z",
-      "source_file": "DMX_2012_27_2032.txt",
-      "similarity": 0.4933776557445526,
+      "datetime_utc": "2010-04-17T08:35Z",
+      "source_file": "DMX_2010_17_0835.txt",
+      "similarity": 0.5166271924972534,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-04-17T11:34Z",
+      "source_file": "DMX_2010_17_1134.txt",
+      "similarity": 0.5166271924972534,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-04-17T20:09Z",
+      "source_file": "DMX_2010_17_2009.txt",
+      "similarity": 0.5166271924972534,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-11-06T10:00Z",
+      "source_file": "DMX_2012_06_1000.txt",
+      "similarity": 0.5148273706436157,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-03-27T11:35Z",
-      "source_file": "DMX_2012_27_1135.txt",
-      "similarity": 0.4933776557445526,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-03-27T08:25Z",
-      "source_file": "DMX_2012_27_0825.txt",
-      "similarity": 0.4933776557445526,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-10-09T08:23Z",
-      "source_file": "DMX_2011_09_0823.txt",
-      "similarity": 0.49256864190101624,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-10-08T20:28Z",
-      "source_file": "DMX_2011_08_2028.txt",
-      "similarity": 0.49256864190101624,
-      "label": "severe_hail",
+      "datetime_utc": "2014-08-17T20:41Z",
+      "source_file": "DMX_2014_17_2041.txt",
+      "similarity": 0.513344407081604,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-08-17T23:41Z",
       "source_file": "DMX_2014_17_2341.txt",
-      "similarity": 0.4908571243286133,
+      "similarity": 0.513344407081604,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-08-18T04:57Z",
       "source_file": "DMX_2014_18_0457.txt",
-      "similarity": 0.4908571243286133,
+      "similarity": 0.513344407081604,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-08-17T20:41Z",
-      "source_file": "DMX_2014_17_2041.txt",
-      "similarity": 0.4908571243286133,
-      "label": "tornado",
+      "datetime_utc": "2007-01-12T09:28Z",
+      "source_file": "DMX_2007_12_0928.txt",
+      "similarity": 0.5113502740859985,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-10-09T08:23Z",
+      "source_file": "DMX_2011_09_0823.txt",
+      "similarity": 0.510063648223877,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-05-12T20:52Z",
-      "source_file": "DMX_2009_12_2052.txt",
-      "similarity": 0.47887325286865234,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-07-08T07:16Z",
-      "source_file": "DMX_2005_08_0716.txt",
-      "similarity": 0.4778960943222046,
-      "label": "severe_wind",
+      "datetime_utc": "2011-10-08T20:28Z",
+      "source_file": "DMX_2011_08_2028.txt",
+      "similarity": 0.510063648223877,
+      "label": "severe_hail",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 1.0,
-    "mean_similarity": 0.4894610971212387,
-    "n_severe": 10,
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.5136219739913941,
+    "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
-    "product_id": "202611191145-KDMX-FXUS63-AFDDMX",
-    "afd_time": "2026-11-19T11:45:00Z",
-    "updated": "2026-11-19T13:20:21.479248+00:00"
+    "reason": "top-10 mean similarity 0.51 below confidence floor 0.7",
+    "product_id": "202611192027-KDMX-FXUS63-AFDDMX",
+    "afd_time": "2026-11-19T20:27:00Z",
+    "updated": "2026-11-19T22:13:36.229993+00:00"
   }
 }
