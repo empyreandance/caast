@@ -1,91 +1,91 @@
 {
   "office": "MLB",
-  "product_id": "202611192354-KMLB-FXUS62-AFDMLB",
-  "afd_time": "2026-11-19T23:54:00Z",
+  "product_id": "202611201207-KMLB-FXUS62-AFDMLB",
+  "afd_time": "2026-11-20T12:07:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-20T03:26:51.762947+00:00",
-  "query_preview": "..\nIssued at 300 PM EST Thu Nov 19 2026\n\nCurrently-Tonight... KMLB radar imagery shows rain showers \nlightening up across east central Florida, however, moderate to \nheavy rainfall offshore over the local Atlantic waters are moving \nonshore. GOES-19 satellite imagery and local observations indicate\n",
+  "updated": "2026-11-20T13:00:32.175535+00:00",
+  "query_preview": "..\nIssued at 242 AM EST Fri Nov 20 2026\n\nThru Sat Night...Numerous to widespread showers over the local \ncoastal waters early this morning, with strongest activity off of \nthe central/north Brevard coasts and streaming northwest onshore. \nThru Sat, an additional 2-4\" nearly areawide (esp north of\nOk",
   "analogs": [
-    {
-      "datetime_utc": "2011-10-05T07:31Z",
-      "source_file": "MLB_2011_05_0731.txt",
-      "similarity": 0.42563608288764954,
-      "label": "tornado",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2023-11-03T19:56Z",
       "source_file": "MLB_2023_03_1956.txt",
-      "similarity": 0.4164818525314331,
+      "similarity": 0.3825048506259918,
       "label": "quiet",
       "is_severe": false
     },
     {
+      "datetime_utc": "2011-10-05T07:31Z",
+      "source_file": "MLB_2011_05_0731.txt",
+      "similarity": 0.3726252317428589,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2005-01-18T07:30Z",
       "source_file": "MLB_2005_18_0730.txt",
-      "similarity": 0.40196096897125244,
+      "similarity": 0.37116581201553345,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-11-08T09:43Z",
       "source_file": "MLB_2009_08_0943.txt",
-      "similarity": 0.4013110399246216,
+      "similarity": 0.36455824971199036,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-10-27T19:10Z",
-      "source_file": "MLB_2018_27_1910.txt",
-      "similarity": 0.39741724729537964,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2019-03-29T01:53Z",
-      "source_file": "MLB_2019_29_0153.txt",
-      "similarity": 0.39369475841522217,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2019-03-28T18:40Z",
-      "source_file": "MLB_2019_28_1840.txt",
-      "similarity": 0.39369475841522217,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2016-10-04T19:17Z",
       "source_file": "MLB_2016_04_1917.txt",
-      "similarity": 0.39230555295944214,
+      "similarity": 0.35021618008613586,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-10-04T08:11Z",
       "source_file": "MLB_2016_04_0811.txt",
-      "similarity": 0.39230555295944214,
+      "similarity": 0.35021618008613586,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2010-07-21T18:31Z",
       "source_file": "MLB_2010_21_1831.txt",
-      "similarity": 0.38791656494140625,
+      "similarity": 0.3496295213699341,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-11-04T16:11Z",
+      "source_file": "MLB_2007_04_1611.txt",
+      "similarity": 0.3484029173851013,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-03-28T18:40Z",
+      "source_file": "MLB_2019_28_1840.txt",
+      "similarity": 0.3483599126338959,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-03-29T01:53Z",
+      "source_file": "MLB_2019_29_0153.txt",
+      "similarity": 0.3483599126338959,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.40027243793010714,
-    "n_severe": 7,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.35860387682914735,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202611192354-KMLB-FXUS62-AFDMLB",
-    "afd_time": "2026-11-19T23:54:00Z",
-    "updated": "2026-11-20T03:26:51.762947+00:00"
+    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
+    "product_id": "202611201207-KMLB-FXUS62-AFDMLB",
+    "afd_time": "2026-11-20T12:07:00Z",
+    "updated": "2026-11-20T13:00:32.175535+00:00"
   }
 }

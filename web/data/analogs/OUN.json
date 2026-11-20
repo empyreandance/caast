@@ -1,91 +1,91 @@
 {
   "office": "OUN",
-  "product_id": "202611192308-KOUN-FXUS64-AFDOUN",
-  "afd_time": "2026-11-19T23:08:00Z",
+  "product_id": "202611201116-KOUN-FXUS64-AFDOUN",
+  "afd_time": "2026-11-20T11:16:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-20T03:26:51.762947+00:00",
-  "query_preview": "..\n(Sunday through Wednesday)\nIssued at 1250 AM CST Thu Nov 19 2026\n\nThe passing front will also bring a stark cooldown for all areas \nby Sunday, with temperatures running 10-20 degrees cooler compared\nto Saturday. In fact, there is medium-high confidence that \nportions of northwestern Oklahoma fail",
+  "updated": "2026-11-20T13:00:32.175535+00:00",
+  "query_preview": "..\n(Monday through Thursday)\nIssued at 122 AM CST Fri Nov 20 2026\n\nUpper flow transitioning more zonal on Monday but becoming \nsouthwesterly by Tuesday with the approach of another wave coming \nthrough for mid-week.  No surface front with this upper system but \nwill bring a reinforcing surge of much",
   "analogs": [
     {
       "datetime_utc": "2015-10-17T02:25Z",
       "source_file": "OUN_2015_17_0225.txt",
-      "similarity": 0.44468629360198975,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-11-23T17:21Z",
-      "source_file": "OUN_2011_23_1721.txt",
-      "similarity": 0.44115859270095825,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-11-23T12:15Z",
-      "source_file": "OUN_2011_23_1215.txt",
-      "similarity": 0.44115859270095825,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-09-05T09:47Z",
-      "source_file": "OUN_2012_05_0947.txt",
-      "similarity": 0.4385865330696106,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-09-05T11:42Z",
-      "source_file": "OUN_2012_05_1142.txt",
-      "similarity": 0.4385865330696106,
+      "similarity": 0.5064857006072998,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-08-07T19:58Z",
       "source_file": "OUN_2006_07_1958.txt",
-      "similarity": 0.4372326135635376,
+      "similarity": 0.5001598000526428,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-09-05T11:42Z",
+      "source_file": "OUN_2012_05_1142.txt",
+      "similarity": 0.49896079301834106,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-09-05T09:47Z",
+      "source_file": "OUN_2012_05_0947.txt",
+      "similarity": 0.49896079301834106,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2012-07-16T15:27Z",
+      "source_file": "OUN_2012_16_1527.txt",
+      "similarity": 0.49852433800697327,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-11-23T17:21Z",
+      "source_file": "OUN_2011_23_1721.txt",
+      "similarity": 0.4975851774215698,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-11-23T12:15Z",
+      "source_file": "OUN_2011_23_1215.txt",
+      "similarity": 0.4975851774215698,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-03-03T20:47Z",
+      "source_file": "OUN_2007_03_2047.txt",
+      "similarity": 0.49498406052589417,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-09-13T08:06Z",
+      "source_file": "OUN_2004_13_0806.txt",
+      "similarity": 0.4948437809944153,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2015-09-06T02:40Z",
       "source_file": "OUN_2015_06_0240.txt",
-      "similarity": 0.4315723776817322,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-02-03T17:46Z",
-      "source_file": "OUN_2014_03_1746.txt",
-      "similarity": 0.43145203590393066,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-08-25T01:55Z",
-      "source_file": "OUN_2009_25_0155.txt",
-      "similarity": 0.42965346574783325,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-06-19T02:22Z",
-      "source_file": "OUN_2008_19_0222.txt",
-      "similarity": 0.42787501215934753,
+      "similarity": 0.493269145488739,
       "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.4361962050199509,
-    "n_severe": 7,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.4981358766555786,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
-    "product_id": "202611192308-KOUN-FXUS64-AFDOUN",
-    "afd_time": "2026-11-19T23:08:00Z",
-    "updated": "2026-11-20T03:26:51.762947+00:00"
+    "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
+    "product_id": "202611201116-KOUN-FXUS64-AFDOUN",
+    "afd_time": "2026-11-20T11:16:00Z",
+    "updated": "2026-11-20T13:00:32.175535+00:00"
   }
 }

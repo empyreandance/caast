@@ -1,91 +1,91 @@
 {
   "office": "PAH",
-  "product_id": "202611192258-KPAH-FXUS63-AFDPAH",
-  "afd_time": "2026-11-19T22:58:00Z",
+  "product_id": "202611201129-KPAH-FXUS63-AFDPAH",
+  "afd_time": "2026-11-20T11:29:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-20T03:26:51.762947+00:00",
-  "query_preview": "..\nIssued at 1157 AM CST Thu Nov 19 2026\n\nSprawling high pressure centered over the Mid-Atlantic will keep\nmild and dry conditions locked in through Saturday. Ensemble\nguidance shows temperatures at 850mb around 10-12C, which is \naround the 80th percentile for mid-November. This will yield \nhigh tem",
+  "updated": "2026-11-20T13:00:32.175535+00:00",
+  "query_preview": "..\nIssued at 142 AM CST Fri Nov 20 2026\n\nTemperatures have been running a few degrees above the NBM\nforecast the last few days, so would expect quite a few middle\n70 readings this afternoon and Saturday. Records for today are \nin the 75 to 80 range, which may be just out of reach. \nSaturday's record",
   "analogs": [
     {
-      "datetime_utc": "2008-08-09T20:12Z",
-      "source_file": "PAH_2008_09_2012.txt",
-      "similarity": 0.325488805770874,
-      "label": "severe_hail",
+      "datetime_utc": "2006-09-25T20:02Z",
+      "source_file": "PAH_2006_25_2002.txt",
+      "similarity": 0.3857158422470093,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-03-16T06:50Z",
+      "source_file": "PAH_2004_16_0650.txt",
+      "similarity": 0.3792046308517456,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-05-10T07:40Z",
+      "source_file": "PAH_2006_10_0740.txt",
+      "similarity": 0.37849748134613037,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2013-11-11T20:29Z",
       "source_file": "PAH_2013_11_2029.txt",
-      "similarity": 0.31852009892463684,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-05-17T07:59Z",
-      "source_file": "PAH_2009_17_0759.txt",
-      "similarity": 0.3147481381893158,
+      "similarity": 0.3778550922870636,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-04-26T08:20Z",
       "source_file": "PAH_2006_26_0820.txt",
-      "similarity": 0.3144998550415039,
+      "similarity": 0.37730327248573303,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2005-02-16T08:38Z",
-      "source_file": "PAH_2005_16_0838.txt",
-      "similarity": 0.3120141923427582,
+      "datetime_utc": "2009-07-30T08:33Z",
+      "source_file": "PAH_2009_30_0833.txt",
+      "similarity": 0.377227783203125,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-01-23T09:39Z",
+      "source_file": "PAH_2004_23_0939.txt",
+      "similarity": 0.3724191188812256,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-07-24T08:33Z",
+      "source_file": "PAH_2004_24_0833.txt",
+      "similarity": 0.37104666233062744,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-10-05T23:28Z",
-      "source_file": "PAH_2010_05_2328.txt",
-      "similarity": 0.3118600845336914,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-10-05T19:51Z",
-      "source_file": "PAH_2010_05_1951.txt",
-      "similarity": 0.3118600845336914,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2005-10-24T08:27Z",
-      "source_file": "PAH_2005_24_0827.txt",
-      "similarity": 0.3108172118663788,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-09-25T20:02Z",
-      "source_file": "PAH_2006_25_2002.txt",
-      "similarity": 0.31076502799987793,
+      "datetime_utc": "2010-03-10T18:23Z",
+      "source_file": "PAH_2010_10_1823.txt",
+      "similarity": 0.36968180537223816,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-10-27T00:14Z",
-      "source_file": "PAH_2010_27_0014.txt",
-      "similarity": 0.3089119791984558,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2010-03-10T08:26Z",
+      "source_file": "PAH_2010_10_0826.txt",
+      "similarity": 0.36968180537223816,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.7,
-    "mean_similarity": 0.3139485478401184,
+    "mean_similarity": 0.3758633494377136,
     "n_severe": 7,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.31 below confidence floor 0.7",
-    "product_id": "202611192258-KPAH-FXUS63-AFDPAH",
-    "afd_time": "2026-11-19T22:58:00Z",
-    "updated": "2026-11-20T03:26:51.762947+00:00"
+    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
+    "product_id": "202611201129-KPAH-FXUS63-AFDPAH",
+    "afd_time": "2026-11-20T11:29:00Z",
+    "updated": "2026-11-20T13:00:32.175535+00:00"
   }
 }
