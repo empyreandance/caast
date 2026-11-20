@@ -1,91 +1,91 @@
 {
   "office": "LOT",
-  "product_id": "202611201107-KLOT-FXUS63-AFDLOT",
-  "afd_time": "2026-11-20T11:07:00Z",
+  "product_id": "202611202022-KLOT-FXUS63-AFDLOT",
+  "afd_time": "2026-11-20T20:22:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-20T13:00:32.175535+00:00",
-  "query_preview": "..\nIssued at 212 AM CST Fri Nov 20 2026\n\nRelatively quiet weather conditions will continue through \nSaturday as western CONUS troughing edges eastward into an \nexpansive northeastern CONUS ridge. This will allow for \npersistent WAA within strong southwesterly low-level flow. \nGiven 925 hPa temps wit",
+  "updated": "2026-11-20T21:12:06.837400+00:00",
+  "query_preview": "..\nIssued at 221 PM CST Fri Nov 20 2026\n\nNear-record to record high temperatures are occurring across \nthe region this afternoon. As of 2 PM, the temperature at O'Hare\n(ORD) reached 68 degrees, tying the daily record. Meanwhile, \nRockford (RFD) reached 67 degrees, just short of its 69-degree \nrecord",
   "analogs": [
     {
       "datetime_utc": "2005-??-11T09:40Z",
       "source_file": "LOT_2005_11_0940.txt",
-      "similarity": 0.4117581844329834,
+      "similarity": 0.3851673901081085,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-09-12T19:44Z",
+      "source_file": "LOT_2004_12_1944.txt",
+      "similarity": 0.3740968108177185,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-09-12T22:57Z",
+      "source_file": "LOT_2004_12_2257.txt",
+      "similarity": 0.3740968108177185,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-06-16T20:49Z",
       "source_file": "LOT_2006_16_2049.txt",
-      "similarity": 0.4088720381259918,
+      "similarity": 0.3730219602584839,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-10-14T17:42Z",
       "source_file": "LOT_2008_14_1742.txt",
-      "similarity": 0.40489721298217773,
+      "similarity": 0.3706836700439453,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-10-14T09:30Z",
       "source_file": "LOT_2008_14_0930.txt",
-      "similarity": 0.40489721298217773,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-10-14T15:46Z",
-      "source_file": "LOT_2008_14_1546.txt",
-      "similarity": 0.40489721298217773,
+      "similarity": 0.3706836700439453,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-10-14T11:43Z",
       "source_file": "LOT_2008_14_1143.txt",
-      "similarity": 0.40489721298217773,
+      "similarity": 0.3706836700439453,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-10-14T15:46Z",
+      "source_file": "LOT_2008_14_1546.txt",
+      "similarity": 0.3706836700439453,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-06-08T19:41Z",
       "source_file": "LOT_2016_08_1941.txt",
-      "similarity": 0.39493677020072937,
+      "similarity": 0.3655582666397095,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-05-16T18:08Z",
-      "source_file": "LOT_2006_16_1808.txt",
-      "similarity": 0.39478859305381775,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-05-16T11:42Z",
-      "source_file": "LOT_2006_16_1142.txt",
-      "similarity": 0.39478859305381775,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-05-16T08:44Z",
-      "source_file": "LOT_2006_16_0844.txt",
-      "similarity": 0.39478859305381775,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2005-12-06T21:48Z",
+      "source_file": "LOT_2005_06_2148.txt",
+      "similarity": 0.36372989416122437,
+      "label": "winter",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.9,
-    "mean_similarity": 0.4019521623849869,
-    "n_severe": 9,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.37184058129787445,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
-    "product_id": "202611201107-KLOT-FXUS63-AFDLOT",
-    "afd_time": "2026-11-20T11:07:00Z",
-    "updated": "2026-11-20T13:00:32.175535+00:00"
+    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
+    "product_id": "202611202022-KLOT-FXUS63-AFDLOT",
+    "afd_time": "2026-11-20T20:22:00Z",
+    "updated": "2026-11-20T21:12:06.837400+00:00"
   }
 }
