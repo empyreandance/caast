@@ -1,91 +1,91 @@
 {
   "office": "LZK",
-  "product_id": "202611202331-KLZK-FXUS64-AFDLZK",
-  "afd_time": "2026-11-20T23:31:00Z",
+  "product_id": "202611210758-KLZK-FXUS64-AFDLZK",
+  "afd_time": "2026-11-21T07:58:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-21T02:23:32.864255+00:00",
-  "query_preview": "..\nIssued at 226 AM CST Fri Nov 20 2026 \n\nGuidance this morning has not really deviated much versus this \ntime last night and as such, any changes going forward will be \nminimal. Mainly clear skies prevail across the FA this morning \nwith surface temperatures warmer than they been of late with broad",
+  "updated": "2026-11-21T11:13:57.796288+00:00",
+  "query_preview": "..\nIssued at 155 AM CST Sat Nov 21 2026\n\nNo major changes needed this morning to the current forecast package \nas guidance has not deviated much over the past few days. Once again \na low to mid level deck of clouds is developing over parts of \nwestern and central Arkansas with temperatures generally",
   "analogs": [
     {
-      "datetime_utc": "2019-05-12T06:12Z",
-      "source_file": "LZK_2019_12_0612.txt",
-      "similarity": 0.3998398184776306,
-      "label": "tornado",
+      "datetime_utc": "2007-11-10T09:48Z",
+      "source_file": "LZK_2007_10_0948.txt",
+      "similarity": 0.4042655825614929,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2019-05-11T23:55Z",
-      "source_file": "LZK_2019_11_2355.txt",
-      "similarity": 0.3998398184776306,
+      "datetime_utc": "2007-11-10T11:09Z",
+      "source_file": "LZK_2007_10_1109.txt",
+      "similarity": 0.4042655825614929,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-11-10T12:26Z",
+      "source_file": "LZK_2007_10_1226.txt",
+      "similarity": 0.4042655825614929,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-11-10T15:06Z",
+      "source_file": "LZK_2007_10_1506.txt",
+      "similarity": 0.4042655825614929,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-05-12T06:12Z",
+      "source_file": "LZK_2019_12_0612.txt",
+      "similarity": 0.39716601371765137,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2019-05-11T20:12Z",
       "source_file": "LZK_2019_11_2012.txt",
-      "similarity": 0.3998398184776306,
+      "similarity": 0.39716601371765137,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-05-11T23:55Z",
+      "source_file": "LZK_2019_11_2355.txt",
+      "similarity": 0.39716601371765137,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-01-19T20:57Z",
       "source_file": "LZK_2007_19_2057.txt",
-      "similarity": 0.38859838247299194,
+      "similarity": 0.3954060673713684,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-01-19T23:36Z",
       "source_file": "LZK_2007_19_2336_1.txt",
-      "similarity": 0.38859838247299194,
+      "similarity": 0.3954060673713684,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-01-13T20:08Z",
-      "source_file": "LZK_2005_13_2008_1.txt",
-      "similarity": 0.38660529255867004,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-??-11T11:09Z",
-      "source_file": "LZK_2005_11_1109.txt",
-      "similarity": 0.37555766105651855,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-08-27T23:20Z",
-      "source_file": "LZK_2022_27_2320.txt",
-      "similarity": 0.36934995651245117,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-08-27T19:30Z",
-      "source_file": "LZK_2022_27_1930.txt",
-      "similarity": 0.36934995651245117,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-03-18T08:01Z",
-      "source_file": "LZK_2021_18_0801.txt",
-      "similarity": 0.3686443567276001,
-      "label": "severe_hail",
+      "datetime_utc": "2005-09-20T20:11Z",
+      "source_file": "LZK_2005_20_2011.txt",
+      "similarity": 0.3919448256492615,
+      "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.3846223443746567,
-    "n_severe": 6,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.3991317331790924,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202611202331-KLZK-FXUS64-AFDLZK",
-    "afd_time": "2026-11-20T23:31:00Z",
-    "updated": "2026-11-21T02:23:32.864255+00:00"
+    "reason": "top-10 mean similarity 0.40 below confidence floor 0.7",
+    "product_id": "202611210758-KLZK-FXUS64-AFDLZK",
+    "afd_time": "2026-11-21T07:58:00Z",
+    "updated": "2026-11-21T11:13:57.796288+00:00"
   }
 }
