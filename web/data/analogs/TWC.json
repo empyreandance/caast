@@ -1,91 +1,91 @@
 {
   "office": "TWC",
-  "product_id": "202611200830-KTWC-FXUS65-AFDTWC",
-  "afd_time": "2026-11-20T08:30:00Z",
+  "product_id": "202611202148-KTWC-FXUS65-AFDTWC",
+  "afd_time": "2026-11-20T21:48:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-20T13:00:32.175535+00:00",
-  "query_preview": "..A progressive weather pattern across the Pacific\nand CONUS through early next week keeps the storm track to our\nnorth with a couple upper level trofs moving through the state.\nThe 1st trof moves thru on Saturday bringing a small chance \n(<15%) of snow showers to the White mountains in the morning ",
+  "updated": "2026-11-21T02:23:32.864255+00:00",
+  "query_preview": "..The upper air pattern stays progressive over the\nnext 7 days, although each trough that moves through will be\ndry. The first trough moves through the region today into\nSaturday with the core staying mostly to the north. This low\nwill create a cumulus field over most of the CWA later this \nevening ",
   "analogs": [
-    {
-      "datetime_utc": "2008-06-11T03:45Z",
-      "source_file": "TWC_2008_11_0345.txt",
-      "similarity": 0.4188295006752014,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-12-14T16:08Z",
-      "source_file": "TWC_2014_14_1608.txt",
-      "similarity": 0.4176432490348816,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-08-31T04:04Z",
-      "source_file": "TWC_2004_31_0404.txt",
-      "similarity": 0.4147208034992218,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-04-17T03:03Z",
-      "source_file": "TWC_2014_17_0303.txt",
-      "similarity": 0.41394370794296265,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-06-16T08:11Z",
-      "source_file": "TWC_2013_16_0811.txt",
-      "similarity": 0.41350746154785156,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-05-03T04:43Z",
-      "source_file": "TWC_2011_03_0443.txt",
-      "similarity": 0.41321367025375366,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2014-02-17T04:15Z",
       "source_file": "TWC_2014_17_0415.txt",
-      "similarity": 0.4098747968673706,
+      "similarity": 0.5068193674087524,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2024-12-29T21:35Z",
-      "source_file": "TWC_2024_29_2135.txt",
-      "similarity": 0.4089093506336212,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-05-09T04:26Z",
-      "source_file": "TWC_2016_09_0426.txt",
-      "similarity": 0.40727323293685913,
+      "datetime_utc": "2013-05-03T04:30Z",
+      "source_file": "TWC_2013_03_0430.txt",
+      "similarity": 0.5055881142616272,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-12-08T20:20Z",
       "source_file": "TWC_2004_08_2020.txt",
-      "similarity": 0.40726739168167114,
+      "similarity": 0.5032126903533936,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-06-11T03:45Z",
+      "source_file": "TWC_2008_11_0345.txt",
+      "similarity": 0.5025360584259033,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-05-22T09:37Z",
+      "source_file": "TWC_2022_22_0937.txt",
+      "similarity": 0.501262366771698,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-05-09T04:26Z",
+      "source_file": "TWC_2016_09_0426.txt",
+      "similarity": 0.49985936284065247,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-12-29T21:35Z",
+      "source_file": "TWC_2024_29_2135.txt",
+      "similarity": 0.4997461438179016,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-03-11T15:30Z",
+      "source_file": "TWC_2007_11_1530.txt",
+      "similarity": 0.49875980615615845,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-05-03T04:43Z",
+      "source_file": "TWC_2011_03_0443.txt",
+      "similarity": 0.49806663393974304,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-12-14T16:08Z",
+      "source_file": "TWC_2014_14_1608.txt",
+      "similarity": 0.4973610043525696,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.4125183165073395,
+    "mean_similarity": 0.50132115483284,
     "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202611200830-KTWC-FXUS65-AFDTWC",
-    "afd_time": "2026-11-20T08:30:00Z",
-    "updated": "2026-11-20T13:00:32.175535+00:00"
+    "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
+    "product_id": "202611202148-KTWC-FXUS65-AFDTWC",
+    "afd_time": "2026-11-20T21:48:00Z",
+    "updated": "2026-11-21T02:23:32.864255+00:00"
   }
 }
