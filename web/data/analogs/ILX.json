@@ -1,91 +1,91 @@
 {
   "office": "ILX",
-  "product_id": "202611211720-KILX-FXUS63-AFDILX",
-  "afd_time": "2026-11-21T17:20:00Z",
+  "product_id": "202611211907-KILX-FXUS63-AFDILX",
+  "afd_time": "2026-11-21T19:07:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-21T18:04:05.721262+00:00",
-  "query_preview": "..\nIssued at 300 AM CST Sat Nov 21 2026\n\nUnseasonably Mild and Dry Again Today... \n\nA strong upper level ridge was over the Eastern US into the\neastern Great Lakes while deep upper level trof was over the\nRockies/Western States with cutoff 529 decameter 500 mb low \nover southwest Saskatchewan provin",
+  "updated": "2026-11-21T23:25:06.673925+00:00",
+  "query_preview": "..\nIssued at 107 PM CST Sat Nov 21 2026\n\nOne last afternoon of pleasant, record warm weather today, then the \nlate fall cold weather takes over. Some cities will be near or\nwill break the high temperature record this afternoon. Tonight \nthe lows will be dropping only into the upper 40s to low 50s, \n",
   "analogs": [
     {
       "datetime_utc": "2004-10-14T02:11Z",
       "source_file": "ILX_2004_14_0211.txt",
-      "similarity": 0.45364081859588623,
+      "similarity": 0.38260141015052795,
       "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-03-31T11:21Z",
+      "source_file": "ILX_2013_31_1121.txt",
+      "similarity": 0.3807719945907593,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2008-04-25T11:24Z",
       "source_file": "ILX_2008_25_1124.txt",
-      "similarity": 0.45186710357666016,
+      "similarity": 0.3789078891277313,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-11-22T10:11Z",
+      "source_file": "ILX_2005_22_1011.txt",
+      "similarity": 0.37680694460868835,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-11-22T16:52Z",
+      "source_file": "ILX_2005_22_1652.txt",
+      "similarity": 0.37680694460868835,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-01-31T21:19Z",
+      "source_file": "ILX_2006_31_2119.txt",
+      "similarity": 0.3707423210144043,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-01-01T03:00Z",
+      "source_file": "ILX_2006_01_0300.txt",
+      "similarity": 0.3707423210144043,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2020-10-21T15:54Z",
+      "source_file": "ILX_2020_21_1554.txt",
+      "similarity": 0.3699764311313629,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-10-21T08:41Z",
       "source_file": "ILX_2020_21_0841.txt",
-      "similarity": 0.4507487714290619,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-10-21T10:47Z",
-      "source_file": "ILX_2020_21_1047.txt",
-      "similarity": 0.4507487714290619,
+      "similarity": 0.3699764311313629,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2020-10-21T17:59Z",
       "source_file": "ILX_2020_21_1759.txt",
-      "similarity": 0.4507487714290619,
+      "similarity": 0.3699764311313629,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2020-10-21T15:54Z",
-      "source_file": "ILX_2020_21_1554.txt",
-      "similarity": 0.4507487714290619,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-11-20T05:34Z",
-      "source_file": "ILX_2013_20_0534.txt",
-      "similarity": 0.44191843271255493,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-11-19T23:20Z",
-      "source_file": "ILX_2013_19_2320.txt",
-      "similarity": 0.44191843271255493,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-11-19T20:56Z",
-      "source_file": "ILX_2013_19_2056.txt",
-      "similarity": 0.44191843271255493,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-11-20T02:29Z",
-      "source_file": "ILX_2013_20_0229.txt",
-      "similarity": 0.44191843271255493,
-      "label": "winter",
-      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.4476176738739014,
-    "n_severe": 6,
+    "severe_fraction": 0.9,
+    "mean_similarity": 0.37473091185092927,
+    "n_severe": 9,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202611211720-KILX-FXUS63-AFDILX",
-    "afd_time": "2026-11-21T17:20:00Z",
-    "updated": "2026-11-21T18:04:05.721262+00:00"
+    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
+    "product_id": "202611211907-KILX-FXUS63-AFDILX",
+    "afd_time": "2026-11-21T19:07:00Z",
+    "updated": "2026-11-21T23:25:06.673925+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "GRR",
-  "product_id": "202611211749-KGRR-FXUS63-AFDGRR",
-  "afd_time": "2026-11-21T17:49:00Z",
+  "product_id": "202611212306-KGRR-FXUS63-AFDGRR",
+  "afd_time": "2026-11-21T23:06:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-21T18:04:05.721262+00:00",
-  "query_preview": "..\nIssued at 200 AM EST Sat Nov 21 2026\n\n- Warm and Dry Today, Rain Showers Sunday Afternoon/Evening\n\nA second day in a row of highs in the mid 60s (20F above normal)\nis in store for the region with sunny skies (a bit cooler near the\nlake). This is not quite record setting but we are coming close!\nR",
+  "updated": "2026-11-21T23:25:06.673925+00:00",
+  "query_preview": "..\nIssued at 238 PM EST Sat Nov 21 2026\n\n- Rain is still expected Sunday\n\nThe forecast has remained very stable with regard to the cold\nfront on Sunday. Rain will spread into Western Lower Michigan\nduring the morning on Sunday and sweep through during the day into\nthe evening hours. Precipitation is",
   "analogs": [
+    {
+      "datetime_utc": "2015-12-03T23:27Z",
+      "source_file": "GRR_2015_03_2327.txt",
+      "similarity": 0.35475391149520874,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2015-12-03T17:31Z",
       "source_file": "GRR_2015_03_1731.txt",
-      "similarity": 0.4330291450023651,
+      "similarity": 0.35475391149520874,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-12-03T20:15Z",
       "source_file": "GRR_2015_03_2015.txt",
-      "similarity": 0.4330291450023651,
+      "similarity": 0.35475391149520874,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2015-12-04T04:33Z",
       "source_file": "GRR_2015_04_0433.txt",
-      "similarity": 0.4330291450023651,
+      "similarity": 0.35475391149520874,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-12-03T23:27Z",
-      "source_file": "GRR_2015_03_2327.txt",
-      "similarity": 0.4330291450023651,
+      "datetime_utc": "2007-09-09T16:18Z",
+      "source_file": "GRR_2007_09_1618.txt",
+      "similarity": 0.3530313968658447,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-05-20T19:55Z",
-      "source_file": "GRR_2011_20_1955.txt",
-      "similarity": 0.42377954721450806,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-05-20T23:56Z",
-      "source_file": "GRR_2011_20_2356.txt",
-      "similarity": 0.42377954721450806,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-05-21T03:33Z",
-      "source_file": "GRR_2011_21_0333.txt",
-      "similarity": 0.42377954721450806,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-12-08T02:38Z",
-      "source_file": "GRR_2016_08_0238.txt",
-      "similarity": 0.42134833335876465,
-      "label": "winter",
+      "datetime_utc": "2007-09-09T17:44Z",
+      "source_file": "GRR_2007_09_1744.txt",
+      "similarity": 0.3530313968658447,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-12-08T05:51Z",
-      "source_file": "GRR_2016_08_0551.txt",
-      "similarity": 0.42134833335876465,
-      "label": "winter",
+      "datetime_utc": "2007-09-09T10:09Z",
+      "source_file": "GRR_2007_09_1009.txt",
+      "similarity": 0.3530313968658447,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-12-07T20:25Z",
-      "source_file": "GRR_2016_07_2025.txt",
-      "similarity": 0.42134833335876465,
-      "label": "winter",
+      "datetime_utc": "2007-09-09T08:40Z",
+      "source_file": "GRR_2007_09_0840.txt",
+      "similarity": 0.3530313968658447,
+      "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-09-09T11:51Z",
+      "source_file": "GRR_2007_09_1151.txt",
+      "similarity": 0.3530313968658447,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-03-26T03:46Z",
+      "source_file": "GRR_2006_26_0346.txt",
+      "similarity": 0.35245808959007263,
+      "label": "tornado",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.42675002217292785,
-    "n_severe": 3,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.3536630719900131,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202611211749-KGRR-FXUS63-AFDGRR",
-    "afd_time": "2026-11-21T17:49:00Z",
-    "updated": "2026-11-21T18:04:05.721262+00:00"
+    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
+    "product_id": "202611212306-KGRR-FXUS63-AFDGRR",
+    "afd_time": "2026-11-21T23:06:00Z",
+    "updated": "2026-11-21T23:25:06.673925+00:00"
   }
 }

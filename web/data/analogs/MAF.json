@@ -1,91 +1,91 @@
 {
   "office": "MAF",
-  "product_id": "202611211713-KMAF-FXUS64-AFDMAF",
-  "afd_time": "2026-11-21T17:13:00Z",
+  "product_id": "202611212257-KMAF-FXUS64-AFDMAF",
+  "afd_time": "2026-11-21T22:57:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-21T18:04:05.721262+00:00",
-  "query_preview": "..\n(Sunday night through Friday)\nIssued at 313 AM CST Sat Nov 21 2026\n\nCold air advection persists behind a cold front that will have\nswept in Saturday night. Sunday night's lows slip into the 30s to\nmid 40s. Given the current forecast, Gaines and Dawson counties, \nalong with parts of the Davis Moun",
+  "updated": "2026-11-21T23:25:06.673925+00:00",
+  "query_preview": "..\n(Monday through Friday)\nIssued at 123 PM CST Sat Nov 21 2026\n\nAs stated in the short term portion, temperatures remain below\nnormal in the long term portion of the forecast. The reasoning for\nthe cooler temperatures this week can likely be tied to El Nino.\nEl Nino seasons favor a split jet patter",
   "analogs": [
     {
       "datetime_utc": "2005-02-06T19:04Z",
       "source_file": "MAF_2005_06_1904.txt",
-      "similarity": 0.5343377590179443,
+      "similarity": 0.420785129070282,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-09-12T16:52Z",
+      "source_file": "MAF_2018_12_1652.txt",
+      "similarity": 0.4194025695323944,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2010-11-11T15:56Z",
       "source_file": "MAF_2010_11_1556.txt",
-      "similarity": 0.5276541709899902,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-03-14T22:31Z",
-      "source_file": "MAF_2005_14_2231.txt",
-      "similarity": 0.5215287208557129,
+      "similarity": 0.416262686252594,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-09-12T19:35Z",
       "source_file": "MAF_2009_12_1935.txt",
-      "similarity": 0.5188031196594238,
+      "similarity": 0.4120097756385803,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-01-28T09:17Z",
       "source_file": "MAF_2017_28_0917.txt",
-      "similarity": 0.5178853273391724,
+      "similarity": 0.4116232991218567,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-03-26T23:18Z",
+      "source_file": "MAF_2009_26_2318.txt",
+      "similarity": 0.4114549458026886,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2016-01-05T18:22Z",
       "source_file": "MAF_2016_05_1822.txt",
-      "similarity": 0.5163816213607788,
+      "similarity": 0.41110333800315857,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-07-04T05:15Z",
-      "source_file": "MAF_2012_04_0515_1.txt",
-      "similarity": 0.5139175057411194,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2005-03-14T22:31Z",
+      "source_file": "MAF_2005_14_2231.txt",
+      "similarity": 0.4100622534751892,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2022-11-25T11:40Z",
-      "source_file": "MAF_2022_25_1140.txt",
-      "similarity": 0.5132789611816406,
+      "datetime_utc": "2022-11-25T10:44Z",
+      "source_file": "MAF_2022_25_1044.txt",
+      "similarity": 0.409295916557312,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2022-11-25T17:58Z",
       "source_file": "MAF_2022_25_1758.txt",
-      "similarity": 0.5132789611816406,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-11-25T10:44Z",
-      "source_file": "MAF_2022_25_1044.txt",
-      "similarity": 0.5132789611816406,
+      "similarity": 0.409295916557312,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.5190345108509063,
-    "n_severe": 1,
+    "severe_fraction": 0.0,
+    "mean_similarity": 0.4131295830011368,
+    "n_severe": 0,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.52 below confidence floor 0.7",
-    "product_id": "202611211713-KMAF-FXUS64-AFDMAF",
-    "afd_time": "2026-11-21T17:13:00Z",
-    "updated": "2026-11-21T18:04:05.721262+00:00"
+    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
+    "product_id": "202611212257-KMAF-FXUS64-AFDMAF",
+    "afd_time": "2026-11-21T22:57:00Z",
+    "updated": "2026-11-21T23:25:06.673925+00:00"
   }
 }

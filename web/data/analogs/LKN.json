@@ -1,91 +1,91 @@
 {
   "office": "LKN",
-  "product_id": "202611210834-KLKN-FXUS65-AFDLKN",
-  "afd_time": "2026-11-21T08:34:00Z",
+  "product_id": "202611212132-KLKN-FXUS65-AFDLKN",
+  "afd_time": "2026-11-21T21:32:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-21T11:13:57.796288+00:00",
-  "query_preview": "..\n(Today through next Saturday)\nWEATHER PATTERN OVERVIEW: Taking a quick look out the window, as \nfar as the eye can see there is\u2026 nothing. That\u2019s right, the \nprecipitation has cleared up, and it looks to stay that way for \nthe remainder of the weekend. This is thanks to the one weather \npattern no",
+  "updated": "2026-11-21T23:25:06.673925+00:00",
+  "query_preview": "..\n(This evening through next Friday)\n\nWEATHER PATTERN OVERVIEW: Skies are mostly sunny across northern\nand central Nevada this afternoon. Highs are generally in the 30s\nwith only a few locations seeing the 40s. Winds are light. Clouds\ncan be seen streaming across California at this time. The clouds",
   "analogs": [
-    {
-      "datetime_utc": "2017-02-23T18:03Z",
-      "source_file": "LKN_2017_23_1803.txt",
-      "similarity": 0.3090597093105316,
-      "label": "winter",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2017-02-23T11:06Z",
       "source_file": "LKN_2017_23_1106.txt",
-      "similarity": 0.3090597093105316,
+      "similarity": 0.3814430236816406,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-10-16T09:22Z",
-      "source_file": "LKN_2023_16_0922.txt",
-      "similarity": 0.30844804644584656,
-      "label": "quiet",
+      "datetime_utc": "2017-02-23T18:03Z",
+      "source_file": "LKN_2017_23_1803.txt",
+      "similarity": 0.3814430236816406,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-07-26T21:08Z",
-      "source_file": "LKN_2005_26_2108.txt",
-      "similarity": 0.3075823485851288,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-07-24T22:12Z",
-      "source_file": "LKN_2010_24_2212.txt",
-      "similarity": 0.3059583902359009,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2025-01-16T20:16Z",
+      "source_file": "LKN_2025_16_2016.txt",
+      "similarity": 0.3693420886993408,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2008-11-13T22:04Z",
       "source_file": "LKN_2008_13_2204.txt",
-      "similarity": 0.30443084239959717,
+      "similarity": 0.3650381565093994,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-09-19T21:10Z",
-      "source_file": "LKN_2016_19_2110.txt",
-      "similarity": 0.3037794530391693,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-12-23T03:35Z",
-      "source_file": "LKN_2009_23_0335.txt",
-      "similarity": 0.30319225788116455,
+      "datetime_utc": "2012-02-04T22:20Z",
+      "source_file": "LKN_2012_04_2220_1.txt",
+      "similarity": 0.35749953985214233,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2009-05-21T09:49Z",
-      "source_file": "LKN_2009_21_0949.txt",
-      "similarity": 0.30167296528816223,
-      "label": "tornado",
+      "datetime_utc": "2009-03-08T11:08Z",
+      "source_file": "LKN_2009_08_1108.txt",
+      "similarity": 0.34824997186660767,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-01-30T21:21Z",
+      "source_file": "LKN_2013_30_2121.txt",
+      "similarity": 0.3475658893585205,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-01-31T05:39Z",
+      "source_file": "LKN_2013_31_0539.txt",
+      "similarity": 0.3475658893585205,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-10-07T21:57Z",
+      "source_file": "LKN_2017_07_2157.txt",
+      "similarity": 0.3472142219543457,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2018-06-29T21:24Z",
-      "source_file": "LKN_2018_29_2124.txt",
-      "similarity": 0.3008542060852051,
-      "label": "quiet",
+      "datetime_utc": "2018-02-12T22:24Z",
+      "source_file": "LKN_2018_12_2224.txt",
+      "similarity": 0.3456552028656006,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.3054037928581238,
-    "n_severe": 4,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.35910170078277587,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.31 below confidence floor 0.7",
-    "product_id": "202611210834-KLKN-FXUS65-AFDLKN",
-    "afd_time": "2026-11-21T08:34:00Z",
-    "updated": "2026-11-21T11:13:57.796288+00:00"
+    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
+    "product_id": "202611212132-KLKN-FXUS65-AFDLKN",
+    "afd_time": "2026-11-21T21:32:00Z",
+    "updated": "2026-11-21T23:25:06.673925+00:00"
   }
 }
