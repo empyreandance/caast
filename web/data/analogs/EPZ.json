@@ -1,28 +1,28 @@
 {
   "office": "EPZ",
-  "product_id": "202611210541-KEPZ-FXUS64-AFDEPZ",
-  "afd_time": "2026-11-21T05:41:00Z",
+  "product_id": "202611211231-KEPZ-FXUS64-AFDEPZ",
+  "afd_time": "2026-11-21T12:31:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-21T11:13:57.796288+00:00",
+  "updated": "2026-11-21T18:04:05.721262+00:00",
   "query_preview": "..\nIssued at 944 PM MST Fri Nov 20 2026\n\nThe closed low over the Great Basin yesterday has weakened into an\nopen trough extending across Utah into southern Nevada. This\nsystem will move across northern Arizona tonight into tomorrow\nmorning, then across New Mexico through the day tomorrow\n(Saturday).",
   "analogs": [
     {
       "datetime_utc": "2007-05-13T21:28Z",
       "source_file": "EPZ_2007_13_2128.txt",
-      "similarity": 0.4800487756729126,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2023-06-22T17:46Z",
-      "source_file": "EPZ_2023_22_1746.txt",
-      "similarity": 0.4610787630081177,
+      "similarity": 0.4800487160682678,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2023-06-22T11:21Z",
       "source_file": "EPZ_2023_22_1121.txt",
+      "similarity": 0.4610787630081177,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2023-06-22T17:46Z",
+      "source_file": "EPZ_2023_22_1746.txt",
       "similarity": 0.4610787630081177,
       "label": "severe_wind",
       "is_severe": true
@@ -37,15 +37,22 @@
     {
       "datetime_utc": "2012-09-24T10:43Z",
       "source_file": "EPZ_2012_24_1043.txt",
-      "similarity": 0.4593527913093567,
+      "similarity": 0.4593527317047119,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-12-17T10:17Z",
       "source_file": "EPZ_2004_17_1017.txt",
-      "similarity": 0.4583930969238281,
+      "similarity": 0.4583929777145386,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2020-10-20T11:20Z",
+      "source_file": "EPZ_2020_20_1120.txt",
+      "similarity": 0.44936150312423706,
+      "label": "winter",
       "is_severe": false
     },
     {
@@ -63,13 +70,6 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2020-10-20T11:20Z",
-      "source_file": "EPZ_2020_20_1120.txt",
-      "similarity": 0.44936150312423706,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2014-09-05T09:33Z",
       "source_file": "EPZ_2014_05_0933.txt",
       "similarity": 0.4455999732017517,
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.45747154355049136,
+    "mean_similarity": 0.4574715197086334,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202611210541-KEPZ-FXUS64-AFDEPZ",
-    "afd_time": "2026-11-21T05:41:00Z",
-    "updated": "2026-11-21T11:13:57.796288+00:00"
+    "product_id": "202611211231-KEPZ-FXUS64-AFDEPZ",
+    "afd_time": "2026-11-21T12:31:00Z",
+    "updated": "2026-11-21T18:04:05.721262+00:00"
   }
 }
