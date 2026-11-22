@@ -1,91 +1,91 @@
 {
   "office": "TWC",
-  "product_id": "202611220941-KTWC-FXUS65-AFDTWC",
-  "afd_time": "2026-11-22T09:41:00Z",
+  "product_id": "202611221947-KTWC-FXUS65-AFDTWC",
+  "afd_time": "2026-11-22T19:47:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-22T15:25:34.176304+00:00",
-  "query_preview": "..The high clouds passing through this morning has\nbeen thin enough and not impacting temperatures with reading\nearly this morning ranging from the upper 20s to the upper 40s.\nFreeze warning for the Sulphur Springs Valley, Upper San Pedro \nRiver Valley, and southern Greenlee County is in effect unti",
+  "updated": "2026-11-22T21:52:23.723943+00:00",
+  "query_preview": "..\nUpper level pattern will be progressive this week with a series\nof dry weather systems. The first dry weather system will pass\nto the north tomorrow. Cooler air will trickle down into the\nregion, setting up for below normal temperatures for Monday\nafternoon and another cold Tuesday morning. The S",
   "analogs": [
     {
       "datetime_utc": "2022-05-22T09:37Z",
       "source_file": "TWC_2022_22_0937.txt",
-      "similarity": 0.3780144453048706,
+      "similarity": 0.46568024158477783,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-01-07T04:16Z",
+      "source_file": "TWC_2013_07_0416.txt",
+      "similarity": 0.453191339969635,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-05-03T04:30Z",
+      "source_file": "TWC_2013_03_0430.txt",
+      "similarity": 0.45243942737579346,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2007-11-06T16:10Z",
       "source_file": "TWC_2007_06_1610.txt",
-      "similarity": 0.37358900904655457,
+      "similarity": 0.4494616985321045,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-08-08T03:46Z",
-      "source_file": "TWC_2011_08_0346.txt",
-      "similarity": 0.3679366707801819,
+      "datetime_utc": "2014-02-17T04:15Z",
+      "source_file": "TWC_2014_17_0415.txt",
+      "similarity": 0.44544553756713867,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-03-11T15:30Z",
+      "source_file": "TWC_2007_11_1530.txt",
+      "similarity": 0.44508039951324463,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-04-16T16:07Z",
-      "source_file": "TWC_2012_16_1607.txt",
-      "similarity": 0.36646419763565063,
+      "datetime_utc": "2008-06-11T16:25Z",
+      "source_file": "TWC_2008_11_1625.txt",
+      "similarity": 0.4434659481048584,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2017-01-31T03:25Z",
-      "source_file": "TWC_2017_31_0325.txt",
-      "similarity": 0.3651684522628784,
+      "datetime_utc": "2004-08-31T04:04Z",
+      "source_file": "TWC_2004_31_0404.txt",
+      "similarity": 0.4431620240211487,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-11-27T21:01Z",
-      "source_file": "TWC_2012_27_2101.txt",
-      "similarity": 0.3603518605232239,
+      "datetime_utc": "2011-12-29T04:08Z",
+      "source_file": "TWC_2011_29_0408.txt",
+      "similarity": 0.4399978518486023,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-09-09T03:54Z",
-      "source_file": "TWC_2010_09_0354.txt",
-      "similarity": 0.3564503490924835,
+      "datetime_utc": "2008-06-11T03:45Z",
+      "source_file": "TWC_2008_11_0345.txt",
+      "similarity": 0.43967750668525696,
       "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-12-27T15:05Z",
-      "source_file": "TWC_2022_27_1505.txt",
-      "similarity": 0.35590246319770813,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2022-12-27T10:01Z",
-      "source_file": "TWC_2022_27_1001.txt",
-      "similarity": 0.35590246319770813,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2015-02-20T21:35Z",
-      "source_file": "TWC_2015_20_2135.txt",
-      "similarity": 0.35441482067108154,
-      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.3,
-    "mean_similarity": 0.36341947317123413,
-    "n_severe": 3,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.44776019752025603,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
-    "product_id": "202611220941-KTWC-FXUS65-AFDTWC",
-    "afd_time": "2026-11-22T09:41:00Z",
-    "updated": "2026-11-22T15:25:34.176304+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202611221947-KTWC-FXUS65-AFDTWC",
+    "afd_time": "2026-11-22T19:47:00Z",
+    "updated": "2026-11-22T21:52:23.723943+00:00"
   }
 }

@@ -1,92 +1,91 @@
 {
   "office": "LIX",
-  "product_id": "202611221308-KLIX-FXUS64-AFDLIX",
-  "afd_time": "2026-11-22T13:08:00Z",
+  "product_id": "202611221918-KLIX-FXUS64-AFDLIX",
+  "afd_time": "2026-11-22T19:18:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-22T15:25:34.176304+00:00",
-  "query_preview": "..\n(Thanksgiving Day through Saturday night) \nIssued at 1121 PM CST Sat Nov 21 2026\n\nOverall, outside of cooler conditions in the wake of the departing\nshort term system mid week, fairly benign conditions expected\ngoing into the holiday and holiday weekend as surface high\npressure begins to move int",
+  "updated": "2026-11-22T21:52:23.723943+00:00",
+  "query_preview": "..\n(Thursday through Saturday night)\nIssued at 114 PM CST Sun Nov 22 2026\n\nOn Thanksgiving morning, a southern stream shortwave will be over \nGeorgia, with a stronger northern stream shortwave near St. Louis. \nThe 00z medium range models are actually in decent agreement with \nthese features, which s",
   "analogs": [
     {
       "datetime_utc": "2011-02-05T02:40Z",
       "source_file": "LIX_2011_05_0240.txt",
-      "similarity": 0.7411898374557495,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-07-24T01:09Z",
-      "source_file": "LIX_2016_24_0109.txt",
-      "similarity": 0.7385729551315308,
+      "similarity": 0.6359223127365112,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-07-23T21:04Z",
       "source_file": "LIX_2016_23_2104_1.txt",
-      "similarity": 0.7385729551315308,
+      "similarity": 0.6272205114364624,
       "label": "flood",
       "is_severe": false
     },
     {
+      "datetime_utc": "2016-07-24T01:09Z",
+      "source_file": "LIX_2016_24_0109.txt",
+      "similarity": 0.6272205114364624,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
       "datetime_utc": "2006-10-16T09:27Z",
       "source_file": "LIX_2006_16_0927.txt",
-      "similarity": 0.7192981243133545,
+      "similarity": 0.6020190119743347,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-09-19T20:07Z",
       "source_file": "LIX_2012_19_2007.txt",
-      "similarity": 0.7113720178604126,
+      "similarity": 0.5736172199249268,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2022-09-08T11:15Z",
-      "source_file": "LIX_2022_08_1115.txt",
-      "similarity": 0.6827707290649414,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-09-08T09:47Z",
-      "source_file": "LIX_2022_08_0947.txt",
-      "similarity": 0.6827707290649414,
+      "datetime_utc": "2005-02-20T16:44Z",
+      "source_file": "LIX_2005_20_1644.txt",
+      "similarity": 0.5616735816001892,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-06-16T08:14Z",
       "source_file": "LIX_2004_16_0814.txt",
-      "similarity": 0.674454927444458,
+      "similarity": 0.552703857421875,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-10-26T04:57Z",
-      "source_file": "LIX_2009_26_0457.txt",
-      "similarity": 0.6714217662811279,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2021-05-26T16:04Z",
+      "source_file": "LIX_2021_26_1604.txt",
+      "similarity": 0.541684627532959,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2009-10-25T20:29Z",
-      "source_file": "LIX_2009_25_2029.txt",
-      "similarity": 0.6714217662811279,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2021-05-26T17:16Z",
+      "source_file": "LIX_2021_26_1716.txt",
+      "similarity": 0.541684627532959,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2021-05-26T08:51Z",
+      "source_file": "LIX_2021_26_0851.txt",
+      "similarity": 0.541684627532959,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
-    "level": "LOW",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.7031845808029175,
-    "base_rate": 0.6297014764522039,
-    "signal_value": -0.02970147645220389,
-    "n_severe": 6,
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.5805430889129639,
+    "n_severe": 4,
     "n_total": 10,
-    "product_id": "202611221308-KLIX-FXUS64-AFDLIX",
-    "afd_time": "2026-11-22T13:08:00Z",
-    "updated": "2026-11-22T15:25:34.176304+00:00"
+    "reason": "top-10 mean similarity 0.58 below confidence floor 0.7",
+    "product_id": "202611221918-KLIX-FXUS64-AFDLIX",
+    "afd_time": "2026-11-22T19:18:00Z",
+    "updated": "2026-11-22T21:52:23.723943+00:00"
   }
 }

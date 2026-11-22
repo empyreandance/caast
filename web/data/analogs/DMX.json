@@ -1,91 +1,91 @@
 {
   "office": "DMX",
-  "product_id": "202611221131-KDMX-FXUS63-AFDDMX",
-  "afd_time": "2026-11-22T11:31:00Z",
+  "product_id": "202611222037-KDMX-FXUS63-AFDDMX",
+  "afd_time": "2026-11-22T20:37:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-22T15:25:34.176304+00:00",
-  "query_preview": "/TUESDAY THROUGH SATURDAY/...\nIssued at 214 PM CST Sat Nov 21 2026\n\nThe extended forecast will feature much of the same weather expected \non Monday. Placement on the backside of persistent upper-level \ntroughing will keep CAA in place through the early part of the \nweek. While the resulting subsiden",
+  "updated": "2026-11-22T21:52:23.723943+00:00",
+  "query_preview": "/WEDNESDAY THROUGH SATURDAY/...\nIssued at 237 PM CST Sun Nov 22 2026\n\nCompared to yesterday's model suite, the extended forecast period is \nbeginning to trend slightly more active. The primary synoptic \nfeature remains a shortwave trough forecast to dig southeastward \ntoward Iowa on Wednesday. While",
   "analogs": [
     {
-      "datetime_utc": "2005-07-08T07:16Z",
-      "source_file": "DMX_2005_08_0716.txt",
-      "similarity": 0.42004919052124023,
-      "label": "severe_wind",
+      "datetime_utc": "2012-09-28T07:58Z",
+      "source_file": "DMX_2012_28_0758.txt",
+      "similarity": 0.49603271484375,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-03-27T08:25Z",
-      "source_file": "DMX_2012_27_0825.txt",
-      "similarity": 0.41852259635925293,
-      "label": "severe_wind",
+      "datetime_utc": "2014-07-26T23:50Z",
+      "source_file": "DMX_2014_26_2350.txt",
+      "similarity": 0.49107009172439575,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-03-27T11:35Z",
-      "source_file": "DMX_2012_27_1135.txt",
-      "similarity": 0.41852259635925293,
-      "label": "severe_wind",
+      "datetime_utc": "2014-07-27T04:33Z",
+      "source_file": "DMX_2014_27_0433.txt",
+      "similarity": 0.49107009172439575,
+      "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-03-27T20:32Z",
-      "source_file": "DMX_2012_27_2032.txt",
-      "similarity": 0.41852259635925293,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-05-13T09:06Z",
-      "source_file": "DMX_2010_13_0906.txt",
-      "similarity": 0.41562536358833313,
+      "datetime_utc": "2007-10-31T18:03Z",
+      "source_file": "DMX_2007_31_1803.txt",
+      "similarity": 0.4852813184261322,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-05-12T12:20Z",
-      "source_file": "DMX_2010_12_1220.txt",
-      "similarity": 0.41562536358833313,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-10-08T20:28Z",
-      "source_file": "DMX_2011_08_2028.txt",
-      "similarity": 0.41189682483673096,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2011-10-09T08:23Z",
-      "source_file": "DMX_2011_09_0823.txt",
-      "similarity": 0.41189682483673096,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2007-10-31T08:09Z",
+      "source_file": "DMX_2007_31_0809.txt",
+      "similarity": 0.4852813184261322,
+      "label": "quiet",
+      "is_severe": false
     },
     {
       "datetime_utc": "2014-08-17T23:41Z",
       "source_file": "DMX_2014_17_2341.txt",
-      "similarity": 0.4085320830345154,
+      "similarity": 0.48507189750671387,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-08-18T04:57Z",
       "source_file": "DMX_2014_18_0457.txt",
-      "similarity": 0.4085320830345154,
+      "similarity": 0.48507189750671387,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-08-17T20:41Z",
+      "source_file": "DMX_2014_17_2041.txt",
+      "similarity": 0.48507189750671387,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-04-17T11:34Z",
+      "source_file": "DMX_2010_17_1134.txt",
+      "similarity": 0.48067718744277954,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-04-17T08:35Z",
+      "source_file": "DMX_2010_17_0835.txt",
+      "similarity": 0.48067718744277954,
       "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.9,
-    "mean_similarity": 0.4147725522518158,
-    "n_severe": 9,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.48653056025505065,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
-    "product_id": "202611221131-KDMX-FXUS63-AFDDMX",
-    "afd_time": "2026-11-22T11:31:00Z",
-    "updated": "2026-11-22T15:25:34.176304+00:00"
+    "reason": "top-10 mean similarity 0.49 below confidence floor 0.7",
+    "product_id": "202611222037-KDMX-FXUS63-AFDDMX",
+    "afd_time": "2026-11-22T20:37:00Z",
+    "updated": "2026-11-22T21:52:23.723943+00:00"
   }
 }

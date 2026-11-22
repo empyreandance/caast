@@ -1,91 +1,91 @@
 {
   "office": "BIS",
-  "product_id": "202611221249-KBIS-FXUS63-AFDBIS",
-  "afd_time": "2026-11-22T12:49:00Z",
+  "product_id": "202611222052-KBIS-FXUS63-AFDBIS",
+  "afd_time": "2026-11-22T20:52:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-22T15:25:34.176304+00:00",
-  "query_preview": "..\nIssued at 323 AM CST Sun Nov 22 2026\n\nCurrent surface analysis places low over Wisconsin into Lake\nSuperior, while high over Saskatchewan stretches into eastern\nMontana. Upper level analysis places compact low along the\nManitoba/North Dakota border with trough dipping to the south. A\nvariety of w",
+  "updated": "2026-11-22T21:52:23.723943+00:00",
+  "query_preview": "..\nIssued at 252 PM CST Sun Nov 22 2026\n\nLow pressure system has push east, although the trailing cold\nfront continues to bring low clouds and some breezy northwest\nwinds. With these low clouds have also been flurries and pockets\nof mist. Low clouds, flurries, and mist could linger into this\nevening",
   "analogs": [
     {
       "datetime_utc": "2013-02-23T00:10Z",
       "source_file": "BIS_2013_23_0010.txt",
-      "similarity": 0.6521238088607788,
+      "similarity": 0.5174267888069153,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-08-21T17:27Z",
+      "source_file": "BIS_2011_21_1727.txt",
+      "similarity": 0.5055704116821289,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-03-07T01:06Z",
+      "source_file": "BIS_2013_07_0106.txt",
+      "similarity": 0.499800443649292,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-09-02T18:43Z",
+      "source_file": "BIS_2011_02_1843.txt",
+      "similarity": 0.4997516870498657,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-10-07T17:57Z",
+      "source_file": "BIS_2012_07_1757.txt",
+      "similarity": 0.48309582471847534,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-11-11T19:03Z",
+      "source_file": "BIS_2011_11_1903.txt",
+      "similarity": 0.4452939033508301,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2013-01-23T15:57Z",
       "source_file": "BIS_2013_23_1557.txt",
-      "similarity": 0.6360915899276733,
+      "similarity": 0.4433816969394684,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-01-22T17:15Z",
-      "source_file": "BIS_2012_22_1715.txt",
-      "similarity": 0.6091655492782593,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2011-06-06T15:32Z",
+      "source_file": "BIS_2011_06_1532.txt",
+      "similarity": 0.4388236999511719,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2011-12-04T18:11Z",
-      "source_file": "BIS_2011_04_1811.txt",
-      "similarity": 0.5976055860519409,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-12-04T18:05Z",
-      "source_file": "BIS_2011_04_1805.txt",
-      "similarity": 0.5976055860519409,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-10-26T08:18Z",
-      "source_file": "BIS_2012_26_0818.txt",
-      "similarity": 0.5822277069091797,
+      "datetime_utc": "2018-11-09T07:18Z",
+      "source_file": "BIS_2018_09_0718.txt",
+      "similarity": 0.43233221769332886,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-02-06T16:27Z",
       "source_file": "BIS_2011_06_1627.txt",
-      "similarity": 0.5680156946182251,
+      "similarity": 0.424286425113678,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2012-12-01T03:45Z",
-      "source_file": "BIS_2013_01_0345.txt",
-      "similarity": 0.5606375336647034,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-02-28T15:53Z",
-      "source_file": "BIS_2013_28_1553.txt",
-      "similarity": 0.553088903427124,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-02-24T00:48Z",
-      "source_file": "BIS_2013_24_0048.txt",
-      "similarity": 0.5505354404449463,
-      "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.5907097399234772,
-    "n_severe": 0,
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.4689763098955154,
+    "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.59 below confidence floor 0.7",
-    "product_id": "202611221249-KBIS-FXUS63-AFDBIS",
-    "afd_time": "2026-11-22T12:49:00Z",
-    "updated": "2026-11-22T15:25:34.176304+00:00"
+    "reason": "top-10 mean similarity 0.47 below confidence floor 0.7",
+    "product_id": "202611222052-KBIS-FXUS63-AFDBIS",
+    "afd_time": "2026-11-22T20:52:00Z",
+    "updated": "2026-11-22T21:52:23.723943+00:00"
   }
 }
