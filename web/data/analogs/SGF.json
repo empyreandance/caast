@@ -1,42 +1,35 @@
 {
   "office": "SGF",
-  "product_id": "202611220611-KSGF-FXUS63-AFDSGF",
-  "afd_time": "2026-11-22T06:11:00Z",
+  "product_id": "202611221110-KSGF-FXUS63-AFDSGF",
+  "afd_time": "2026-11-22T11:10:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-22T06:58:04.133262+00:00",
+  "updated": "2026-11-22T15:25:34.176304+00:00",
   "query_preview": "/MONDAY THROUGH SATURDAY/...\nIssued at 1211 AM CST Sun Nov 22 2026\n\nThanksgiving week will feature below-average temperatures--\nparticularly overnight lows--each day. Global models show\nconsensus in digging additional shortwaves through the central\nCONUS throughout the week, allowing a cold polar ai",
   "analogs": [
     {
-      "datetime_utc": "2021-10-01T18:06Z",
-      "source_file": "SGF_2021_01_1806.txt",
-      "similarity": 0.552665650844574,
+      "datetime_utc": "2021-10-01T08:42Z",
+      "source_file": "SGF_2021_01_0842.txt",
+      "similarity": 0.5526655912399292,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-10-01T11:58Z",
       "source_file": "SGF_2021_01_1158.txt",
-      "similarity": 0.552665650844574,
+      "similarity": 0.5526655912399292,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2021-10-01T08:42Z",
-      "source_file": "SGF_2021_01_0842.txt",
-      "similarity": 0.552665650844574,
+      "datetime_utc": "2021-10-01T18:06Z",
+      "source_file": "SGF_2021_01_1806.txt",
+      "similarity": 0.5526655912399292,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-01-10T23:40Z",
       "source_file": "SGF_2019_10_2340.txt",
-      "similarity": 0.536224365234375,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-01-11T05:19Z",
-      "source_file": "SGF_2019_11_0519.txt",
       "similarity": 0.536224365234375,
       "label": "flood",
       "is_severe": false
@@ -49,30 +42,37 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2022-03-25T11:27Z",
-      "source_file": "SGF_2022_25_1127.txt",
-      "similarity": 0.532216489315033,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2019-01-11T05:19Z",
+      "source_file": "SGF_2019_11_0519.txt",
+      "similarity": 0.536224365234375,
+      "label": "flood",
+      "is_severe": false
     },
     {
       "datetime_utc": "2022-03-25T08:15Z",
       "source_file": "SGF_2022_25_0815_1.txt",
-      "similarity": 0.532216489315033,
+      "similarity": 0.5322164297103882,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-02-22T11:44Z",
-      "source_file": "SGF_2008_22_1144_1.txt",
-      "similarity": 0.5321171283721924,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2022-03-25T11:27Z",
+      "source_file": "SGF_2022_25_1127.txt",
+      "similarity": 0.5322164297103882,
+      "label": "tornado",
+      "is_severe": true
     },
     {
       "datetime_utc": "2008-02-22T10:05Z",
       "source_file": "SGF_2008_22_1005.txt",
-      "similarity": 0.5321171283721924,
+      "similarity": 0.5321171879768372,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-02-22T11:44Z",
+      "source_file": "SGF_2008_22_1144_1.txt",
+      "similarity": 0.5321171879768372,
       "label": "winter",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.2,
-    "mean_similarity": 0.5395337283611298,
+    "mean_similarity": 0.5395337104797363,
     "n_severe": 2,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.54 below confidence floor 0.7",
-    "product_id": "202611220611-KSGF-FXUS63-AFDSGF",
-    "afd_time": "2026-11-22T06:11:00Z",
-    "updated": "2026-11-22T06:58:04.133262+00:00"
+    "product_id": "202611221110-KSGF-FXUS63-AFDSGF",
+    "afd_time": "2026-11-22T11:10:00Z",
+    "updated": "2026-11-22T15:25:34.176304+00:00"
   }
 }

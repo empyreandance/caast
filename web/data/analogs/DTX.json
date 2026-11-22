@@ -1,91 +1,91 @@
 {
   "office": "DTX",
-  "product_id": "202611220430-KDTX-FXUS63-AFDDTX",
-  "afd_time": "2026-11-22T04:30:00Z",
+  "product_id": "202611220947-KDTX-FXUS63-AFDDTX",
+  "afd_time": "2026-11-22T09:47:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-22T06:58:04.133262+00:00",
-  "query_preview": "..\n\nAnother period of high magnitude warmth by November standards will \nremain firmly entrenched over the next 24 hours. This pattern \ngoverned by increasing depth of southerly flow within the existing \nelevated upper level height field held immediately downstream of an \ninbound elongated upper trou",
+  "updated": "2026-11-22T15:25:34.176304+00:00",
+  "query_preview": "..\n\nSoutherly flow downstream of the plains troughing will bring one \nmore day of above normal warmth that will approach/reach daily \nrecord high temperatures for today. The ability to reach daily highs \nwill depend on the degree of cloud cover that is expected to arrive \nahead of the inbound height",
   "analogs": [
+    {
+      "datetime_utc": "2005-10-05T23:13Z",
+      "source_file": "DTX_2005_05_2313.txt",
+      "similarity": 0.42210835218429565,
+      "label": "quiet",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2005-10-05T19:55Z",
       "source_file": "DTX_2005_05_1955.txt",
-      "similarity": 0.38330453634262085,
+      "similarity": 0.42210835218429565,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-10-06T05:04Z",
       "source_file": "DTX_2005_06_0504.txt",
-      "similarity": 0.38330453634262085,
+      "similarity": 0.42210835218429565,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-10-05T23:13Z",
-      "source_file": "DTX_2005_05_2313.txt",
-      "similarity": 0.38330453634262085,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-04-21T04:47Z",
-      "source_file": "DTX_2009_21_0447.txt",
-      "similarity": 0.3809332847595215,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-04-20T19:29Z",
-      "source_file": "DTX_2009_20_1929.txt",
-      "similarity": 0.3809332847595215,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-04-20T23:04Z",
-      "source_file": "DTX_2009_20_2304.txt",
-      "similarity": 0.3809332847595215,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-04-08T19:46Z",
-      "source_file": "DTX_2010_08_1946.txt",
-      "similarity": 0.3598995506763458,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-04-08T23:14Z",
-      "source_file": "DTX_2010_08_2314.txt",
-      "similarity": 0.3598995506763458,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-04-09T03:57Z",
-      "source_file": "DTX_2010_09_0357_1.txt",
-      "similarity": 0.3598995506763458,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-02-25T04:50Z",
-      "source_file": "DTX_2014_25_0450.txt",
-      "similarity": 0.35670197010040283,
+      "datetime_utc": "2018-03-01T20:57Z",
+      "source_file": "DTX_2018_01_2057.txt",
+      "similarity": 0.4202456474304199,
       "label": "winter",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-03-02T05:04Z",
+      "source_file": "DTX_2018_02_0504.txt",
+      "similarity": 0.4202456474304199,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-03-01T22:50Z",
+      "source_file": "DTX_2018_01_2250_2.txt",
+      "similarity": 0.4202456474304199,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-03-02T01:17Z",
+      "source_file": "DTX_2018_02_0117.txt",
+      "similarity": 0.4202456474304199,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-07-08T23:08Z",
+      "source_file": "DTX_2017_08_2308.txt",
+      "similarity": 0.4169377088546753,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-07-09T03:57Z",
+      "source_file": "DTX_2017_09_0357.txt",
+      "similarity": 0.4169377088546753,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-07-08T20:00Z",
+      "source_file": "DTX_2017_08_2000.txt",
+      "similarity": 0.4169377088546753,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.37291140854358673,
+    "mean_similarity": 0.4198120772838593,
     "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.37 below confidence floor 0.7",
-    "product_id": "202611220430-KDTX-FXUS63-AFDDTX",
-    "afd_time": "2026-11-22T04:30:00Z",
-    "updated": "2026-11-22T06:58:04.133262+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202611220947-KDTX-FXUS63-AFDDTX",
+    "afd_time": "2026-11-22T09:47:00Z",
+    "updated": "2026-11-22T15:25:34.176304+00:00"
   }
 }

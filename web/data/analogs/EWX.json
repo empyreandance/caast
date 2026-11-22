@@ -1,29 +1,22 @@
 {
   "office": "EWX",
-  "product_id": "202611220638-KEWX-FXUS64-AFDEWX",
-  "afd_time": "2026-11-22T06:38:00Z",
+  "product_id": "202611221406-KEWX-FXUS64-AFDEWX",
+  "afd_time": "2026-11-22T14:06:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-22T06:58:04.133262+00:00",
+  "updated": "2026-11-22T15:25:34.176304+00:00",
   "query_preview": "..\n(Monday night through Saturday)\nIssued at 1202 AM CST Sun Nov 22 2026\n \n\nFrom Monday night through Tuesday morning, light northerly winds are \nforecast to be in place at the surface with elevated moisture \narriving from the 850 MB to 700 MB layer. Overnight lows range from \nthe mid and upper 30s ",
   "analogs": [
     {
-      "datetime_utc": "2025-08-31T11:28Z",
-      "source_file": "EWX_2025_31_1128.txt",
-      "similarity": 0.5201923847198486,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2025-08-31T06:34Z",
       "source_file": "EWX_2025_31_0634.txt",
-      "similarity": 0.5201923847198486,
+      "similarity": 0.5201922655105591,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2017-04-03T05:32Z",
-      "source_file": "EWX_2017_03_0532.txt",
-      "similarity": 0.5156300663948059,
+      "datetime_utc": "2025-08-31T11:28Z",
+      "source_file": "EWX_2025_31_1128.txt",
+      "similarity": 0.5201922655105591,
       "label": "severe_wind",
       "is_severe": true
     },
@@ -49,30 +42,37 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-12-18T10:32Z",
-      "source_file": "EWX_2004_18_1032_1.txt",
-      "similarity": 0.5146111249923706,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2017-04-03T05:32Z",
+      "source_file": "EWX_2017_03_0532.txt",
+      "similarity": 0.5156300663948059,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2004-12-17T21:09Z",
       "source_file": "EWX_2004_17_2109.txt",
-      "similarity": 0.5146111249923706,
+      "similarity": 0.514611005783081,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-12-18T10:32Z",
+      "source_file": "EWX_2004_18_1032_1.txt",
+      "similarity": 0.514611005783081,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-09-09T08:16Z",
       "source_file": "EWX_2004_09_0816.txt",
-      "similarity": 0.5133756399154663,
+      "similarity": 0.5133755803108215,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2025-01-31T11:50Z",
-      "source_file": "EWX_2025_31_1150.txt",
-      "similarity": 0.5126391649246216,
+      "datetime_utc": "2025-01-31T07:32Z",
+      "source_file": "EWX_2025_31_0732.txt",
+      "similarity": 0.5126391053199768,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.515814208984375,
+    "mean_similarity": 0.5158141493797302,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.52 below confidence floor 0.7",
-    "product_id": "202611220638-KEWX-FXUS64-AFDEWX",
-    "afd_time": "2026-11-22T06:38:00Z",
-    "updated": "2026-11-22T06:58:04.133262+00:00"
+    "product_id": "202611221406-KEWX-FXUS64-AFDEWX",
+    "afd_time": "2026-11-22T14:06:00Z",
+    "updated": "2026-11-22T15:25:34.176304+00:00"
   }
 }
