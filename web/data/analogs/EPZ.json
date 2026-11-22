@@ -1,91 +1,91 @@
 {
   "office": "EPZ",
-  "product_id": "202611211231-KEPZ-FXUS64-AFDEPZ",
-  "afd_time": "2026-11-21T12:31:00Z",
+  "product_id": "202611220527-KEPZ-FXUS64-AFDEPZ",
+  "afd_time": "2026-11-22T05:27:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-21T18:04:05.721262+00:00",
-  "query_preview": "..\nIssued at 944 PM MST Fri Nov 20 2026\n\nThe closed low over the Great Basin yesterday has weakened into an\nopen trough extending across Utah into southern Nevada. This\nsystem will move across northern Arizona tonight into tomorrow\nmorning, then across New Mexico through the day tomorrow\n(Saturday).",
+  "updated": "2026-11-22T06:58:04.133262+00:00",
+  "query_preview": "..\nIssued at 941 PM MST Sat Nov 21 2026\n\nThe upper trough is exiting the area, with the Pacific cold front\nalso well to our east. Winds have diminished and shifted to the\nNNW as expected, with cooler, drier air filtering in. Some high\nclouds over southern Arizona will drift across northern sections\n",
   "analogs": [
     {
       "datetime_utc": "2007-05-13T21:28Z",
       "source_file": "EPZ_2007_13_2128.txt",
-      "similarity": 0.4800487160682678,
+      "similarity": 0.47460657358169556,
       "label": "severe_wind",
       "is_severe": true
     },
     {
+      "datetime_utc": "2004-12-17T10:17Z",
+      "source_file": "EPZ_2004_17_1017.txt",
+      "similarity": 0.4550604522228241,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2012-09-24T10:43Z",
+      "source_file": "EPZ_2012_24_1043.txt",
+      "similarity": 0.4529378414154053,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-09-05T09:33Z",
+      "source_file": "EPZ_2014_05_0933.txt",
+      "similarity": 0.45183447003364563,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2023-06-22T11:21Z",
       "source_file": "EPZ_2023_22_1121.txt",
-      "similarity": 0.4610787630081177,
+      "similarity": 0.4480114281177521,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2023-06-22T17:46Z",
       "source_file": "EPZ_2023_22_1746.txt",
-      "similarity": 0.4610787630081177,
+      "similarity": 0.4480114281177521,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2023-06-22T08:30Z",
       "source_file": "EPZ_2023_22_0830.txt",
-      "similarity": 0.4610787630081177,
+      "similarity": 0.4480114281177521,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-09-24T10:43Z",
-      "source_file": "EPZ_2012_24_1043.txt",
-      "similarity": 0.4593527317047119,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2006-01-18T21:40Z",
+      "source_file": "EPZ_2006_18_2140.txt",
+      "similarity": 0.445732057094574,
+      "label": "severe_hail",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2004-12-17T10:17Z",
-      "source_file": "EPZ_2004_17_1017.txt",
-      "similarity": 0.4583929777145386,
-      "label": "quiet",
+      "datetime_utc": "2020-10-20T09:11Z",
+      "source_file": "EPZ_2020_20_0911.txt",
+      "similarity": 0.444278746843338,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2020-10-20T11:20Z",
       "source_file": "EPZ_2020_20_1120.txt",
-      "similarity": 0.44936150312423706,
+      "similarity": 0.444278746843338,
       "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-10-20T09:11Z",
-      "source_file": "EPZ_2020_20_0911.txt",
-      "similarity": 0.44936150312423706,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-10-20T17:48Z",
-      "source_file": "EPZ_2020_20_1748.txt",
-      "similarity": 0.44936150312423706,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2014-09-05T09:33Z",
-      "source_file": "EPZ_2014_05_0933.txt",
-      "similarity": 0.4455999732017517,
-      "label": "flood",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.4574715197086334,
-    "n_severe": 4,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.4512763172388077,
+    "n_severe": 5,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202611211231-KEPZ-FXUS64-AFDEPZ",
-    "afd_time": "2026-11-21T12:31:00Z",
-    "updated": "2026-11-21T18:04:05.721262+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202611220527-KEPZ-FXUS64-AFDEPZ",
+    "afd_time": "2026-11-22T05:27:00Z",
+    "updated": "2026-11-22T06:58:04.133262+00:00"
   }
 }
