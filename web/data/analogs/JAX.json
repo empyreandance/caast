@@ -1,92 +1,91 @@
 {
   "office": "JAX",
-  "product_id": "202611230001-KJAX-FXUS62-AFDJAX",
-  "afd_time": "2026-11-23T00:01:00Z",
+  "product_id": "202611231042-KJAX-FXUS62-AFDJAX",
+  "afd_time": "2026-11-23T10:42:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-23T02:52:52.061016+00:00",
-  "query_preview": "/WEDNESDAY THROUGH SUNDAY/...\nMain Highlights This Period: \n\n- Coastal Showers Wednesday followed by dry, breezy Thanksgiving. \n\n- Elevated Tides Persist into Next Weekend\n\nThe mid to late week upper level pattern becomes fairly complex and \nis subject to significant uncertainty. Currently the forec",
+  "updated": "2026-11-23T12:58:36.295608+00:00",
+  "query_preview": "/FRIDAY THROUGH SUNDAY/...\nMain Highlights This Period: \n\n- Elevated Tides Persist into Next Weekend\n\nDrier conditions will continue Friday into Saturday with west to NW \nwinds bring in cool air advection and mostly clear skies into Friday \nas high pressure builds in from the west. High clouds will ",
   "analogs": [
     {
       "datetime_utc": "2014-12-22T09:35Z",
       "source_file": "JAX_2014_22_0935.txt",
-      "similarity": 0.9529783725738525,
+      "similarity": 0.7919213175773621,
       "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2015-09-25T08:24Z",
-      "source_file": "JAX_2015_25_0824.txt",
-      "similarity": 0.9409121870994568,
-      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-02-13T10:58Z",
       "source_file": "JAX_2021_13_1058.txt",
-      "similarity": 0.9284679889678955,
+      "similarity": 0.7563087940216064,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-02-13T07:51Z",
       "source_file": "JAX_2021_13_0751.txt",
-      "similarity": 0.9284679889678955,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-02-13T14:23Z",
-      "source_file": "JAX_2021_13_1423.txt",
-      "similarity": 0.9284679889678955,
+      "similarity": 0.7563087940216064,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2021-02-13T17:59Z",
       "source_file": "JAX_2021_13_1759.txt",
-      "similarity": 0.9284679889678955,
+      "similarity": 0.7563087940216064,
       "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2021-02-13T14:23Z",
+      "source_file": "JAX_2021_13_1423.txt",
+      "similarity": 0.7563087940216064,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-09-25T08:24Z",
+      "source_file": "JAX_2015_25_0824.txt",
+      "similarity": 0.7149313688278198,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2019-08-16T08:09Z",
       "source_file": "JAX_2019_16_0809.txt",
-      "similarity": 0.8920391798019409,
+      "similarity": 0.634070873260498,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-01-28T07:45Z",
-      "source_file": "JAX_2007_28_0745.txt",
-      "similarity": 0.8268136978149414,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2008-10-18T06:38Z",
-      "source_file": "JAX_2008_18_0638.txt",
-      "similarity": 0.8178296089172363,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2006-04-14T06:44Z",
       "source_file": "JAX_2006_14_0644.txt",
-      "similarity": 0.8146762847900391,
+      "similarity": 0.5476675033569336,
       "label": "severe_wind",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2004-03-14T06:30Z",
+      "source_file": "JAX_2004_14_0630.txt",
+      "similarity": 0.5465902090072632,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-03-14T09:34Z",
+      "source_file": "JAX_2004_14_0934.txt",
+      "similarity": 0.5465902090072632,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
-    "level": "MODERATE",
-    "severe_fraction": 0.9,
-    "mean_similarity": 0.895912128686905,
-    "base_rate": 0.6786311634441694,
-    "signal_value": 0.22136883655583062,
-    "n_severe": 9,
+    "level": "INSUFFICIENT_MATCH",
+    "severe_fraction": 0.7,
+    "mean_similarity": 0.6807006657123565,
+    "n_severe": 7,
     "n_total": 10,
-    "product_id": "202611230001-KJAX-FXUS62-AFDJAX",
-    "afd_time": "2026-11-23T00:01:00Z",
-    "updated": "2026-11-23T02:52:52.061016+00:00"
+    "reason": "top-10 mean similarity 0.68 below confidence floor 0.7",
+    "product_id": "202611231042-KJAX-FXUS62-AFDJAX",
+    "afd_time": "2026-11-23T10:42:00Z",
+    "updated": "2026-11-23T12:58:36.295608+00:00"
   }
 }
