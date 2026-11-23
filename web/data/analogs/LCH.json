@@ -1,15 +1,15 @@
 {
   "office": "LCH",
-  "product_id": "202611221806-KLCH-FXUS64-AFDLCH",
-  "afd_time": "2026-11-22T18:06:00Z",
+  "product_id": "202611230007-KLCH-FXUS64-AFDLCH",
+  "afd_time": "2026-11-23T00:07:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-22T21:52:23.723943+00:00",
+  "updated": "2026-11-23T02:52:52.061016+00:00",
   "query_preview": "..\n(This afternoon through next Saturday)\nIssued at 1208 PM CST Sun Nov 22 2026\n\nA cold front is currently located in eastern Texas and is steadily\nmoving towards the Gulf Coast. Ahead of the front, an unseasonably\nwarm and humid air mass is in place with light southwest winds. A \nfew showers are ex",
   "analogs": [
     {
       "datetime_utc": "2012-06-08T20:12Z",
       "source_file": "LCH_2012_08_2012.txt",
-      "similarity": 0.4489302635192871,
+      "similarity": 0.4489302337169647,
       "label": "severe_wind",
       "is_severe": true
     },
@@ -23,27 +23,13 @@
     {
       "datetime_utc": "2007-09-03T20:48Z",
       "source_file": "LCH_2007_03_2048.txt",
-      "similarity": 0.4393383264541626,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-01-02T11:27Z",
-      "source_file": "LCH_2019_02_1127.txt",
-      "similarity": 0.4342806935310364,
+      "similarity": 0.4393383860588074,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2019-01-02T17:18Z",
       "source_file": "LCH_2019_02_1718_1.txt",
-      "similarity": 0.4342806935310364,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2019-01-02T15:56Z",
-      "source_file": "LCH_2019_02_1556_1.txt",
       "similarity": 0.4342806935310364,
       "label": "flood",
       "is_severe": false
@@ -56,9 +42,23 @@
       "is_severe": false
     },
     {
+      "datetime_utc": "2019-01-02T11:27Z",
+      "source_file": "LCH_2019_02_1127.txt",
+      "similarity": 0.4342806935310364,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-01-02T15:56Z",
+      "source_file": "LCH_2019_02_1556_1.txt",
+      "similarity": 0.4342806935310364,
+      "label": "flood",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2006-01-14T16:18Z",
       "source_file": "LCH_2006_14_1618.txt",
-      "similarity": 0.42584192752838135,
+      "similarity": 0.4258418381214142,
       "label": "quiet",
       "is_severe": false
     },
@@ -72,7 +72,7 @@
     {
       "datetime_utc": "2008-05-15T20:42Z",
       "source_file": "LCH_2008_15_2042.txt",
-      "similarity": 0.42054229974746704,
+      "similarity": 0.42054232954978943,
       "label": "severe_wind",
       "is_severe": true
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.4335512101650238,
+    "mean_similarity": 0.43355120718479156,
     "n_severe": 3,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202611221806-KLCH-FXUS64-AFDLCH",
-    "afd_time": "2026-11-22T18:06:00Z",
-    "updated": "2026-11-22T21:52:23.723943+00:00"
+    "product_id": "202611230007-KLCH-FXUS64-AFDLCH",
+    "afd_time": "2026-11-23T00:07:00Z",
+    "updated": "2026-11-23T02:52:52.061016+00:00"
   }
 }

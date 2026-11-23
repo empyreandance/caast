@@ -1,78 +1,78 @@
 {
   "office": "LIX",
-  "product_id": "202611221918-KLIX-FXUS64-AFDLIX",
-  "afd_time": "2026-11-22T19:18:00Z",
+  "product_id": "202611222322-KLIX-FXUS64-AFDLIX-AAA",
+  "afd_time": "2026-11-22T23:22:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-22T21:52:23.723943+00:00",
+  "updated": "2026-11-23T02:52:52.061016+00:00",
   "query_preview": "..\n(Thursday through Saturday night)\nIssued at 114 PM CST Sun Nov 22 2026\n\nOn Thanksgiving morning, a southern stream shortwave will be over \nGeorgia, with a stronger northern stream shortwave near St. Louis. \nThe 00z medium range models are actually in decent agreement with \nthese features, which s",
   "analogs": [
     {
       "datetime_utc": "2011-02-05T02:40Z",
       "source_file": "LIX_2011_05_0240.txt",
-      "similarity": 0.6359223127365112,
+      "similarity": 0.6359219551086426,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-07-24T01:09Z",
+      "source_file": "LIX_2016_24_0109.txt",
+      "similarity": 0.6272201538085938,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2016-07-23T21:04Z",
       "source_file": "LIX_2016_23_2104_1.txt",
-      "similarity": 0.6272205114364624,
+      "similarity": 0.6272201538085938,
       "label": "flood",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-07-24T01:09Z",
-      "source_file": "LIX_2016_24_0109.txt",
-      "similarity": 0.6272205114364624,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2006-10-16T09:27Z",
       "source_file": "LIX_2006_16_0927.txt",
-      "similarity": 0.6020190119743347,
+      "similarity": 0.6020185947418213,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-09-19T20:07Z",
       "source_file": "LIX_2012_19_2007.txt",
-      "similarity": 0.5736172199249268,
+      "similarity": 0.5736168026924133,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-02-20T16:44Z",
       "source_file": "LIX_2005_20_1644.txt",
-      "similarity": 0.5616735816001892,
+      "similarity": 0.5616731643676758,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-06-16T08:14Z",
       "source_file": "LIX_2004_16_0814.txt",
-      "similarity": 0.552703857421875,
+      "similarity": 0.5527034997940063,
       "label": "severe_wind",
       "is_severe": true
     },
     {
+      "datetime_utc": "2021-05-26T08:51Z",
+      "source_file": "LIX_2021_26_0851.txt",
+      "similarity": 0.5416843295097351,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2021-05-26T16:04Z",
       "source_file": "LIX_2021_26_1604.txt",
-      "similarity": 0.541684627532959,
+      "similarity": 0.5416843295097351,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-05-26T17:16Z",
       "source_file": "LIX_2021_26_1716.txt",
-      "similarity": 0.541684627532959,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-05-26T08:51Z",
-      "source_file": "LIX_2021_26_0851.txt",
-      "similarity": 0.541684627532959,
+      "similarity": 0.5416843295097351,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.5805430889129639,
+    "mean_similarity": 0.5805427312850953,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.58 below confidence floor 0.7",
-    "product_id": "202611221918-KLIX-FXUS64-AFDLIX",
-    "afd_time": "2026-11-22T19:18:00Z",
-    "updated": "2026-11-22T21:52:23.723943+00:00"
+    "product_id": "202611222322-KLIX-FXUS64-AFDLIX-AAA",
+    "afd_time": "2026-11-22T23:22:00Z",
+    "updated": "2026-11-23T02:52:52.061016+00:00"
   }
 }

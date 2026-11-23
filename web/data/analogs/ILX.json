@@ -1,9 +1,9 @@
 {
   "office": "ILX",
-  "product_id": "202611222033-KILX-FXUS63-AFDILX",
-  "afd_time": "2026-11-22T20:33:00Z",
+  "product_id": "202611222346-KILX-FXUS63-AFDILX",
+  "afd_time": "2026-11-22T23:46:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-22T21:52:23.723943+00:00",
+  "updated": "2026-11-23T02:52:52.061016+00:00",
   "query_preview": "..\nIssued at 233 PM CST Sun Nov 22 2026\n\nA strong cold front associated with a low pressure system in Canada \nis pushing through eastern and southeastern IL currently, bringing \nmuch cooler temperatures and rain with it. Thunderstorms are \ncontinued to not be expected. Rainfall amounts won't be drou",
   "analogs": [
     {
@@ -21,24 +21,17 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-10-22T07:59Z",
-      "source_file": "ILX_2006_22_0759.txt",
-      "similarity": 0.30552542209625244,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2006-10-22T15:42Z",
       "source_file": "ILX_2006_22_1542.txt",
-      "similarity": 0.30552542209625244,
+      "similarity": 0.3055252432823181,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-01-31T21:19Z",
-      "source_file": "ILX_2006_31_2119.txt",
-      "similarity": 0.30421924591064453,
-      "label": "winter",
+      "datetime_utc": "2006-10-22T07:59Z",
+      "source_file": "ILX_2006_22_0759.txt",
+      "similarity": 0.3055252432823181,
+      "label": "quiet",
       "is_severe": false
     },
     {
@@ -49,30 +42,37 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-05-25T02:01Z",
-      "source_file": "ILX_2006_25_0201.txt",
-      "similarity": 0.3020337224006653,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2006-01-31T21:19Z",
+      "source_file": "ILX_2006_31_2119.txt",
+      "similarity": 0.30421924591064453,
+      "label": "winter",
+      "is_severe": false
     },
     {
       "datetime_utc": "2006-05-24T19:59Z",
       "source_file": "ILX_2006_24_1959.txt",
-      "similarity": 0.3020337224006653,
+      "similarity": 0.30203378200531006,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2006-05-25T02:01Z",
+      "source_file": "ILX_2006_25_0201.txt",
+      "similarity": 0.30203378200531006,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-01-08T09:05Z",
       "source_file": "ILX_2005_08_0905.txt",
-      "similarity": 0.3004719614982605,
+      "similarity": 0.3004719018936157,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-01-08T16:38Z",
       "source_file": "ILX_2005_08_1638.txt",
-      "similarity": 0.3004719614982605,
+      "similarity": 0.3004719018936157,
       "label": "quiet",
       "is_severe": false
     }
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.5,
-    "mean_similarity": 0.30401572585105896,
+    "mean_similarity": 0.3040156900882721,
     "n_severe": 5,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.30 below confidence floor 0.7",
-    "product_id": "202611222033-KILX-FXUS63-AFDILX",
-    "afd_time": "2026-11-22T20:33:00Z",
-    "updated": "2026-11-22T21:52:23.723943+00:00"
+    "product_id": "202611222346-KILX-FXUS63-AFDILX",
+    "afd_time": "2026-11-22T23:46:00Z",
+    "updated": "2026-11-23T02:52:52.061016+00:00"
   }
 }
