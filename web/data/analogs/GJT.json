@@ -1,91 +1,91 @@
 {
   "office": "GJT",
-  "product_id": "202611232327-KGJT-FXUS65-AFDGJT",
-  "afd_time": "2026-11-23T23:27:00Z",
+  "product_id": "202611240547-KGJT-FXUS65-AFDGJT",
+  "afd_time": "2026-11-24T05:47:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-24T00:58:44.005815+00:00",
-  "query_preview": "..\nIssued at 1103 AM MST Mon Nov 23 2026\n\nSNOW SHOWERS TODAY:\n\nA fast-moving trough is making its way through the region today,\nbringing with it another round of active weather. Looking at \ncameras across the region, locations around and in the San Juans\nhave started to see impactful snow over the p",
+  "updated": "2026-11-24T11:01:52.835666+00:00",
+  "query_preview": "..\nIssued at 906 PM MST Mon Nov 23 2026\n\nCALM AND DRY CONDITIONS EXPECTED TUESDAY AND WEDNESDAY \n\nSnow showers are coming to an end over the central and southern\nmountains. Skies will clear while fog begins to develop in \nmountain valleys. A fast moving ridge will develop in the wake \nof this system",
   "analogs": [
+    {
+      "datetime_utc": "2004-07-23T09:48Z",
+      "source_file": "GJT_2004_23_0948.txt",
+      "similarity": 0.3275108337402344,
+      "label": "severe_wind",
+      "is_severe": true
+    },
     {
       "datetime_utc": "2018-10-26T08:26Z",
       "source_file": "GJT_2018_26_0826.txt",
-      "similarity": 0.35061293840408325,
+      "similarity": 0.319835901260376,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2018-10-26T17:41Z",
       "source_file": "GJT_2018_26_1741.txt",
-      "similarity": 0.35061293840408325,
+      "similarity": 0.319835901260376,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-01-15T08:48Z",
+      "source_file": "GJT_2018_15_0848.txt",
+      "similarity": 0.312385231256485,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-01-15T18:11Z",
+      "source_file": "GJT_2018_15_1811.txt",
+      "similarity": 0.312385231256485,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-01-15T19:17Z",
+      "source_file": "GJT_2018_15_1917.txt",
+      "similarity": 0.312385231256485,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2006-05-13T09:04Z",
+      "source_file": "GJT_2006_13_0904.txt",
+      "similarity": 0.3122701346874237,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-11-05T22:56Z",
+      "source_file": "GJT_2017_05_2256.txt",
+      "similarity": 0.31088054180145264,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-11-06T05:57Z",
       "source_file": "GJT_2017_06_0557.txt",
-      "similarity": 0.3499457836151123,
+      "similarity": 0.31088054180145264,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-11-05T23:39Z",
       "source_file": "GJT_2017_05_2339.txt",
-      "similarity": 0.3499457836151123,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2017-11-05T22:56Z",
-      "source_file": "GJT_2017_05_2256.txt",
-      "similarity": 0.3499457836151123,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2017-06-13T19:52Z",
-      "source_file": "GJT_2017_13_1952.txt",
-      "similarity": 0.34271183609962463,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2017-06-14T05:27Z",
-      "source_file": "GJT_2017_14_0527.txt",
-      "similarity": 0.34271183609962463,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-03-04T10:41Z",
-      "source_file": "GJT_2007_04_1041.txt",
-      "similarity": 0.34075894951820374,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2016-03-06T22:22Z",
-      "source_file": "GJT_2016_06_2222.txt",
-      "similarity": 0.34013891220092773,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-03-07T04:49Z",
-      "source_file": "GJT_2016_07_0449.txt",
-      "similarity": 0.34013891220092773,
+      "similarity": 0.31088054180145264,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.2,
-    "mean_similarity": 0.3457523673772812,
-    "n_severe": 2,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.3149250090122223,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
-    "product_id": "202611232327-KGJT-FXUS65-AFDGJT",
-    "afd_time": "2026-11-23T23:27:00Z",
-    "updated": "2026-11-24T00:58:44.005815+00:00"
+    "reason": "top-10 mean similarity 0.31 below confidence floor 0.7",
+    "product_id": "202611240547-KGJT-FXUS65-AFDGJT",
+    "afd_time": "2026-11-24T05:47:00Z",
+    "updated": "2026-11-24T11:01:52.835666+00:00"
   }
 }

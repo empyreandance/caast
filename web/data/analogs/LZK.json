@@ -1,91 +1,91 @@
 {
   "office": "LZK",
-  "product_id": "202611232326-KLZK-FXUS64-AFDLZK",
-  "afd_time": "2026-11-23T23:26:00Z",
+  "product_id": "202611240746-KLZK-FXUS64-AFDLZK",
+  "afd_time": "2026-11-24T07:46:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-24T00:58:44.005815+00:00",
-  "query_preview": "..\nIssued at 255 PM CST Mon Nov 23 2026\n\nTemperatures this afternoon range from the upper 40s across parts\nof north and northwest Arkansas to the 50s elsewhere within the \nstate. Satellite early this afternoon shows the last of the \ntrailing low stratus deck behind the cold front over parts of \nsout",
+  "updated": "2026-11-24T11:01:52.835666+00:00",
+  "query_preview": "..\nIssued at 145 AM CST Tue Nov 24 2026\n\nTUESDAY (TODAY): \n\nIn the upper lvls, southwesterly flow will be present over Arkansas \nas a ridge slides eastward over the Mid-South and Southeastern \nregions of the CONUS. Over the Central Plains region of the CONUS, a \ndeepening trof will be in the process",
   "analogs": [
     {
-      "datetime_utc": "2007-11-10T11:09Z",
-      "source_file": "LZK_2007_10_1109.txt",
-      "similarity": 0.42891427874565125,
-      "label": "severe_wind",
+      "datetime_utc": "2007-01-19T23:36Z",
+      "source_file": "LZK_2007_19_2336_1.txt",
+      "similarity": 0.41564053297042847,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-01-19T20:57Z",
+      "source_file": "LZK_2007_19_2057.txt",
+      "similarity": 0.41564053297042847,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-05-11T23:55Z",
+      "source_file": "LZK_2019_11_2355.txt",
+      "similarity": 0.4083378314971924,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-05-11T20:12Z",
+      "source_file": "LZK_2019_11_2012.txt",
+      "similarity": 0.4083378314971924,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2019-05-12T06:12Z",
+      "source_file": "LZK_2019_12_0612.txt",
+      "similarity": 0.4083378314971924,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-11-10T09:48Z",
       "source_file": "LZK_2007_10_0948.txt",
-      "similarity": 0.42891427874565125,
+      "similarity": 0.40797489881515503,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-11-10T11:09Z",
+      "source_file": "LZK_2007_10_1109.txt",
+      "similarity": 0.40797489881515503,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-11-10T12:26Z",
       "source_file": "LZK_2007_10_1226.txt",
-      "similarity": 0.42891427874565125,
+      "similarity": 0.40797489881515503,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-11-10T15:06Z",
       "source_file": "LZK_2007_10_1506.txt",
-      "similarity": 0.42891427874565125,
+      "similarity": 0.40797489881515503,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-12-10T20:33Z",
-      "source_file": "LZK_2004_10_2033.txt",
-      "similarity": 0.41235578060150146,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-02-12T07:58Z",
-      "source_file": "LZK_2008_12_0758.txt",
-      "similarity": 0.41125980019569397,
+      "datetime_utc": "2014-07-13T05:56Z",
+      "source_file": "LZK_2014_13_0556.txt",
+      "similarity": 0.4002968668937683,
       "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-10-01T19:25Z",
-      "source_file": "LZK_2004_01_1925.txt",
-      "similarity": 0.40872326493263245,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-12-27T09:33Z",
-      "source_file": "LZK_2004_27_0933.txt",
-      "similarity": 0.4079340696334839,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2025-01-10T10:30Z",
-      "source_file": "LZK_2025_10_1030.txt",
-      "similarity": 0.4052443206310272,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2025-01-10T11:55Z",
-      "source_file": "LZK_2025_10_1155_1.txt",
-      "similarity": 0.4052443206310272,
-      "label": "winter",
-      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.4166418671607971,
-    "n_severe": 5,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.40884910225868226,
+    "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
-    "product_id": "202611232326-KLZK-FXUS64-AFDLZK",
-    "afd_time": "2026-11-23T23:26:00Z",
-    "updated": "2026-11-24T00:58:44.005815+00:00"
+    "reason": "top-10 mean similarity 0.41 below confidence floor 0.7",
+    "product_id": "202611240746-KLZK-FXUS64-AFDLZK",
+    "afd_time": "2026-11-24T07:46:00Z",
+    "updated": "2026-11-24T11:01:52.835666+00:00"
   }
 }

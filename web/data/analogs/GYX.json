@@ -1,91 +1,92 @@
 {
   "office": "GYX",
-  "product_id": "202611240033-KGYX-FXUS61-AFDGYX",
-  "afd_time": "2026-11-24T00:33:00Z",
+  "product_id": "202611240720-KGYX-FXUS61-AFDGYX",
+  "afd_time": "2026-11-24T07:20:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-24T00:58:44.005815+00:00",
-  "query_preview": "..\nKEY MESSAGE 1 DESCRIPTION...\nCold front clears the coast late this afternoon with cooler and\ndrier air filtering in on gusty NW winds.\n\nQuiet weather will dominate the pattern Tuesday, Wednesday, and\nmuch of Thanksgiving Day. It will be cooler, with highs mainly \nin the lower 30s to lower 40s dur",
+  "updated": "2026-11-24T11:01:52.835666+00:00",
+  "query_preview": "..\nKEY MESSAGE 1 DESCRIPTION...\n\nQuiet and dry weather expected through Thanksgiving morning. It\nwill be much cooler, with highs mainly in the lower 30s to \nlower 40s during the afternoons. We could see widespread lows in\nthe teens Wednesday and Thursday mornings which would be the \ncoldest of the s",
   "analogs": [
     {
       "datetime_utc": "2007-04-11T13:41Z",
       "source_file": "GYX_2007_11_1341.txt",
-      "similarity": 0.762847900390625,
+      "similarity": 0.870665431022644,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2021-03-26T10:37Z",
       "source_file": "GYX_2021_26_1037.txt",
-      "similarity": 0.7170102596282959,
+      "similarity": 0.8667465448379517,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2009-04-11T18:41Z",
       "source_file": "GYX_2009_11_1841.txt",
-      "similarity": 0.5930203199386597,
+      "similarity": 0.7523635625839233,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-04-12T01:34Z",
       "source_file": "GYX_2009_12_0134.txt",
-      "similarity": 0.5930203199386597,
+      "similarity": 0.7523635625839233,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-10-16T19:02Z",
+      "source_file": "GYX_2024_16_1902.txt",
+      "similarity": 0.7487021684646606,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-10-16T12:49Z",
+      "source_file": "GYX_2024_16_1249.txt",
+      "similarity": 0.7487021684646606,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-10-16T10:43Z",
+      "source_file": "GYX_2024_16_1043.txt",
+      "similarity": 0.7487021684646606,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2024-10-16T07:57Z",
+      "source_file": "GYX_2024_16_0757.txt",
+      "similarity": 0.7487021684646606,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-03-25T06:56Z",
       "source_file": "GYX_2004_25_0656.txt",
-      "similarity": 0.5753105878829956,
+      "similarity": 0.7135019302368164,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-02-14T03:33Z",
-      "source_file": "GYX_2015_14_0333.txt",
-      "similarity": 0.5674339532852173,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-02-14T00:25Z",
-      "source_file": "GYX_2015_14_0025.txt",
-      "similarity": 0.5674339532852173,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-02-11T20:00Z",
-      "source_file": "GYX_2004_11_2000.txt",
-      "similarity": 0.5530228018760681,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-04-13T09:26Z",
-      "source_file": "GYX_2007_13_0926.txt",
-      "similarity": 0.5510143637657166,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2024-10-16T07:57Z",
-      "source_file": "GYX_2024_16_0757.txt",
-      "similarity": 0.5491706132888794,
+      "datetime_utc": "2007-09-29T01:48Z",
+      "source_file": "GYX_2007_29_0148.txt",
+      "similarity": 0.7130329608917236,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
+    "level": "QUIET",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.6029285073280335,
+    "mean_similarity": 0.7663482666015625,
+    "base_rate": 0.3880771607663106,
+    "signal_value": -0.2880771607663106,
     "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.60 below confidence floor 0.7",
-    "product_id": "202611240033-KGYX-FXUS61-AFDGYX",
-    "afd_time": "2026-11-24T00:33:00Z",
-    "updated": "2026-11-24T00:58:44.005815+00:00"
+    "product_id": "202611240720-KGYX-FXUS61-AFDGYX",
+    "afd_time": "2026-11-24T07:20:00Z",
+    "updated": "2026-11-24T11:01:52.835666+00:00"
   }
 }
