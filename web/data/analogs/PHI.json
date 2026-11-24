@@ -1,91 +1,92 @@
 {
   "office": "PHI",
-  "product_id": "202611231122-KPHI-FXUS61-AFDPHI",
-  "afd_time": "2026-11-23T11:22:00Z",
+  "product_id": "202611232313-KPHI-FXUS61-AFDPHI",
+  "afd_time": "2026-11-23T23:13:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-23T12:58:36.295608+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...A strong coastal storm is expected to bring \npotentially significant impacts to the region around \nThanksgiving Day.\n\nAnother unseasonably mild day is forecast ahead of a strong \ncold front that will push offshore later today. Highs will be \nin the mid 60s to near 70 degrees. High",
+  "updated": "2026-11-24T00:58:44.005815+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...A strong coastal storm is expected to bring \nsignificant impacts to the region around Thanksgiving Day.\n\nFollowing a period of relatively benign weather, our attention \nturns to the coastal storm heading towards the holiday. \nBeginning on Wednesday, the storm of concern will begin",
   "analogs": [
     {
       "datetime_utc": "2012-10-25T20:24Z",
       "source_file": "PHI_2012_25_2024.txt",
-      "similarity": 0.7238953113555908,
+      "similarity": 0.8474540114402771,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-05-19T02:07Z",
       "source_file": "PHI_2018_19_0207.txt",
-      "similarity": 0.6875807642936707,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-05-14T07:32Z",
-      "source_file": "PHI_2010_14_0732.txt",
-      "similarity": 0.5730062127113342,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-05-14T07:20Z",
-      "source_file": "PHI_2010_14_0720.txt",
-      "similarity": 0.5730062127113342,
+      "similarity": 0.8273541927337646,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-07-23T07:26Z",
       "source_file": "PHI_2017_23_0726.txt",
-      "similarity": 0.5713602304458618,
+      "similarity": 0.7512025237083435,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-02-18T08:44Z",
       "source_file": "PHI_2006_18_0844.txt",
-      "similarity": 0.55686354637146,
+      "similarity": 0.7261326909065247,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-02-17T20:38Z",
       "source_file": "PHI_2006_17_2038.txt",
-      "similarity": 0.55686354637146,
+      "similarity": 0.7261326909065247,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-05-25T14:04Z",
+      "source_file": "PHI_2017_25_1404.txt",
+      "similarity": 0.723433256149292,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-05-25T18:17Z",
+      "source_file": "PHI_2017_25_1817.txt",
+      "similarity": 0.723433256149292,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2017-05-25T16:44Z",
+      "source_file": "PHI_2017_25_1644.txt",
+      "similarity": 0.723433256149292,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-10-31T12:57Z",
+      "source_file": "PHI_2011_31_1257.txt",
+      "similarity": 0.6840619444847107,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-10-31T07:22Z",
       "source_file": "PHI_2011_31_0722.txt",
-      "similarity": 0.5515341758728027,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-10-31T12:57Z",
-      "source_file": "PHI_2011_31_1257.txt",
-      "similarity": 0.5515341758728027,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-10-31T17:28Z",
-      "source_file": "PHI_2011_31_1728.txt",
-      "similarity": 0.5495405793190002,
+      "similarity": 0.6840619444847107,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.5895184755325318,
-    "n_severe": 5,
+    "level": "LOW",
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.7416699767112732,
+    "base_rate": 0.5448406070728342,
+    "signal_value": 0.05515939292716576,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.59 below confidence floor 0.7",
-    "product_id": "202611231122-KPHI-FXUS61-AFDPHI",
-    "afd_time": "2026-11-23T11:22:00Z",
-    "updated": "2026-11-23T12:58:36.295608+00:00"
+    "product_id": "202611232313-KPHI-FXUS61-AFDPHI",
+    "afd_time": "2026-11-23T23:13:00Z",
+    "updated": "2026-11-24T00:58:44.005815+00:00"
   }
 }

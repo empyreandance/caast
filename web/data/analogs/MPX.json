@@ -1,91 +1,92 @@
 {
   "office": "MPX",
-  "product_id": "202611231143-KMPX-FXUS63-AFDMPX",
-  "afd_time": "2026-11-23T11:43:00Z",
+  "product_id": "202611232002-KMPX-FXUS63-AFDMPX",
+  "afd_time": "2026-11-23T20:02:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-23T12:58:36.295608+00:00",
-  "query_preview": "..\nIssued at 325 AM CST Mon Nov 23 2026\n\nVirtually no new updates since the previous forecast package. Any \nreports of light snow have remained in northern MN. Now that the \ntrough that had been driving this activity has moved east, a strong \n1035mb surface high will take hold through today and much",
+  "updated": "2026-11-24T00:58:44.005815+00:00",
+  "query_preview": "..\nIssued at 200 PM CST Mon Nov 23 2026\n\nIt is a chilly afternoon with most locations still below\nfreezing for temperatures. Only exception is across parts of \nwestern Wisconsin where this morning's cloud cover lingered \nlonger. Though even those spots are still in the low 30s. Clouds\nwill move in a",
   "analogs": [
-    {
-      "datetime_utc": "2010-06-11T17:47Z",
-      "source_file": "MPX_2010_11_1747.txt",
-      "similarity": 0.5953003764152527,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-06-11T08:22Z",
-      "source_file": "MPX_2010_11_0822.txt",
-      "similarity": 0.5953003764152527,
-      "label": "tornado",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2006-04-16T08:35Z",
       "source_file": "MPX_2006_16_0835.txt",
-      "similarity": 0.5930542349815369,
+      "similarity": 0.754506528377533,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2005-11-17T09:29Z",
       "source_file": "MPX_2005_17_0929.txt",
-      "similarity": 0.5921828150749207,
+      "similarity": 0.7544355988502502,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-12-12T10:13Z",
+      "source_file": "MPX_2016_12_1013.txt",
+      "similarity": 0.7003414034843445,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-12-12T17:16Z",
+      "source_file": "MPX_2016_12_1716.txt",
+      "similarity": 0.7003414034843445,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2016-12-12T12:00Z",
+      "source_file": "MPX_2016_12_1200.txt",
+      "similarity": 0.7003414034843445,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-03-03T17:22Z",
+      "source_file": "MPX_2011_03_1722.txt",
+      "similarity": 0.6975231170654297,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-03-03T12:15Z",
+      "source_file": "MPX_2011_03_1215.txt",
+      "similarity": 0.6975231170654297,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2005-06-04T08:37Z",
       "source_file": "MPX_2005_04_0837.txt",
-      "similarity": 0.5868683457374573,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-06-25T20:37Z",
-      "source_file": "MPX_2010_25_2037.txt",
-      "similarity": 0.5796278119087219,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-07-14T00:01Z",
-      "source_file": "MPX_2010_14_0001.txt",
-      "similarity": 0.5742455720901489,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2010-07-13T20:20Z",
-      "source_file": "MPX_2010_13_2020.txt",
-      "similarity": 0.5742455720901489,
+      "similarity": 0.6942102313041687,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-09-22T20:10Z",
       "source_file": "MPX_2006_22_2010.txt",
-      "similarity": 0.5645212531089783,
+      "similarity": 0.6909542083740234,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-08-01T20:00Z",
-      "source_file": "MPX_2010_01_2000.txt",
-      "similarity": 0.562164306640625,
+      "datetime_utc": "2010-06-11T08:22Z",
+      "source_file": "MPX_2010_11_0822.txt",
+      "similarity": 0.689172625541687,
       "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.9,
-    "mean_similarity": 0.5817510664463044,
-    "n_severe": 9,
+    "level": "LOW",
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.7079349637031556,
+    "base_rate": 0.5050053904204528,
+    "signal_value": -0.10500539042045276,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.58 below confidence floor 0.7",
-    "product_id": "202611231143-KMPX-FXUS63-AFDMPX",
-    "afd_time": "2026-11-23T11:43:00Z",
-    "updated": "2026-11-23T12:58:36.295608+00:00"
+    "product_id": "202611232002-KMPX-FXUS63-AFDMPX",
+    "afd_time": "2026-11-23T20:02:00Z",
+    "updated": "2026-11-24T00:58:44.005815+00:00"
   }
 }

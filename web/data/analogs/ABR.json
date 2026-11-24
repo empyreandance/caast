@@ -1,91 +1,91 @@
 {
   "office": "ABR",
-  "product_id": "202611231122-KABR-FXUS63-AFDABR-AAA",
-  "afd_time": "2026-11-23T11:22:00Z",
+  "product_id": "202611240001-KABR-FXUS63-AFDABR-AAA",
+  "afd_time": "2026-11-24T00:01:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-23T12:58:36.295608+00:00",
-  "query_preview": "..\nIssued at 153 AM CST Mon Nov 23 2026\n\nCooler temperatures continue today, with 850mb temperatures ranging \nfrom roughly -5 Celsius to -10 Celsius. These temperatures around \nthe 25th percentile for this time of year, which leads to below \nnormal highs this afternoon in the upper 20s to low 30s. H",
+  "updated": "2026-11-24T00:58:44.005815+00:00",
+  "query_preview": "..\nIssued at 102 PM CST Mon Nov 23 2026\n\nThe ~1035mb high pressure system is centered over northeastern SD/ND \nborder as of 18Z. This high will continue to drift off towards the \nsoutheast today and tonight with the center of the high over IA by \n12Z Tuesday. Mid to high clouds will continue to move",
   "analogs": [
     {
-      "datetime_utc": "2022-11-13T09:51Z",
-      "source_file": "ABR_2022_13_0951.txt",
-      "similarity": 0.3855302929878235,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2022-11-12T20:42Z",
-      "source_file": "ABR_2022_12_2042.txt",
-      "similarity": 0.3855302929878235,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-02-19T21:19Z",
-      "source_file": "ABR_2015_19_2119.txt",
-      "similarity": 0.38234788179397583,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2005-12-07T15:19Z",
-      "source_file": "ABR_2005_07_1519.txt",
-      "similarity": 0.3810178339481354,
+      "datetime_utc": "2014-12-22T21:22Z",
+      "source_file": "ABR_2014_22_2122.txt",
+      "similarity": 0.3528762459754944,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2012-07-19T23:54Z",
       "source_file": "ABR_2012_19_2354.txt",
-      "similarity": 0.37896037101745605,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-07-19T20:06Z",
-      "source_file": "ABR_2012_19_2006.txt",
-      "similarity": 0.37896037101745605,
+      "similarity": 0.35240134596824646,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2012-07-20T08:58Z",
       "source_file": "ABR_2012_20_0858.txt",
-      "similarity": 0.37896037101745605,
+      "similarity": 0.35240134596824646,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-07-18T18:51Z",
-      "source_file": "ABR_2004_18_1851.txt",
-      "similarity": 0.3783544898033142,
-      "label": "tornado",
+      "datetime_utc": "2012-07-19T20:06Z",
+      "source_file": "ABR_2012_19_2006.txt",
+      "similarity": 0.35240134596824646,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2011-01-06T10:23Z",
-      "source_file": "ABR_2011_06_1023.txt",
-      "similarity": 0.3782830834388733,
+      "datetime_utc": "2006-12-01T20:49Z",
+      "source_file": "ABR_2006_01_2049.txt",
+      "similarity": 0.35171473026275635,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-01-06T12:37Z",
-      "source_file": "ABR_2011_06_1237.txt",
-      "similarity": 0.3782830834388733,
+      "datetime_utc": "2010-10-14T20:26Z",
+      "source_file": "ABR_2010_14_2026.txt",
+      "similarity": 0.3516906797885895,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-10-15T01:48Z",
+      "source_file": "ABR_2010_15_0148.txt",
+      "similarity": 0.3516906797885895,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2005-12-07T15:19Z",
+      "source_file": "ABR_2005_07_1519.txt",
+      "similarity": 0.3510235548019409,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-11-12T20:42Z",
+      "source_file": "ABR_2022_12_2042.txt",
+      "similarity": 0.3508307635784149,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-11-13T09:51Z",
+      "source_file": "ABR_2022_13_0951.txt",
+      "similarity": 0.3508307635784149,
       "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.4,
-    "mean_similarity": 0.3806228071451187,
-    "n_severe": 4,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.351786145567894,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202611231122-KABR-FXUS63-AFDABR-AAA",
-    "afd_time": "2026-11-23T11:22:00Z",
-    "updated": "2026-11-23T12:58:36.295608+00:00"
+    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
+    "product_id": "202611240001-KABR-FXUS63-AFDABR-AAA",
+    "afd_time": "2026-11-24T00:01:00Z",
+    "updated": "2026-11-24T00:58:44.005815+00:00"
   }
 }

@@ -1,91 +1,91 @@
 {
   "office": "ABQ",
-  "product_id": "202611231148-KABQ-FXUS65-AFDABQ-AAA",
-  "afd_time": "2026-11-23T11:48:00Z",
+  "product_id": "202611232337-KABQ-FXUS65-AFDABQ",
+  "afd_time": "2026-11-23T23:37:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-23T12:58:36.295608+00:00",
-  "query_preview": "..\n(Tuesday night through Sunday)\nIssued at 1248 AM MST Mon Nov 23 2026\n\nQuiet weather is forecast across central and northern NM mid-week \nthrough the weekend. A ridge will amplify over the Intermountain \nWest Tuesday into Wednesday, moderating temperatures and keeping \nwinds light. High clouds beg",
+  "updated": "2026-11-24T00:58:44.005815+00:00",
+  "query_preview": "..\n(Wednesday through Sunday)\nIssued at 1209 PM MST Mon Nov 23 2026\n\nWednesday and Thursday (Thanksgiving) sees tranquil conditions over \nthe Land of Enchantment as a ridge of high pressure sets up shop \nover the region Wednesday, evolving into weak flow aloft Thursday. \nHigh temperatures will range",
   "analogs": [
-    {
-      "datetime_utc": "2016-09-03T09:44Z",
-      "source_file": "ABQ_2016_03_0944.txt",
-      "similarity": 0.36412832140922546,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2009-06-23T09:11Z",
-      "source_file": "ABQ_2009_23_0911.txt",
-      "similarity": 0.358722984790802,
-      "label": "flood",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2020-12-27T09:31Z",
       "source_file": "ABQ_2020_27_0931.txt",
-      "similarity": 0.35846126079559326,
+      "similarity": 0.4015399217605591,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-03-11T21:15Z",
       "source_file": "ABQ_2004_11_2115.txt",
-      "similarity": 0.3562243580818176,
+      "similarity": 0.3986165523529053,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2025-10-07T07:18Z",
+      "source_file": "ABQ_2025_07_0718.txt",
+      "similarity": 0.3977793753147125,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2016-09-03T09:44Z",
+      "source_file": "ABQ_2016_03_0944.txt",
+      "similarity": 0.3955305814743042,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2024-11-10T09:32Z",
+      "source_file": "ABQ_2024_10_0932.txt",
+      "similarity": 0.39074695110321045,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2013-05-12T21:07Z",
       "source_file": "ABQ_2013_12_2107.txt",
-      "similarity": 0.35289788246154785,
+      "similarity": 0.3870002031326294,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-10-03T20:17Z",
-      "source_file": "ABQ_2004_03_2017.txt",
-      "similarity": 0.3515084683895111,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2009-06-23T09:11Z",
+      "source_file": "ABQ_2009_23_0911.txt",
+      "similarity": 0.38666534423828125,
+      "label": "flood",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2021-08-28T08:36Z",
-      "source_file": "ABQ_2021_28_0836.txt",
-      "similarity": 0.3514310419559479,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2007-11-24T00:48Z",
+      "source_file": "ABQ_2007_24_0048.txt",
+      "similarity": 0.3861271142959595,
+      "label": "flood",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2021-08-28T11:18Z",
-      "source_file": "ABQ_2021_28_1118.txt",
-      "similarity": 0.3514310419559479,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2025-10-07T07:18Z",
-      "source_file": "ABQ_2025_07_0718.txt",
-      "similarity": 0.35042232275009155,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2021-04-14T09:13Z",
-      "source_file": "ABQ_2021_14_0913.txt",
-      "similarity": 0.3493424654006958,
+      "datetime_utc": "2007-11-23T22:00Z",
+      "source_file": "ABQ_2007_23_2200.txt",
+      "similarity": 0.3861271142959595,
       "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2007-11-24T05:10Z",
+      "source_file": "ABQ_2007_24_0510.txt",
+      "similarity": 0.3861271142959595,
+      "label": "flood",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.35445701479911806,
-    "n_severe": 5,
+    "severe_fraction": 0.2,
+    "mean_similarity": 0.39162602722644807,
+    "n_severe": 2,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
-    "product_id": "202611231148-KABQ-FXUS65-AFDABQ-AAA",
-    "afd_time": "2026-11-23T11:48:00Z",
-    "updated": "2026-11-23T12:58:36.295608+00:00"
+    "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
+    "product_id": "202611232337-KABQ-FXUS65-AFDABQ",
+    "afd_time": "2026-11-23T23:37:00Z",
+    "updated": "2026-11-24T00:58:44.005815+00:00"
   }
 }
