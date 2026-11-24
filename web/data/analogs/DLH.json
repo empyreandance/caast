@@ -1,91 +1,91 @@
 {
   "office": "DLH",
-  "product_id": "202611240918-KDLH-FXUS63-AFDDLH",
-  "afd_time": "2026-11-24T09:18:00Z",
+  "product_id": "202611241823-KDLH-FXUS63-AFDDLH",
+  "afd_time": "2026-11-24T18:23:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-24T11:01:52.835666+00:00",
-  "query_preview": "..\nIssued at 317 AM CST Tue Nov 24 2026\n\nCurrent conditions/Today:\n\nSurface high pressure is centered over southern MN this morning,\nwith light or calm winds across the Northland, with temperatures\ncurrently in the single digits and teens, with the coldest\nlocations along the Iron Range and over the",
+  "updated": "2026-11-24T21:19:08.081590+00:00",
+  "query_preview": "..\nIssued at 1223 PM CST Tue Nov 24 2026\n\nThere is an upper level low spinning its way across the Dakotas\nand moving southeast into southwestern Minnesota and Iowa. This\nis bringing increasing clouds to our region, and there will be\nsome light snowfall associated with this that will affect\nsouthwest",
   "analogs": [
+    {
+      "datetime_utc": "2018-11-03T04:17Z",
+      "source_file": "DLH_2018_03_0417.txt",
+      "similarity": 0.34186214208602905,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-11-03T04:53Z",
+      "source_file": "DLH_2018_03_0453.txt",
+      "similarity": 0.34186214208602905,
+      "label": "winter",
+      "is_severe": false
+    },
     {
       "datetime_utc": "2005-03-20T09:43Z",
       "source_file": "DLH_2005_20_0943.txt",
-      "similarity": 0.3436785638332367,
+      "similarity": 0.3345450162887573,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-01-19T23:10Z",
-      "source_file": "DLH_2004_19_2310.txt",
-      "similarity": 0.327440470457077,
-      "label": "quiet",
+      "datetime_utc": "2010-01-04T05:16Z",
+      "source_file": "DLH_2010_04_0516.txt",
+      "similarity": 0.33120858669281006,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-03-30T21:35Z",
-      "source_file": "DLH_2004_30_2135.txt",
-      "similarity": 0.32682061195373535,
-      "label": "quiet",
+      "datetime_utc": "2010-01-04T03:34Z",
+      "source_file": "DLH_2010_04_0334.txt",
+      "similarity": 0.33120858669281006,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-01-13T12:17Z",
-      "source_file": "DLH_2004_13_1217.txt",
-      "similarity": 0.3229503035545349,
-      "label": "quiet",
+      "datetime_utc": "2010-01-03T23:38Z",
+      "source_file": "DLH_2010_03_2338.txt",
+      "similarity": 0.33120858669281006,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-01-03T21:21Z",
+      "source_file": "DLH_2010_03_2121.txt",
+      "similarity": 0.33120858669281006,
+      "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2009-01-09T09:46Z",
       "source_file": "DLH_2009_09_0946.txt",
-      "similarity": 0.3185233473777771,
+      "similarity": 0.33102887868881226,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2013-01-13T20:52Z",
-      "source_file": "DLH_2013_13_2052.txt",
-      "similarity": 0.31520116329193115,
-      "label": "winter",
+      "datetime_utc": "2004-01-19T23:10Z",
+      "source_file": "DLH_2004_19_2310.txt",
+      "similarity": 0.3303399384021759,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-05-10T20:17Z",
-      "source_file": "DLH_2011_10_2017.txt",
-      "similarity": 0.31162720918655396,
-      "label": "tornado",
+      "datetime_utc": "2024-05-27T11:07Z",
+      "source_file": "DLH_2024_27_1107.txt",
+      "similarity": 0.3302817940711975,
+      "label": "severe_wind",
       "is_severe": true
-    },
-    {
-      "datetime_utc": "2004-04-05T19:44Z",
-      "source_file": "DLH_2004_05_1944.txt",
-      "similarity": 0.31102240085601807,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-03-15T21:48Z",
-      "source_file": "DLH_2004_15_2148.txt",
-      "similarity": 0.3101068437099457,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-01-13T11:44Z",
-      "source_file": "DLH_2008_13_1144.txt",
-      "similarity": 0.30978259444236755,
-      "label": "winter",
-      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.1,
-    "mean_similarity": 0.31971535086631775,
+    "mean_similarity": 0.33347542583942413,
     "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.32 below confidence floor 0.7",
-    "product_id": "202611240918-KDLH-FXUS63-AFDDLH",
-    "afd_time": "2026-11-24T09:18:00Z",
-    "updated": "2026-11-24T11:01:52.835666+00:00"
+    "reason": "top-10 mean similarity 0.33 below confidence floor 0.7",
+    "product_id": "202611241823-KDLH-FXUS63-AFDDLH",
+    "afd_time": "2026-11-24T18:23:00Z",
+    "updated": "2026-11-24T21:19:08.081590+00:00"
   }
 }
