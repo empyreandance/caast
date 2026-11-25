@@ -1,9 +1,9 @@
 {
   "office": "IND",
-  "product_id": "202611241929-KIND-FXUS63-AFDIND",
-  "afd_time": "2026-11-24T19:29:00Z",
+  "product_id": "202611250143-KIND-FXUS63-AFDIND",
+  "afd_time": "2026-11-25T01:43:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-24T21:19:08.081590+00:00",
+  "updated": "2026-11-25T04:57:23.816538+00:00",
   "query_preview": "(This evening through Tuesday)...\nIssued at 229 PM EST Tue Nov 24 2026\n\nSurface analysis this afternoon shows strong high pressure centered \nover IA/WI/MN. This strong high was in control of the weather across \nmuch of the eastern United States. Cool northeast surface flow was \nfound across Indiana ",
   "analogs": [
     {
@@ -21,13 +21,6 @@
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-01-02T02:14Z",
-      "source_file": "IND_2010_02_0214_1.txt",
-      "similarity": 0.3899185061454773,
-      "label": "flood",
-      "is_severe": false
-    },
-    {
       "datetime_utc": "2010-01-02T04:30Z",
       "source_file": "IND_2010_02_0430_1.txt",
       "similarity": 0.3899185061454773,
@@ -35,25 +28,25 @@
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-05-25T05:16Z",
-      "source_file": "IND_2006_25_0516_1.txt",
-      "similarity": 0.384588360786438,
-      "label": "tornado",
-      "is_severe": true
+      "datetime_utc": "2010-01-02T02:14Z",
+      "source_file": "IND_2010_02_0214_1.txt",
+      "similarity": 0.3899185061454773,
+      "label": "flood",
+      "is_severe": false
     },
     {
       "datetime_utc": "2006-05-24T19:42Z",
       "source_file": "IND_2006_24_1942.txt",
-      "similarity": 0.384588360786438,
+      "similarity": 0.3845883011817932,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-01-13T15:38Z",
-      "source_file": "IND_2010_13_1538.txt",
-      "similarity": 0.38356512784957886,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2006-05-25T05:16Z",
+      "source_file": "IND_2006_25_0516_1.txt",
+      "similarity": 0.3845883011817932,
+      "label": "tornado",
+      "is_severe": true
     },
     {
       "datetime_utc": "2010-01-13T16:30Z",
@@ -70,6 +63,13 @@
       "is_severe": false
     },
     {
+      "datetime_utc": "2010-01-13T15:38Z",
+      "source_file": "IND_2010_13_1538.txt",
+      "similarity": 0.38356512784957886,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
       "datetime_utc": "2010-01-13T08:46Z",
       "source_file": "IND_2010_13_0846.txt",
       "similarity": 0.38356512784957886,
@@ -80,12 +80,12 @@
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.38846213221549986,
+    "mean_similarity": 0.38846212029457095,
     "n_severe": 4,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.39 below confidence floor 0.7",
-    "product_id": "202611241929-KIND-FXUS63-AFDIND",
-    "afd_time": "2026-11-24T19:29:00Z",
-    "updated": "2026-11-24T21:19:08.081590+00:00"
+    "product_id": "202611250143-KIND-FXUS63-AFDIND",
+    "afd_time": "2026-11-25T01:43:00Z",
+    "updated": "2026-11-25T04:57:23.816538+00:00"
   }
 }

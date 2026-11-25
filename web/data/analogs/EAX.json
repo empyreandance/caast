@@ -1,91 +1,91 @@
 {
   "office": "EAX",
-  "product_id": "202611241728-KEAX-FXUS63-AFDEAX",
-  "afd_time": "2026-11-24T17:28:00Z",
+  "product_id": "202611242335-KEAX-FXUS63-AFDEAX",
+  "afd_time": "2026-11-24T23:35:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-24T21:19:08.081590+00:00",
-  "query_preview": "..\nIssued at 304 AM CST Tue Nov 24 2026\n\nThe main forecast change with this package is that the storm system \nthat looked to produce light accumulating snow across the eastern \nCWA Wednesday night into Thanksgiving, has been trending more \nprogressive with better chances for accumulating snow now fo",
+  "updated": "2026-11-25T04:57:23.816538+00:00",
+  "query_preview": "..\nIssued at 334 PM CST Tue Nov 24 2026\n\nA lingering blanket of cirrus has helped cap temperatures in the \nlow/mid 30s early this afternoon. Though meteorological winter is \nstill a week away, the high and low temperatures expected through \nFriday morning are much more reminiscent of December than N",
   "analogs": [
     {
-      "datetime_utc": "2016-03-29T10:59Z",
-      "source_file": "EAX_2016_29_1059.txt",
-      "similarity": 0.37503528594970703,
+      "datetime_utc": "2022-08-05T08:04Z",
+      "source_file": "EAX_2022_05_0804.txt",
+      "similarity": 0.36290425062179565,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2016-03-29T09:00Z",
-      "source_file": "EAX_2016_29_0900_2.txt",
-      "similarity": 0.37503528594970703,
+      "datetime_utc": "2022-08-05T11:08Z",
+      "source_file": "EAX_2022_05_1108.txt",
+      "similarity": 0.36290425062179565,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2016-03-29T18:05Z",
-      "source_file": "EAX_2016_29_1805.txt",
-      "similarity": 0.37503528594970703,
+      "datetime_utc": "2022-08-05T17:25Z",
+      "source_file": "EAX_2022_05_1725.txt",
+      "similarity": 0.36290425062179565,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2023-12-05T05:50Z",
-      "source_file": "EAX_2023_05_0550.txt",
-      "similarity": 0.36054307222366333,
-      "label": "quiet",
+      "datetime_utc": "2016-02-09T21:08Z",
+      "source_file": "EAX_2016_09_2108.txt",
+      "similarity": 0.3533138036727905,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-12-04T23:27Z",
-      "source_file": "EAX_2023_04_2327.txt",
-      "similarity": 0.36054307222366333,
-      "label": "quiet",
+      "datetime_utc": "2016-02-10T05:45Z",
+      "source_file": "EAX_2016_10_0545.txt",
+      "similarity": 0.3533138036727905,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-12-04T21:59Z",
-      "source_file": "EAX_2023_04_2159.txt",
-      "similarity": 0.36054307222366333,
-      "label": "quiet",
+      "datetime_utc": "2016-02-09T23:23Z",
+      "source_file": "EAX_2016_09_2323_1.txt",
+      "similarity": 0.3533138036727905,
+      "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2016-03-28T08:18Z",
-      "source_file": "EAX_2016_28_0818.txt",
-      "similarity": 0.3576645851135254,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-03-28T11:10Z",
-      "source_file": "EAX_2016_28_1110.txt",
-      "similarity": 0.3576645851135254,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2016-03-28T17:06Z",
-      "source_file": "EAX_2016_28_1706_1.txt",
-      "similarity": 0.3576645851135254,
-      "label": "severe_wind",
+      "datetime_utc": "2014-03-30T10:54Z",
+      "source_file": "EAX_2014_30_1054.txt",
+      "similarity": 0.35095182061195374,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-03-30T09:03Z",
       "source_file": "EAX_2014_30_0903.txt",
-      "similarity": 0.35589125752449036,
+      "similarity": 0.35095182061195374,
       "label": "tornado",
       "is_severe": true
+    },
+    {
+      "datetime_utc": "2014-03-30T17:40Z",
+      "source_file": "EAX_2014_30_1740_1.txt",
+      "similarity": 0.35095182061195374,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2015-11-19T10:00Z",
+      "source_file": "EAX_2015_19_1000.txt",
+      "similarity": 0.3481297492980957,
+      "label": "winter",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.7,
-    "mean_similarity": 0.36356200873851774,
-    "n_severe": 7,
+    "severe_fraction": 0.6,
+    "mean_similarity": 0.35496393740177157,
+    "n_severe": 6,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
-    "product_id": "202611241728-KEAX-FXUS63-AFDEAX",
-    "afd_time": "2026-11-24T17:28:00Z",
-    "updated": "2026-11-24T21:19:08.081590+00:00"
+    "reason": "top-10 mean similarity 0.35 below confidence floor 0.7",
+    "product_id": "202611242335-KEAX-FXUS63-AFDEAX",
+    "afd_time": "2026-11-24T23:35:00Z",
+    "updated": "2026-11-25T04:57:23.816538+00:00"
   }
 }
