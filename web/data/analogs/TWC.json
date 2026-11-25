@@ -1,91 +1,91 @@
 {
   "office": "TWC",
-  "product_id": "202611241954-KTWC-FXUS65-AFDTWC",
-  "afd_time": "2026-11-24T19:54:00Z",
+  "product_id": "202611250934-KTWC-FXUS65-AFDTWC",
+  "afd_time": "2026-11-25T09:34:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-24T21:19:08.081590+00:00",
-  "query_preview": "..Shortwave ridging is resulting in sunny skies this \nafternoon. Temperatures are warming to seasonable levels after the \ncold start this morning which had sub-freezing temperatures in a \nnumber of colder valley locations to the south and east of Tucson.\n\nNot as cold Wednesday morning as lower level",
+  "updated": "2026-11-25T15:42:34.385896+00:00",
+  "query_preview": "..Water vapor imagery this morning showed shortwave\nridge axis over eastern Arizona and upper level trof along the\nwest coast. High clouds will be on the increase as the day \nprogresses, becoming thick at times this afternoon/evening.\nThe southern end of this west coast upper trof will break off \nla",
   "analogs": [
     {
-      "datetime_utc": "2014-02-17T04:15Z",
-      "source_file": "TWC_2014_17_0415.txt",
-      "similarity": 0.4598689079284668,
+      "datetime_utc": "2022-05-22T09:37Z",
+      "source_file": "TWC_2022_22_0937.txt",
+      "similarity": 0.38177964091300964,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2006-03-23T10:00Z",
-      "source_file": "TWC_2006_23_1000.txt",
-      "similarity": 0.4572598934173584,
+      "datetime_utc": "2011-08-08T03:46Z",
+      "source_file": "TWC_2011_08_0346.txt",
+      "similarity": 0.3763911724090576,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-06-11T16:25Z",
+      "source_file": "TWC_2008_11_1625.txt",
+      "similarity": 0.36802172660827637,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-04-09T09:45Z",
-      "source_file": "TWC_2012_09_0945.txt",
-      "similarity": 0.45621567964553833,
+      "datetime_utc": "2007-11-06T16:10Z",
+      "source_file": "TWC_2007_06_1610.txt",
+      "similarity": 0.36391502618789673,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-09-09T03:54Z",
+      "source_file": "TWC_2010_09_0354.txt",
+      "similarity": 0.3617491126060486,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-02-20T21:35Z",
+      "source_file": "TWC_2015_20_2135.txt",
+      "similarity": 0.3607456386089325,
       "label": "winter",
       "is_severe": false
     },
     {
-      "datetime_utc": "2024-12-29T21:35Z",
-      "source_file": "TWC_2024_29_2135.txt",
-      "similarity": 0.4535990357398987,
+      "datetime_utc": "2015-02-20T21:49Z",
+      "source_file": "TWC_2015_20_2149.txt",
+      "similarity": 0.3607456386089325,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2017-01-31T03:25Z",
+      "source_file": "TWC_2017_31_0325.txt",
+      "similarity": 0.36001935601234436,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2022-05-22T09:37Z",
-      "source_file": "TWC_2022_22_0937.txt",
-      "similarity": 0.45286494493484497,
+      "datetime_utc": "2012-04-16T16:07Z",
+      "source_file": "TWC_2012_16_1607.txt",
+      "similarity": 0.3568018674850464,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-12-08T20:20Z",
-      "source_file": "TWC_2004_08_2020.txt",
-      "similarity": 0.45170003175735474,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2008-06-11T03:45Z",
-      "source_file": "TWC_2008_11_0345.txt",
-      "similarity": 0.4511793851852417,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-11-19T10:17Z",
-      "source_file": "TWC_2015_19_1017.txt",
-      "similarity": 0.448248028755188,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2013-05-03T04:30Z",
-      "source_file": "TWC_2013_03_0430.txt",
-      "similarity": 0.44808679819107056,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-05-03T04:43Z",
-      "source_file": "TWC_2011_03_0443.txt",
-      "similarity": 0.44743263721466064,
+      "datetime_utc": "2013-12-27T20:30Z",
+      "source_file": "TWC_2013_27_2030.txt",
+      "similarity": 0.356576144695282,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.0,
-    "mean_similarity": 0.4526455342769623,
-    "n_severe": 0,
+    "severe_fraction": 0.1,
+    "mean_similarity": 0.3646745324134827,
+    "n_severe": 1,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
-    "product_id": "202611241954-KTWC-FXUS65-AFDTWC",
-    "afd_time": "2026-11-24T19:54:00Z",
-    "updated": "2026-11-24T21:19:08.081590+00:00"
+    "reason": "top-10 mean similarity 0.36 below confidence floor 0.7",
+    "product_id": "202611250934-KTWC-FXUS65-AFDTWC",
+    "afd_time": "2026-11-25T09:34:00Z",
+    "updated": "2026-11-25T15:42:34.385896+00:00"
   }
 }

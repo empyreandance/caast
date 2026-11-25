@@ -1,91 +1,91 @@
 {
   "office": "LMK",
-  "product_id": "202611242337-KLMK-FXUS63-AFDLMK",
-  "afd_time": "2026-11-24T23:37:00Z",
+  "product_id": "202611251128-KLMK-FXUS63-AFDLMK",
+  "afd_time": "2026-11-25T11:28:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-25T04:57:23.816538+00:00",
-  "query_preview": "..\nIssued at 253 PM EST Tue Nov 24 2026\n\nNow through Friday Night...\n\nAfternoon weather conditions across the region were mostly sunny \nwith temperatures in the 45-50 degree range.  For the remainder of \nthe afternoon, no significant weather is expected and highs will top \nout in the 45-50 degree ra",
+  "updated": "2026-11-25T15:42:34.385896+00:00",
+  "query_preview": "..\nIssued at 318 AM EST Wed Nov 25 2026\n\nToday through Friday Night...\n\nA weak, mid-level disturbance is lifting northward this morning \nproducing sprinkles to very light rain showers across central KY. \nThe activity looks a lot more impressive on local WSR-88d KLVX, but \nwith dewpoint values in the",
   "analogs": [
     {
-      "datetime_utc": "2011-10-03T15:47Z",
-      "source_file": "LMK_2011_03_1547.txt",
-      "similarity": 0.34482458233833313,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2025-01-30T17:44Z",
+      "source_file": "LMK_2025_30_1744_1.txt",
+      "similarity": 0.3469621539115906,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2011-10-03T10:39Z",
-      "source_file": "LMK_2011_03_1039.txt",
-      "similarity": 0.34482458233833313,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2011-10-03T13:23Z",
-      "source_file": "LMK_2011_03_1323.txt",
-      "similarity": 0.34482458233833313,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2025-01-30T20:09Z",
+      "source_file": "LMK_2025_30_2009.txt",
+      "similarity": 0.3469621539115906,
+      "label": "tornado",
+      "is_severe": true
     },
     {
       "datetime_utc": "2011-10-03T17:29Z",
       "source_file": "LMK_2011_03_1729.txt",
-      "similarity": 0.34482458233833313,
+      "similarity": 0.3439675569534302,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-10-03T08:45Z",
       "source_file": "LMK_2011_03_0845.txt",
-      "similarity": 0.34482458233833313,
+      "similarity": 0.3439675569534302,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-12-24T02:57Z",
-      "source_file": "LMK_2023_24_0257.txt",
-      "similarity": 0.33487144112586975,
-      "label": "winter",
+      "datetime_utc": "2011-10-03T10:39Z",
+      "source_file": "LMK_2011_03_1039.txt",
+      "similarity": 0.3439675569534302,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-12-23T23:28Z",
-      "source_file": "LMK_2023_23_2328.txt",
-      "similarity": 0.33487144112586975,
-      "label": "winter",
+      "datetime_utc": "2011-10-03T15:47Z",
+      "source_file": "LMK_2011_03_1547.txt",
+      "similarity": 0.3439675569534302,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-12-24T05:48Z",
-      "source_file": "LMK_2023_24_0548.txt",
-      "similarity": 0.33487144112586975,
-      "label": "winter",
+      "datetime_utc": "2011-10-03T13:23Z",
+      "source_file": "LMK_2011_03_1323.txt",
+      "similarity": 0.3439675569534302,
+      "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2023-12-23T20:06Z",
-      "source_file": "LMK_2023_23_2006.txt",
-      "similarity": 0.33487144112586975,
-      "label": "winter",
-      "is_severe": false
+      "datetime_utc": "2004-10-14T06:54Z",
+      "source_file": "LMK_2004_14_0654.txt",
+      "similarity": 0.3422904312610626,
+      "label": "tornado",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2011-11-16T17:19Z",
-      "source_file": "LMK_2011_16_1719.txt",
-      "similarity": 0.3328614830970764,
-      "label": "severe_hail",
+      "datetime_utc": "2008-08-29T15:46Z",
+      "source_file": "LMK_2008_29_1546.txt",
+      "similarity": 0.3420024514198303,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-08-29T10:39Z",
+      "source_file": "LMK_2008_29_1039.txt",
+      "similarity": 0.3420024514198303,
+      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.1,
-    "mean_similarity": 0.3396470159292221,
-    "n_severe": 1,
+    "severe_fraction": 0.5,
+    "mean_similarity": 0.34400574266910555,
+    "n_severe": 5,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.34 below confidence floor 0.7",
-    "product_id": "202611242337-KLMK-FXUS63-AFDLMK",
-    "afd_time": "2026-11-24T23:37:00Z",
-    "updated": "2026-11-25T04:57:23.816538+00:00"
+    "product_id": "202611251128-KLMK-FXUS63-AFDLMK",
+    "afd_time": "2026-11-25T11:28:00Z",
+    "updated": "2026-11-25T15:42:34.385896+00:00"
   }
 }

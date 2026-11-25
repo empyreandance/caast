@@ -1,91 +1,91 @@
 {
   "office": "FGZ",
-  "product_id": "202611242325-KFGZ-FXUS65-AFDFGZ",
-  "afd_time": "2026-11-24T23:25:00Z",
+  "product_id": "202611251053-KFGZ-FXUS65-AFDFGZ",
+  "afd_time": "2026-11-25T10:53:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-25T04:57:23.816538+00:00",
-  "query_preview": "..Through early next week...Dry conditions are \nexpected to continue through the weekend and into early next week. \nTemperatures will gradually warm each day, becoming 5-10 degrees \nabove average by Friday. Generally light winds are expected each day \nwith a gradual shift to west-southwest winds for",
+  "updated": "2026-11-25T15:42:34.385896+00:00",
+  "query_preview": "..Today through Friday...We remain in a quiet weather\npattern through the rest of the week. A weak disturbance will \ndive southward along the west coast over the Baja peninsula \ntoday, but this will bring minimal impacts to northern Arizona \nsave for some upper level clouds. Ridging will continue to",
   "analogs": [
     {
-      "datetime_utc": "2014-10-04T22:30Z",
-      "source_file": "FGZ_2014_04_2230.txt",
-      "similarity": 0.39483675360679626,
-      "label": "severe_hail",
-      "is_severe": true
+      "datetime_utc": "2012-10-14T16:24Z",
+      "source_file": "FGZ_2012_14_1624.txt",
+      "similarity": 0.42181575298309326,
+      "label": "quiet",
+      "is_severe": false
     },
     {
-      "datetime_utc": "2014-10-05T03:59Z",
-      "source_file": "FGZ_2014_05_0359.txt",
-      "similarity": 0.39483675360679626,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2012-04-09T16:27Z",
+      "source_file": "FGZ_2012_09_1627.txt",
+      "similarity": 0.42023396492004395,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2008-12-28T03:36Z",
+      "source_file": "FGZ_2008_28_0336.txt",
+      "similarity": 0.4191690981388092,
+      "label": "winter",
+      "is_severe": false
     },
     {
       "datetime_utc": "2017-11-02T16:09Z",
       "source_file": "FGZ_2017_02_1609.txt",
-      "similarity": 0.38449376821517944,
+      "similarity": 0.41406628489494324,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2017-11-02T10:19Z",
       "source_file": "FGZ_2017_02_1019.txt",
-      "similarity": 0.38449376821517944,
+      "similarity": 0.41406628489494324,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2012-07-18T15:59Z",
-      "source_file": "FGZ_2012_18_1559.txt",
-      "similarity": 0.3835906982421875,
+      "datetime_utc": "2014-10-05T03:59Z",
+      "source_file": "FGZ_2014_05_0359.txt",
+      "similarity": 0.412834107875824,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2012-12-11T16:59Z",
-      "source_file": "FGZ_2012_11_1659.txt",
-      "similarity": 0.3828129172325134,
+      "datetime_utc": "2014-10-04T22:30Z",
+      "source_file": "FGZ_2014_04_2230.txt",
+      "similarity": 0.412834107875824,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2008-12-28T03:36Z",
-      "source_file": "FGZ_2008_28_0336.txt",
-      "similarity": 0.38182753324508667,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2021-05-26T03:30Z",
-      "source_file": "FGZ_2021_26_0330.txt",
-      "similarity": 0.3751887083053589,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-04-09T16:27Z",
-      "source_file": "FGZ_2012_09_1627.txt",
-      "similarity": 0.37285006046295166,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2020-03-28T11:22Z",
-      "source_file": "FGZ_2020_28_1122_1.txt",
-      "similarity": 0.37235772609710693,
+      "datetime_utc": "2014-01-10T03:00Z",
+      "source_file": "FGZ_2014_10_0300.txt",
+      "similarity": 0.4124077558517456,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-01-10T03:08Z",
+      "source_file": "FGZ_2014_10_0308.txt",
+      "similarity": 0.4124077558517456,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2015-05-04T17:18Z",
+      "source_file": "FGZ_2015_04_1718.txt",
+      "similarity": 0.4113788902759552,
+      "label": "severe_hail",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.5,
-    "mean_similarity": 0.38272886872291567,
-    "n_severe": 5,
+    "severe_fraction": 0.3,
+    "mean_similarity": 0.41512140035629275,
+    "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.38 below confidence floor 0.7",
-    "product_id": "202611242325-KFGZ-FXUS65-AFDFGZ",
-    "afd_time": "2026-11-24T23:25:00Z",
-    "updated": "2026-11-25T04:57:23.816538+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202611251053-KFGZ-FXUS65-AFDFGZ",
+    "afd_time": "2026-11-25T10:53:00Z",
+    "updated": "2026-11-25T15:42:34.385896+00:00"
   }
 }

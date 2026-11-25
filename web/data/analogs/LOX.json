@@ -1,91 +1,91 @@
 {
   "office": "LOX",
-  "product_id": "202611250052-KLOX-FXUS66-AFDLOX",
-  "afd_time": "2026-11-25T00:52:00Z",
+  "product_id": "202611251237-KLOX-FXUS66-AFDLOX",
+  "afd_time": "2026-11-25T12:37:00Z",
   "section_type": "long_term",
-  "updated": "2026-11-25T04:57:23.816538+00:00",
-  "query_preview": "(SAT-TUE)...24/206 PM.\n\nDry but cooler weather is expected Sunday as the ridge shifts east\nin response to the next storm system moving into the Pac NW. The\nsystem will mainly impact northern California but the tail end of\nthe storm will likely drop some light rain through southern \nCalifornia Sunday",
+  "updated": "2026-11-25T15:42:34.385896+00:00",
+  "query_preview": "(SAT-TUE)...25/104 AM.\n\nThe ridge is expected to break down and shift east this weekend \nin response to the next storm system moving into the PACNW. This \nwill result in cooler temperatures near seasonal norms by Sunday. \nAnother storm system will mainly impact northern California but \nthe tail end ",
   "analogs": [
-    {
-      "datetime_utc": "2016-01-31T22:14Z",
-      "source_file": "LOX_2016_31_2214.txt",
-      "similarity": 0.5104728937149048,
-      "label": "severe_hail",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2016-02-01T11:22Z",
       "source_file": "LOX_2016_01_1122.txt",
-      "similarity": 0.5104728937149048,
+      "similarity": 0.5087082386016846,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2007-09-19T11:40Z",
-      "source_file": "LOX_2007_19_1140.txt",
-      "similarity": 0.5060902833938599,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-19T16:10Z",
-      "source_file": "LOX_2007_19_1610.txt",
-      "similarity": 0.5060902833938599,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-19T14:16Z",
-      "source_file": "LOX_2007_19_1416.txt",
-      "similarity": 0.5060902833938599,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2007-09-19T16:58Z",
-      "source_file": "LOX_2007_19_1658.txt",
-      "similarity": 0.5060902833938599,
+      "datetime_utc": "2016-01-31T22:14Z",
+      "source_file": "LOX_2016_31_2214.txt",
+      "similarity": 0.5087082386016846,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2007-09-19T11:44Z",
       "source_file": "LOX_2007_19_1144.txt",
-      "similarity": 0.5060902833938599,
+      "similarity": 0.5031760931015015,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-09-19T16:10Z",
+      "source_file": "LOX_2007_19_1610.txt",
+      "similarity": 0.5031760931015015,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-09-19T16:58Z",
+      "source_file": "LOX_2007_19_1658.txt",
+      "similarity": 0.5031760931015015,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-09-19T11:40Z",
+      "source_file": "LOX_2007_19_1140.txt",
+      "similarity": 0.5031760931015015,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-09-19T14:16Z",
+      "source_file": "LOX_2007_19_1416.txt",
+      "similarity": 0.5031760931015015,
       "label": "severe_hail",
       "is_severe": true
     },
     {
       "datetime_utc": "2004-07-16T16:23Z",
       "source_file": "LOX_2004_16_1623.txt",
-      "similarity": 0.48937341570854187,
+      "similarity": 0.4886230528354645,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2004-08-14T20:25Z",
-      "source_file": "LOX_2004_14_2025.txt",
-      "similarity": 0.48688945174217224,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2010-10-16T04:16Z",
+      "source_file": "LOX_2010_16_0416.txt",
+      "similarity": 0.4871383309364319,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2004-08-14T16:10Z",
-      "source_file": "LOX_2004_14_1610.txt",
-      "similarity": 0.48688945174217224,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2010-10-15T20:52Z",
+      "source_file": "LOX_2010_15_2052.txt",
+      "similarity": 0.4871383309364319,
+      "label": "severe_wind",
+      "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.5014549523591996,
-    "n_severe": 6,
+    "severe_fraction": 0.8,
+    "mean_similarity": 0.49961966574192046,
+    "n_severe": 8,
     "n_total": 10,
     "reason": "top-10 mean similarity 0.50 below confidence floor 0.7",
-    "product_id": "202611250052-KLOX-FXUS66-AFDLOX",
-    "afd_time": "2026-11-25T00:52:00Z",
-    "updated": "2026-11-25T04:57:23.816538+00:00"
+    "product_id": "202611251237-KLOX-FXUS66-AFDLOX",
+    "afd_time": "2026-11-25T12:37:00Z",
+    "updated": "2026-11-25T15:42:34.385896+00:00"
   }
 }
