@@ -1,91 +1,91 @@
 {
   "office": "CRP",
-  "product_id": "202611251134-KCRP-FXUS64-AFDCRP",
-  "afd_time": "2026-11-25T11:34:00Z",
+  "product_id": "202611252312-KCRP-FXUS64-AFDCRP",
+  "afd_time": "2026-11-25T23:12:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-25T15:42:34.385896+00:00",
-  "query_preview": "..\nIssued at 1221 AM CST Wed Nov 25 2026\n\nChilly temperatures will continue through Thanksgiving night \nbefore a warming trend begins Friday with highs in the 60s and 70s\nfor the weekend into next week. Some spots could drop to near 30 \ndegrees early this morning and Wednesday night which could \npro",
+  "updated": "2026-11-26T00:28:38.050648+00:00",
+  "query_preview": "..\nIssued at 1242 PM CST Wed Nov 25 2026\n\nClear skies through the day with a slight breeze for our inland \nareas. Temperature will reach the high 50s to low 60s today. \nOvernight tonight as the winds begin to diminish, temperatures \nwill drop into the 30s. Some localized areas might experience cool\n",
   "analogs": [
-    {
-      "datetime_utc": "2009-11-23T10:08Z",
-      "source_file": "CRP_2009_23_1008.txt",
-      "similarity": 0.47076424956321716,
-      "label": "quiet",
-      "is_severe": false
-    },
     {
       "datetime_utc": "2009-11-23T11:54Z",
       "source_file": "CRP_2009_23_1154.txt",
-      "similarity": 0.47076424956321716,
+      "similarity": 0.4276255965232849,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-11-11T23:56Z",
-      "source_file": "CRP_2018_11_2356.txt",
-      "similarity": 0.46397271752357483,
+      "datetime_utc": "2009-11-23T10:08Z",
+      "source_file": "CRP_2009_23_1008.txt",
+      "similarity": 0.4276255965232849,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2018-11-11T21:55Z",
-      "source_file": "CRP_2018_11_2155.txt",
-      "similarity": 0.46397271752357483,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-02-16T11:23Z",
-      "source_file": "CRP_2009_16_1123.txt",
-      "similarity": 0.4563997983932495,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2009-02-16T09:51Z",
-      "source_file": "CRP_2009_16_0951.txt",
-      "similarity": 0.4563997983932495,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2004-03-08T03:00Z",
-      "source_file": "CRP_2004_08_0300.txt",
-      "similarity": 0.4553995132446289,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2022-04-03T23:51Z",
+      "source_file": "CRP_2022_03_2351.txt",
+      "similarity": 0.418923944234848,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
       "datetime_utc": "2022-04-03T20:55Z",
       "source_file": "CRP_2022_03_2055.txt",
-      "similarity": 0.45374828577041626,
+      "similarity": 0.418923944234848,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2022-04-04T05:32Z",
       "source_file": "CRP_2022_04_0532.txt",
-      "similarity": 0.45374828577041626,
+      "similarity": 0.418923944234848,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2022-04-03T23:51Z",
-      "source_file": "CRP_2022_03_2351.txt",
-      "similarity": 0.45374828577041626,
-      "label": "severe_wind",
-      "is_severe": true
+      "datetime_utc": "2018-11-11T23:56Z",
+      "source_file": "CRP_2018_11_2356.txt",
+      "similarity": 0.4188476800918579,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2018-11-11T21:55Z",
+      "source_file": "CRP_2018_11_2155.txt",
+      "similarity": 0.4188476800918579,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-02-16T11:23Z",
+      "source_file": "CRP_2009_16_1123.txt",
+      "similarity": 0.4172648787498474,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-02-16T09:51Z",
+      "source_file": "CRP_2009_16_0951.txt",
+      "similarity": 0.4172648787498474,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2019-03-14T21:03Z",
+      "source_file": "CRP_2019_14_2103.txt",
+      "similarity": 0.4146353006362915,
+      "label": "quiet",
+      "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.3,
-    "mean_similarity": 0.4598917901515961,
+    "mean_similarity": 0.4198883444070816,
     "n_severe": 3,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.46 below confidence floor 0.7",
-    "product_id": "202611251134-KCRP-FXUS64-AFDCRP",
-    "afd_time": "2026-11-25T11:34:00Z",
-    "updated": "2026-11-25T15:42:34.385896+00:00"
+    "reason": "top-10 mean similarity 0.42 below confidence floor 0.7",
+    "product_id": "202611252312-KCRP-FXUS64-AFDCRP",
+    "afd_time": "2026-11-25T23:12:00Z",
+    "updated": "2026-11-26T00:28:38.050648+00:00"
   }
 }
