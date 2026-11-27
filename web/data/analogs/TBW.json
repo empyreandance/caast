@@ -1,91 +1,92 @@
 {
   "office": "TBW",
-  "product_id": "202611261928-KTBW-FXUS62-AFDTBW",
-  "afd_time": "2026-11-26T19:28:00Z",
-  "section_type": "discussion",
-  "updated": "2026-11-26T19:42:29.385396+00:00",
-  "query_preview": "..\nIssued at 218 PM EST Thu Nov 26 2026\nThe pattern aloft this afternoon features a large cut-off low over \nthe southeast with a surface low moving over the mid-Atlantic \nregion. A few lingering showers across the local area this morning \nhave since dissipated as drier air starts to move in under br",
+  "product_id": "202611271923-KTBW-FXUS62-AFDTBW",
+  "afd_time": "2026-11-27T19:23:00Z",
+  "section_type": "long_term",
+  "updated": "2026-11-27T22:03:05.362509+00:00",
+  "query_preview": "(SUN-THU)...\nIssued at 202 PM EST Fri Nov 27 2026\n\nOn Sunday, another disturbance and associated frontal boundary \napproaches the region late on Sunday and through Monday. This \nwill increase rain chances across the state. The aforementioned \nfront will attempt to move through on Monday. However, gu",
   "analogs": [
     {
-      "datetime_utc": "2009-06-15T12:57Z",
-      "source_file": "TBW_2009_15_1257.txt",
-      "similarity": 0.7098199129104614,
+      "datetime_utc": "2006-08-28T21:01Z",
+      "source_file": "TBW_2006_28_2101.txt",
+      "similarity": 0.958348274230957,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2010-07-16T17:00Z",
-      "source_file": "TBW_2010_16_1700.txt",
-      "similarity": 0.661754846572876,
+      "datetime_utc": "2006-08-28T17:05Z",
+      "source_file": "TBW_2006_28_1705.txt",
+      "similarity": 0.958348274230957,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-04-07T14:03Z",
+      "source_file": "TBW_2007_07_1403.txt",
+      "similarity": 0.9562796354293823,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2010-06-06T13:20Z",
+      "source_file": "TBW_2010_06_1320.txt",
+      "similarity": 0.9525922536849976,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2014-07-03T18:36Z",
       "source_file": "TBW_2014_03_1836.txt",
-      "similarity": 0.6532598733901978,
+      "similarity": 0.9520907402038574,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2015-08-21T07:02Z",
-      "source_file": "TBW_2015_21_0702.txt",
-      "similarity": 0.6523916721343994,
+      "datetime_utc": "2012-09-30T00:40Z",
+      "source_file": "TBW_2012_30_0040.txt",
+      "similarity": 0.9514276385307312,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2015-11-27T08:20Z",
-      "source_file": "TBW_2015_27_0820.txt",
-      "similarity": 0.6497132778167725,
-      "label": "quiet",
+      "datetime_utc": "2008-05-17T12:48Z",
+      "source_file": "TBW_2008_17_1248.txt",
+      "similarity": 0.9483206272125244,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2008-03-19T13:42Z",
+      "source_file": "TBW_2008_19_1342.txt",
+      "similarity": 0.9462188482284546,
+      "label": "flood",
       "is_severe": false
-    },
-    {
-      "datetime_utc": "2015-01-29T08:28Z",
-      "source_file": "TBW_2015_29_0828.txt",
-      "similarity": 0.6493186950683594,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2014-12-15T08:57Z",
-      "source_file": "TBW_2014_15_0857.txt",
-      "similarity": 0.6444096565246582,
-      "label": "severe_hail",
-      "is_severe": true
     },
     {
       "datetime_utc": "2015-12-29T09:55Z",
       "source_file": "TBW_2015_29_0955.txt",
-      "similarity": 0.6418073177337646,
+      "similarity": 0.9443682432174683,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2015-08-15T19:02Z",
-      "source_file": "TBW_2015_15_1902.txt",
-      "similarity": 0.6411149501800537,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2009-07-12T13:23Z",
       "source_file": "TBW_2009_12_1323_1.txt",
-      "similarity": 0.6377763152122498,
+      "similarity": 0.9411923885345459,
       "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
-    "level": "INSUFFICIENT_MATCH",
+    "level": "MODERATE",
     "severe_fraction": 0.8,
-    "mean_similarity": 0.6541366517543793,
+    "mean_similarity": 0.9509186923503876,
+    "base_rate": 0.6272938636552354,
+    "signal_value": 0.17270613634476462,
     "n_severe": 8,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.65 below confidence floor 0.7",
-    "product_id": "202611261928-KTBW-FXUS62-AFDTBW",
-    "afd_time": "2026-11-26T19:28:00Z",
-    "updated": "2026-11-26T19:42:29.385396+00:00"
+    "product_id": "202611271923-KTBW-FXUS62-AFDTBW",
+    "afd_time": "2026-11-27T19:23:00Z",
+    "updated": "2026-11-27T22:03:05.362509+00:00"
   }
 }
