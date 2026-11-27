@@ -1,92 +1,92 @@
 {
   "office": "CTP",
-  "product_id": "202611262340-KCTP-FXUS61-AFDCTP",
-  "afd_time": "2026-11-26T23:40:00Z",
+  "product_id": "202611271157-KCTP-FXUS61-AFDCTP",
+  "afd_time": "2026-11-27T11:57:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-27T02:56:17.732841+00:00",
-  "query_preview": "..\nKEY MESSAGE 1: Damaging winds and widespread rain for this\nThanksgiving Day. \n\nThe heaviest rain has been lifting northward as expected. Most\nof the wind products expire at 00Z (7 PM), except for the far\neast, where they expire at 10 PM. \n\nWill continue to monitor the conditions, and adjust the f",
+  "updated": "2026-11-27T12:33:45.280175+00:00",
+  "query_preview": "..\nKEY MESSAGE 1: Blustery and colder on Friday with rain \nshowers/elevation wintry mix.\n\nMuch of central PA will see a nondiurnal temperature trend today\nwith daily highs being reached in the predawn hours as the 995\nmb sfc low moves into NW PA and drags a nose of some warmer air\nwith it. As the sy",
   "analogs": [
     {
-      "datetime_utc": "2013-07-09T01:40Z",
-      "source_file": "CTP_2013_09_0140.txt",
-      "similarity": 0.9371155500411987,
+      "datetime_utc": "2004-03-03T09:21Z",
+      "source_file": "CTP_2004_03_0921.txt",
+      "similarity": 0.8920454382896423,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2014-08-14T07:34Z",
+      "source_file": "CTP_2014_14_0734.txt",
+      "similarity": 0.8824711441993713,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2011-04-02T02:57Z",
+      "source_file": "CTP_2011_02_0257.txt",
+      "similarity": 0.8804817199707031,
+      "label": "tornado",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-07-08T23:59Z",
+      "source_file": "CTP_2013_08_2359.txt",
+      "similarity": 0.8788615465164185,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2013-07-08T22:02Z",
       "source_file": "CTP_2013_08_2202.txt",
-      "similarity": 0.9371155500411987,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-07-09T00:20Z",
-      "source_file": "CTP_2013_09_0020.txt",
-      "similarity": 0.9371155500411987,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-07-08T20:09Z",
-      "source_file": "CTP_2013_08_2009.txt",
-      "similarity": 0.9371155500411987,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-07-08T23:59Z",
-      "source_file": "CTP_2013_08_2359.txt",
-      "similarity": 0.9371155500411987,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2013-07-09T06:00Z",
-      "source_file": "CTP_2013_09_0600.txt",
-      "similarity": 0.9371155500411987,
+      "similarity": 0.8788615465164185,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2013-07-09T02:38Z",
       "source_file": "CTP_2013_09_0238.txt",
-      "similarity": 0.9371155500411987,
+      "similarity": 0.8788615465164185,
       "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2014-08-14T07:34Z",
-      "source_file": "CTP_2014_14_0734.txt",
-      "similarity": 0.9233732223510742,
-      "label": "tornado",
+      "datetime_utc": "2013-07-09T06:00Z",
+      "source_file": "CTP_2013_09_0600.txt",
+      "similarity": 0.8788615465164185,
+      "label": "severe_wind",
       "is_severe": true
     },
     {
-      "datetime_utc": "2004-03-03T09:21Z",
-      "source_file": "CTP_2004_03_0921.txt",
-      "similarity": 0.8852640390396118,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2013-07-09T00:20Z",
+      "source_file": "CTP_2013_09_0020.txt",
+      "similarity": 0.8788615465164185,
+      "label": "severe_wind",
+      "is_severe": true
     },
     {
-      "datetime_utc": "2011-04-02T02:57Z",
-      "source_file": "CTP_2011_02_0257.txt",
-      "similarity": 0.866828978061676,
-      "label": "tornado",
+      "datetime_utc": "2013-07-09T01:40Z",
+      "source_file": "CTP_2013_09_0140.txt",
+      "similarity": 0.8788615465164185,
+      "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2013-07-08T20:09Z",
+      "source_file": "CTP_2013_08_2009.txt",
+      "similarity": 0.8788615465164185,
+      "label": "severe_wind",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "LOW",
     "severe_fraction": 0.9,
-    "mean_similarity": 0.9235275089740753,
+    "mean_similarity": 0.8807029128074646,
     "base_rate": 0.5841577927145483,
     "signal_value": 0.31584220728545176,
     "n_severe": 9,
     "n_total": 10,
-    "product_id": "202611262340-KCTP-FXUS61-AFDCTP",
-    "afd_time": "2026-11-26T23:40:00Z",
-    "updated": "2026-11-27T02:56:17.732841+00:00"
+    "product_id": "202611271157-KCTP-FXUS61-AFDCTP",
+    "afd_time": "2026-11-27T11:57:00Z",
+    "updated": "2026-11-27T12:33:45.280175+00:00"
   }
 }

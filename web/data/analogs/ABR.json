@@ -1,91 +1,91 @@
 {
   "office": "ABR",
-  "product_id": "202611270248-KABR-FXUS63-AFDABR-AAB",
-  "afd_time": "2026-11-27T02:48:00Z",
+  "product_id": "202611271120-KABR-FXUS63-AFDABR-AAA",
+  "afd_time": "2026-11-27T11:20:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-27T02:56:17.732841+00:00",
-  "query_preview": "..\nIssued at 101 PM CST Thu Nov 26 2026\n\nThe 18Z surface weather map shows the Northern Plains in between \nsystems. The deep 996mb low was across the Mid-Atlantic states, and \nan area of low pressure was set up from offshore British Columbia \nthrough central Saskatchewan. \n\nThe main weather feature ",
+  "updated": "2026-11-27T12:33:45.280175+00:00",
+  "query_preview": "..\nIssued at 1243 AM CST Fri Nov 27 2026\n\nAn upper low moving through central Canada, with diffluent flow aloft \nassociated with the left exit region of a 140kt jet, will provide \nfor a narrow ribbon of isentropic upglide. RRFS BUFKIT profiles \nindicate this is over a very dry atmosphere,  with ceil",
   "analogs": [
-    {
-      "datetime_utc": "2012-10-16T09:16Z",
-      "source_file": "ABR_2012_16_0916.txt",
-      "similarity": 0.4899841547012329,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-10-16T01:27Z",
-      "source_file": "ABR_2012_16_0127.txt",
-      "similarity": 0.4899841547012329,
-      "label": "severe_wind",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2012-10-15T20:04Z",
-      "source_file": "ABR_2012_15_2004.txt",
-      "similarity": 0.4899841547012329,
-      "label": "severe_wind",
-      "is_severe": true
-    },
     {
       "datetime_utc": "2005-02-25T20:58Z",
       "source_file": "ABR_2005_25_2058.txt",
-      "similarity": 0.48493242263793945,
+      "similarity": 0.45615601539611816,
       "label": "quiet",
       "is_severe": false
+    },
+    {
+      "datetime_utc": "2004-07-18T18:51Z",
+      "source_file": "ABR_2004_18_1851.txt",
+      "similarity": 0.45437145233154297,
+      "label": "tornado",
+      "is_severe": true
     },
     {
       "datetime_utc": "2007-03-08T16:10Z",
       "source_file": "ABR_2007_08_1610.txt",
-      "similarity": 0.48293960094451904,
+      "similarity": 0.4515336751937866,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2010-10-15T01:48Z",
-      "source_file": "ABR_2010_15_0148.txt",
-      "similarity": 0.47861266136169434,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2010-10-14T20:26Z",
-      "source_file": "ABR_2010_14_2026.txt",
-      "similarity": 0.47861266136169434,
-      "label": "quiet",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2006-04-15T20:30Z",
-      "source_file": "ABR_2006_15_2030_1.txt",
-      "similarity": 0.4780825674533844,
+      "datetime_utc": "2016-05-08T08:46Z",
+      "source_file": "ABR_2016_08_0846.txt",
+      "similarity": 0.4493274688720703,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-04-16T02:36Z",
-      "source_file": "ABR_2006_16_0236.txt",
-      "similarity": 0.4780825674533844,
+      "datetime_utc": "2016-05-07T20:38Z",
+      "source_file": "ABR_2016_07_2038.txt",
+      "similarity": 0.4493274688720703,
       "label": "severe_hail",
       "is_severe": true
     },
     {
-      "datetime_utc": "2009-05-24T08:20Z",
-      "source_file": "ABR_2009_24_0820.txt",
-      "similarity": 0.47580939531326294,
-      "label": "severe_wind",
+      "datetime_utc": "2009-03-09T20:52Z",
+      "source_file": "ABR_2009_09_2052.txt",
+      "similarity": 0.44917333126068115,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2009-03-10T00:40Z",
+      "source_file": "ABR_2009_10_0040.txt",
+      "similarity": 0.44917333126068115,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-11-13T09:51Z",
+      "source_file": "ABR_2022_13_0951.txt",
+      "similarity": 0.44891634583473206,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2022-11-12T20:42Z",
+      "source_file": "ABR_2022_12_2042.txt",
+      "similarity": 0.44891634583473206,
+      "label": "winter",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2010-07-31T08:57Z",
+      "source_file": "ABR_2010_31_0857.txt",
+      "similarity": 0.44597741961479187,
+      "label": "tornado",
       "is_severe": true
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
-    "severe_fraction": 0.6,
-    "mean_similarity": 0.48270243406295776,
-    "n_severe": 6,
+    "severe_fraction": 0.4,
+    "mean_similarity": 0.45028728544712066,
+    "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.48 below confidence floor 0.7",
-    "product_id": "202611270248-KABR-FXUS63-AFDABR-AAB",
-    "afd_time": "2026-11-27T02:48:00Z",
-    "updated": "2026-11-27T02:56:17.732841+00:00"
+    "reason": "top-10 mean similarity 0.45 below confidence floor 0.7",
+    "product_id": "202611271120-KABR-FXUS63-AFDABR-AAA",
+    "afd_time": "2026-11-27T11:20:00Z",
+    "updated": "2026-11-27T12:33:45.280175+00:00"
   }
 }
