@@ -1,91 +1,91 @@
 {
   "office": "MSO",
-  "product_id": "202611261056-KMSO-FXUS65-AFDMSO",
-  "afd_time": "2026-11-26T10:56:00Z",
+  "product_id": "202611261953-KMSO-FXUS65-AFDMSO",
+  "afd_time": "2026-11-26T19:53:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-26T19:42:29.385396+00:00",
-  "query_preview": "..\n\nKEY MESSAGES:\n\n-  A moderate winter system is on the way for today that is\n   starting to cause increasing concerns for travel.\n\n- Another moderate system is on the way for Friday night and\n  Saturday that will likely cause moderate travel impacts in the\n  region.\n\nThe remnants of an atmospheric",
+  "updated": "2026-11-27T02:56:17.732841+00:00",
+  "query_preview": "..\n\nKEY MESSAGES:\n\n- Showery precipitation tonight with lowering snow levels to \n  bring localized wintry travel, mainly passes.\n\n- A moderate system for Friday night will likely cause moderate \n  travel impacts in the region, mainly I-90 southward.\n\n- Another round of light valley snow potential in",
   "analogs": [
     {
       "datetime_utc": "2019-12-16T03:58Z",
       "source_file": "MSO_2019_16_0358.txt",
-      "similarity": 0.4587046504020691,
+      "similarity": 0.47465789318084717,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2006-01-06T04:26Z",
       "source_file": "MSO_2006_06_0426.txt",
-      "similarity": 0.4489699900150299,
+      "similarity": 0.4650368392467499,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2006-01-05T21:34Z",
       "source_file": "MSO_2006_05_2134.txt",
-      "similarity": 0.4489699900150299,
+      "similarity": 0.4650368392467499,
       "label": "flood",
       "is_severe": false
     },
     {
       "datetime_utc": "2020-01-26T10:39Z",
       "source_file": "MSO_2020_26_1039.txt",
-      "similarity": 0.4386819899082184,
+      "similarity": 0.44529327750205994,
       "label": "severe_wind",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2005-10-24T23:35Z",
+      "source_file": "MSO_2005_24_2335.txt",
+      "similarity": 0.4359968304634094,
+      "label": "severe_hail",
+      "is_severe": true
+    },
+    {
+      "datetime_utc": "2007-07-13T00:26Z",
+      "source_file": "MSO_2007_13_0026.txt",
+      "similarity": 0.43439072370529175,
+      "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2011-09-03T14:42Z",
       "source_file": "MSO_2011_03_1442.txt",
-      "similarity": 0.4329873323440552,
+      "similarity": 0.4342861771583557,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2005-10-24T23:35Z",
-      "source_file": "MSO_2005_24_2335.txt",
-      "similarity": 0.4243600368499756,
-      "label": "severe_hail",
-      "is_severe": true
-    },
-    {
       "datetime_utc": "2009-12-20T16:06Z",
       "source_file": "MSO_2009_20_1606.txt",
-      "similarity": 0.42422768473625183,
-      "label": "winter",
-      "is_severe": false
-    },
-    {
-      "datetime_utc": "2007-07-13T00:26Z",
-      "source_file": "MSO_2007_13_0026.txt",
-      "similarity": 0.42317497730255127,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2006-12-21T01:59Z",
-      "source_file": "MSO_2006_21_0159.txt",
-      "similarity": 0.4194340109825134,
+      "similarity": 0.4322431981563568,
       "label": "winter",
       "is_severe": false
     },
     {
       "datetime_utc": "2004-05-12T08:43Z",
       "source_file": "MSO_2004_12_0843.txt",
-      "similarity": 0.4184987545013428,
+      "similarity": 0.4317144751548767,
       "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2013-11-18T14:51Z",
+      "source_file": "MSO_2013_18_1451.txt",
+      "similarity": 0.427578330039978,
+      "label": "winter",
       "is_severe": false
     }
   ],
   "signal": {
     "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.4,
-    "mean_similarity": 0.4338009417057037,
+    "mean_similarity": 0.4446234583854675,
     "n_severe": 4,
     "n_total": 10,
-    "reason": "top-10 mean similarity 0.43 below confidence floor 0.7",
-    "product_id": "202611261056-KMSO-FXUS65-AFDMSO",
-    "afd_time": "2026-11-26T10:56:00Z",
-    "updated": "2026-11-26T19:42:29.385396+00:00"
+    "reason": "top-10 mean similarity 0.44 below confidence floor 0.7",
+    "product_id": "202611261953-KMSO-FXUS65-AFDMSO",
+    "afd_time": "2026-11-26T19:53:00Z",
+    "updated": "2026-11-27T02:56:17.732841+00:00"
   }
 }
