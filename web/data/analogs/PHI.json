@@ -1,92 +1,91 @@
 {
   "office": "PHI",
-  "product_id": "202611280305-KPHI-FXUS61-AFDPHI",
-  "afd_time": "2026-11-28T03:05:00Z",
+  "product_id": "202611281106-KPHI-FXUS61-AFDPHI",
+  "afd_time": "2026-11-28T11:06:00Z",
   "section_type": "discussion",
-  "updated": "2026-11-28T03:58:59.040295+00:00",
-  "query_preview": "..\nKEY MESSAGE 1...A powerful coastal storm will continue to pull away \nfrom the region through Saturday with improving conditions. \n\nStrong low pressure continues to slowly slide northward away from \nthe region. Weak high pressure will very briefly settle in to the \nregion tonight through Saturday.",
+  "updated": "2026-11-28T13:07:07.107717+00:00",
+  "query_preview": "..\nKEY MESSAGE 1...A powerful coastal storm will continue to pull \naway from the region today with improving conditions. \n\nStrong low pressure continues to slowly slide northward away from \nthe region. Weak high pressure will very briefly settle in to the \nregion through tonight. Clouds will dwindle",
   "analogs": [
     {
       "datetime_utc": "2012-10-25T20:24Z",
       "source_file": "PHI_2012_25_2024.txt",
-      "similarity": 0.8676620125770569,
+      "similarity": 0.8297343254089355,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2018-05-19T02:07Z",
       "source_file": "PHI_2018_19_0207.txt",
-      "similarity": 0.785025417804718,
+      "similarity": 0.769034743309021,
       "label": "severe_wind",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-07-23T07:26Z",
       "source_file": "PHI_2017_23_0726.txt",
-      "similarity": 0.7083107829093933,
-      "label": "tornado",
-      "is_severe": true
-    },
-    {
-      "datetime_utc": "2017-05-25T14:04Z",
-      "source_file": "PHI_2017_25_1404.txt",
-      "similarity": 0.6943362951278687,
+      "similarity": 0.6804040670394897,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-05-25T16:44Z",
       "source_file": "PHI_2017_25_1644.txt",
-      "similarity": 0.6943362951278687,
+      "similarity": 0.6557160019874573,
       "label": "tornado",
       "is_severe": true
     },
     {
       "datetime_utc": "2017-05-25T18:17Z",
       "source_file": "PHI_2017_25_1817.txt",
-      "similarity": 0.6943362951278687,
+      "similarity": 0.6557160019874573,
       "label": "tornado",
       "is_severe": true
     },
     {
-      "datetime_utc": "2006-02-17T20:38Z",
-      "source_file": "PHI_2006_17_2038.txt",
-      "similarity": 0.6665568351745605,
-      "label": "quiet",
-      "is_severe": false
+      "datetime_utc": "2017-05-25T14:04Z",
+      "source_file": "PHI_2017_25_1404.txt",
+      "similarity": 0.6557160019874573,
+      "label": "tornado",
+      "is_severe": true
     },
     {
       "datetime_utc": "2006-02-18T08:44Z",
       "source_file": "PHI_2006_18_0844.txt",
-      "similarity": 0.6665568351745605,
+      "similarity": 0.6460528373718262,
       "label": "quiet",
       "is_severe": false
     },
     {
-      "datetime_utc": "2011-10-31T12:57Z",
-      "source_file": "PHI_2011_31_1257.txt",
-      "similarity": 0.6451298594474792,
+      "datetime_utc": "2006-02-17T20:38Z",
+      "source_file": "PHI_2006_17_2038.txt",
+      "similarity": 0.6460528373718262,
       "label": "quiet",
       "is_severe": false
     },
     {
       "datetime_utc": "2011-10-31T07:22Z",
       "source_file": "PHI_2011_31_0722.txt",
-      "similarity": 0.6451298594474792,
+      "similarity": 0.6444873213768005,
+      "label": "quiet",
+      "is_severe": false
+    },
+    {
+      "datetime_utc": "2011-10-31T12:57Z",
+      "source_file": "PHI_2011_31_1257.txt",
+      "similarity": 0.6444873213768005,
       "label": "quiet",
       "is_severe": false
     }
   ],
   "signal": {
-    "level": "LOW",
+    "level": "INSUFFICIENT_MATCH",
     "severe_fraction": 0.6,
-    "mean_similarity": 0.7067380487918854,
-    "base_rate": 0.5448406070728342,
-    "signal_value": 0.05515939292716576,
+    "mean_similarity": 0.6827401459217072,
     "n_severe": 6,
     "n_total": 10,
-    "product_id": "202611280305-KPHI-FXUS61-AFDPHI",
-    "afd_time": "2026-11-28T03:05:00Z",
-    "updated": "2026-11-28T03:58:59.040295+00:00"
+    "reason": "top-10 mean similarity 0.68 below confidence floor 0.7",
+    "product_id": "202611281106-KPHI-FXUS61-AFDPHI",
+    "afd_time": "2026-11-28T11:06:00Z",
+    "updated": "2026-11-28T13:07:07.107717+00:00"
   }
 }
